@@ -1,13 +1,12 @@
-import { ArrowLeft, ExternalLink } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import { LastUpdated } from '@/components/LastUpdated';
 import { PriceHistoryChart } from '@/components/PriceHistoryChart';
-import { Badge } from '@/components/ui/badge';
+import { StoreComparisonCard } from '@/components/StoreComparisonCard';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Skeleton } from '@/components/ui/skeleton';
 import { useFishHistory } from '@/hooks/useFishHistory';
 import { useIndex } from '@/hooks/useIndex';
-import { formatDateTime, formatPrice } from '@/lib/format';
 
 export function FishDetailPage() {
   const { canonicalFishId: rawId } = useParams<{ canonicalFishId: string }>();
@@ -17,7 +16,12 @@ export function FishDetailPage() {
   const { data: history, loading: historyLoading, error: historyError } =
     useFishHistory(canonicalFishId);
 
-  const listing = index?.listings.find((l) => l.canonicalFishId === canonicalFishId);
+  // A Canonical Fish is species-level (see ADR 0002) — it can have one
+  // Listing per Store that carries it. Filter (not find) so the page shows
+  // every Store side by side, however many there are.
+  const listings = index?.listings.filter((l) => l.canonicalFishId === canonicalFishId) ?? [];
+  // Use whichever Listing has an image for the header; all share one species.
+  const primary = listings.find((l) => l.imageUrl) ?? listings[0];
   const loading = indexLoading || historyLoading;
 
   return (
@@ -46,22 +50,22 @@ export function FishDetailPage() {
         </div>
       )}
 
-      {!loading && !indexError && !listing && (
+      {!loading && !indexError && listings.length === 0 && (
         <p className="mt-6 text-muted-foreground">
           This fish is not in the current index — it may have been removed from the tracked
           catalog.
         </p>
       )}
 
-      {listing && history && (
+      {primary && history && (
         <div className="mt-6 space-y-6">
           <Card>
             <div className="flex flex-col gap-4 p-4 sm:flex-row">
               <div className="aspect-square w-full overflow-hidden rounded-md bg-muted sm:w-48">
-                {listing.imageUrl ? (
+                {primary.imageUrl ? (
                   <img
-                    src={listing.imageUrl}
-                    alt={listing.commonName}
+                    src={primary.imageUrl}
+                    alt={primary.commonName}
                     className="h-full w-full object-cover"
                   />
                 ) : (
@@ -71,38 +75,14 @@ export function FishDetailPage() {
                 )}
               </div>
               <div className="flex-1 space-y-2">
-                <h1 className="text-2xl font-semibold leading-tight">{listing.commonName}</h1>
-                <div className="flex flex-wrap items-center gap-2">
-                  <Badge variant="secondary">{listing.storeName}</Badge>
-                  <Badge variant={listing.available ? 'default' : 'outline'}>
-                    {listing.available ? 'In stock' : 'Out of stock'}
-                  </Badge>
-                </div>
-                <p className="text-xl font-semibold">
-                  {formatPrice(listing.price, listing.currency)}
-                </p>
-                {listing.variants.length > 1 && (
-                  <ul className="text-sm text-muted-foreground">
-                    {listing.variants.map((v) => (
-                      <li key={v.id}>
-                        {v.label}: {formatPrice(v.price, listing.currency)}{' '}
-                        {v.available ? '' : '(out of stock)'}
-                      </li>
-                    ))}
-                  </ul>
+                <h1 className="text-2xl font-semibold leading-tight">{primary.commonName}</h1>
+                {primary.scientificName && (
+                  <p className="text-sm italic text-muted-foreground">
+                    {primary.scientificName}
+                  </p>
                 )}
-                <a
-                  href={listing.productUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
-                >
-                  View on {listing.storeName}
-                  <ExternalLink className="size-3.5" />
-                </a>
-                <p className="text-xs text-muted-foreground">
-                  First observed {formatDateTime(listing.firstObservedAt)} · Last observed{' '}
-                  {formatDateTime(listing.lastObservedAt)}
+                <p className="text-sm text-muted-foreground">
+                  Tracked at {listings.length} store{listings.length === 1 ? '' : 's'}
                 </p>
               </div>
             </div>
@@ -110,12 +90,47 @@ export function FishDetailPage() {
 
           <Card>
             <CardHeader>
-              <h2 className="text-lg font-semibold">Price &amp; availability history</h2>
+              <h2 className="text-lg font-semibold">Price &amp; availability by store</h2>
+              <p className="text-sm text-muted-foreground">
+                Size/grade is shown next to each price — Listings at different sizes are not
+                directly comparable (see ADR 0002).
+              </p>
             </CardHeader>
             <CardContent>
-              <PriceHistoryChart events={history.events} currency={listing.currency} />
+              <div className="grid gap-4 sm:grid-cols-2">
+                {listings.map((l) => (
+                  <StoreComparisonCard key={l.listingId} listing={l} />
+                ))}
+              </div>
             </CardContent>
           </Card>
+
+          <div className="space-y-6">
+            {listings.map((l) => {
+              // The shared history file interleaves events from every Store's
+              // Listing — isolate this Store's own slice before charting it,
+              // so one Store's trend is never drawn as a continuation of
+              // another Store's differently-priced/sized Listing.
+              const events =
+                listings.length === 1
+                  ? history.events
+                  : history.events.filter((e) => e.listingId === l.listingId);
+              return (
+                <Card key={l.listingId}>
+                  <CardHeader>
+                    <h2 className="text-lg font-semibold">
+                      {listings.length > 1
+                        ? `${l.storeName} price history`
+                        : 'Price & availability history'}
+                    </h2>
+                  </CardHeader>
+                  <CardContent>
+                    <PriceHistoryChart events={events} currency={l.currency} />
+                  </CardContent>
+                </Card>
+              );
+            })}
+          </div>
         </div>
       )}
     </div>

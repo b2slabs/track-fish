@@ -26,6 +26,8 @@ export interface Listing {
   storeSlug: string;
   storeName: string;
   canonicalFishId: string;
+  /** Present when matched by scientific name; null for curated/common-name-only matches. */
+  scientificName?: string | null;
   firstObservedAt: string;
   lastObservedAt: string;
 }
@@ -40,13 +42,32 @@ export interface HistoryEvent {
   available: boolean;
   variants: ListingVariant[];
   changedFields?: string[];
+  /**
+   * Which Listing this event belongs to. A Canonical Fish's history file
+   * interleaves events from every Store's Listing in one array (see
+   * docs/adr/0002-canonical-fish-is-species-level.md) — consumers must
+   * filter by `listingId`/`storeSlug` before treating a sequence of events
+   * as one continuous price trend.
+   */
+  listingId: string;
+  storeSlug: string;
+}
+
+/** One Store's Listing contributing to a Canonical Fish's shared history file. */
+export interface CanonicalFishHistoryListing {
+  listingId: string;
+  storeSlug: string;
+  storeName: string;
+  commonName: string;
 }
 
 export interface CanonicalFishHistory {
   canonicalFishId: string;
-  listingId: string;
-  storeSlug: string;
   commonName: string;
+  scientificName?: string | null;
+  /** Every Store's Listing that has contributed events to this file so far. */
+  listings: CanonicalFishHistoryListing[];
+  /** Events from every Listing above, interleaved — filter by `listingId` per Store. */
   events: HistoryEvent[];
 }
 
