@@ -93,7 +93,7 @@ async function main() {
         continue;
       }
       console.log(
-        `Processed ${store.name}: ${result.listingCount} Listings (${result.changeCount} Change Events, ${result.heartbeatCount} Heartbeats)`
+        `Processed ${store.name}: ${result.listingCount} Listings (${result.changeCount} Change Events, ${result.heartbeatCount} Heartbeats, ${result.ambiguousCount} ambiguous matches pending review)`
       );
     }
 

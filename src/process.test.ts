@@ -96,14 +96,18 @@ test('second run with a real price change and a restock: those Listings get Chan
     assert.equal(second.changeCount, 2);
     assert.equal(second.heartbeatCount, 2);
 
-    const tetraHistory = readHistoryFile(dataDir, 'cf:aquatic-arts:15461769412975') as CanonicalFishHistory;
+    // "Peugeot Tetra (Hyphessobrycon peugeoti)" has an extractable
+    // scientific name, so its Canonical Fish id is derived from that
+    // (see issue #3 / src/lib/canonical-fish.ts), not from its own
+    // productIdentifier.
+    const tetraHistory = readHistoryFile(dataDir, 'cf:sci:hyphessobrycon-peugeoti') as CanonicalFishHistory;
     assert.equal(tetraHistory.events[1].type, 'change');
     // The variant price bump moves both the Listing-level price and the
     // variant itself, so both fields are flagged as changed.
     assert.deepEqual(tetraHistory.events[1].changedFields, ['price', 'variants']);
     assert.equal(tetraHistory.events[1].price, 79.99);
 
-    const loachHistory = readHistoryFile(dataDir, 'cf:aquatic-arts:4741462790') as CanonicalFishHistory;
+    const loachHistory = readHistoryFile(dataDir, 'cf:sci:pseudogastromyzon-myersi') as CanonicalFishHistory;
     assert.equal(loachHistory.events[1].type, 'change');
     // The loach has a single variant, so restocking it flips both the
     // Listing-level availability and that one variant's own state.
@@ -111,7 +115,7 @@ test('second run with a real price change and a restock: those Listings get Chan
     assert.equal(loachHistory.events[1].available, true);
 
     // Unaffected listings got Heartbeats, not Change Events.
-    const goodeidHistory = readHistoryFile(dataDir, 'cf:aquatic-arts:15446431990127') as CanonicalFishHistory;
+    const goodeidHistory = readHistoryFile(dataDir, 'cf:sci:ataeniobius-toweri') as CanonicalFishHistory;
     assert.equal(goodeidHistory.events[1].type, 'heartbeat');
   });
 });

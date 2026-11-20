@@ -42,13 +42,23 @@ export interface Listing extends ParsedListing {
   storeSlug: string;
   storeName: string;
   /**
-   * The cross-store fish identity this Listing is grouped under. For a
-   * single configured Store there is no real cross-store matching yet
-   * (see issue #3), so this is a trivial 1:1 mapping onto the Listing —
-   * but it is a distinct id namespace (`cf:...`) so that #3 can later
-   * repoint it without changing listingId or any already-written history.
+   * The cross-store fish identity this Listing is grouped under (see
+   * issue #3 / `src/lib/canonical-fish.ts`): a manual override, a
+   * scientific-name match, a confident fuzzy common-name match, or —
+   * when none of those apply — a trivial `cf:${storeSlug}:${productIdentifier}`
+   * id namespaced to this Listing alone, so a later run can repoint it at
+   * a shared id without changing listingId or losing history already
+   * written under the old id (see `repointListingHistory`).
    */
   canonicalFishId: string;
+  /**
+   * The scientific name extracted from this Listing's title/description
+   * (see `src/lib/scientific-name.ts`), normalized to "Genus species"
+   * form, or null if none could be confidently extracted. Two Listings
+   * with the same scientificName are always matched to the same
+   * Canonical Fish, regardless of Store.
+   */
+  scientificName: string | null;
   /** ISO timestamp of the first Scrape Run this Listing was observed in. */
   firstObservedAt: string;
   /** ISO timestamp of the most recent Scrape Run this Listing was observed in. */
@@ -76,12 +86,59 @@ export interface HistoryEvent {
   changedFields?: string[];
 }
 
+/**
+ * A HistoryEvent as stored in a Canonical Fish's history file, tagged
+ * with which Listing (and Store) produced it. This tagging only matters
+ * once a history file can carry events from more than one Listing (see
+ * issue #3) — without it, interleaved events from two merged Listings
+ * would be indistinguishable.
+ */
+export interface CanonicalFishHistoryEvent extends HistoryEvent {
+  listingId: string;
+  storeSlug: string;
+}
+
+/** One Listing contributing to a Canonical Fish's history, for display. */
+export interface CanonicalFishHistoryListing {
+  listingId: string;
+  storeSlug: string;
+  storeName: string;
+  commonName: string;
+}
+
 export interface CanonicalFishHistory {
   canonicalFishId: string;
+  /** Representative common name for display — the common name of
+   * whichever Listing most recently contributed an event. */
+  commonName: string;
+  /** The scientific name this Canonical Fish was matched on, if any.
+   * Null when the match (if any) was fuzzy, manual, or there is none yet. */
+  scientificName: string | null;
+  /** Every Listing (across every Store) that has ever contributed an
+   * event to this Canonical Fish's history. */
+  listings: CanonicalFishHistoryListing[];
+  events: CanonicalFishHistoryEvent[];
+}
+
+/**
+ * A Listing whose best automatic Canonical Fish match (see
+ * `src/lib/canonical-fish.ts`) was ambiguous — confident enough to
+ * record, not confident enough to auto-merge. Persisted to
+ * `pending-matches.json` in the `data` branch for a maintainer to
+ * resolve via `src/config/canonical-fish-overrides.ts`. Entries are
+ * recomputed fresh each time their Listing's Store is processed, so a
+ * resolved or no-longer-ambiguous entry disappears on its own.
+ */
+export interface PendingMatch {
   listingId: string;
   storeSlug: string;
   commonName: string;
-  events: HistoryEvent[];
+  candidateCanonicalFishId: string;
+  candidateCommonName: string;
+  /** Fuzzy common-name similarity score, in [0, 1]. */
+  score: number;
+  firstDetectedAt: string;
+  lastDetectedAt: string;
 }
 
 export interface StoreIndexMeta {

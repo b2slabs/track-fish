@@ -1,7 +1,8 @@
 import { execSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
-import type { CanonicalFishHistory, IndexFile } from '../types/listing.js';
+import type { CanonicalFishHistory, IndexFile, PendingMatch } from '../types/listing.js';
+import { isLegacyHistory, migrateLegacyHistory } from './canonical-fish.js';
 
 const WORKTREE_DIRNAME = '.data-branch-worktree';
 const DATA_BRANCH = 'data';
@@ -110,11 +111,48 @@ export function readHistoryFile(dataDir: string, canonicalFishId: string): Canon
   if (!fs.existsSync(filePath)) {
     return undefined;
   }
-  return JSON.parse(fs.readFileSync(filePath, 'utf-8')) as CanonicalFishHistory;
+  const raw = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+  // Upgrade history files written before issue #3 (one Listing per
+  // Canonical Fish) to the current shape on read. Nothing on disk
+  // changes until the caller writes it back.
+  return isLegacyHistory(raw) ? migrateLegacyHistory(raw) : (raw as CanonicalFishHistory);
 }
 
 export function writeHistoryFile(dataDir: string, history: CanonicalFishHistory): void {
   const filePath = historyFilePath(dataDir, history.canonicalFishId);
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, JSON.stringify(history, null, 2) + '\n');
+}
+
+/**
+ * Deletes a Canonical Fish's history file. Called only when every
+ * Listing that used to contribute to it has been repointed elsewhere
+ * (see `removeListingFromHistory` in `canonical-fish.ts`) — at that
+ * point the file is fully superseded, not merely stale, so removing it
+ * is what keeps a repoint from leaving a duplicate copy of the same
+ * history behind under the old id.
+ */
+export function deleteHistoryFile(dataDir: string, canonicalFishId: string): void {
+  const filePath = historyFilePath(dataDir, canonicalFishId);
+  if (fs.existsSync(filePath)) {
+    fs.rmSync(filePath);
+  }
+}
+
+function pendingMatchesFilePath(dataDir: string): string {
+  return path.join(dataDir, 'pending-matches.json');
+}
+
+export function readPendingMatches(dataDir: string): PendingMatch[] {
+  const filePath = pendingMatchesFilePath(dataDir);
+  if (!fs.existsSync(filePath)) {
+    return [];
+  }
+  return JSON.parse(fs.readFileSync(filePath, 'utf-8')) as PendingMatch[];
+}
+
+export function writePendingMatches(dataDir: string, pendingMatches: PendingMatch[]): void {
+  const filePath = pendingMatchesFilePath(dataDir);
+  const sorted = [...pendingMatches].sort((a, b) => a.listingId.localeCompare(b.listingId));
+  fs.writeFileSync(filePath, JSON.stringify(sorted, null, 2) + '\n');
 }
