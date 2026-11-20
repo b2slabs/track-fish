@@ -60,6 +60,33 @@
         }
       ],
       "type": "heartbeat"
+    },
+    {
+      "observedAt": "2026-11-20T05:52:13.926Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15492961286",
+          "label": "1 Plant",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "30432370316",
+          "label": "2 Plants",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "30432370380",
+          "label": "3 Plants",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat"
     }
   ]
 }

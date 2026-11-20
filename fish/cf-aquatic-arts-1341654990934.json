@@ -96,6 +96,51 @@
         }
       ],
       "type": "heartbeat"
+    },
+    {
+      "observedAt": "2026-11-20T05:52:13.926Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12368158261334",
+          "label": "School of 3",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "12368158294102",
+          "label": "School of 6",
+          "price": 52.99,
+          "available": true
+        },
+        {
+          "id": "12368158326870",
+          "label": "School of 9",
+          "price": 73.99,
+          "available": true
+        },
+        {
+          "id": "12368158359638",
+          "label": "School of 12",
+          "price": 89.99,
+          "available": true
+        },
+        {
+          "id": "53131042685295",
+          "label": "School of 3 (Locally Bred)",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "53131042718063",
+          "label": "School of 6 (Locally Bred)",
+          "price": 78.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat"
     }
   ]
 }

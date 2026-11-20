@@ -72,6 +72,39 @@
         }
       ],
       "type": "heartbeat"
+    },
+    {
+      "observedAt": "2026-11-20T05:52:13.926Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43310828748",
+          "label": "School of 3",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "id": "43310828812",
+          "label": "School of 6",
+          "price": 110.99,
+          "available": true
+        },
+        {
+          "id": "43310828876",
+          "label": "School of 9",
+          "price": 161.99,
+          "available": true
+        },
+        {
+          "id": "43310828940",
+          "label": "School of 12",
+          "price": 209.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat"
     }
   ]
 }
