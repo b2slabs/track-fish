@@ -6,6 +6,8 @@ import { execSync } from 'child_process';
 import { computeChecksum } from './lib/checksum.js';
 import type { StoreAdapter } from './types/store-adapter.js';
 import { ShopifyStoreAdapter } from './adapters/shopify.js';
+import { withDataBranchWorktree, commitAndPushDataBranch } from './lib/data-branch.js';
+import { processStoreRun } from './process.js';
 
 import { fileURLToPath } from 'url';
 
@@ -26,6 +28,7 @@ async function main() {
   }
 
   const manifestData: { filename: string; sha256: string }[] = [];
+  const scrapedByStore: { store: typeof stores[number]; data: unknown }[] = [];
 
   for (const store of stores) {
     console.log(`Scraping ${store.name}...`);
@@ -34,6 +37,7 @@ async function main() {
       throw new Error(`No adapter found for platform: ${store.platform}`);
     }
     const { data, listingCount } = await adapter.scrape(store);
+    scrapedByStore.push({ store, data });
 
     const jsonData = JSON.stringify(data, null, 2);
     const jsonBuffer = Buffer.from(jsonData, 'utf-8');
@@ -80,6 +84,22 @@ async function main() {
   }
 
   console.log(`Release created/uploaded to ${releaseTag}`);
+
+  await withDataBranchWorktree(async (dataDir) => {
+    for (const { store, data } of scrapedByStore) {
+      const result = processStoreRun({ store, rawData: data, dataDir });
+      if (!result.accepted) {
+        console.error(`Rejected ${store.name}: ${result.rejectionReason}`);
+        continue;
+      }
+      console.log(
+        `Processed ${store.name}: ${result.listingCount} Listings (${result.changeCount} Change Events, ${result.heartbeatCount} Heartbeats)`
+      );
+    }
+
+    const committed = commitAndPushDataBranch(dataDir, `Process Scrape Run ${today}`);
+    console.log(committed ? 'Pushed updated processed data to data branch.' : 'No processed-data changes to commit.');
+  });
 }
 
 main().catch(console.error);
