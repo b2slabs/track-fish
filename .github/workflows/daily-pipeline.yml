@@ -1,0 +1,97 @@
+name: Daily pipeline
+
+# See docs/PRD.md "Architecture > Automation" and issue #5.
+#
+# Three jobs:
+#   1. stores     - reads src/config/stores.ts (the single source of truth
+#                    for configured Stores) and emits the matrix for job 2.
+#   2. scrape      - one matrix job per Store, in parallel. Each job only
+#                    scrapes its Store and uploads the raw gzip archive as
+#                    a build artifact -- it never touches the `data` branch
+#                    or creates a Release, so parallel matrix legs can't
+#                    race each other over either of those.
+#   3. aggregate   - a single job that downloads every Store's artifact,
+#                    then does the day's two exactly-once side effects: one
+#                    GitHub Release of the raw archives, and one commit+push
+#                    to the `data` branch of the normalized result. Runs
+#                    even if some Stores failed to scrape (publishing the
+#                    rest), but still fails the overall workflow run in that
+#                    case so GitHub's default failure-email notification
+#                    fires.
+on:
+  schedule:
+    # Cadence lives here and only here -- edit this line to reschedule.
+    # Currently: once daily at 09:00 UTC.
+    - cron: '0 9 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  stores:
+    name: List configured Stores
+    runs-on: ubuntu-latest
+    outputs:
+      slugs: ${{ steps.list.outputs.slugs }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - id: list
+        run: echo "slugs=$(npm run -s list-store-slugs)" >> "$GITHUB_OUTPUT"
+
+  scrape:
+    name: Scrape (${{ matrix.slug }})
+    needs: stores
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        slug: ${{ fromJson(needs.stores.outputs.slugs) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npm run -s scrape-store -- ${{ matrix.slug }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: raw-${{ matrix.slug }}
+          path: out/${{ matrix.slug }}.json.gz
+          retention-days: 7
+
+  aggregate:
+    name: Aggregate, Release, and commit to data
+    needs: scrape
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: raw-*
+          path: out
+          merge-multiple: true
+      - name: Configure git identity for the data-branch commit
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - run: npm run -s aggregate
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Fail the run if any Store failed to scrape
+        if: needs.scrape.result == 'failure'
+        run: |
+          echo "One or more Stores failed to scrape this run (see the scrape job above)." >&2
+          echo "Successfully-scraped Stores were still published above." >&2
+          exit 1

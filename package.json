@@ -5,6 +5,9 @@
   "scripts": {
     "build": "tsc",
     "start": "tsx src/run.ts",
+    "scrape-store": "tsx src/cli/scrape-store.ts",
+    "aggregate": "tsx src/cli/aggregate.ts",
+    "list-store-slugs": "tsx src/cli/list-store-slugs.ts",
     "typecheck": "tsc --noEmit",
     "test": "node --import tsx --test \"src/**/*.test.ts\""
   },
