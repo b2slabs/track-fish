@@ -21,6 +21,14 @@
     --color-chart-3: var(--chart-3);
     --color-chart-2: var(--chart-2);
     --color-chart-1: var(--chart-1);
+    --color-series-8: var(--series-8);
+    --color-series-7: var(--series-7);
+    --color-series-6: var(--series-6);
+    --color-series-5: var(--series-5);
+    --color-series-4: var(--series-4);
+    --color-series-3: var(--series-3);
+    --color-series-2: var(--series-2);
+    --color-series-1: var(--series-1);
     --color-ring: var(--ring);
     --color-input: var(--input);
     --color-border: var(--border);
@@ -72,6 +80,23 @@
     --chart-3: oklch(0.439 0 0);
     --chart-4: oklch(0.371 0 0);
     --chart-5: oklch(0.269 0 0);
+    /*
+     * Categorical series palette for per-variant price history lines
+     * (issue #17). Values and ordering come straight from this project's
+     * `dataviz` skill's validated default 8-hue categorical palette —
+     * fixed hue order, never cycled, re-run through
+     * scripts/validate_palette.js for both light and dark chart surfaces
+     * before adoption (light: all PASS, worst adjacent CVD ΔE 9.1,
+     * worst normal-vision ΔE 19.6; dark: all PASS including contrast).
+     */
+    --series-1: #2a78d6; /* blue */
+    --series-2: #eb6834; /* orange */
+    --series-3: #1baf7a; /* aqua */
+    --series-4: #eda100; /* yellow */
+    --series-5: #e87ba4; /* magenta */
+    --series-6: #008300; /* green */
+    --series-7: #4a3aa7; /* violet */
+    --series-8: #e34948; /* red */
     --radius: 0.625rem;
     --sidebar: oklch(0.985 0 0);
     --sidebar-foreground: oklch(0.145 0 0);
@@ -107,6 +132,15 @@
     --chart-3: oklch(0.439 0 0);
     --chart-4: oklch(0.371 0 0);
     --chart-5: oklch(0.269 0 0);
+    /* Dark-surface steps of the same 8 categorical hues — see :root above. */
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --series-3: #199e70;
+    --series-4: #c98500;
+    --series-5: #d55181;
+    --series-6: #008300;
+    --series-7: #9085e9;
+    --series-8: #e66767;
     --sidebar: oklch(0.205 0 0);
     --sidebar-foreground: oklch(0.985 0 0);
     --sidebar-primary: oklch(0.488 0.243 264.376);
