@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:15063492067695",
-  "listingId": "aquatic-arts:15063492067695",
-  "storeSlug": "aquatic-arts",
   "commonName": "Freshwater Live Food Variety Pack – Fry and Micro Foods",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:15063492067695",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Freshwater Live Food Variety Pack – Fry and Micro Foods"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -44,7 +51,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:15063492067695",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -83,7 +92,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:15063492067695",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -122,7 +133,50 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:15063492067695",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53394643517807",
+          "label": "Microworms – 2 oz",
+          "price": 28.99,
+          "available": false
+        },
+        {
+          "id": "53394643550575",
+          "label": "Banana Worms – 2 oz",
+          "price": 28.99,
+          "available": false
+        },
+        {
+          "id": "53394643583343",
+          "label": "Walter Worms – 2 oz",
+          "price": 28.99,
+          "available": false
+        },
+        {
+          "id": "53394643616111",
+          "label": "Whiteworms – 2 oz",
+          "price": 28.99,
+          "available": false
+        },
+        {
+          "id": "53394643648879",
+          "label": "Vinegar Eels – 10 mL Culture",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:15063492067695",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

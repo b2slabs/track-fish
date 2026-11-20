@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:9059682156823",
-  "listingId": "aquatic-arts:9059682156823",
-  "storeSlug": "aquatic-arts",
   "commonName": "Porthole and  Floating Plant Combo, Aquatic Arts Grown!",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:9059682156823",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Porthole and  Floating Plant Combo, Aquatic Arts Grown!"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -44,7 +51,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:9059682156823",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -83,7 +92,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:9059682156823",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -122,7 +133,50 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:9059682156823",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48018954256663",
+          "label": "Porthole only",
+          "price": 2.99,
+          "available": false
+        },
+        {
+          "id": "48018954289431",
+          "label": "Floating Plant Combo w/ Porthole",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "48018954322199",
+          "label": "Duckweed Portion w/ Porthole",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "48018954354967",
+          "label": "Water Spangle Portion w/ Porthole",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "48018954387735",
+          "label": "Mosquito Fern Portion w/ Porthole",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:9059682156823",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

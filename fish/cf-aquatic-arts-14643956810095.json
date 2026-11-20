@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:14643956810095",
-  "listingId": "aquatic-arts:14643956810095",
-  "storeSlug": "aquatic-arts",
   "commonName": "Neon Pothos (Epipremnum aureum 'Neon), Bare Root",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:14643956810095",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Neon Pothos (Epipremnum aureum 'Neon), Bare Root"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -20,7 +27,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:14643956810095",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -35,7 +44,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14643956810095",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -50,7 +61,26 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14643956810095",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51703957193071",
+          "label": "1 Node/Leaf",
+          "price": 3.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14643956810095",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

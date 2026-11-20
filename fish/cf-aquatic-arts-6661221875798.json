@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:6661221875798",
-  "listingId": "aquatic-arts:6661221875798",
-  "storeSlug": "aquatic-arts",
   "commonName": "German Gold Ram Dwarf Cichlid (Mikrogeophagus ramirezi var. \"Gold\"), Locally Bred",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:6661221875798",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "German Gold Ram Dwarf Cichlid (Mikrogeophagus ramirezi var. \"Gold\"), Locally Bred"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -38,7 +45,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:6661221875798",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -71,7 +80,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6661221875798",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -104,7 +115,44 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6661221875798",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 32.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39604707622998",
+          "label": "Group of 3",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "39604707655766",
+          "label": "Group of 6",
+          "price": 62.99,
+          "available": false
+        },
+        {
+          "id": "39604707688534",
+          "label": "Group of 9",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "39604707721302",
+          "label": "Group of 12",
+          "price": 109.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6661221875798",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

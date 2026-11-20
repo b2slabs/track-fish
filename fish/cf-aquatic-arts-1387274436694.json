@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:1387274436694",
-  "listingId": "aquatic-arts:1387274436694",
-  "storeSlug": "aquatic-arts",
   "commonName": "Omega One Veggie Rounds Food (Various Sizes)",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:1387274436694",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Omega One Veggie Rounds Food (Various Sizes)"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -32,7 +39,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:1387274436694",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -59,7 +68,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1387274436694",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -86,7 +97,38 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1387274436694",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 10.19,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12773023875158",
+          "label": "2 oz.",
+          "price": 10.19,
+          "available": false
+        },
+        {
+          "id": "12773023907926",
+          "label": "4 oz.",
+          "price": 13.79,
+          "available": false
+        },
+        {
+          "id": "12773023940694",
+          "label": "8 oz.",
+          "price": 21.49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1387274436694",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

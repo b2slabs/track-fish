@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:14684358508911",
-  "listingId": "aquatic-arts:14684358508911",
-  "storeSlug": "aquatic-arts",
   "commonName": "Albino Pygmy Corydoras (Corydoras pygmaeus 'Albino') – Tank Bred",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:14684358508911",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Albino Pygmy Corydoras (Corydoras pygmaeus 'Albino') – Tank Bred"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -38,7 +45,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:14684358508911",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -71,7 +80,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14684358508911",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -104,7 +115,44 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14684358508911",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51808545374575",
+          "label": "3 Fish",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "51808545407343",
+          "label": "6 Fish",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "51808545440111",
+          "label": "9 fish",
+          "price": 48.99,
+          "available": false
+        },
+        {
+          "id": "51808545472879",
+          "label": "12 Fish",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14684358508911",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:1326877343830",
-  "listingId": "aquatic-arts:1326877343830",
-  "storeSlug": "aquatic-arts",
   "commonName": "Monte Carlo (Micranthemum “Monte Carlo”), pot",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:1326877343830",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Monte Carlo (Micranthemum “Monte Carlo”), pot"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -32,7 +39,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:1326877343830",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -59,7 +68,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1326877343830",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -86,7 +97,38 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1326877343830",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12321223704662",
+          "label": "1 Pot",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "12321223737430",
+          "label": "2 Pots",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "12321223770198",
+          "label": "3 Pots",
+          "price": 27.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1326877343830",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

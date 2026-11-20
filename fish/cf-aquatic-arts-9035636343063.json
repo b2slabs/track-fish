@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:9035636343063",
-  "listingId": "aquatic-arts:9035636343063",
-  "storeSlug": "aquatic-arts",
   "commonName": "AquaZen CO2 Disposable Cartridge(95G) 3 pack",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:9035636343063",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "AquaZen CO2 Disposable Cartridge(95G) 3 pack"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -20,7 +27,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:9035636343063",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -35,7 +44,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:9035636343063",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -50,7 +61,26 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:9035636343063",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 57.75,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47933481419031",
+          "label": "Title",
+          "price": 57.75,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:9035636343063",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

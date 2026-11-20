@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:10927415820",
-  "listingId": "aquatic-arts:10927415820",
-  "storeSlug": "aquatic-arts",
   "commonName": "Air Plant Variety Pack - Bulk Assorted Species of Live Tillandsia with Fertilizer Bottle",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:10927415820",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Air Plant Variety Pack - Bulk Assorted Species of Live Tillandsia with Fertilizer Bottle"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -32,7 +39,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:10927415820",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -59,7 +68,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:10927415820",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -86,7 +97,38 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:10927415820",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 11,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40827839756",
+          "label": "6 Pack",
+          "price": 11,
+          "available": false
+        },
+        {
+          "id": "40827839820",
+          "label": "12 Pack",
+          "price": 22,
+          "available": false
+        },
+        {
+          "id": "41092159948",
+          "label": "24 Pack",
+          "price": 36,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:10927415820",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:9026467102999",
-  "listingId": "aquatic-arts:9026467102999",
-  "storeSlug": "aquatic-arts",
   "commonName": "AquaZen Aquascaping Tools",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:9026467102999",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "AquaZen Aquascaping Tools"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -56,7 +63,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:9026467102999",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -107,7 +116,9 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:9026467102999",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -158,7 +169,62 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:9026467102999",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48614182355223",
+          "label": "Aquatic Straight Scissors 10\"",
+          "price": 25,
+          "available": true
+        },
+        {
+          "id": "48614182387991",
+          "label": "Aquatic Curved Scissors  10\"",
+          "price": 25,
+          "available": true
+        },
+        {
+          "id": "48614182420759",
+          "label": "Aquatic Wave Scissors 10\"",
+          "price": 25,
+          "available": true
+        },
+        {
+          "id": "48614182453527",
+          "label": "Aquatic Straight Tweezer  10\"",
+          "price": 25,
+          "available": true
+        },
+        {
+          "id": "48614182486295",
+          "label": "Aquatic Curved Tweezers 10\"",
+          "price": 25,
+          "available": true
+        },
+        {
+          "id": "48614182519063",
+          "label": "PRO SCAPER SET",
+          "price": 25,
+          "available": true
+        },
+        {
+          "id": "48614182551831",
+          "label": "Hang On Tool Organizer",
+          "price": 25,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:9026467102999",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

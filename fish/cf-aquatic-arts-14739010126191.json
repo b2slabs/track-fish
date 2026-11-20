@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:14739010126191",
-  "listingId": "aquatic-arts:14739010126191",
-  "storeSlug": "aquatic-arts",
   "commonName": "Stigmatochromis melanchros Cichlid – Locally Bred",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:14739010126191",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Stigmatochromis melanchros Cichlid – Locally Bred"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -32,7 +39,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:14739010126191",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -59,7 +68,9 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14739010126191",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -86,7 +97,38 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14739010126191",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52049273192815",
+          "label": "1 Unsexed Juv.",
+          "price": 4.99,
+          "available": true
+        },
+        {
+          "id": "52049273225583",
+          "label": "2 unsexed Juv.",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "52049273258351",
+          "label": "3 unsexed Juv.",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14739010126191",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

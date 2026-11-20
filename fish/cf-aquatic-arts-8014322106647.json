@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:8014322106647",
-  "listingId": "aquatic-arts:8014322106647",
-  "storeSlug": "aquatic-arts",
   "commonName": "Cryptocoryne wendtii Multi-Color Combo Pack",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:8014322106647",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Cryptocoryne wendtii Multi-Color Combo Pack"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -20,7 +27,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:8014322106647",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -35,7 +44,9 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:8014322106647",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -50,7 +61,26 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:8014322106647",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44087414358295",
+          "label": "Title",
+          "price": 16.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:8014322106647",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

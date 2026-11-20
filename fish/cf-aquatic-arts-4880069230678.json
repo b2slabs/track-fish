@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:4880069230678",
-  "listingId": "aquatic-arts:4880069230678",
-  "storeSlug": "aquatic-arts",
   "commonName": "Yellow Eye Vampire Crab (Geosesarma sp. \"Yellow Eye\")",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:4880069230678",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Yellow Eye Vampire Crab (Geosesarma sp. \"Yellow Eye\")"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -44,7 +51,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:4880069230678",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -83,7 +92,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4880069230678",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -122,7 +133,50 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4880069230678",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33225401270358",
+          "label": "1 Male Crab",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "48753019617559",
+          "label": "3 Male Crabs",
+          "price": 38.99,
+          "available": false
+        },
+        {
+          "id": "33225401303126",
+          "label": "1 Female Crab",
+          "price": 23.99,
+          "available": false
+        },
+        {
+          "id": "51742126932335",
+          "label": "1 Male / Female Pair",
+          "price": 39.98,
+          "available": false
+        },
+        {
+          "id": "33225401434198",
+          "label": "1 B-Grade Crab",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4880069230678",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

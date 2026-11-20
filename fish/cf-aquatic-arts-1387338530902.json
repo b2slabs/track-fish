@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:1387338530902",
-  "listingId": "aquatic-arts:1387338530902",
-  "storeSlug": "aquatic-arts",
   "commonName": "Omega One Brown Seaweed, 24 Sheets (23 g)",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:1387338530902",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Omega One Brown Seaweed, 24 Sheets (23 g)"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -20,7 +27,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:1387338530902",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -35,7 +44,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1387338530902",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -50,7 +61,26 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1387338530902",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12773167890518",
+          "label": "24 Sheets (23 g)",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1387338530902",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

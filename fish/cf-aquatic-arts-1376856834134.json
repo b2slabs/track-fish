@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:1376856834134",
-  "listingId": "aquatic-arts:1376856834134",
-  "storeSlug": "aquatic-arts",
   "commonName": "Gold Stripe AKA Gold Laser Cory Catfish (Corydoras sp. CW010), Tank-Bred!",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:1376856834134",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Gold Stripe AKA Gold Laser Cory Catfish (Corydoras sp. CW010), Tank-Bred!"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -26,7 +33,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:1376856834134",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -47,7 +56,9 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1376856834134",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -68,7 +79,32 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1376856834134",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 83.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12730759610454",
+          "label": "School of 3",
+          "price": 83.99,
+          "available": true
+        },
+        {
+          "id": "12730759643222",
+          "label": "School of 6",
+          "price": 152.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1376856834134",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

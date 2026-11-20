@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:11814176588",
-  "listingId": "aquatic-arts:11814176588",
-  "storeSlug": "aquatic-arts",
   "commonName": "NATURAL Rainbow Moon Lace Rock AKA Holey Lace Rock - Aquarium / Terrarium / Bonsai Stone",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:11814176588",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "NATURAL Rainbow Moon Lace Rock AKA Holey Lace Rock - Aquarium / Terrarium / Bonsai Stone"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -80,7 +87,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:11814176588",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -155,7 +164,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11814176588",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -230,7 +241,86 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11814176588",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 14.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47858748236",
+          "label": "1 lb, Nano Rubble Rock Assortment",
+          "price": 14.95,
+          "available": false
+        },
+        {
+          "id": "47858748300",
+          "label": "2 lb, Nano Assortment",
+          "price": 20.95,
+          "available": false
+        },
+        {
+          "id": "47858748364",
+          "label": "5 lb Assortment, Multiple Rocks",
+          "price": 34.95,
+          "available": false
+        },
+        {
+          "id": "47858748428",
+          "label": "10 lb Assortment, Multiple Rocks",
+          "price": 56.95,
+          "available": false
+        },
+        {
+          "id": "47858748492",
+          "label": "15 lb Assortment, Multiple Rocks",
+          "price": 76.95,
+          "available": false
+        },
+        {
+          "id": "47858748556",
+          "label": "20 lb Assortment, Multiple Rocks",
+          "price": 94.95,
+          "available": false
+        },
+        {
+          "id": "47858748620",
+          "label": "25 lb Assortment, Multiple Rocks",
+          "price": 119.95,
+          "available": false
+        },
+        {
+          "id": "47858748684",
+          "label": "30 lb Assortment, Multiple Rocks",
+          "price": 131.95,
+          "available": false
+        },
+        {
+          "id": "47858748748",
+          "label": "50 lb Assortment, Multiple Rocks",
+          "price": 199.95,
+          "available": false
+        },
+        {
+          "id": "47858748812",
+          "label": "Single DELUXE Large Rock",
+          "price": 25.95,
+          "available": false
+        },
+        {
+          "id": "47858748876",
+          "label": "Single DELUXE XL SHOW Rock",
+          "price": 47.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11814176588",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

@@ -1,0 +1,61 @@
+{
+  "canonicalFishId": "cf:sci:gyrinocheilus-aymonieri",
+  "commonName": "Giant Black Chinese Algae eater (Gyrinocheilus aymonieri)",
+  "scientificName": "Gyrinocheilus aymonieri",
+  "listings": [
+    {
+      "listingId": "monster-aquarium:7279692611793",
+      "storeSlug": "monster-aquarium",
+      "storeName": "Monster Aquarium",
+      "commonName": "Giant Gold Chinese Algae eater (Gyrinocheilus aymonieri)"
+    },
+    {
+      "listingId": "monster-aquarium:7279692349649",
+      "storeSlug": "monster-aquarium",
+      "storeName": "Monster Aquarium",
+      "commonName": "Giant Black Chinese Algae eater (Gyrinocheilus aymonieri)"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 75,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41630627922129",
+          "label": "7-8”",
+          "price": 75,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7279692611793",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41630625628369",
+          "label": "4-8\"",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7279692349649",
+      "storeSlug": "monster-aquarium"
+    }
+  ]
+}

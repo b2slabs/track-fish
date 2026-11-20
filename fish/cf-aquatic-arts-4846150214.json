@@ -1,8 +1,21 @@
 {
   "canonicalFishId": "cf:aquatic-arts:4846150214",
-  "listingId": "aquatic-arts:4846150214",
-  "storeSlug": "aquatic-arts",
-  "commonName": "Red Ramshorn Snails (1/8\" to 1\")",
+  "commonName": "Red Ramshorn snail (Planorbis Rubrum)",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:4846150214",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Red Ramshorn Snails (1/8\" to 1\")"
+    },
+    {
+      "listingId": "monster-aquarium:7265171144913",
+      "storeSlug": "monster-aquarium",
+      "storeName": "Monster Aquarium",
+      "commonName": "Red Ramshorn snail (Planorbis Rubrum)"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -50,7 +63,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:4846150214",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -95,7 +110,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4846150214",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -140,7 +157,76 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4846150214",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "30326554591318",
+          "label": "1 Snail",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "30326555607126",
+          "label": "3 Snails",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "15880889158",
+          "label": "5 Snails",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "16627795718",
+          "label": "10 Snails",
+          "price": 28.99,
+          "available": false
+        },
+        {
+          "id": "30326556754006",
+          "label": "20 Snails",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "30326557212758",
+          "label": "30 Snails",
+          "price": 62.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4846150214",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 3,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41598442897617",
+          "label": ".5\"",
+          "price": 3,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7265171144913",
+      "storeSlug": "monster-aquarium"
     }
   ]
 }

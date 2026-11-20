@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:6817120780374",
-  "listingId": "aquatic-arts:6817120780374",
-  "storeSlug": "aquatic-arts",
   "commonName": "JBJ Aquarium - 15 GALLON STAND -  BLACK",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:6817120780374",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "JBJ Aquarium - 15 GALLON STAND -  BLACK"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -20,7 +27,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:6817120780374",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -35,7 +44,9 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6817120780374",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -50,7 +61,26 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6817120780374",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 364.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40084114669654",
+          "label": "Title",
+          "price": 364.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6817120780374",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:11836459788",
-  "listingId": "aquatic-arts:11836459788",
-  "storeSlug": "aquatic-arts",
   "commonName": "Youkihi Medaka Orange Ricefish aka Japanese Ricefish/Killifish (Oryzias latipes var. \"Youkihi\"), Tank-Bred",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:11836459788",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Youkihi Medaka Orange Ricefish aka Japanese Ricefish/Killifish (Oryzias latipes var. \"Youkihi\"), Tank-Bred"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -38,7 +45,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:11836459788",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -71,7 +80,9 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11836459788",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -104,7 +115,44 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11836459788",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47995397900",
+          "label": "School of 3",
+          "price": 18.99,
+          "available": true
+        },
+        {
+          "id": "47995397964",
+          "label": "School of 6",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "47995398028",
+          "label": "School of 9",
+          "price": 49.99,
+          "available": true
+        },
+        {
+          "id": "47995398092",
+          "label": "School of 12",
+          "price": 63.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11836459788",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:14698391109999",
-  "listingId": "aquatic-arts:14698391109999",
-  "storeSlug": "aquatic-arts",
   "commonName": "JBJ Aquarium - Maxum Air - Aquarium Pump",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:14698391109999",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "JBJ Aquarium - Maxum Air - Aquarium Pump"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -26,7 +33,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:14698391109999",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -47,7 +56,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14698391109999",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -68,7 +79,32 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14698391109999",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51877426987375",
+          "label": "MX - 1000",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "51877427020143",
+          "label": "MX - 1500",
+          "price": 32.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14698391109999",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

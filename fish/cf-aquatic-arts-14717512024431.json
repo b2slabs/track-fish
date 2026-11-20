@@ -1,8 +1,21 @@
 {
   "canonicalFishId": "cf:aquatic-arts:14717512024431",
-  "listingId": "aquatic-arts:14717512024431",
-  "storeSlug": "aquatic-arts",
-  "commonName": "Ultra Fresh Newborn Fish Micron Shrimp Patties",
+  "commonName": "Ultra Fresh NEWBORN FISH micron shrimp patties",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:14717512024431",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Ultra Fresh Newborn Fish Micron Shrimp Patties"
+    },
+    {
+      "listingId": "monster-aquarium:7612900999377",
+      "storeSlug": "monster-aquarium",
+      "storeName": "Monster Aquarium",
+      "commonName": "Ultra Fresh NEWBORN FISH micron shrimp patties"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -20,7 +33,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:14717512024431",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -35,7 +50,9 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14717512024431",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -50,7 +67,46 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14717512024431",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52000673562991",
+          "label": "60 ML",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14717512024431",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 9.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42626712731857",
+          "label": "60ml /20g",
+          "price": 9.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7612900999377",
+      "storeSlug": "monster-aquarium"
     }
   ]
 }

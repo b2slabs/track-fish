@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:4706521606",
-  "listingId": "aquatic-arts:4706521606",
-  "storeSlug": "aquatic-arts",
   "commonName": "Seachem Flourish Trace",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:4706521606",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Seachem Flourish Trace"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -32,7 +39,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:4706521606",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -59,7 +68,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4706521606",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -86,7 +97,38 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4706521606",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 11.3,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39344285876310",
+          "label": "250 mL",
+          "price": 11.49,
+          "available": false
+        },
+        {
+          "id": "44181858943255",
+          "label": "Choose a size:",
+          "price": 11.3,
+          "available": false
+        },
+        {
+          "id": "39344285909078",
+          "label": "500 mL",
+          "price": 15.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4706521606",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

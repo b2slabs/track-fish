@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:1387104305238",
-  "listingId": "aquatic-arts:1387104305238",
-  "storeSlug": "aquatic-arts",
   "commonName": "Omega One Cichlid Flakes Food (Various Sizes)",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:1387104305238",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Omega One Cichlid Flakes Food (Various Sizes)"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -32,7 +39,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:1387104305238",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -59,7 +68,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1387104305238",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -86,7 +97,38 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1387104305238",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 8.69,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12772527308886",
+          "label": "1 oz",
+          "price": 8.69,
+          "available": false
+        },
+        {
+          "id": "12772527341654",
+          "label": "2.2 oz",
+          "price": 12.79,
+          "available": false
+        },
+        {
+          "id": "12772527374422",
+          "label": "5.3 oz",
+          "price": 20.49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1387104305238",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:20307771404",
-  "listingId": "aquatic-arts:20307771404",
-  "storeSlug": "aquatic-arts",
   "commonName": "Japanese Dwarf Pennywort (Hydrocotyle tripartita var. “Japan”) Tissue Culture",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:20307771404",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Japanese Dwarf Pennywort (Hydrocotyle tripartita var. “Japan”) Tissue Culture"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -20,7 +27,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:20307771404",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -35,7 +44,9 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:20307771404",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -50,7 +61,26 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:20307771404",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "30336677740630",
+          "label": "1 Tissue Culture Cup",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:20307771404",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:14935029252463",
-  "listingId": "aquatic-arts:14935029252463",
-  "storeSlug": "aquatic-arts",
   "commonName": "Aquarium Decor & Shrimp Hide Collection – Skull Caves and Sinking Shrimp Ornament",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:14935029252463",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Aquarium Decor & Shrimp Hide Collection – Skull Caves and Sinking Shrimp Ornament"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -44,7 +51,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:14935029252463",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -83,7 +92,9 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14935029252463",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -122,7 +133,50 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14935029252463",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52846096318831",
+          "label": "Sinking Shrimp – Galaxy Yellow Eye",
+          "price": 18.99,
+          "available": true
+        },
+        {
+          "id": "52933978194287",
+          "label": "Sinking Shrimp - Transparent White",
+          "price": 18.99,
+          "available": true
+        },
+        {
+          "id": "52846096351599",
+          "label": "Dragon Skull Hide – Small",
+          "price": 18.99,
+          "available": true
+        },
+        {
+          "id": "52933305401711",
+          "label": "Dragon Skull Hide – Medium",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "52846096384367",
+          "label": "Human Skull Hide – Medium",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14935029252463",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

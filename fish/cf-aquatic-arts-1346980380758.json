@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:1346980380758",
-  "listingId": "aquatic-arts:1346980380758",
-  "storeSlug": "aquatic-arts",
   "commonName": "Opal Umbrella Borelli Dwarf Cichlid (Apistogramma borellii \"Opal\") - TANK-BRED!!!",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:1346980380758",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Opal Umbrella Borelli Dwarf Cichlid (Apistogramma borellii \"Opal\") - TANK-BRED!!!"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -38,7 +45,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:1346980380758",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -71,7 +80,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1346980380758",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -104,7 +115,44 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1346980380758",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12388437950550",
+          "label": "1 Male/Female Pair",
+          "price": 82.99,
+          "available": false
+        },
+        {
+          "id": "12388437983318",
+          "label": "1 Male",
+          "price": 42.99,
+          "available": false
+        },
+        {
+          "id": "12388438048854",
+          "label": "1 Female",
+          "price": 45.99,
+          "available": false
+        },
+        {
+          "id": "52211740836207",
+          "label": "1 juvenile (unsexed)",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1346980380758",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

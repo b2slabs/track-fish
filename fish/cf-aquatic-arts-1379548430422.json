@@ -1,8 +1,21 @@
 {
   "canonicalFishId": "cf:aquatic-arts:1379548430422",
-  "listingId": "aquatic-arts:1379548430422",
-  "storeSlug": "aquatic-arts",
-  "commonName": "Black Emperor Tetra (Nematobrycon palmeri var. \"Amphiloxus Black\") - Tank-Bred!",
+  "commonName": "Black emperor tetra ( Nematobrycon palmeri var. black )",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:1379548430422",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Black Emperor Tetra (Nematobrycon palmeri var. \"Amphiloxus Black\") - Tank-Bred!"
+    },
+    {
+      "listingId": "monster-aquarium:7464588280017",
+      "storeSlug": "monster-aquarium",
+      "storeName": "Monster Aquarium",
+      "commonName": "Black emperor tetra ( Nematobrycon palmeri var. black )"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -38,7 +51,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:1379548430422",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -71,7 +86,9 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1379548430422",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -104,7 +121,64 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1379548430422",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12744658157654",
+          "label": "School of 3",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "12744658190422",
+          "label": "School of 6",
+          "price": 22.99,
+          "available": true
+        },
+        {
+          "id": "12744658223190",
+          "label": "School of 9",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "id": "12744658255958",
+          "label": "School of 12",
+          "price": 42.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1379548430422",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 6,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42221139329233",
+          "label": ".5-1\"",
+          "price": 6,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7464588280017",
+      "storeSlug": "monster-aquarium"
     }
   ]
 }

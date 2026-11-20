@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:4773382422614",
-  "listingId": "aquatic-arts:4773382422614",
-  "storeSlug": "aquatic-arts",
   "commonName": "Fire Red Agassizi's Dwarf Cichlid (Apistogramma cf. agassizii) - TANK-BRED!!!",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:4773382422614",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Fire Red Agassizi's Dwarf Cichlid (Apistogramma cf. agassizii) - TANK-BRED!!!"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -44,7 +51,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:4773382422614",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -83,7 +92,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4773382422614",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -122,7 +133,50 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4773382422614",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32848642572374",
+          "label": "1 Male/Female Pair",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "32848642605142",
+          "label": "1 Male",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "32848642637910",
+          "label": "3 Males",
+          "price": 48.99,
+          "available": false
+        },
+        {
+          "id": "32848642670678",
+          "label": "1 Female",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "32848642703446",
+          "label": "3 Females",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4773382422614",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

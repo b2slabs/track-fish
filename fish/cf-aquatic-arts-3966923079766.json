@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:3966923079766",
-  "listingId": "aquatic-arts:3966923079766",
-  "storeSlug": "aquatic-arts",
   "commonName": "Three-Color Thorn/Horn Nerite Snail (Clithon corona/diadema)",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:3966923079766",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Three-Color Thorn/Horn Nerite Snail (Clithon corona/diadema)"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -44,7 +51,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:3966923079766",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -83,7 +92,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:3966923079766",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -122,7 +133,50 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:3966923079766",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "29564072460374",
+          "label": "1 Snail",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "29564072525910",
+          "label": "3 Snails",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "29564072558678",
+          "label": "5 Snails",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "29564072591446",
+          "label": "10 Snails",
+          "price": 37.99,
+          "available": false
+        },
+        {
+          "id": "29564072624214",
+          "label": "20 Snails",
+          "price": 58.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:3966923079766",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

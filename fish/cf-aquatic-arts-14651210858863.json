@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:14651210858863",
-  "listingId": "aquatic-arts:14651210858863",
-  "storeSlug": "aquatic-arts",
   "commonName": "Nana Anubias Tropica (Anubias barteri var. nana 'Tropica')",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:14651210858863",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Nana Anubias Tropica (Anubias barteri var. nana 'Tropica')"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -26,7 +33,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:14651210858863",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -47,7 +56,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14651210858863",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -68,7 +79,32 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14651210858863",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51721938174319",
+          "label": "Bareroot",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "51721938207087",
+          "label": "Potted",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14651210858863",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

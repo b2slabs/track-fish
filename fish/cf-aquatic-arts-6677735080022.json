@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:6677735080022",
-  "listingId": "aquatic-arts:6677735080022",
-  "storeSlug": "aquatic-arts",
   "commonName": "CW045 AKA False Armatus Cory Catfish (Corydoras sp. CW045)",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:6677735080022",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "CW045 AKA False Armatus Cory Catfish (Corydoras sp. CW045)"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -44,7 +51,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:6677735080022",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -83,7 +92,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6677735080022",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -122,7 +133,50 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6677735080022",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 74.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39637822373974",
+          "label": "School of 3",
+          "price": 74.99,
+          "available": false
+        },
+        {
+          "id": "39637822406742",
+          "label": "School of 6",
+          "price": 139.99,
+          "available": false
+        },
+        {
+          "id": "39637822439510",
+          "label": "School of 9",
+          "price": 197.99,
+          "available": false
+        },
+        {
+          "id": "39637822472278",
+          "label": "School of 12",
+          "price": 249.99,
+          "available": false
+        },
+        {
+          "id": "39637822505046",
+          "label": "School of 24",
+          "price": 449.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6677735080022",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

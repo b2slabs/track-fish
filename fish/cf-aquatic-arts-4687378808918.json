@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:4687378808918",
-  "listingId": "aquatic-arts:4687378808918",
-  "storeSlug": "aquatic-arts",
   "commonName": "Corkscrew Chain Sword (Helanthium augustifolia \"Vesuvius\") Tissue Culture",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:4687378808918",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Corkscrew Chain Sword (Helanthium augustifolia \"Vesuvius\") Tissue Culture"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -32,7 +39,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:4687378808918",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -59,7 +68,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4687378808918",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -86,7 +97,38 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4687378808918",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32437565423702",
+          "label": "1 Tissue Culture Cup",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "32437565489238",
+          "label": "2 Tissue Culture Cups",
+          "price": 26.99,
+          "available": false
+        },
+        {
+          "id": "32437565554774",
+          "label": "3 Tissue Culture Cups",
+          "price": 38.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4687378808918",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

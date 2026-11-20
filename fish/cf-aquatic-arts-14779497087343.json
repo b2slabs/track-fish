@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:14779497087343",
-  "listingId": "aquatic-arts:14779497087343",
-  "storeSlug": "aquatic-arts",
   "commonName": "Lemon Vampire Crab (Geosesarma sp. “Lemon”)",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:14779497087343",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Lemon Vampire Crab (Geosesarma sp. “Lemon”)"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -44,7 +51,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:14779497087343",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -83,7 +92,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14779497087343",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -122,7 +133,50 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14779497087343",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52169938731375",
+          "label": "1 Pair ( 1 Male + 1 Female)",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "52169938633071",
+          "label": "1 Male",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "52169938665839",
+          "label": "3 Males",
+          "price": 37.99,
+          "available": false
+        },
+        {
+          "id": "52169938698607",
+          "label": "1 Female",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "52169938764143",
+          "label": "1 B-Grade",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14779497087343",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

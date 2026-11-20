@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:6586756005974",
-  "listingId": "aquatic-arts:6586756005974",
-  "storeSlug": "aquatic-arts",
   "commonName": "Omega One Super Color Cichlid Sinking Pellets (Various Sizes)",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:6586756005974",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Omega One Super Color Cichlid Sinking Pellets (Various Sizes)"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -26,7 +33,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:6586756005974",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -47,7 +56,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6586756005974",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -68,7 +79,32 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6586756005974",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 11.69,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39412643266646",
+          "label": "4.2 oz.",
+          "price": 11.69,
+          "available": false
+        },
+        {
+          "id": "39412643299414",
+          "label": "8 oz.",
+          "price": 15.79,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6586756005974",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

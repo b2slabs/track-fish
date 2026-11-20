@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:14926926971247",
-  "listingId": "aquatic-arts:14926926971247",
-  "storeSlug": "aquatic-arts",
   "commonName": "JBJ Nano Arctica Chiller (10-20G) - Quiet Cooler for Axolotls, Goldfish & Shrimp",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:14926926971247",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "JBJ Nano Arctica Chiller (10-20G) - Quiet Cooler for Axolotls, Goldfish & Shrimp"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -26,7 +33,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:14926926971247",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -47,7 +56,9 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14926926971247",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -68,7 +79,32 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14926926971247",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 299.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52822006563183",
+          "label": "10 Gallon Model (DBI-010)",
+          "price": 299.99,
+          "available": true
+        },
+        {
+          "id": "52822006595951",
+          "label": "20 Gallon Model (DBI-020)",
+          "price": 439.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14926926971247",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

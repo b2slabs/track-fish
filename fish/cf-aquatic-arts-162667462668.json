@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:162667462668",
-  "listingId": "aquatic-arts:162667462668",
-  "storeSlug": "aquatic-arts",
   "commonName": "Blue Brazos Dwarf Mexican Crayfish/Mini Lobster (Cambarellus texanus \"Blue\"), Tank-Bred!",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:162667462668",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Blue Brazos Dwarf Mexican Crayfish/Mini Lobster (Cambarellus texanus \"Blue\"), Tank-Bred!"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -50,7 +57,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:162667462668",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -95,7 +104,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:162667462668",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -140,7 +151,56 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:162667462668",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "30326625173590",
+          "label": "1 Male Crayfish",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "1650500567052",
+          "label": "1 Female Crayfish",
+          "price": 27.99,
+          "available": true
+        },
+        {
+          "id": "1650500599820",
+          "label": "1 Male/Female Pair",
+          "price": 45.99,
+          "available": true
+        },
+        {
+          "id": "1650500632588",
+          "label": "1 B-Grade Brazos Crayfish",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "1650500501516",
+          "label": "1 Crayfish",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "1650500534284",
+          "label": "3 Crayfish",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:162667462668",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

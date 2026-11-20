@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:6581658026070",
-  "listingId": "aquatic-arts:6581658026070",
-  "storeSlug": "aquatic-arts",
   "commonName": "Thuymoc NuTriPad Plant Growth Media",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:6581658026070",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Thuymoc NuTriPad Plant Growth Media"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -32,7 +39,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:6581658026070",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -59,7 +68,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6581658026070",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -86,7 +97,38 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6581658026070",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39389276438614",
+          "label": "4 cm x 1 cm",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "39389288857686",
+          "label": "5 cm x 5 cm",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "39389290332246",
+          "label": "6 cm x 2 cm",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6581658026070",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

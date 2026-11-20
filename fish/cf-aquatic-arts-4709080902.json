@@ -1,8 +1,21 @@
 {
   "canonicalFishId": "cf:aquatic-arts:4709080902",
-  "listingId": "aquatic-arts:4709080902",
-  "storeSlug": "aquatic-arts",
-  "commonName": "Ghost Crayfish (Procambarus clarkii var. \"Ghost\") - Tank-Bred!",
+  "commonName": "Ghost Crayfish (Procambarus Clarkii)",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:4709080902",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Ghost Crayfish (Procambarus clarkii var. \"Ghost\") - Tank-Bred!"
+    },
+    {
+      "listingId": "monster-aquarium:6984829567185",
+      "storeSlug": "monster-aquarium",
+      "storeName": "Monster Aquarium",
+      "commonName": "Ghost Crayfish (Procambarus Clarkii)"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -44,7 +57,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:4709080902",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -83,7 +98,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4709080902",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -122,7 +139,70 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4709080902",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42549536460",
+          "label": "1 Young Male (2+ inches)",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "42549630284",
+          "label": "1 Young Female (2+ inches)",
+          "price": 38.99,
+          "available": false
+        },
+        {
+          "id": "42549717836",
+          "label": "1 Young Male/Female Pair (2+ inches)",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "15541595526",
+          "label": "1 B-Grade Young Adult (2+ inches)",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "15392567430",
+          "label": "1 Juvenile (1+ inch)",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4709080902",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40893423124689",
+          "label": "2”",
+          "price": 10,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:6984829567185",
+      "storeSlug": "monster-aquarium"
     }
   ]
 }

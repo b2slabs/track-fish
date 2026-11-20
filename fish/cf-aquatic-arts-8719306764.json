@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:8719306764",
-  "listingId": "aquatic-arts:8719306764",
-  "storeSlug": "aquatic-arts",
   "commonName": "Red Flame Sword (Echinodorus schlueteri x E. barthii hybrid) - Bare Root",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:8719306764",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Red Flame Sword (Echinodorus schlueteri x E. barthii hybrid) - Bare Root"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -32,7 +39,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:8719306764",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -59,7 +68,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:8719306764",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -86,7 +97,38 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:8719306764",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "30009508684",
+          "label": "1 Plant",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "30009572748",
+          "label": "2 Plants",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "30009572812",
+          "label": "3 Plants",
+          "price": 20.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:8719306764",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:14813125312879",
-  "listingId": "aquatic-arts:14813125312879",
-  "storeSlug": "aquatic-arts",
   "commonName": "Ultra Fresh APEX Guppy (1.2x Growth Improvement)",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:14813125312879",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Ultra Fresh APEX Guppy (1.2x Growth Improvement)"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -26,7 +33,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:14813125312879",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -47,7 +56,9 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14813125312879",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -68,7 +79,32 @@
           "available": true
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14813125312879",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52329166471535",
+          "label": "120ml",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "52329166504303",
+          "label": "330ml",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14813125312879",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

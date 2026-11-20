@@ -1,8 +1,15 @@
 {
   "canonicalFishId": "cf:aquatic-arts:11210247820",
-  "listingId": "aquatic-arts:11210247820",
-  "storeSlug": "aquatic-arts",
   "commonName": "Tillandsia Air Plant Shell Kit - Includes 3 Live Plants and 3 Hand Picked Seashell Holders",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "aquatic-arts:11210247820",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Tillandsia Air Plant Shell Kit - Includes 3 Live Plants and 3 Hand Picked Seashell Holders"
+    }
+  ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
@@ -20,7 +27,9 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ]
+      ],
+      "listingId": "aquatic-arts:11210247820",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:08.947Z",
@@ -35,7 +44,9 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11210247820",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:52:13.926Z",
@@ -50,7 +61,26 @@
           "available": false
         }
       ],
-      "type": "heartbeat"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11210247820",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 28,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42437922572",
+          "label": "3 Pack",
+          "price": 28,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11210247820",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }
