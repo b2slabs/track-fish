@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:brachygobius-xanthozonus",
-  "commonName": "Bumble bee goby (Brachygobius xanthozonus)",
+  "commonName": "Bumblebee Goby",
   "scientificName": "Brachygobius xanthozonus",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Bumble bee goby (Brachygobius xanthozonus)"
+    },
+    {
+      "listingId": "ck-fish-world:8150021472471",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Bumblebee Goby"
     }
   ],
   "events": [
@@ -47,6 +53,49 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:6986178822353",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 3,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40896116883665",
+          "label": ".5”",
+          "price": 3,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6986178822353",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 14.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043608350935",
+          "label": "3",
+          "price": 14.98,
+          "available": true
+        },
+        {
+          "id": "46043608383703",
+          "label": "5",
+          "price": 19.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8150021472471",
+      "storeSlug": "ck-fish-world"
     }
   ]
 }

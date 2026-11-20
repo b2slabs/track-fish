@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:monster-aquarium:7648101466321",
-  "commonName": "Wolf fish ( Hoplias Malabaricus )",
+  "commonName": "wolf fish (hoplias aimara)",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Wolf fish ( Hoplias Malabaricus )"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8933992235161",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "wolf fish (hoplias aimara)"
     }
   ],
   "events": [
@@ -47,6 +53,43 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7648101466321",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 30,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42769088118993",
+          "label": "3-3.5”",
+          "price": 30,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7648101466321",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:43.307Z",
+      "price": 350,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48933385240729",
+          "label": "Title",
+          "price": 350,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8933992235161",
+      "storeSlug": "nationwide-aquatics-usa"
     }
   ]
 }

@@ -1,0 +1,61 @@
+{
+  "canonicalFishId": "cf:sci:garra-flavatra-from",
+  "commonName": "Panda Garra  Size MS",
+  "scientificName": "Garra flavatra from",
+  "listings": [
+    {
+      "listingId": "aquahuna:4686181597259",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Panda Garra  Size S"
+    },
+    {
+      "listingId": "aquahuna:4165036048427",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Panda Garra  Size MS"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 8,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32912544071755",
+          "label": "Title",
+          "price": 8,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:4686181597259",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "30267515207723",
+          "label": "Title",
+          "price": 10,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:4165036048427",
+      "storeSlug": "aquahuna"
+    }
+  ]
+}

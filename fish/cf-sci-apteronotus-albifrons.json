@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:apteronotus-albifrons",
-  "commonName": "Black Ghost (Apteronotus albifrons)",
+  "commonName": "Black Ghost Knifefish",
   "scientificName": "Apteronotus albifrons",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Black Ghost (Apteronotus albifrons)"
+    },
+    {
+      "listingId": "ck-fish-world:8150019571927",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Black Ghost Knifefish"
     }
   ],
   "events": [
@@ -165,6 +171,72 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:6974859182289",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:39.803Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "30493786177622",
+          "label": "1 Juvenile",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4189603922006",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40865446396113",
+          "label": "3-4”",
+          "price": 15,
+          "available": true
+        },
+        {
+          "id": "41344889815249",
+          "label": "5-6”",
+          "price": 35,
+          "available": false
+        },
+        {
+          "id": "41922801598673",
+          "label": "8-10”",
+          "price": 115,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6974859182289",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 14.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44098374041815",
+          "label": "Title",
+          "price": 14.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8150019571927",
+      "storeSlug": "ck-fish-world"
     }
   ]
 }

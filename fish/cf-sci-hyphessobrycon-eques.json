@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hyphessobrycon-eques",
-  "commonName": "Platinum Serpae Tetra (Hyphessobrycon eques)",
+  "commonName": "Serpae Tetra",
   "scientificName": "Hyphessobrycon eques",
   "listings": [
     {
@@ -20,6 +20,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Platinum Serpae Tetra (Hyphessobrycon eques)"
+    },
+    {
+      "listingId": "ck-fish-world:8149530411223",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Serpae Tetra"
     }
   ],
   "events": [
@@ -133,6 +139,89 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:6967211786449",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 7,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41518830911697",
+          "label": ".75-1\"",
+          "price": 7,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7231869288657",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 4,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41518830747857",
+          "label": ".75-1\"",
+          "price": 4,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7231869190353",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 7.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40848404054225",
+          "label": ".75-1\"",
+          "price": 7.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6967211786449",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336212865239",
+          "label": "3",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45336212898007",
+          "label": "5",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45336212930775",
+          "label": "10",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8149530411223",
+      "storeSlug": "ck-fish-world"
     }
   ]
 }

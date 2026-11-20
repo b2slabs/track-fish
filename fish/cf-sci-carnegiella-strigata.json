@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:carnegiella-strigata",
-  "commonName": "Marbled Hatchet fish (Carnegiella strigata)",
+  "commonName": "Marbled HatchetFish (carnegiella strigata)",
   "scientificName": "Carnegiella strigata",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Marbled Hatchet fish (Carnegiella strigata)"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8818949324953",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "Marbled HatchetFish (carnegiella strigata)"
     }
   ],
   "events": [
@@ -47,6 +53,43 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7197455220945",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41443036365009",
+          "label": ".75-1\"",
+          "price": 5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7197455220945",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:43.307Z",
+      "price": 6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48352383336601",
+          "label": "Title",
+          "price": 6,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8818949324953",
+      "storeSlug": "nationwide-aquatics-usa"
     }
   ]
 }

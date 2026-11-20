@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:trigonostigma-espei",
-  "commonName": "Lambchop Rasbora ( Trigonostigma espei )",
+  "commonName": "Purple Harlequin Rasbora",
   "scientificName": "Trigonostigma espei",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Lambchop Rasbora ( Trigonostigma espei )"
+    },
+    {
+      "listingId": "ck-fish-world:8920517116119",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Purple Harlequin Rasbora"
     }
   ],
   "events": [
@@ -231,6 +237,90 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7777418739921",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:39.803Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41398080716",
+          "label": "School of 3",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "15502638342",
+          "label": "School of 6",
+          "price": 22.99,
+          "available": true
+        },
+        {
+          "id": "41398122380",
+          "label": "School of 9",
+          "price": 31.99,
+          "available": true
+        },
+        {
+          "id": "15502638406",
+          "label": "School of 12",
+          "price": 39.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4740621062",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43214577139921",
+          "label": ".5\"",
+          "price": 5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7777418739921",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46360922783959",
+          "label": "3",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "46360922816727",
+          "label": "5",
+          "price": 29.98,
+          "available": true
+        },
+        {
+          "id": "46360922849495",
+          "label": "10",
+          "price": 49.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8920517116119",
+      "storeSlug": "ck-fish-world"
     }
   ]
 }

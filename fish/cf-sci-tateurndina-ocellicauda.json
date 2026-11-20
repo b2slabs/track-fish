@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:tateurndina-ocellicauda",
-  "commonName": "Peacock Gudgeon (Tateurndina ocellicauda)",
+  "commonName": "Peacock Gudgeon",
   "scientificName": "Tateurndina ocellicauda",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Peacock Gudgeon (Tateurndina ocellicauda)"
+    },
+    {
+      "listingId": "ck-fish-world:8149572616407",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Peacock Gudgeon"
     }
   ],
   "events": [
@@ -201,6 +207,78 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7047133855953",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:39.803Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "23929861702",
+          "label": "1 Fish",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "23930324422",
+          "label": "Group of 3",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "23930324486",
+          "label": "Group of 6",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:7468139462",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 10,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41068637683921",
+          "label": "1.25-1.5\"",
+          "price": 10,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7047133855953",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45697063289047",
+          "label": "1",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45697063321815",
+          "label": "3",
+          "price": 44.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8149572616407",
+      "storeSlug": "ck-fish-world"
     }
   ]
 }

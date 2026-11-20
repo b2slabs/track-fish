@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:botia-almorhae",
-  "commonName": "YoYo Loach (Botia almorhae)",
+  "commonName": "Yo-Yo Loach",
   "scientificName": "Botia almorhae",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "YoYo Loach (Botia almorhae)"
+    },
+    {
+      "listingId": "ck-fish-world:8150015541463",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Yo-Yo Loach"
     }
   ],
   "events": [
@@ -243,6 +249,90 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7192214503633",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:39.803Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "29792137707606",
+          "label": "Group of 3",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "29792137740374",
+          "label": "Group of 6",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "29792137773142",
+          "label": "Group of 9",
+          "price": 48.99,
+          "available": false
+        },
+        {
+          "id": "29792137805910",
+          "label": "Group of 12",
+          "price": 61.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4019158548566",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42586280558801",
+          "label": ".5-1”",
+          "price": 5,
+          "available": true
+        },
+        {
+          "id": "41428036485329",
+          "label": "1”-1.25”",
+          "price": 7,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7192214503633",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45697120796887",
+          "label": "3",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45704830943447",
+          "label": "5",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8150015541463",
+      "storeSlug": "ck-fish-world"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:aquatic-arts:14695698366831",
-  "commonName": "Gold Gourami (Trichopodus trichopterus 'Gold') - Tank Bred",
+  "commonName": "Gold Gourami",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Gold Gourami (Trichopodus trichopterus 'Gold') - Tank Bred"
+    },
+    {
+      "listingId": "ck-fish-world:8149531394263",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Gold Gourami"
     }
   ],
   "events": [
@@ -158,6 +164,61 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:14695698366831",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:39.803Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51857865081199",
+          "label": "1 Fish",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "51857865113967",
+          "label": "3 Fish",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "51857865146735",
+          "label": "6 Fish",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14695698366831",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 11.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45697044578519",
+          "label": "1",
+          "price": 11.98,
+          "available": true
+        },
+        {
+          "id": "45697044611287",
+          "label": "3",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8149531394263",
+      "storeSlug": "ck-fish-world"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:celestichthys-erythromicron",
-  "commonName": "Emerald Dwarf Rasbora (Celestichthys erythromicron), Tank-Bred",
+  "commonName": "Emerald Dwarf Danio",
   "scientificName": "Celestichthys erythromicron",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Emerald Dwarf Rasbora (Celestichthys erythromicron), Tank-Bred"
+    },
+    {
+      "listingId": "ck-fish-world:8149571633367",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Emerald Dwarf Danio"
     }
   ],
   "events": [
@@ -188,6 +194,73 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:4740688006",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:39.803Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43285204300",
+          "label": "School of 3",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "15502753478",
+          "label": "School of 6",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "id": "43285185356",
+          "label": "School of 9",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "15502753606",
+          "label": "School of 12",
+          "price": 48.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4740688006",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336054104279",
+          "label": "3",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45336054137047",
+          "label": "5",
+          "price": 29.98,
+          "available": true
+        },
+        {
+          "id": "45336054169815",
+          "label": "10",
+          "price": 49.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8149571633367",
+      "storeSlug": "ck-fish-world"
     }
   ]
 }

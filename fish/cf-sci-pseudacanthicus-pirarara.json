@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pseudacanthicus-pirarara",
-  "commonName": "L25 Red Fin Scarlet Pleco \"Sao Felix Super red\" (Pseudacanthicus pirarara)",
+  "commonName": "L025 Scarlet Cactus Pleco (Pseudacanthicus pirarara)",
   "scientificName": "Pseudacanthicus pirarara",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "L25 Red Fin Scarlet Pleco \"Sao Felix Super red\" (Pseudacanthicus pirarara)"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8651966021785",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "L025 Scarlet Cactus Pleco (Pseudacanthicus pirarara)"
     }
   ],
   "events": [
@@ -71,6 +77,55 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7037582278865",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 550,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41532483829969",
+          "label": "3-4”",
+          "price": 99,
+          "available": false
+        },
+        {
+          "id": "41415020708049",
+          "label": "6.5-7.5\"",
+          "price": 319,
+          "available": false
+        },
+        {
+          "id": "41229358268625",
+          "label": "9-10\"",
+          "price": 550,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7037582278865",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:43.307Z",
+      "price": 400,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46177183727769",
+          "label": "Title",
+          "price": 400,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8651966021785",
+      "storeSlug": "nationwide-aquatics-usa"
     }
   ]
 }

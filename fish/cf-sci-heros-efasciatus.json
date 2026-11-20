@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:heros-efasciatus",
-  "commonName": "Red Severum (Heros efasciatus)",
+  "commonName": "Red Severum",
   "scientificName": "Heros efasciatus",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Red Severum (Heros efasciatus)"
+    },
+    {
+      "listingId": "ck-fish-world:8849569513687",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Red Severum"
     }
   ],
   "events": [
@@ -71,6 +77,55 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:6984216412369",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 31.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41513899589841",
+          "label": "2”-2.5”",
+          "price": 31.99,
+          "available": true
+        },
+        {
+          "id": "42678289760465",
+          "label": "3-4\"",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "40891492499665",
+          "label": "5-5.5\"",
+          "price": 85,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6984216412369",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 29.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46115443409111",
+          "label": "Title",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8849569513687",
+      "storeSlug": "ck-fish-world"
     }
   ]
 }

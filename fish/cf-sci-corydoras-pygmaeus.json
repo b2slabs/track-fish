@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:corydoras-pygmaeus",
-  "commonName": "Pygmy Cory (Corydoras pygmaeus)",
+  "commonName": "Pygmy Cory",
   "scientificName": "Corydoras pygmaeus",
   "listings": [
     {
@@ -14,6 +14,18 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Pygmy Cory (Corydoras pygmaeus)"
+    },
+    {
+      "listingId": "aquahuna:7364164845643",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Albino Pygmy Corydora"
+    },
+    {
+      "listingId": "ck-fish-world:8149572026583",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Pygmy Cory"
     }
   ],
   "events": [
@@ -231,6 +243,110 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7039193186513",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:39.803Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12381502177366",
+          "label": "School of 3",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "12381502210134",
+          "label": "School of 6",
+          "price": 26.99,
+          "available": true
+        },
+        {
+          "id": "12381502242902",
+          "label": "School of 9",
+          "price": 37.99,
+          "available": true
+        },
+        {
+          "id": "12381559455830",
+          "label": "School of 12",
+          "price": 45.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1345546682454",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41055625904337",
+          "label": ".5”",
+          "price": 5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7039193186513",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41465360253003",
+          "label": "Title",
+          "price": 5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:7364164845643",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336193794263",
+          "label": "3",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45336193827031",
+          "label": "5",
+          "price": 29.98,
+          "available": true
+        },
+        {
+          "id": "45336193859799",
+          "label": "10",
+          "price": 49.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8149572026583",
+      "storeSlug": "ck-fish-world"
     }
   ]
 }

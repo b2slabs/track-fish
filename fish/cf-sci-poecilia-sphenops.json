@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:poecilia-sphenops",
-  "commonName": "Leopard Molly (Poecilia sphenops) – Tank Bred",
+  "commonName": "Balloon Molly",
   "scientificName": "Poecilia sphenops",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Leopard Molly (Poecilia sphenops) – Tank Bred"
+    },
+    {
+      "listingId": "ck-fish-world:8150006399191",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Balloon Molly"
     }
   ],
   "events": [
@@ -158,6 +164,67 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:14758673351023",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:39.803Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52101209588079",
+          "label": "1 Fish",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "52101209620847",
+          "label": "3 Fish",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "52101209653615",
+          "label": "6 Fish",
+          "price": 23.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14758673351023",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 14.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45335962583255",
+          "label": "3",
+          "price": 14.98,
+          "available": true
+        },
+        {
+          "id": "45335962616023",
+          "label": "5",
+          "price": 23.98,
+          "available": true
+        },
+        {
+          "id": "45702308135127",
+          "label": "10",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8150006399191",
+      "storeSlug": "ck-fish-world"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:myleus-schomburgkii",
-  "commonName": "Wide Bar Silver Dollar ( Myleus Schomburgkii )",
+  "commonName": "Blackberry Silver Dollar Tetra",
   "scientificName": "Myleus schomburgkii",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Wide Bar Silver Dollar ( Myleus Schomburgkii )"
+    },
+    {
+      "listingId": "aquahuna:6835379503179",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Blackberry Silver Dollar Tetra"
     }
   ],
   "events": [
@@ -71,6 +77,55 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7056432300241",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41097546039505",
+          "label": "3\"",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "41512807989457",
+          "label": "1”-1.5”",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "43268415094993",
+          "label": "4\"-5\"",
+          "price": 48.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7056432300241",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 28,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40021548302411",
+          "label": "Title",
+          "price": 28,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:6835379503179",
+      "storeSlug": "aquahuna"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:macrognathus-siamensis",
-  "commonName": "Peacock Eel (Macrognathus Siamensis )",
+  "commonName": "Peacock Eel",
   "scientificName": "Macrognathus siamensis",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Peacock Eel (Macrognathus Siamensis )"
+    },
+    {
+      "listingId": "ck-fish-world:8150020456663",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Peacock Eel"
     }
   ],
   "events": [
@@ -47,6 +53,43 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7646854709457",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42767126724817",
+          "label": "5-6\"",
+          "price": 29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7646854709457",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44098377318615",
+          "label": "Title",
+          "price": 19.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8150020456663",
+      "storeSlug": "ck-fish-world"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:panaque-cochliodon",
-  "commonName": "Blue eyed royal pleco (Panaque cochliodon)",
+  "commonName": "Blue Eyed Pleco (Panaque cochliodon)",
   "scientificName": "Panaque cochliodon",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Blue eyed royal pleco (Panaque cochliodon)"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8768128909465",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "Blue Eyed Pleco (Panaque cochliodon)"
     }
   ],
   "events": [
@@ -47,6 +53,43 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:6966850552017",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 299,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40847660810449",
+          "label": "6-7”",
+          "price": 299,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6966850552017",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:43.307Z",
+      "price": 435,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47867148173465",
+          "label": "Title",
+          "price": 435,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8768128909465",
+      "storeSlug": "nationwide-aquatics-usa"
     }
   ]
 }

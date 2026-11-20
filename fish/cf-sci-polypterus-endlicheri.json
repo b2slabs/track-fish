@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:polypterus-endlicheri",
-  "commonName": "Saddled Bichir (polypterus endlicheri)  - Tank-Bred!",
+  "commonName": "(Polypterus endlicheri)",
   "scientificName": "Polypterus endlicheri",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Saddled Bichir (polypterus endlicheri)  - Tank-Bred!"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8767071191193",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "(Polypterus endlicheri)"
     }
   ],
   "events": [
@@ -98,6 +104,43 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:9449813934359",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:39.803Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49047122542871",
+          "label": "1 Juvenile",
+          "price": 16.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:9449813934359",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:43.307Z",
+      "price": 135,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47863993106585",
+          "label": "Title",
+          "price": 135,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8767071191193",
+      "storeSlug": "nationwide-aquatics-usa"
     }
   ]
 }

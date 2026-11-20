@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:macrotocinclus-affinis",
-  "commonName": "Otto Catfish (Macrotocinclus affinis)",
+  "commonName": "Oto Catfish",
   "scientificName": "Macrotocinclus affinis",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Otto Catfish (Macrotocinclus affinis)"
+    },
+    {
+      "listingId": "ck-fish-world:8149535424727",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Oto Catfish"
     }
   ],
   "events": [
@@ -47,6 +53,55 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:6992785801425",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 3,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40914825707729",
+          "label": "1-1.5\"",
+          "price": 3,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6992785801425",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336170266839",
+          "label": "3",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45336170299607",
+          "label": "5",
+          "price": 29.98,
+          "available": true
+        },
+        {
+          "id": "45336170365143",
+          "label": "10",
+          "price": 49.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8149535424727",
+      "storeSlug": "ck-fish-world"
     }
   ]
 }

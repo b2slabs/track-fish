@@ -1,0 +1,67 @@
+{
+  "canonicalFishId": "cf:sci:pangio-kuhlii-other",
+  "commonName": "Kuhli Loach",
+  "scientificName": "Pangio kuhlii other",
+  "listings": [
+    {
+      "listingId": "aquahuna:4388865835083",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Kuhli Loach"
+    },
+    {
+      "listingId": "ck-fish-world:8152478089431",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Kuhli Loach"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 3,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31442148687947",
+          "label": "Title",
+          "price": 3,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:4388865835083",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 14.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336213127383",
+          "label": "3",
+          "price": 14.98,
+          "available": true
+        },
+        {
+          "id": "45336213160151",
+          "label": "5",
+          "price": 19.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8152478089431",
+      "storeSlug": "ck-fish-world"
+    }
+  ]
+}

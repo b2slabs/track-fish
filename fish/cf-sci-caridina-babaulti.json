@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:caridina-babaulti",
-  "commonName": "Indian Zebra shrimp (Caridina babaulti)",
+  "commonName": "Green Neon Shrimp",
   "scientificName": "Caridina babaulti",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Indian Zebra shrimp (Caridina babaulti)"
+    },
+    {
+      "listingId": "aquahuna:4608795050059",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Green Neon Shrimp"
     }
   ],
   "events": [
@@ -47,6 +53,43 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7584650035409",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 4,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42534258704593",
+          "label": ".5\"",
+          "price": 4,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7584650035409",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 3.63,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32479284691019",
+          "label": "Title",
+          "price": 3.63,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:4608795050059",
+      "storeSlug": "aquahuna"
     }
   ]
 }

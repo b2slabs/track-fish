@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:monopterus-albus",
-  "commonName": "Yellow Asian swamp eel (Monopterus albus)",
+  "commonName": "Albino Swamp Eel (Monopterus albus)",
   "scientificName": "Monopterus albus",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Yellow Asian swamp eel (Monopterus albus)"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8780827820185",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "Albino Swamp Eel (Monopterus albus)"
     }
   ],
   "events": [
@@ -47,6 +53,43 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7482007322833",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 129,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42270858543313",
+          "label": "8-10”",
+          "price": 129,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7482007322833",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:43.307Z",
+      "price": 125,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47913247408281",
+          "label": "Title",
+          "price": 125,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8780827820185",
+      "storeSlug": "nationwide-aquatics-usa"
     }
   ]
 }

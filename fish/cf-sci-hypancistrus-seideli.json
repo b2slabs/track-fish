@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hypancistrus-seideli",
-  "commonName": "L066 Xingu King Tiger Pleco (Hypancistrus seideli)",
+  "commonName": "L236 Basic - Bellenz Line (Hypancistrus seideli)",
   "scientificName": "Hypancistrus seideli",
   "listings": [
     {
@@ -8,6 +8,18 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "L066 Xingu King Tiger Pleco (Hypancistrus seideli)"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8759255072921",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "L236 Basic - Bellenz Line (Hypancistrus seideli) 5 pack"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8759245242521",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "L236 Basic - Bellenz Line (Hypancistrus seideli)"
     }
   ],
   "events": [
@@ -128,6 +140,69 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:212527808524",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:39.803Z",
+      "price": 66.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "2182211010572",
+          "label": "1 Pleco",
+          "price": 66.99,
+          "available": false
+        },
+        {
+          "id": "2182211043340",
+          "label": "3 Plecos",
+          "price": 191.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:212527808524",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:43.307Z",
+      "price": 200,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47724838518937",
+          "label": "Title",
+          "price": 200,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8759255072921",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:43.307Z",
+      "price": 45,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47724637814937",
+          "label": "Title",
+          "price": 45,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8759245242521",
+      "storeSlug": "nationwide-aquatics-usa"
     }
   ]
 }

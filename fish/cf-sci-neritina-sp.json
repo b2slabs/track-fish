@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:neritina-sp",
-  "commonName": "Assorted Nerite Snails (Neritina sp)",
+  "commonName": "Assorted Nerite Snail",
   "scientificName": "Neritina sp",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Assorted Nerite Snails (Neritina sp)"
+    },
+    {
+      "listingId": "aquahuna:1756949348395",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Assorted Nerite Snail"
     }
   ],
   "events": [
@@ -158,6 +164,55 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:14649682329967",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:39.803Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51718192628079",
+          "label": "3 Snails",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "51718192660847",
+          "label": "5 Snails",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "51718192693615",
+          "label": "10 Snails",
+          "price": 27.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14649682329967",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 2.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15977995599915",
+          "label": "Title",
+          "price": 2.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:1756949348395",
+      "storeSlug": "aquahuna"
     }
   ]
 }

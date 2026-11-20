@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:limnopilos-naiyanetri",
-  "commonName": "Thai Micro Crab (Limnopilos naiyanetri)",
+  "commonName": "Thai Micro Crab",
   "scientificName": "Limnopilos naiyanetri",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Thai Micro Crab (Limnopilos naiyanetri)"
+    },
+    {
+      "listingId": "ck-fish-world:8150003286231",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Thai Micro Crab"
     }
   ],
   "events": [
@@ -231,6 +237,90 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:6984819572945",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:39.803Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15389823302",
+          "label": "5 Micro Crabs",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "15389823366",
+          "label": "10 Micro Crabs",
+          "price": 42.99,
+          "available": true
+        },
+        {
+          "id": "30326695297110",
+          "label": "20 Micro Crabs",
+          "price": 83.99,
+          "available": true
+        },
+        {
+          "id": "30326696575062",
+          "label": "30 Micro Crabs",
+          "price": 117.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4707493446",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40893405069521",
+          "label": "1/6\"- 1/4\"",
+          "price": 6,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6984819572945",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 18.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46021849448663",
+          "label": "3",
+          "price": 18.98,
+          "available": true
+        },
+        {
+          "id": "46021849481431",
+          "label": "5",
+          "price": 29.98,
+          "available": true
+        },
+        {
+          "id": "46021849514199",
+          "label": "10",
+          "price": 49.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8150003286231",
+      "storeSlug": "ck-fish-world"
     }
   ]
 }

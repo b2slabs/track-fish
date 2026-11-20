@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:monster-aquarium:6986004529361",
-  "commonName": "Horned Nerite Snail (Clithon Corona)",
+  "commonName": "Horned Nerite Snail",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Horned Nerite Snail (Clithon Corona)"
+    },
+    {
+      "listingId": "ck-fish-world:8150002991319",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Horned Nerite Snail"
     }
   ],
   "events": [
@@ -47,6 +53,55 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:6986004529361",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 3,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40895787827409",
+          "label": ".5\"",
+          "price": 3,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6986004529361",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336123965655",
+          "label": "3 + (GET 1 FREE)",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45336123998423",
+          "label": "5",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45707897864407",
+          "label": "10 + (GET 4 FREE)",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8150002991319",
+      "storeSlug": "ck-fish-world"
     }
   ]
 }

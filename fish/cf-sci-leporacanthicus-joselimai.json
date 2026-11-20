@@ -14,6 +14,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "L264 Sultan Pleco (Leporacanthicus joselimai)"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8930938814617",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "L264 Sultan Pleco (Leporacanthicus joselimai)"
     }
   ],
   "events": [
@@ -153,6 +159,66 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7020694077649",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:39.803Z",
+      "price": 89.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31101880270934",
+          "label": "1 Pleco",
+          "price": 89.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4339954745430",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 54.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41016600199377",
+          "label": "1.5-2.5”",
+          "price": 54.99,
+          "available": true
+        },
+        {
+          "id": "41016601542865",
+          "label": "4-5\"",
+          "price": 75,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7020694077649",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:43.307Z",
+      "price": 85,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48925732733081",
+          "label": "Title",
+          "price": 85,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8930938814617",
+      "storeSlug": "nationwide-aquatics-usa"
     }
   ]
 }

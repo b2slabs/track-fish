@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:leporacanthicus-galaxias",
-  "commonName": "L29 Vampire Pleco (Leporacanthicus galaxias)",
+  "commonName": "L029 Galaxy Pleco (Leporacanthicus galaxias)",
   "scientificName": "Leporacanthicus galaxias",
   "listings": [
     {
@@ -8,6 +8,18 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "L29 Vampire Pleco (Leporacanthicus galaxias)"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8930936750233",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "L029 Galaxy Pleco (Leporacanthicus galaxias) 3 pack"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8930935373977",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "L029 Galaxy Pleco (Leporacanthicus galaxias)"
     }
   ],
   "events": [
@@ -47,6 +59,63 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7171179086033",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 55,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41381174313169",
+          "label": "3-4”",
+          "price": 55,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7171179086033",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:43.307Z",
+      "price": 200,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48925717823641",
+          "label": "Title",
+          "price": 200,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8930936750233",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:43.307Z",
+      "price": 75,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48925684007065",
+          "label": "Title",
+          "price": 75,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8930935373977",
+      "storeSlug": "nationwide-aquatics-usa"
     }
   ]
 }

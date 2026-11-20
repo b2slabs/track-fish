@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:polypterus-weeksii",
-  "commonName": "Albino Weeksii Polypterus Bichir (Polypterus weeksii)",
+  "commonName": "Weeksii Bichir (Polypterus weeksii) 13.5\"",
   "scientificName": "Polypterus weeksii",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Albino Weeksii Polypterus Bichir (Polypterus weeksii)"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8763728953497",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "Weeksii Bichir (Polypterus weeksii) 13.5\""
     }
   ],
   "events": [
@@ -90,6 +96,60 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7112432025809",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 4499,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42435503620305",
+          "label": "7-8”",
+          "price": 4499,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7543483760849",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 4999.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41235064815825",
+          "label": "7-8”",
+          "price": 4999.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7112432025809",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:43.307Z",
+      "price": 155,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47847739981977",
+          "label": "Title",
+          "price": 155,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8763728953497",
+      "storeSlug": "nationwide-aquatics-usa"
     }
   ]
 }

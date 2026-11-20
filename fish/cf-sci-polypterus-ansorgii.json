@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:polypterus-ansorgii",
-  "commonName": "Ansorgi Polypterus (Polypterus ansorgii)",
+  "commonName": "Guinean Bichir (Polypterus ansorgii) 22\"-23\"",
   "scientificName": "Polypterus ansorgii",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Ansorgi Polypterus (Polypterus ansorgii)"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8763737440409",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "Guinean Bichir (Polypterus ansorgii) 22\"-23\""
     }
   ],
   "events": [
@@ -59,6 +65,49 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7329430536401",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 27.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41853407756497",
+          "label": "2”-3\"",
+          "price": 27.99,
+          "available": false
+        },
+        {
+          "id": "43168536002769",
+          "label": "6-7”",
+          "price": 65,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7329430536401",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:43.307Z",
+      "price": 400,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47848231960729",
+          "label": "Title",
+          "price": 400,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8763737440409",
+      "storeSlug": "nationwide-aquatics-usa"
     }
   ]
 }
