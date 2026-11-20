@@ -14,9 +14,35 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Dwarf Sagittaria"
+    },
+    {
+      "listingId": "shrimpy-business:4791601889365",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Dwarf Sagittaria"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 8.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39899538161749",
+          "label": "Pot",
+          "price": 8.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:4791601889365",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 5.29,
@@ -66,6 +92,69 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "imperial-tropicals:8398022672691",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:33.576Z",
+      "price": 8.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39899538161749",
+          "label": "Pot",
+          "price": 8.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:4791601889365",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 5.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32335417147473",
+          "label": "Title",
+          "price": 5.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4620213813329",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:50.975Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611840995635",
+          "label": "1 Bunch",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "53874123931955",
+          "label": "(3 Pack) 1 Bunch",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "47249867735347",
+          "label": "1 Potted Plant",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "imperial-tropicals:8398022672691",
       "storeSlug": "imperial-tropicals"
     }

@@ -14,6 +14,18 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "UNS CO2 Paintball Cylinder"
+    },
+    {
+      "listingId": "buce-plant:6928394879176",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "UNS CO2 Paintball Cylinder - 24 Oz."
+    },
+    {
+      "listingId": "glass-aqua:6602920001622",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "UNS CO2 Paintball Cylinder Kit"
     }
   ],
   "events": [
@@ -35,6 +47,26 @@
         "first-observed"
       ],
       "listingId": "buce-plant:6928377118920",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40450898231496",
+          "label": "Title",
+          "price": 69.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:6928394879176",
       "storeSlug": "buce-plant"
     },
     {
@@ -60,6 +92,112 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:6602907418710",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 199.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39466399957078",
+          "label": "16oz.",
+          "price": 199.99,
+          "available": false
+        },
+        {
+          "id": "39466399989846",
+          "label": "24oz.",
+          "price": 242.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:6602920001622",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40450898231496",
+          "label": "Title",
+          "price": 69.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:6928394879176",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 57.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40450814312648",
+          "label": "Title",
+          "price": 57.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:6928377118920",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:34:13.918Z",
+      "price": 199.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39466399957078",
+          "label": "16oz.",
+          "price": 199.99,
+          "available": false
+        },
+        {
+          "id": "39466399989846",
+          "label": "24oz.",
+          "price": 242.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6602920001622",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T17:34:13.918Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39466325606486",
+          "label": "16 OZ",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "39466325639254",
+          "label": "24 OZ",
+          "price": 69.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:6602907418710",
       "storeSlug": "glass-aqua"
     }

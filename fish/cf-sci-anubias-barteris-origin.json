@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:anubias-barteris-origin",
-  "commonName": "Anubias Barteri XL",
+  "commonName": "Barteri Anubias",
   "scientificName": "Anubias barteris origin",
   "listings": [
     {
@@ -8,18 +8,6 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Barteri Anubias"
-    },
-    {
-      "listingId": "imperial-tropicals:8303242477875",
-      "storeSlug": "imperial-tropicals",
-      "storeName": "Imperial Tropicals",
-      "commonName": "Anubias barteri"
-    },
-    {
-      "listingId": "daku-aquatics:8741033672922",
-      "storeSlug": "daku-aquatics",
-      "storeName": "Daku Aquatics",
-      "commonName": "Anubias Barteri XL"
     }
   ],
   "events": [
@@ -56,56 +44,33 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-20T06:27:43.785Z",
-      "price": 14.99,
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 7.59,
       "currency": "USD",
-      "available": true,
+      "available": false,
       "variants": [
         {
-          "id": "45224036368691",
-          "label": "1 Medium Plant",
-          "price": 10.99,
+          "id": "21420566839377",
+          "label": "Medium (4\")",
+          "price": 12.79,
           "available": false
         },
         {
-          "id": "46997018509619",
-          "label": "1 Large Plant",
-          "price": 14.99,
+          "id": "21420566872145",
+          "label": "Large (6-8\")",
+          "price": 16.59,
           "available": false
         },
         {
-          "id": "49581301498163",
-          "label": "1 Potted Plant",
-          "price": 14.99,
-          "available": true
+          "id": "21420566904913",
+          "label": "Small (2\")",
+          "price": 7.59,
+          "available": false
         }
       ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "imperial-tropicals:8303242477875",
-      "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:46.524Z",
-      "price": 12.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "46043838742746",
-          "label": "Title",
-          "price": 12.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "daku-aquatics:8741033672922",
-      "storeSlug": "daku-aquatics"
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:2440113815633",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -14,9 +14,35 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Aponogeton Boivinianus"
+    },
+    {
+      "listingId": "daku-aquatics:8741041701082",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Aponogeton Boivinianus"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043853783258",
+          "label": "Title",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741041701082",
+      "storeSlug": "daku-aquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 9.99,
@@ -66,6 +92,69 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:4670905286742",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:57.952Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043853783258",
+          "label": "Title",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741041701082",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "3590118211624",
+          "label": "Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "3807506464808",
+          "label": "Bulb",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:407510253608",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:34:13.918Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43006599659606",
+          "label": "Sprouted Bulb",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "43006599692374",
+          "label": "Bulb",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:4670905286742",
       "storeSlug": "glass-aqua"
     }

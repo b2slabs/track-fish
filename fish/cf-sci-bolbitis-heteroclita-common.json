@@ -14,9 +14,35 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Bolbitis Heteroclita"
+    },
+    {
+      "listingId": "shrimpy-business:8387931504930",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Bolbitis Heteroclita"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 9.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45588169195810",
+          "label": "Title",
+          "price": 9.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:8387931504930",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 8.99,
@@ -54,6 +80,57 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:4977367482454",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:33.576Z",
+      "price": 9.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45588169195810",
+          "label": "Title",
+          "price": 9.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:8387931504930",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "35459880333",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:9560094029",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:34:13.918Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "33392118399062",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:4977367482454",
       "storeSlug": "glass-aqua"
     }

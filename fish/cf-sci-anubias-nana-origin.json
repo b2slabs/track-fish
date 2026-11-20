@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:anubias-nana-origin",
-  "commonName": "Anubias Nana",
+  "commonName": "Nana Anubias",
   "scientificName": "Anubias nana origin",
   "listings": [
     {
@@ -8,12 +8,6 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Nana Anubias"
-    },
-    {
-      "listingId": "daku-aquatics:8741025939674",
-      "storeSlug": "daku-aquatics",
-      "storeName": "Daku Aquatics",
-      "commonName": "Anubias Nana"
     }
   ],
   "events": [
@@ -50,24 +44,33 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-20T06:27:46.524Z",
-      "price": 8.99,
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 12.79,
       "currency": "USD",
       "available": true,
       "variants": [
         {
-          "id": "46043823079642",
-          "label": "Title",
-          "price": 8.99,
+          "id": "12961951809606",
+          "label": "Medium (4\")",
+          "price": 12.79,
           "available": true
+        },
+        {
+          "id": "12961951842374",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "12961951875142",
+          "label": "Small (2\")",
+          "price": 8.99,
+          "available": false
         }
       ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "daku-aquatics:8741025939674",
-      "storeSlug": "daku-aquatics"
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1472221642822",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

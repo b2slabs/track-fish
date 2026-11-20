@@ -20,9 +20,61 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Mayaca Fluviatilis"
+    },
+    {
+      "listingId": "shrimpy-business:9488872210722",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Mayaca Fluviatilis"
+    },
+    {
+      "listingId": "daku-aquatics:9425468948698",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Mayaca Fluviatilis"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 9.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49165799227682",
+          "label": "Title",
+          "price": 9.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9488872210722",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48324523393242",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:9425468948698",
+      "storeSlug": "daku-aquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 11.99,
@@ -92,6 +144,103 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:7481395576918",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:33.576Z",
+      "price": 9.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49165799227682",
+          "label": "Title",
+          "price": 9.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9488872210722",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:57.952Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48324523393242",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:9425468948698",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45220062003400",
+          "label": "Title",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8344167317704",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "199466450957",
+          "label": "Lead Bunch",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "12396650430545",
+          "label": "3 Bunches + 1 Free",
+          "price": 23.97,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:28995616781",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:34:13.918Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45790493605974",
+          "label": "Bunch",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "45790493638742",
+          "label": "UNS Tissue Culture",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:7481395576918",
       "storeSlug": "glass-aqua"
     }

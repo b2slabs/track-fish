@@ -20,9 +20,76 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Weeping Moss on Stainless Steel"
+    },
+    {
+      "listingId": "ck-fish-world:8733715333335",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Weeping Moss on Stainless Steel"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45749238104279",
+          "label": "1",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45749238137047",
+          "label": "3",
+          "price": 45.98,
+          "available": true
+        },
+        {
+          "id": "45749238169815",
+          "label": "5",
+          "price": 74.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8733715333335",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.526Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45749238104279",
+          "label": "1",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45749238137047",
+          "label": "3",
+          "price": 45.98,
+          "available": true
+        },
+        {
+          "id": "45749238169815",
+          "label": "5",
+          "price": 74.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8733715333335",
+      "storeSlug": "ck-fish-world"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 18.99,
@@ -86,6 +153,92 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "buce-plant:454167691304",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:29.055Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45749238104279",
+          "label": "1",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45749238137047",
+          "label": "3",
+          "price": 45.98,
+          "available": true
+        },
+        {
+          "id": "45749238169815",
+          "label": "5",
+          "price": 74.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8733715333335",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45255178944712",
+          "label": "Title",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8354318483656",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32465309499473",
+          "label": "Golfball",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "32465309532241",
+          "label": "Large Cup",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:4654037925969",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "3802833780776",
+          "label": "Title",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "buce-plant:454167691304",
       "storeSlug": "buce-plant"
     }

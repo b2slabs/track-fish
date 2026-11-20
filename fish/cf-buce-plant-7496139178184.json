@@ -14,6 +14,12 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "UNS Blitz Stainless Steel Filter"
+    },
+    {
+      "listingId": "buce-plant:7607387947208",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "UNS Blitz Stainless Steel Filter - 32oz."
     }
   ],
   "events": [
@@ -35,6 +41,26 @@
         "first-observed"
       ],
       "listingId": "buce-plant:7496139178184",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 284.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42904121475272",
+          "label": "Title",
+          "price": 284.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:7607387947208",
       "storeSlug": "buce-plant"
     },
     {
@@ -60,6 +86,63 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:6843960164438",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 284.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42904121475272",
+          "label": "Title",
+          "price": 284.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7607387947208",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 199.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42504197603528",
+          "label": "Title",
+          "price": 199.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7496139178184",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:34:13.918Z",
+      "price": 199.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40159872254038",
+          "label": "6OZ",
+          "price": 199.99,
+          "available": false
+        },
+        {
+          "id": "40159872286806",
+          "label": "32OZ",
+          "price": 284.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:6843960164438",
       "storeSlug": "glass-aqua"
     }

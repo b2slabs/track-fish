@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:buce-plant:7644735078600",
-  "commonName": "Chihiros RGB Vivid Mini LED Aquarium Light",
+  "commonName": "Chihiros RGB Vivid II LED Aquarium Light (10th Edition)",
   "scientificName": null,
   "listings": [
     {
@@ -14,6 +14,24 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Chihiros RGB Vivid Mini LED Aquarium Light"
+    },
+    {
+      "listingId": "buce-plant:7644735963336",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Chihiros RGB Vivid Mini Pendant LED Light"
+    },
+    {
+      "listingId": "glass-aqua:7520994721878",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Chihiros WRGB Vivid 3 LED Aquarium Light"
+    },
+    {
+      "listingId": "glass-aqua:6898632196182",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Chihiros RGB Vivid II LED Aquarium Light (10th Edition)"
     }
   ],
   "events": [
@@ -35,6 +53,26 @@
         "first-observed"
       ],
       "listingId": "buce-plant:7644735078600",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 344.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42997254881480",
+          "label": "Title",
+          "price": 344.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:7644735963336",
       "storeSlug": "buce-plant"
     },
     {
@@ -61,6 +99,161 @@
         "first-observed"
       ],
       "listingId": "glass-aqua:6877850304598",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 699.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43561918201942",
+          "label": "Black",
+          "price": 659.99,
+          "available": false
+        },
+        {
+          "id": "43561918234710",
+          "label": "White",
+          "price": 699.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:7520994721878",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 516.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40345880166486",
+          "label": "Black",
+          "price": 516.99,
+          "available": true
+        },
+        {
+          "id": "40345880199254",
+          "label": "Silver",
+          "price": 516.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:6898632196182",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 344.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42997254881480",
+          "label": "Title",
+          "price": 344.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7644735963336",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 361.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42997247181000",
+          "label": "Title",
+          "price": 361.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7644735078600",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:34:13.918Z",
+      "price": 699.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43561918201942",
+          "label": "Black",
+          "price": 659.99,
+          "available": false
+        },
+        {
+          "id": "43561918234710",
+          "label": "White",
+          "price": 699.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:7520994721878",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T17:34:13.918Z",
+      "price": 344.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40345595150422",
+          "label": "Standard",
+          "price": 361.99,
+          "available": false
+        },
+        {
+          "id": "40345595183190",
+          "label": "Pendant",
+          "price": 344.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6877850304598",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T17:34:13.918Z",
+      "price": 516.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40345880166486",
+          "label": "Black",
+          "price": 516.99,
+          "available": true
+        },
+        {
+          "id": "40345880199254",
+          "label": "Silver",
+          "price": 516.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6898632196182",
       "storeSlug": "glass-aqua"
     }
   ]

@@ -8,9 +8,35 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Guppy Grass"
+    },
+    {
+      "listingId": "flip-aquatics:11336987844",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Guppy Grass"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44289452804",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:11336987844",
+      "storeSlug": "flip-aquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 8.59,
@@ -28,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "aquarium-fish:10375514751275",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:37.039Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44289452804",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:11336987844",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 8.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53433884279083",
+          "label": "Title",
+          "price": 8.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "aquarium-fish:10375514751275",
       "storeSlug": "aquarium-fish"
     }

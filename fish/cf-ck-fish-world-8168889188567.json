@@ -14,6 +14,12 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Fritz Expel-P"
+    },
+    {
+      "listingId": "ck-fish-world:8168889483479",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Fritz Expel-F"
     }
   ],
   "events": [
@@ -44,6 +50,32 @@
       "storeSlug": "ck-fish-world"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44152663965911",
+          "label": "10 pack",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "44152663998679",
+          "label": "20 pack",
+          "price": 25.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8168889483479",
+      "storeSlug": "ck-fish-world"
+    },
+    {
       "observedAt": "2026-11-20T06:27:38.526Z",
       "price": 15.98,
       "currency": "USD",
@@ -64,6 +96,29 @@
       ],
       "type": "heartbeat",
       "listingId": "ck-fish-world:8168889188567",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.526Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44152663965911",
+          "label": "10 pack",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "44152663998679",
+          "label": "20 pack",
+          "price": 25.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8168889483479",
       "storeSlug": "ck-fish-world"
     },
     {
@@ -89,6 +144,75 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "flip-aquatics:4574866014310",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:29.055Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44152663965911",
+          "label": "10 pack",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "44152663998679",
+          "label": "20 pack",
+          "price": 25.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8168889483479",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:29.055Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44152663212247",
+          "label": "10 pack",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "44152663245015",
+          "label": "20 pack",
+          "price": 27.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8168889188567",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:37.039Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31396224270438",
+          "label": "10 pack",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "31396224335974",
+          "label": "20 pack",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "flip-aquatics:4574866014310",
       "storeSlug": "flip-aquatics"
     }

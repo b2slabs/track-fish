@@ -8,9 +8,35 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Horned Nerite Snails"
+    },
+    {
+      "listingId": "flip-aquatics:6953542058086",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "3 Horned Nerite Snails"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40517111840870",
+          "label": "3 Pack",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6953542058086",
+      "storeSlug": "flip-aquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 11.99,
@@ -34,6 +60,46 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "buce-plant:7145992945864",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:37.039Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40517111840870",
+          "label": "3 Pack",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6953542058086",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41242319487176",
+          "label": "3 Pack",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "41242319519944",
+          "label": "6 Pack",
+          "price": 23.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "buce-plant:7145992945864",
       "storeSlug": "buce-plant"
     }

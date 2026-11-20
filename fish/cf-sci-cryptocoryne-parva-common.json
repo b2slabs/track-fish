@@ -26,9 +26,61 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Cryptocoryne Parva"
+    },
+    {
+      "listingId": "shrimpy-business:6650802831445",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Cryptocoryne Parva"
+    },
+    {
+      "listingId": "daku-aquatics:8741033017562",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Cryptocoryne Parva"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 10.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39610698793045",
+          "label": "Pot",
+          "price": 10.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6650802831445",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043835891930",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741033017562",
+      "storeSlug": "daku-aquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 8.99,
@@ -130,6 +182,132 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:11277474823",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:33.576Z",
+      "price": 10.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39610698793045",
+          "label": "Pot",
+          "price": 10.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6650802831445",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:57.952Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043835891930",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741033017562",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37566010893",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10012595021",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37565961293",
+          "label": "1 Cup",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10012585101",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "28660516685",
+          "label": "Pot",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12423019200593",
+          "label": "3 Pot Package",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "12423019233361",
+          "label": "5 Pot Package",
+          "price": 26.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8478582157",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:34:13.918Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "6197246492704",
+          "label": "Potted",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "42460897214550",
+          "label": "UNS Tissue Culture - Small",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "52738889287",
+          "label": "UNS Tissue Culture - Regular",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:11277474823",
       "storeSlug": "glass-aqua"
     }

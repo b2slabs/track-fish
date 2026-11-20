@@ -14,6 +14,12 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Chihiros WRGB Vivid 3 Light Shade with Mirror"
+    },
+    {
+      "listingId": "buce-plant:7644737372360",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Chihiros RGB Vivid2 Light Shade with Mirror"
     }
   ],
   "events": [
@@ -44,6 +50,32 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 54.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43034657095880",
+          "label": "Black",
+          "price": 54.99,
+          "available": false
+        },
+        {
+          "id": "43034657128648",
+          "label": "Silver",
+          "price": 54.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:7644737372360",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 54.99,
       "currency": "USD",
@@ -66,6 +98,75 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:7520998195286",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 54.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44911959539912",
+          "label": "Black",
+          "price": 54.99,
+          "available": true
+        },
+        {
+          "id": "44911959572680",
+          "label": "White",
+          "price": 54.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8272013263048",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 54.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43034657095880",
+          "label": "Black",
+          "price": 54.99,
+          "available": false
+        },
+        {
+          "id": "43034657128648",
+          "label": "Silver",
+          "price": 54.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7644737372360",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:34:13.918Z",
+      "price": 54.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43853247578198",
+          "label": "Black",
+          "price": 54.99,
+          "available": true
+        },
+        {
+          "id": "43853247610966",
+          "label": "White",
+          "price": 54.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:7520998195286",
       "storeSlug": "glass-aqua"
     }

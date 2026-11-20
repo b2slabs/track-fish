@@ -8,9 +8,35 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Everglades Pygmy Sunfish (Elassoma evergladei \"Green Swamp\")"
+    },
+    {
+      "listingId": "flip-aquatics:6871540301926",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Everglades Pygmy Sunfish"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40211776569446",
+          "label": "Imported / 1 Fish",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6871540301926",
+      "storeSlug": "flip-aquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 14.99,
@@ -28,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "imperial-tropicals:10465311588659",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:37.039Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40211776569446",
+          "label": "Imported / 1 Fish",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6871540301926",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:50.975Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "54097641275699",
+          "label": "0.25-0.5\" Unsexed",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "imperial-tropicals:10465311588659",
       "storeSlug": "imperial-tropicals"
     }

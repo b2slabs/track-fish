@@ -14,6 +14,12 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Aquario Neo Clip"
+    },
+    {
+      "listingId": "buce-plant:6742337290440",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Aquario Neo U-Clips"
     }
   ],
   "events": [
@@ -41,6 +47,32 @@
         "first-observed"
       ],
       "listingId": "buce-plant:6742349316296",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39885293387976",
+          "label": "Medium",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "39885293420744",
+          "label": "Large",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:6742337290440",
       "storeSlug": "buce-plant"
     },
     {
@@ -78,6 +110,87 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:6565275959382",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39885323206856",
+          "label": "Medium",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "39885323239624",
+          "label": "Large",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:6742349316296",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39885293387976",
+          "label": "Medium",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "39885293420744",
+          "label": "Large",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:6742337290440",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:34:13.918Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39342177353814",
+          "label": "P CLIP [8MM]",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "39342177386582",
+          "label": "P CLIP [12MM]",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "39342179057750",
+          "label": "U CLIP [8MM]",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "39342179254358",
+          "label": "U CLIP [12MM]",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:6565275959382",
       "storeSlug": "glass-aqua"
     }

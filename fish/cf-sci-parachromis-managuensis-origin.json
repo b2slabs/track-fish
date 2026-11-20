@@ -8,9 +8,86 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Jaguar Cichlid"
+    },
+    {
+      "listingId": "monster-aquarium:7626208379089",
+      "storeSlug": "monster-aquarium",
+      "storeName": "Monster Aquarium",
+      "commonName": "Jaguar Cichlid ( Herichthys Managuensis )"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42678289924305",
+          "label": "2\"",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7626208379089",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:03:59.400Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42678289924305",
+          "label": "2\"",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7626208379089",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42678289924305",
+          "label": "2\"",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7626208379089",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42678289924305",
+          "label": "2\"",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7626208379089",
+      "storeSlug": "monster-aquarium"
+    },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 8.99,
@@ -40,6 +117,52 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "aquarium-fish:5952153158",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:23.452Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42678289924305",
+          "label": "2\"",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7626208379089",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "8690851283063",
+          "label": "Small (1\")",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "32267413160017",
+          "label": "Medium (2\")",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "8690851119223",
+          "label": "Large (3\")",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "aquarium-fish:5952153158",
       "storeSlug": "aquarium-fish"
     }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:monodactylus-argenteus",
-  "commonName": "Mono Argentus",
+  "commonName": "Mono Argentus ( Monodactylus argenteus )",
   "scientificName": "Monodactylus argenteus",
   "listings": [
     {
@@ -8,12 +8,6 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Mono Argentus ( Monodactylus argenteus )"
-    },
-    {
-      "listingId": "ck-fish-world:8150013542615",
-      "storeSlug": "ck-fish-world",
-      "storeName": "CK Fish World",
-      "commonName": "Mono Argentus"
     }
   ],
   "events": [
@@ -72,26 +66,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 19.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "44098346778839",
-          "label": "Title",
-          "price": 19.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8150013542615",
-      "storeSlug": "ck-fish-world"
-    },
-    {
       "observedAt": "2026-11-20T06:27:37.184Z",
       "price": 20,
       "currency": "USD",
@@ -109,21 +83,21 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-20T06:27:38.526Z",
-      "price": 19.98,
+      "observedAt": "2026-11-20T17:33:23.452Z",
+      "price": 20,
       "currency": "USD",
-      "available": true,
+      "available": false,
       "variants": [
         {
-          "id": "44098346778839",
-          "label": "Title",
-          "price": 19.98,
-          "available": true
+          "id": "40865448198353",
+          "label": "1.5-2”",
+          "price": 20,
+          "available": false
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8150013542615",
-      "storeSlug": "ck-fish-world"
+      "listingId": "monster-aquarium:6974859837649",
+      "storeSlug": "monster-aquarium"
     }
   ]
 }

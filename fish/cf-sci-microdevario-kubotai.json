@@ -14,12 +14,6 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Green Kubotai Rasbora"
-    },
-    {
-      "listingId": "flip-aquatics:4673549926502",
-      "storeSlug": "flip-aquatics",
-      "storeName": "Flip Aquatics",
-      "commonName": "Green Kubotai Rasbora"
     }
   ],
   "events": [
@@ -333,24 +327,68 @@
       "storeSlug": "ck-fish-world"
     },
     {
-      "observedAt": "2026-11-20T06:27:40.165Z",
-      "price": 9.99,
+      "observedAt": "2026-11-20T17:33:09.827Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43221574156",
+          "label": "School of 3",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "15498627718",
+          "label": "School of 6",
+          "price": 33.99,
+          "available": false
+        },
+        {
+          "id": "43285029580",
+          "label": "School of 9",
+          "price": 45.99,
+          "available": false
+        },
+        {
+          "id": "15498627782",
+          "label": "School of 12",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4738172806",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:29.055Z",
+      "price": 19.98,
       "currency": "USD",
       "available": true,
       "variants": [
         {
-          "id": "31495117930598",
-          "label": "Imported / 1 Fish",
-          "price": 9.99,
+          "id": "45336106533079",
+          "label": "3",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45336106565847",
+          "label": "5",
+          "price": 29.98,
+          "available": true
+        },
+        {
+          "id": "45336106598615",
+          "label": "10",
+          "price": 49.98,
           "available": true
         }
       ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "flip-aquatics:4673549926502",
-      "storeSlug": "flip-aquatics"
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8149572419799",
+      "storeSlug": "ck-fish-world"
     }
   ]
 }
