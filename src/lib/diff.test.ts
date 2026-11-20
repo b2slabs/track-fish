@@ -18,6 +18,7 @@ function makeListing(overrides: Partial<Listing> = {}): Listing {
     storeSlug: 'store',
     storeName: 'Store',
     canonicalFishId: 'cf:store:1',
+    scientificName: null,
     firstObservedAt: '2026-01-01T00:00:00.000Z',
     lastObservedAt: '2026-01-01T00:00:00.000Z',
     ...overrides,

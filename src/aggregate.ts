@@ -66,7 +66,7 @@ export async function aggregateAndPublish(outDir: string): Promise<void> {
         continue;
       }
       console.log(
-        `Processed ${store.name}: ${result.listingCount} Listings (${result.changeCount} Change Events, ${result.heartbeatCount} Heartbeats)`
+        `Processed ${store.name}: ${result.listingCount} Listings (${result.changeCount} Change Events, ${result.heartbeatCount} Heartbeats, ${result.ambiguousCount} ambiguous matches pending review)`
       );
     }
 
