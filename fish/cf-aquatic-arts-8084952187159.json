@@ -45,6 +45,45 @@
       "changedFields": [
         "first-observed"
       ]
+    },
+    {
+      "observedAt": "2026-11-20T05:43:08.947Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44305123541271",
+          "label": "1 Ribbon Male",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "44305123639575",
+          "label": "1 Ribbon Female",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "44399397896471",
+          "label": "1 Non-Ribbon Male",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "44399399239959",
+          "label": "1 Non-Ribbon Female",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "51702576906607",
+          "label": "1 Non-Ribbon Male/Female Pair",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat"
     }
   ]
 }

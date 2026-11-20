@@ -33,6 +33,33 @@
       "changedFields": [
         "first-observed"
       ]
+    },
+    {
+      "observedAt": "2026-11-20T05:43:08.947Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39349038153814",
+          "label": "1 Frog",
+          "price": 4.99,
+          "available": true
+        },
+        {
+          "id": "39349038186582",
+          "label": "3 Frogs",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "39349038219350",
+          "label": "6 Frogs",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat"
     }
   ]
 }

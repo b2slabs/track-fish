@@ -33,6 +33,33 @@
       "changedFields": [
         "first-observed"
       ]
+    },
+    {
+      "observedAt": "2026-11-20T05:43:08.947Z",
+      "price": 1.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39520207011926",
+          "label": "1 Plant",
+          "price": 1.99,
+          "available": true
+        },
+        {
+          "id": "39520207568982",
+          "label": "2 Plants",
+          "price": 3.99,
+          "available": true
+        },
+        {
+          "id": "39520208814166",
+          "label": "3 Plants",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat"
     }
   ]
 }

@@ -45,6 +45,45 @@
       "changedFields": [
         "first-observed"
       ]
+    },
+    {
+      "observedAt": "2026-11-20T05:43:08.947Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51566771962223",
+          "label": "1 Shrimp",
+          "price": 4.99,
+          "available": true
+        },
+        {
+          "id": "51566771994991",
+          "label": "5 Shrimp",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "51566772027759",
+          "label": "10 Shrimp",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "51566772060527",
+          "label": "20 Shrimp",
+          "price": 47.99,
+          "available": false
+        },
+        {
+          "id": "53130894115183",
+          "label": "Colony Booster Pack (3 Females + 2 Males)",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat"
     }
   ]
 }

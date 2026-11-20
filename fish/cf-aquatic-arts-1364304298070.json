@@ -51,6 +51,51 @@
       "changedFields": [
         "first-observed"
       ]
+    },
+    {
+      "observedAt": "2026-11-20T05:43:08.947Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12468929462358",
+          "label": "1 Juvenile",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "12468929495126",
+          "label": "Group of 3 Juveniles",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "12468929527894",
+          "label": "Group of 6 Juveniles",
+          "price": 65.99,
+          "available": false
+        },
+        {
+          "id": "33272521457750",
+          "label": "1 Adult",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "33272521850966",
+          "label": "Group of 3 Adults",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33272531386454",
+          "label": "Group of 6 Adults",
+          "price": 58.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat"
     }
   ]
 }

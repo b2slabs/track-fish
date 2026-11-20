@@ -33,6 +33,36 @@
       "changedFields": [
         "first-observed"
       ]
+    },
+    {
+      "observedAt": "2026-11-20T05:43:08.947Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53530503020911",
+          "label": "1 Male",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "53530503053679",
+          "label": "1 Female",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "53530503086447",
+          "label": "1 Pair ( 1 Male + 1 Female )",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ]
     }
   ]
 }

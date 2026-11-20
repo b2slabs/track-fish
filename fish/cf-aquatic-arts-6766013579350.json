@@ -39,6 +39,39 @@
       "changedFields": [
         "first-observed"
       ]
+    },
+    {
+      "observedAt": "2026-11-20T05:43:08.947Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39877385715798",
+          "label": "School of 3",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "39877385748566",
+          "label": "School of 6",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "39877385781334",
+          "label": "School of 9",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "39877385814102",
+          "label": "School of 12",
+          "price": 20.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat"
     }
   ]
 }

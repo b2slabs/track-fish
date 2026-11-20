@@ -33,6 +33,33 @@
       "changedFields": [
         "first-observed"
       ]
+    },
+    {
+      "observedAt": "2026-11-20T05:43:08.947Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39425063485526",
+          "label": "1 Fish",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "39425063518294",
+          "label": "Group of 3",
+          "price": 35.99,
+          "available": false
+        },
+        {
+          "id": "39425063551062",
+          "label": "Group of 6",
+          "price": 65.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat"
     }
   ]
 }

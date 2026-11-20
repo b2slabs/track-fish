@@ -27,6 +27,31 @@
       "changedFields": [
         "first-observed"
       ]
+    },
+    {
+      "observedAt": "2026-11-20T05:43:08.947Z",
+      "price": 79.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67958694052207",
+          "label": "School of 3 (Tank Bred)",
+          "price": 79.99,
+          "available": true
+        },
+        {
+          "id": "67958694084975",
+          "label": "School of 6 (Tank Bred)",
+          "price": 127.48,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ]
     }
   ]
 }

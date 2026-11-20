@@ -33,6 +33,33 @@
       "changedFields": [
         "first-observed"
       ]
+    },
+    {
+      "observedAt": "2026-11-20T05:43:08.947Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39749140938838",
+          "label": "1 Adult",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "39749140971606",
+          "label": "3 Adults",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "39749141004374",
+          "label": "6 Adults",
+          "price": 189.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat"
     }
   ]
 }

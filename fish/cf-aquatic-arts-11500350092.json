@@ -33,6 +33,33 @@
       "changedFields": [
         "first-observed"
       ]
+    },
+    {
+      "observedAt": "2026-11-20T05:43:08.947Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43568096652",
+          "label": "1 Snail",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "43568096844",
+          "label": "3 Snails",
+          "price": 42.99,
+          "available": true
+        },
+        {
+          "id": "43568096908",
+          "label": "5 Snails",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat"
     }
   ]
 }

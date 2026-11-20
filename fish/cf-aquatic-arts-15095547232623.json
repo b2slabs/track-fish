@@ -33,6 +33,33 @@
       "changedFields": [
         "first-observed"
       ]
+    },
+    {
+      "observedAt": "2026-11-20T05:43:08.947Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53494251946351",
+          "label": "1 Male (Locally Bred)",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "53494251979119",
+          "label": "1 Female (Locally Bred)",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "53494252011887",
+          "label": "1 Pair ( 1 Male + 1 Female ) Locally Bred",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat"
     }
   ]
 }
