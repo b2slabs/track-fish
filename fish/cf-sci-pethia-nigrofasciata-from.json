@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Black Ruby Barb"
+    },
+    {
+      "listingId": "flip-aquatics:7487741132902",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Black Ruby Barb"
     }
   ],
   "events": [
@@ -30,6 +36,43 @@
       ],
       "listingId": "aquahuna:7533777256523",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42043219148875",
+          "label": "Title",
+          "price": 6,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7533777256523",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 4.75,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42294162391142",
+          "label": "Imported / 1 Fish",
+          "price": 4.75,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:7487741132902",
+      "storeSlug": "flip-aquatics"
     }
   ]
 }

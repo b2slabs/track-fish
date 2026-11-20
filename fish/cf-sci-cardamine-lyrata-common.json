@@ -1,0 +1,105 @@
+{
+  "canonicalFishId": "cf:sci:cardamine-lyrata-common",
+  "commonName": "Cardamine Lyrata",
+  "scientificName": "Cardamine lyrata common",
+  "listings": [
+    {
+      "listingId": "buce-plant:10011881869",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Cardamine Lyrata"
+    },
+    {
+      "listingId": "buce-plant:9369748941",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Cardamine Lyrata Vietnam UNS Tissue Culture"
+    },
+    {
+      "listingId": "glass-aqua:11277468871",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Cardamine Lyrata"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42794349297864",
+          "label": "Lead Bunch",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "44551968227528",
+          "label": "Pot",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:10011881869",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "34296743309",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:9369748941",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42201170903126",
+          "label": "Potted",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "42573548060758",
+          "label": "Bunch",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "42201170935894",
+          "label": "UNS Tissue Culture",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:11277468871",
+      "storeSlug": "glass-aqua"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:betta-splendens-note",
-  "commonName": "Half Moon Betta",
+  "commonName": "Crowntail Betta",
   "scientificName": "Betta splendens note",
   "listings": [
     {
@@ -26,6 +26,12 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Half Moon Betta"
+    },
+    {
+      "listingId": "shrimpy-business:9946197131554",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Crowntail Betta"
     }
   ],
   "events": [
@@ -114,6 +120,100 @@
       ],
       "listingId": "ck-fish-world:8150006661335",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40968378941515",
+          "label": "Title",
+          "price": 6,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7192600936523",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 9.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15719597211691",
+          "label": "Title",
+          "price": 9.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1710180630571",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 7.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15719601242155",
+          "label": "Title",
+          "price": 7.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1710181089323",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.526Z",
+      "price": 6.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44098276851927",
+          "label": "Male",
+          "price": 7.98,
+          "available": true
+        },
+        {
+          "id": "44098276884695",
+          "label": "Female",
+          "price": 6.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150006661335",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 24.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50601766256930",
+          "label": "Title",
+          "price": 24.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9946197131554",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

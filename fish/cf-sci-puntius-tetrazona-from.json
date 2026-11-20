@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:puntius-tetrazona-from",
-  "commonName": "Albino Tiger Barb",
+  "commonName": "Green Tiger Barb",
   "scientificName": "Puntius tetrazona from",
   "listings": [
     {
@@ -14,6 +14,24 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Albino Tiger Barb"
+    },
+    {
+      "listingId": "flip-aquatics:6840409718886",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Green Tiger Barb"
+    },
+    {
+      "listingId": "flip-aquatics:6840409981030",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Albino Tiger Barb"
+    },
+    {
+      "listingId": "imperial-tropicals:8397984170291",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Green Tiger Barb"
     }
   ],
   "events": [
@@ -56,6 +74,106 @@
       ],
       "listingId": "aquahuna:1723515207723",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 4,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15772388851755",
+          "label": "Title",
+          "price": 4,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1723516256299",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 4,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15772385116203",
+          "label": "Title",
+          "price": 4,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1723515207723",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39991508992102",
+          "label": "Imported / 1 Fish",
+          "price": 5.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6840409718886",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39991509155942",
+          "label": "Imported / 1 Fish",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6840409981030",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611745968435",
+          "label": "(3 Pack) 1-2\" Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45611746001203",
+          "label": "(10 Pack) 1-2\" Unsexed",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8397984170291",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

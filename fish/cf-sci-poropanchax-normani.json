@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:poropanchax-normani",
-  "commonName": "Lamp Eye Killifish",
+  "commonName": "Norman's Lampeye Killifish (Tank Bred)",
   "scientificName": "Poropanchax normani",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Lamp Eye Killifish"
+    },
+    {
+      "listingId": "shrimpy-business:8972865175842",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Norman's Lampeye Killifish (Tank Bred)"
     }
   ],
   "events": [
@@ -264,6 +270,108 @@
       ],
       "listingId": "ck-fish-world:8150020587735",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43927858380",
+          "label": "School of 3",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "43927858444",
+          "label": "School of 6",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "43927858508",
+          "label": "School of 9",
+          "price": 27.99,
+          "available": false
+        },
+        {
+          "id": "43927858572",
+          "label": "School of 12",
+          "price": 33.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11554902284",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.526Z",
+      "price": 14.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336133894359",
+          "label": "3",
+          "price": 14.98,
+          "available": true
+        },
+        {
+          "id": "45336133927127",
+          "label": "5",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45966381383895",
+          "label": "10",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150020587735",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 12,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47810284126498",
+          "label": "3 Fish",
+          "price": 12,
+          "available": true
+        },
+        {
+          "id": "47810284159266",
+          "label": "6 Fish",
+          "price": 21.95,
+          "available": true
+        },
+        {
+          "id": "51662842691874",
+          "label": "12 Fish",
+          "price": 40.95,
+          "available": true
+        },
+        {
+          "id": "51662842724642",
+          "label": "24 Fish",
+          "price": 76.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:8972865175842",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

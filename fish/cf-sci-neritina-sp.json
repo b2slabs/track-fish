@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:neritina-sp",
-  "commonName": "Assorted Nerite Snail",
+  "commonName": "3 Assorted Nerite Snails",
   "scientificName": "Neritina sp",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Assorted Nerite Snail"
+    },
+    {
+      "listingId": "flip-aquatics:6953544646758",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "3 Assorted Nerite Snails"
     }
   ],
   "events": [
@@ -213,6 +219,72 @@
       ],
       "listingId": "aquahuna:1756949348395",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51718192628079",
+          "label": "3 Snails",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "51718192660847",
+          "label": "5 Snails",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "51718192693615",
+          "label": "10 Snails",
+          "price": 27.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14649682329967",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 2.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15977995599915",
+          "label": "Title",
+          "price": 2.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1756949348395",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40517125406822",
+          "label": "3 Pack",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6953544646758",
+      "storeSlug": "flip-aquatics"
     }
   ]
 }

@@ -8,6 +8,18 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Cryptocoryne Pink Flamingo"
+    },
+    {
+      "listingId": "shrimpy-business:8129648525602",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Cryptocoryne Pink Flamingo"
+    },
+    {
+      "listingId": "daku-aquatics:8799425855706",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Cryptocoryne Pink Flamingo"
     }
   ],
   "events": [
@@ -223,6 +235,81 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:5018409697366",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33518160281686",
+          "label": "1 Plant",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "33518160314454",
+          "label": "2 Plants",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "33518160347222",
+          "label": "3 Plants",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "39709380968534",
+          "label": "1 POT",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:5018409697366",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 17.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44501652406562",
+          "label": "Title",
+          "price": 17.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:8129648525602",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46234580058330",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8799425855706",
+      "storeSlug": "daku-aquatics"
     }
   ]
 }

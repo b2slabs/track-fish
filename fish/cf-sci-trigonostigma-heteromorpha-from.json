@@ -20,6 +20,18 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Harlequin Rasbora"
+    },
+    {
+      "listingId": "shrimpy-business:6703159148629",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Harlequin Rasbora"
+    },
+    {
+      "listingId": "imperial-tropicals:8397998752051",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Harlequin Rasbora"
     }
   ],
   "events": [
@@ -94,6 +106,133 @@
       ],
       "listingId": "ck-fish-world:8149536374999",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 3,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15774464213035",
+          "label": "Title",
+          "price": 3,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1724421111851",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 3,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15774438948907",
+          "label": "Title",
+          "price": 3,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1724403810347",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.526Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336118198487",
+          "label": "3",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45336118231255",
+          "label": "5",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45336118264023",
+          "label": "10",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8149536374999",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 14.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39884268535893",
+          "label": "3 Fish",
+          "price": 14.95,
+          "available": true
+        },
+        {
+          "id": "39884268568661",
+          "label": "6 Fish",
+          "price": 26.95,
+          "available": true
+        },
+        {
+          "id": "51662848065826",
+          "label": "12 Fish",
+          "price": 50.95,
+          "available": true
+        },
+        {
+          "id": "51662848098594",
+          "label": "24 Fish",
+          "price": 95.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6703159148629",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611782439219",
+          "label": "(3 Pack) 0.75-1\" Unsexed",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "45611782471987",
+          "label": "(10 Pack) 0.75-1\" Unsexed",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8397998752051",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:baryancistrus-chrysolomus",
-  "commonName": "L47 Mango Pleco (Baryancistrus chrysolomus)",
+  "commonName": "L047 Mango Pleco",
   "scientificName": "Baryancistrus chrysolomus",
   "listings": [
     {
@@ -8,6 +8,18 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "L47 Mango Pleco (Baryancistrus chrysolomus)"
+    },
+    {
+      "listingId": "aquarium-fish:4287367217233",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "L-47 Mango Pleco"
+    },
+    {
+      "listingId": "global-exoticquatics:8547780690112",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "L047 Mango Pleco"
     }
   ],
   "events": [
@@ -82,6 +94,69 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7004703949009",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41808298574033",
+          "label": "2.5-3\"",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "40965262606545",
+          "label": "3.5-4”",
+          "price": 70,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7004703949009",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 74.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "30892625133649",
+          "label": "Title",
+          "price": 74.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:4287367217233",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 50,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48146035146944",
+          "label": "2.5-3.5in",
+          "price": 50,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8547780690112",
+      "storeSlug": "global-exoticquatics"
     }
   ]
 }

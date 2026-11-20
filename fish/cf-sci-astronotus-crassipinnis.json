@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:astronotus-crassipinnis",
-  "commonName": "Bumble Bee Oscar(Astronotus crassipinnis)",
+  "commonName": "Bumblebee Oscar",
   "scientificName": "Astronotus crassipinnis",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Bumble Bee Oscar(Astronotus crassipinnis)"
+    },
+    {
+      "listingId": "imperial-tropicals:9748071809331",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Bumblebee Oscar"
     }
   ],
   "events": [
@@ -64,6 +70,43 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:6972695970001",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 68.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40860591915217",
+          "label": "4-5”",
+          "price": 68.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6972695970001",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51543786422579",
+          "label": "2-3\" Unsexed Araguaia",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9748071809331",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

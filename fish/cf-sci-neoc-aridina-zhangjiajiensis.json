@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Snowball Shrimp"
+    },
+    {
+      "listingId": "imperial-tropicals:8398051246387",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Snowball Shrimp"
     }
   ],
   "events": [
@@ -30,6 +36,61 @@
       ],
       "listingId": "aquahuna:948441710635",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 3.63,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15746612002859",
+          "label": "Title",
+          "price": 3.63,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:948441710635",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611969020211",
+          "label": "(3 Pack) 0.25-0.75\" Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45611969052979",
+          "label": "(6 Pack) 0.25-0.75\" Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "45611969085747",
+          "label": "(12 Pack) 0.25-0.75\" Unsexed",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "45611969118515",
+          "label": "(25 Pack) 0.25-0.75\" Unsexed",
+          "price": 74.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398051246387",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

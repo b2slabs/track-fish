@@ -1,0 +1,73 @@
+{
+  "canonicalFishId": "cf:sci:anubias-nana-origin",
+  "commonName": "Anubias Nana",
+  "scientificName": "Anubias nana origin",
+  "listings": [
+    {
+      "listingId": "aquarium-fish:1472221642822",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Nana Anubias"
+    },
+    {
+      "listingId": "daku-aquatics:8741025939674",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Anubias Nana"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 12.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12961951809606",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": true
+        },
+        {
+          "id": "12961951842374",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "12961951875142",
+          "label": "Small (2\")",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:1472221642822",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043823079642",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741025939674",
+      "storeSlug": "daku-aquatics"
+    }
+  ]
+}

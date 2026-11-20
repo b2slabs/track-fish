@@ -8,6 +8,18 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Black Lava Rock"
+    },
+    {
+      "listingId": "buce-plant:10887082381",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Black Lava Rock"
+    },
+    {
+      "listingId": "glass-aqua:1365154955350",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Black Lava Rock"
     }
   ],
   "events": [
@@ -42,6 +54,75 @@
       ],
       "listingId": "ck-fish-world:8602581369047",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.526Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45347175530711",
+          "label": "5",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45347175563479",
+          "label": "10",
+          "price": 38.98,
+          "available": true
+        },
+        {
+          "id": "45347175596247",
+          "label": "20",
+          "price": 77.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8602581369047",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46109077837",
+          "label": "Title",
+          "price": 44.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:10887082381",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12471710449750",
+          "label": "Title",
+          "price": 44.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:1365154955350",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

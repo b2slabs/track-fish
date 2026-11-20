@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:geophagus-sveni-from",
-  "commonName": "Geophagus sveni",
+  "commonName": "Geophagus Sveni",
   "scientificName": "Geophagus sveni from",
   "listings": [
     {
@@ -8,6 +8,18 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Geophagus sveni"
+    },
+    {
+      "listingId": "imperial-tropicals:8398060388659",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Geophagus sveni"
+    },
+    {
+      "listingId": "global-exoticquatics:8273570332864",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Geophagus Sveni"
     }
   ],
   "events": [
@@ -30,6 +42,87 @@
       ],
       "listingId": "aquahuna:6847367479371",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40050073370699",
+          "label": "Title",
+          "price": 15.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6847367479371",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611997593907",
+          "label": "1-2\" Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "45611997626675",
+          "label": "2-3” Unsexed",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "45611997659443",
+          "label": "3-4” Unsexed",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "47187003605299",
+          "label": "4-5\" Unsexed",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "45611997692211",
+          "label": "5-6\" Unsexed",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398060388659",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48757105721536",
+          "label": "2.5-3 inch",
+          "price": 25,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8273570332864",
+      "storeSlug": "global-exoticquatics"
     }
   ]
 }

@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Royal Farlowella"
+    },
+    {
+      "listingId": "imperial-tropicals:8398161412403",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Royal Farlowella"
     }
   ],
   "events": [
@@ -30,6 +36,55 @@
       ],
       "listingId": "aquahuna:6763720769611",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 11,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39849912565835",
+          "label": "Title",
+          "price": 11,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6763720769611",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53399591584051",
+          "label": "2-3\" Unsexed IMP Captive Bred",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "45612261933363",
+          "label": "4-5\" Unsexed Wild Colombian",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "50986443538739",
+          "label": "5-6\" Unsexed Wild Colombian",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398161412403",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

@@ -1,0 +1,79 @@
+{
+  "canonicalFishId": "cf:shrimpy-business:9742885880098",
+  "commonName": "3 Red Pumpkin Nerite Snails",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "shrimpy-business:9742885880098",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Red Pumpkin Nerite Snail"
+    },
+    {
+      "listingId": "flip-aquatics:7006937514086",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "3 Red Pumpkin Nerite Snails"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49974377611554",
+          "label": "1 Snail",
+          "price": 6,
+          "available": true
+        },
+        {
+          "id": "49974377644322",
+          "label": "3 Snails",
+          "price": 15.95,
+          "available": true
+        },
+        {
+          "id": "51662838661410",
+          "label": "6 Snail",
+          "price": 30.95,
+          "available": true
+        },
+        {
+          "id": "51662838694178",
+          "label": "12 Snail",
+          "price": 57.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9742885880098",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40717731397734",
+          "label": "3 Pack",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:7006937514086",
+      "storeSlug": "flip-aquatics"
+    }
+  ]
+}

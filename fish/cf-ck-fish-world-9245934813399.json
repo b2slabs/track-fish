@@ -8,6 +8,12 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "UNS Grey Straight Scissors"
+    },
+    {
+      "listingId": "buce-plant:4379511095377",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "UNS Grey Straight Scissors"
     }
   ],
   "events": [
@@ -30,6 +36,43 @@
       ],
       "listingId": "ck-fish-world:9245934813399",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.526Z",
+      "price": 25.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48517271879895",
+          "label": "Title",
+          "price": 25.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:9245934813399",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 25.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31298633990225",
+          "label": "Title",
+          "price": 25.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:4379511095377",
+      "storeSlug": "buce-plant"
     }
   ]
 }

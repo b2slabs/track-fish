@@ -1,0 +1,73 @@
+{
+  "canonicalFishId": "cf:buce-plant:7644734292168",
+  "commonName": "Chihiros LED Light - Nova 1",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "buce-plant:7644734292168",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Chihiros Nova 1 LED Light"
+    },
+    {
+      "listingId": "glass-aqua:6875334738006",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Chihiros LED Light - Nova 1"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 494.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42997241905352",
+          "label": "Title",
+          "price": 494.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:7644734292168",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 494.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43497249144918",
+          "label": "Nova 1 Only",
+          "price": 494.99,
+          "available": true
+        },
+        {
+          "id": "43497249177686",
+          "label": "Light Stand Only",
+          "price": 65.99,
+          "available": false
+        },
+        {
+          "id": "43497249210454",
+          "label": "Nova 1 + Light Stand",
+          "price": 505.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:6875334738006",
+      "storeSlug": "glass-aqua"
+    }
+  ]
+}

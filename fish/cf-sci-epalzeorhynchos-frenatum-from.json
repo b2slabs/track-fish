@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:epalzeorhynchos-frenatum-from",
-  "commonName": "Albino Rainbow Shark (S)",
+  "commonName": "Rainbow Shark",
   "scientificName": "Epalzeorhynchos frenatum from",
   "listings": [
     {
@@ -14,6 +14,18 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Albino Rainbow Shark (S)"
+    },
+    {
+      "listingId": "global-exoticquatics:8514132082880",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Albino Rainbow Shark"
+    },
+    {
+      "listingId": "global-exoticquatics:8514128675008",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Rainbow Shark"
     }
   ],
   "events": [
@@ -56,6 +68,80 @@
       ],
       "listingId": "aquahuna:6852975001675",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40062580719691",
+          "label": "Title",
+          "price": 5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6852975362123",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40062577999947",
+          "label": "Title",
+          "price": 5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6852975001675",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 6,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47784015462592",
+          "label": "1.5-2in",
+          "price": 6,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8514132082880",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47784015265984",
+          "label": "1.5-2.5 in",
+          "price": 10,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8514128675008",
+      "storeSlug": "global-exoticquatics"
     }
   ]
 }

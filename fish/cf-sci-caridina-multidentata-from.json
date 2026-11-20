@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:caridina-multidentata-from",
-  "commonName": "Amano Shrimp XL",
+  "commonName": "Amano Shrimp",
   "scientificName": "Caridina multidentata from",
   "listings": [
     {
@@ -32,6 +32,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Amano Shrimp XL"
+    },
+    {
+      "listingId": "glass-aqua:6850501902422",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Amano Shrimp"
     }
   ],
   "events": [
@@ -134,6 +140,117 @@
       ],
       "listingId": "aquahuna:947857358891",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 4.2,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41883462402123",
+          "label": "Title",
+          "price": 4.2,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7475876495435",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40090004652107",
+          "label": "Title",
+          "price": 5.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6863417147467",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 4,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39827079102539",
+          "label": "Title",
+          "price": 4,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6752407846987",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 2.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15778430451755",
+          "label": "Title",
+          "price": 2.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1725707419691",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 4.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15746590572587",
+          "label": "Title",
+          "price": 4.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:947857358891",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40186861977686",
+          "label": "10 Pack",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "40186862010454",
+          "label": "20 Pack",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:6850501902422",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

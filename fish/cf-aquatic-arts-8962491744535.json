@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:aquatic-arts:8962491744535",
-  "commonName": "Alternanthera Reineckii Bronze  (Alternanthera Reineckii \"Bronze\") Tissue Culture!",
+  "commonName": "Alternanthera Reineckii Mini | Tissue Culture",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Alternanthera Reineckii Bronze  (Alternanthera Reineckii \"Bronze\") Tissue Culture!"
+    },
+    {
+      "listingId": "flip-aquatics:6714120110182",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Alternanthera Reineckii Mini | Tissue Culture"
     }
   ],
   "events": [
@@ -115,6 +121,43 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:8962491744535",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47625880469783",
+          "label": "1 Tissue Culture",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:8962491744535",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39604215152742",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6714120110182",
+      "storeSlug": "flip-aquatics"
     }
   ]
 }

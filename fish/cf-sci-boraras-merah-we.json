@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Phoenix Rasbora"
+    },
+    {
+      "listingId": "shrimpy-business:9470968693026",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Phoenix Rasbora"
     }
   ],
   "events": [
@@ -30,6 +36,61 @@
       ],
       "listingId": "aquahuna:7456012402763",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 3.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41820315320395",
+          "label": "Title",
+          "price": 3.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7456012402763",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49112853676322",
+          "label": "3 Fish",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "49112853709090",
+          "label": "6 Fish",
+          "price": 31.95,
+          "available": false
+        },
+        {
+          "id": "51662841217314",
+          "label": "12 Fish",
+          "price": 60.95,
+          "available": false
+        },
+        {
+          "id": "51662841250082",
+          "label": "24 Fish",
+          "price": 114.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9470968693026",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

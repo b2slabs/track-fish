@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:bedotia-madagascarensis-from",
-  "commonName": "Madagascar Rainbow Fish",
+  "commonName": "Madagascar Rainbowfish",
   "scientificName": "Bedotia madagascarensis from",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Madagascar Rainbow Fish"
+    },
+    {
+      "listingId": "imperial-tropicals:8398092239155",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Madagascar Rainbowfish"
     }
   ],
   "events": [
@@ -30,6 +36,61 @@
       ],
       "listingId": "aquahuna:6830645870667",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40012686721099",
+          "label": "Title",
+          "price": 8,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6830645870667",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50956911903027",
+          "label": "1-2\" Unsexed",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "45612084035891",
+          "label": "2-3” Unsexed",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "45612084068659",
+          "label": "2-3” Male",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "45612084101427",
+          "label": "2-3” Pair (1 Male, 1 Female)",
+          "price": 26.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398092239155",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

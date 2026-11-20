@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Avocado Puffer (Auriglobus modestus)"
+    },
+    {
+      "listingId": "imperial-tropicals:9577940877619",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Avocado Puffer (Auriglobus modestus)"
     }
   ],
   "events": [
@@ -64,6 +70,55 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7154920390865",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41344889716945",
+          "label": "2-2.5\"",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7154920390865",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52769363919155",
+          "label": "1-2\" Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "50735835447603",
+          "label": "2-3\" Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "50747507802419",
+          "label": "3-4\" Unsexed",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9577940877619",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:nannacara-anomala",
-  "commonName": "Golden Dwarf Cichlid (Nannacara anomala) Proven Pair",
+  "commonName": "Golden Dwarf Cichlid (Nannacara anomala)",
   "scientificName": "Nannacara anomala",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Golden Dwarf Cichlid (Nannacara anomala) Proven Pair"
+    },
+    {
+      "listingId": "imperial-tropicals:8398117994803",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Golden Dwarf Cichlid (Nannacara anomala)"
     }
   ],
   "events": [
@@ -285,6 +291,84 @@
       ],
       "listingId": "nationwide-aquatics-usa:8768565346457",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 55.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "857216516108",
+          "label": "1 Juvenile",
+          "price": 55.99,
+          "available": false
+        },
+        {
+          "id": "857011486732",
+          "label": "3 Juveniles",
+          "price": 149.99,
+          "available": false
+        },
+        {
+          "id": "33093676859478",
+          "label": "1 Young Adult Male/Female Pair",
+          "price": 105.99,
+          "available": false
+        },
+        {
+          "id": "33093677252694",
+          "label": "1 Young Adult Male",
+          "price": 55.99,
+          "available": false
+        },
+        {
+          "id": "33093677776982",
+          "label": "1 Young Adult Female",
+          "price": 55.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:86266085388",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.060Z",
+      "price": 40,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47868822552729",
+          "label": "Title",
+          "price": 40,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8768565346457",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612143935795",
+          "label": "1-2\" Unsexed",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398117994803",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

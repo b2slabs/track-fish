@@ -1,0 +1,105 @@
+{
+  "canonicalFishId": "cf:sci:ludwigia-arcuata-common",
+  "commonName": "Ludwigia Arcuata",
+  "scientificName": "Ludwigia arcuata common",
+  "listings": [
+    {
+      "listingId": "buce-plant:1347990552657",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Ludwigia Arcuata Aquatic Farmer Tissue Culture"
+    },
+    {
+      "listingId": "buce-plant:8561782029",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Ludwigia Arcuata"
+    },
+    {
+      "listingId": "glass-aqua:11277465479",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Ludwigia Arcuata"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12347265515601",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:1347990552657",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "33978913677",
+          "label": "Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12396580765777",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.97,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8561782029",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42658897952854",
+          "label": "Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "42658897985622",
+          "label": "UNS Tissue Culture",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "42658898018390",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:11277465479",
+      "storeSlug": "glass-aqua"
+    }
+  ]
+}

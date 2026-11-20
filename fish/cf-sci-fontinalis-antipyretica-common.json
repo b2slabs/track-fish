@@ -1,0 +1,61 @@
+{
+  "canonicalFishId": "cf:sci:fontinalis-antipyretica-common",
+  "commonName": "Willow Moss",
+  "scientificName": "Fontinalis antipyretica common",
+  "listings": [
+    {
+      "listingId": "buce-plant:485991383080",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Willow Moss on Stainless Steel"
+    },
+    {
+      "listingId": "buce-plant:9413505741",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Willow Moss"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "3911132545064",
+          "label": "Stainless Steel Mesh",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:485991383080",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "34569156749",
+          "label": "Golfball",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:9413505741",
+      "storeSlug": "buce-plant"
+    }
+  ]
+}

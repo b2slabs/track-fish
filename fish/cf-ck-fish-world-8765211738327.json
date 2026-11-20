@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:ck-fish-world:8765211738327",
-  "commonName": "UNS Nimbus Pro Misting System",
+  "commonName": "UNS Nimbus - Smart Misting System",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "UNS Nimbus Pro Misting System"
+    },
+    {
+      "listingId": "buce-plant:7496137703624",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "UNS Nimbus - Smart Misting System"
     }
   ],
   "events": [
@@ -30,6 +36,43 @@
       ],
       "listingId": "ck-fish-world:8765211738327",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.526Z",
+      "price": 199.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45858681651415",
+          "label": "Title",
+          "price": 199.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8765211738327",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 189.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42504186888392",
+          "label": "Title",
+          "price": 189.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:7496137703624",
+      "storeSlug": "buce-plant"
     }
   ]
 }

@@ -1,0 +1,67 @@
+{
+  "canonicalFishId": "cf:sci:blyxa-japonica-common",
+  "commonName": "Blyxa Japonica",
+  "scientificName": "Blyxa japonica common",
+  "listings": [
+    {
+      "listingId": "buce-plant:10560566989",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Blyxa Japonica"
+    },
+    {
+      "listingId": "glass-aqua:1341690773590",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Blyxa Japonica"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41364974349",
+          "label": "Lead Bunch",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "12397007437905",
+          "label": "4 Bunches",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:10560566989",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12368339238998",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:1341690773590",
+      "storeSlug": "glass-aqua"
+    }
+  ]
+}

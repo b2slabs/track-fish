@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hemigrammus-bleheri",
-  "commonName": "Rummy Nose Tetra (Hemigrammus bleheri), Tank-Bred",
+  "commonName": "Rummy Nose Tetra",
   "scientificName": "Hemigrammus bleheri",
   "listings": [
     {
@@ -8,6 +8,24 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Rummy Nose Tetra (Hemigrammus bleheri), Tank-Bred"
+    },
+    {
+      "listingId": "flip-aquatics:6663904002150",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Rummy Nose Tetra"
+    },
+    {
+      "listingId": "aquarium-fish:2658090844241",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Platinum Rummynose Tetra"
+    },
+    {
+      "listingId": "global-exoticquatics:8439020617920",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Rummy Nose Tetra"
     }
   ],
   "events": [
@@ -259,6 +277,107 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:5477369478",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "17133687174",
+          "label": "School of 3",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "17133687302",
+          "label": "School of 6",
+          "price": 25.99,
+          "available": true
+        },
+        {
+          "id": "12368143122518",
+          "label": "School of 9",
+          "price": 37.99,
+          "available": true
+        },
+        {
+          "id": "17133687494",
+          "label": "School of 12",
+          "price": 47.99,
+          "available": true
+        },
+        {
+          "id": "12368143155286",
+          "label": "School of 24",
+          "price": 89.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:5477369478",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39498064298086",
+          "label": "Imported / 1 Fish",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6663904002150",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "22074892386385",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:2658090844241",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 20,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47266229420224",
+          "label": "5 fish",
+          "price": 20,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8439020617920",
+      "storeSlug": "global-exoticquatics"
     }
   ]
 }

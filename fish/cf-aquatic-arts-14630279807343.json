@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:aquatic-arts:14630279807343",
-  "commonName": "Cryptocoryne spiralis",
+  "commonName": "Cryptocoryne Spiralis",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Cryptocoryne spiralis"
+    },
+    {
+      "listingId": "daku-aquatics:8741033869530",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Cryptocoryne Spiralis"
     }
   ],
   "events": [
@@ -151,6 +157,49 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:14630279807343",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51668085375343",
+          "label": "1 Bareroot Plant",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "51668085408111",
+          "label": "1 Potted Plant",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14630279807343",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043838939354",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741033869530",
+      "storeSlug": "daku-aquatics"
     }
   ]
 }

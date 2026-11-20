@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:synodontis-nigriventris",
-  "commonName": "Upside-Down Catfish (Synodontis nigriventris), USA Bred!",
+  "commonName": "Upside-Down Catfish (Synodontis nigriventris)",
   "scientificName": "Synodontis nigriventris",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Upside-Down Catfish (Synodontis nigriventris), USA Bred!"
+    },
+    {
+      "listingId": "imperial-tropicals:8397975716147",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Upside-Down Catfish (Synodontis nigriventris)"
     }
   ],
   "events": [
@@ -187,6 +193,61 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:4794928660566",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32946598936662",
+          "label": "1 Fish",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "32946598969430",
+          "label": "Group of 3",
+          "price": 35.99,
+          "available": false
+        },
+        {
+          "id": "32946599002198",
+          "label": "Group of 6",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4794928660566",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611724144947",
+          "label": "1-2\" Unsexed",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "51036106031411",
+          "label": "2-3\" Unsexed",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8397975716147",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

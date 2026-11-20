@@ -1,0 +1,73 @@
+{
+  "canonicalFishId": "cf:buce-plant:7493096112328",
+  "commonName": "Fire Stone",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "buce-plant:7493096112328",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Fire Stone"
+    },
+    {
+      "listingId": "glass-aqua:6844731654230",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Fire Stone"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 64.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42492065906888",
+          "label": "10 Pounds",
+          "price": 64.99,
+          "available": false
+        },
+        {
+          "id": "42492065939656",
+          "label": "18 Pounds",
+          "price": 112.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:7493096112328",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 58.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40162400305238",
+          "label": "10LB",
+          "price": 58.49,
+          "available": false
+        },
+        {
+          "id": "40162400338006",
+          "label": "20LB",
+          "price": 112.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:6844731654230",
+      "storeSlug": "glass-aqua"
+    }
+  ]
+}

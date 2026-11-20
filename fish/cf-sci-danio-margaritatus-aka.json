@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:danio-margaritatus-aka",
-  "commonName": "Galaxy Rasbora / Celestial Pearl Danio (Size Small)",
+  "commonName": "Celestial Pearl Danio | Galaxy Rasbora",
   "scientificName": "Danio margaritatus aka",
   "listings": [
     {
@@ -14,6 +14,18 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Galaxy Rasbora / Celestial Pearl Danio (Size Small)"
+    },
+    {
+      "listingId": "shrimpy-business:6715915599957",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Celestial Pearl Danio / Galaxy Rasbora (Tank-Bred)"
+    },
+    {
+      "listingId": "flip-aquatics:754845941862",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Celestial Pearl Danio | Galaxy Rasbora"
     }
   ],
   "events": [
@@ -56,6 +68,104 @@
       ],
       "listingId": "aquahuna:1709539557419",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 6.9,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32912548528203",
+          "label": "Title",
+          "price": 6.9,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4686183170123",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 4.9,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15717247909931",
+          "label": "Title",
+          "price": 4.9,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1709539557419",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 24.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922827100245",
+          "label": "3 Fish",
+          "price": 24.95,
+          "available": true
+        },
+        {
+          "id": "40402318458965",
+          "label": "6 Fish",
+          "price": 44.95,
+          "available": true
+        },
+        {
+          "id": "51662847705378",
+          "label": "12 Fish",
+          "price": 84.95,
+          "available": true
+        },
+        {
+          "id": "51662847738146",
+          "label": "24 Fish",
+          "price": 159.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6715915599957",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31439569191014",
+          "label": "Imported / 1 Fish",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "47226443202662",
+          "label": "Flip Bred / 1 Fish",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:754845941862",
+      "storeSlug": "flip-aquatics"
     }
   ]
 }

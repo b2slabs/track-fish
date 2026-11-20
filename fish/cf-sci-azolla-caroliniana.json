@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:azolla-caroliniana",
-  "commonName": "Mosquito Fern AKA Fairy Moss (Azolla caroliniana)",
+  "commonName": "Mosquito Fern / Fairy Moss (Azolla caroliniana)",
   "scientificName": "Azolla caroliniana",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Mosquito Fern AKA Fairy Moss (Azolla caroliniana)"
+    },
+    {
+      "listingId": "shrimpy-business:9756925329698",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Mosquito Fern / Fairy Moss (Azolla caroliniana)"
     }
   ],
   "events": [
@@ -115,6 +121,61 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:4541115695190",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31874385674326",
+          "label": "2 Tbsp",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4541115695190",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50018356756770",
+          "label": "1 Portion",
+          "price": 5.5,
+          "available": false
+        },
+        {
+          "id": "50018356789538",
+          "label": "3 Portions",
+          "price": 15.95,
+          "available": false
+        },
+        {
+          "id": "51662838432034",
+          "label": "6 Portion",
+          "price": 27.95,
+          "available": false
+        },
+        {
+          "id": "51662838464802",
+          "label": "12 Portion",
+          "price": 52.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9756925329698",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hymenochirus-from-our",
-  "commonName": "African Dwarf Frog",
+  "commonName": "African Dwarf Frogs",
   "scientificName": "Hymenochirus from our",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "African Dwarf Frog"
+    },
+    {
+      "listingId": "shrimpy-business:9659237433634",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "African Dwarf Frogs"
     }
   ],
   "events": [
@@ -56,6 +62,60 @@
       ],
       "listingId": "aquahuna:1717547499563",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40536820252747",
+          "label": "Title",
+          "price": 5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7014232293451",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15752004698155",
+          "label": "Title",
+          "price": 5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1717547499563",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49703445594402",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9659237433634",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

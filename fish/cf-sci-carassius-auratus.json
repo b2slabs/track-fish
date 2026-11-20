@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:carassius-auratus",
-  "commonName": "Red Cap Oranda Goldfish - 5\"",
+  "commonName": "Red Cap Oranda Goldfish (Carassius auratus), Tank-Bred",
   "scientificName": "Carassius auratus",
   "listings": [
     {
@@ -20,18 +20,6 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Red Cap Oranda Goldfish (Carassius auratus), Tank-Bred"
-    },
-    {
-      "listingId": "monster-aquarium:7034680410321",
-      "storeSlug": "monster-aquarium",
-      "storeName": "Monster Aquarium",
-      "commonName": "Red Cap Oranda Goldfish"
-    },
-    {
-      "listingId": "aquahuna:7121869570123",
-      "storeSlug": "aquahuna",
-      "storeName": "AquaHuna",
-      "commonName": "Red Cap Oranda Goldfish - 5\""
     }
   ],
   "events": [
@@ -249,32 +237,6 @@
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T06:02:14.062Z",
-      "price": 5.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "42965849538769",
-          "label": "1\"",
-          "price": 5.99,
-          "available": false
-        },
-        {
-          "id": "41046046048465",
-          "label": "4–4.5”",
-          "price": 39.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "monster-aquarium:7034680410321",
-      "storeSlug": "monster-aquarium"
-    },
-    {
       "observedAt": "2026-11-20T06:03:57.585Z",
       "price": 10.99,
       "currency": "USD",
@@ -324,29 +286,6 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:6737910202454",
       "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:03:59.400Z",
-      "price": 5.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "42965849538769",
-          "label": "1\"",
-          "price": 5.99,
-          "available": false
-        },
-        {
-          "id": "41046046048465",
-          "label": "4–4.5”",
-          "price": 39.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "monster-aquarium:7034680410321",
-      "storeSlug": "monster-aquarium"
     },
     {
       "observedAt": "2026-11-20T06:14:39.803Z",
@@ -400,47 +339,55 @@
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T06:14:41.736Z",
-      "price": 5.99,
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 10.99,
       "currency": "USD",
       "available": false,
       "variants": [
         {
-          "id": "42965849538769",
-          "label": "1\"",
-          "price": 5.99,
-          "available": false
-        },
-        {
-          "id": "41046046048465",
-          "label": "4–4.5”",
-          "price": 39.99,
+          "id": "52542526259567",
+          "label": "1 Fish 2.5+\"",
+          "price": 10.99,
           "available": false
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7034680410321",
-      "storeSlug": "monster-aquarium"
+      "listingId": "aquatic-arts:14864221831535",
+      "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.593Z",
-      "price": 40,
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 49.99,
       "currency": "USD",
       "available": false,
       "variants": [
         {
-          "id": "40771060891723",
-          "label": "Title",
-          "price": 40,
+          "id": "52542518919535",
+          "label": "1 Fish 3.5\"+",
+          "price": 49.99,
           "available": false
         }
       ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14864220881263",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39794786107478",
+          "label": "1 Fish",
+          "price": 12.99,
+          "available": false
+        }
       ],
-      "listingId": "aquahuna:7121869570123",
-      "storeSlug": "aquahuna"
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6737910202454",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

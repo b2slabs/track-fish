@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:sahyadria-denisonii-from",
-  "commonName": "Roseline Shark / Red-Line Torpedo Barb",
+  "commonName": "Golden Roseline Shark",
   "scientificName": "Sahyadria denisonii from",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Roseline Shark / Red-Line Torpedo Barb"
+    },
+    {
+      "listingId": "global-exoticquatics:8309396996288",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Golden Roseline Shark"
     }
   ],
   "events": [
@@ -56,6 +62,66 @@
       ],
       "listingId": "aquahuna:4201998221355",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 20,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40011175886923",
+          "label": "Title",
+          "price": 20,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6829983137867",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 12,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "30674399821867",
+          "label": "Title",
+          "price": 12,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4201998221355",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46706386665664",
+          "label": "2-2.5 inch",
+          "price": 50,
+          "available": true
+        },
+        {
+          "id": "50787876765888",
+          "label": "1-1.5in",
+          "price": 25,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8309396996288",
+      "storeSlug": "global-exoticquatics"
     }
   ]
 }

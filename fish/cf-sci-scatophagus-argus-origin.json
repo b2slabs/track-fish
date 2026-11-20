@@ -1,0 +1,79 @@
+{
+  "canonicalFishId": "cf:sci:scatophagus-argus-origin",
+  "commonName": "Red Scat",
+  "scientificName": "Scatophagus argus origin",
+  "listings": [
+    {
+      "listingId": "aquarium-fish:6574266694",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Green Scat"
+    },
+    {
+      "listingId": "aquarium-fish:6574240902",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Red Scat"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20798838406",
+          "label": "Jumbo",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "21353710944337",
+          "label": "Medium",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6574266694",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20798761670",
+          "label": "Small",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "22112256262225",
+          "label": "Medium",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "32092444131409",
+          "label": "Large",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6574240902",
+      "storeSlug": "aquarium-fish"
+    }
+  ]
+}

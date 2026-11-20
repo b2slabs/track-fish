@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:calophysus-macropterus",
-  "commonName": "Vulture Catfish (Calophysus macropterus)",
+  "commonName": "Vulture Catfish",
   "scientificName": "Calophysus macropterus",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Vulture Catfish (Calophysus macropterus)"
+    },
+    {
+      "listingId": "global-exoticquatics:8547767910592",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Vulture Catfish"
     }
   ],
   "events": [
@@ -64,6 +70,43 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7279691858129",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 84.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41630621925585",
+          "label": "7-8\"",
+          "price": 84.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7279691858129",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 70,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48145937334464",
+          "label": "7-8in",
+          "price": 70,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8547767910592",
+      "storeSlug": "global-exoticquatics"
     }
   ]
 }

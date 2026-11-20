@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:aquatic-arts:1923366289494",
-  "commonName": "Cryptocoryne sp. \"Flamingo\" Tissue Culture",
+  "commonName": "Cryptocoryne Flamingo Tissue Culture",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Cryptocoryne sp. \"Flamingo\" Tissue Culture"
+    },
+    {
+      "listingId": "glass-aqua:3580404531286",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Cryptocoryne Flamingo Tissue Culture"
     }
   ],
   "events": [
@@ -187,6 +193,61 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:1923366289494",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19442116362326",
+          "label": "1 Tissue Culture",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "19442116395094",
+          "label": "2 Tissue Cultures",
+          "price": 27.99,
+          "available": false
+        },
+        {
+          "id": "19442116427862",
+          "label": "3 Tissue Cultures",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1923366289494",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40493322240086",
+          "label": "UNS Tissue Culture - Small",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "40493322272854",
+          "label": "UNS Tissue Culture - Regular",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:3580404531286",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

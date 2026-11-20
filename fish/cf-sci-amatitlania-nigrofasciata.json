@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:amatitlania-nigrofasciata",
-  "commonName": "Polar Blue Parrot Cichlid (Hybrid: Blood Parrot × Convict Cichlid) – Tank Bred",
+  "commonName": "Convict Cichlid",
   "scientificName": "Amatitlania nigrofasciata",
   "listings": [
     {
@@ -8,6 +8,18 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Polar Blue Parrot Cichlid (Hybrid: Blood Parrot × Convict Cichlid) – Tank Bred"
+    },
+    {
+      "listingId": "imperial-tropicals:8398057668915",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Convict Cichlid (Amatitlania nigrofasciata)"
+    },
+    {
+      "listingId": "global-exoticquatics:10249420013760",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Convict Cichlid"
     }
   ],
   "events": [
@@ -223,6 +235,93 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:14871940137327",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52583388512623",
+          "label": "1 Juvenile",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "52583388545391",
+          "label": "3 Juveniles",
+          "price": 42.99,
+          "available": false
+        },
+        {
+          "id": "68231976812911",
+          "label": "1 Juvenile (Locally Bred)",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "68231976845679",
+          "label": "3 Juvenile (Locally Bred)",
+          "price": 42.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14871940137327",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611988746547",
+          "label": "1-2\" Unsexed",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "53175355244851",
+          "label": "2-3\" Unsexed",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398057668915",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 8,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50404242129088",
+          "label": "1 5-2in",
+          "price": 8,
+          "available": true
+        },
+        {
+          "id": "50404242620608",
+          "label": "3-4in",
+          "price": 12,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:10249420013760",
+      "storeSlug": "global-exoticquatics"
     }
   ]
 }

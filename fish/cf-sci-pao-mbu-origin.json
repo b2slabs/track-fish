@@ -1,0 +1,67 @@
+{
+  "canonicalFishId": "cf:sci:pao-mbu-origin",
+  "commonName": "Mbu Puffer",
+  "scientificName": "Pao mbu origin",
+  "listings": [
+    {
+      "listingId": "aquarium-fish:6096461126",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Mbu Puffer"
+    },
+    {
+      "listingId": "global-exoticquatics:8256108495040",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Mbu Puffer"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 299.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19293245510",
+          "label": "Title",
+          "price": 299.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6096461126",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 100,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46445243400384",
+          "label": "5-6in",
+          "price": 300,
+          "available": true
+        },
+        {
+          "id": "50410534207680",
+          "label": "1-2in",
+          "price": 100,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8256108495040",
+      "storeSlug": "global-exoticquatics"
+    }
+  ]
+}

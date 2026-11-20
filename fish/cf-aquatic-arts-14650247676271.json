@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:aquatic-arts:14650247676271",
-  "commonName": "Variegated Pennywort (Hydrocotyle leucocephala \"Variegated\")",
+  "commonName": "Variegated Pennywort",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Variegated Pennywort (Hydrocotyle leucocephala \"Variegated\")"
+    },
+    {
+      "listingId": "daku-aquatics:8801110982874",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Variegated Pennywort"
     }
   ],
   "events": [
@@ -151,6 +157,49 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:14650247676271",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718184337775",
+          "label": "Bunch",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "51718184370543",
+          "label": "Potted",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14650247676271",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46239151784154",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8801110982874",
+      "storeSlug": "daku-aquatics"
     }
   ]
 }

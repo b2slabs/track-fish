@@ -1,0 +1,61 @@
+{
+  "canonicalFishId": "cf:sci:pogostemon-helferi-common",
+  "commonName": "Pogostemon Helferi 'Downoi' Aquatic Farmer Tissue Culture",
+  "scientificName": "Pogostemon helferi common",
+  "listings": [
+    {
+      "listingId": "buce-plant:8607853197",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Pogostemon Helferi 'Downoi' UNS Tissue Culture"
+    },
+    {
+      "listingId": "buce-plant:436010188840",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Pogostemon Helferi 'Downoi' Aquatic Farmer Tissue Culture"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29469115021",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8607853197",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "3736288722984",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:436010188840",
+      "storeSlug": "buce-plant"
+    }
+  ]
+}

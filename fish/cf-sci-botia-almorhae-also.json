@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:botia-almorhae-also",
-  "commonName": "Yoyo Loach (Pakistani Loach)",
+  "commonName": "YoYo Loach",
   "scientificName": "Botia almorhae also",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Yoyo Loach (Pakistani Loach)"
+    },
+    {
+      "listingId": "global-exoticquatics:8309339128000",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "YoYo Loach"
     }
   ],
   "events": [
@@ -56,6 +62,60 @@
       ],
       "listingId": "nationwide-aquatics-usa:8590424768665",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "30263331651627",
+          "label": "Title",
+          "price": 5.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4163259105323",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.060Z",
+      "price": 7,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45957716639897",
+          "label": "Title",
+          "price": 7,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8590424768665",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46706199888064",
+          "label": "2.5-3 in",
+          "price": 8,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8309339128000",
+      "storeSlug": "global-exoticquatics"
     }
   ]
 }

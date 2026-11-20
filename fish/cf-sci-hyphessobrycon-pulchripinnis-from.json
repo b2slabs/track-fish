@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hyphessobrycon-pulchripinnis-from",
-  "commonName": "Lemon Tetra",
+  "commonName": "Lemon Tetra (Tank-Bred)",
   "scientificName": "Hyphessobrycon pulchripinnis from",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Lemon Tetra"
+    },
+    {
+      "listingId": "shrimpy-business:9910485811490",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Lemon Tetra (Tank-Bred)"
     }
   ],
   "events": [
@@ -30,6 +36,61 @@
       ],
       "listingId": "aquahuna:2179576954923",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 3,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20608253919275",
+          "label": "Title",
+          "price": 3,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:2179576954923",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 8.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50519909957922",
+          "label": "2 Fish",
+          "price": 8.95,
+          "available": true
+        },
+        {
+          "id": "50519909990690",
+          "label": "4 Fish",
+          "price": 15.95,
+          "available": true
+        },
+        {
+          "id": "51662834106658",
+          "label": "8 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "51662834139426",
+          "label": "16 Fish",
+          "price": 56.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9910485811490",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

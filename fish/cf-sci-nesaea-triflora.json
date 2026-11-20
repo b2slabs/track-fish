@@ -1,0 +1,67 @@
+{
+  "canonicalFishId": "cf:sci:nesaea-triflora",
+  "commonName": "Nesaea Triflora",
+  "scientificName": "Nesaea triflora",
+  "listings": [
+    {
+      "listingId": "buce-plant:6113218592968",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Nesaea Triflora"
+    },
+    {
+      "listingId": "glass-aqua:4977432985686",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Nesaea Triflora"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37664019218632",
+          "label": "Lead Bunch",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "37664019251400",
+          "label": "3 Bunches + 1 Free",
+          "price": 23.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:6113218592968",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "33392260186198",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:4977432985686",
+      "storeSlug": "glass-aqua"
+    }
+  ]
+}

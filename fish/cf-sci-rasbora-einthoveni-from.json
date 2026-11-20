@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Brilliant Rasbora"
+    },
+    {
+      "listingId": "imperial-tropicals:8398077755699",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Brilliant Rasbora"
     }
   ],
   "events": [
@@ -30,6 +36,49 @@
       ],
       "listingId": "aquahuna:1723711389739",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 2,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15772896591915",
+          "label": "Title",
+          "price": 2,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1723711389739",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612049072435",
+          "label": "(3 Pack) 1-2\" Unsexed",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "45612049105203",
+          "label": "(10 Pack) 1-2\" Unsexed",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398077755699",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

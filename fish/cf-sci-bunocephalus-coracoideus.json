@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Banjo Catfish (Bunocephalus coracoideus)"
+    },
+    {
+      "listingId": "imperial-tropicals:8398122385715",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Banjo Catfish (Bunocephalus coracoideus)"
     }
   ],
   "events": [
@@ -187,6 +193,67 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:4741063878",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15503385542",
+          "label": "1 Fish",
+          "price": 22.99,
+          "available": false
+        },
+        {
+          "id": "12409679609942",
+          "label": "3 Fish",
+          "price": 55.99,
+          "available": false
+        },
+        {
+          "id": "12409679642710",
+          "label": "6 Fish",
+          "price": 110.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4741063878",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612158550323",
+          "label": "2-3\" Unsexed",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "45612158583091",
+          "label": "(5 Pack) 2-3\" Unsexed",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "51452420686131",
+          "label": "(10 Pack) 2-3\" Unsexed",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398122385715",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

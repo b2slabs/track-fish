@@ -1,0 +1,67 @@
+{
+  "canonicalFishId": "cf:buce-plant:436029063208",
+  "commonName": "Staurogyne Bihar",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "buce-plant:436029063208",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Staurogyne Bihar"
+    },
+    {
+      "listingId": "glass-aqua:1563151597654",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Staurogyne Bihar"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "3736421826600",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:436029063208",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40212473413718",
+          "label": "POTTED",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "40212473479254",
+          "label": "TISSUE CULTURE",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:1563151597654",
+      "storeSlug": "glass-aqua"
+    }
+  ]
+}

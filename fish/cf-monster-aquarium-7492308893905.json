@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:monster-aquarium:7492308893905",
-  "commonName": "SRD Flowerhorn #01 female",
+  "commonName": "SRD Flowerhorn",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "SRD Flowerhorn #01 female"
+    },
+    {
+      "listingId": "global-exoticquatics:10264088838336",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "SRD Flowerhorn"
     }
   ],
   "events": [
@@ -64,6 +70,43 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7492308893905",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 89.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42295412162769",
+          "label": "4-4.5”",
+          "price": 89.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7492308893905",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 170,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50465934049472",
+          "label": "4-5in",
+          "price": 170,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:10264088838336",
+      "storeSlug": "global-exoticquatics"
     }
   ]
 }

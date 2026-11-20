@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:panaqolus-sp-from",
-  "commonName": "L397 Alenquer Tiger Pleco",
+  "commonName": "L397 Alenquer Tiger Pleco - Tank Bred",
   "scientificName": "Panaqolus sp. from",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "L397 Alenquer Tiger Pleco"
+    },
+    {
+      "listingId": "shrimpy-business:9551567257890",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "L397 Alenquer Tiger Pleco - Tank Bred"
     }
   ],
   "events": [
@@ -30,6 +36,43 @@
       ],
       "listingId": "aquahuna:6872237473867",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 44,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40113760436299",
+          "label": "Title",
+          "price": 44,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6872237473867",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 49.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49360061825314",
+          "label": "1 Fish",
+          "price": 49.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9551567257890",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

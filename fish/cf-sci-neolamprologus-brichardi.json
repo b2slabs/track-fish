@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:neolamprologus-brichardi",
-  "commonName": "Brichard's Lyretail Fairy Cichlid (Neolamprologus brichardi), Tank-Bred!",
+  "commonName": "Blue Face Princess \"Kipili\" (Neolamprologus brichardi \"Kipili\")",
   "scientificName": "Neolamprologus brichardi",
   "listings": [
     {
@@ -8,6 +8,18 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Brichard's Lyretail Fairy Cichlid (Neolamprologus brichardi), Tank-Bred!"
+    },
+    {
+      "listingId": "imperial-tropicals:8398128120115",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Albino Brichardi Cichlid (Neolamprologus brichardi)"
+    },
+    {
+      "listingId": "imperial-tropicals:8398082441523",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Blue Face Princess \"Kipili\" (Neolamprologus brichardi \"Kipili\")"
     }
   ],
   "events": [
@@ -187,6 +199,99 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:4930362802262",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33300988133462",
+          "label": "1 Juvenile",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "33300988166230",
+          "label": "Group of 3 Juveniles",
+          "price": 28.99,
+          "available": false
+        },
+        {
+          "id": "33300988198998",
+          "label": "Group of 6 Juveniles",
+          "price": 53.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4930362802262",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612171362611",
+          "label": "1\" Unsexed",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398128120115",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612061491507",
+          "label": "1-2\" Unsexed",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "50138728923443",
+          "label": "(3 Pack) 1-2\" Unsexed",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "46470339100979",
+          "label": "2-3\" Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "50138730856755",
+          "label": "(3 Pack) 2-3\" Unsexed",
+          "price": 64.99,
+          "available": false
+        },
+        {
+          "id": "51825298932019",
+          "label": "3-4\" Unsexed",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398082441523",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

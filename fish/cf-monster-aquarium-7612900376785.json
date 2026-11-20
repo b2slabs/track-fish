@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:monster-aquarium:7612900376785",
-  "commonName": "Ultra Fresh Royal Premium Pellet Cichlid Food",
+  "commonName": "Ultra Fresh Royal Cichlid Premium Pellet",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Ultra Fresh Royal Premium Pellet Cichlid Food"
+    },
+    {
+      "listingId": "buce-plant:8308322074824",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Ultra Fresh Royal Cichlid Premium Pellet"
     }
   ],
   "events": [
@@ -100,6 +106,55 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7612900376785",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42626709881041",
+          "label": "330ml /130g",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "42626709848273",
+          "label": "1150ml / 460g",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "id": "42626710864081",
+          "label": "1kg",
+          "price": 47,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7612900376785",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 15.15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45041769644232",
+          "label": "Title",
+          "price": 15.15,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8308322074824",
+      "storeSlug": "buce-plant"
     }
   ]
 }

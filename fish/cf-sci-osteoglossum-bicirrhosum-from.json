@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Silver Arowana"
+    },
+    {
+      "listingId": "global-exoticquatics:10249447702720",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Silver Arowana"
     }
   ],
   "events": [
@@ -30,6 +36,43 @@
       ],
       "listingId": "aquahuna:4388877795403",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 53,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31442211536971",
+          "label": "Title",
+          "price": 53,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4388877795403",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 75,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50404348297408",
+          "label": "6-7in",
+          "price": 75,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:10249447702720",
+      "storeSlug": "global-exoticquatics"
     }
   ]
 }

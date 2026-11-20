@@ -1,0 +1,85 @@
+{
+  "canonicalFishId": "cf:shrimpy-business:4340674920533",
+  "commonName": "Extreme Blue Bolt",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "shrimpy-business:4340674920533",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Extreme Blue Bolts"
+    },
+    {
+      "listingId": "aquatics-for-fun:8427658510528",
+      "storeSlug": "aquatics-for-fun",
+      "storeName": "AquaticsForFun",
+      "commonName": "Extreme Blue Bolt"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 69.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31782616367189",
+          "label": "3 Shrimp",
+          "price": 69.95,
+          "available": false
+        },
+        {
+          "id": "48830723916066",
+          "label": "6 Shrimp",
+          "price": 125.95,
+          "available": false
+        },
+        {
+          "id": "51662854684962",
+          "label": "12 Shrimp",
+          "price": 237.95,
+          "available": false
+        },
+        {
+          "id": "51662854717730",
+          "label": "24 Shrimp",
+          "price": 447.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:4340674920533",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:59.484Z",
+      "price": 6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47230363500736",
+          "label": "1",
+          "price": 6,
+          "available": true
+        },
+        {
+          "id": "47230363533504",
+          "label": "10",
+          "price": 54,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatics-for-fun:8427658510528",
+      "storeSlug": "aquatics-for-fun"
+    }
+  ]
+}

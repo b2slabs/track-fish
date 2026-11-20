@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:trichopodus-leerii",
-  "commonName": "Pearl Gourami (Trichopodus leerii)",
+  "commonName": "Starfire Red Glo Gourami",
   "scientificName": "Trichopodus leerii",
   "listings": [
     {
@@ -8,6 +8,18 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Pearl Gourami (Trichopodus leerii)"
+    },
+    {
+      "listingId": "aquarium-fish:10476608586027",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Starfire Red Glo Gourami (3-Pack)"
+    },
+    {
+      "listingId": "aquarium-fish:10366772412715",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Starfire Red Glo Gourami"
     }
   ],
   "events": [
@@ -64,6 +76,63 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7053084623057",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41090513502417",
+          "label": "2\"-2.5\"",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7053084623057",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 59.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "54187836670251",
+          "label": "Title",
+          "price": 59.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10476608586027",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 21.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53396678803755",
+          "label": "Title",
+          "price": 21.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10366772412715",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

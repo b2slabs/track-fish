@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:rineloricaria-sp-disclaimer",
-  "commonName": "Red Lizard Whiptail Catfish",
+  "commonName": "Red Lizard Whiptail Catfish (Tank-Bred)",
   "scientificName": "Rineloricaria sp. disclaimer",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Red Lizard Whiptail Catfish"
+    },
+    {
+      "listingId": "shrimpy-business:8172295323938",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Red Lizard Whiptail Catfish (Tank-Bred)"
     }
   ],
   "events": [
@@ -30,6 +36,55 @@
       ],
       "listingId": "aquahuna:6719874891851",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39762768756811",
+          "label": "Title",
+          "price": 15,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6719874891851",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 17.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44700360769826",
+          "label": "1 Fish",
+          "price": 17.95,
+          "available": true
+        },
+        {
+          "id": "44700360802594",
+          "label": "3 Fish",
+          "price": 48.95,
+          "available": true
+        },
+        {
+          "id": "44700360835362",
+          "label": "6 Fish",
+          "price": 94.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:8172295323938",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

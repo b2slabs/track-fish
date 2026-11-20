@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:synodontis-multipunctatus",
-  "commonName": "Albino multipunctatus Synodontis Catfish (Synodontis multipunctatus)",
+  "commonName": "Cuckoo Catfish (Synodontis multipunctatus)",
   "scientificName": "Synodontis multipunctatus",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Albino multipunctatus Synodontis Catfish (Synodontis multipunctatus)"
+    },
+    {
+      "listingId": "imperial-tropicals:8397975290163",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Cuckoo Catfish (Synodontis multipunctatus)"
     }
   ],
   "events": [
@@ -64,6 +70,73 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7115795595473",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 189,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41244212691153",
+          "label": "3-4”",
+          "price": 189,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7115795595473",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53980253192499",
+          "label": "0.5-1” Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "53980254732595",
+          "label": "(5 Pack) 0.5-1” Unsexed",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "45611723522355",
+          "label": "1-2” Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "45611723555123",
+          "label": "(5 Pack) 1-2” Unsexed",
+          "price": 114.99,
+          "available": false
+        },
+        {
+          "id": "45611723620659",
+          "label": "2-3” Unsexed",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "51624067432755",
+          "label": "3-4” Unsexed",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8397975290163",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

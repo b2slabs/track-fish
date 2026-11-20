@@ -14,6 +14,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Fahaka Puffer"
+    },
+    {
+      "listingId": "imperial-tropicals:8398128283955",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Fahaka Puffer"
     }
   ],
   "events": [
@@ -56,6 +62,66 @@
       ],
       "listingId": "aquahuna:2180215832619",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 20,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40421923881035",
+          "label": "Title",
+          "price": 20,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6972738895947",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 12.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20610376794155",
+          "label": "Title",
+          "price": 12.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:2180215832619",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612171526451",
+          "label": "1-2” Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "45612171559219",
+          "label": "3-4” Unsexed",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398128283955",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:ceratopteris-thalictroides",
-  "commonName": "Water Sprite aka Indian Water Fern (Ceratopteris thalictroides)",
+  "commonName": "Water Sprite",
   "scientificName": "Ceratopteris thalictroides",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Water Sprite aka Indian Water Fern (Ceratopteris thalictroides)"
+    },
+    {
+      "listingId": "shrimpy-business:6652485271637",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Water Sprite"
     }
   ],
   "events": [
@@ -115,6 +121,43 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:4737093190",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15496365638",
+          "label": "Title",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4737093190",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 7.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39619149365333",
+          "label": "Title",
+          "price": 7.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6652485271637",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:lamprologus-brevis-from",
-  "commonName": "Lamprologus Brevis",
+  "commonName": "Neolamprologus brevis",
   "scientificName": "Lamprologus brevis from",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Lamprologus Brevis"
+    },
+    {
+      "listingId": "imperial-tropicals:8398010646835",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Neolamprologus brevis"
     }
   ],
   "events": [
@@ -30,6 +36,49 @@
       ],
       "listingId": "aquahuna:4168271888427",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 14,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "30279913209899",
+          "label": "Title",
+          "price": 14,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4168271888427",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611809898803",
+          "label": "1-2\" Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45611809866035",
+          "label": "(5 Pack) 1-2” Unsexed",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398010646835",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:centromochlus-orca",
-  "commonName": "Orca Wood Catfish (Centromochlus orca)",
+  "commonName": "Orca Woodcat (Centromochlus orca)",
   "scientificName": "Centromochlus orca",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Orca Wood Catfish (Centromochlus orca)"
+    },
+    {
+      "listingId": "imperial-tropicals:10390335914291",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Orca Woodcat (Centromochlus orca)"
     }
   ],
   "events": [
@@ -64,6 +70,43 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7696622813393",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 30,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42958009827537",
+          "label": "2\"",
+          "price": 30,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7696622813393",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53876741079347",
+          "label": "2-3\" Unsexed Rio Nhamunda",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:10390335914291",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

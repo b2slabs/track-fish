@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:stiphodon-atropurpureus",
-  "commonName": "Electric Blue Neon Dwarf Goby (Stiphodon atropurpureus)",
+  "commonName": "Blue Neon Goby (Stiphodon atropurpureus)",
   "scientificName": "Stiphodon atropurpureus",
   "listings": [
     {
@@ -8,6 +8,24 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Electric Blue Neon Dwarf Goby (Stiphodon atropurpureus)"
+    },
+    {
+      "listingId": "aquarium-fish:10404113744171",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Neon Blue Stiphodon Goby (Group of 3)"
+    },
+    {
+      "listingId": "aquarium-fish:6652532870",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Neon Blue Stiphodon Goby"
+    },
+    {
+      "listingId": "imperial-tropicals:8398116684083",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Blue Neon Goby (Stiphodon atropurpureus)"
     }
   ],
   "events": [
@@ -187,6 +205,95 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:11454893452",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43310913868",
+          "label": "1 Fish",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "43310913932",
+          "label": "Group of 3",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "43310913996",
+          "label": "Group of 6",
+          "price": 46.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11454893452",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 29.74,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53621558411563",
+          "label": "Title",
+          "price": 29.74,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10404113744171",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 11.04,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "21030719238",
+          "label": "Title",
+          "price": 11.04,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6652532870",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612141150515",
+          "label": "1-2\" Unsexed",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398116684083",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

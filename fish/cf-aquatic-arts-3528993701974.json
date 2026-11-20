@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:aquatic-arts:3528993701974",
-  "commonName": "Cryptocoryne pontederiifolia",
+  "commonName": "Cryptocoryne Pontederiifolia",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Cryptocoryne pontederiifolia"
+    },
+    {
+      "listingId": "glass-aqua:4838024675414",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Cryptocoryne Pontederiifolia"
     }
   ],
   "events": [
@@ -187,6 +193,55 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:3528993701974",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "28078075379798",
+          "label": "1 Plant",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "28078075412566",
+          "label": "2 Plants",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "28078075445334",
+          "label": "3 Plants",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:3528993701974",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33116782264406",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:4838024675414",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

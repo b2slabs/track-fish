@@ -8,6 +8,18 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Hikari Micro Wafers"
+    },
+    {
+      "listingId": "imperial-tropicals:8398145552691",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Hikari Micro Wafers"
+    },
+    {
+      "listingId": "glass-aqua:464557965344",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Hikari Micro Wafers"
     }
   ],
   "events": [
@@ -36,6 +48,69 @@
       ],
       "listingId": "ck-fish-world:8166137888983",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.526Z",
+      "price": 3.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44146631540951",
+          "label": "0.7 oz",
+          "price": 3.98,
+          "available": true
+        },
+        {
+          "id": "44146631573719",
+          "label": "1.58 oz",
+          "price": 6.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8166137888983",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612209799475",
+          "label": "1.58oz / 45g",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398145552691",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "5437843865632",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:464557965344",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

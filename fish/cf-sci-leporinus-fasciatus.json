@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:leporinus-fasciatus",
-  "commonName": "Banded Leporinus (Leporinus fasciatus)",
+  "commonName": "Black Banded Leporinus (Leporinus fasciatus)",
   "scientificName": "Leporinus fasciatus",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Banded Leporinus (Leporinus fasciatus)"
+    },
+    {
+      "listingId": "imperial-tropicals:8398125236531",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Black Banded Leporinus (Leporinus fasciatus)"
     }
   ],
   "events": [
@@ -64,6 +70,43 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7094102655185",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41192867627217",
+          "label": "2\"-2.5\"",
+          "price": 8,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7094102655185",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612162515251",
+          "label": "3\" Unsexed",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398125236531",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

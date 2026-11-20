@@ -1,0 +1,61 @@
+{
+  "canonicalFishId": "cf:sci:misgurnus-anguillicaudatus-origin",
+  "commonName": "Dojo Loach",
+  "scientificName": "Misgurnus anguillicaudatus origin",
+  "listings": [
+    {
+      "listingId": "aquarium-fish:4617446752337",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Dojo Loach"
+    },
+    {
+      "listingId": "imperial-tropicals:8398033813811",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Dojo Loach"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32321388413009",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:4617446752337",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611891818803",
+          "label": "3-4\" Unsexed",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398033813811",
+      "storeSlug": "imperial-tropicals"
+    }
+  ]
+}

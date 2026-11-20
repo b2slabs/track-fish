@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:aquatic-arts:14918150914415",
-  "commonName": "Kali Tawa Rainbowfish (Melanotaenia sp. “Kali Tawa”) – Tank-Bred",
+  "commonName": "Kali Tawa Rainbowfish",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Kali Tawa Rainbowfish (Melanotaenia sp. “Kali Tawa”) – Tank-Bred"
+    },
+    {
+      "listingId": "imperial-tropicals:8398171701555",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Kali Tawa Rainbowfish"
     }
   ],
   "events": [
@@ -151,6 +157,73 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:14918150914415",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52787961102703",
+          "label": "School of 3 (USA)",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "52787961135471",
+          "label": "School of 6 (USA)",
+          "price": 99.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14918150914415",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47636338508083",
+          "label": "1-2” Female",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "45612279300403",
+          "label": "1-2\" Male",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "48239822111027",
+          "label": "1-2” Pair (1 Male, 1 Female)",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "47516670951731",
+          "label": "1-2\" Trio (1 Male, 2 Female)",
+          "price": 54.99,
+          "available": false
+        },
+        {
+          "id": "51674113573171",
+          "label": "2-3\" Pair (1 Male, 1 Female)",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398171701555",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:altolamprologus-calvus",
-  "commonName": "Pearl Calvus ( Altolamprologus calvus )",
+  "commonName": "Calvus Cichlid",
   "scientificName": "Altolamprologus calvus",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Pearl Calvus ( Altolamprologus calvus )"
+    },
+    {
+      "listingId": "aquarium-fish:5839191494",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Calvus Cichlid"
     }
   ],
   "events": [
@@ -64,6 +70,43 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7635006030033",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42713043468497",
+          "label": "2–2.5”",
+          "price": 55,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7635006030033",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12243562790982",
+          "label": "Title",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:5839191494",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

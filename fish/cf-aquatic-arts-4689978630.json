@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:aquatic-arts:4689978630",
-  "commonName": "Crystal Shrimp Combo Pack, Tank-Bred",
+  "commonName": "Crystal Shrimp Combo Pack (10 Shrimp)",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Crystal Shrimp Combo Pack, Tank-Bred"
+    },
+    {
+      "listingId": "shrimpy-business:4735740149845",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Crystal Shrimp Combo Pack (10 Shrimp)"
     }
   ],
   "events": [
@@ -187,6 +193,55 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:4689978630",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 42.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39504081813590",
+          "label": "3 of Each",
+          "price": 42.99,
+          "available": false
+        },
+        {
+          "id": "39504081846358",
+          "label": "5 of Each",
+          "price": 62.99,
+          "available": false
+        },
+        {
+          "id": "39595394728022",
+          "label": "10 of Each",
+          "price": 116.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4689978630",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 55,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32589237682261",
+          "label": "Title",
+          "price": 55,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:4735740149845",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

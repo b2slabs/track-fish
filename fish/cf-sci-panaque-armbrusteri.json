@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:panaque-armbrusteri",
-  "commonName": "L027 C - araguaia (Panaque armbrusteri)",
+  "commonName": "L027d Thunder Royal Pleco (Panaque armbrusteri)",
   "scientificName": "Panaque armbrusteri",
   "listings": [
     {
@@ -14,6 +14,18 @@
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "L027 C - araguaia (Panaque armbrusteri)"
+    },
+    {
+      "listingId": "imperial-tropicals:10399511150899",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "L027b Platinum Royal Pleco (Panaque armbrusteri)"
+    },
+    {
+      "listingId": "imperial-tropicals:10399375622451",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "L027d Thunder Royal Pleco (Panaque armbrusteri)"
     }
   ],
   "events": [
@@ -56,6 +68,80 @@
       ],
       "listingId": "nationwide-aquatics-usa:8936611905689",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.060Z",
+      "price": 300,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48942293745817",
+          "label": "Title",
+          "price": 300,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8936622948505",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.060Z",
+      "price": 165,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48942281752729",
+          "label": "Title",
+          "price": 165,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8936611905689",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 114.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53903419998515",
+          "label": "3-4\" Unsexed Rio Xingu",
+          "price": 114.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:10399511150899",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53902520582451",
+          "label": "2-3\" Unsexed Rio Tapajos",
+          "price": 99.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:10399375622451",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

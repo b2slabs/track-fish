@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:apistogramma-macmasteri",
-  "commonName": "Red Shoulder Dwarf Cichlid (Apistogramma macmasteri), Tank-Bred",
+  "commonName": "Red Neck Apistogramma (Apistogramma macmasteri)",
   "scientificName": "Apistogramma macmasteri",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Red Shoulder Dwarf Cichlid (Apistogramma macmasteri), Tank-Bred"
+    },
+    {
+      "listingId": "imperial-tropicals:8398185431347",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Red Neck Apistogramma (Apistogramma macmasteri)"
     }
   ],
   "events": [
@@ -259,6 +265,85 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:3569771380822",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "28238556659798",
+          "label": "1 Male/Female Pair",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "28238556692566",
+          "label": "1 Male",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "28238556725334",
+          "label": "3 Males",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "28238556758102",
+          "label": "1 Female",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "28238556790870",
+          "label": "3 Females",
+          "price": 96.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:3569771380822",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67709946495283",
+          "label": "0.5-1\" Unsexed",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "45612302958899",
+          "label": "1-2\" Unsexed",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "45612302926131",
+          "label": "1-2\" Pair (1 Male, 1 Female)",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "54082052751667",
+          "label": "2-3\" Male",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398185431347",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

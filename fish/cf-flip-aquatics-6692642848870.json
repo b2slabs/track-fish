@@ -1,0 +1,67 @@
+{
+  "canonicalFishId": "cf:flip-aquatics:6692642848870",
+  "commonName": "Dark Red Ludwigia",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "flip-aquatics:6692642848870",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Ludwigia Dark Red"
+    },
+    {
+      "listingId": "imperial-tropicals:8398000226611",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Dark Red Ludwigia"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550759469158",
+          "label": "Bunch",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6692642848870",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611785486643",
+          "label": "1 Bunch",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "48340449558835",
+          "label": "1 Potted Plant",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398000226611",
+      "storeSlug": "imperial-tropicals"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:anubias-barteri-from",
-  "commonName": "Anubias Barteri - Potted Plant",
+  "commonName": "Anubias Barteri - Mother Plant",
   "scientificName": "Anubias barteri from",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Anubias Barteri - Potted Plant"
+    },
+    {
+      "listingId": "glass-aqua:7512266899542",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Anubias Barteri - Mother Plant"
     }
   ],
   "events": [
@@ -30,6 +36,43 @@
       ],
       "listingId": "aquahuna:7041624965195",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 11,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40605809737803",
+          "label": "Title",
+          "price": 11,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7041624965195",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42129397973078",
+          "label": "Title",
+          "price": 21.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:7512266899542",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

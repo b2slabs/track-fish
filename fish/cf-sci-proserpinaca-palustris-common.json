@@ -1,0 +1,61 @@
+{
+  "canonicalFishId": "cf:sci:proserpinaca-palustris-common",
+  "commonName": "Proserpinaca Palustris UNS Tissue Culture",
+  "scientificName": "Proserpinaca palustris common",
+  "listings": [
+    {
+      "listingId": "buce-plant:2868325941329",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Proserpinaca Palustris Aquatic Farmer Tissue Culture"
+    },
+    {
+      "listingId": "buce-plant:10537791501",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Proserpinaca Palustris UNS Tissue Culture"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "22717078175825",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:2868325941329",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41149884621",
+          "label": "1 Cup",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:10537791501",
+      "storeSlug": "buce-plant"
+    }
+  ]
+}

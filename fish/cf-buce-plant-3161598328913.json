@@ -1,0 +1,79 @@
+{
+  "canonicalFishId": "cf:buce-plant:3161598328913",
+  "commonName": "Mountain Stone",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "buce-plant:3161598328913",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Mountain Stone"
+    },
+    {
+      "listingId": "glass-aqua:3968695533654",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Mountain Stone"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 47.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "23778489925713",
+          "label": "10LB PACK",
+          "price": 47.99,
+          "available": true
+        },
+        {
+          "id": "23778489958481",
+          "label": "20LB PACK",
+          "price": 124.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:3161598328913",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 47.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29573092081750",
+          "label": "5LB",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "29573092114518",
+          "label": "10LB",
+          "price": 47.99,
+          "available": true
+        },
+        {
+          "id": "29573092147286",
+          "label": "20LB",
+          "price": 104.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:3968695533654",
+      "storeSlug": "glass-aqua"
+    }
+  ]
+}

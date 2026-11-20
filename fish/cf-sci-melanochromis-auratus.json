@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:melanochromis-auratus",
-  "commonName": "Auratus Cichlid (Melanochromis auratus)",
+  "commonName": "Albino Golden Cichlid (Melanochromis auratus)",
   "scientificName": "Melanochromis auratus",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Auratus Cichlid (Melanochromis auratus)"
+    },
+    {
+      "listingId": "imperial-tropicals:8397968834867",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Albino Golden Cichlid (Melanochromis auratus)"
     }
   ],
   "events": [
@@ -64,6 +70,49 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7004704080081",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40965263130833",
+          "label": "2--2.5\"",
+          "price": 8,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7004704080081",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611705205043",
+          "label": "1-2\" Unsexed",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "45611705237811",
+          "label": "2-3\" Unsexed",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8397968834867",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

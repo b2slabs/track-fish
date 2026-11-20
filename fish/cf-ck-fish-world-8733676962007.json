@@ -8,6 +8,18 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Staurogyne Repens"
+    },
+    {
+      "listingId": "shrimpy-business:8729758826786",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Staurogyne Repens"
+    },
+    {
+      "listingId": "daku-aquatics:8741033803994",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Staurogyne Repens"
     }
   ],
   "events": [
@@ -42,6 +54,75 @@
       ],
       "listingId": "ck-fish-world:8733676962007",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.526Z",
+      "price": 7.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45749164343511",
+          "label": "1",
+          "price": 7.98,
+          "available": true
+        },
+        {
+          "id": "45749164376279",
+          "label": "3",
+          "price": 21.98,
+          "available": true
+        },
+        {
+          "id": "45749164409047",
+          "label": "5",
+          "price": 34.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8733676962007",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 8.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47006796579106",
+          "label": "Title",
+          "price": 8.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:8729758826786",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043838873818",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741033803994",
+      "storeSlug": "daku-aquatics"
     }
   ]
 }

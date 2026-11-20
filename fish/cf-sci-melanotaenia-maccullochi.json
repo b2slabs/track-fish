@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:melanotaenia-maccullochi",
-  "commonName": "Macculloch's Dwarf Rainbowfish (Melanotaenia maccullochi) - Tank-Bred!",
+  "commonName": "Macculloch's Rainbowfish",
   "scientificName": "Melanotaenia maccullochi",
   "listings": [
     {
@@ -8,6 +8,24 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Macculloch's Dwarf Rainbowfish (Melanotaenia maccullochi) - Tank-Bred!"
+    },
+    {
+      "listingId": "shrimpy-business:9841016897826",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Macculloch's Dwarf Rainbowfish (Tank-Bred)"
+    },
+    {
+      "listingId": "imperial-tropicals:10365805035827",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Melanotaenia maccullochi \"Stark River\""
+    },
+    {
+      "listingId": "imperial-tropicals:8398043578675",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Macculloch's Rainbowfish"
     }
   ],
   "events": [
@@ -187,6 +205,131 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:6629580144726",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39538310807638",
+          "label": "School of 3",
+          "price": 26.99,
+          "available": false
+        },
+        {
+          "id": "39538310840406",
+          "label": "School of 6",
+          "price": 50.99,
+          "available": false
+        },
+        {
+          "id": "39538325192790",
+          "label": "School of 9",
+          "price": 72.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6629580144726",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 17.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50297640091938",
+          "label": "2 Fish",
+          "price": 17.95,
+          "available": false
+        },
+        {
+          "id": "50297640124706",
+          "label": "4 Fish",
+          "price": 31.95,
+          "available": false
+        },
+        {
+          "id": "51662835482914",
+          "label": "8 Fish",
+          "price": 60.95,
+          "available": false
+        },
+        {
+          "id": "51662835515682",
+          "label": "16 Fish",
+          "price": 114.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9841016897826",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53799325663539",
+          "label": "1-2\" Unsexed",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:10365805035827",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611942674739",
+          "label": "1-2\" Unsexed",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "45611942740275",
+          "label": "2-3\" Unsexed",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "45611942707507",
+          "label": "2-3\" Male",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "45611942773043",
+          "label": "2-3\" Pair (1 Male, 1 Female)",
+          "price": 21.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398043578675",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

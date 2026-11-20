@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:melanotaenia-lacustris",
-  "commonName": "Turquoise Blue Rainbow (Melanotaenia lacustris)",
+  "commonName": "Turquoise Rainbowfish | Melanotaenia lacustris",
   "scientificName": "Melanotaenia lacustris",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Turquoise Blue Rainbow (Melanotaenia lacustris)"
+    },
+    {
+      "listingId": "flip-aquatics:7287989469286",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Turquoise Rainbowfish | Melanotaenia lacustris"
     }
   ],
   "events": [
@@ -283,6 +289,78 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7030053568721",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29460470399062",
+          "label": "School of 3",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "id": "29460470431830",
+          "label": "School of 6",
+          "price": 54.99,
+          "available": true
+        },
+        {
+          "id": "29460470464598",
+          "label": "School of 9",
+          "price": 75.99,
+          "available": true
+        },
+        {
+          "id": "29460470497366",
+          "label": "School of 12",
+          "price": 92.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:3943227392086",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41034956341457",
+          "label": "2\"",
+          "price": 16.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7030053568721",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 11.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41499176960102",
+          "label": "Imported / 1 Fish",
+          "price": 11.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:7287989469286",
+      "storeSlug": "flip-aquatics"
     }
   ]
 }

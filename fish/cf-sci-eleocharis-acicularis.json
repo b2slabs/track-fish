@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:eleocharis-acicularis",
-  "commonName": "Hairgrass AKA Needle or Least Spikerush (Eleocharis acicularis) Tissue Culture",
+  "commonName": "Eleocharis acicularis 'Mini' - Tissue Culture",
   "scientificName": "Eleocharis acicularis",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Hairgrass AKA Needle or Least Spikerush (Eleocharis acicularis) Tissue Culture"
+    },
+    {
+      "listingId": "aquarium-fish:10105537364267",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Eleocharis acicularis 'Mini' - Tissue Culture"
     }
   ],
   "events": [
@@ -187,6 +193,55 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:1396030406742",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12798182326358",
+          "label": "1 Tissue Culture Cup",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "12798192648278",
+          "label": "2 Tissue Culture Cups",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "12798192681046",
+          "label": "3 Tissue Culture Cups",
+          "price": 32.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1396030406742",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 11.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51386931970347",
+          "label": "Each",
+          "price": 11.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10105537364267",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

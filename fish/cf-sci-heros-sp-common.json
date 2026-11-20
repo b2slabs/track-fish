@@ -1,0 +1,79 @@
+{
+  "canonicalFishId": "cf:sci:heros-sp-common",
+  "commonName": "Red Shoulder Severum",
+  "scientificName": "Heros sp. common",
+  "listings": [
+    {
+      "listingId": "imperial-tropicals:8397982597427",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Red Shoulder Severum"
+    },
+    {
+      "listingId": "global-exoticquatics:8241449140416",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Red Shoulder Severum"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611741872435",
+          "label": "1-2” Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45611741905203",
+          "label": "2-3\" Unsexed",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "67638978511155",
+          "label": "3-4\" Unsexed",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "67839326519603",
+          "label": "4-5\" Unsexed",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8397982597427",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 40,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46387021906112",
+          "label": "3-3.5in",
+          "price": 40,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8241449140416",
+      "storeSlug": "global-exoticquatics"
+    }
+  ]
+}

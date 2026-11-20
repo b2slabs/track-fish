@@ -1,0 +1,111 @@
+{
+  "canonicalFishId": "cf:sci:hydrocotyle-sibthorpioides-common",
+  "commonName": "Hydrocotyle Sibthorpioides",
+  "scientificName": "Hydrocotyle sibthorpioides common",
+  "listings": [
+    {
+      "listingId": "buce-plant:10012885901",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Hydrocotyle Sibthorpioides UNS Tissue Culture"
+    },
+    {
+      "listingId": "buce-plant:9560106893",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Hydrocotyle Sibthorpioides"
+    },
+    {
+      "listingId": "glass-aqua:11277471879",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Hydrocotyle Sibthorpioides"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37567963021",
+          "label": "1 Cup",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:10012885901",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "35459943309",
+          "label": "Pot",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "12425264005201",
+          "label": "3 Pot Package",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "12425264037969",
+          "label": "5 Pot Package",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:9560106893",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738875527",
+          "label": "UNS Tissue Culture",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "5260632064032",
+          "label": "Potted",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "40176253468758",
+          "label": "AF Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:11277471879",
+      "storeSlug": "glass-aqua"
+    }
+  ]
+}

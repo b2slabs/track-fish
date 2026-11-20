@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:neolamprologus-leleupi",
-  "commonName": "Leleupi Neolamprologus (Neolamprologus leleupi)",
+  "commonName": "Black Kavala Leleupi (Neolamprologus leleupi \"Black Kavala\")",
   "scientificName": "Neolamprologus leleupi",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Leleupi Neolamprologus (Neolamprologus leleupi)"
+    },
+    {
+      "listingId": "imperial-tropicals:8398146109747",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Black Kavala Leleupi (Neolamprologus leleupi \"Black Kavala\")"
     }
   ],
   "events": [
@@ -283,6 +289,78 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:6996782350545",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33301018837078",
+          "label": "1 Juvenile",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "33301018869846",
+          "label": "Group of 3 Juveniles",
+          "price": 42.99,
+          "available": false
+        },
+        {
+          "id": "53131066540399",
+          "label": "1 Juvenile (Locally Bred)",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "53131066573167",
+          "label": "Group of 3 Juveniles (Locally Bred)",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4930383708246",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 20,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925197893841",
+          "label": "1.5-2\"",
+          "price": 20,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6996782350545",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 27.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612210553139",
+          "label": "1.5-2\" Unsexed German",
+          "price": 27.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398146109747",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

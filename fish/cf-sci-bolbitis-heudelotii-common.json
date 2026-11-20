@@ -1,0 +1,61 @@
+{
+  "canonicalFishId": "cf:sci:bolbitis-heudelotii-common",
+  "commonName": "African Water Fern / Bolbitis Heudelotii",
+  "scientificName": "Bolbitis heudelotii common",
+  "listings": [
+    {
+      "listingId": "flip-aquatics:15426493317222",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "African Water Fern | Bolbitis Heudelotii"
+    },
+    {
+      "listingId": "buce-plant:33519337485",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "African Water Fern / Bolbitis Heudelotii"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67728796942438",
+          "label": "Potted / Loose",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:15426493317222",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "288642105357",
+          "label": "Title",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:33519337485",
+      "storeSlug": "buce-plant"
+    }
+  ]
+}

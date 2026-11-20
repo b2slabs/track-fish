@@ -8,6 +8,12 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Hikari Mini Algae Wafers"
+    },
+    {
+      "listingId": "glass-aqua:11353746631",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Hikari Mini Algae Wafers"
     }
   ],
   "events": [
@@ -36,6 +42,49 @@
       ],
       "listingId": "ck-fish-world:8166137757911",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.526Z",
+      "price": 4.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44146631344343",
+          "label": "0.77 oz",
+          "price": 4.98,
+          "available": true
+        },
+        {
+          "id": "44146631377111",
+          "label": "3.0 oz",
+          "price": 9.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8166137757911",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53287212295",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:11353746631",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

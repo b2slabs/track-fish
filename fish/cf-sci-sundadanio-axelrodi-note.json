@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Blue Neon Rasbora"
+    },
+    {
+      "listingId": "shrimpy-business:6751613976661",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Blue Neon Rasbora"
     }
   ],
   "events": [
@@ -30,6 +36,61 @@
       ],
       "listingId": "aquahuna:1724233941035",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15774103175211",
+          "label": "Title",
+          "price": 5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1724233941035",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 23.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40041094938709",
+          "label": "3 Fish",
+          "price": 23.95,
+          "available": false
+        },
+        {
+          "id": "44055946592546",
+          "label": "6 Fish",
+          "price": 42.95,
+          "available": false
+        },
+        {
+          "id": "51662845575458",
+          "label": "12 Fish",
+          "price": 80.95,
+          "available": false
+        },
+        {
+          "id": "51662845608226",
+          "label": "24 Fish",
+          "price": 152.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6751613976661",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

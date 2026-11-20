@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:aquatic-arts:4705373446",
-  "commonName": "Alder Cones (1/2 - 1 inch)",
+  "commonName": "Alder Cones",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,18 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Alder Cones (1/2 - 1 inch)"
+    },
+    {
+      "listingId": "flip-aquatics:11983703300",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Alder Cones"
+    },
+    {
+      "listingId": "daku-aquatics:9195780899034",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Alder Cones"
     }
   ],
   "events": [
@@ -151,6 +163,81 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:4705373446",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39421238083670",
+          "label": "25 cones",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "40067090219094",
+          "label": "50 cones",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4705373446",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 4.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51839451972",
+          "label": "10 Count",
+          "price": 4.5,
+          "available": true
+        },
+        {
+          "id": "27871011831910",
+          "label": "30 Count",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "45564942712934",
+          "label": "20 Count",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:11983703300",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47682361884890",
+          "label": "Title",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:9195780899034",
+      "storeSlug": "daku-aquatics"
     }
   ]
 }

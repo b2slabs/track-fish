@@ -1,0 +1,67 @@
+{
+  "canonicalFishId": "cf:sci:nymphaea-stellata-common",
+  "commonName": "Nymphaea Stellata",
+  "scientificName": "Nymphaea stellata common",
+  "listings": [
+    {
+      "listingId": "buce-plant:7076865999048",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Nymphaea Stellata"
+    },
+    {
+      "listingId": "glass-aqua:1346976088150",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Nymphaea Stellata"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44726465069256",
+          "label": "Bunch",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "44726465102024",
+          "label": "Bulb",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:7076865999048",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12388547592278",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:1346976088150",
+      "storeSlug": "glass-aqua"
+    }
+  ]
+}

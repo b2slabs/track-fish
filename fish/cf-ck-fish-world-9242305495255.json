@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:ck-fish-world:9242305495255",
-  "commonName": "2HR Aquarist- API 1 Zero",
+  "commonName": "2HR Aquarist - APT 1 Zero",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "2HR Aquarist- API 1 Zero"
+    },
+    {
+      "listingId": "buce-plant:8266545004744",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "2HR Aquarist - APT 1 Zero"
     }
   ],
   "events": [
@@ -30,6 +36,43 @@
       ],
       "listingId": "ck-fish-world:9242305495255",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.526Z",
+      "price": 23.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48493617840343",
+          "label": "Title",
+          "price": 23.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:9242305495255",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44893131735240",
+          "label": "Title",
+          "price": 23.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8266545004744",
+      "storeSlug": "buce-plant"
     }
   ]
 }

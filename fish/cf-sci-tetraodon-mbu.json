@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:tetraodon-mbu",
-  "commonName": "Mbu pufferfish (Tetraodon mbu) 4\"-5\"",
+  "commonName": "Mbu Pufferfish (Tetraodon mbu)",
   "scientificName": "Tetraodon mbu",
   "listings": [
     {
@@ -20,6 +20,12 @@
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Mbu pufferfish (Tetraodon mbu) 4\"-5\""
+    },
+    {
+      "listingId": "imperial-tropicals:9828216406323",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Mbu Pufferfish (Tetraodon mbu)"
     }
   ],
   "events": [
@@ -206,6 +212,113 @@
       ],
       "listingId": "nationwide-aquatics-usa:8763991031961",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 229,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40847524495569",
+          "label": "3.5-4.5\"",
+          "price": 229,
+          "available": false
+        },
+        {
+          "id": "40847524528337",
+          "label": "5-6”",
+          "price": 279,
+          "available": false
+        },
+        {
+          "id": "41127915847889",
+          "label": "8-9\"",
+          "price": 389.99,
+          "available": false
+        },
+        {
+          "id": "40847524561105",
+          "label": "9-10”",
+          "price": 429.99,
+          "available": false
+        },
+        {
+          "id": "41604371775697",
+          "label": "10-12”",
+          "price": 649.9,
+          "available": false
+        },
+        {
+          "id": "41044581581009",
+          "label": "14-16”",
+          "price": 1299.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6966812967121",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.060Z",
+      "price": 250,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "67860272283801",
+          "label": "Title",
+          "price": 250,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:15458736603289",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.060Z",
+      "price": 250,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47849032515737",
+          "label": "Title",
+          "price": 250,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8763991031961",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 324.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51878541164851",
+          "label": "4-5\" Unsexed",
+          "price": 299.99,
+          "available": false
+        },
+        {
+          "id": "51878541197619",
+          "label": "5-6\" Unsexed",
+          "price": 324.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9828216406323",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

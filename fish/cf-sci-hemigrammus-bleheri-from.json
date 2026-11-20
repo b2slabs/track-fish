@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hemigrammus-bleheri-from",
-  "commonName": "Rummynose Tetra (Medium)",
+  "commonName": "Rummynose Tetra",
   "scientificName": "Hemigrammus bleheri from",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Rummynose Tetra (Medium)"
+    },
+    {
+      "listingId": "imperial-tropicals:8398029127987",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Rummynose Tetra"
     }
   ],
   "events": [
@@ -56,6 +62,78 @@
       ],
       "listingId": "aquahuna:6678621782091",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42253122764875",
+          "label": "Title",
+          "price": 5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7634843074635",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 4,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39666623414347",
+          "label": "Title",
+          "price": 4,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6678621782091",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611863015731",
+          "label": "(3 Pack) 0.5-1\" Unsexed Captive Bred Indonesia",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "45611863048499",
+          "label": "(10 Pack) 0.5-1\" Unsexed Captive Bred Indonesia",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "52518585663795",
+          "label": "(3 Pack) 1-2\" Unsexed Wild Caught Brazil",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "52518585696563",
+          "label": "(10 Pack) 1-2\" Unsexed Wild Caught Brazil",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398029127987",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

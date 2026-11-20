@@ -1,0 +1,93 @@
+{
+  "canonicalFishId": "cf:sci:aglaonema-simplex-common",
+  "commonName": "Aglaonema Simplex",
+  "scientificName": "Aglaonema simplex common",
+  "listings": [
+    {
+      "listingId": "buce-plant:8322728689864",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Aglaonema Simplex"
+    },
+    {
+      "listingId": "buce-plant:7690678304968",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Aglaonema Simplex UNS Tissue Culture"
+    },
+    {
+      "listingId": "glass-aqua:6983806484566",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Aglaonema Simplex"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45117442162888",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8322728689864",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43140651811016",
+          "label": "Title",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:7690678304968",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44947374309462",
+          "label": "Potted",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "44947374276694",
+          "label": "UNS Tissue Culture",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:6983806484566",
+      "storeSlug": "glass-aqua"
+    }
+  ]
+}

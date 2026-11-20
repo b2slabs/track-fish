@@ -1,0 +1,73 @@
+{
+  "canonicalFishId": "cf:sci:bacopa-australis-common",
+  "commonName": "Bacopa Australis",
+  "scientificName": "Bacopa australis common",
+  "listings": [
+    {
+      "listingId": "buce-plant:472320245800",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Bacopa Australis"
+    },
+    {
+      "listingId": "glass-aqua:1346977300566",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Bacopa Australis"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "3863028498472",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12396984664145",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:472320245800",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12388430544982",
+          "label": "Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12712433811542",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:1346977300566",
+      "storeSlug": "glass-aqua"
+    }
+  ]
+}

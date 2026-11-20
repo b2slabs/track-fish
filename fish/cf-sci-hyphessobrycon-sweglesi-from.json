@@ -8,6 +8,18 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Red Phantom Tetra"
+    },
+    {
+      "listingId": "flip-aquatics:6818503589990",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Red Phantom Tetra"
+    },
+    {
+      "listingId": "global-exoticquatics:8439019176128",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Red Phantom Tetra"
     }
   ],
   "events": [
@@ -30,6 +42,63 @@
       ],
       "listingId": "aquahuna:1846231334955",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 3.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "16867762110507",
+          "label": "Title",
+          "price": 3.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1846231334955",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 5.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39914606362726",
+          "label": "Imported / 1 Fish",
+          "price": 5.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6818503589990",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 15,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47266227486912",
+          "label": "5 fish",
+          "price": 15,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8439019176128",
+      "storeSlug": "global-exoticquatics"
     }
   ]
 }

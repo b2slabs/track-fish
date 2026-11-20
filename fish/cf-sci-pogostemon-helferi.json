@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pogostemon-helferi",
-  "commonName": "Downoi (Pogostemon helferi) Tissue Culture",
+  "commonName": "Pogostemon Helferi Downoi",
   "scientificName": "Pogostemon helferi",
   "listings": [
     {
@@ -8,6 +8,36 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Downoi (Pogostemon helferi) Tissue Culture"
+    },
+    {
+      "listingId": "buce-plant:8087390126280",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Pogostemon Helferi Platinum Aquatic Farmer Tissue Culture"
+    },
+    {
+      "listingId": "buce-plant:6996636500168",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Pogostemon Helferi Downoi Red"
+    },
+    {
+      "listingId": "buce-plant:1328310714449",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Pogostemon Helferi 'Downoi'"
+    },
+    {
+      "listingId": "glass-aqua:6613732622422",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Pogostemon Helferi Downoi Red"
+    },
+    {
+      "listingId": "glass-aqua:11277469063",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Pogostemon Helferi Downoi"
     }
   ],
   "events": [
@@ -115,6 +145,129 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:1954139930710",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31568819454038",
+          "label": "1 Tissue Culture",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1954139930710",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44199469383880",
+          "label": "Title",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8087390126280",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40704440172744",
+          "label": "Title",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:6996636500168",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 19.54,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12232800796753",
+          "label": "Pot",
+          "price": 19.54,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:1328310714449",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39497036759126",
+          "label": "Title",
+          "price": 23.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:6613732622422",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738859207",
+          "label": "Tissue Culture",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "12711316422742",
+          "label": "Potted",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:11277469063",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

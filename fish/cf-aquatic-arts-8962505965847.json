@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:aquatic-arts:8962505965847",
-  "commonName": "Bacopa Salzmannii 'Purple' var SG  (Bacopa Salzmannii 'Purple') Tissue Culture",
+  "commonName": "Bacopa Salzmannii 'Purple' UNS Tissue Culture",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Bacopa Salzmannii 'Purple' var SG  (Bacopa Salzmannii 'Purple') Tissue Culture"
+    },
+    {
+      "listingId": "buce-plant:7690678370504",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Bacopa Salzmannii 'Purple' UNS Tissue Culture"
     }
   ],
   "events": [
@@ -115,6 +121,43 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:8962505965847",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47625950396695",
+          "label": "1 Tissue Culture",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:8962505965847",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43140651876552",
+          "label": "Title",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:7690678370504",
+      "storeSlug": "buce-plant"
     }
   ]
 }

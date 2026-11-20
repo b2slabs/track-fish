@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hydrocotyle-leucocephala",
-  "commonName": "Brazilian Pennywort (Hydrocotyle leucocephala), Bunched",
+  "commonName": "Brazilian Pennywort",
   "scientificName": "Hydrocotyle leucocephala",
   "listings": [
     {
@@ -8,6 +8,18 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Brazilian Pennywort (Hydrocotyle leucocephala), Bunched"
+    },
+    {
+      "listingId": "imperial-tropicals:8398080672051",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Brazilian Pennywort"
+    },
+    {
+      "listingId": "daku-aquatics:8741033443546",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Brazilian Pennywort"
     }
   ],
   "events": [
@@ -115,6 +127,69 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:4740998854",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15503289414",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4740998854",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612058968371",
+          "label": "1 Bunch",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "45612059001139",
+          "label": "1 Potted Plant",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398080672051",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043836612826",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741033443546",
+      "storeSlug": "daku-aquatics"
     }
   ]
 }

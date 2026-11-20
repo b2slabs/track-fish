@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:sagittaria-subulata",
-  "commonName": "Narrowleaf Sagittaria (Sagittaria subulata), Bunch w/Lead",
+  "commonName": "Quick Scape 153",
   "scientificName": "Sagittaria subulata",
   "listings": [
     {
@@ -14,6 +14,18 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Narrowleaf Sagittaria (Sagittaria subulata), Bunch w/Lead"
+    },
+    {
+      "listingId": "daku-aquatics:8741025874138",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Dwarf Sagittaria"
+    },
+    {
+      "listingId": "glass-aqua:7703756144726",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Quick Scape 153"
     }
   ],
   "events": [
@@ -298,6 +310,92 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:1389617741910",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31569428021334",
+          "label": "1 Tissue Culture",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1954849390678",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12779795742806",
+          "label": "1 Bunch",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "12779795775574",
+          "label": "2 Bunches",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "12779795808342",
+          "label": "3 Bunches",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1389617741910",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043823014106",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741025874138",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 68.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43594396565590",
+          "label": "Title",
+          "price": 68.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:7703756144726",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

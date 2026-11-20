@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:monster-aquarium:7612900245713",
-  "commonName": "Ultra Fresh Royal Guppy Mignon Pellet",
+  "commonName": "Guppy Food - Ultra Fresh Royal Guppy Mignon Pellet",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,18 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Ultra Fresh Royal Guppy Mignon Pellet"
+    },
+    {
+      "listingId": "buce-plant:8308321812680",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Ultra Fresh Royal Guppy Mignon Pellet"
+    },
+    {
+      "listingId": "glass-aqua:9606165364822",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Guppy Food - Ultra Fresh Royal Guppy Mignon Pellet"
     }
   ],
   "events": [
@@ -82,6 +94,69 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7612900245713",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42626709553361",
+          "label": "120ml / 53g",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "42626709586129",
+          "label": "330ml /130g",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7612900245713",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45041769349320",
+          "label": "Title",
+          "price": 9.15,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8308321812680",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48911705014358",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:9606165364822",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

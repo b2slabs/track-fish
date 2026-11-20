@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:corydoras-rabauti",
-  "commonName": "Rust Cory Catfish (Corydoras rabauti), TANK-BRED!!!",
+  "commonName": "Cory Rabauti | Corydoras rabauti",
   "scientificName": "Corydoras rabauti",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Rust Cory Catfish (Corydoras rabauti), TANK-BRED!!!"
+    },
+    {
+      "listingId": "flip-aquatics:7721863413862",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Cory Rabauti | Corydoras rabauti"
     }
   ],
   "events": [
@@ -223,6 +229,61 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:1563545206870",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15374207320150",
+          "label": "School of 3",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "15374207352918",
+          "label": "School of 6",
+          "price": 46.99,
+          "available": true
+        },
+        {
+          "id": "15374207385686",
+          "label": "School of 9",
+          "price": 69.39,
+          "available": true
+        },
+        {
+          "id": "15374207418454",
+          "label": "School of 12",
+          "price": 90.79,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1563545206870",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43064959139942",
+          "label": "Imported / 1 Fish",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:7721863413862",
+      "storeSlug": "flip-aquatics"
     }
   ]
 }

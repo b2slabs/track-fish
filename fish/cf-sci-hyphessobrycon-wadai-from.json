@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Blueberry Tetra"
+    },
+    {
+      "listingId": "shrimpy-business:9471010734370",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Blueberry Tetra"
     }
   ],
   "events": [
@@ -30,6 +36,61 @@
       ],
       "listingId": "aquahuna:7430281461835",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41730372599883",
+          "label": "Title",
+          "price": 15,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7430281461835",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 21.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49113231098146",
+          "label": "2 Fish",
+          "price": 21.95,
+          "available": false
+        },
+        {
+          "id": "49113231130914",
+          "label": "4 Fish",
+          "price": 39.95,
+          "available": false
+        },
+        {
+          "id": "51662841053474",
+          "label": "8 Fish",
+          "price": 74.95,
+          "available": false
+        },
+        {
+          "id": "51662841086242",
+          "label": "16 Fish",
+          "price": 140.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9471010734370",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:ck-fish-world:8733719298263",
-  "commonName": "Subwassertang (Golfball)",
+  "commonName": "Subwassertang",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,18 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Subwassertang (Golfball)"
+    },
+    {
+      "listingId": "shrimpy-business:9893161894178",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Subwassertang"
+    },
+    {
+      "listingId": "flip-aquatics:11309337476",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Subwassertang"
     }
   ],
   "events": [
@@ -42,6 +54,87 @@
       ],
       "listingId": "ck-fish-world:8733719298263",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.526Z",
+      "price": 10.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45749247606999",
+          "label": "1",
+          "price": 10.98,
+          "available": true
+        },
+        {
+          "id": "45749247639767",
+          "label": "3",
+          "price": 30.98,
+          "available": true
+        },
+        {
+          "id": "45749247672535",
+          "label": "5",
+          "price": 49.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8733719298263",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 5.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50470704316706",
+          "label": "Golf Ball Size",
+          "price": 5.95,
+          "available": false
+        },
+        {
+          "id": "50470704349474",
+          "label": "3 x Golf Ball Size",
+          "price": 15.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9893161894178",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40760392155238",
+          "label": "Cup Portion",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "40760392188006",
+          "label": "3x3 Mat",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:11309337476",
+      "storeSlug": "flip-aquatics"
     }
   ]
 }

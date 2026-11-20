@@ -1,0 +1,73 @@
+{
+  "canonicalFishId": "cf:sci:arothron-nigropunctatus-primary",
+  "commonName": "Yellow Belly Dogface Puffer",
+  "scientificName": "Arothron nigropunctatus primary",
+  "listings": [
+    {
+      "listingId": "aquarium-fish:9978093961515",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Dogface Puffer"
+    },
+    {
+      "listingId": "aquarium-fish:11233115148",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Yellow Belly Dogface Puffer"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 80.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50540751683883",
+          "label": "Small (1.5-3\")",
+          "price": 80.99,
+          "available": true
+        },
+        {
+          "id": "50540751716651",
+          "label": "Medium (3-5\")",
+          "price": 115.79,
+          "available": true
+        },
+        {
+          "id": "50540751782187",
+          "label": "Large (5-7\")",
+          "price": 173.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:9978093961515",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 218.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42500380428",
+          "label": "Title",
+          "price": 218.79,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:11233115148",
+      "storeSlug": "aquarium-fish"
+    }
+  ]
+}

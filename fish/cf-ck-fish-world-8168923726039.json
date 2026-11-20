@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:ck-fish-world:8168923726039",
-  "commonName": "hygger Aquarium Biochemical Sponge Filter",
+  "commonName": "Hygger Aquarium Biochemical Sponge Filter",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "hygger Aquarium Biochemical Sponge Filter"
+    },
+    {
+      "listingId": "buce-plant:8324913627336",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Hygger Aquarium Biochemical Sponge Filter"
     }
   ],
   "events": [
@@ -36,6 +42,61 @@
       ],
       "listingId": "ck-fish-world:8168923726039",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.526Z",
+      "price": 17.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44152749719767",
+          "label": "Small",
+          "price": 17.98,
+          "available": true
+        },
+        {
+          "id": "44152749752535",
+          "label": "Medium",
+          "price": 19.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8168923726039",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45126242861256",
+          "label": "Small",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "45126242894024",
+          "label": "Medium",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "45126242926792",
+          "label": "Large",
+          "price": 20.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8324913627336",
+      "storeSlug": "buce-plant"
     }
   ]
 }

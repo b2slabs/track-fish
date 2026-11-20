@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:geophagus-brasiliensis",
-  "commonName": "Pearl Cichlid (Geophagus brasiliensis) – Tank Bred",
+  "commonName": "Pearl Cichlid",
   "scientificName": "Geophagus brasiliensis",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Pearl Cichlid (Geophagus brasiliensis) – Tank Bred"
+    },
+    {
+      "listingId": "imperial-tropicals:8397979222323",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Pearl Cichlid"
     }
   ],
   "events": [
@@ -151,6 +157,85 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:14942174642543",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 4.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52878259913071",
+          "label": "1 Juvenile",
+          "price": 4.49,
+          "available": true
+        },
+        {
+          "id": "52878259945839",
+          "label": "Group of 3 (Juveniles)",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14942174642543",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48271493955891",
+          "label": "1-2” Unsexed Captive Bred",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "48377095225651",
+          "label": "2-3\" Unsexed Captive Bred",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "45611733909811",
+          "label": "3-4” Unsexed  Captive Bred",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "51592610709811",
+          "label": "4-5\" Unsexed Captive Bred",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "49819240497459",
+          "label": "1-2\" Unsexed Wild Caught",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "49819230077235",
+          "label": "2-3\" Unsexed Wild Caught",
+          "price": 79.99,
+          "available": false
+        },
+        {
+          "id": "49819233026355",
+          "label": "3-4\" Unsexed Wild Caught",
+          "price": 89.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8397979222323",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

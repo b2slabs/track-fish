@@ -1,0 +1,73 @@
+{
+  "canonicalFishId": "cf:sci:gastrodermus-elegans",
+  "commonName": "Elegant Gastrodermus (Gastrodermus elegans)",
+  "scientificName": "Gastrodermus elegans",
+  "listings": [
+    {
+      "listingId": "imperial-tropicals:10042153763123",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Yellow Fin Gastrodermus (Gastrodermus sp. (C123))"
+    },
+    {
+      "listingId": "imperial-tropicals:8398115176755",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Elegant Gastrodermus (Gastrodermus elegans)"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52912718086451",
+          "label": "1-2\" Unsexed",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "52912718119219",
+          "label": "(6 Pack) 1-2\" Unsexed",
+          "price": 64.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:10042153763123",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53517454082355",
+          "label": "(3 Pack) 1-2\" Unsexed Amazon River",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "49571786391859",
+          "label": "(6 Pack) 1-2\" Unsexed Amazon River",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398115176755",
+      "storeSlug": "imperial-tropicals"
+    }
+  ]
+}

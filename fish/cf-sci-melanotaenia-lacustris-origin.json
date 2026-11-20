@@ -1,0 +1,85 @@
+{
+  "canonicalFishId": "cf:sci:melanotaenia-lacustris-origin",
+  "commonName": "Turquoise Rainbowfish",
+  "scientificName": "Melanotaenia lacustris origin",
+  "listings": [
+    {
+      "listingId": "aquarium-fish:6007396422",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Turquoise Rainbowfish"
+    },
+    {
+      "listingId": "imperial-tropicals:8398019297587",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Turquoise Rainbowfish"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 14.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32422157582417",
+          "label": "Medium",
+          "price": 14.79,
+          "available": true
+        },
+        {
+          "id": "32422157615185",
+          "label": "Small",
+          "price": 6.29,
+          "available": false
+        },
+        {
+          "id": "44666817839403",
+          "label": "Large",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6007396422",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611829297459",
+          "label": "1-2\" Unsexed",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "45611829330227",
+          "label": "2-3” Unsexed",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "45611829362995",
+          "label": "3-4\" Unsexed",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398019297587",
+      "storeSlug": "imperial-tropicals"
+    }
+  ]
+}

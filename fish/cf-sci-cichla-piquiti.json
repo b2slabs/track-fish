@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Azul Peacock Bass (Cichla piquiti)"
+    },
+    {
+      "listingId": "imperial-tropicals:8397983449395",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Azul Peacock Bass (Cichla piquiti)"
     }
   ],
   "events": [
@@ -64,6 +70,43 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7007692816593",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 85,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40978488754385",
+          "label": "6-7”",
+          "price": 85,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7007692816593",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611743609139",
+          "label": "2-3\" Unsexed",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8397983449395",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

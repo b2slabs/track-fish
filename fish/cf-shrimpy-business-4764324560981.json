@@ -1,0 +1,67 @@
+{
+  "canonicalFishId": "cf:shrimpy-business:4764324560981",
+  "commonName": "Casuarina Cones",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "shrimpy-business:4764324560981",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Casuarina Cones"
+    },
+    {
+      "listingId": "flip-aquatics:3484501114982",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Casuarina Cones"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 3,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32717846577237",
+          "label": "Title",
+          "price": 3,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:4764324560981",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 6.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "27871024742502",
+          "label": "20 count",
+          "price": 6.49,
+          "available": true
+        },
+        {
+          "id": "27871024775270",
+          "label": "40 count",
+          "price": 13.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:3484501114982",
+      "storeSlug": "flip-aquatics"
+    }
+  ]
+}

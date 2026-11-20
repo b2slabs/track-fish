@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:polypterus-bichir-lapradei",
-  "commonName": "Lapradei Polypterus (Polypterus bichir lapradei)",
+  "commonName": "Lapradei Bichir",
   "scientificName": "Polypterus bichir lapradei",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Lapradei Polypterus (Polypterus bichir lapradei)"
+    },
+    {
+      "listingId": "aquarium-fish:6095256966",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Lapradei Bichir"
     }
   ],
   "events": [
@@ -100,6 +106,55 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7193514770641",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 32.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41450917036241",
+          "label": "4”",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "41430337913041",
+          "label": "6-7\"",
+          "price": 45.99,
+          "available": false
+        },
+        {
+          "id": "41430337978577",
+          "label": "10-12\"",
+          "price": 449,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7193514770641",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32267411357777",
+          "label": "Medium (3-4\")",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6095256966",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

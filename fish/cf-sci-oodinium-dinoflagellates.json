@@ -8,6 +8,12 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Fritz ParaCleanse"
+    },
+    {
+      "listingId": "flip-aquatics:4574839472230",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Fritz ParaCleanse"
     }
   ],
   "events": [
@@ -36,6 +42,55 @@
       ],
       "listingId": "ck-fish-world:8168889221335",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.526Z",
+      "price": 17.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44152663277783",
+          "label": "10 pack",
+          "price": 17.98,
+          "available": true
+        },
+        {
+          "id": "44152663310551",
+          "label": "20 pack",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8168889221335",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31396193042534",
+          "label": "10 pack",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "31396193075302",
+          "label": "20 pack",
+          "price": 27.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:4574839472230",
+      "storeSlug": "flip-aquatics"
     }
   ]
 }

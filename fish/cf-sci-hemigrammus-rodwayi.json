@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Gold Tetra (Hemigrammus rodwayi)"
+    },
+    {
+      "listingId": "imperial-tropicals:8398119928115",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Gold Tetra (Hemigrammus rodwayi)"
     }
   ],
   "events": [
@@ -64,6 +70,49 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7214814298321",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 2.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41485460635857",
+          "label": ".5-1\"",
+          "price": 2.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7214814298321",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612147081523",
+          "label": "(3 Pack) 0.5-1\" Unsexed",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "45612147114291",
+          "label": "(10 Pack) 0.5-1\" Unsexed",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398119928115",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

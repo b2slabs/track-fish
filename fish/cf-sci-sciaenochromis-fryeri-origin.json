@@ -1,0 +1,73 @@
+{
+  "canonicalFishId": "cf:sci:sciaenochromis-fryeri-origin",
+  "commonName": "Electric Blue Cichlid",
+  "scientificName": "Sciaenochromis fryeri origin",
+  "listings": [
+    {
+      "listingId": "aquarium-fish:10476683034923",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Electric Blue Cichlid (Lot of 4)"
+    },
+    {
+      "listingId": "aquarium-fish:2345262579793",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Electric Blue Cichlid"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 35.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "54187950735659",
+          "label": "Large",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "54187950768427",
+          "label": "Medium",
+          "price": 35.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10476683034923",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40184553996369",
+          "label": "Large",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "40184554029137",
+          "label": "Medium",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:2345262579793",
+      "storeSlug": "aquarium-fish"
+    }
+  ]
+}

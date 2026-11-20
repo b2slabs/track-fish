@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:limnophila-aromatica",
-  "commonName": "Limnophila Aromatica AKA Rice Paddy Herb (Limnophila aromatica), Tissue Culture",
+  "commonName": "Limnophila Aromatica Mini",
   "scientificName": "Limnophila aromatica",
   "listings": [
     {
@@ -14,6 +14,18 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Limnophila Aromatica AKA Rice Paddy Herb (Limnophila aromatica), Tissue Culture"
+    },
+    {
+      "listingId": "buce-plant:8010694525128",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Limnophila Aromatica Mini"
+    },
+    {
+      "listingId": "glass-aqua:7611801370710",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Limnophila Aromatica Mini"
     }
   ],
   "events": [
@@ -298,6 +310,92 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:8578144141591",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39547661975638",
+          "label": "1 Bunch",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "39547662008406",
+          "label": "2 Bunches",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "39547662041174",
+          "label": "3 Bunches",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6633463054422",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46414911832343",
+          "label": "1 Cup",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:8578144141591",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43949798916296",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8010694525128",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42557631496278",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:7611801370710",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

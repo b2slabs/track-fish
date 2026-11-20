@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:vallisneria-spiralis",
-  "commonName": "Italian Vallisneria (Vallisneria spiralis), Bare Root",
+  "commonName": "Vallisneria Spiralis Leopard",
   "scientificName": "Vallisneria spiralis",
   "listings": [
     {
@@ -8,6 +8,24 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Italian Vallisneria (Vallisneria spiralis), Bare Root"
+    },
+    {
+      "listingId": "imperial-tropicals:9810383438131",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Italian Val (Vallisneria spiralis)"
+    },
+    {
+      "listingId": "buce-plant:436008845352",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Vallisneria Spiralis Leopard"
+    },
+    {
+      "listingId": "glass-aqua:4581903532118",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Vallisneria Spiralis Leopard"
     }
   ],
   "events": [
@@ -187,6 +205,101 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:6556677505110",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39315772670038",
+          "label": "1 Plant",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "39315772702806",
+          "label": "2 Plants",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "39315772735574",
+          "label": "3 Plants",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6556677505110",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51806512218419",
+          "label": "1 Bunch",
+          "price": 5.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9810383438131",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 6.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "3736276238376",
+          "label": "Lead Bunch",
+          "price": 6.79,
+          "available": false
+        },
+        {
+          "id": "12398859616337",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.39,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:436008845352",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32032251248726",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:4581903532118",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

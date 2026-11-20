@@ -1,0 +1,87 @@
+{
+  "canonicalFishId": "cf:flip-aquatics:295774126120",
+  "commonName": "API pH Test Kit",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "flip-aquatics:295774126120",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "API 5 in 1 Test Kit"
+    },
+    {
+      "listingId": "aquarium-fish:6583880089681",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "API KH Test Kit"
+    },
+    {
+      "listingId": "aquarium-fish:6583878942801",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "API pH Test Kit"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "2999583506472",
+          "label": "Title",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:295774126120",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39382974234705",
+          "label": "Title",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6583880089681",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39382971613265",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6583878942801",
+      "storeSlug": "aquarium-fish"
+    }
+  ]
+}

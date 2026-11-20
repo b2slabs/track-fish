@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:labidochromis-caeruleus",
-  "commonName": "Yellow lab cichlid (Labidochromis caeruleus)",
+  "commonName": "Zebra White Lab Lundo Island",
   "scientificName": "Labidochromis caeruleus",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Yellow lab cichlid (Labidochromis caeruleus)"
+    },
+    {
+      "listingId": "imperial-tropicals:8398081294643",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Zebra White Lab Lundo Island"
     }
   ],
   "events": [
@@ -319,6 +325,132 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:6972221161681",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53011239108975",
+          "label": "1 Fish (Tank Bred)",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "53011239141743",
+          "label": "3 Fish (Tank Bred)",
+          "price": 27.99,
+          "available": false
+        },
+        {
+          "id": "53011239174511",
+          "label": "1 Fish ( Locally Bred)",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "53011239207279",
+          "label": "3 Fish (Locally Bred)",
+          "price": 27.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14966292873583",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40858942243025",
+          "label": "2-2.25”",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "41518521090257",
+          "label": "3\"-3.5\"",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "42230136799441",
+          "label": "4-4.5\"",
+          "price": 45,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6972221161681",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47240426651955",
+          "label": "1-2” Unsexed",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "50024391999795",
+          "label": "(5 Pack) 1-2” Unsexed",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "46470340575539",
+          "label": "2-3” Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "47366953140531",
+          "label": "2-3” Pair (1 Male, 1 Female)",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "47366947045683",
+          "label": "2-3” Breeder Pack ( 1 Male, 3 Females)",
+          "price": 65.99,
+          "available": false
+        },
+        {
+          "id": "47366966673715",
+          "label": "3-4” Male",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "50799940960563",
+          "label": "4-5” Male",
+          "price": 44.99,
+          "available": true
+        },
+        {
+          "id": "50799944466739",
+          "label": "5-6” Male",
+          "price": 54.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398081294643",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

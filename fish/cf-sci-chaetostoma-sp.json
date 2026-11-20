@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:chaetostoma-sp",
-  "commonName": "L455 Tiger Chaetostoma Pleco (Chaetostoma sp. L455)",
+  "commonName": "L146a Rubber Lip Pleco",
   "scientificName": "Chaetostoma sp.",
   "listings": [
     {
@@ -8,6 +8,24 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "L455 Tiger Chaetostoma Pleco (Chaetostoma sp. L455)"
+    },
+    {
+      "listingId": "aquarium-fish:6656071302",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "L-187A Spotted Rubberlip Pleco"
+    },
+    {
+      "listingId": "aquarium-fish:6655749382",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "L-146 Rubberlip Pleco"
+    },
+    {
+      "listingId": "imperial-tropicals:9718015656243",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "L146a Rubber Lip Pleco"
     }
   ],
   "events": [
@@ -64,6 +82,89 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7086098481361",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 29.08,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41172886094033",
+          "label": "2.5-3”",
+          "price": 29.08,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7086098481361",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267402346577",
+          "label": "Medium (2\")",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6656071302",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 27.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267402936401",
+          "label": "Medium",
+          "price": 27.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6655749382",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51418410910003",
+          "label": "2-3\" Unsexed",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "51418410942771",
+          "label": "3-4\" Unsexed",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9718015656243",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

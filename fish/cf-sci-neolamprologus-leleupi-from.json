@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:neolamprologus-leleupi-from",
-  "commonName": "Neolamprologus Leleupi (2.5\")",
+  "commonName": "Neolamprologus leleupi",
   "scientificName": "Neolamprologus leleupi from",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Neolamprologus Leleupi (2.5\")"
+    },
+    {
+      "listingId": "imperial-tropicals:8397967262003",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Neolamprologus leleupi"
     }
   ],
   "events": [
@@ -30,6 +36,49 @@
       ],
       "listingId": "aquahuna:4199703642155",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 16.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "30672198697003",
+          "label": "Title",
+          "price": 16.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4199703642155",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611699306803",
+          "label": "1-2\" Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "46470444843315",
+          "label": "2-3\" Unsexed",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8397967262003",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hasemania-nana-from",
-  "commonName": "Silvertip Tetra",
+  "commonName": "Silver Tip Tetra",
   "scientificName": "Hasemania nana from",
   "listings": [
     {
@@ -8,6 +8,18 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Silvertip Tetra"
+    },
+    {
+      "listingId": "shrimpy-business:9377553350946",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Silvertip Tetra (Tank-Bred)"
+    },
+    {
+      "listingId": "flip-aquatics:6926729511014",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Silver Tip Tetra"
     }
   ],
   "events": [
@@ -30,6 +42,81 @@
       ],
       "listingId": "aquahuna:4585479077963",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 2.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32354267037771",
+          "label": "Title",
+          "price": 2.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4585479077963",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 11.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48848704471330",
+          "label": "3 Fish",
+          "price": 11.95,
+          "available": true
+        },
+        {
+          "id": "48848704504098",
+          "label": "6 Fish",
+          "price": 21.95,
+          "available": true
+        },
+        {
+          "id": "51662841839906",
+          "label": "12 Fish",
+          "price": 40.95,
+          "available": false
+        },
+        {
+          "id": "51662841872674",
+          "label": "24 Fish",
+          "price": 76.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9377553350946",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40399631679590",
+          "label": "Imported / 1 Fish",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6926729511014",
+      "storeSlug": "flip-aquatics"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:anubias-nana",
-  "commonName": "Dwarf Anubias (Anubias nana) Bare Root - 2 to 5 inches tall",
+  "commonName": "Anubias Nana \"Petite\"",
   "scientificName": "Anubias nana",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Dwarf Anubias (Anubias nana) Bare Root - 2 to 5 inches tall"
+    },
+    {
+      "listingId": "flip-aquatics:11309592068",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Anubias Nana \"Petite\""
     }
   ],
   "events": [
@@ -115,6 +121,43 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:4736918022",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15496030534",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4736918022",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090481655910",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:11309592068",
+      "storeSlug": "flip-aquatics"
     }
   ]
 }

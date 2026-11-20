@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:leporacanthicus-triactis",
-  "commonName": "L91 Three Beacon Pleco (Leporacanthicus triactis)",
+  "commonName": "L091 Three Beacon Pleco",
   "scientificName": "Leporacanthicus triactis",
   "listings": [
     {
@@ -8,6 +8,18 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "L91 Three Beacon Pleco (Leporacanthicus triactis)"
+    },
+    {
+      "listingId": "aquarium-fish:6655386758",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "L-91 Tri Beacon Cactus Pleco"
+    },
+    {
+      "listingId": "imperial-tropicals:9087271862579",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "L091 Three Beacon Pleco"
     }
   ],
   "events": [
@@ -100,6 +112,93 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7174152192209",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43015324467409",
+          "label": "1.5-2”",
+          "price": 29,
+          "available": false
+        },
+        {
+          "id": "42142782783697",
+          "label": "3-4”",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "41387985567953",
+          "label": "6-7”",
+          "price": 88.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7174152192209",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 89.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32267403264081",
+          "label": "Medium",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "32267403296849",
+          "label": "Large",
+          "price": 189.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6655386758",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 89.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48630270427443",
+          "label": "1-2\" Unsexed",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "49710707933491",
+          "label": "2-3\" Unsexed",
+          "price": 114.99,
+          "available": false
+        },
+        {
+          "id": "49710720909619",
+          "label": "3-4\" Unsexed",
+          "price": 134.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9087271862579",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

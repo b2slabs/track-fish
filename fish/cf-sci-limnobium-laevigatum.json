@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:limnobium-laevigatum",
-  "commonName": "Amazon Frogbit AKA Spongeplant (Limnobium laevigatum), Aquatic Arts Grown!",
+  "commonName": "Frogbit",
   "scientificName": "Limnobium laevigatum",
   "listings": [
     {
@@ -20,6 +20,18 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Amazon Frogbit AKA Spongeplant (Limnobium laevigatum), Aquatic Arts Grown!"
+    },
+    {
+      "listingId": "flip-aquatics:7421983588454",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Amazon Frogbit"
+    },
+    {
+      "listingId": "daku-aquatics:8741026463962",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Frogbit"
     }
   ],
   "events": [
@@ -445,6 +457,115 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:4758284501078",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40108007129174",
+          "label": "3 Pods",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6825016688726",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40029946478678",
+          "label": "3 Pods",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "40029946511446",
+          "label": "6 Pods",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "40029946544214",
+          "label": "9 Pods",
+          "price": 33.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6799257731158",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32777004810326",
+          "label": "3 Pods",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "32777004843094",
+          "label": "6 Pods",
+          "price": 27.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4758284501078",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42055501938790",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:7421983588454",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043823571162",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741026463962",
+      "storeSlug": "daku-aquatics"
     }
   ]
 }
