@@ -4,12 +4,6 @@
   "scientificName": "Reef safe",
   "listings": [
     {
-      "listingId": "buce-plant:8309246656712",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Red Sea Roller Mat Adapter"
-    },
-    {
       "listingId": "buce-plant:8124805284040",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
@@ -19,32 +13,6 @@
   "events": [
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
-      "price": 49.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45046939254984",
-          "label": "R60 / R75 / R90",
-          "price": 49.99,
-          "available": true
-        },
-        {
-          "id": "45046939320520",
-          "label": "R120 / R150 / R180",
-          "price": 54.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "buce-plant:8309246656712",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 44.99,
       "currency": "USD",
       "available": false,
@@ -85,29 +53,6 @@
         "first-observed"
       ],
       "listingId": "buce-plant:8124805284040",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:59.411Z",
-      "price": 49.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45046939254984",
-          "label": "R60 / R75 / R90",
-          "price": 49.99,
-          "available": true
-        },
-        {
-          "id": "45046939320520",
-          "label": "R120 / R150 / R180",
-          "price": 54.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:8309246656712",
       "storeSlug": "buce-plant"
     },
     {
@@ -153,29 +98,6 @@
     },
     {
       "observedAt": "2026-11-21T01:29:25.528Z",
-      "price": 49.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45046939254984",
-          "label": "R60 / R75 / R90",
-          "price": 49.99,
-          "available": true
-        },
-        {
-          "id": "45046939320520",
-          "label": "R120 / R150 / R180",
-          "price": 54.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:8309246656712",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:25.528Z",
       "price": 44.99,
       "currency": "USD",
       "available": false,
@@ -213,29 +135,6 @@
       ],
       "type": "heartbeat",
       "listingId": "buce-plant:8124805284040",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T01:31:18.727Z",
-      "price": 49.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45046939254984",
-          "label": "R60 / R75 / R90",
-          "price": 49.99,
-          "available": true
-        },
-        {
-          "id": "45046939320520",
-          "label": "R120 / R150 / R180",
-          "price": 54.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:8309246656712",
       "storeSlug": "buce-plant"
     },
     {
@@ -281,29 +180,6 @@
     },
     {
       "observedAt": "2026-11-21T02:01:06.591Z",
-      "price": 49.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45046939254984",
-          "label": "R60 / R75 / R90",
-          "price": 49.99,
-          "available": true
-        },
-        {
-          "id": "45046939320520",
-          "label": "R120 / R150 / R180",
-          "price": 54.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:8309246656712",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T02:01:06.591Z",
       "price": 44.99,
       "currency": "USD",
       "available": false,
@@ -345,29 +221,47 @@
     },
     {
       "observedAt": "2026-11-21T02:06:34.378Z",
-      "price": 49.99,
+      "price": 44.99,
       "currency": "USD",
-      "available": true,
+      "available": false,
       "variants": [
         {
-          "id": "45046939254984",
-          "label": "R60 / R75 / R90",
-          "price": 49.99,
-          "available": true
+          "id": "44318169465032",
+          "label": "R60",
+          "price": 44.99,
+          "available": false
         },
         {
-          "id": "45046939320520",
-          "label": "R120 / R150 / R180",
+          "id": "44318169497800",
+          "label": "R90",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "44318169530568",
+          "label": "R120",
+          "price": 54.99,
+          "available": false
+        },
+        {
+          "id": "44318169563336",
+          "label": "R150",
+          "price": 54.99,
+          "available": false
+        },
+        {
+          "id": "44318169596104",
+          "label": "R180",
           "price": 54.99,
           "available": false
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8309246656712",
+      "listingId": "buce-plant:8124805284040",
       "storeSlug": "buce-plant"
     },
     {
-      "observedAt": "2026-11-21T02:06:34.378Z",
+      "observedAt": "2026-11-21T14:38:56.536Z",
       "price": 44.99,
       "currency": "USD",
       "available": false,

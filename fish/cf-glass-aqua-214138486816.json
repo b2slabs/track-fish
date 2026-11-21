@@ -151,6 +151,34 @@
       "type": "heartbeat",
       "listingId": "glass-aqua:214138486816",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T14:39:29.647Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "2516128399392",
+          "label": "Tissue Culture",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "6038901129248",
+          "label": "Potted",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:214138486816",
+      "storeSlug": "glass-aqua"
     }
   ]
 }
