@@ -54,7 +54,6 @@ export function BrowsePage() {
         <p className="text-muted-foreground">
           Browse fish tracked across aquarium stores, with price and availability history.
         </p>
-        {index && <LastUpdated index={index} />}
       </header>
 
       {loading && (
@@ -103,6 +102,12 @@ export function BrowsePage() {
             </>
           )}
         </>
+      )}
+
+      {index && (
+        <footer className="mt-10 border-t pt-4">
+          <LastUpdated index={index} />
+        </footer>
       )}
     </div>
   );
