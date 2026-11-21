@@ -117,6 +117,7 @@ export function BrowsePage() {
                     key={group.canonicalFishId}
                     listing={group.representative}
                     storeCount={group.storeCount}
+                    available={group.available}
                   />
                 ))}
               </div>
