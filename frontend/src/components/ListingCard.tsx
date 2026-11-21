@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Badge } from '@/components/ui/badge';
-import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
+import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { formatPrice } from '@/lib/format';
 import type { Listing } from '@/types/data';
 
@@ -79,11 +79,6 @@ export function ListingCard({
           </p>
         )}
       </CardContent>
-      <CardFooter className="pt-0">
-        <Link to={detailHref} className="text-sm text-muted-foreground hover:underline">
-          Price history
-        </Link>
-      </CardFooter>
     </Card>
   );
 }

@@ -1,7 +1,7 @@
 import { ExternalLink } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
-import { formatDateTime, formatPrice, normalizeVariantLabel } from '@/lib/format';
+import { formatPrice, formatShortDate, normalizeVariantLabel } from '@/lib/format';
 import type { Listing } from '@/types/data';
 
 /**
@@ -46,18 +46,20 @@ export function StoreComparisonCard({ listing }: { listing: Listing }) {
             </li>
           ))}
         </ul>
-        <p className="text-xs text-muted-foreground">
-          Last observed {formatDateTime(listing.lastObservedAt)}
-        </p>
-        <a
-          href={listing.productUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
-        >
-          View on {listing.storeName}
-          <ExternalLink className="size-3.5" />
-        </a>
+        <div className="flex items-center justify-between gap-2">
+          <a
+            href={listing.productUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
+          >
+            View on {listing.storeName}
+            <ExternalLink className="size-3.5" />
+          </a>
+          <span className="text-xs text-muted-foreground">
+            {formatShortDate(listing.lastObservedAt)}
+          </span>
+        </div>
       </CardContent>
     </Card>
   );
