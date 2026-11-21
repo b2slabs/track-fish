@@ -39,6 +39,41 @@ const overrides: CanonicalFishOverride[] = [
       'the same species as "Cardinal Tetra (Paracheirodon axelrodi), Tank-Bred" -- confirmed by a ' +
       'maintainer as the same Canonical Fish.',
   },
+  {
+    listingId: 'aquahuna:4738582609995',
+    canonicalFishId: 'cf:sci:corydoras-aeneus',
+    note:
+      'Before issue #16\'s fix, a case-insensitivity bug in the "Scientific Name:" label matcher ' +
+      '(see scientific-name.ts) let several Stores\' mis-capitalized or run-on descriptions ' +
+      '(e.g. "...Corydoras Aeneus From our tank...") get corrupted into their own ' +
+      'cf:sci:corydoras-aeneus-from id, splitting them from the correct cf:sci:corydoras-aeneus ' +
+      'group. The extraction bug itself is fixed, and on reprocessing every other affected ' +
+      'Listing self-corrects back to cf:sci:corydoras-aeneus via its own clean re-extraction or a ' +
+      'confident fuzzy match against it. This Listing is the one exception: its title ("Albino ' +
+      'Cory") and description extract no scientific name of their own at all, so it depends purely ' +
+      'on fuzzy common-name matching, and a same-scoring tie between the (shrinking) legacy ' +
+      '"-from" group and the correct group does not reliably resolve to the correct one depending ' +
+      'on processing order. Confirmed the same species (Corydoras aeneus / albino corydoras) as ' +
+      'every other "Albino Cory"/"Albino Cory (Corydoras aeneus)" Listing across stores.',
+  },
+  ...(['aquahuna:7456012402763', 'aquarium-fish:10359234167083', 'aquarium-fish:1592179064902',
+       'aquatic-arts:11385997708', 'monster-aquarium:7466867392721', 'nu-aqua-shop:10006318842172',
+       'shrimpy-business:9470968693026'] as const).map((listingId) => ({
+    listingId,
+    canonicalFishId: 'cf:sci:boraras-merah',
+    note:
+      'Regression check for issue #3\'s cross-store "Boraras merah" merge, caught while verifying ' +
+      'issue #16: a prior pipeline run (before issue #16\'s canonical-fish.ts guard existed -- see ' +
+      'its module doc) let a mis-extracted "cf:sci:boraras-merah-we" id (same label-matching bug ' +
+      'as the Corydoras aeneus case above, on a different Store\'s "Phoenix Rasbora" description) ' +
+      'win a fuzzy-score tie against every other Store\'s clean "Boraras merah" extraction, ' +
+      'including title-parenthetical ones that should never have been touched. That run fully ' +
+      'emptied the correct cf:sci:boraras-merah group of cross-store members and got committed to ' +
+      'the data branch, so issue #16\'s guard (which protects an *already-established* clean group ' +
+      'from being hijacked) has nothing left to protect -- there is no longer a clean anchor for it ' +
+      'to defer to. These overrides are the one-time remediation: repoint every Listing the earlier ' +
+      'bad run mis-grouped back to the correct, canonical cf:sci:boraras-merah.',
+  })),
 ];
 
 export default overrides;

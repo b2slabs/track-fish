@@ -30,6 +30,20 @@ test('unrelated names score low', () => {
   assert.ok(score < 0.4, `expected < 0.4, got ${score}`);
 });
 
+test('issue #16: a common name that still carries its scientific-name parenthetical scores identically to the bare common name', () => {
+  // "Albino Cory" vs "Albino Cory (Corydoras aeneus)" must not be
+  // depressed by the un-stripped parenthetical -- normalizeCommonName
+  // already strips any `(...)` aside before comparison.
+  assert.equal(commonNameSimilarity('Albino Cory', 'Albino Cory (Corydoras aeneus)'), 1);
+  assert.equal(
+    commonNameSimilarity(
+      'Tail Spot Pygmy Cory (Gastrodermus hastatus)',
+      'Tail Spot Pygmy Cory (Corydoras hastatus) - Tank Bred'
+    ),
+    1
+  );
+});
+
 test('partial wording overlap lands in a mid-range score', () => {
   const score = commonNameSimilarity('Blue Cobalt Discus', 'Blue Diamond Discus');
   assert.ok(score > 0.3 && score < 0.95, `expected mid-range, got ${score}`);

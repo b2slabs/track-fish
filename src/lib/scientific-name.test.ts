@@ -65,6 +65,46 @@ test('does not false-positive on common variant descriptors in parentheses', () 
   );
 });
 
+test('issue #16: a labeled binomial followed immediately by a capitalized next sentence/label, with no punctuation boundary, does not swallow that next word as a bogus subspecies', () => {
+  // Real AquaHuna product description: "Scientific Name: Corydoras Aeneus
+  // From our tank to your tank!" -- before the fix, the case-insensitive
+  // label match let "From" slip in as if it were a lowercase
+  // subspecies/variety word, producing "Corydoras aeneus from" instead of
+  // "Corydoras aeneus", which permanently forked this Store's Listings
+  // away from every other Store's correctly-extracted "Corydoras aeneus".
+  assert.equal(
+    extractScientificName({
+      commonName: 'Albino Cory',
+      description: 'Scientific Name: Corydoras Aeneus From our tank to your tank! We have mastered the art of keeping fish.',
+    }),
+    null // vendor capitalized the species too ("Aeneus"), so this specific
+    // description yields no confident extraction at all -- it is expected
+    // to fall back to fuzzy common-name matching (see canonical-fish.test.ts).
+  );
+
+  // Real Aquarium Co-Op-style "Quick Facts" description: "Scientific Name
+  // Corydoras pygmaeus Origin Brazil, Peru and Colombia ...". Same
+  // no-punctuation-boundary shape, but with a properly-cased species, so
+  // extraction should succeed and stop at "pygmaeus" -- not "origin".
+  assert.equal(
+    extractScientificName({
+      commonName: 'Pygmy Cory (Gang of 5)',
+      description: 'Quick Facts Scientific Name Corydoras pygmaeus Origin Brazil, Peru and Colombia Care Level Easy',
+    }),
+    'Corydoras pygmaeus'
+  );
+});
+
+test('a genuinely lowercase stopword in the subspecies/variety slot is dropped, not treated as part of the name', () => {
+  assert.equal(
+    extractScientificName({
+      commonName: 'Some Fish',
+      description: 'Scientific Name: Corydoras aeneus origin unspecified.',
+    }),
+    'Corydoras aeneus'
+  );
+});
+
 test('slugifies a scientific name for use as a Canonical Fish id suffix', () => {
   assert.equal(scientificNameSlug('Hyphessobrycon peugeoti'), 'hyphessobrycon-peugeoti');
   assert.equal(scientificNameSlug('Corydoras sp. black'), 'corydoras-sp-black');
