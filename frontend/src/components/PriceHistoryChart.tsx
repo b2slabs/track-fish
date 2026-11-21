@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import type { MouseEvent as ReactMouseEvent, RefObject } from 'react';
 import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import type { DotProps } from 'recharts';
-import { formatDateTime, formatPrice } from '@/lib/format';
+import { formatDateTime, formatPrice, normalizeVariantLabel } from '@/lib/format';
 import type { HistoryEvent } from '@/types/data';
 
 interface ChartPoint {
@@ -323,48 +323,75 @@ function usePlotRect(dataLength: number) {
   return { containerRef, rect };
 }
 
-/** A bar's pixel geometry: horizontal center, vertical span (min-enforced), and the average tick's y. */
+/**
+ * A bar's pixel geometry: horizontal center, vertical span, and the
+ * average marker's y. `isSinglePoint` is true when there's nothing to show
+ * a range of — exactly one real-priced variant at this instant, so
+ * min = max = average — and the overlay renders a lone point instead of a
+ * stem (issue #42).
+ */
 interface BarGeometry {
   cx: number;
   yTop: number;
   yBottom: number;
   avgY: number;
+  isSinglePoint: boolean;
 }
 
-const BAR_WIDTH = 10;
+const CAP_WIDTH = 10;
+const STEM_WIDTH = 2;
+const AVG_DOT_RADIUS = 4;
+const AVG_DOT_RING_WIDTH = 2;
 /**
- * Minimum rendered bar height in pixels — enforced so a Store with only one
- * variant at a given timestamp (min = max = average) still renders as a
- * visible, simple pill rather than a invisible sliver (issue #35's
- * degenerate-bar acceptance criterion).
+ * Minimum rendered stem height in pixels — enforced only for a genuine
+ * multi-variant range whose min and max happen to land on (or very near)
+ * the same price, e.g. two pack sizes priced identically — so the stem and
+ * its caps still render as a visible sliver rather than vanish entirely.
+ * Does not apply to a single-variant bar: that case renders as a point,
+ * not a zero-height stem (issue #42; replaces issue #35's degenerate-bar
+ * minimum-height rule, which papered over the single-variant case the same
+ * way instead of giving it its own point rendering).
  */
-const MIN_BAR_HEIGHT_PX = 6;
+const MIN_STEM_HEIGHT_PX = 6;
 
 function barGeometry(rect: PlotRect, domain: Domain, bar: StoreBar): BarGeometry {
   const cx = rect.left + ((bar.timestamp - domain.minT) / (domain.maxT - domain.minT)) * rect.width;
   const priceToY = (price: number) =>
     rect.top + (1 - (price - domain.minP) / (domain.maxP - domain.minP)) * rect.height;
+
+  if (bar.variants.length <= 1) {
+    const y = priceToY(bar.avg);
+    return { cx, yTop: y, yBottom: y, avgY: y, isSinglePoint: true };
+  }
+
   let yTop = priceToY(bar.max);
   let yBottom = priceToY(bar.min);
-  if (yBottom - yTop < MIN_BAR_HEIGHT_PX) {
+  if (yBottom - yTop < MIN_STEM_HEIGHT_PX) {
     const center = (yTop + yBottom) / 2;
-    yTop = center - MIN_BAR_HEIGHT_PX / 2;
-    yBottom = center + MIN_BAR_HEIGHT_PX / 2;
+    yTop = center - MIN_STEM_HEIGHT_PX / 2;
+    yBottom = center + MIN_STEM_HEIGHT_PX / 2;
   }
   const avgY = Math.min(yBottom, Math.max(yTop, priceToY(bar.avg)));
-  return { cx, yTop, yBottom, avgY };
+  return { cx, yTop, yBottom, avgY, isSinglePoint: false };
 }
 
 /**
- * Draws every Store's range bars as an absolutely-positioned SVG overlay on
- * top of Recharts' axes/grid (see `usePlotRect` for why bars aren't plotted
- * through Recharts' own `<Bar>`: full control over the floating min-max
- * span, the enforced minimum height, and the average tick notch, mirroring
- * this file's existing precedent of overlaying custom marks on the
- * Recharts-drawn axes — see `PointHoverOverlay`'s predecessor). The average
- * tick is drawn in the chart surface color cut through the fill (the
- * dataviz skill's "surface gap" mechanism) rather than an added stroke, so
- * it reads in both light and dark without a second ink.
+ * Draws every Store's range marks as an absolutely-positioned SVG overlay
+ * on top of Recharts' axes/grid (see `usePlotRect` for why marks aren't
+ * plotted through Recharts' own `<Bar>`: full control over the floating
+ * min-max span and the single-point fallback, mirroring this file's
+ * existing precedent of overlaying custom marks on the Recharts-drawn axes
+ * — see `PointHoverOverlay`'s predecessor).
+ *
+ * A classic range-plot reading (issue #42, replacing issue #35's filled
+ * "pill" with a background-colored notch cut through at the average): a
+ * thin vertical **stem** spans min to max, a horizontal **cap** tick marks
+ * each exact end, and the **average** is its own filled dot riding the
+ * stem — three distinct marks rather than one fill with a gap punched in
+ * it. When a Store has only one real-priced variant at this instant there
+ * is no range to show, so only the dot is drawn — no stem, no caps, no
+ * separate average marker, since min = max = average are all the same
+ * value.
  */
 function BarsOverlay({
   bars,
@@ -382,36 +409,71 @@ function BarsOverlay({
       {bars.map((bar) => {
         const geo = barGeometry(rect, domain, bar);
         const isHovered = bar.key === hoveredKey;
+        const opacity = isHovered ? 1 : 0.85;
         return (
           <g key={bar.key}>
-            <rect
-              x={geo.cx - BAR_WIDTH / 2}
-              y={geo.yTop}
-              width={BAR_WIDTH}
-              height={geo.yBottom - geo.yTop}
-              rx={BAR_WIDTH / 2}
-              fill={bar.color}
-              opacity={isHovered ? 1 : 0.85}
-            />
-            <rect
-              x={geo.cx - BAR_WIDTH / 2 - 1}
-              y={geo.avgY - 1}
-              width={BAR_WIDTH + 2}
-              height={2}
-              fill="var(--color-background, #fff)"
-            />
-            {isHovered && (
-              <rect
-                x={geo.cx - BAR_WIDTH / 2 - 2}
-                y={geo.yTop - 2}
-                width={BAR_WIDTH + 4}
-                height={geo.yBottom - geo.yTop + 4}
-                rx={BAR_WIDTH / 2 + 2}
-                fill="none"
-                stroke={bar.color}
-                strokeWidth={2}
-              />
+            {!geo.isSinglePoint && (
+              <>
+                <line
+                  x1={geo.cx}
+                  x2={geo.cx}
+                  y1={geo.yTop}
+                  y2={geo.yBottom}
+                  stroke={bar.color}
+                  strokeWidth={STEM_WIDTH}
+                  opacity={opacity}
+                />
+                <line
+                  x1={geo.cx - CAP_WIDTH / 2}
+                  x2={geo.cx + CAP_WIDTH / 2}
+                  y1={geo.yTop}
+                  y2={geo.yTop}
+                  stroke={bar.color}
+                  strokeWidth={STEM_WIDTH}
+                  opacity={opacity}
+                />
+                <line
+                  x1={geo.cx - CAP_WIDTH / 2}
+                  x2={geo.cx + CAP_WIDTH / 2}
+                  y1={geo.yBottom}
+                  y2={geo.yBottom}
+                  stroke={bar.color}
+                  strokeWidth={STEM_WIDTH}
+                  opacity={opacity}
+                />
+              </>
             )}
+            <circle
+              cx={geo.cx}
+              cy={geo.avgY}
+              r={AVG_DOT_RADIUS}
+              fill={bar.color}
+              stroke="var(--color-background, #fff)"
+              strokeWidth={AVG_DOT_RING_WIDTH}
+              opacity={opacity}
+            />
+            {isHovered &&
+              (geo.isSinglePoint ? (
+                <circle
+                  cx={geo.cx}
+                  cy={geo.avgY}
+                  r={AVG_DOT_RADIUS + 3}
+                  fill="none"
+                  stroke={bar.color}
+                  strokeWidth={2}
+                />
+              ) : (
+                <rect
+                  x={geo.cx - CAP_WIDTH / 2 - 3}
+                  y={geo.yTop - 3}
+                  width={CAP_WIDTH + 6}
+                  height={geo.yBottom - geo.yTop + 6}
+                  rx={4}
+                  fill="none"
+                  stroke={bar.color}
+                  strokeWidth={2}
+                />
+              ))}
           </g>
         );
       })}
@@ -478,12 +540,16 @@ function useNearestBarHover(
  * min-max span beneath it, and — issue #35's "ideally still lists each
  * individual variant's price" criterion — every real-priced variant that
  * went into this bar, struck through when that variant was out of stock at
- * the time. Omits the per-variant list entirely for a degenerate
- * single-variant bar, where it would just repeat the average/min/max line.
+ * the time, each variant's label passed through `normalizeVariantLabel` so
+ * Shopify's raw "Title" placeholder never leaks through here either (issue
+ * #42). A single-variant bar (nothing to average or range) shows just that
+ * one price with no "average"/"range" framing and omits the per-variant
+ * list entirely, since it would just repeat the same line.
  */
 function BarHoverOverlay({ hover }: { hover: BarHoverState }) {
   const { bar, left, top } = hover;
   const flipBelow = top < 96;
+  const isSingleVariant = bar.variants.length <= 1;
   return (
     <div className="pointer-events-none absolute inset-0 z-10">
       <div
@@ -500,24 +566,28 @@ function BarHoverOverlay({ hover }: { hover: BarHoverState }) {
           {bar.label}
         </p>
         <p className="text-xs text-muted-foreground">{formatDateTime(bar.observedAt)}</p>
-        <p className="mt-1">
-          <span className="font-medium">{formatPrice(bar.avg, bar.currency)}</span>{' '}
-          <span className="text-xs text-muted-foreground">average</span>
-        </p>
-        <p className="text-xs text-muted-foreground">
-          {formatPrice(bar.min, bar.currency)} – {formatPrice(bar.max, bar.currency)} range
-        </p>
-        {bar.variants.length > 1 && (
-          <ul className="mt-1.5 space-y-0.5 border-t pt-1.5 text-xs">
-            {bar.variants.map((v) => (
-              <li key={v.id} className="flex items-center justify-between gap-3">
-                <span className={v.available ? 'text-muted-foreground' : 'text-muted-foreground line-through'}>
-                  {v.label}
-                </span>
-                <span className="font-medium">{formatPrice(v.price, bar.currency)}</span>
-              </li>
-            ))}
-          </ul>
+        {isSingleVariant ? (
+          <p className="mt-1 font-medium">{formatPrice(bar.avg, bar.currency)}</p>
+        ) : (
+          <>
+            <p className="mt-1">
+              <span className="font-medium">{formatPrice(bar.avg, bar.currency)}</span>{' '}
+              <span className="text-xs text-muted-foreground">average</span>
+            </p>
+            <p className="text-xs text-muted-foreground">
+              {formatPrice(bar.min, bar.currency)} – {formatPrice(bar.max, bar.currency)} range
+            </p>
+            <ul className="mt-1.5 space-y-0.5 border-t pt-1.5 text-xs">
+              {bar.variants.map((v) => (
+                <li key={v.id} className="flex items-center justify-between gap-3">
+                  <span className={v.available ? 'text-muted-foreground' : 'text-muted-foreground line-through'}>
+                    {normalizeVariantLabel(v.label, bar.variants.length)}
+                  </span>
+                  <span className="font-medium">{formatPrice(v.price, bar.currency)}</span>
+                </li>
+              ))}
+            </ul>
+          </>
         )}
       </div>
     </div>
@@ -634,10 +704,10 @@ function SingleStoreRangeBarChart({
     <div className="w-full">
       <RangeBarChart bars={bars} axisCurrency={listing.currency} />
       <p className="mt-2 text-xs text-muted-foreground">
-        Each bar spans {listing.storeName}&apos;s lowest to highest priced variant at that time;
-        the pale notch marks the average. Hover a bar for every variant&apos;s own price — a
+        Each mark spans {listing.storeName}&apos;s lowest to highest priced variant at that time;
+        the dot marks the average. Hover a mark for every variant&apos;s own price — a
         struck-through variant was out of stock at that time. A variant priced $0.00 is treated
-        as sold out, not a real price, and is left out of the bar.
+        as sold out, not a real price, and is left out of the mark.
       </p>
     </div>
   );
@@ -687,13 +757,13 @@ function UnifiedRangeBarChart({ events, listings }: { events: HistoryEvent[]; li
           ))}
         </div>
         <p>
-          Each bar spans a Store&apos;s lowest to highest priced variant at that time; the pale
-          notch marks the average. Hover a bar for every variant&apos;s own price — a
+          Each mark spans a Store&apos;s lowest to highest priced variant at that time; the dot
+          marks the average. Hover a mark for every variant&apos;s own price — a
           struck-through variant was out of stock at that time.
         </p>
         {currencies.size > 1 && (
           <p>
-            Stores shown price in different currencies — the axis is approximate; hover a bar
+            Stores shown price in different currencies — the axis is approximate; hover a mark
             for the exact prices and currency per Store.
           </p>
         )}
