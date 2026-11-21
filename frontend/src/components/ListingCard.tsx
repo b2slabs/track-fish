@@ -59,18 +59,15 @@ export function ListingCard({
           {listing.commonName}
         </Link>
         <div className="flex flex-wrap items-center gap-1.5">
-          <Badge variant={available ? 'default' : 'outline'}>
-            {available
-              ? storeCount > 1
-                ? `In stock in ${inStockStoreCount} store${inStockStoreCount === 1 ? '' : 's'}`
-                : 'In stock'
-              : 'Out of stock'}
+          <Badge variant={inStockStoreCount > 0 ? 'default' : 'destructive'}>
+            {storeCount > 1
+              ? inStockStoreCount > 0
+                ? `In stock ${inStockStoreCount}/${storeCount} stores`
+                : 'Out of stock'
+              : available
+                ? 'In stock'
+                : 'Out of stock'}
           </Badge>
-          {storeCount > 1 && (
-            <Badge variant="outline" className="border-primary/40 text-primary">
-              Available at {storeCount} stores
-            </Badge>
-          )}
         </div>
       </CardHeader>
       <CardContent className="flex-1 pb-2">
