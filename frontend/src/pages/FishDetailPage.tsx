@@ -103,32 +103,39 @@ export function FishDetailPage() {
             </CardContent>
           </Card>
 
-          <div className="space-y-6">
-            {listings.map((l) => {
-              // The shared history file interleaves events from every Store's
-              // Listing — isolate this Store's own slice before charting it,
-              // so one Store's trend is never drawn as a continuation of
-              // another Store's differently-priced/sized Listing.
-              const events =
-                listings.length === 1
-                  ? history.events
-                  : history.events.filter((e) => e.listingId === l.listingId);
-              return (
-                <Card key={l.listingId}>
-                  <CardHeader>
-                    <h2 className="text-lg font-semibold">
-                      {listings.length > 1
-                        ? `${l.storeName} price history`
-                        : 'Price & availability history'}
-                    </h2>
-                  </CardHeader>
-                  <CardContent>
-                    <PriceHistoryChart events={events} currency={l.currency} />
-                  </CardContent>
-                </Card>
-              );
-            })}
-          </div>
+          <Card>
+            <CardHeader>
+              <h2 className="text-lg font-semibold">
+                {listings.length > 1
+                  ? 'Price & availability history across stores'
+                  : 'Price & availability history'}
+              </h2>
+              {listings.length > 1 && (
+                <p className="text-sm text-muted-foreground">
+                  One chart, every Store — color identifies the Store, line style tells apart
+                  more than one series from the same Store (its own variants, or a second
+                  Listing it carries for this fish).
+                </p>
+              )}
+            </CardHeader>
+            <CardContent>
+              {/* The shared history file interleaves events from every Store's
+                  Listing (and, for a Canonical Fish with multiple Listings, this
+                  chart renders them as one unified set of series rather than N
+                  separate per-Store charts — issue #23) — pass every event
+                  through unfiltered and let the chart split by listingId itself. */}
+              <PriceHistoryChart
+                events={history.events}
+                listings={listings.map((l) => ({
+                  listingId: l.listingId,
+                  storeSlug: l.storeSlug,
+                  storeName: l.storeName,
+                  commonName: l.commonName,
+                  currency: l.currency,
+                }))}
+              />
+            </CardContent>
+          </Card>
         </div>
       )}
 
