@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:helanthium-tenellum",
-  "commonName": "Echinodorus (Helanthium) Tenellus UNS Tissue Culture",
+  "commonName": "Echinodorus Helanthium Tenellus",
   "scientificName": "Helanthium tenellum",
   "listings": [
     {
@@ -8,42 +8,6 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Pygmy Chain Sword (Helanthium tenellum) Tissue Culture"
-    },
-    {
-      "listingId": "buce-plant:8346119307464",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Helanthium Tenellum 'Micro' UNS Tissue Culture"
-    },
-    {
-      "listingId": "buce-plant:7731137118408",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Helanthium Tenellum Micro Aquatic Farmer Tissue Culture"
-    },
-    {
-      "listingId": "buce-plant:1317161467985",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Helanthium Tenellum Broad Leaf Aquatic Farmer Tissue Culture"
-    },
-    {
-      "listingId": "buce-plant:3212551585873",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Echinodorus Helanthium Tenellus"
-    },
-    {
-      "listingId": "buce-plant:10655887821",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Echinodorus (Helanthium) Tenellus UNS Tissue Culture"
-    },
-    {
-      "listingId": "buce-plant:1317161336913",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Helanthium Tenellum Aquatic Farmer Tissue Culture"
     },
     {
       "listingId": "aquarium-fish:10105547850027",
@@ -56,6 +20,12 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Helanthium tenellum | Tissue Culture"
+    },
+    {
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Echinodorus Helanthium Tenellus"
     }
   ],
   "events": [
@@ -238,7 +208,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "buce-plant:8346119307464",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -258,7 +228,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "buce-plant:7731137118408",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -278,47 +248,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "buce-plant:1317161467985",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:47.109Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "23966074798161",
-          "label": "Title",
-          "price": 6.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "buce-plant:3212551585873",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:47.109Z",
-      "price": 9.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42905743885",
-          "label": "1 Cup",
-          "price": 9.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "buce-plant:10655887821",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -338,7 +268,47 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "buce-plant:1317161336913",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "23966074798161",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42905743885",
+          "label": "1 Cup",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -406,7 +376,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8346119307464",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -423,7 +393,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:7731137118408",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -440,41 +410,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161467985",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:59.411Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "23966074798161",
-          "label": "Title",
-          "price": 6.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:3212551585873",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:59.411Z",
-      "price": 9.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42905743885",
-          "label": "1 Cup",
-          "price": 9.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:10655887821",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -491,7 +427,41 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161336913",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "23966074798161",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42905743885",
+          "label": "1 Cup",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -559,7 +529,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8346119307464",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -576,7 +546,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:7731137118408",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -593,41 +563,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161467985",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:25.528Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "23966074798161",
-          "label": "Title",
-          "price": 6.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:3212551585873",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:25.528Z",
-      "price": 9.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42905743885",
-          "label": "1 Cup",
-          "price": 9.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:10655887821",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -644,7 +580,41 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161336913",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "23966074798161",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42905743885",
+          "label": "1 Cup",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -712,7 +682,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8346119307464",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -729,7 +699,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:7731137118408",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -746,7 +716,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161467985",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -763,7 +733,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161336913",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -780,7 +750,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:3212551585873",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -797,7 +767,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:10655887821",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -865,7 +835,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8346119307464",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -882,7 +852,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:7731137118408",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -899,7 +869,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161467985",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -916,7 +886,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161336913",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -933,7 +903,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:3212551585873",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -950,7 +920,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:10655887821",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1018,7 +988,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8346119307464",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1035,7 +1005,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:7731137118408",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1052,7 +1022,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161467985",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1069,7 +1039,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161336913",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1086,7 +1056,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:3212551585873",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1103,7 +1073,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:10655887821",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1171,7 +1141,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8346119307464",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1188,7 +1158,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:7731137118408",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1205,7 +1175,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161467985",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1222,7 +1192,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161336913",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1239,7 +1209,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:3212551585873",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1260,7 +1230,7 @@
         "available",
         "variants"
       ],
-      "listingId": "buce-plant:10655887821",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1328,7 +1298,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8346119307464",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1345,7 +1315,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:7731137118408",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1362,7 +1332,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161467985",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1379,7 +1349,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161336913",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1396,7 +1366,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:3212551585873",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1413,7 +1383,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:10655887821",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1481,7 +1451,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8346119307464",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1498,7 +1468,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:7731137118408",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1515,7 +1485,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161467985",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1532,7 +1502,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161336913",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1549,7 +1519,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:3212551585873",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1566,7 +1536,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:10655887821",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1634,7 +1604,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8346119307464",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1651,7 +1621,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:7731137118408",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1668,7 +1638,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161467985",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1685,7 +1655,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161336913",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1702,7 +1672,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:3212551585873",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1719,7 +1689,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:10655887821",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1787,7 +1757,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8346119307464",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1804,7 +1774,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:7731137118408",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1821,7 +1791,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161467985",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1838,7 +1808,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1317161336913",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1855,7 +1825,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:3212551585873",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     },
     {
@@ -1872,7 +1842,108 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:10655887821",
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31568730652758",
+          "label": "1 Tissue Culture Cup",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1954792013910",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:57.844Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39554899837030",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6694483656806",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 11.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51386931904811",
+          "label": "Each",
+          "price": 11.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10105547850027",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45228815483080",
+          "label": "Helanthium Tenellum 'Micro' UNS Tissue Culture",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "43287792222408",
+          "label": "Helanthium Tenellum Micro Aquatic Farmer Tissue Culture",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "12190433902673",
+          "label": "1 Cup",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "12190433673297",
+          "label": "1 Cup",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "23966074798161",
+          "label": "Echinodorus Helanthium Tenellus",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "42905743885",
+          "label": "1 Cup",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
     }
   ]

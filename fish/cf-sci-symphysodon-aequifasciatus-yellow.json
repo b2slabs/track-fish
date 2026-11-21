@@ -1,26 +1,8 @@
 {
   "canonicalFishId": "cf:sci:symphysodon-aequifasciatus:yellow",
-  "commonName": "Yellow Pigeon Discus",
+  "commonName": "Yellow Marlboro Discus",
   "scientificName": "Symphysodon aequifasciatus",
   "listings": [
-    {
-      "listingId": "monster-aquarium:7479510073553",
-      "storeSlug": "monster-aquarium",
-      "storeName": "Monster Aquarium",
-      "commonName": "Yellow Checkerboard Discus (Symphysodon aequifasciatus)"
-    },
-    {
-      "listingId": "monster-aquarium:7479509582033",
-      "storeSlug": "monster-aquarium",
-      "storeName": "Monster Aquarium",
-      "commonName": "Yellow Alenquer Discus (Symphysodon aequifasciatus)"
-    },
-    {
-      "listingId": "monster-aquarium:7032808734929",
-      "storeSlug": "monster-aquarium",
-      "storeName": "Monster Aquarium",
-      "commonName": "Yellow Discus (Symphysodon aequifasciatus)"
-    },
     {
       "listingId": "aquahuna:15258963050571",
       "storeSlug": "aquahuna",
@@ -34,16 +16,10 @@
       "commonName": "Yellow Marlboro Discus"
     },
     {
-      "listingId": "monster-aquarium:7032809259217",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Yellow Pigeon Discus (Symphysodon aequifasciatus)"
-    },
-    {
-      "listingId": "global-exoticquatics:8519179796672",
-      "storeSlug": "global-exoticquatics",
-      "storeName": "Global Exoticquatics",
-      "commonName": "Yellow Pigeon Discus"
+      "commonName": "Yellow Discus (Symphysodon aequifasciatus)"
     }
   ],
   "events": [
@@ -64,7 +40,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "monster-aquarium:7479510073553",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -90,27 +66,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "monster-aquarium:7479509582033",
-      "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-20T06:02:14.062Z",
-      "price": 78.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42424240046289",
-          "label": "4”",
-          "price": 78.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "monster-aquarium:7032808734929",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -136,7 +92,27 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "monster-aquarium:7032809259217",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 78.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42424240046289",
+          "label": "4”",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -153,7 +129,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479510073553",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -176,24 +152,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479509582033",
-      "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-20T06:03:59.400Z",
-      "price": 78.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42424240046289",
-          "label": "4”",
-          "price": 78.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "monster-aquarium:7032808734929",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -216,7 +175,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7032809259217",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:03:59.400Z",
+      "price": 78.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42424240046289",
+          "label": "4”",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -233,7 +209,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479510073553",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -256,24 +232,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479509582033",
-      "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-20T06:14:41.736Z",
-      "price": 78.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42424240046289",
-          "label": "4”",
-          "price": 78.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "monster-aquarium:7032808734929",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -296,7 +255,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7032809259217",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 78.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42424240046289",
+          "label": "4”",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -333,7 +309,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479510073553",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -356,24 +332,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479509582033",
-      "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:37.184Z",
-      "price": 78.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42424240046289",
-          "label": "4”",
-          "price": 78.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "monster-aquarium:7032808734929",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -396,7 +355,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7032809259217",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 78.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42424240046289",
+          "label": "4”",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -449,26 +425,6 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-20T06:27:57.334Z",
-      "price": 50,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "47804216770752",
-          "label": "3-4 inch",
-          "price": 50,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "global-exoticquatics:8519179796672",
-      "storeSlug": "global-exoticquatics"
-    },
-    {
       "observedAt": "2026-11-20T17:33:23.452Z",
       "price": 94.99,
       "currency": "USD",
@@ -482,7 +438,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479510073553",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -505,24 +461,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479509582033",
-      "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:23.452Z",
-      "price": 78.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42424240046289",
-          "label": "4”",
-          "price": 78.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "monster-aquarium:7032808734929",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -545,7 +484,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7032809259217",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:23.452Z",
+      "price": 78.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42424240046289",
+          "label": "4”",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -595,23 +551,6 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-20T17:34:27.096Z",
-      "price": 50,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "47804216770752",
-          "label": "3-4 inch",
-          "price": 50,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "global-exoticquatics:8519179796672",
-      "storeSlug": "global-exoticquatics"
-    },
-    {
       "observedAt": "2026-11-21T01:29:05.027Z",
       "price": 94.99,
       "currency": "USD",
@@ -625,7 +564,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479510073553",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -648,24 +587,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479509582033",
-      "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:05.027Z",
-      "price": 78.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42424240046289",
-          "label": "4”",
-          "price": 78.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "monster-aquarium:7032808734929",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -688,7 +610,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7032809259217",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:05.027Z",
+      "price": 78.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42424240046289",
+          "label": "4”",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -738,23 +677,6 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-21T01:29:41.357Z",
-      "price": 50,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "47804216770752",
-          "label": "3-4 inch",
-          "price": 50,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "global-exoticquatics:8519179796672",
-      "storeSlug": "global-exoticquatics"
-    },
-    {
       "observedAt": "2026-11-21T01:30:25.006Z",
       "price": 94.99,
       "currency": "USD",
@@ -768,7 +690,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479510073553",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -791,24 +713,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479509582033",
-      "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-21T01:30:25.006Z",
-      "price": 78.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42424240046289",
-          "label": "4”",
-          "price": 78.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "monster-aquarium:7032808734929",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -831,7 +736,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7032809259217",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:25.006Z",
+      "price": 78.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42424240046289",
+          "label": "4”",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -881,23 +803,6 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-21T01:31:44.934Z",
-      "price": 50,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "47804216770752",
-          "label": "3-4 inch",
-          "price": 50,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "global-exoticquatics:8519179796672",
-      "storeSlug": "global-exoticquatics"
-    },
-    {
       "observedAt": "2026-11-21T02:00:10.177Z",
       "price": 94.99,
       "currency": "USD",
@@ -911,7 +816,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479510073553",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -934,24 +839,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479509582033",
-      "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-21T02:00:10.177Z",
-      "price": 78.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42424240046289",
-          "label": "4”",
-          "price": 78.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "monster-aquarium:7032808734929",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -974,7 +862,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7032809259217",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:10.177Z",
+      "price": 78.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42424240046289",
+          "label": "4”",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1024,23 +929,6 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-21T02:01:33.554Z",
-      "price": 50,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "47804216770752",
-          "label": "3-4 inch",
-          "price": 50,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "global-exoticquatics:8519179796672",
-      "storeSlug": "global-exoticquatics"
-    },
-    {
       "observedAt": "2026-11-21T02:05:35.613Z",
       "price": 94.99,
       "currency": "USD",
@@ -1054,7 +942,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479510073553",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1077,24 +965,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479509582033",
-      "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-21T02:05:35.613Z",
-      "price": 78.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42424240046289",
-          "label": "4”",
-          "price": 78.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "monster-aquarium:7032808734929",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1117,7 +988,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7032809259217",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T02:05:35.613Z",
+      "price": 78.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42424240046289",
+          "label": "4”",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1167,23 +1055,6 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-21T02:07:02.702Z",
-      "price": 50,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "47804216770752",
-          "label": "3-4 inch",
-          "price": 50,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "global-exoticquatics:8519179796672",
-      "storeSlug": "global-exoticquatics"
-    },
-    {
       "observedAt": "2026-11-21T14:37:03.941Z",
       "price": 94.99,
       "currency": "USD",
@@ -1197,7 +1068,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479510073553",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1220,24 +1091,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479509582033",
-      "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-21T14:37:03.941Z",
-      "price": 78.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42424240046289",
-          "label": "4”",
-          "price": 78.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "monster-aquarium:7032808734929",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1260,7 +1114,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7032809259217",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T14:37:03.941Z",
+      "price": 78.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42424240046289",
+          "label": "4”",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1310,23 +1181,6 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-21T14:39:47.717Z",
-      "price": 50,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "47804216770752",
-          "label": "3-4 inch",
-          "price": 50,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "global-exoticquatics:8519179796672",
-      "storeSlug": "global-exoticquatics"
-    },
-    {
       "observedAt": "2026-11-21T14:49:03.810Z",
       "price": 94.99,
       "currency": "USD",
@@ -1340,7 +1194,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479510073553",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1363,24 +1217,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479509582033",
-      "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-21T14:49:03.810Z",
-      "price": 78.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42424240046289",
-          "label": "4”",
-          "price": 78.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "monster-aquarium:7032808734929",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1403,7 +1240,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7032809259217",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T14:49:03.810Z",
+      "price": 78.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42424240046289",
+          "label": "4”",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1453,23 +1307,6 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-21T14:51:09.264Z",
-      "price": 50,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "47804216770752",
-          "label": "3-4 inch",
-          "price": 50,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "global-exoticquatics:8519179796672",
-      "storeSlug": "global-exoticquatics"
-    },
-    {
       "observedAt": "2026-11-21T14:59:29.588Z",
       "price": 94.99,
       "currency": "USD",
@@ -1483,7 +1320,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479510073553",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1506,7 +1343,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479509582033",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1529,7 +1366,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7032809259217",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1546,7 +1383,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7032808734929",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1596,23 +1433,6 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-21T15:00:58.032Z",
-      "price": 50,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "47804216770752",
-          "label": "3-4 inch",
-          "price": 50,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "global-exoticquatics:8519179796672",
-      "storeSlug": "global-exoticquatics"
-    },
-    {
       "observedAt": "2026-11-21T15:39:00.962Z",
       "price": 94.99,
       "currency": "USD",
@@ -1626,7 +1446,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479510073553",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1649,7 +1469,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479509582033",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1672,7 +1492,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7032809259217",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1689,7 +1509,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7032808734929",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1739,23 +1559,6 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-21T15:40:30.525Z",
-      "price": 50,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "47804216770752",
-          "label": "3-4 inch",
-          "price": 50,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "global-exoticquatics:8519179796672",
-      "storeSlug": "global-exoticquatics"
-    },
-    {
       "observedAt": "2026-11-21T16:37:50.334Z",
       "price": 94.99,
       "currency": "USD",
@@ -1769,7 +1572,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479510073553",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1792,7 +1595,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7479509582033",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1815,7 +1618,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7032809259217",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1832,7 +1635,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7032808734929",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1882,21 +1685,100 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-21T16:40:10.490Z",
-      "price": 50,
+      "observedAt": "2026-11-21T20:07:35.821Z",
+      "price": 69.99,
       "currency": "USD",
       "available": true,
       "variants": [
         {
-          "id": "47804216770752",
-          "label": "3-4 inch",
-          "price": 50,
+          "id": "42263592435921",
+          "label": "5”",
+          "price": 94.99,
+          "available": false
+        },
+        {
+          "id": "42263591354577",
+          "label": "4”-4.5”",
+          "price": 79.99,
+          "available": true
+        },
+        {
+          "id": "42912421314769",
+          "label": "3\"-4\"",
+          "price": 68.99,
+          "available": false
+        },
+        {
+          "id": "41152149455057",
+          "label": "3-4\"",
+          "price": 69.99,
+          "available": true
+        },
+        {
+          "id": "41041245470929",
+          "label": "4-5\"",
+          "price": 88.99,
+          "available": false
+        },
+        {
+          "id": "42424240046289",
+          "label": "4”",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:42.741Z",
+      "price": 44,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67315159236683",
+          "label": "Title",
+          "price": 44,
           "available": true
         }
       ],
       "type": "heartbeat",
-      "listingId": "global-exoticquatics:8519179796672",
-      "storeSlug": "global-exoticquatics"
+      "listingId": "aquahuna:15258963050571",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 89.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39544941543505",
+          "label": "Medium (1.5-2\")",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "12633419808838",
+          "label": "Large (2.5-3\")",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "12633419841606",
+          "label": "Extra Large (4\")",
+          "price": 149.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1422387052614",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

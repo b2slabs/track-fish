@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pterophyllum-scalare:koi-red",
-  "commonName": "Red Devil Koi Angelfish-M",
+  "commonName": "Red Koi Angelfish",
   "scientificName": "Pterophyllum scalare",
   "listings": [
     {
@@ -10,28 +10,16 @@
       "commonName": "Red Head Koi Angelfish"
     },
     {
-      "listingId": "imperial-tropicals:8765217767731",
-      "storeSlug": "imperial-tropicals",
-      "storeName": "Imperial Tropicals",
-      "commonName": "Red Devil Koi Angelfish (Pterophyllum scalare)"
-    },
-    {
-      "listingId": "imperial-tropicals:8398111244595",
-      "storeSlug": "imperial-tropicals",
-      "storeName": "Imperial Tropicals",
-      "commonName": "Red Koi Angelfish"
-    },
-    {
-      "listingId": "nu-aqua-shop:15501387497788",
-      "storeSlug": "nu-aqua-shop",
-      "storeName": "NU Aqua Shop",
-      "commonName": "Red Devil Koi Angelfish-M"
-    },
-    {
       "listingId": "aquahuna:1709533954091",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Red Koi Angelfish M"
+    },
+    {
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Red Koi Angelfish"
     }
   ],
   "events": [
@@ -127,7 +115,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "imperial-tropicals:8765217767731",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -153,7 +141,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "imperial-tropicals:8398111244595",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -222,7 +210,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8765217767731",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -245,7 +233,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398111244595",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -314,7 +302,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8765217767731",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -337,28 +325,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398111244595",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:44.090Z",
-      "price": 30.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "68213819801916",
-          "label": "Title",
-          "price": 30.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "nu-aqua-shop:15501387497788",
-      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-21T01:30:31.959Z",
@@ -426,7 +394,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8765217767731",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -449,7 +417,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398111244595",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -518,7 +486,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8765217767731",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -541,25 +509,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398111244595",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-21T02:01:36.649Z",
-      "price": 30.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "68213819801916",
-          "label": "Title",
-          "price": 30.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "nu-aqua-shop:15501387497788",
-      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-21T02:05:43.497Z",
@@ -627,7 +578,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8765217767731",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -650,25 +601,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398111244595",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-21T02:07:05.919Z",
-      "price": 30.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "68213819801916",
-          "label": "Title",
-          "price": 30.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "nu-aqua-shop:15501387497788",
-      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-21T14:37:18.780Z",
@@ -736,7 +670,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8765217767731",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -759,25 +693,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398111244595",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-21T14:39:54.085Z",
-      "price": 30.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "68213819801916",
-          "label": "Title",
-          "price": 30.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "nu-aqua-shop:15501387497788",
-      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-21T14:49:16.562Z",
@@ -845,7 +762,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8765217767731",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -868,25 +785,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398111244595",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-21T14:51:13.682Z",
-      "price": 30.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "68213819801916",
-          "label": "Title",
-          "price": 30.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "nu-aqua-shop:15501387497788",
-      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-21T14:59:36.759Z",
@@ -954,7 +854,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8765217767731",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -977,25 +877,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398111244595",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-21T15:01:01.678Z",
-      "price": 30.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "68213819801916",
-          "label": "Title",
-          "price": 30.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "nu-aqua-shop:15501387497788",
-      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-21T15:39:08.222Z",
@@ -1063,7 +946,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8765217767731",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -1086,25 +969,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398111244595",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-21T15:40:34.282Z",
-      "price": 30.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "68213819801916",
-          "label": "Title",
-          "price": 30.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "nu-aqua-shop:15501387497788",
-      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-21T16:38:01.738Z",
@@ -1172,7 +1038,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8765217767731",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -1195,25 +1061,92 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398111244595",
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
     },
     {
-      "observedAt": "2026-11-21T16:40:16.406Z",
-      "price": 30.99,
+      "observedAt": "2026-11-21T20:07:42.741Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15717228576811",
+          "label": "Title",
+          "price": 8,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1709533954091",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "18968561094",
+          "label": "Medium (1-2\")",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "12635047493702",
+          "label": "Large (2-3\")",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:5993583238",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:19.601Z",
+      "price": 49.99,
       "currency": "USD",
       "available": true,
       "variants": [
         {
-          "id": "68213819801916",
-          "label": "Title",
-          "price": 30.99,
+          "id": "47240061780275",
+          "label": "1-2” Unsexed",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "47240061813043",
+          "label": "2-3\" Unsexed",
+          "price": 49.99,
           "available": true
+        },
+        {
+          "id": "49472970686771",
+          "label": "3-4\" Unsexed",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "45612131844403",
+          "label": "1-2” Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "45612131877171",
+          "label": "2-3\" Unsexed",
+          "price": 29.99,
+          "available": false
         }
       ],
-      "type": "heartbeat",
-      "listingId": "nu-aqua-shop:15501387497788",
-      "storeSlug": "nu-aqua-shop"
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398111244595+8765217767731",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

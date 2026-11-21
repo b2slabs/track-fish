@@ -4,54 +4,6 @@
   "scientificName": "Paracheirodon innesi",
   "listings": [
     {
-      "listingId": "ck-fish-world:8149572288727",
-      "storeSlug": "ck-fish-world",
-      "storeName": "CK Fish World",
-      "commonName": "Diamond Neon Tetra"
-    },
-    {
-      "listingId": "shrimpy-business:9910581887266",
-      "storeSlug": "shrimpy-business",
-      "storeName": "Shrimpy Business",
-      "commonName": "Diamond Head Neon Tetra (Tank-Bred)"
-    },
-    {
-      "listingId": "shrimpy-business:6715921760341",
-      "storeSlug": "shrimpy-business",
-      "storeName": "Shrimpy Business",
-      "commonName": "Neon Tetra (Tank-Bred)"
-    },
-    {
-      "listingId": "aquarium-fish:10398181785899",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Neon Tetra (School of 8)"
-    },
-    {
-      "listingId": "aquarium-fish:10130818924843",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Diamond Head Neon Tetra (School of 6)"
-    },
-    {
-      "listingId": "aquarium-fish:9178643366187",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Neon Tetra (School of 6)"
-    },
-    {
-      "listingId": "aquarium-fish:3003799339089",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Diamond Head Neon Tetra"
-    },
-    {
-      "listingId": "aquarium-fish:4852792646",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Neon Tetra"
-    },
-    {
       "listingId": "nu-aqua-shop:10006318285116",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
@@ -70,24 +22,6 @@
       "commonName": "Neon Tetra (Paracheirodon innesi)"
     },
     {
-      "listingId": "aquahuna:6704852303947",
-      "storeSlug": "aquahuna",
-      "storeName": "AquaHuna",
-      "commonName": "Neon Tetra (Size M/L)"
-    },
-    {
-      "listingId": "aquahuna:1710186102827",
-      "storeSlug": "aquahuna",
-      "storeName": "AquaHuna",
-      "commonName": "Neon Tetra (Size S)"
-    },
-    {
-      "listingId": "ck-fish-world:8149530575063",
-      "storeSlug": "ck-fish-world",
-      "storeName": "CK Fish World",
-      "commonName": "Neon Tetra"
-    },
-    {
       "listingId": "flip-aquatics:6581362753638",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
@@ -104,6 +38,30 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Neon Tetra XL"
+    },
+    {
+      "listingId": "aquahuna:1710186102827+6704852303947",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Neon Tetra (Size S)"
+    },
+    {
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Neon Tetra"
+    },
+    {
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Neon Tetra (Tank-Bred)"
+    },
+    {
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Neon Tetra"
     }
   ],
   "events": [
@@ -391,7 +349,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquahuna:6704852303947",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
     },
     {
@@ -411,40 +369,8 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquahuna:1710186102827",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 11.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336213749975",
-          "label": "3",
-          "price": 11.98,
-          "available": true
-        },
-        {
-          "id": "45336213782743",
-          "label": "5",
-          "price": 17.98,
-          "available": true
-        },
-        {
-          "id": "45336213815511",
-          "label": "10",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8149572288727",
-      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-20T06:14:42.801Z",
@@ -475,7 +401,39 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "ck-fish-world:8149530575063",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 11.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336213749975",
+          "label": "3",
+          "price": 11.98,
+          "available": true
+        },
+        {
+          "id": "45336213782743",
+          "label": "5",
+          "price": 17.98,
+          "available": true
+        },
+        {
+          "id": "45336213815511",
+          "label": "10",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
       "storeSlug": "ck-fish-world"
     },
     {
@@ -544,7 +502,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:6704852303947",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
     },
     {
@@ -561,37 +519,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710186102827",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:38.526Z",
-      "price": 11.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336213749975",
-          "label": "3",
-          "price": 11.98,
-          "available": true
-        },
-        {
-          "id": "45336213782743",
-          "label": "5",
-          "price": 17.98,
-          "available": true
-        },
-        {
-          "id": "45336213815511",
-          "label": "10",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8149572288727",
-      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-20T06:27:38.526Z",
@@ -619,7 +548,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8149530575063",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.526Z",
+      "price": 11.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336213749975",
+          "label": "3",
+          "price": 11.98,
+          "available": true
+        },
+        {
+          "id": "45336213782743",
+          "label": "5",
+          "price": 17.98,
+          "available": true
+        },
+        {
+          "id": "45336213815511",
+          "label": "10",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
       "storeSlug": "ck-fish-world"
     },
     {
@@ -657,7 +615,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "shrimpy-business:9910581887266",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -695,7 +653,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "shrimpy-business:6715921760341",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -735,7 +693,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:10398181785899",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -755,7 +713,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:10130818924843",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -775,7 +733,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:9178643366187",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -795,7 +753,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:3003799339089",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -821,7 +779,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:4852792646",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -954,7 +912,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:6704852303947",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
     },
     {
@@ -971,37 +929,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710186102827",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:29.055Z",
-      "price": 11.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336213749975",
-          "label": "3",
-          "price": 11.98,
-          "available": true
-        },
-        {
-          "id": "45336213782743",
-          "label": "5",
-          "price": 17.98,
-          "available": true
-        },
-        {
-          "id": "45336213815511",
-          "label": "10",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8149572288727",
-      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-20T17:33:29.055Z",
@@ -1029,7 +958,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8149530575063",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:29.055Z",
+      "price": 11.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336213749975",
+          "label": "3",
+          "price": 11.98,
+          "available": true
+        },
+        {
+          "id": "45336213782743",
+          "label": "5",
+          "price": 17.98,
+          "available": true
+        },
+        {
+          "id": "45336213815511",
+          "label": "10",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
       "storeSlug": "ck-fish-world"
     },
     {
@@ -1064,7 +1022,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:9910581887266",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -1099,7 +1057,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:6715921760341",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -1133,7 +1091,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10398181785899",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1150,7 +1108,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130818924843",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1167,7 +1125,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9178643366187",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1184,7 +1142,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:3003799339089",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1207,7 +1165,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4852792646",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1337,7 +1295,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:6704852303947",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
     },
     {
@@ -1354,37 +1312,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710186102827",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:08.295Z",
-      "price": 11.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336213749975",
-          "label": "3",
-          "price": 11.98,
-          "available": true
-        },
-        {
-          "id": "45336213782743",
-          "label": "5",
-          "price": 17.98,
-          "available": true
-        },
-        {
-          "id": "45336213815511",
-          "label": "10",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8149572288727",
-      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-21T01:29:08.295Z",
@@ -1412,7 +1341,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8149530575063",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:08.295Z",
+      "price": 11.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336213749975",
+          "label": "3",
+          "price": 11.98,
+          "available": true
+        },
+        {
+          "id": "45336213782743",
+          "label": "5",
+          "price": 17.98,
+          "available": true
+        },
+        {
+          "id": "45336213815511",
+          "label": "10",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
       "storeSlug": "ck-fish-world"
     },
     {
@@ -1447,7 +1405,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:9910581887266",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -1482,7 +1440,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:6715921760341",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -1516,7 +1474,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10398181785899",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1533,7 +1491,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130818924843",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1550,7 +1508,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9178643366187",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1567,7 +1525,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:3003799339089",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1590,7 +1548,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4852792646",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1749,7 +1707,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:6704852303947",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
     },
     {
@@ -1766,37 +1724,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710186102827",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-21T01:30:38.589Z",
-      "price": 11.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336213749975",
-          "label": "3",
-          "price": 11.98,
-          "available": true
-        },
-        {
-          "id": "45336213782743",
-          "label": "5",
-          "price": 17.98,
-          "available": true
-        },
-        {
-          "id": "45336213815511",
-          "label": "10",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8149572288727",
-      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-21T01:30:38.589Z",
@@ -1824,7 +1753,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8149530575063",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:38.589Z",
+      "price": 11.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336213749975",
+          "label": "3",
+          "price": 11.98,
+          "available": true
+        },
+        {
+          "id": "45336213782743",
+          "label": "5",
+          "price": 17.98,
+          "available": true
+        },
+        {
+          "id": "45336213815511",
+          "label": "10",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
       "storeSlug": "ck-fish-world"
     },
     {
@@ -1859,7 +1817,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:9910581887266",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -1894,7 +1852,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:6715921760341",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -1928,7 +1886,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10398181785899",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1945,7 +1903,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130818924843",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1962,7 +1920,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9178643366187",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1979,7 +1937,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:3003799339089",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2002,7 +1960,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4852792646",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2129,7 +2087,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:6704852303947",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
     },
     {
@@ -2146,37 +2104,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710186102827",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-21T02:00:24.222Z",
-      "price": 11.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336213749975",
-          "label": "3",
-          "price": 11.98,
-          "available": true
-        },
-        {
-          "id": "45336213782743",
-          "label": "5",
-          "price": 17.98,
-          "available": true
-        },
-        {
-          "id": "45336213815511",
-          "label": "10",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8149572288727",
-      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-21T02:00:24.222Z",
@@ -2204,7 +2133,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8149530575063",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:24.222Z",
+      "price": 11.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336213749975",
+          "label": "3",
+          "price": 11.98,
+          "available": true
+        },
+        {
+          "id": "45336213782743",
+          "label": "5",
+          "price": 17.98,
+          "available": true
+        },
+        {
+          "id": "45336213815511",
+          "label": "10",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
       "storeSlug": "ck-fish-world"
     },
     {
@@ -2239,7 +2197,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:9910581887266",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -2274,7 +2232,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:6715921760341",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -2308,7 +2266,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10398181785899",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2325,7 +2283,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130818924843",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2342,7 +2300,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9178643366187",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2359,7 +2317,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:3003799339089",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2382,7 +2340,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4852792646",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2538,7 +2496,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:6704852303947",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
     },
     {
@@ -2555,37 +2513,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710186102827",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-21T02:05:50.776Z",
-      "price": 11.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336213749975",
-          "label": "3",
-          "price": 11.98,
-          "available": true
-        },
-        {
-          "id": "45336213782743",
-          "label": "5",
-          "price": 17.98,
-          "available": true
-        },
-        {
-          "id": "45336213815511",
-          "label": "10",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8149572288727",
-      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-21T02:05:50.776Z",
@@ -2613,7 +2542,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8149530575063",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T02:05:50.776Z",
+      "price": 11.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336213749975",
+          "label": "3",
+          "price": 11.98,
+          "available": true
+        },
+        {
+          "id": "45336213782743",
+          "label": "5",
+          "price": 17.98,
+          "available": true
+        },
+        {
+          "id": "45336213815511",
+          "label": "10",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
       "storeSlug": "ck-fish-world"
     },
     {
@@ -2648,7 +2606,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:9910581887266",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -2683,7 +2641,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:6715921760341",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -2717,7 +2675,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10398181785899",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2734,7 +2692,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130818924843",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2751,7 +2709,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9178643366187",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2768,7 +2726,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:3003799339089",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2791,7 +2749,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4852792646",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2947,7 +2905,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:6704852303947",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
     },
     {
@@ -2964,37 +2922,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710186102827",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-21T14:37:31.993Z",
-      "price": 11.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336213749975",
-          "label": "3",
-          "price": 11.98,
-          "available": true
-        },
-        {
-          "id": "45336213782743",
-          "label": "5",
-          "price": 17.98,
-          "available": true
-        },
-        {
-          "id": "45336213815511",
-          "label": "10",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8149572288727",
-      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-21T14:37:31.993Z",
@@ -3022,7 +2951,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8149530575063",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T14:37:31.993Z",
+      "price": 11.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336213749975",
+          "label": "3",
+          "price": 11.98,
+          "available": true
+        },
+        {
+          "id": "45336213782743",
+          "label": "5",
+          "price": 17.98,
+          "available": true
+        },
+        {
+          "id": "45336213815511",
+          "label": "10",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
       "storeSlug": "ck-fish-world"
     },
     {
@@ -3057,7 +3015,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:9910581887266",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -3092,7 +3050,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:6715921760341",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -3126,7 +3084,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10398181785899",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -3143,7 +3101,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130818924843",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -3160,7 +3118,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9178643366187",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -3177,7 +3135,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:3003799339089",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -3200,7 +3158,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4852792646",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -3356,7 +3314,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:6704852303947",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
     },
     {
@@ -3373,37 +3331,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710186102827",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-21T14:49:27.666Z",
-      "price": 11.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336213749975",
-          "label": "3",
-          "price": 11.98,
-          "available": true
-        },
-        {
-          "id": "45336213782743",
-          "label": "5",
-          "price": 17.98,
-          "available": true
-        },
-        {
-          "id": "45336213815511",
-          "label": "10",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8149572288727",
-      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-21T14:49:27.666Z",
@@ -3431,7 +3360,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8149530575063",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T14:49:27.666Z",
+      "price": 11.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336213749975",
+          "label": "3",
+          "price": 11.98,
+          "available": true
+        },
+        {
+          "id": "45336213782743",
+          "label": "5",
+          "price": 17.98,
+          "available": true
+        },
+        {
+          "id": "45336213815511",
+          "label": "10",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
       "storeSlug": "ck-fish-world"
     },
     {
@@ -3466,7 +3424,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:9910581887266",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -3501,7 +3459,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:6715921760341",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -3535,7 +3493,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10398181785899",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -3552,7 +3510,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130818924843",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -3569,7 +3527,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9178643366187",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -3586,7 +3544,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:3003799339089",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -3609,7 +3567,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4852792646",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -3765,7 +3723,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:6704852303947",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
     },
     {
@@ -3782,7 +3740,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710186102827",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
     },
     {
@@ -3811,7 +3769,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8149530575063",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
       "storeSlug": "ck-fish-world"
     },
     {
@@ -3840,7 +3798,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8149572288727",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
       "storeSlug": "ck-fish-world"
     },
     {
@@ -3875,7 +3833,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:9910581887266",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -3910,7 +3868,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:6715921760341",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -3944,7 +3902,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10398181785899",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -3961,7 +3919,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130818924843",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -3978,7 +3936,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9178643366187",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -3995,7 +3953,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:3003799339089",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -4018,7 +3976,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4852792646",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -4174,7 +4132,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:6704852303947",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
     },
     {
@@ -4191,7 +4149,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710186102827",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
     },
     {
@@ -4220,7 +4178,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8149530575063",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
       "storeSlug": "ck-fish-world"
     },
     {
@@ -4249,7 +4207,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8149572288727",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
       "storeSlug": "ck-fish-world"
     },
     {
@@ -4284,7 +4242,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:9910581887266",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -4319,7 +4277,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:6715921760341",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -4353,7 +4311,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10398181785899",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -4370,7 +4328,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130818924843",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -4387,7 +4345,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9178643366187",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -4404,7 +4362,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:3003799339089",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -4427,7 +4385,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4852792646",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -4583,7 +4541,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:6704852303947",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
     },
     {
@@ -4600,7 +4558,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710186102827",
+      "listingId": "aquahuna:1710186102827+6704852303947",
       "storeSlug": "aquahuna"
     },
     {
@@ -4629,7 +4587,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8149530575063",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
       "storeSlug": "ck-fish-world"
     },
     {
@@ -4658,7 +4616,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8149572288727",
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
       "storeSlug": "ck-fish-world"
     },
     {
@@ -4693,7 +4651,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:9910581887266",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -4728,7 +4686,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "shrimpy-business:6715921760341",
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
       "storeSlug": "shrimpy-business"
     },
     {
@@ -4762,7 +4720,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10398181785899",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -4779,7 +4737,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130818924843",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -4796,7 +4754,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9178643366187",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -4813,7 +4771,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:3003799339089",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -4836,7 +4794,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4852792646",
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -4899,6 +4857,350 @@
     },
     {
       "observedAt": "2026-11-21T16:40:16.406Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51718497567036",
+          "label": "Single",
+          "price": 2.99,
+          "available": true
+        },
+        {
+          "id": "51718497599804",
+          "label": "Group of 3",
+          "price": 8.07,
+          "available": false
+        },
+        {
+          "id": "51718497632572",
+          "label": "Group of 6",
+          "price": 14.35,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006318285116",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43321929228",
+          "label": "School of 3",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "15498541574",
+          "label": "School of 6",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "43322046412",
+          "label": "School of 9",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "15498541702",
+          "label": "School of 12",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4738133446",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:35.821Z",
+      "price": 4,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41050279674065",
+          "label": "1”",
+          "price": 4,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7036832153809",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:42.741Z",
+      "price": 2,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39727600369739",
+          "label": "Neon Tetra (Size M/L)",
+          "price": 2.5,
+          "available": true
+        },
+        {
+          "id": "15719613235243",
+          "label": "Neon Tetra (Size S)",
+          "price": 2,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:1710186102827+6704852303947",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:49.184Z",
+      "price": 9.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336144871639",
+          "label": "3",
+          "price": 9.98,
+          "available": true
+        },
+        {
+          "id": "45336144904407",
+          "label": "5",
+          "price": 14.98,
+          "available": true
+        },
+        {
+          "id": "45336144937175",
+          "label": "10",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45336213749975",
+          "label": "3",
+          "price": 11.98,
+          "available": true
+        },
+        {
+          "id": "45336213782743",
+          "label": "5",
+          "price": 17.98,
+          "available": true
+        },
+        {
+          "id": "45336213815511",
+          "label": "10",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8149530575063+8149572288727",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:54.360Z",
+      "price": 10.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50520038408482",
+          "label": "3 Fish",
+          "price": 11.95,
+          "available": false
+        },
+        {
+          "id": "50520038441250",
+          "label": "6 Fish",
+          "price": 21.95,
+          "available": false
+        },
+        {
+          "id": "51662833942818",
+          "label": "12 Fish",
+          "price": 40.95,
+          "available": false
+        },
+        {
+          "id": "51662833975586",
+          "label": "24 Fish",
+          "price": 76.95,
+          "available": false
+        },
+        {
+          "id": "39922848235605",
+          "label": "3 Fish",
+          "price": 10.5,
+          "available": true
+        },
+        {
+          "id": "40402332352597",
+          "label": "6 Fish",
+          "price": 18.95,
+          "available": true
+        },
+        {
+          "id": "51662847476002",
+          "label": "12 Fish",
+          "price": 35.95,
+          "available": true
+        },
+        {
+          "id": "51662847508770",
+          "label": "24 Fish",
+          "price": 66.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6715921760341+9910581887266",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:57.844Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39334885490790",
+          "label": "Imported / 1 Fish",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6581362753638",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 3.89,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53610142105899",
+          "label": "Neon Tetra (School of 8)",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "51441026072875",
+          "label": "Diamond Head Neon Tetra (School of 6)",
+          "price": 23.99,
+          "available": true
+        },
+        {
+          "id": "48411801747755",
+          "label": "Neon Tetra (School of 6)",
+          "price": 21.99,
+          "available": true
+        },
+        {
+          "id": "51428372971819",
+          "label": "Diamond Head Neon Tetra",
+          "price": 4.89,
+          "available": true
+        },
+        {
+          "id": "31041642561617",
+          "label": "Medium",
+          "price": 3.89,
+          "available": true
+        },
+        {
+          "id": "31041642594385",
+          "label": "Large",
+          "price": 4.89,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10130818924843+10398181785899+3003799339089+4852792646+9178643366187",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:19.601Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611746197811",
+          "label": "(3 Pack) 0.5-1\" Unsexed",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "45611746230579",
+          "label": "(10 Pack) 0.5-1\" Unsexed",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "45611746263347",
+          "label": "(25 Pack) 0.5-1\" Unsexed",
+          "price": 69.99,
+          "available": true
+        },
+        {
+          "id": "45611746296115",
+          "label": "(50 Pack) 0.5-1\" Unsexed",
+          "price": 99.99,
+          "available": true
+        },
+        {
+          "id": "45611746328883",
+          "label": "(100 Pack) 0.5-1\" Unsexed",
+          "price": 174.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397984366899",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:53.162Z",
+      "price": 24,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46706205884608",
+          "label": "6 Fish",
+          "price": 24,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8309348565184",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:56.247Z",
       "price": 2.99,
       "currency": "USD",
       "available": true,

@@ -22,51 +22,19 @@
       "commonName": "Vallisneria Contortionist"
     },
     {
-      "listingId": "nu-aqua-shop:10481411555644",
-      "storeSlug": "nu-aqua-shop",
-      "storeName": "NU Aqua Shop",
-      "commonName": "Contortionist Vallisneria"
-    },
-    {
-      "listingId": "aquarium-fish:6260704006",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Contortion vallisneria"
-    },
-    {
-      "listingId": "aquarium-fish:6260707398",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Corkscrew vallisneria"
     },
     {
-      "listingId": "nu-aqua-shop:10006320808252",
+      "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Vallisneria Corkscrew"
     }
   ],
   "events": [
-    {
-      "observedAt": "2026-11-20T06:27:42.901Z",
-      "price": 7.59,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19810061830",
-          "label": "Title",
-          "price": 7.59,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquarium-fish:6260704006",
-      "storeSlug": "aquarium-fish"
-    },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 7.59,
@@ -84,7 +52,27 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:6260707398",
+      "listingId": "aquarium-fish:6260704006+6260707398",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19810061830",
+          "label": "Title",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -160,14 +148,14 @@
       "available": true,
       "variants": [
         {
-          "id": "19810061830",
+          "id": "19810072454",
           "label": "Title",
           "price": 7.59,
           "available": true
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260704006",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -177,14 +165,14 @@
       "available": true,
       "variants": [
         {
-          "id": "19810072454",
+          "id": "19810061830",
           "label": "Title",
           "price": 7.59,
           "available": true
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260707398",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -251,14 +239,14 @@
       "available": true,
       "variants": [
         {
-          "id": "19810061830",
+          "id": "19810072454",
           "label": "Title",
           "price": 7.59,
           "available": true
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260704006",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -268,14 +256,14 @@
       "available": true,
       "variants": [
         {
-          "id": "19810072454",
+          "id": "19810061830",
           "label": "Title",
           "price": 7.59,
           "available": true
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260707398",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -352,7 +340,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "nu-aqua-shop:10481411555644",
+      "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -372,25 +360,8 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "nu-aqua-shop:10006320808252",
+      "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop"
-    },
-    {
-      "observedAt": "2026-11-21T01:30:53.467Z",
-      "price": 7.59,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19810061830",
-          "label": "Title",
-          "price": 7.59,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquarium-fish:6260704006",
-      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-21T01:30:53.467Z",
@@ -406,7 +377,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260707398",
+      "listingId": "aquarium-fish:6260704006+6260707398",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19810061830",
+          "label": "Title",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -480,7 +468,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260707398",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -497,7 +485,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260704006",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -571,7 +559,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "nu-aqua-shop:10481411555644",
+      "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -588,7 +576,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "nu-aqua-shop:10006320808252",
+      "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -605,7 +593,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260707398",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -622,7 +610,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260704006",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -696,7 +684,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "nu-aqua-shop:10481411555644",
+      "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -713,7 +701,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "nu-aqua-shop:10006320808252",
+      "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -730,7 +718,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260707398",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -747,7 +735,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260704006",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -821,7 +809,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "nu-aqua-shop:10481411555644",
+      "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -838,7 +826,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "nu-aqua-shop:10006320808252",
+      "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -855,7 +843,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260707398",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -872,7 +860,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260704006",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -946,7 +934,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "nu-aqua-shop:10481411555644",
+      "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -963,7 +951,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "nu-aqua-shop:10006320808252",
+      "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -980,7 +968,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260707398",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -997,7 +985,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260704006",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1071,7 +1059,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "nu-aqua-shop:10481411555644",
+      "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -1088,7 +1076,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "nu-aqua-shop:10006320808252",
+      "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -1105,7 +1093,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260707398",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1122,7 +1110,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260704006",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1196,7 +1184,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "nu-aqua-shop:10481411555644",
+      "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -1213,7 +1201,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "nu-aqua-shop:10006320808252",
+      "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -1230,7 +1218,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260707398",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1247,7 +1235,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260704006",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1321,7 +1309,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "nu-aqua-shop:10481411555644",
+      "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -1338,7 +1326,116 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "nu-aqua-shop:10006320808252",
+      "listingId": "nu-aqua-shop:10006320808252+10481411555644",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19810072454",
+          "label": "Corkscrew vallisneria",
+          "price": 7.59,
+          "available": true
+        },
+        {
+          "id": "19810061830",
+          "label": "Contortion vallisneria",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6260704006+6260707398",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:28.158Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043852832986",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741040980186",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "35342410381",
+          "label": "Lead Bundle",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12396898025553",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.97,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:9541099917",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:44.972Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42019620683862",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:7481385975894",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:56.247Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "54350309589308",
+          "label": "Contortionist Vallisneria",
+          "price": 4.99,
+          "available": true
+        },
+        {
+          "id": "51627494474044",
+          "label": "Vallisneria Corkscrew",
+          "price": 5.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop"
     }
   ]

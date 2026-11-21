@@ -4,58 +4,22 @@
   "scientificName": "Geosesarma sp.",
   "listings": [
     {
-      "listingId": "aquatic-arts:9059556458775",
-      "storeSlug": "aquatic-arts",
-      "storeName": "Aquatic Arts",
-      "commonName": "Carnival Vampire Crab (Geosesarma sp.)"
+      "listingId": "monster-aquarium:7093604024529",
+      "storeSlug": "monster-aquarium",
+      "storeName": "Monster Aquarium",
+      "commonName": "Vampire Crab (mix) (Geosesarma dennerle)"
     },
     {
-      "listingId": "aquatic-arts:4847796093014",
-      "storeSlug": "aquatic-arts",
-      "storeName": "Aquatic Arts",
-      "commonName": "Tomato Vampire Crab (Geosesarma sp.)"
-    },
-    {
-      "listingId": "aquatic-arts:6599068450902",
-      "storeSlug": "aquatic-arts",
-      "storeName": "Aquatic Arts",
-      "commonName": "Lecaude Vampire Crab (Geosesarma sp.)"
-    },
-    {
-      "listingId": "shrimpy-business:9101529841954",
-      "storeSlug": "shrimpy-business",
-      "storeName": "Shrimpy Business",
-      "commonName": "Carnival Vampire Crabs"
-    },
-    {
-      "listingId": "shrimpy-business:8906684760354",
-      "storeSlug": "shrimpy-business",
-      "storeName": "Shrimpy Business",
-      "commonName": "Tomato Vampire Crabs"
-    },
-    {
-      "listingId": "aquarium-fish:10130826461483",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Vampire Crab (Consortium of 4)"
-    },
-    {
-      "listingId": "aquarium-fish:208963960857",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Vampire Crab"
-    },
-    {
-      "listingId": "aquatic-arts:4847719055446",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Vampire Crab (Geosesarma dennerle)"
     },
     {
-      "listingId": "monster-aquarium:7093604024529",
-      "storeSlug": "monster-aquarium",
-      "storeName": "Monster Aquarium",
-      "commonName": "Vampire Crab (mix) (Geosesarma dennerle)"
+      "listingId": "aquarium-fish:10130826461483+208963960857",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Vampire Crab"
     }
   ],
   "events": [
@@ -100,83 +64,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquatic-arts:9059556458775",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T05:43:01.800Z",
-      "price": 11.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51742101111151",
-          "label": "1 Male / Female Pair",
-          "price": 32.99,
-          "available": false
-        },
-        {
-          "id": "33152629932118",
-          "label": "1 Male Crab",
-          "price": 13.99,
-          "available": false
-        },
-        {
-          "id": "51742101078383",
-          "label": "3 Male Crabs",
-          "price": 29.99,
-          "available": false
-        },
-        {
-          "id": "33152629964886",
-          "label": "1 Female Crab",
-          "price": 19.99,
-          "available": false
-        },
-        {
-          "id": "33152630095958",
-          "label": "1 B-Grade Crab",
-          "price": 11.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquatic-arts:4847796093014",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T05:43:01.800Z",
-      "price": 14.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39455482806358",
-          "label": "1 B-Grade Crab",
-          "price": 14.99,
-          "available": false
-        },
-        {
-          "id": "39455482740822",
-          "label": "1 Male Crab",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "39455482773590",
-          "label": "1 Female Crab",
-          "price": 18.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquatic-arts:6599068450902",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -220,7 +108,83 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquatic-arts:4847719055446",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51742101111151",
+          "label": "1 Male / Female Pair",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "33152629932118",
+          "label": "1 Male Crab",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "51742101078383",
+          "label": "3 Male Crabs",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33152629964886",
+          "label": "1 Female Crab",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "33152630095958",
+          "label": "1 B-Grade Crab",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39455482806358",
+          "label": "1 B-Grade Crab",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "39455482740822",
+          "label": "1 Male Crab",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "39455482773590",
+          "label": "1 Female Crab",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -261,77 +225,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:9059556458775",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T05:43:08.947Z",
-      "price": 11.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51742101111151",
-          "label": "1 Male / Female Pair",
-          "price": 32.99,
-          "available": false
-        },
-        {
-          "id": "33152629932118",
-          "label": "1 Male Crab",
-          "price": 13.99,
-          "available": false
-        },
-        {
-          "id": "51742101078383",
-          "label": "3 Male Crabs",
-          "price": 29.99,
-          "available": false
-        },
-        {
-          "id": "33152629964886",
-          "label": "1 Female Crab",
-          "price": 19.99,
-          "available": false
-        },
-        {
-          "id": "33152630095958",
-          "label": "1 B-Grade Crab",
-          "price": 11.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4847796093014",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T05:43:08.947Z",
-      "price": 14.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39455482806358",
-          "label": "1 B-Grade Crab",
-          "price": 14.99,
-          "available": false
-        },
-        {
-          "id": "39455482740822",
-          "label": "1 Male Crab",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "39455482773590",
-          "label": "1 Female Crab",
-          "price": 18.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:6599068450902",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -372,7 +266,77 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847719055446",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:08.947Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51742101111151",
+          "label": "1 Male / Female Pair",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "33152629932118",
+          "label": "1 Male Crab",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "51742101078383",
+          "label": "3 Male Crabs",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33152629964886",
+          "label": "1 Female Crab",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "33152630095958",
+          "label": "1 B-Grade Crab",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:08.947Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39455482806358",
+          "label": "1 B-Grade Crab",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "39455482740822",
+          "label": "1 Male Crab",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "39455482773590",
+          "label": "1 Female Crab",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -413,77 +377,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:9059556458775",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T05:52:13.926Z",
-      "price": 11.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51742101111151",
-          "label": "1 Male / Female Pair",
-          "price": 32.99,
-          "available": false
-        },
-        {
-          "id": "33152629932118",
-          "label": "1 Male Crab",
-          "price": 13.99,
-          "available": false
-        },
-        {
-          "id": "51742101078383",
-          "label": "3 Male Crabs",
-          "price": 29.99,
-          "available": false
-        },
-        {
-          "id": "33152629964886",
-          "label": "1 Female Crab",
-          "price": 19.99,
-          "available": false
-        },
-        {
-          "id": "33152630095958",
-          "label": "1 B-Grade Crab",
-          "price": 11.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4847796093014",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T05:52:13.926Z",
-      "price": 14.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39455482806358",
-          "label": "1 B-Grade Crab",
-          "price": 14.99,
-          "available": false
-        },
-        {
-          "id": "39455482740822",
-          "label": "1 Male Crab",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "39455482773590",
-          "label": "1 Female Crab",
-          "price": 18.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:6599068450902",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -524,7 +418,77 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847719055446",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:52:13.926Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51742101111151",
+          "label": "1 Male / Female Pair",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "33152629932118",
+          "label": "1 Male Crab",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "51742101078383",
+          "label": "3 Male Crabs",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33152629964886",
+          "label": "1 Female Crab",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "33152630095958",
+          "label": "1 B-Grade Crab",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:52:13.926Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39455482806358",
+          "label": "1 B-Grade Crab",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "39455482740822",
+          "label": "1 Male Crab",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "39455482773590",
+          "label": "1 Female Crab",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -565,77 +529,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:9059556458775",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:02:13.577Z",
-      "price": 11.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51742101111151",
-          "label": "1 Male / Female Pair",
-          "price": 32.99,
-          "available": false
-        },
-        {
-          "id": "33152629932118",
-          "label": "1 Male Crab",
-          "price": 13.99,
-          "available": false
-        },
-        {
-          "id": "51742101078383",
-          "label": "3 Male Crabs",
-          "price": 29.99,
-          "available": false
-        },
-        {
-          "id": "33152629964886",
-          "label": "1 Female Crab",
-          "price": 19.99,
-          "available": false
-        },
-        {
-          "id": "33152630095958",
-          "label": "1 B-Grade Crab",
-          "price": 11.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4847796093014",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:02:13.577Z",
-      "price": 14.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39455482806358",
-          "label": "1 B-Grade Crab",
-          "price": 14.99,
-          "available": false
-        },
-        {
-          "id": "39455482740822",
-          "label": "1 Male Crab",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "39455482773590",
-          "label": "1 Female Crab",
-          "price": 18.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:6599068450902",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -676,7 +570,77 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847719055446",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51742101111151",
+          "label": "1 Male / Female Pair",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "33152629932118",
+          "label": "1 Male Crab",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "51742101078383",
+          "label": "3 Male Crabs",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33152629964886",
+          "label": "1 Female Crab",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "33152630095958",
+          "label": "1 B-Grade Crab",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39455482806358",
+          "label": "1 B-Grade Crab",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "39455482740822",
+          "label": "1 Male Crab",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "39455482773590",
+          "label": "1 Female Crab",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -737,77 +701,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:9059556458775",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:03:57.585Z",
-      "price": 11.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51742101111151",
-          "label": "1 Male / Female Pair",
-          "price": 32.99,
-          "available": false
-        },
-        {
-          "id": "33152629932118",
-          "label": "1 Male Crab",
-          "price": 13.99,
-          "available": false
-        },
-        {
-          "id": "51742101078383",
-          "label": "3 Male Crabs",
-          "price": 29.99,
-          "available": false
-        },
-        {
-          "id": "33152629964886",
-          "label": "1 Female Crab",
-          "price": 19.99,
-          "available": false
-        },
-        {
-          "id": "33152630095958",
-          "label": "1 B-Grade Crab",
-          "price": 11.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4847796093014",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:03:57.585Z",
-      "price": 14.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39455482806358",
-          "label": "1 B-Grade Crab",
-          "price": 14.99,
-          "available": false
-        },
-        {
-          "id": "39455482740822",
-          "label": "1 Male Crab",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "39455482773590",
-          "label": "1 Female Crab",
-          "price": 18.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:6599068450902",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -848,7 +742,77 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847719055446",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:03:57.585Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51742101111151",
+          "label": "1 Male / Female Pair",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "33152629932118",
+          "label": "1 Male Crab",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "51742101078383",
+          "label": "3 Male Crabs",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33152629964886",
+          "label": "1 Female Crab",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "33152630095958",
+          "label": "1 B-Grade Crab",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:03:57.585Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39455482806358",
+          "label": "1 B-Grade Crab",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "39455482740822",
+          "label": "1 Male Crab",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "39455482773590",
+          "label": "1 Female Crab",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -906,77 +870,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:9059556458775",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:14:39.803Z",
-      "price": 11.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51742101111151",
-          "label": "1 Male / Female Pair",
-          "price": 32.99,
-          "available": false
-        },
-        {
-          "id": "33152629932118",
-          "label": "1 Male Crab",
-          "price": 13.99,
-          "available": false
-        },
-        {
-          "id": "51742101078383",
-          "label": "3 Male Crabs",
-          "price": 29.99,
-          "available": false
-        },
-        {
-          "id": "33152629964886",
-          "label": "1 Female Crab",
-          "price": 19.99,
-          "available": false
-        },
-        {
-          "id": "33152630095958",
-          "label": "1 B-Grade Crab",
-          "price": 11.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4847796093014",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:14:39.803Z",
-      "price": 14.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39455482806358",
-          "label": "1 B-Grade Crab",
-          "price": 14.99,
-          "available": false
-        },
-        {
-          "id": "39455482740822",
-          "label": "1 Male Crab",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "39455482773590",
-          "label": "1 Female Crab",
-          "price": 18.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:6599068450902",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1017,7 +911,77 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847719055446",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:39.803Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51742101111151",
+          "label": "1 Male / Female Pair",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "33152629932118",
+          "label": "1 Male Crab",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "51742101078383",
+          "label": "3 Male Crabs",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33152629964886",
+          "label": "1 Female Crab",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "33152630095958",
+          "label": "1 B-Grade Crab",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:39.803Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39455482806358",
+          "label": "1 B-Grade Crab",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "39455482740822",
+          "label": "1 Male Crab",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "39455482773590",
+          "label": "1 Female Crab",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1075,77 +1039,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:9059556458775",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:34.315Z",
-      "price": 11.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51742101111151",
-          "label": "1 Male / Female Pair",
-          "price": 32.99,
-          "available": false
-        },
-        {
-          "id": "33152629932118",
-          "label": "1 Male Crab",
-          "price": 13.99,
-          "available": false
-        },
-        {
-          "id": "51742101078383",
-          "label": "3 Male Crabs",
-          "price": 29.99,
-          "available": false
-        },
-        {
-          "id": "33152629964886",
-          "label": "1 Female Crab",
-          "price": 19.99,
-          "available": false
-        },
-        {
-          "id": "33152630095958",
-          "label": "1 B-Grade Crab",
-          "price": 11.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4847796093014",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:34.315Z",
-      "price": 14.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39455482806358",
-          "label": "1 B-Grade Crab",
-          "price": 14.99,
-          "available": false
-        },
-        {
-          "id": "39455482740822",
-          "label": "1 Male Crab",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "39455482773590",
-          "label": "1 Female Crab",
-          "price": 18.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:6599068450902",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1186,7 +1080,77 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847719055446",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51742101111151",
+          "label": "1 Male / Female Pair",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "33152629932118",
+          "label": "1 Male Crab",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "51742101078383",
+          "label": "3 Male Crabs",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33152629964886",
+          "label": "1 Female Crab",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "33152630095958",
+          "label": "1 B-Grade Crab",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39455482806358",
+          "label": "1 B-Grade Crab",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "39455482740822",
+          "label": "1 Male Crab",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "39455482773590",
+          "label": "1 Female Crab",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1207,46 +1171,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-20T06:27:39.339Z",
-      "price": 22,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "48201793700130",
-          "label": "Title",
-          "price": 22,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "shrimpy-business:9101529841954",
-      "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:39.339Z",
-      "price": 20,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "47593679454498",
-          "label": "Title",
-          "price": 20,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "shrimpy-business:8906684760354",
-      "storeSlug": "shrimpy-business"
-    },
-    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 51.99,
       "currency": "USD",
@@ -1263,7 +1187,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:10130826461483",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1283,7 +1207,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:208963960857",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1324,77 +1248,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:9059556458775",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:09.827Z",
-      "price": 11.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51742101111151",
-          "label": "1 Male / Female Pair",
-          "price": 32.99,
-          "available": false
-        },
-        {
-          "id": "33152629932118",
-          "label": "1 Male Crab",
-          "price": 13.99,
-          "available": false
-        },
-        {
-          "id": "51742101078383",
-          "label": "3 Male Crabs",
-          "price": 29.99,
-          "available": false
-        },
-        {
-          "id": "33152629964886",
-          "label": "1 Female Crab",
-          "price": 19.99,
-          "available": false
-        },
-        {
-          "id": "33152630095958",
-          "label": "1 B-Grade Crab",
-          "price": 11.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4847796093014",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:09.827Z",
-      "price": 14.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39455482806358",
-          "label": "1 B-Grade Crab",
-          "price": 14.99,
-          "available": false
-        },
-        {
-          "id": "39455482740822",
-          "label": "1 Male Crab",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "39455482773590",
-          "label": "1 Female Crab",
-          "price": 18.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:6599068450902",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1435,7 +1289,77 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847719055446",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:09.827Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51742101111151",
+          "label": "1 Male / Female Pair",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "33152629932118",
+          "label": "1 Male Crab",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "51742101078383",
+          "label": "3 Male Crabs",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33152629964886",
+          "label": "1 Female Crab",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "33152630095958",
+          "label": "1 B-Grade Crab",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:09.827Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39455482806358",
+          "label": "1 B-Grade Crab",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "39455482740822",
+          "label": "1 Male Crab",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "39455482773590",
+          "label": "1 Female Crab",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1456,40 +1380,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-20T17:33:33.576Z",
-      "price": 22,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "48201793700130",
-          "label": "Title",
-          "price": 22,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:9101529841954",
-      "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:33.576Z",
-      "price": 20,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "47593679454498",
-          "label": "Title",
-          "price": 20,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:8906684760354",
-      "storeSlug": "shrimpy-business"
-    },
-    {
       "observedAt": "2026-11-20T17:33:47.733Z",
       "price": 51.99,
       "currency": "USD",
@@ -1503,7 +1393,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130826461483",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1520,7 +1410,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:208963960857",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1561,77 +1451,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:9059556458775",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T01:28:57.087Z",
-      "price": 11.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51742101111151",
-          "label": "1 Male / Female Pair",
-          "price": 32.99,
-          "available": false
-        },
-        {
-          "id": "33152629932118",
-          "label": "1 Male Crab",
-          "price": 13.99,
-          "available": false
-        },
-        {
-          "id": "51742101078383",
-          "label": "3 Male Crabs",
-          "price": 29.99,
-          "available": false
-        },
-        {
-          "id": "33152629964886",
-          "label": "1 Female Crab",
-          "price": 19.99,
-          "available": false
-        },
-        {
-          "id": "33152630095958",
-          "label": "1 B-Grade Crab",
-          "price": 11.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4847796093014",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T01:28:57.087Z",
-      "price": 14.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39455482806358",
-          "label": "1 B-Grade Crab",
-          "price": 14.99,
-          "available": false
-        },
-        {
-          "id": "39455482740822",
-          "label": "1 Male Crab",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "39455482773590",
-          "label": "1 Female Crab",
-          "price": 18.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:6599068450902",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1672,7 +1492,77 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847719055446",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51742101111151",
+          "label": "1 Male / Female Pair",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "33152629932118",
+          "label": "1 Male Crab",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "51742101078383",
+          "label": "3 Male Crabs",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33152629964886",
+          "label": "1 Female Crab",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "33152630095958",
+          "label": "1 B-Grade Crab",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39455482806358",
+          "label": "1 B-Grade Crab",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "39455482740822",
+          "label": "1 Male Crab",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "39455482773590",
+          "label": "1 Female Crab",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1693,40 +1583,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-21T01:29:10.831Z",
-      "price": 22,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "48201793700130",
-          "label": "Title",
-          "price": 22,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:9101529841954",
-      "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:10.831Z",
-      "price": 20,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "47593679454498",
-          "label": "Title",
-          "price": 20,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:8906684760354",
-      "storeSlug": "shrimpy-business"
-    },
-    {
       "observedAt": "2026-11-21T01:29:18.881Z",
       "price": 51.99,
       "currency": "USD",
@@ -1740,7 +1596,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130826461483",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1757,7 +1613,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:208963960857",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1798,77 +1654,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:9059556458775",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T01:30:03.149Z",
-      "price": 11.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51742101111151",
-          "label": "1 Male / Female Pair",
-          "price": 32.99,
-          "available": false
-        },
-        {
-          "id": "33152629932118",
-          "label": "1 Male Crab",
-          "price": 13.99,
-          "available": false
-        },
-        {
-          "id": "51742101078383",
-          "label": "3 Male Crabs",
-          "price": 29.99,
-          "available": false
-        },
-        {
-          "id": "33152629964886",
-          "label": "1 Female Crab",
-          "price": 19.99,
-          "available": false
-        },
-        {
-          "id": "33152630095958",
-          "label": "1 B-Grade Crab",
-          "price": 11.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4847796093014",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T01:30:03.149Z",
-      "price": 14.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39455482806358",
-          "label": "1 B-Grade Crab",
-          "price": 14.99,
-          "available": false
-        },
-        {
-          "id": "39455482740822",
-          "label": "1 Male Crab",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "39455482773590",
-          "label": "1 Female Crab",
-          "price": 18.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:6599068450902",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1909,7 +1695,77 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847719055446",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:03.149Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51742101111151",
+          "label": "1 Male / Female Pair",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "33152629932118",
+          "label": "1 Male Crab",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "51742101078383",
+          "label": "3 Male Crabs",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33152629964886",
+          "label": "1 Female Crab",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "33152630095958",
+          "label": "1 B-Grade Crab",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:03.149Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39455482806358",
+          "label": "1 B-Grade Crab",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "39455482740822",
+          "label": "1 Male Crab",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "39455482773590",
+          "label": "1 Female Crab",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1930,40 +1786,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-21T01:30:42.479Z",
-      "price": 22,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "48201793700130",
-          "label": "Title",
-          "price": 22,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:9101529841954",
-      "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-21T01:30:42.479Z",
-      "price": 20,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "47593679454498",
-          "label": "Title",
-          "price": 20,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:8906684760354",
-      "storeSlug": "shrimpy-business"
-    },
-    {
       "observedAt": "2026-11-21T01:30:53.467Z",
       "price": 51.99,
       "currency": "USD",
@@ -1977,7 +1799,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130826461483",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1994,7 +1816,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:208963960857",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2035,77 +1857,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:9059556458775",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T01:59:48.002Z",
-      "price": 11.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51742101111151",
-          "label": "1 Male / Female Pair",
-          "price": 32.99,
-          "available": false
-        },
-        {
-          "id": "33152629932118",
-          "label": "1 Male Crab",
-          "price": 13.99,
-          "available": false
-        },
-        {
-          "id": "51742101078383",
-          "label": "3 Male Crabs",
-          "price": 29.99,
-          "available": false
-        },
-        {
-          "id": "33152629964886",
-          "label": "1 Female Crab",
-          "price": 19.99,
-          "available": false
-        },
-        {
-          "id": "33152630095958",
-          "label": "1 B-Grade Crab",
-          "price": 11.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4847796093014",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T01:59:48.002Z",
-      "price": 14.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39455482806358",
-          "label": "1 B-Grade Crab",
-          "price": 14.99,
-          "available": false
-        },
-        {
-          "id": "39455482740822",
-          "label": "1 Male Crab",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "39455482773590",
-          "label": "1 Female Crab",
-          "price": 18.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:6599068450902",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2146,7 +1898,77 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847719055446",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:59:48.002Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51742101111151",
+          "label": "1 Male / Female Pair",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "33152629932118",
+          "label": "1 Male Crab",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "51742101078383",
+          "label": "3 Male Crabs",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33152629964886",
+          "label": "1 Female Crab",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "33152630095958",
+          "label": "1 B-Grade Crab",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:59:48.002Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39455482806358",
+          "label": "1 B-Grade Crab",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "39455482740822",
+          "label": "1 Male Crab",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "39455482773590",
+          "label": "1 Female Crab",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2167,40 +1989,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-21T02:00:27.948Z",
-      "price": 22,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "48201793700130",
-          "label": "Title",
-          "price": 22,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:9101529841954",
-      "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-21T02:00:27.948Z",
-      "price": 20,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "47593679454498",
-          "label": "Title",
-          "price": 20,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:8906684760354",
-      "storeSlug": "shrimpy-business"
-    },
-    {
       "observedAt": "2026-11-21T02:00:39.304Z",
       "price": 51.99,
       "currency": "USD",
@@ -2214,7 +2002,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130826461483",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2231,7 +2019,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:208963960857",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2272,7 +2060,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:9059556458775",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2313,7 +2101,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847719055446",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2354,7 +2142,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847796093014",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2383,7 +2171,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6599068450902",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2404,40 +2192,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-21T02:05:54.618Z",
-      "price": 22,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "48201793700130",
-          "label": "Title",
-          "price": 22,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:9101529841954",
-      "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-21T02:05:54.618Z",
-      "price": 20,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "47593679454498",
-          "label": "Title",
-          "price": 20,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:8906684760354",
-      "storeSlug": "shrimpy-business"
-    },
-    {
       "observedAt": "2026-11-21T02:06:06.550Z",
       "price": 51.99,
       "currency": "USD",
@@ -2451,7 +2205,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130826461483",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2468,7 +2222,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:208963960857",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2509,7 +2263,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:9059556458775",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2550,7 +2304,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847719055446",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2591,7 +2345,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847796093014",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2620,7 +2374,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6599068450902",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2641,40 +2395,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-21T14:37:39.532Z",
-      "price": 22,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "48201793700130",
-          "label": "Title",
-          "price": 22,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:9101529841954",
-      "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-21T14:37:39.532Z",
-      "price": 20,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "47593679454498",
-          "label": "Title",
-          "price": 20,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:8906684760354",
-      "storeSlug": "shrimpy-business"
-    },
-    {
       "observedAt": "2026-11-21T14:38:00.589Z",
       "price": 51.99,
       "currency": "USD",
@@ -2688,7 +2408,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130826461483",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2705,7 +2425,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:208963960857",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2746,7 +2466,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:9059556458775",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2787,7 +2507,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847719055446",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2828,7 +2548,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847796093014",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2857,7 +2577,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6599068450902",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2878,40 +2598,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-21T14:49:34.637Z",
-      "price": 22,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "48201793700130",
-          "label": "Title",
-          "price": 22,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:9101529841954",
-      "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-21T14:49:34.637Z",
-      "price": 20,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "47593679454498",
-          "label": "Title",
-          "price": 20,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:8906684760354",
-      "storeSlug": "shrimpy-business"
-    },
-    {
       "observedAt": "2026-11-21T14:49:52.866Z",
       "price": 51.99,
       "currency": "USD",
@@ -2925,7 +2611,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130826461483",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2942,7 +2628,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:208963960857",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2983,7 +2669,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:9059556458775",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -3024,7 +2710,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847719055446",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -3065,7 +2751,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847796093014",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -3094,7 +2780,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6599068450902",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -3115,40 +2801,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-21T14:59:48.879Z",
-      "price": 22,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "48201793700130",
-          "label": "Title",
-          "price": 22,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:9101529841954",
-      "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-21T14:59:48.879Z",
-      "price": 20,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "47593679454498",
-          "label": "Title",
-          "price": 20,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:8906684760354",
-      "storeSlug": "shrimpy-business"
-    },
-    {
       "observedAt": "2026-11-21T15:00:01.282Z",
       "price": 51.99,
       "currency": "USD",
@@ -3162,7 +2814,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130826461483",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -3179,7 +2831,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:208963960857",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -3220,7 +2872,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:9059556458775",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -3261,7 +2913,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847719055446",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -3302,7 +2954,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847796093014",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -3331,7 +2983,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6599068450902",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -3352,40 +3004,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-21T15:39:20.255Z",
-      "price": 22,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "48201793700130",
-          "label": "Title",
-          "price": 22,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:9101529841954",
-      "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-21T15:39:20.255Z",
-      "price": 20,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "47593679454498",
-          "label": "Title",
-          "price": 20,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:8906684760354",
-      "storeSlug": "shrimpy-business"
-    },
-    {
       "observedAt": "2026-11-21T15:39:33.054Z",
       "price": 51.99,
       "currency": "USD",
@@ -3399,7 +3017,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130826461483",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -3416,7 +3034,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:208963960857",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -3457,7 +3075,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:9059556458775",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -3498,7 +3116,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847719055446",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -3539,7 +3157,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4847796093014",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -3568,7 +3186,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6599068450902",
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -3589,40 +3207,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-21T16:38:20.970Z",
-      "price": 22,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "48201793700130",
-          "label": "Title",
-          "price": 22,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:9101529841954",
-      "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-21T16:38:20.970Z",
-      "price": 20,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "47593679454498",
-          "label": "Title",
-          "price": 20,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "shrimpy-business:8906684760354",
-      "storeSlug": "shrimpy-business"
-    },
-    {
       "observedAt": "2026-11-21T16:38:40.438Z",
       "price": 51.99,
       "currency": "USD",
@@ -3636,7 +3220,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10130826461483",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -3653,7 +3237,172 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:208963960857",
+      "listingId": "aquarium-fish:10130826461483+208963960857",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52036899897711",
+          "label": "1 Male / Female Pair",
+          "price": 23.99,
+          "available": false
+        },
+        {
+          "id": "48013774553367",
+          "label": "1 Male Crab",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "48665006211351",
+          "label": "3 Male Crabs",
+          "price": 33.99,
+          "available": false
+        },
+        {
+          "id": "48013774586135",
+          "label": "1 Female Crab",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "48013774618903",
+          "label": "1 B-Grade Crab",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "52089213550959",
+          "label": "1 Male / Female Pair",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33152311885910",
+          "label": "1 Female Crab",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "33152311853142",
+          "label": "1 Male Crab",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "51742068900207",
+          "label": "3 Male Crabs",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33152312049750",
+          "label": "1 B-Grade Crab",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "51742101111151",
+          "label": "1 Male / Female Pair",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "33152629932118",
+          "label": "1 Male Crab",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "51742101078383",
+          "label": "3 Male Crabs",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33152629964886",
+          "label": "1 Female Crab",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "33152630095958",
+          "label": "1 B-Grade Crab",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "39455482806358",
+          "label": "1 B-Grade Crab",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "39455482740822",
+          "label": "1 Male Crab",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "39455482773590",
+          "label": "1 Female Crab",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:4847719055446+4847796093014+6599068450902+9059556458775",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:35.821Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41190999130321",
+          "label": ".5”-1\"",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7093604024529",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 19.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441070113067",
+          "label": "Vampire Crab (Consortium of 4)",
+          "price": 51.99,
+          "available": true
+        },
+        {
+          "id": "51428210934059",
+          "label": "Vampire Crab",
+          "price": 19.79,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10130826461483+208963960857",
       "storeSlug": "aquarium-fish"
     }
   ]

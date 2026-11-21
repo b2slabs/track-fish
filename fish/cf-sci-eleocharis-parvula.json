@@ -4,65 +4,47 @@
   "scientificName": "Eleocharis parvula",
   "listings": [
     {
-      "listingId": "aquatic-arts:1923378085974",
-      "storeSlug": "aquatic-arts",
-      "storeName": "Aquatic Arts",
-      "commonName": "Dwarf Hairgrass (Eleocharis parvula) Tissue Culture"
-    },
-    {
-      "listingId": "ck-fish-world:8219238760663",
-      "storeSlug": "ck-fish-world",
-      "storeName": "CK Fish World",
-      "commonName": "UNS Dwarf Hairgrass Tissue Culture"
-    },
-    {
       "listingId": "shrimpy-business:6560963330133",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Dwarf Hair Grass"
     },
     {
-      "listingId": "buce-plant:8227247325384",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Eleocharis Parvula 'Mini' Aquatic Farmer Tissue Culture"
+      "listingId": "flip-aquatics:4673925709926",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Dwarf Hairgrass - Eleocharis parvula"
     },
     {
-      "listingId": "buce-plant:9625827405",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Dwarf Hair Grass UNS Tissue Culture"
-    },
-    {
-      "listingId": "buce-plant:8478643469",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Dwarf Hair Grass"
-    },
-    {
-      "listingId": "aquatic-arts:4740043270",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Dwarf Hairgrass (Eleocharis parvula)"
     },
     {
-      "listingId": "flip-aquatics:4673925709926",
-      "storeSlug": "flip-aquatics",
-      "storeName": "Flip Aquatics",
-      "commonName": "Dwarf Hairgrass - Eleocharis parvula"
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Dwarf Hair Grass"
     }
   ],
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
-      "price": 7.99,
+      "price": 5.99,
       "currency": "USD",
       "available": true,
       "variants": [
         {
-          "id": "19442145656918",
-          "label": "1 Tissue Culture Cup",
-          "price": 7.99,
+          "id": "48601209831703",
+          "label": "1 BUNCH PLANT",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "48601209864471",
+          "label": "1 POTTED PLANT",
+          "price": 8.99,
           "available": true
         }
       ],
@@ -70,37 +52,11 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquatic-arts:1923378085974",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
-      "price": 5.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48601209831703",
-          "label": "1 BUNCH PLANT",
-          "price": 5.99,
-          "available": true
-        },
-        {
-          "id": "48601209864471",
-          "label": "1 POTTED PLANT",
-          "price": 8.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquatic-arts:4740043270",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T05:43:08.947Z",
       "price": 7.99,
       "currency": "USD",
       "available": true,
@@ -112,8 +68,11 @@
           "available": true
         }
       ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:1923378085974",
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -136,7 +95,47 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4740043270",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:08.947Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19442145656918",
+          "label": "1 Tissue Culture Cup",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:52:13.926Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48601209831703",
+          "label": "1 BUNCH PLANT",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "48601209864471",
+          "label": "1 POTTED PLANT",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -153,47 +152,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923378085974",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T05:52:13.926Z",
-      "price": 5.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48601209831703",
-          "label": "1 BUNCH PLANT",
-          "price": 5.99,
-          "available": true
-        },
-        {
-          "id": "48601209864471",
-          "label": "1 POTTED PLANT",
-          "price": 8.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4740043270",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:02:13.577Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19442145656918",
-          "label": "1 Tissue Culture Cup",
-          "price": 7.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:1923378085974",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -216,11 +175,11 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4740043270",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T06:03:57.585Z",
+      "observedAt": "2026-11-20T06:02:13.577Z",
       "price": 7.99,
       "currency": "USD",
       "available": true,
@@ -233,7 +192,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923378085974",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -256,11 +215,11 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4740043270",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T06:14:39.803Z",
+      "observedAt": "2026-11-20T06:03:57.585Z",
       "price": 7.99,
       "currency": "USD",
       "available": true,
@@ -273,7 +232,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923378085974",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -296,37 +255,11 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4740043270",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 10.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45697970569431",
-          "label": "1",
-          "price": 10.98,
-          "available": true
-        },
-        {
-          "id": "45697970602199",
-          "label": "3",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8219238760663",
-      "storeSlug": "ck-fish-world"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:34.315Z",
+      "observedAt": "2026-11-20T06:14:39.803Z",
       "price": 7.99,
       "currency": "USD",
       "available": true,
@@ -339,7 +272,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923378085974",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -362,31 +295,25 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4740043270",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T06:27:38.526Z",
-      "price": 10.98,
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 7.99,
       "currency": "USD",
       "available": true,
       "variants": [
         {
-          "id": "45697970569431",
-          "label": "1",
-          "price": 10.98,
-          "available": true
-        },
-        {
-          "id": "45697970602199",
-          "label": "3",
-          "price": 29.98,
+          "id": "19442145656918",
+          "label": "1 Tissue Culture Cup",
+          "price": 7.99,
           "available": true
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8219238760663",
-      "storeSlug": "ck-fish-world"
+      "listingId": "aquatic-arts:1923378085974+4740043270",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T06:27:39.339Z",
@@ -445,7 +372,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "buce-plant:8227247325384",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -465,7 +392,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "buce-plant:9625827405",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -497,25 +424,8 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "buce-plant:8478643469",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:09.827Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19442145656918",
-          "label": "1 Tissue Culture Cup",
-          "price": 7.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:1923378085974",
-      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T17:33:09.827Z",
@@ -537,31 +447,25 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4740043270",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T17:33:29.055Z",
-      "price": 10.98,
+      "observedAt": "2026-11-20T17:33:09.827Z",
+      "price": 7.99,
       "currency": "USD",
       "available": true,
       "variants": [
         {
-          "id": "45697970569431",
-          "label": "1",
-          "price": 10.98,
-          "available": true
-        },
-        {
-          "id": "45697970602199",
-          "label": "3",
-          "price": 29.98,
+          "id": "19442145656918",
+          "label": "1 Tissue Culture Cup",
+          "price": 7.99,
           "available": true
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8219238760663",
-      "storeSlug": "ck-fish-world"
+      "listingId": "aquatic-arts:1923378085974+4740043270",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T17:33:33.576Z",
@@ -611,7 +515,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8227247325384",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -628,7 +532,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9625827405",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -657,25 +561,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8478643469",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T01:28:57.087Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19442145656918",
-          "label": "1 Tissue Culture Cup",
-          "price": 7.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:1923378085974",
-      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-21T01:28:57.087Z",
@@ -697,31 +584,25 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4740043270",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-21T01:29:08.295Z",
-      "price": 10.98,
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 7.99,
       "currency": "USD",
       "available": true,
       "variants": [
         {
-          "id": "45697970569431",
-          "label": "1",
-          "price": 10.98,
-          "available": true
-        },
-        {
-          "id": "45697970602199",
-          "label": "3",
-          "price": 29.98,
+          "id": "19442145656918",
+          "label": "1 Tissue Culture Cup",
+          "price": 7.99,
           "available": true
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8219238760663",
-      "storeSlug": "ck-fish-world"
+      "listingId": "aquatic-arts:1923378085974+4740043270",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-21T01:29:10.831Z",
@@ -771,7 +652,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8227247325384",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -788,7 +669,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9625827405",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -817,25 +698,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8478643469",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T01:30:03.149Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19442145656918",
-          "label": "1 Tissue Culture Cup",
-          "price": 7.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:1923378085974",
-      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-21T01:30:03.149Z",
@@ -857,31 +721,25 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4740043270",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-21T01:30:38.589Z",
-      "price": 10.98,
+      "observedAt": "2026-11-21T01:30:03.149Z",
+      "price": 7.99,
       "currency": "USD",
       "available": true,
       "variants": [
         {
-          "id": "45697970569431",
-          "label": "1",
-          "price": 10.98,
-          "available": true
-        },
-        {
-          "id": "45697970602199",
-          "label": "3",
-          "price": 29.98,
+          "id": "19442145656918",
+          "label": "1 Tissue Culture Cup",
+          "price": 7.99,
           "available": true
         }
       ],
       "type": "heartbeat",
-      "listingId": "ck-fish-world:8219238760663",
-      "storeSlug": "ck-fish-world"
+      "listingId": "aquatic-arts:1923378085974+4740043270",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-21T01:30:42.479Z",
@@ -931,7 +789,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8227247325384",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -948,7 +806,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9625827405",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -977,7 +835,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8478643469",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1000,7 +858,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4740043270",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1017,31 +875,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923378085974",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T02:00:24.222Z",
-      "price": 10.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45697970569431",
-          "label": "1",
-          "price": 10.98,
-          "available": true
-        },
-        {
-          "id": "45697970602199",
-          "label": "3",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8219238760663",
-      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-21T02:00:27.948Z",
@@ -1091,7 +926,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8227247325384",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1108,7 +943,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9625827405",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1137,7 +972,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8478643469",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1160,7 +995,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4740043270",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1177,31 +1012,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923378085974",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T02:05:50.776Z",
-      "price": 10.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45697970569431",
-          "label": "1",
-          "price": 10.98,
-          "available": true
-        },
-        {
-          "id": "45697970602199",
-          "label": "3",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8219238760663",
-      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-21T02:05:54.618Z",
@@ -1251,7 +1063,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8227247325384",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1268,7 +1080,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9625827405",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1297,7 +1109,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8478643469",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1320,7 +1132,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4740043270",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1337,31 +1149,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923378085974",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T14:37:31.993Z",
-      "price": 10.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45697970569431",
-          "label": "1",
-          "price": 10.98,
-          "available": true
-        },
-        {
-          "id": "45697970602199",
-          "label": "3",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8219238760663",
-      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-21T14:37:39.532Z",
@@ -1411,7 +1200,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8227247325384",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1428,7 +1217,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9625827405",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1457,7 +1246,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8478643469",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1480,7 +1269,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4740043270",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1497,31 +1286,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923378085974",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T14:49:27.666Z",
-      "price": 10.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45697970569431",
-          "label": "1",
-          "price": 10.98,
-          "available": true
-        },
-        {
-          "id": "45697970602199",
-          "label": "3",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8219238760663",
-      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-21T14:49:34.637Z",
@@ -1571,7 +1337,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8227247325384",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1588,7 +1354,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9625827405",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1617,7 +1383,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8478643469",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1640,7 +1406,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4740043270",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1657,31 +1423,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923378085974",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T14:59:43.540Z",
-      "price": 10.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45697970569431",
-          "label": "1",
-          "price": 10.98,
-          "available": true
-        },
-        {
-          "id": "45697970602199",
-          "label": "3",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8219238760663",
-      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-21T14:59:48.879Z",
@@ -1731,7 +1474,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8227247325384",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1748,7 +1491,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9625827405",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1777,7 +1520,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8478643469",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1800,7 +1543,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4740043270",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1817,31 +1560,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923378085974",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T15:39:14.905Z",
-      "price": 10.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45697970569431",
-          "label": "1",
-          "price": 10.98,
-          "available": true
-        },
-        {
-          "id": "45697970602199",
-          "label": "3",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8219238760663",
-      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-21T15:39:20.255Z",
@@ -1891,7 +1611,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8227247325384",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1908,7 +1628,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9625827405",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1937,7 +1657,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8478643469",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -1960,7 +1680,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:4740043270",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1977,31 +1697,8 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923378085974",
+      "listingId": "aquatic-arts:1923378085974+4740043270",
       "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T16:38:12.629Z",
-      "price": 10.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45697970569431",
-          "label": "1",
-          "price": 10.98,
-          "available": true
-        },
-        {
-          "id": "45697970602199",
-          "label": "3",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8219238760663",
-      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-21T16:38:20.970Z",
@@ -2051,7 +1748,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8227247325384",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -2068,7 +1765,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9625827405",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     },
     {
@@ -2097,7 +1794,117 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8478643469",
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48601209831703",
+          "label": "1 BUNCH PLANT",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "48601209864471",
+          "label": "1 POTTED PLANT",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "19442145656918",
+          "label": "1 Tissue Culture Cup",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:1923378085974+4740043270",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:54.360Z",
+      "price": 8.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39305228779605",
+          "label": "Title",
+          "price": 8.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6560963330133",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:57.844Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31497148956774",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:4673925709926",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 11.04,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44713407774920",
+          "label": "Eleocharis Parvula 'Mini' Aquatic Farmer Tissue Culture",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "35886616141",
+          "label": "Dwarf Hair Grass UNS Tissue Culture",
+          "price": 11.04,
+          "available": true
+        },
+        {
+          "id": "35884937549",
+          "label": "Pot",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "28660718925",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12396171919441",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.97,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8227247325384+8478643469+9625827405",
       "storeSlug": "buce-plant"
     }
   ]

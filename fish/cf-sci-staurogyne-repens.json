@@ -4,34 +4,10 @@
   "scientificName": "Staurogyne repens",
   "listings": [
     {
-      "listingId": "aquatic-arts:1379528179798",
-      "storeSlug": "aquatic-arts",
-      "storeName": "Aquatic Arts",
-      "commonName": "Staurogyne repens (Staurogyne repens), Clump"
-    },
-    {
       "listingId": "aquarium-fish:10106514899243",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Staurogyne repens - Tissue Culture"
-    },
-    {
-      "listingId": "buce-plant:9369451085",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Staurogyne Repens UNS Tissue Culture"
-    },
-    {
-      "listingId": "buce-plant:8844293965",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Staurogyne Repens"
-    },
-    {
-      "listingId": "buce-plant:2868326826065",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Staurogyne Repens Aquatic Farmer Tissue Culture"
     },
     {
       "listingId": "glass-aqua:11277473479",
@@ -46,12 +22,6 @@
       "commonName": "Staurogyne Repens"
     },
     {
-      "listingId": "aquatic-arts:1923638132822",
-      "storeSlug": "aquatic-arts",
-      "storeName": "Aquatic Arts",
-      "commonName": "Staurogyne repens Tissue Culture"
-    },
-    {
       "listingId": "ck-fish-world:8733676962007",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
@@ -64,21 +34,27 @@
       "commonName": "Staurogyne Repens"
     },
     {
-      "listingId": "flip-aquatics:6692638916710",
-      "storeSlug": "flip-aquatics",
-      "storeName": "Flip Aquatics",
-      "commonName": "Staurogyne Repens  | Tissue Culture"
+      "listingId": "daku-aquatics:8741033803994",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Staurogyne Repens"
     },
     {
-      "listingId": "flip-aquatics:6658174877798",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Staurogyne repens Tissue Culture"
+    },
+    {
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Staurogyne Repens"
     },
     {
-      "listingId": "daku-aquatics:8741033803994",
-      "storeSlug": "daku-aquatics",
-      "storeName": "Daku Aquatics",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
       "commonName": "Staurogyne Repens"
     }
   ],
@@ -90,29 +66,17 @@
       "available": true,
       "variants": [
         {
-          "id": "12744599634006",
-          "label": "1 Bunch",
+          "id": "19442675089494",
+          "label": "1 Tissue Culture",
           "price": 6.99,
           "available": true
-        },
-        {
-          "id": "12744614346838",
-          "label": "2 Bunches",
-          "price": 13.99,
-          "available": true
-        },
-        {
-          "id": "12744614379606",
-          "label": "3 Bunches",
-          "price": 19.99,
-          "available": false
         }
       ],
       "type": "change",
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquatic-arts:1379528179798",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -122,17 +86,46 @@
       "available": true,
       "variants": [
         {
-          "id": "19442675089494",
-          "label": "1 Tissue Culture",
+          "id": "12744599634006",
+          "label": "1 Bunch",
           "price": 6.99,
           "available": true
+        },
+        {
+          "id": "12744614346838",
+          "label": "2 Bunches",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "12744614379606",
+          "label": "3 Bunches",
+          "price": 19.99,
+          "available": false
         }
       ],
       "type": "change",
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquatic-arts:1923638132822",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:08.947Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19442675089494",
+          "label": "1 Tissue Culture",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -161,11 +154,11 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1379528179798",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T05:43:08.947Z",
+      "observedAt": "2026-11-20T05:52:13.926Z",
       "price": 6.99,
       "currency": "USD",
       "available": true,
@@ -178,7 +171,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923638132822",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -207,11 +200,11 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1379528179798",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T05:52:13.926Z",
+      "observedAt": "2026-11-20T06:02:13.577Z",
       "price": 6.99,
       "currency": "USD",
       "available": true,
@@ -224,7 +217,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923638132822",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -253,11 +246,11 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1379528179798",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T06:02:13.577Z",
+      "observedAt": "2026-11-20T06:03:57.585Z",
       "price": 6.99,
       "currency": "USD",
       "available": true,
@@ -270,7 +263,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923638132822",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -299,11 +292,11 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1379528179798",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T06:03:57.585Z",
+      "observedAt": "2026-11-20T06:14:39.803Z",
       "price": 6.99,
       "currency": "USD",
       "available": true,
@@ -316,7 +309,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923638132822",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -345,24 +338,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1379528179798",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:14:39.803Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19442675089494",
-          "label": "1 Tissue Culture",
-          "price": 6.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:1923638132822",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -404,6 +380,23 @@
       "available": true,
       "variants": [
         {
+          "id": "19442675089494",
+          "label": "1 Tissue Culture",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
           "id": "12744599634006",
           "label": "1 Bunch",
           "price": 6.99,
@@ -423,24 +416,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1379528179798",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:34.315Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19442675089494",
-          "label": "1 Tissue Culture",
-          "price": 6.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:1923638132822",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -509,7 +485,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "flip-aquatics:6692638916710",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -529,7 +505,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "flip-aquatics:6658174877798",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -589,7 +565,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "buce-plant:9369451085",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -621,7 +597,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "buce-plant:8844293965",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -641,7 +617,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "buce-plant:2868326826065",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -683,6 +659,23 @@
       "available": true,
       "variants": [
         {
+          "id": "19442675089494",
+          "label": "1 Tissue Culture",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:09.827Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
           "id": "12744599634006",
           "label": "1 Bunch",
           "price": 6.99,
@@ -702,24 +695,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1379528179798",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:09.827Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19442675089494",
-          "label": "1 Tissue Culture",
-          "price": 6.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:1923638132822",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -782,7 +758,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6692638916710",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -799,7 +775,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6658174877798",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -850,7 +826,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9369451085",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -879,7 +855,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8844293965",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -896,7 +872,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:2868326826065",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -935,6 +911,23 @@
       "available": true,
       "variants": [
         {
+          "id": "19442675089494",
+          "label": "1 Tissue Culture",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
           "id": "12744599634006",
           "label": "1 Bunch",
           "price": 6.99,
@@ -954,24 +947,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1379528179798",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T01:28:57.087Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19442675089494",
-          "label": "1 Tissue Culture",
-          "price": 6.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:1923638132822",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1034,7 +1010,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6692638916710",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -1051,7 +1027,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6658174877798",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -1102,7 +1078,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9369451085",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -1131,7 +1107,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8844293965",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -1148,7 +1124,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:2868326826065",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -1207,6 +1183,23 @@
       "available": true,
       "variants": [
         {
+          "id": "19442675089494",
+          "label": "1 Tissue Culture",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:03.149Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
           "id": "12744599634006",
           "label": "1 Bunch",
           "price": 6.99,
@@ -1226,24 +1219,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1379528179798",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T01:30:03.149Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19442675089494",
-          "label": "1 Tissue Culture",
-          "price": 6.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:1923638132822",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1306,7 +1282,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6692638916710",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -1323,7 +1299,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6658174877798",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -1374,7 +1350,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9369451085",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -1403,7 +1379,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8844293965",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -1420,7 +1396,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:2868326826065",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -1459,6 +1435,23 @@
       "available": true,
       "variants": [
         {
+          "id": "19442675089494",
+          "label": "1 Tissue Culture",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:59:48.002Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
           "id": "12744599634006",
           "label": "1 Bunch",
           "price": 6.99,
@@ -1478,24 +1471,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1379528179798",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T01:59:48.002Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19442675089494",
-          "label": "1 Tissue Culture",
-          "price": 6.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:1923638132822",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1558,7 +1534,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6692638916710",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -1575,7 +1551,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6658174877798",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -1626,7 +1602,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9369451085",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -1655,7 +1631,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8844293965",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -1672,7 +1648,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:2868326826065",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -1735,7 +1711,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923638132822",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1764,7 +1740,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1379528179798",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1827,7 +1803,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6692638916710",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -1844,7 +1820,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6658174877798",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -1895,7 +1871,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9369451085",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -1924,7 +1900,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8844293965",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -1941,7 +1917,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:2868326826065",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -2004,7 +1980,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923638132822",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2033,7 +2009,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1379528179798",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2096,7 +2072,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6692638916710",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -2113,7 +2089,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6658174877798",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -2164,7 +2140,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9369451085",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -2193,7 +2169,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8844293965",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -2210,7 +2186,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:2868326826065",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -2273,7 +2249,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923638132822",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2302,7 +2278,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1379528179798",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2365,7 +2341,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6692638916710",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -2382,7 +2358,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6658174877798",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -2433,7 +2409,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9369451085",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -2462,7 +2438,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8844293965",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -2479,7 +2455,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:2868326826065",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -2542,7 +2518,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923638132822",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2571,7 +2547,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1379528179798",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2634,7 +2610,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6692638916710",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -2651,7 +2627,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6658174877798",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -2702,7 +2678,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9369451085",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -2731,7 +2707,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8844293965",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -2748,7 +2724,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:2868326826065",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -2811,7 +2787,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923638132822",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2840,7 +2816,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1379528179798",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2903,7 +2879,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6692638916710",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -2920,7 +2896,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6658174877798",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -2971,7 +2947,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9369451085",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -3000,7 +2976,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8844293965",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -3017,7 +2993,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:2868326826065",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -3080,7 +3056,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1923638132822",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -3109,7 +3085,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:1379528179798",
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -3172,7 +3148,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6692638916710",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -3189,7 +3165,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6658174877798",
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -3240,7 +3216,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:9369451085",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -3269,7 +3245,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8844293965",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -3286,7 +3262,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:2868326826065",
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
     },
     {
@@ -3320,6 +3296,240 @@
     },
     {
       "observedAt": "2026-11-21T16:40:16.406Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627672699196",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006360588604",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19442675089494",
+          "label": "1 Tissue Culture",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12744599634006",
+          "label": "1 Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12744614346838",
+          "label": "2 Bunches",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "12744614379606",
+          "label": "3 Bunches",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:49.184Z",
+      "price": 7.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45749164343511",
+          "label": "1",
+          "price": 7.98,
+          "available": true
+        },
+        {
+          "id": "45749164376279",
+          "label": "3",
+          "price": 21.98,
+          "available": true
+        },
+        {
+          "id": "45749164409047",
+          "label": "5",
+          "price": 34.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8733676962007",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:54.360Z",
+      "price": 8.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47006796579106",
+          "label": "Title",
+          "price": 8.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:8729758826786",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:57.844Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550754422886",
+          "label": "Staurogyne Repens  | Tissue Culture",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "39485260038246",
+          "label": "Staurogyne Repens",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 11.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51386927808811",
+          "label": "Each",
+          "price": 11.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10106514899243",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:28.158Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043838873818",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741033803994",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 7.64,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "34295874637",
+          "label": "Staurogyne Repens UNS Tissue Culture",
+          "price": 11.04,
+          "available": true
+        },
+        {
+          "id": "30382940109",
+          "label": "Pot",
+          "price": 7.64,
+          "available": true
+        },
+        {
+          "id": "12425334718545",
+          "label": "3 Pot Package",
+          "price": 21.24,
+          "available": true
+        },
+        {
+          "id": "12425334751313",
+          "label": "5 Pot Package",
+          "price": 29.74,
+          "available": true
+        },
+        {
+          "id": "22717084074065",
+          "label": "Staurogyne Repens Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:44.972Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12711315963990",
+          "label": "Potted",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "52738881991",
+          "label": "UNS Tissue Culture",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "42071133159510",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277473479",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:56.247Z",
       "price": 7.99,
       "currency": "USD",
       "available": false,

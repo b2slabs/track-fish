@@ -4,39 +4,9 @@
   "scientificName": "Bucephalandra sp.",
   "listings": [
     {
-      "listingId": "buce-plant:5647904449",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Bucephalandra Red Scorpio"
-    },
-    {
-      "listingId": "buce-plant:10013025101",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Bucephalandra Red Mini UNS Tissue Culture"
-    },
-    {
-      "listingId": "buce-plant:7590140801",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Bucephalandra Red Cherry"
-    },
-    {
       "listingId": "shrimpy-business:9742827651362",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Bucephalandra Red Mini (Farmed)"
-    },
-    {
-      "listingId": "buce-plant:1334953345105",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Bucephalandra Red Blade Pot"
-    },
-    {
-      "listingId": "buce-plant:1344125894737",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
       "commonName": "Bucephalandra Red Mini (Farmed)"
     },
     {
@@ -44,6 +14,12 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Bucephalandra Red Mini"
+    },
+    {
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Bucephalandra Red Cherry"
     }
   ],
   "events": [
@@ -90,59 +66,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "buce-plant:5647904449",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:47.109Z",
-      "price": 12.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "37569044621",
-          "label": "1 Small Cup",
-          "price": 12.99,
-          "available": true
-        },
-        {
-          "id": "43599350989",
-          "label": "1 Cup",
-          "price": 27.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "buce-plant:10013025101",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:47.109Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "24187132929",
-          "label": "Plant (6-10 Leaves)",
-          "price": 7.99,
-          "available": true
-        },
-        {
-          "id": "24187132993",
-          "label": "Mini Clump (3-5 Plants)",
-          "price": 24.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "buce-plant:7590140801",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -162,7 +86,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "buce-plant:1334953345105",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -188,7 +112,59 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "buce-plant:1344125894737",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37569044621",
+          "label": "1 Small Cup",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "43599350989",
+          "label": "1 Cup",
+          "price": 27.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "24187132929",
+          "label": "Plant (6-10 Leaves)",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "24187132993",
+          "label": "Mini Clump (3-5 Plants)",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -266,53 +242,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:5647904449",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:59.411Z",
-      "price": 12.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "37569044621",
-          "label": "1 Small Cup",
-          "price": 12.99,
-          "available": true
-        },
-        {
-          "id": "43599350989",
-          "label": "1 Cup",
-          "price": 27.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:10013025101",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:59.411Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "24187132929",
-          "label": "Plant (6-10 Leaves)",
-          "price": 7.99,
-          "available": true
-        },
-        {
-          "id": "24187132993",
-          "label": "Mini Clump (3-5 Plants)",
-          "price": 24.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7590140801",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -329,7 +259,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1334953345105",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -352,7 +282,53 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1344125894737",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37569044621",
+          "label": "1 Small Cup",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "43599350989",
+          "label": "1 Cup",
+          "price": 27.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "24187132929",
+          "label": "Plant (6-10 Leaves)",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "24187132993",
+          "label": "Mini Clump (3-5 Plants)",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -427,53 +403,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:5647904449",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:25.528Z",
-      "price": 12.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "37569044621",
-          "label": "1 Small Cup",
-          "price": 12.99,
-          "available": true
-        },
-        {
-          "id": "43599350989",
-          "label": "1 Cup",
-          "price": 27.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:10013025101",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:25.528Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "24187132929",
-          "label": "Plant (6-10 Leaves)",
-          "price": 7.99,
-          "available": true
-        },
-        {
-          "id": "24187132993",
-          "label": "Mini Clump (3-5 Plants)",
-          "price": 24.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7590140801",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -490,7 +420,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1334953345105",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -513,7 +443,53 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1344125894737",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37569044621",
+          "label": "1 Small Cup",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "43599350989",
+          "label": "1 Cup",
+          "price": 27.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "24187132929",
+          "label": "Plant (6-10 Leaves)",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "24187132993",
+          "label": "Mini Clump (3-5 Plants)",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -588,53 +564,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:5647904449",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T01:31:18.727Z",
-      "price": 12.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "37569044621",
-          "label": "1 Small Cup",
-          "price": 12.99,
-          "available": true
-        },
-        {
-          "id": "43599350989",
-          "label": "1 Cup",
-          "price": 27.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:10013025101",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T01:31:18.727Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "24187132929",
-          "label": "Plant (6-10 Leaves)",
-          "price": 7.99,
-          "available": true
-        },
-        {
-          "id": "24187132993",
-          "label": "Mini Clump (3-5 Plants)",
-          "price": 24.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7590140801",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -651,7 +581,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1334953345105",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -674,7 +604,53 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1344125894737",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37569044621",
+          "label": "1 Small Cup",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "43599350989",
+          "label": "1 Cup",
+          "price": 27.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "24187132929",
+          "label": "Plant (6-10 Leaves)",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "24187132993",
+          "label": "Mini Clump (3-5 Plants)",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -749,53 +725,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:5647904449",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T02:01:06.591Z",
-      "price": 12.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "37569044621",
-          "label": "1 Small Cup",
-          "price": 12.99,
-          "available": true
-        },
-        {
-          "id": "43599350989",
-          "label": "1 Cup",
-          "price": 27.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:10013025101",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T02:01:06.591Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "24187132929",
-          "label": "Plant (6-10 Leaves)",
-          "price": 7.99,
-          "available": true
-        },
-        {
-          "id": "24187132993",
-          "label": "Mini Clump (3-5 Plants)",
-          "price": 24.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7590140801",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -812,7 +742,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1334953345105",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -835,7 +765,53 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1344125894737",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:06.591Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37569044621",
+          "label": "1 Small Cup",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "43599350989",
+          "label": "1 Cup",
+          "price": 27.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:06.591Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "24187132929",
+          "label": "Plant (6-10 Leaves)",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "24187132993",
+          "label": "Mini Clump (3-5 Plants)",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -910,53 +886,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:5647904449",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T02:06:34.378Z",
-      "price": 12.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "37569044621",
-          "label": "1 Small Cup",
-          "price": 12.99,
-          "available": true
-        },
-        {
-          "id": "43599350989",
-          "label": "1 Cup",
-          "price": 27.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:10013025101",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T02:06:34.378Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "24187132929",
-          "label": "Plant (6-10 Leaves)",
-          "price": 7.99,
-          "available": true
-        },
-        {
-          "id": "24187132993",
-          "label": "Mini Clump (3-5 Plants)",
-          "price": 24.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7590140801",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -973,7 +903,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1334953345105",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -996,7 +926,53 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1344125894737",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T02:06:34.378Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37569044621",
+          "label": "1 Small Cup",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "43599350989",
+          "label": "1 Cup",
+          "price": 27.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T02:06:34.378Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "24187132929",
+          "label": "Plant (6-10 Leaves)",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "24187132993",
+          "label": "Mini Clump (3-5 Plants)",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1071,53 +1047,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:5647904449",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T14:38:56.536Z",
-      "price": 12.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "37569044621",
-          "label": "1 Small Cup",
-          "price": 12.99,
-          "available": true
-        },
-        {
-          "id": "43599350989",
-          "label": "1 Cup",
-          "price": 27.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:10013025101",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T14:38:56.536Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "24187132929",
-          "label": "Plant (6-10 Leaves)",
-          "price": 7.99,
-          "available": true
-        },
-        {
-          "id": "24187132993",
-          "label": "Mini Clump (3-5 Plants)",
-          "price": 24.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7590140801",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1134,7 +1064,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1334953345105",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1157,7 +1087,53 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1344125894737",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T14:38:56.536Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37569044621",
+          "label": "1 Small Cup",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "43599350989",
+          "label": "1 Cup",
+          "price": 27.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T14:38:56.536Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "24187132929",
+          "label": "Plant (6-10 Leaves)",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "24187132993",
+          "label": "Mini Clump (3-5 Plants)",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1232,53 +1208,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:5647904449",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T14:50:32.244Z",
-      "price": 12.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "37569044621",
-          "label": "1 Small Cup",
-          "price": 12.99,
-          "available": true
-        },
-        {
-          "id": "43599350989",
-          "label": "1 Cup",
-          "price": 27.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:10013025101",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T14:50:32.244Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "24187132929",
-          "label": "Plant (6-10 Leaves)",
-          "price": 7.99,
-          "available": true
-        },
-        {
-          "id": "24187132993",
-          "label": "Mini Clump (3-5 Plants)",
-          "price": 24.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7590140801",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1295,7 +1225,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1334953345105",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1318,7 +1248,53 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1344125894737",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T14:50:32.244Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37569044621",
+          "label": "1 Small Cup",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "43599350989",
+          "label": "1 Cup",
+          "price": 27.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T14:50:32.244Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "24187132929",
+          "label": "Plant (6-10 Leaves)",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "24187132993",
+          "label": "Mini Clump (3-5 Plants)",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1393,7 +1369,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:5647904449",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1410,7 +1386,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1334953345105",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1433,7 +1409,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1344125894737",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1456,7 +1432,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:10013025101",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1479,7 +1455,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:7590140801",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1554,7 +1530,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:5647904449",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1571,7 +1547,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1334953345105",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1594,7 +1570,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1344125894737",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1617,7 +1593,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:10013025101",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1640,7 +1616,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:7590140801",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1715,7 +1691,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:5647904449",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1732,7 +1708,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1334953345105",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1755,7 +1731,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1344125894737",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1778,7 +1754,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:10013025101",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
@@ -1801,11 +1777,131 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:7590140801",
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
     },
     {
       "observedAt": "2026-11-21T16:39:51.178Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12656062955606",
+          "label": "Potted",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "52738893511",
+          "label": "UNS Tissue Culture - Small",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "12336373366870",
+          "label": "UNS Tissue Culture - Regular",
+          "price": 27.99,
+          "available": false
+        },
+        {
+          "id": "44764337733718",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277475527",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:54.360Z",
+      "price": 22.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49974254240034",
+          "label": "Title",
+          "price": 22.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9742827651362",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "17369603329",
+          "label": "Plant (10+ Leaves)",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "28493237965",
+          "label": "Mini Clump (3-5 Plants)",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "12255367659601",
+          "label": "Pot",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "12311174381649",
+          "label": "Pot",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "12425818046545",
+          "label": "3 Pack",
+          "price": 35.99,
+          "available": true
+        },
+        {
+          "id": "37569044621",
+          "label": "1 Small Cup",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "43599350989",
+          "label": "1 Cup",
+          "price": 27.99,
+          "available": false
+        },
+        {
+          "id": "24187132929",
+          "label": "Plant (6-10 Leaves)",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "24187132993",
+          "label": "Mini Clump (3-5 Plants)",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:44.972Z",
       "price": 12.99,
       "currency": "USD",
       "available": true,

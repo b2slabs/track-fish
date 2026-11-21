@@ -10,12 +10,6 @@
       "commonName": "HY511 Candy Cane Tetra (Hyphessobrycon sp.) - Tank-Bred!"
     },
     {
-      "listingId": "aquarium-fish:8654279639339",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Kyburzi Rainbow Tetra"
-    },
-    {
       "listingId": "imperial-tropicals:8398023557427",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
@@ -34,18 +28,6 @@
       "commonName": "Candy Cane Tetra"
     },
     {
-      "listingId": "aquarium-fish:9153893007659",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Candy Cane Tetra (School of 6)"
-    },
-    {
-      "listingId": "aquarium-fish:7014946734161",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Candy Cane Tetra"
-    },
-    {
       "listingId": "nu-aqua-shop:10006314844476",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
@@ -56,6 +38,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Candy Cane Tetra (hyphessobrycon sp)"
+    },
+    {
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Candy Cane Tetra"
     }
   ],
   "events": [
@@ -478,26 +466,6 @@
     },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "46832321036587",
-          "label": "Title",
-          "price": 8.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquarium-fish:8654279639339",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 26.99,
       "currency": "USD",
       "available": true,
@@ -513,7 +481,27 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:9153893007659",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46832321036587",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -533,7 +521,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:7014946734161",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -662,23 +650,6 @@
     },
     {
       "observedAt": "2026-11-20T17:33:47.733Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "46832321036587",
-          "label": "Title",
-          "price": 8.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquarium-fish:8654279639339",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:47.733Z",
       "price": 26.99,
       "currency": "USD",
       "available": true,
@@ -691,7 +662,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9153893007659",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46832321036587",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -708,7 +696,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:7014946734161",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -837,23 +825,6 @@
     },
     {
       "observedAt": "2026-11-21T01:29:18.881Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "46832321036587",
-          "label": "Title",
-          "price": 8.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquarium-fish:8654279639339",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:18.881Z",
       "price": 22.94,
       "currency": "USD",
       "available": true,
@@ -870,7 +841,24 @@
         "price",
         "variants"
       ],
-      "listingId": "aquarium-fish:9153893007659",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46832321036587",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -891,7 +879,7 @@
         "price",
         "variants"
       ],
-      "listingId": "aquarium-fish:7014946734161",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1037,23 +1025,6 @@
     },
     {
       "observedAt": "2026-11-21T01:30:53.467Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "46832321036587",
-          "label": "Title",
-          "price": 8.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquarium-fish:8654279639339",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-21T01:30:53.467Z",
       "price": 22.94,
       "currency": "USD",
       "available": true,
@@ -1066,7 +1037,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9153893007659",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46832321036587",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1083,7 +1071,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:7014946734161",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1221,7 +1209,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9153893007659",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1238,7 +1226,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:8654279639339",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1255,7 +1243,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:7014946734161",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1410,7 +1398,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9153893007659",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1427,7 +1415,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:8654279639339",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1444,7 +1432,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:7014946734161",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1599,7 +1587,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9153893007659",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1616,7 +1604,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:8654279639339",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1633,7 +1621,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:7014946734161",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1788,7 +1776,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9153893007659",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1805,7 +1793,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:8654279639339",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1822,7 +1810,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:7014946734161",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1977,7 +1965,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9153893007659",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1994,7 +1982,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:8654279639339",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2011,7 +1999,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:7014946734161",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2166,7 +2154,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9153893007659",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2183,7 +2171,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:8654279639339",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2200,7 +2188,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:7014946734161",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2355,7 +2343,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:9153893007659",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2372,7 +2360,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:8654279639339",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2389,7 +2377,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:7014946734161",
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2417,6 +2405,176 @@
     },
     {
       "observedAt": "2026-11-21T16:40:16.406Z",
+      "price": 6.27,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627486576956",
+          "label": "Title",
+          "price": 6.27,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006314844476",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37600760396",
+          "label": "School of 3",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "37600341260",
+          "label": "School of 6",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "37600814348",
+          "label": "School of 9",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "id": "37600341388",
+          "label": "School of 12",
+          "price": 51.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:10298968844",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:35.821Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41363340984529",
+          "label": "1-1.25”",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7162350010577",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:42.741Z",
+      "price": 3.25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "16064102170667",
+          "label": "Title",
+          "price": 3.25,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1778965512235",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:49.184Z",
+      "price": 21.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336045027543",
+          "label": "3",
+          "price": 21.98,
+          "available": true
+        },
+        {
+          "id": "45336045060311",
+          "label": "5",
+          "price": 34.98,
+          "available": true
+        },
+        {
+          "id": "45336045093079",
+          "label": "10",
+          "price": 59.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150010167511",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 5.35,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48332423823659",
+          "label": "Candy Cane Tetra (School of 6)",
+          "price": 22.94,
+          "available": true
+        },
+        {
+          "id": "46832321036587",
+          "label": "Kyburzi Rainbow Tetra",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "51437762478379",
+          "label": "Candy Cane Tetra",
+          "price": 5.35,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:19.601Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611842404659",
+          "label": "(3 Pack) 1-2” Unsexed",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "45611842437427",
+          "label": "(10 Pack) 1-2\" Unsexed",
+          "price": 34.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398023557427",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:56.247Z",
       "price": 6.27,
       "currency": "USD",
       "available": false,

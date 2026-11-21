@@ -4,12 +4,6 @@
   "scientificName": "Vesicularia dubyana",
   "listings": [
     {
-      "listingId": "buce-plant:8478753677",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Java Moss on Driftwood"
-    },
-    {
       "listingId": "aquahuna:7115884068939",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
@@ -34,27 +28,9 @@
       "commonName": "Java Moss"
     },
     {
-      "listingId": "aquarium-fish:10106809254187",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Java Moss on Coconut Shell"
-    },
-    {
-      "listingId": "aquarium-fish:6260768070",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Java Moss"
-    },
-    {
       "listingId": "imperial-tropicals:8398016938291",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Java Moss"
-    },
-    {
-      "listingId": "buce-plant:8561682125",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
       "commonName": "Java Moss"
     },
     {
@@ -74,6 +50,18 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Java Moss on Coconut Half (Vesicularia dubyana on Coconut Half)"
+    },
+    {
+      "listingId": "aquarium-fish:10106809254187+6260768070",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Java Moss"
+    },
+    {
+      "listingId": "buce-plant:8478753677+8561682125",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Java Moss"
     }
   ],
   "events": [
@@ -372,7 +360,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:10106809254187",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -392,7 +380,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:6260768070",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -423,26 +411,6 @@
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
-      "price": 12.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "28661189837",
-          "label": "Title",
-          "price": 12.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "buce-plant:8478753677",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 7.99,
       "currency": "USD",
       "available": true,
@@ -464,7 +432,27 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "buce-plant:8561682125",
+      "listingId": "buce-plant:8478753677+8561682125",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "28661189837",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8478753677+8561682125",
       "storeSlug": "buce-plant"
     },
     {
@@ -628,7 +616,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10106809254187",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -645,7 +633,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260768070",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -673,23 +661,6 @@
     },
     {
       "observedAt": "2026-11-20T17:33:59.411Z",
-      "price": 12.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "28661189837",
-          "label": "Title",
-          "price": 12.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:8478753677",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:59.411Z",
       "price": 7.99,
       "currency": "USD",
       "available": true,
@@ -708,7 +679,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8561682125",
+      "listingId": "buce-plant:8478753677+8561682125",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "28661189837",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8478753677+8561682125",
       "storeSlug": "buce-plant"
     },
     {
@@ -869,7 +857,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10106809254187",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -886,7 +874,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260768070",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -914,23 +902,6 @@
     },
     {
       "observedAt": "2026-11-21T01:29:25.528Z",
-      "price": 12.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "28661189837",
-          "label": "Title",
-          "price": 12.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:8478753677",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:25.528Z",
       "price": 7.99,
       "currency": "USD",
       "available": true,
@@ -949,7 +920,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8561682125",
+      "listingId": "buce-plant:8478753677+8561682125",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "28661189837",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8478753677+8561682125",
       "storeSlug": "buce-plant"
     },
     {
@@ -1130,7 +1118,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10106809254187",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1147,7 +1135,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260768070",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1175,23 +1163,6 @@
     },
     {
       "observedAt": "2026-11-21T01:31:18.727Z",
-      "price": 12.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "28661189837",
-          "label": "Title",
-          "price": 12.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:8478753677",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T01:31:18.727Z",
       "price": 7.99,
       "currency": "USD",
       "available": true,
@@ -1210,7 +1181,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8561682125",
+      "listingId": "buce-plant:8478753677+8561682125",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "28661189837",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8478753677+8561682125",
       "storeSlug": "buce-plant"
     },
     {
@@ -1371,7 +1359,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10106809254187",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1388,7 +1376,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260768070",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1434,7 +1422,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8561682125",
+      "listingId": "buce-plant:8478753677+8561682125",
       "storeSlug": "buce-plant"
     },
     {
@@ -1451,7 +1439,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8478753677",
+      "listingId": "buce-plant:8478753677+8561682125",
       "storeSlug": "buce-plant"
     },
     {
@@ -1629,7 +1617,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10106809254187",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1646,7 +1634,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260768070",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1692,7 +1680,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8561682125",
+      "listingId": "buce-plant:8478753677+8561682125",
       "storeSlug": "buce-plant"
     },
     {
@@ -1709,7 +1697,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8478753677",
+      "listingId": "buce-plant:8478753677+8561682125",
       "storeSlug": "buce-plant"
     },
     {
@@ -1887,7 +1875,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10106809254187",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1904,7 +1892,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260768070",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1950,7 +1938,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8561682125",
+      "listingId": "buce-plant:8478753677+8561682125",
       "storeSlug": "buce-plant"
     },
     {
@@ -1967,7 +1955,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8478753677",
+      "listingId": "buce-plant:8478753677+8561682125",
       "storeSlug": "buce-plant"
     },
     {
@@ -2145,7 +2133,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10106809254187",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2162,7 +2150,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260768070",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2208,7 +2196,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8561682125",
+      "listingId": "buce-plant:8478753677+8561682125",
       "storeSlug": "buce-plant"
     },
     {
@@ -2225,7 +2213,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8478753677",
+      "listingId": "buce-plant:8478753677+8561682125",
       "storeSlug": "buce-plant"
     },
     {
@@ -2403,7 +2391,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10106809254187",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2420,7 +2408,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260768070",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2466,7 +2454,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8561682125",
+      "listingId": "buce-plant:8478753677+8561682125",
       "storeSlug": "buce-plant"
     },
     {
@@ -2483,7 +2471,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8478753677",
+      "listingId": "buce-plant:8478753677+8561682125",
       "storeSlug": "buce-plant"
     },
     {
@@ -2661,7 +2649,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10106809254187",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2678,7 +2666,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260768070",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2724,7 +2712,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8561682125",
+      "listingId": "buce-plant:8478753677+8561682125",
       "storeSlug": "buce-plant"
     },
     {
@@ -2741,7 +2729,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8478753677",
+      "listingId": "buce-plant:8478753677+8561682125",
       "storeSlug": "buce-plant"
     },
     {
@@ -2919,7 +2907,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10106809254187",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2936,7 +2924,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260768070",
+      "listingId": "aquarium-fish:10106809254187+6260768070",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2982,7 +2970,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8561682125",
+      "listingId": "buce-plant:8478753677+8561682125",
       "storeSlug": "buce-plant"
     },
     {
@@ -2999,7 +2987,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:8478753677",
+      "listingId": "buce-plant:8478753677+8561682125",
       "storeSlug": "buce-plant"
     },
     {
@@ -3033,6 +3021,248 @@
     },
     {
       "observedAt": "2026-11-21T16:40:16.406Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51627490246972",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006317728060",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51670723527023",
+          "label": "Title",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14631277429103",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:42.741Z",
+      "price": 7,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40756180385867",
+          "label": "Title",
+          "price": 7,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7115884068939",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:49.184Z",
+      "price": 8.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45749250490583",
+          "label": "1",
+          "price": 8.98,
+          "available": true
+        },
+        {
+          "id": "45749250523351",
+          "label": "3",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45749250556119",
+          "label": "5",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8733720871127",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:54.360Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32833863680085",
+          "label": "Golf Ball Size",
+          "price": 5.5,
+          "available": true
+        },
+        {
+          "id": "32833863712853",
+          "label": "3 x Golf Ball Size",
+          "price": 14.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:4793724469333",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:57.844Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42100646019174",
+          "label": "Portion Cup",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "42100646051942",
+          "label": "3x3 Inch Mat",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:11309147268",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 11.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51367136624939",
+          "label": "Dome",
+          "price": 24.29,
+          "available": false
+        },
+        {
+          "id": "51367136657707",
+          "label": "Bridge",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "19810236422",
+          "label": "Java Moss",
+          "price": 11.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10106809254187+6260768070",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:19.601Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611824054579",
+          "label": "Golf Ball Size Bunch",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "53130942382387",
+          "label": "3\" x 3\" Mat",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398016938291",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29214685453",
+          "label": "Golfball",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "29214797261",
+          "label": "Large Cup",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "28661189837",
+          "label": "Java Moss on Driftwood",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8478753677+8561682125",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:44.972Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738848711",
+          "label": "Loose (Small)",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "5260830965792",
+          "label": "Loose (Large)",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "42570011836502",
+          "label": "Stainless Steel Mesh",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277467015",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:56.247Z",
       "price": 6.99,
       "currency": "USD",
       "available": true,

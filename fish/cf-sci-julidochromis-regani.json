@@ -1,14 +1,8 @@
 {
   "canonicalFishId": "cf:sci:julidochromis-regani",
-  "commonName": "Julidochromis regani \"Kipilli\"",
+  "commonName": "Julidochromis regani",
   "scientificName": "Julidochromis regani",
   "listings": [
-    {
-      "listingId": "imperial-tropicals:8398196212019",
-      "storeSlug": "imperial-tropicals",
-      "storeName": "Imperial Tropicals",
-      "commonName": "Julidochromis regani \"Kipilli\""
-    },
     {
       "listingId": "aquarium-fish:4475195359313",
       "storeSlug": "aquarium-fish",
@@ -16,7 +10,7 @@
       "commonName": "Julidochromis Regani"
     },
     {
-      "listingId": "imperial-tropicals:9656302436659",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Julidochromis regani"
@@ -45,38 +39,6 @@
     },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
-      "price": 19.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45612323766579",
-          "label": "1-2\" Unsexed",
-          "price": 19.99,
-          "available": true
-        },
-        {
-          "id": "45612323832115",
-          "label": "2-3” Unsexed",
-          "price": 24.99,
-          "available": false
-        },
-        {
-          "id": "50623721472307",
-          "label": "3-4” Unsexed",
-          "price": 29.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "imperial-tropicals:8398196212019",
-      "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 14.99,
       "currency": "USD",
       "available": false,
@@ -104,7 +66,39 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "imperial-tropicals:9656302436659",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612323766579",
+          "label": "1-2\" Unsexed",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "45612323832115",
+          "label": "2-3” Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "50623721472307",
+          "label": "3-4” Unsexed",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -126,35 +120,6 @@
     },
     {
       "observedAt": "2026-11-20T17:33:50.975Z",
-      "price": 19.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45612323766579",
-          "label": "1-2\" Unsexed",
-          "price": 19.99,
-          "available": true
-        },
-        {
-          "id": "45612323832115",
-          "label": "2-3” Unsexed",
-          "price": 24.99,
-          "available": false
-        },
-        {
-          "id": "50623721472307",
-          "label": "3-4” Unsexed",
-          "price": 29.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398196212019",
-      "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:50.975Z",
       "price": 14.99,
       "currency": "USD",
       "available": false,
@@ -179,7 +144,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:9656302436659",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:50.975Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612323766579",
+          "label": "1-2\" Unsexed",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "45612323832115",
+          "label": "2-3” Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "50623721472307",
+          "label": "3-4” Unsexed",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -201,35 +195,6 @@
     },
     {
       "observedAt": "2026-11-21T01:29:20.687Z",
-      "price": 19.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45612323766579",
-          "label": "1-2\" Unsexed",
-          "price": 19.99,
-          "available": true
-        },
-        {
-          "id": "45612323832115",
-          "label": "2-3” Unsexed",
-          "price": 24.99,
-          "available": false
-        },
-        {
-          "id": "50623721472307",
-          "label": "3-4” Unsexed",
-          "price": 29.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398196212019",
-      "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:20.687Z",
       "price": 14.99,
       "currency": "USD",
       "available": false,
@@ -254,7 +219,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:9656302436659",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612323766579",
+          "label": "1-2\" Unsexed",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "45612323832115",
+          "label": "2-3” Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "50623721472307",
+          "label": "3-4” Unsexed",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -276,35 +270,6 @@
     },
     {
       "observedAt": "2026-11-21T01:31:07.776Z",
-      "price": 19.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45612323766579",
-          "label": "1-2\" Unsexed",
-          "price": 19.99,
-          "available": true
-        },
-        {
-          "id": "45612323832115",
-          "label": "2-3” Unsexed",
-          "price": 24.99,
-          "available": false
-        },
-        {
-          "id": "50623721472307",
-          "label": "3-4” Unsexed",
-          "price": 29.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398196212019",
-      "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-21T01:31:07.776Z",
       "price": 14.99,
       "currency": "USD",
       "available": false,
@@ -329,7 +294,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:9656302436659",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:07.776Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612323766579",
+          "label": "1-2\" Unsexed",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "45612323832115",
+          "label": "2-3” Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "50623721472307",
+          "label": "3-4” Unsexed",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -375,7 +369,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:9656302436659",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -404,7 +398,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398196212019",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -450,7 +444,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:9656302436659",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -479,7 +473,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398196212019",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -525,7 +519,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:9656302436659",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -554,7 +548,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398196212019",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -600,7 +594,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:9656302436659",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -629,7 +623,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398196212019",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -675,7 +669,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:9656302436659",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -704,7 +698,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398196212019",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -750,7 +744,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:9656302436659",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -779,7 +773,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398196212019",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -825,7 +819,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:9656302436659",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -854,7 +848,74 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398196212019",
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31758122451025",
+          "label": "Title",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4475195359313",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:19.601Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51136265322803",
+          "label": "1-2\" Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "51136265355571",
+          "label": "2-3\" Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "51136931234099",
+          "label": "3-4\" Unsexed",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "45612323766579",
+          "label": "1-2\" Unsexed",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "45612323832115",
+          "label": "2-3” Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "50623721472307",
+          "label": "3-4” Unsexed",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398196212019+9656302436659",
       "storeSlug": "imperial-tropicals"
     }
   ]

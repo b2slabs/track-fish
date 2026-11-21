@@ -4,12 +4,6 @@
   "scientificName": "Pterophyllum scalare",
   "listings": [
     {
-      "listingId": "aquatic-arts:6764057165910",
-      "storeSlug": "aquatic-arts",
-      "storeName": "Aquatic Arts",
-      "commonName": "Gold Angelfish (Pterophyllum scalare), Locally-Bred"
-    },
-    {
       "listingId": "aquarium-fish:4532926218321",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
@@ -28,16 +22,16 @@
       "commonName": "Gold Angelfish"
     },
     {
-      "listingId": "aquatic-arts:14769504256367",
-      "storeSlug": "aquatic-arts",
-      "storeName": "Aquatic Arts",
-      "commonName": "Gold Angelfish (Pterophyllum scalare) – U.S.A. Bred"
-    },
-    {
       "listingId": "aquahuna:6851462103115",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Gold Angelfish"
+    },
+    {
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Gold Angelfish (Pterophyllum scalare) – U.S.A. Bred"
     }
   ],
   "events": [
@@ -48,45 +42,21 @@
       "available": false,
       "variants": [
         {
-          "id": "39860671021142",
-          "label": "1 Juvenile",
+          "id": "52133492785519",
+          "label": "1 Fish",
           "price": 6.99,
           "available": false
         },
         {
-          "id": "39860671053910",
-          "label": "3 Juveniles",
-          "price": 19.99,
+          "id": "52133492818287",
+          "label": "3 Fish",
+          "price": 18.99,
           "available": false
         },
         {
-          "id": "39860671086678",
-          "label": "6 Juveniles",
-          "price": 37.99,
-          "available": false
-        },
-        {
-          "id": "39872646152278",
-          "label": "9 Juveniles",
-          "price": 52.99,
-          "available": false
-        },
-        {
-          "id": "40004144103510",
-          "label": "1 Sub-Adult",
-          "price": 9.99,
-          "available": false
-        },
-        {
-          "id": "40004144136278",
-          "label": "3 Sub-Adults",
-          "price": 27.99,
-          "available": false
-        },
-        {
-          "id": "40004144234582",
-          "label": "6 Sub-Adults",
-          "price": 49.99,
+          "id": "52133492851055",
+          "label": "6 Fish",
+          "price": 35.99,
           "available": false
         }
       ],
@@ -94,7 +64,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquatic-arts:6764057165910",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -104,21 +74,45 @@
       "available": false,
       "variants": [
         {
-          "id": "52133492785519",
-          "label": "1 Fish",
+          "id": "39860671021142",
+          "label": "1 Juvenile",
           "price": 6.99,
           "available": false
         },
         {
-          "id": "52133492818287",
-          "label": "3 Fish",
-          "price": 18.99,
+          "id": "39860671053910",
+          "label": "3 Juveniles",
+          "price": 19.99,
           "available": false
         },
         {
-          "id": "52133492851055",
-          "label": "6 Fish",
-          "price": 35.99,
+          "id": "39860671086678",
+          "label": "6 Juveniles",
+          "price": 37.99,
+          "available": false
+        },
+        {
+          "id": "39872646152278",
+          "label": "9 Juveniles",
+          "price": 52.99,
+          "available": false
+        },
+        {
+          "id": "40004144103510",
+          "label": "1 Sub-Adult",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "40004144136278",
+          "label": "3 Sub-Adults",
+          "price": 27.99,
+          "available": false
+        },
+        {
+          "id": "40004144234582",
+          "label": "6 Sub-Adults",
+          "price": 49.99,
           "available": false
         }
       ],
@@ -126,7 +120,36 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquatic-arts:14769504256367",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:08.947Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52133492785519",
+          "label": "1 Fish",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "52133492818287",
+          "label": "3 Fish",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "52133492851055",
+          "label": "6 Fish",
+          "price": 35.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -179,11 +202,11 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6764057165910",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T05:43:08.947Z",
+      "observedAt": "2026-11-20T05:52:13.926Z",
       "price": 6.99,
       "currency": "USD",
       "available": false,
@@ -208,7 +231,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14769504256367",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -261,11 +284,11 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6764057165910",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T05:52:13.926Z",
+      "observedAt": "2026-11-20T06:02:13.577Z",
       "price": 6.99,
       "currency": "USD",
       "available": false,
@@ -290,7 +313,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14769504256367",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -343,11 +366,11 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6764057165910",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T06:02:13.577Z",
+      "observedAt": "2026-11-20T06:03:57.585Z",
       "price": 6.99,
       "currency": "USD",
       "available": false,
@@ -372,7 +395,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14769504256367",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -425,11 +448,11 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6764057165910",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T06:03:57.585Z",
+      "observedAt": "2026-11-20T06:14:39.803Z",
       "price": 6.99,
       "currency": "USD",
       "available": false,
@@ -454,7 +477,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14769504256367",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -507,36 +530,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6764057165910",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:14:39.803Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "52133492785519",
-          "label": "1 Fish",
-          "price": 6.99,
-          "available": false
-        },
-        {
-          "id": "52133492818287",
-          "label": "3 Fish",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "52133492851055",
-          "label": "6 Fish",
-          "price": 35.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:14769504256367",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -566,6 +560,35 @@
       "available": false,
       "variants": [
         {
+          "id": "52133492785519",
+          "label": "1 Fish",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "52133492818287",
+          "label": "3 Fish",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "52133492851055",
+          "label": "6 Fish",
+          "price": 35.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
           "id": "39860671021142",
           "label": "1 Juvenile",
           "price": 6.99,
@@ -609,36 +632,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6764057165910",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:34.315Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "52133492785519",
-          "label": "1 Fish",
-          "price": 6.99,
-          "available": false
-        },
-        {
-          "id": "52133492818287",
-          "label": "3 Fish",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "52133492851055",
-          "label": "6 Fish",
-          "price": 35.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:14769504256367",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -729,6 +723,35 @@
       "available": false,
       "variants": [
         {
+          "id": "52133492785519",
+          "label": "1 Fish",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "52133492818287",
+          "label": "3 Fish",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "52133492851055",
+          "label": "6 Fish",
+          "price": 35.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:09.827Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
           "id": "39860671021142",
           "label": "1 Juvenile",
           "price": 6.99,
@@ -772,36 +795,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6764057165910",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:09.827Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "52133492785519",
-          "label": "1 Fish",
-          "price": 6.99,
-          "available": false
-        },
-        {
-          "id": "52133492818287",
-          "label": "3 Fish",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "52133492851055",
-          "label": "6 Fish",
-          "price": 35.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:14769504256367",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -886,6 +880,35 @@
       "available": false,
       "variants": [
         {
+          "id": "52133492785519",
+          "label": "1 Fish",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "52133492818287",
+          "label": "3 Fish",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "52133492851055",
+          "label": "6 Fish",
+          "price": 35.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
           "id": "39860671021142",
           "label": "1 Juvenile",
           "price": 6.99,
@@ -929,36 +952,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6764057165910",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T01:28:57.087Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "52133492785519",
-          "label": "1 Fish",
-          "price": 6.99,
-          "available": false
-        },
-        {
-          "id": "52133492818287",
-          "label": "3 Fish",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "52133492851055",
-          "label": "6 Fish",
-          "price": 35.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:14769504256367",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1075,6 +1069,35 @@
       "available": false,
       "variants": [
         {
+          "id": "52133492785519",
+          "label": "1 Fish",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "52133492818287",
+          "label": "3 Fish",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "52133492851055",
+          "label": "6 Fish",
+          "price": 35.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:03.149Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
           "id": "39860671021142",
           "label": "1 Juvenile",
           "price": 6.99,
@@ -1118,36 +1141,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6764057165910",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T01:30:03.149Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "52133492785519",
-          "label": "1 Fish",
-          "price": 6.99,
-          "available": false
-        },
-        {
-          "id": "52133492818287",
-          "label": "3 Fish",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "52133492851055",
-          "label": "6 Fish",
-          "price": 35.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:14769504256367",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1232,6 +1226,35 @@
       "available": false,
       "variants": [
         {
+          "id": "52133492785519",
+          "label": "1 Fish",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "52133492818287",
+          "label": "3 Fish",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "52133492851055",
+          "label": "6 Fish",
+          "price": 35.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:59:48.002Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
           "id": "39860671021142",
           "label": "1 Juvenile",
           "price": 6.99,
@@ -1275,36 +1298,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6764057165910",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T01:59:48.002Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "52133492785519",
-          "label": "1 Fish",
-          "price": 6.99,
-          "available": false
-        },
-        {
-          "id": "52133492818287",
-          "label": "3 Fish",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "52133492851055",
-          "label": "6 Fish",
-          "price": 35.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:14769504256367",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1418,6 +1412,35 @@
       "available": false,
       "variants": [
         {
+          "id": "52133492785519",
+          "label": "1 Fish",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "52133492818287",
+          "label": "3 Fish",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "52133492851055",
+          "label": "6 Fish",
+          "price": 35.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T02:05:11.423Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
           "id": "39860671021142",
           "label": "1 Juvenile",
           "price": 6.99,
@@ -1461,36 +1484,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6764057165910",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T02:05:11.423Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "52133492785519",
-          "label": "1 Fish",
-          "price": 6.99,
-          "available": false
-        },
-        {
-          "id": "52133492818287",
-          "label": "3 Fish",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "52133492851055",
-          "label": "6 Fish",
-          "price": 35.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:14769504256367",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1604,6 +1598,35 @@
       "available": false,
       "variants": [
         {
+          "id": "52133492785519",
+          "label": "1 Fish",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "52133492818287",
+          "label": "3 Fish",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "52133492851055",
+          "label": "6 Fish",
+          "price": 35.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T14:36:29.468Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
           "id": "39860671021142",
           "label": "1 Juvenile",
           "price": 6.99,
@@ -1647,36 +1670,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6764057165910",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T14:36:29.468Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "52133492785519",
-          "label": "1 Fish",
-          "price": 6.99,
-          "available": false
-        },
-        {
-          "id": "52133492818287",
-          "label": "3 Fish",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "52133492851055",
-          "label": "6 Fish",
-          "price": 35.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:14769504256367",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1790,6 +1784,35 @@
       "available": false,
       "variants": [
         {
+          "id": "52133492785519",
+          "label": "1 Fish",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "52133492818287",
+          "label": "3 Fish",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "52133492851055",
+          "label": "6 Fish",
+          "price": 35.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T14:48:31.179Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
           "id": "39860671021142",
           "label": "1 Juvenile",
           "price": 6.99,
@@ -1833,36 +1856,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6764057165910",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T14:48:31.179Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "52133492785519",
-          "label": "1 Fish",
-          "price": 6.99,
-          "available": false
-        },
-        {
-          "id": "52133492818287",
-          "label": "3 Fish",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "52133492851055",
-          "label": "6 Fish",
-          "price": 35.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:14769504256367",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1995,7 +1989,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14769504256367",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2048,7 +2042,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6764057165910",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2181,7 +2175,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14769504256367",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2234,7 +2228,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6764057165910",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2367,7 +2361,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14769504256367",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2420,7 +2414,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:6764057165910",
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -2500,6 +2494,184 @@
     },
     {
       "observedAt": "2026-11-21T16:40:16.406Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52674971894076",
+          "label": "XL",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "52674971926844",
+          "label": "Small",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "53204430520636",
+          "label": "Medium",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10187321409852",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52133492785519",
+          "label": "1 Fish",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "52133492818287",
+          "label": "3 Fish",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "52133492851055",
+          "label": "6 Fish",
+          "price": 35.99,
+          "available": false
+        },
+        {
+          "id": "39860671021142",
+          "label": "1 Juvenile",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "39860671053910",
+          "label": "3 Juveniles",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "39860671086678",
+          "label": "6 Juveniles",
+          "price": 37.99,
+          "available": false
+        },
+        {
+          "id": "39872646152278",
+          "label": "9 Juveniles",
+          "price": 52.99,
+          "available": false
+        },
+        {
+          "id": "40004144103510",
+          "label": "1 Sub-Adult",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "40004144136278",
+          "label": "3 Sub-Adults",
+          "price": 27.99,
+          "available": false
+        },
+        {
+          "id": "40004144234582",
+          "label": "6 Sub-Adults",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:14769504256367+6764057165910",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:42.741Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40058869219403",
+          "label": "Title",
+          "price": 8,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6851462103115",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 16.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31988409434193",
+          "label": "Medium (1.5\")",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "31988409466961",
+          "label": "Large (2\")",
+          "price": 16.29,
+          "available": true
+        },
+        {
+          "id": "31988409499729",
+          "label": "Jumbo (4\")",
+          "price": 42.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4532926218321",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:19.601Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612254527795",
+          "label": "1-2” Unsexed",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "45612254560563",
+          "label": "2-3\" Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45612254593331",
+          "label": "3-4\" Unsexed",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398157644083",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:56.247Z",
       "price": 18.99,
       "currency": "USD",
       "available": true,

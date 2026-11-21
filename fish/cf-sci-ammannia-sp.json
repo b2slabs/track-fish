@@ -1,20 +1,8 @@
 {
   "canonicalFishId": "cf:sci:ammannia-sp",
-  "commonName": "Ammania Towuti Tissue Culture",
+  "commonName": "Ammannia Sulawesi",
   "scientificName": "Ammannia sp.",
   "listings": [
-    {
-      "listingId": "buce-plant:7408241475784",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Ammannia Sp. Sulawesi"
-    },
-    {
-      "listingId": "buce-plant:7169579745480",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Ammannia Towuti UNS Tissue Culture"
-    },
     {
       "listingId": "glass-aqua:6795305451606",
       "storeSlug": "glass-aqua",
@@ -22,10 +10,10 @@
       "commonName": "Ammannia Sulawesi"
     },
     {
-      "listingId": "glass-aqua:6681813057622",
-      "storeSlug": "glass-aqua",
-      "storeName": "Glass Aqua",
-      "commonName": "Ammania Towuti Tissue Culture"
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Ammannia Sp. Sulawesi"
     }
   ],
   "events": [
@@ -46,7 +34,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "buce-plant:7408241475784",
+      "listingId": "buce-plant:7169579745480+7408241475784",
       "storeSlug": "buce-plant"
     },
     {
@@ -66,7 +54,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "buce-plant:7169579745480",
+      "listingId": "buce-plant:7169579745480+7408241475784",
       "storeSlug": "buce-plant"
     },
     {
@@ -90,14 +78,530 @@
       "storeSlug": "glass-aqua"
     },
     {
-      "observedAt": "2026-11-20T06:27:50.853Z",
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42162477269192",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
       "price": 10.99,
       "currency": "USD",
       "available": true,
       "variants": [
         {
-          "id": "39647391416406",
+          "id": "41309844832456",
           "label": "Title",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:34:13.918Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40016736583766",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6795305451606",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42162477269192",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41309844832456",
+          "label": "Title",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:33.919Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40016736583766",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6795305451606",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42162477269192",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41309844832456",
+          "label": "Title",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:35.615Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40016736583766",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6795305451606",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:06.591Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42162477269192",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:06.591Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41309844832456",
+          "label": "Title",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:24.375Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40016736583766",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6795305451606",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T02:06:34.378Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42162477269192",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T02:06:34.378Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41309844832456",
+          "label": "Title",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T02:06:53.174Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40016736583766",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6795305451606",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T14:38:56.536Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42162477269192",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T14:38:56.536Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41309844832456",
+          "label": "Title",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T14:39:29.647Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40016736583766",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6795305451606",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T14:50:32.244Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42162477269192",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T14:50:32.244Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41309844832456",
+          "label": "Title",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T14:50:55.647Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40016736583766",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6795305451606",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:27.521Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42162477269192",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:27.521Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41309844832456",
+          "label": "Title",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:45.968Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40016736583766",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6795305451606",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T15:39:59.617Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42162477269192",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T15:39:59.617Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41309844832456",
+          "label": "Title",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T15:40:18.396Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40016736583766",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6795305451606",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T16:39:21.938Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42162477269192",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T16:39:21.938Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41309844832456",
+          "label": "Title",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T16:39:51.178Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40016736583766",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6795305451606",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42162477269192",
+          "label": "Ammannia Sp. Sulawesi",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "41309844832456",
+          "label": "Ammannia Towuti UNS Tissue Culture",
           "price": 10.99,
           "available": true
         }
@@ -106,45 +610,11 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "glass-aqua:6681813057622",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:59.411Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42162477269192",
-          "label": "Title",
-          "price": 7.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7408241475784",
+      "listingId": "buce-plant:7169579745480+7408241475784",
       "storeSlug": "buce-plant"
     },
     {
-      "observedAt": "2026-11-20T17:33:59.411Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "41309844832456",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7169579745480",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T17:34:13.918Z",
+      "observedAt": "2026-11-21T20:08:44.972Z",
       "price": 8.99,
       "currency": "USD",
       "available": true,
@@ -158,635 +628,6 @@
       ],
       "type": "heartbeat",
       "listingId": "glass-aqua:6795305451606",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-20T17:34:13.918Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "39647391416406",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6681813057622",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:25.528Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42162477269192",
-          "label": "Title",
-          "price": 7.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7408241475784",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:25.528Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "41309844832456",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7169579745480",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:33.919Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "40016736583766",
-          "label": "Title",
-          "price": 8.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6795305451606",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:33.919Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "39647391416406",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6681813057622",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-21T01:31:18.727Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42162477269192",
-          "label": "Title",
-          "price": 7.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7408241475784",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T01:31:18.727Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "41309844832456",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7169579745480",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T01:31:35.615Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "40016736583766",
-          "label": "Title",
-          "price": 8.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6795305451606",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-21T01:31:35.615Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "39647391416406",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6681813057622",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-21T02:01:06.591Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42162477269192",
-          "label": "Title",
-          "price": 7.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7408241475784",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T02:01:06.591Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "41309844832456",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7169579745480",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T02:01:24.375Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "40016736583766",
-          "label": "Title",
-          "price": 8.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6795305451606",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-21T02:01:24.375Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "39647391416406",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6681813057622",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-21T02:06:34.378Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42162477269192",
-          "label": "Title",
-          "price": 7.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7408241475784",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T02:06:34.378Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "41309844832456",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7169579745480",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T02:06:53.174Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "40016736583766",
-          "label": "Title",
-          "price": 8.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6795305451606",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-21T02:06:53.174Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "39647391416406",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6681813057622",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-21T14:38:56.536Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42162477269192",
-          "label": "Title",
-          "price": 7.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7408241475784",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T14:38:56.536Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "41309844832456",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7169579745480",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T14:39:29.647Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "40016736583766",
-          "label": "Title",
-          "price": 8.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6795305451606",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-21T14:39:29.647Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "39647391416406",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6681813057622",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-21T14:50:32.244Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42162477269192",
-          "label": "Title",
-          "price": 7.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7408241475784",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T14:50:32.244Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "41309844832456",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7169579745480",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T14:50:55.647Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "40016736583766",
-          "label": "Title",
-          "price": 8.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6795305451606",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-21T14:50:55.647Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "39647391416406",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6681813057622",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-21T15:00:27.521Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42162477269192",
-          "label": "Title",
-          "price": 7.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7408241475784",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T15:00:27.521Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "41309844832456",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7169579745480",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T15:00:45.968Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "40016736583766",
-          "label": "Title",
-          "price": 8.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6795305451606",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-21T15:00:45.968Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "39647391416406",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6681813057622",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-21T15:39:59.617Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42162477269192",
-          "label": "Title",
-          "price": 7.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7408241475784",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T15:39:59.617Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "41309844832456",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7169579745480",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T15:40:18.396Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "40016736583766",
-          "label": "Title",
-          "price": 8.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6795305451606",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-21T15:40:18.396Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "39647391416406",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6681813057622",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-21T16:39:21.938Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42162477269192",
-          "label": "Title",
-          "price": 7.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7408241475784",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T16:39:21.938Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "41309844832456",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:7169579745480",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T16:39:51.178Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "40016736583766",
-          "label": "Title",
-          "price": 8.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6795305451606",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-21T16:39:51.178Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "39647391416406",
-          "label": "Title",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "glass-aqua:6681813057622",
       "storeSlug": "glass-aqua"
     }
   ]

@@ -4,19 +4,13 @@
   "scientificName": "Tylomelania sp.",
   "listings": [
     {
-      "listingId": "aquatic-arts:11500350092",
-      "storeSlug": "aquatic-arts",
-      "storeName": "Aquatic Arts",
-      "commonName": "Assorted Sulawesi Rabbit Snail (Tylomelania sp.), BREDBY: Aquatic Arts"
-    },
-    {
       "listingId": "aquarium-fish:6548359413841",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Mini Rabbit Snail"
     },
     {
-      "listingId": "aquatic-arts:14775185113455",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "King Rabbit Snail (Cerithidea sp.)"
@@ -25,26 +19,26 @@
   "events": [
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
-      "price": 15.99,
+      "price": 5.99,
       "currency": "USD",
-      "available": true,
+      "available": false,
       "variants": [
         {
-          "id": "43568096652",
+          "id": "52157249847663",
           "label": "1 Snail",
-          "price": 15.99,
-          "available": true
+          "price": 5.99,
+          "available": false
         },
         {
-          "id": "43568096844",
+          "id": "52157249880431",
           "label": "3 Snails",
-          "price": 42.99,
-          "available": true
+          "price": 18.99,
+          "available": false
         },
         {
-          "id": "43568096908",
+          "id": "52157249913199",
           "label": "5 Snails",
-          "price": 67.99,
+          "price": 27.99,
           "available": false
         }
       ],
@@ -52,31 +46,31 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquatic-arts:11500350092",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
-      "price": 5.99,
+      "price": 15.99,
       "currency": "USD",
-      "available": false,
+      "available": true,
       "variants": [
         {
-          "id": "52157249847663",
+          "id": "43568096652",
           "label": "1 Snail",
-          "price": 5.99,
-          "available": false
+          "price": 15.99,
+          "available": true
         },
         {
-          "id": "52157249880431",
+          "id": "43568096844",
           "label": "3 Snails",
-          "price": 18.99,
-          "available": false
+          "price": 42.99,
+          "available": true
         },
         {
-          "id": "52157249913199",
+          "id": "43568096908",
           "label": "5 Snails",
-          "price": 27.99,
+          "price": 67.99,
           "available": false
         }
       ],
@@ -84,36 +78,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquatic-arts:14775185113455",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T05:43:08.947Z",
-      "price": 15.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "43568096652",
-          "label": "1 Snail",
-          "price": 15.99,
-          "available": true
-        },
-        {
-          "id": "43568096844",
-          "label": "3 Snails",
-          "price": 42.99,
-          "available": true
-        },
-        {
-          "id": "43568096908",
-          "label": "5 Snails",
-          "price": 67.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:11500350092",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -142,7 +107,65 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14775185113455",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:08.947Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43568096652",
+          "label": "1 Snail",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "43568096844",
+          "label": "3 Snails",
+          "price": 42.99,
+          "available": true
+        },
+        {
+          "id": "43568096908",
+          "label": "5 Snails",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:52:13.926Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52157249847663",
+          "label": "1 Snail",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "52157249880431",
+          "label": "3 Snails",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "52157249913199",
+          "label": "5 Snails",
+          "price": 27.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -171,65 +194,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:11500350092",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T05:52:13.926Z",
-      "price": 5.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "52157249847663",
-          "label": "1 Snail",
-          "price": 5.99,
-          "available": false
-        },
-        {
-          "id": "52157249880431",
-          "label": "3 Snails",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "52157249913199",
-          "label": "5 Snails",
-          "price": 27.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:14775185113455",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:02:13.577Z",
-      "price": 15.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "43568096652",
-          "label": "1 Snail",
-          "price": 15.99,
-          "available": true
-        },
-        {
-          "id": "43568096844",
-          "label": "3 Snails",
-          "price": 42.99,
-          "available": true
-        },
-        {
-          "id": "43568096908",
-          "label": "5 Snails",
-          "price": 67.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:11500350092",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -258,7 +223,65 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14775185113455",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:13.577Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43568096652",
+          "label": "1 Snail",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "43568096844",
+          "label": "3 Snails",
+          "price": 42.99,
+          "available": true
+        },
+        {
+          "id": "43568096908",
+          "label": "5 Snails",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:03:57.585Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52157249847663",
+          "label": "1 Snail",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "52157249880431",
+          "label": "3 Snails",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "52157249913199",
+          "label": "5 Snails",
+          "price": 27.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -287,65 +310,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:11500350092",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:03:57.585Z",
-      "price": 5.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "52157249847663",
-          "label": "1 Snail",
-          "price": 5.99,
-          "available": false
-        },
-        {
-          "id": "52157249880431",
-          "label": "3 Snails",
-          "price": 18.99,
-          "available": false
-        },
-        {
-          "id": "52157249913199",
-          "label": "5 Snails",
-          "price": 27.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:14775185113455",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:14:39.803Z",
-      "price": 15.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "43568096652",
-          "label": "1 Snail",
-          "price": 15.99,
-          "available": true
-        },
-        {
-          "id": "43568096844",
-          "label": "3 Snails",
-          "price": 42.99,
-          "available": true
-        },
-        {
-          "id": "43568096908",
-          "label": "5 Snails",
-          "price": 67.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:11500350092",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -374,11 +339,11 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14775185113455",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T06:27:34.315Z",
+      "observedAt": "2026-11-20T06:14:39.803Z",
       "price": 15.99,
       "currency": "USD",
       "available": true,
@@ -403,7 +368,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:11500350092",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -432,7 +397,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14775185113455",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:34.315Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43568096652",
+          "label": "1 Snail",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "43568096844",
+          "label": "3 Snails",
+          "price": 42.99,
+          "available": true
+        },
+        {
+          "id": "43568096908",
+          "label": "5 Snails",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -457,35 +451,6 @@
     },
     {
       "observedAt": "2026-11-20T17:33:09.827Z",
-      "price": 15.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "43568096652",
-          "label": "1 Snail",
-          "price": 15.99,
-          "available": true
-        },
-        {
-          "id": "43568096844",
-          "label": "3 Snails",
-          "price": 42.99,
-          "available": true
-        },
-        {
-          "id": "43568096908",
-          "label": "5 Snails",
-          "price": 67.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:11500350092",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:09.827Z",
       "price": 5.99,
       "currency": "USD",
       "available": false,
@@ -510,7 +475,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14775185113455",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:09.827Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43568096652",
+          "label": "1 Snail",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "43568096844",
+          "label": "3 Snails",
+          "price": 42.99,
+          "available": true
+        },
+        {
+          "id": "43568096908",
+          "label": "5 Snails",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -532,35 +526,6 @@
     },
     {
       "observedAt": "2026-11-21T01:28:57.087Z",
-      "price": 15.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "43568096652",
-          "label": "1 Snail",
-          "price": 15.99,
-          "available": true
-        },
-        {
-          "id": "43568096844",
-          "label": "3 Snails",
-          "price": 42.99,
-          "available": true
-        },
-        {
-          "id": "43568096908",
-          "label": "5 Snails",
-          "price": 67.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:11500350092",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T01:28:57.087Z",
       "price": 5.99,
       "currency": "USD",
       "available": false,
@@ -585,7 +550,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14775185113455",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43568096652",
+          "label": "1 Snail",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "43568096844",
+          "label": "3 Snails",
+          "price": 42.99,
+          "available": true
+        },
+        {
+          "id": "43568096908",
+          "label": "5 Snails",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -607,35 +601,6 @@
     },
     {
       "observedAt": "2026-11-21T01:30:03.149Z",
-      "price": 15.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "43568096652",
-          "label": "1 Snail",
-          "price": 15.99,
-          "available": true
-        },
-        {
-          "id": "43568096844",
-          "label": "3 Snails",
-          "price": 42.99,
-          "available": true
-        },
-        {
-          "id": "43568096908",
-          "label": "5 Snails",
-          "price": 67.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:11500350092",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T01:30:03.149Z",
       "price": 5.99,
       "currency": "USD",
       "available": false,
@@ -660,7 +625,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14775185113455",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:03.149Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43568096652",
+          "label": "1 Snail",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "43568096844",
+          "label": "3 Snails",
+          "price": 42.99,
+          "available": true
+        },
+        {
+          "id": "43568096908",
+          "label": "5 Snails",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -682,35 +676,6 @@
     },
     {
       "observedAt": "2026-11-21T01:59:48.002Z",
-      "price": 15.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "43568096652",
-          "label": "1 Snail",
-          "price": 15.99,
-          "available": true
-        },
-        {
-          "id": "43568096844",
-          "label": "3 Snails",
-          "price": 42.99,
-          "available": true
-        },
-        {
-          "id": "43568096908",
-          "label": "5 Snails",
-          "price": 67.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:11500350092",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T01:59:48.002Z",
       "price": 5.99,
       "currency": "USD",
       "available": false,
@@ -735,7 +700,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14775185113455",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:59:48.002Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43568096652",
+          "label": "1 Snail",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "43568096844",
+          "label": "3 Snails",
+          "price": 42.99,
+          "available": true
+        },
+        {
+          "id": "43568096908",
+          "label": "5 Snails",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -757,35 +751,6 @@
     },
     {
       "observedAt": "2026-11-21T02:05:11.423Z",
-      "price": 15.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "43568096652",
-          "label": "1 Snail",
-          "price": 15.99,
-          "available": true
-        },
-        {
-          "id": "43568096844",
-          "label": "3 Snails",
-          "price": 42.99,
-          "available": true
-        },
-        {
-          "id": "43568096908",
-          "label": "5 Snails",
-          "price": 67.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:11500350092",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T02:05:11.423Z",
       "price": 5.99,
       "currency": "USD",
       "available": false,
@@ -810,7 +775,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14775185113455",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T02:05:11.423Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43568096652",
+          "label": "1 Snail",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "43568096844",
+          "label": "3 Snails",
+          "price": 42.99,
+          "available": true
+        },
+        {
+          "id": "43568096908",
+          "label": "5 Snails",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -832,35 +826,6 @@
     },
     {
       "observedAt": "2026-11-21T14:36:29.468Z",
-      "price": 15.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "43568096652",
-          "label": "1 Snail",
-          "price": 15.99,
-          "available": true
-        },
-        {
-          "id": "43568096844",
-          "label": "3 Snails",
-          "price": 42.99,
-          "available": true
-        },
-        {
-          "id": "43568096908",
-          "label": "5 Snails",
-          "price": 67.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:11500350092",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-21T14:36:29.468Z",
       "price": 5.99,
       "currency": "USD",
       "available": false,
@@ -885,7 +850,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14775185113455",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T14:36:29.468Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43568096652",
+          "label": "1 Snail",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "43568096844",
+          "label": "3 Snails",
+          "price": 42.99,
+          "available": true
+        },
+        {
+          "id": "43568096908",
+          "label": "5 Snails",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -931,7 +925,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14775185113455",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -960,7 +954,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:11500350092",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1006,7 +1000,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14775185113455",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1035,7 +1029,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:11500350092",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1081,7 +1075,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14775185113455",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1110,7 +1104,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:11500350092",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1156,7 +1150,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:14775185113455",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -1185,11 +1179,78 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquatic-arts:11500350092",
+      "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-21T16:38:40.438Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39286410870865",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6548359413841",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52157249847663",
+          "label": "1 Snail",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "52157249880431",
+          "label": "3 Snails",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "52157249913199",
+          "label": "5 Snails",
+          "price": 27.99,
+          "available": false
+        },
+        {
+          "id": "43568096652",
+          "label": "1 Snail",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "43568096844",
+          "label": "3 Snails",
+          "price": 42.99,
+          "available": true
+        },
+        {
+          "id": "43568096908",
+          "label": "5 Snails",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:11500350092+14775185113455",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
       "price": 8.99,
       "currency": "USD",
       "available": false,

@@ -4,58 +4,10 @@
   "scientificName": "Mikrogeophagus ramirezi",
   "listings": [
     {
-      "listingId": "aquarium-fish:15376379642155",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "German Gold Ram (Group of 4)"
-    },
-    {
-      "listingId": "aquarium-fish:10401651360043",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "German Gold Ram (Group of 3)"
-    },
-    {
-      "listingId": "aquarium-fish:4621850247249",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Gold Angel Veil Ram"
-    },
-    {
-      "listingId": "aquarium-fish:5924271750",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "German Gold Ram"
-    },
-    {
       "listingId": "imperial-tropicals:8397980500275",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Gold Ram (Mikrogeophagus ramirezi)"
-    },
-    {
-      "listingId": "monster-aquarium:7143343456465",
-      "storeSlug": "monster-aquarium",
-      "storeName": "Monster Aquarium",
-      "commonName": "Balloon Gold Ram (Mikrogeophagus ramirezi)"
-    },
-    {
-      "listingId": "monster-aquarium:6967879532753",
-      "storeSlug": "monster-aquarium",
-      "storeName": "Monster Aquarium",
-      "commonName": "Gold Ram (Mikrogeophagus ramirezi)"
-    },
-    {
-      "listingId": "aquahuna:1710476394539",
-      "storeSlug": "aquahuna",
-      "storeName": "AquaHuna",
-      "commonName": "Gold Ram"
-    },
-    {
-      "listingId": "aquahuna:1780793540651",
-      "storeSlug": "aquahuna",
-      "storeName": "AquaHuna",
-      "commonName": "Gold Balloon Ram"
     },
     {
       "listingId": "ck-fish-world:8149533753559",
@@ -74,6 +26,24 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Gold Ram"
+    },
+    {
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
+      "storeSlug": "monster-aquarium",
+      "storeName": "Monster Aquarium",
+      "commonName": "Gold Ram (Mikrogeophagus ramirezi)"
+    },
+    {
+      "listingId": "aquahuna:1710476394539+1780793540651",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Gold Ram"
+    },
+    {
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "German Gold Ram"
     }
   ],
   "events": [
@@ -100,7 +70,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "monster-aquarium:7143343456465",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -126,7 +96,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "monster-aquarium:6967879532753",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -149,7 +119,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7143343456465",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -172,7 +142,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:6967879532753",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -195,7 +165,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7143343456465",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -218,7 +188,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:6967879532753",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -238,7 +208,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquahuna:1710476394539",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -258,7 +228,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquahuna:1780793540651",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -307,7 +277,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7143343456465",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -330,7 +300,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:6967879532753",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -347,7 +317,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710476394539",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -364,7 +334,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1780793540651",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -407,7 +377,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:15376379642155",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -427,7 +397,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:10401651360043",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -447,7 +417,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:4621850247249",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -467,7 +437,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:5924271750",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -550,7 +520,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7143343456465",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -573,7 +543,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:6967879532753",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -590,7 +560,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710476394539",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -607,7 +577,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1780793540651",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -647,7 +617,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:15376379642155",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -664,7 +634,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10401651360043",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -681,7 +651,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4621850247249",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -698,7 +668,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:5924271750",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -772,7 +742,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7143343456465",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -795,7 +765,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:6967879532753",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -812,7 +782,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710476394539",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -829,7 +799,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1780793540651",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -869,7 +839,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:15376379642155",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -890,7 +860,7 @@
         "price",
         "variants"
       ],
-      "listingId": "aquarium-fish:10401651360043",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -907,7 +877,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4621850247249",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -928,7 +898,7 @@
         "price",
         "variants"
       ],
-      "listingId": "aquarium-fish:5924271750",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1002,7 +972,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7143343456465",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1025,7 +995,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:6967879532753",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1042,7 +1012,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710476394539",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -1059,7 +1029,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1780793540651",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -1099,7 +1069,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:15376379642155",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1116,7 +1086,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10401651360043",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1133,7 +1103,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4621850247249",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1150,7 +1120,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:5924271750",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1224,7 +1194,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7143343456465",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1247,7 +1217,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:6967879532753",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1264,7 +1234,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710476394539",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -1281,7 +1251,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1780793540651",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -1321,7 +1291,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:15376379642155",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1338,7 +1308,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10401651360043",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1355,7 +1325,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4621850247249",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1372,7 +1342,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:5924271750",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1446,7 +1416,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7143343456465",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1469,7 +1439,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:6967879532753",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1486,7 +1456,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710476394539",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -1503,7 +1473,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1780793540651",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -1543,7 +1513,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:15376379642155",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1560,7 +1530,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10401651360043",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1577,7 +1547,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4621850247249",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1594,7 +1564,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:5924271750",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1668,7 +1638,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7143343456465",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1691,7 +1661,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:6967879532753",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1708,7 +1678,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710476394539",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -1725,7 +1695,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1780793540651",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -1765,7 +1735,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:15376379642155",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1782,7 +1752,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10401651360043",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1799,7 +1769,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4621850247249",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1816,7 +1786,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:5924271750",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -1890,7 +1860,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7143343456465",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1913,7 +1883,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:6967879532753",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -1930,7 +1900,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710476394539",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -1947,7 +1917,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1780793540651",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -1987,7 +1957,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:15376379642155",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2004,7 +1974,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10401651360043",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2021,7 +1991,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4621850247249",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2038,7 +2008,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:5924271750",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2112,7 +2082,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7143343456465",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -2135,7 +2105,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:6967879532753",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -2152,7 +2122,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710476394539",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -2169,7 +2139,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1780793540651",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -2209,7 +2179,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:15376379642155",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2226,7 +2196,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10401651360043",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2243,7 +2213,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4621850247249",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2260,7 +2230,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:5924271750",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2334,7 +2304,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7143343456465",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -2357,7 +2327,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:6967879532753",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -2374,7 +2344,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710476394539",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -2391,7 +2361,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1780793540651",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -2431,7 +2401,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:15376379642155",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2448,7 +2418,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10401651360043",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2465,7 +2435,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4621850247249",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2482,7 +2452,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:5924271750",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2556,7 +2526,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:7143343456465",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -2579,7 +2549,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "monster-aquarium:6967879532753",
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
       "storeSlug": "monster-aquarium"
     },
     {
@@ -2596,7 +2566,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1710476394539",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -2613,7 +2583,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1780793540651",
+      "listingId": "aquahuna:1710476394539+1780793540651",
       "storeSlug": "aquahuna"
     },
     {
@@ -2653,7 +2623,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:15376379642155",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2670,7 +2640,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10401651360043",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2687,7 +2657,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4621850247249",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2704,7 +2674,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:5924271750",
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -2743,6 +2713,182 @@
     },
     {
       "observedAt": "2026-11-21T16:40:10.490Z",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47600511844544",
+          "label": "1.5-2in",
+          "price": 15,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8501081473216",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:35.821Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41556682178769",
+          "label": ".5\"-1”",
+          "price": 12,
+          "available": false
+        },
+        {
+          "id": "41310763155665",
+          "label": "1.5-2\"",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "40849709301969",
+          "label": "1.5-2\"",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "43197436625105",
+          "label": "1”",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:6967879532753+7143343456465",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:42.741Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15720740225067",
+          "label": "Gold Ram",
+          "price": 8,
+          "available": false
+        },
+        {
+          "id": "16074446143531",
+          "label": "Gold Balloon Ram",
+          "price": 11,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:1710476394539+1780793540651",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:49.184Z",
+      "price": 11.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45697047167191",
+          "label": "1",
+          "price": 11.98,
+          "available": true
+        },
+        {
+          "id": "45697047199959",
+          "label": "3",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8149533753559",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67573914239275",
+          "label": "German Gold Ram (Group of 4)",
+          "price": 48.99,
+          "available": true
+        },
+        {
+          "id": "53616893690155",
+          "label": "German Gold Ram (Group of 3)",
+          "price": 37.79,
+          "available": true
+        },
+        {
+          "id": "32344765628497",
+          "label": "Gold Angel Veil Ram",
+          "price": 16.29,
+          "available": false
+        },
+        {
+          "id": "18727586694",
+          "label": "German Gold Ram",
+          "price": 13.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10401651360043+15376379642155+4621850247249+5924271750",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:19.601Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611737383219",
+          "label": "1-2\" Unsexed",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397980500275",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:28.158Z",
+      "price": 30,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043820589274",
+          "label": "Pair",
+          "price": 30,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741024366810",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:53.162Z",
       "price": 15,
       "currency": "USD",
       "available": true,
