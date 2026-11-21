@@ -64,9 +64,20 @@ export function BrowsePage() {
   // tiering applies identically either way.
   const groups = useMemo(() => {
     const grouped = groupListingsByCanonicalFish(filteredListings);
+    // Precompute each group's category rank once (O(n)) instead of calling
+    // the (string-scanning, description-fallback) categorizeListing() twice
+    // per comparison inside the sort below — a plain Array.sort comparator
+    // runs O(n log n) times, which turned "re-sort ~8k groups on every
+    // BrowsePage mount" into a multi-second cost on its own, independent of
+    // and in addition to the index.json fetch/parse cost fixed by caching
+    // in useIndex (issue #60).
+    const rankByFishId = new Map<string, number>();
+    for (const group of grouped) {
+      rankByFishId.set(group.canonicalFishId, categoryRank(categorizeListing(group.representative)));
+    }
     return grouped.sort((a, b) => {
       const rankDiff =
-        categoryRank(categorizeListing(a.representative)) - categoryRank(categorizeListing(b.representative));
+        (rankByFishId.get(a.canonicalFishId) ?? 0) - (rankByFishId.get(b.canonicalFishId) ?? 0);
       if (rankDiff !== 0) {
         return rankDiff;
       }

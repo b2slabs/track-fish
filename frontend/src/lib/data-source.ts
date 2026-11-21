@@ -23,12 +23,44 @@ export function canonicalFishIdToFilename(canonicalFishId: string): string {
   return canonicalFishId.replace(/[^a-zA-Z0-9_-]/g, '-');
 }
 
-export async function fetchIndex(): Promise<IndexFile> {
-  const res = await fetch(liveUrl('index.json'));
-  if (!res.ok) {
-    throw new Error(`Failed to fetch index.json: ${res.status} ${res.statusText}`);
+// Module-level cache (issue #60): `index.json` is ~37MB raw, and
+// JSON.parse() of that payload — not the (gzip-compressed, short-TTL
+// `cache-control`'d) network transfer — is the actual cost of a "load".
+// Without this, every mount of `useIndex` (both BrowsePage and
+// FishDetailPage use it) re-fetches AND re-parses the whole file from
+// scratch, which is what made browse -> detail -> browse feel
+// multi-second-slow even though the underlying data hadn't changed.
+// Cached for the lifetime of the page session; a failed fetch clears the
+// promise cache so the next call retries rather than wedging the app in
+// a permanent error state.
+let indexPromise: Promise<IndexFile> | null = null;
+let indexCache: IndexFile | null = null;
+
+/** Synchronous peek at the cache, so `useIndex` can skip the loading flash on a cache hit. */
+export function getCachedIndex(): IndexFile | null {
+  return indexCache;
+}
+
+export function fetchIndex(): Promise<IndexFile> {
+  if (indexCache) return Promise.resolve(indexCache);
+  if (!indexPromise) {
+    indexPromise = fetch(liveUrl('index.json'))
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`Failed to fetch index.json: ${res.status} ${res.statusText}`);
+        }
+        return res.json() as Promise<IndexFile>;
+      })
+      .then((index) => {
+        indexCache = index;
+        return index;
+      })
+      .catch((err: unknown) => {
+        indexPromise = null;
+        throw err;
+      });
   }
-  return (await res.json()) as IndexFile;
+  return indexPromise;
 }
 
 export async function fetchFishHistory(
