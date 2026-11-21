@@ -339,7 +339,7 @@ interface BarGeometry {
 }
 
 const CAP_WIDTH = 10;
-const STEM_WIDTH = 2;
+const STEM_WIDTH = 1.25;
 const AVG_DOT_RADIUS = 4;
 const AVG_DOT_RING_WIDTH = 2;
 /**
@@ -496,6 +496,14 @@ interface BarHoverState {
  * price contribute comparably — the same normalization `useNearestPointHover`
  * used for per-variant lines (issue #29) before this chart replaced them.
  */
+/**
+ * Only surface a tooltip when the cursor is genuinely near a bar — beyond
+ * this normalized-distance cutoff, hovering empty chart space shows
+ * nothing rather than always snapping to whatever bar happens to be
+ * nearest, however far away.
+ */
+const MAX_HOVER_DIST_SQ = 0.0025;
+
 function useNearestBarHover(
   bars: StoreBar[],
   containerRef: RefObject<HTMLDivElement | null>,
@@ -527,7 +535,10 @@ function useNearestBarHover(
         bestGeo = geo;
       }
     }
-    if (!bestBar || !bestGeo) return;
+    if (!bestBar || !bestGeo || bestDist > MAX_HOVER_DIST_SQ) {
+      setHover(null);
+      return;
+    }
     setHover({ bar: bestBar, left: bestGeo.cx, top: (bestGeo.yTop + bestGeo.yBottom) / 2 });
   };
 
