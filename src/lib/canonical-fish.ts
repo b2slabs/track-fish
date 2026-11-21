@@ -3,6 +3,7 @@ import type {
   CanonicalFishHistoryEvent,
   CanonicalFishHistoryListing,
   HistoryEvent,
+  ListingVariant,
 } from '../types/listing.js';
 import type { CanonicalFishOverride } from '../config/canonical-fish-overrides.js';
 import { extractScientificName, scientificNameSlug } from './scientific-name.js';
@@ -345,6 +346,121 @@ function findBestFuzzyCandidate(
   }
 
   return best;
+}
+
+// --- Same-Store merge (issue #56) --------------------------------------
+//
+// A Store occasionally lists the same Canonical Fish as more than one
+// separate Shopify product -- most often one product per pack size (e.g.
+// AquariumFish.com's "White Cloud Minnow" at $2.99 for a single fish and
+// "White Cloud Minnow (School of 6)" at $15.59, two distinct Shopify
+// products that both correctly match `cf:sci:tanichthys-albonubes:white`).
+// Per the maintainer's direction, that's a data-modeling mismatch to fix
+// here, not a display-only concern: there should only be ever one Listing
+// per Store per Canonical Fish. `matchCanonicalFish` itself is unaffected
+// (each Shopify product is still matched independently, on its own
+// title/description); the merge happens one layer up, once a Store's run
+// groups its freshly-matched Listings by `canonicalFishId` and finds more
+// than one in the same group (see `processStoreRun`).
+
+/** The minimal shape a same-Store merge needs from each Listing it combines. */
+export interface MergeableListing {
+  productIdentifier: string;
+  commonName: string;
+  description: string;
+  productUrl: string;
+  imageUrl: string | null;
+  currency: string;
+  variants: ListingVariant[];
+}
+
+/**
+ * The deterministic `listingId` for a merged group of same-Store Listings
+ * -- every constituent product's own identifier, sorted (so the result
+ * never depends on the order a Store's `/products.json` happened to list
+ * them in this run) and joined with `+`. A single-element group collapses
+ * to the ordinary `${storeSlug}:${productIdentifier}` shape, so callers
+ * can use this unconditionally rather than special-casing "no merge
+ * needed" groups.
+ *
+ * Known limitation: this id is a function of exactly which productIds are
+ * in the group *this run*. If a merge group grows across runs -- a Store
+ * adds a third Shopify product for a Canonical Fish two of its existing
+ * products already merged onto one listingId -- the new 3-way id doesn't
+ * share a prefix with the old 2-way one, so `processStoreRun`'s own-
+ * productIdentifier-keyed history lookup won't find the prior merged
+ * listingId to retire it (it only looks up each individual product's own
+ * id, not any previous merged combination). That stale 2-way entry is left
+ * behind in index.json as a now-orphaned duplicate rather than being
+ * cleanly re-merged into the new 3-way one. Not hit by any case in the
+ * real dataset at the time of this fix (issue #56) -- documented here as a
+ * known gap for whoever extends this next, the same way `variety.ts`
+ * documents its own curated-list limitations.
+ */
+export function mergedListingId(storeSlug: string, productIdentifiers: string[]): string {
+  return `${storeSlug}:${[...productIdentifiers].sort().join('+')}`;
+}
+
+/**
+ * Picks one Listing from a same-Store merge group to represent the merged
+ * Listing's display fields (commonName, description, productUrl, imageUrl,
+ * currency) -- the shortest commonName, ties broken by productIdentifier
+ * for determinism. Shortest is a deliberate, simple heuristic: across the
+ * real cases seen (issue #56), the pack-size/size-specific product title is
+ * the longer one ("White Cloud Minnow (School of 6)" vs. plain "White Cloud
+ * Minnow"; "Galaxy Rasbora ... (Size Large)" vs. "... (Size Small)"), so the
+ * shortest title tends to be the most generic, species-level name -- not a
+ * guarantee, just the best available signal without inventing a second
+ * title-normalization vocabulary (the same cost/benefit ADR 0002 already
+ * rejected for size/grade).
+ */
+export function pickRepresentative<T extends { commonName: string; productIdentifier: string }>(
+  listings: T[]
+): T {
+  return [...listings].sort(
+    (a, b) => a.commonName.length - b.commonName.length || a.productIdentifier.localeCompare(b.productIdentifier)
+  )[0];
+}
+
+/**
+ * Combines every Listing in a same-Store merge group's `variants` into one
+ * logical Listing's `variants` array -- concatenation, not a pick-one, per
+ * the maintainer's explicit "don't just pick one and discard the other's
+ * variants" direction.
+ *
+ * Each contributed variant whose label is literally Shopify's single-
+ * variant placeholder ("Title" -- see `format.ts`'s `normalizeVariantLabel`
+ * and issue #42) is relabeled to its own Listing's commonName before being
+ * merged in. Without this, two merged single-variant Listings collide on
+ * the identical literal label "Title" for both rows -- normalizeVariantLabel
+ * can no longer tell them apart as "the" single variant (there are now two
+ * variants in the merged list), so the raw placeholder leaks straight into
+ * the UI (issue #56's tooltip bug, in its real-world instance: this is
+ * exactly how AquariumFish.com's two White Cloud Minnow Listings produced a
+ * "Title"/"Title" breakdown once pooled onto one Store point). A variant
+ * that already carries a real Shopify option value (not the placeholder)
+ * is left untouched -- it was already distinguishing on its own.
+ */
+export function mergeVariants(listings: { commonName: string; variants: ListingVariant[] }[]): ListingVariant[] {
+  return listings.flatMap(({ commonName, variants }) =>
+    variants.map((variant) => (variant.label === 'Title' ? { ...variant, label: commonName } : variant))
+  );
+}
+
+/**
+ * Recomputes the Listing-level representative price/availability over a
+ * merged `variants` array -- the same rule `shopify-parser.ts` applies to
+ * one Shopify product's own variants (lowest in-stock price, falling back
+ * to the lowest price overall if none are in stock), just applied across
+ * every contributing Listing's variants at once now that they live in one
+ * array.
+ */
+export function representativePriceAndAvailability(variants: ListingVariant[]): { price: number; available: boolean } {
+  const inStock = variants.filter((variant) => variant.available);
+  const priceSource = inStock.length > 0 ? inStock : variants;
+  const price = priceSource.length > 0 ? Math.min(...priceSource.map((v) => v.price)) : 0;
+  const available = variants.some((variant) => variant.available);
+  return { price, available };
 }
 
 // --- History repointing -----------------------------------------------

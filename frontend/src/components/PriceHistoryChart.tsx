@@ -93,6 +93,16 @@ interface VariantPriceDetail {
   label: string;
   price: number;
   available: boolean;
+  /**
+   * `normalizeVariantLabel`'s `siblingCount` for THIS variant: the size of
+   * the variant list its own originating HistoryEvent (one Store, one
+   * Listing, one observedAt) actually carried — e.g. `1` for a Store whose
+   * Shopify product has exactly one variant, regardless of how many other
+   * variants end up pooled alongside it in the same `StorePoint.variants`
+   * (see `computeStoreInstants`'s doc on why the pooled list's own length
+   * is the wrong number to pass here: issue #56's "Title" tooltip leak).
+   */
+  siblingCount: number;
 }
 
 /**
@@ -160,6 +170,22 @@ function medianOf(sortedAscending: number[]): number {
  * genuine "this Store was out of stock here" gap apart from a merely long
  * gap between two otherwise-adjacent observations (see that function's
  * doc): the `null` instants are the former's hard evidence.
+ *
+ * Each pooled variant keeps its own originating HistoryEvent's variant
+ * count as `siblingCount` (see `VariantPriceDetail`), NOT the size of the
+ * pooled `group.variants` list being built here. Those two can differ
+ * whenever more than one Listing/HistoryEvent lands in the same
+ * (storeSlug, timestamp) bucket — e.g. a Store still carrying two separate
+ * Shopify Listings for one Canonical Fish (issue #56) that both happened
+ * to report at the same instant: each event's own variant array has
+ * exactly one entry (Shopify's single-variant "Title" placeholder), but
+ * the pooled bucket ends up with two. Using the pooled length as
+ * `siblingCount` would make `normalizeVariantLabel` treat each as a
+ * "real" multi-variant option (since the pooled count isn't 1) and leave
+ * the literal "Title" placeholder unnormalized in the tooltip — the exact
+ * leak issue #56 reported. The per-event count is what `normalizeVariantLabel`
+ * was always meant to see: "how many variants did Shopify actually give
+ * this one product".
  */
 function computeStoreInstants(
   events: HistoryEvent[],
@@ -185,9 +211,16 @@ function computeStoreInstants(
       group = { storeSlug: e.storeSlug, timestamp, observedAt: e.observedAt, variants: [] };
       groups.set(key, group);
     }
+    const eventSiblingCount = (e.variants ?? []).length;
     for (const v of e.variants ?? []) {
       if (v.price === 0 || !v.available) continue; // sold-out placeholder or genuinely out of stock
-      group.variants.push({ id: v.id, label: v.label, price: v.price, available: v.available });
+      group.variants.push({
+        id: v.id,
+        label: v.label,
+        price: v.price,
+        available: v.available,
+        siblingCount: eventSiblingCount,
+      });
     }
   }
 
@@ -619,7 +652,7 @@ function PointHoverOverlay({ hover }: { hover: PointHoverState }) {
               {point.variants.map((v) => (
                 <li key={v.id} className="flex items-center justify-between gap-3">
                   <span className="text-muted-foreground">
-                    {normalizeVariantLabel(v.label, point.variants.length)}
+                    {normalizeVariantLabel(v.label, v.siblingCount)}
                   </span>
                   <span className="font-medium">{formatPrice(v.price, point.currency)}</span>
                 </li>
