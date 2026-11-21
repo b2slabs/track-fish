@@ -19,7 +19,7 @@ test('two Listings from different Stores with the same scientific name get the s
   const contextB = buildMatchContext('monster-aquarium', [], []);
 
   const a = matchCanonicalFish(
-    { productIdentifier: '1', commonName: 'Blue Cobalt Discus (Symphysodon aequifasciatus)', description: '' },
+    { productIdentifier: '1', commonName: 'Cobalt Discus (Symphysodon aequifasciatus)', description: '' },
     contextA
   );
   const b = matchCanonicalFish(
@@ -127,8 +127,10 @@ test('issue #16: a mid-confidence rival fuzzy candidate against a scientific-nam
   );
   assert.equal(result.status, 'ambiguous');
   // Stays on its own scientific-name id -- a mid-confidence rival isn't
-  // confident enough to override a deterministic signal outright.
-  assert.equal(result.canonicalFishId, 'cf:sci:symphysodon-aequifasciatus');
+  // confident enough to override a deterministic signal outright. The id
+  // carries a ":blue" suffix (issue #34): "Blue Diamond Discus" has a
+  // detected "blue" variety, folded into the deterministic id.
+  assert.equal(result.canonicalFishId, 'cf:sci:symphysodon-aequifasciatus:blue');
   assert.equal(result.ambiguousCandidate?.canonicalFishId, 'cf:aquatic-arts:9');
 });
 
@@ -159,6 +161,50 @@ test('issue #16 regression: an already cross-store-established scientific-name i
   );
   assert.equal(result.status, 'scientific-name');
   assert.equal(result.canonicalFishId, 'cf:sci:boraras-merah');
+});
+
+test('issue #34: a Listing does not fuzzy-match its own prior-run commonName sitting in an otherwise cross-store candidate', () => {
+  // Real-world shape: a Canonical Fish id has cross-store membership
+  // overall (so it isn't excluded by the same-Store-only rule), but the
+  // specific commonName this query would score highest against is this
+  // very Listing's own commonName from before this run started (e.g. an
+  // old, now-incorrect grouping it hasn't been individually repointed
+  // out of yet). That self-match must not re-anchor it to the old id.
+  const context = buildMatchContext('aquahuna', [
+    existingListing({ canonicalFishId: 'cf:legacy:mixed', storeSlug: 'aquatic-arts', commonName: 'Bronze Cory' }),
+    existingListing({ canonicalFishId: 'cf:legacy:mixed', storeSlug: 'aquahuna', commonName: 'Albino Cory' }),
+  ], []);
+  const result = matchCanonicalFish(
+    { productIdentifier: '1', commonName: 'Albino Cory', description: '' },
+    context
+  );
+  // Must not fuzzy-merge back into the legacy mixed-variety group via its
+  // own stale self-entry -- stays on its own trivial id instead (no
+  // eligible cross-store candidate: the only "Albino"-compatible name in
+  // the pool is this Listing's own, excluded as same-Store).
+  assert.notEqual(result.canonicalFishId, 'cf:legacy:mixed');
+  assert.equal(result.canonicalFishId, 'cf:aquahuna:1');
+});
+
+test('issue #34: a cf:sci: id already contaminated with two varieties splits going forward instead of reinforcing the mix', () => {
+  // Real-world shape (pre-dating this fix, or pre-dating every affected
+  // Listing getting a chance to individually recompute its own id): one
+  // cf:sci:<slug> id's history already mixes two distinct varieties
+  // across Stores. A third, same-variety Listing from yet another Store
+  // must join the matching sub-cluster only -- not the id's other,
+  // incompatible-variety members, just because they share one id string.
+  const context = buildMatchContext('nu-aqua-shop', [
+    existingListing({ canonicalFishId: 'cf:sci:corydoras-aeneus', storeSlug: 'aquahuna', commonName: 'Orange Venezuelan Cory' }),
+    existingListing({ canonicalFishId: 'cf:sci:corydoras-aeneus', storeSlug: 'aquarium-fish', commonName: 'Green Laser Cory' }),
+  ], []);
+  const result = matchCanonicalFish(
+    { productIdentifier: '1', commonName: 'Orange Venezuelan Cory', description: '' },
+    context
+  );
+  assert.equal(result.status, 'fuzzy-auto');
+  // Resolves to the orange sub-cluster's own id, distinct from the raw
+  // contaminated id and from the green sub-cluster.
+  assert.equal(result.canonicalFishId, 'cf:sci:corydoras-aeneus:orange');
 });
 
 test('no scientific name and no fuzzy candidate falls back to the trivial per-Listing id', () => {

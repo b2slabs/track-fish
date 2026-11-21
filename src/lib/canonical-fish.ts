@@ -7,6 +7,7 @@ import type {
 import type { CanonicalFishOverride } from '../config/canonical-fish-overrides.js';
 import { extractScientificName, scientificNameSlug } from './scientific-name.js';
 import { commonNameSimilarity, tokenize } from './fuzzy-match.js';
+import { extractVariety, varietyCompatible, varietySlug } from './variety.js';
 
 /**
  * Cross-store Canonical Fish matching (see issue #3 and
@@ -65,6 +66,20 @@ import { commonNameSimilarity, tokenize } from './fuzzy-match.js';
  * single-Listing `cf:${storeSlug}:${productIdentifier}` id it always
  * had, in its own distinct namespace so it can be repointed later
  * without disturbing its listingId or any already-written history.
+ *
+ * Variety/color-morph (issue #34, see `variety.ts`): since ADR 0002 was
+ * amended, Canonical Fish identity is species AND variety, not species
+ * alone -- two genuinely different, separately-marketed color morphs of
+ * the same species (e.g. "Albino Cory" vs "Bronze Cory", both nominally
+ * *Corydoras aeneus*) must land on different Canonical Fish entries.
+ * This is folded into both signals above rather than being a fourth,
+ * separate signal: a detected variety is appended to the deterministic
+ * `cf:sci:<slug>` id (`cf:sci:<slug>:<variety>`), so two same-species,
+ * different-variety Listings mint different ids outright; and every
+ * fuzzy common-name comparison (signal 3, including the sci-name rival
+ * check) is additionally gated on `varietyCompatible` before scoring, so
+ * a shared base noun ("Cory", "Medaka") can no longer carry a match
+ * across a variety mismatch the way it used to.
  */
 
 export type MatchStatus = 'override' | 'scientific-name' | 'fuzzy-auto' | 'ambiguous' | 'unmatched';
@@ -84,10 +99,12 @@ export interface MatchResult {
 }
 
 /** A fuzzy-match candidate: one Canonical Fish, represented by every
- * common name any already-known Listing has used for it. */
+ * common name any already-known Listing has used for it, tagged with
+ * which Store contributed it (see `findBestFuzzyCandidate`'s per-name,
+ * not just per-candidate, same-Store exclusion). */
 interface FuzzyCandidate {
   canonicalFishId: string;
-  commonNames: string[];
+  commonNames: { commonName: string; storeSlug: string }[];
 }
 
 export interface MatchContext {
@@ -117,7 +134,35 @@ export const AMBIGUOUS_THRESHOLD = 0.6;
  * whose only Listings are from `storeSlug` itself — fuzzy wording
  * similarity is a cross-store identity heuristic (two sellers describing
  * the same species similarly), not a signal for merging two genuinely
- * different products a single Store happens to word similarly.
+ * different products a single Store happens to word similarly. Each
+ * commonName is also individually tagged with its Store (see
+ * `findBestFuzzyCandidate`): a Canonical Fish id can have cross-store
+ * membership overall while one specific commonName in its history still
+ * came from `storeSlug` itself (most commonly: this exact Listing's own
+ * commonName, from before this run touched it) — that specific name must
+ * not be allowed to fuzzy-match this run's Listing right back onto the id
+ * it's being freshly computed for, which would be comparing a Store's
+ * Listing against itself under a different name.
+ *
+ * Variety-split grouping (issue #34): a `cf:sci:<slug>` id can predate
+ * this fix, or predate every Listing that currently shares it getting a
+ * chance to individually recompute its own id this run, and so can still
+ * carry more than one distinct variety signature in its history --
+ * exactly the historical contamination this issue reports. Nothing
+ * retroactively un-mixes an already-written history file, but new
+ * matching must not keep reinforcing that mix: two same-variety Listings
+ * sharing a contaminated `cf:sci:<slug>` id should still match each other
+ * (that pairing is correct), but must not drag in a third, different-
+ * variety Listing just because all three happen to share the same
+ * underlying id string. So each existing Listing is grouped by
+ * `resolvedGroupId` -- its own commonName's variety folded into its
+ * stored id as a suffix, unless that id already ends in exactly that
+ * suffix -- rather than by the raw stored id. A `cf:sci:<slug>` id with
+ * one clean variety keeps matching as a single group, same as always;
+ * one that has drifted into carrying several splits into one resolved
+ * group per variety on this and future runs, each independently
+ * reachable, until every Listing that contributed to the mix has been
+ * individually reprocessed onto its own resolved id.
  */
 export function buildMatchContext(
   storeSlug: string,
@@ -126,28 +171,31 @@ export function buildMatchContext(
 ): MatchContext {
   const overridesByListingId = new Map(overrides.map((o) => [o.listingId, o.canonicalFishId]));
 
-  const commonNamesById = new Map<string, Set<string>>();
+  const namesById = new Map<string, Map<string, { commonName: string; storeSlug: string }>>();
   const storeSlugsById = new Map<string, Set<string>>();
   for (const listing of existingListings) {
-    if (!commonNamesById.has(listing.canonicalFishId)) {
-      commonNamesById.set(listing.canonicalFishId, new Set());
-      storeSlugsById.set(listing.canonicalFishId, new Set());
+    const groupId = resolvedGroupId(listing.canonicalFishId, extractVariety(listing.commonName));
+    if (!namesById.has(groupId)) {
+      namesById.set(groupId, new Map());
+      storeSlugsById.set(groupId, new Set());
     }
-    commonNamesById.get(listing.canonicalFishId)!.add(listing.commonName);
-    storeSlugsById.get(listing.canonicalFishId)!.add(listing.storeSlug);
+    namesById
+      .get(groupId)!
+      .set(`${listing.storeSlug} ${listing.commonName}`, { commonName: listing.commonName, storeSlug: listing.storeSlug });
+    storeSlugsById.get(groupId)!.add(listing.storeSlug);
   }
 
   const candidatesByToken = new Map<string, FuzzyCandidate[]>();
   const candidateIds = new Set<string>();
-  for (const [canonicalFishId, commonNames] of commonNamesById) {
+  for (const [canonicalFishId, names] of namesById) {
     const storeSlugs = storeSlugsById.get(canonicalFishId)!;
     const isCrossStoreCandidate = [...storeSlugs].some((slug) => slug !== storeSlug);
     if (!isCrossStoreCandidate) {
       continue;
     }
     candidateIds.add(canonicalFishId);
-    const candidate: FuzzyCandidate = { canonicalFishId, commonNames: [...commonNames] };
-    const tokens = new Set(candidate.commonNames.flatMap(tokenize));
+    const candidate: FuzzyCandidate = { canonicalFishId, commonNames: [...names.values()] };
+    const tokens = new Set(candidate.commonNames.flatMap(({ commonName }) => tokenize(commonName)));
     for (const token of tokens) {
       const list = candidatesByToken.get(token) ?? [];
       list.push(candidate);
@@ -158,6 +206,22 @@ export function buildMatchContext(
   return { storeSlug, overridesByListingId, candidatesByToken, candidateIds };
 }
 
+/**
+ * Folds `variety` into `rawId` as a suffix, unless `rawId` already ends
+ * in exactly that suffix or `variety` is empty -- see the variety-split
+ * grouping note in `buildMatchContext`'s doc. Scoped to the `cf:sci:`
+ * namespace only: a trivial `cf:<store>:<productIdentifier>` id is
+ * already maximally specific (one Listing) and never needs a suffix
+ * synthesized onto it.
+ */
+function resolvedGroupId(rawId: string, variety: string[]): string {
+  if (variety.length === 0 || !rawId.startsWith('cf:sci:')) {
+    return rawId;
+  }
+  const suffix = `:${varietySlug(variety)}`;
+  return rawId.endsWith(suffix) ? rawId : `${rawId}${suffix}`;
+}
+
 export function matchCanonicalFish(
   parsed: { productIdentifier: string; commonName: string; description: string },
   context: MatchContext
@@ -166,14 +230,16 @@ export function matchCanonicalFish(
   const listingId = `${storeSlug}:${parsed.productIdentifier}`;
   const trivialCanonicalFishId = `cf:${listingId}`;
   const scientificName = extractScientificName(parsed);
-  const sciCanonicalFishId = scientificName ? `cf:sci:${scientificNameSlug(scientificName)}` : null;
+  const variety = extractVariety(parsed.commonName);
+  const varietySuffix = variety.length > 0 ? `:${varietySlug(variety)}` : '';
+  const sciCanonicalFishId = scientificName ? `cf:sci:${scientificNameSlug(scientificName)}${varietySuffix}` : null;
 
   const override = context.overridesByListingId.get(listingId);
   if (override) {
     return { canonicalFishId: override, status: 'override', scientificName };
   }
 
-  const best = findBestFuzzyCandidate(parsed.commonName, context);
+  const best = findBestFuzzyCandidate(parsed.commonName, variety, context);
 
   if (sciCanonicalFishId) {
     // Only defer to a fuzzy rival when this Listing's own scientific-name
@@ -197,7 +263,7 @@ export function matchCanonicalFish(
         scientificName,
         ambiguousCandidate: {
           canonicalFishId: rival.candidate.canonicalFishId,
-          commonName: rival.candidate.commonNames[0],
+          commonName: rival.candidate.commonNames[0].commonName,
           score: rival.score,
         },
       };
@@ -217,7 +283,7 @@ export function matchCanonicalFish(
       scientificName: null,
       ambiguousCandidate: {
         canonicalFishId: best.candidate.canonicalFishId,
-        commonName: best.candidate.commonNames[0],
+        commonName: best.candidate.commonNames[0].commonName,
         score: best.score,
       },
     };
@@ -226,8 +292,29 @@ export function matchCanonicalFish(
   return { canonicalFishId: trivialCanonicalFishId, status: 'unmatched', scientificName: null };
 }
 
+/**
+ * Finds the best-scoring fuzzy candidate for `commonName`, gated two
+ * ways before a name is allowed to contribute to a candidate's score:
+ *
+ *   1. Same-Store exclusion: a commonName sourced from `context.storeSlug`
+ *      itself is skipped, even inside an otherwise-legitimate cross-store
+ *      candidate. Without this, a Listing being freshly (re)matched this
+ *      run can fuzzy-match its own prior-run commonName (identical text,
+ *      score 1.0) sitting in the pool from before this run started,
+ *      perpetually re-anchoring it to whatever id it already had instead
+ *      of letting it land on a freshly-computed one.
+ *   2. Variety compatibility (issue #34): a name only contributes when
+ *      its own detected variety is compatible with `variety` (see
+ *      `varietyCompatible` in `variety.ts`). A candidate with every name
+ *      excluded by either gate is skipped entirely -- it is not merely
+ *      scored at 0, which would still let it lose to an even-worse-but-
+ *      eligible rival; it simply isn't a candidate for this Listing. This
+ *      is what stops a shared base noun ("Cory", "Medaka") from carrying
+ *      a fuzzy match across a genuine color/variety mismatch.
+ */
 function findBestFuzzyCandidate(
   commonName: string,
+  variety: string[],
   context: MatchContext
 ): { candidate: FuzzyCandidate; score: number } | undefined {
   const seen = new Set<string>();
@@ -243,7 +330,14 @@ function findBestFuzzyCandidate(
         continue;
       }
       seen.add(candidate.canonicalFishId);
-      const score = Math.max(...candidate.commonNames.map((name) => commonNameSimilarity(commonName, name)));
+      const eligibleScores = candidate.commonNames
+        .filter((name) => name.storeSlug !== context.storeSlug)
+        .filter((name) => varietyCompatible(variety, extractVariety(name.commonName)))
+        .map((name) => commonNameSimilarity(commonName, name.commonName));
+      if (eligibleScores.length === 0) {
+        continue;
+      }
+      const score = Math.max(...eligibleScores);
       if (!best || score > best.score) {
         best = { candidate, score };
       }

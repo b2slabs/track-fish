@@ -13,7 +13,7 @@ A single product entry as it appears on one Store — tied to that store's own p
 _Avoid_: Product, item, SKU.
 
 **Canonical Fish**:
-The cross-store identity that groups together every Listing believed to represent the same species, enabling price comparison across Stores.
+The cross-store identity that groups together every Listing believed to represent the same species and variety/color-morph, enabling price comparison across Stores. Two Listings of the same species but a different named variety (e.g. "Albino Cory" vs "Bronze Cory") are different Canonical Fish; size/count/sourcing wording ("School of 6", "Tank-Bred") is not part of identity (see `docs/adr/0004-variety-is-part-of-canonical-fish-identity.md`).
 _Avoid_: Species, product group, fish record.
 
 **Scrape Run**:

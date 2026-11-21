@@ -115,7 +115,9 @@ test('second run with a real price change and a restock: those Listings get Chan
     assert.equal(loachHistory.events[1].available, true);
 
     // Unaffected listings got Heartbeats, not Change Events.
-    const goodeidHistory = readHistoryFile(dataDir, 'cf:sci:ataeniobius-toweri') as CanonicalFishHistory;
+    // "Blue Tail Goodeid" carries a detected "blue" variety (issue #34),
+    // so its id is suffixed accordingly.
+    const goodeidHistory = readHistoryFile(dataDir, 'cf:sci:ataeniobius-toweri:blue') as CanonicalFishHistory;
     assert.equal(goodeidHistory.events[1].type, 'heartbeat');
   });
 });
