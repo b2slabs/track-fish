@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pseudochromis-sp",
-  "commonName": "Rainbow Dottyback",
+  "commonName": "Red Spot Dottyback",
   "scientificName": "Pseudochromis sp.",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Rainbow Dottyback"
+    },
+    {
+      "listingId": "aquarium-fish:68660264985",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Red Spot Dottyback"
     }
   ],
   "events": [
@@ -32,6 +38,26 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 124.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "631577149465",
+          "label": "Title",
+          "price": 124.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:68660264985",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T17:33:47.733Z",
       "price": 53.59,
       "currency": "USD",
@@ -49,6 +75,23 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 124.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "631577149465",
+          "label": "Title",
+          "price": 124.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:68660264985",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:18.881Z",
       "price": 53.59,
       "currency": "USD",
@@ -63,6 +106,57 @@
       ],
       "type": "heartbeat",
       "listingId": "aquarium-fish:9978072564011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 124.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "631577149465",
+          "label": "Title",
+          "price": 124.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:68660264985",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 53.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50540681330987",
+          "label": "EACH",
+          "price": 53.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9978072564011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 124.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "631577149465",
+          "label": "Title",
+          "price": 124.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:68660264985",
       "storeSlug": "aquarium-fish"
     }
   ]

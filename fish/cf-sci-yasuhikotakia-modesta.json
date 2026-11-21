@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:yasuhikotakia-modesta",
-  "commonName": "Blue Botia",
+  "commonName": "Red Tail Loach",
   "scientificName": "Yasuhikotakia modesta",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Blue Botia"
+    },
+    {
+      "listingId": "aquarium-fish:6203100550",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Red Tail Loach"
     }
   ],
   "events": [
@@ -113,6 +119,26 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19642776518",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6203100550",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T17:33:23.452Z",
       "price": 29.99,
       "currency": "USD",
@@ -134,6 +160,23 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7281714069713",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19642776518",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6203100550",
+      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-21T01:29:05.027Z",
@@ -159,6 +202,23 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19642776518",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6203100550",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:44.090Z",
       "price": 19.99,
       "currency": "USD",
@@ -177,6 +237,46 @@
       ],
       "listingId": "nu-aqua-shop:10006355181884",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:25.006Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41635108978897",
+          "label": "3-4”",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "41838214709457",
+          "label": "4-5”",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7281714069713",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19642776518",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6203100550",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

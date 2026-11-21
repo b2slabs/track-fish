@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:microctenopoma-ansorgii",
-  "commonName": "Ornate Ctenopoma",
+  "commonName": "Ornate Bushfish",
   "scientificName": "Microctenopoma ansorgii",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Ornate Ctenopoma"
+    },
+    {
+      "listingId": "imperial-tropicals:8398131659059",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Ornate Bushfish"
     }
   ],
   "events": [
@@ -38,6 +44,26 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612176933171",
+          "label": "1\" Unsexed",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398131659059",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-20T17:33:50.975Z",
       "price": 14.99,
       "currency": "USD",
@@ -55,6 +81,23 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-20T17:33:50.975Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612176933171",
+          "label": "1\" Unsexed",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398131659059",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-21T01:29:20.687Z",
       "price": 14.99,
       "currency": "USD",
@@ -69,6 +112,23 @@
       ],
       "type": "heartbeat",
       "listingId": "imperial-tropicals:10062049411379",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612176933171",
+          "label": "1\" Unsexed",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398131659059",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -90,6 +150,40 @@
       ],
       "listingId": "nu-aqua-shop:10006318645564",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:07.776Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52985869140275",
+          "label": "1-2\" Unsexed",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:10062049411379",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:07.776Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612176933171",
+          "label": "1\" Unsexed",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398131659059",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pantodon-buchholzi",
-  "commonName": "African butterfly(Pantodon buchholzi)",
+  "commonName": "African Butterflyfish",
   "scientificName": "Pantodon buchholzi",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "African butterfly(Pantodon buchholzi)"
+    },
+    {
+      "listingId": "aquarium-fish:6096696454",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "African Butterflyfish"
     }
   ],
   "events": [
@@ -295,6 +301,26 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19293975686",
+          "label": "Medium",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6096696454",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T17:33:09.827Z",
       "price": 14.99,
       "currency": "USD",
@@ -341,6 +367,23 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19293975686",
+          "label": "Medium",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6096696454",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:28:57.087Z",
       "price": 14.99,
       "currency": "USD",
@@ -385,6 +428,86 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7092339605713",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19293975686",
+          "label": "Medium",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6096696454",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:03.149Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39749169152086",
+          "label": "1 Fish",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "39749169184854",
+          "label": "3 Fish",
+          "price": 41.99,
+          "available": false
+        },
+        {
+          "id": "39749169217622",
+          "label": "6 FIsh",
+          "price": 77.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6719918309462",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:25.006Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41187398484177",
+          "label": "1.5-2\"",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7092339605713",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19293975686",
+          "label": "Medium",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6096696454",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

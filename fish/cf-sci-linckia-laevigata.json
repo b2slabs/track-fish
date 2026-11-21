@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:linckia-laevigata",
-  "commonName": "Orange Linckia Starfish",
+  "commonName": "Blue Linckia Starfish",
   "scientificName": "Linckia laevigata",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Orange Linckia Starfish"
+    },
+    {
+      "listingId": "aquarium-fish:9293823052",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Blue Linckia Starfish"
     }
   ],
   "events": [
@@ -38,6 +44,32 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 36.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267643617361",
+          "label": "Medium (4-5\")",
+          "price": 36.79,
+          "available": true
+        },
+        {
+          "id": "51422134010155",
+          "label": "Large (5-8\")",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:9293823052",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T17:33:47.733Z",
       "price": 66.99,
       "currency": "USD",
@@ -58,6 +90,29 @@
       ],
       "type": "heartbeat",
       "listingId": "aquarium-fish:1532013051974",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 36.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267643617361",
+          "label": "Medium (4-5\")",
+          "price": 36.79,
+          "available": true
+        },
+        {
+          "id": "51422134010155",
+          "label": "Large (5-8\")",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9293823052",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -85,6 +140,79 @@
         "variants"
       ],
       "listingId": "aquarium-fish:1532013051974",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 31.27,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267643617361",
+          "label": "Medium (4-5\")",
+          "price": 31.27,
+          "available": true
+        },
+        {
+          "id": "51422134010155",
+          "label": "Large (5-8\")",
+          "price": 38.24,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:9293823052",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 56.94,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267634245713",
+          "label": "Medium (4-5\")",
+          "price": 56.94,
+          "available": true
+        },
+        {
+          "id": "51377976443179",
+          "label": "Large (3.5-4.5\")",
+          "price": 61.87,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1532013051974",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 31.27,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267643617361",
+          "label": "Medium (4-5\")",
+          "price": 31.27,
+          "available": true
+        },
+        {
+          "id": "51422134010155",
+          "label": "Large (5-8\")",
+          "price": 38.24,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9293823052",
       "storeSlug": "aquarium-fish"
     }
   ]

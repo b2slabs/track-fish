@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:apistogramma-trifasciata-common",
-  "commonName": "Apistogramma Trifasciata PAIR",
+  "commonName": "Apistogramma trifasciata",
   "scientificName": "Apistogramma trifasciata common",
   "listings": [
     {
@@ -14,9 +14,52 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Apistogramma Trifasciata PAIR"
+    },
+    {
+      "listingId": "aquahuna:6829148143691",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Apistogramma Trifasciatum"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 22,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40007728136267",
+          "label": "Title",
+          "price": 22,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:6829148143691",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 22,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40007728136267",
+          "label": "Title",
+          "price": 22,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6829148143691",
+      "storeSlug": "aquahuna"
+    },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 29.99,
@@ -50,6 +93,23 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-20T17:33:27.861Z",
+      "price": 22,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40007728136267",
+          "label": "Title",
+          "price": 22,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6829148143691",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-20T17:33:50.975Z",
       "price": 29.99,
       "currency": "USD",
@@ -77,6 +137,23 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8303244017971",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 22,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40007728136267",
+          "label": "Title",
+          "price": 22,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6829148143691",
+      "storeSlug": "aquahuna"
     },
     {
       "observedAt": "2026-11-21T01:29:20.687Z",
@@ -126,6 +203,52 @@
       ],
       "listingId": "nu-aqua-shop:10006354329916",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:31.959Z",
+      "price": 22,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40007728136267",
+          "label": "Title",
+          "price": 22,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6829148143691",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:07.776Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45224040726835",
+          "label": "0.75-1\" Unsexed",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "45224040759603",
+          "label": "0.75-1\" ATTEMPTED MALE",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "45224040792371",
+          "label": "0.75-1\" ATTEMPTED FEMALE",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8303244017971",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

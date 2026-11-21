@@ -4,12 +4,6 @@
   "scientificName": "Apteronotus albifrons",
   "listings": [
     {
-      "listingId": "aquatic-arts:4189603922006",
-      "storeSlug": "aquatic-arts",
-      "storeName": "Aquatic Arts",
-      "commonName": "Black Ghost Knifefish (Apteronotus albifrons) - Tank-Bred!"
-    },
-    {
       "listingId": "monster-aquarium:6974859182289",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
@@ -20,80 +14,15 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Black Ghost Knife (Apteronotus albifrons)"
+    },
+    {
+      "listingId": "aquahuna:4112860446763",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Black Ghost Knife"
     }
   ],
   "events": [
-    {
-      "observedAt": "2026-11-20T05:43:01.800Z",
-      "price": 19.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "30493786177622",
-          "label": "1 Juvenile",
-          "price": 19.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquatic-arts:4189603922006",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T05:43:08.947Z",
-      "price": 19.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "30493786177622",
-          "label": "1 Juvenile",
-          "price": 19.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4189603922006",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T05:52:13.926Z",
-      "price": 19.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "30493786177622",
-          "label": "1 Juvenile",
-          "price": 19.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4189603922006",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:02:13.577Z",
-      "price": 19.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "30493786177622",
-          "label": "1 Juvenile",
-          "price": 19.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4189603922006",
-      "storeSlug": "aquatic-arts"
-    },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 15,
@@ -127,23 +56,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-20T06:03:57.585Z",
-      "price": 19.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "30493786177622",
-          "label": "1 Juvenile",
-          "price": 19.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4189603922006",
-      "storeSlug": "aquatic-arts"
-    },
-    {
       "observedAt": "2026-11-20T06:03:59.400Z",
       "price": 15,
       "currency": "USD",
@@ -171,23 +83,6 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:6974859182289",
       "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-20T06:14:39.803Z",
-      "price": 19.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "30493786177622",
-          "label": "1 Juvenile",
-          "price": 19.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4189603922006",
-      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T06:14:41.736Z",
@@ -219,21 +114,24 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-20T06:27:34.315Z",
-      "price": 19.99,
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 20,
       "currency": "USD",
-      "available": false,
+      "available": true,
       "variants": [
         {
-          "id": "30493786177622",
-          "label": "1 Juvenile",
-          "price": 19.99,
-          "available": false
+          "id": "30182192185387",
+          "label": "Title",
+          "price": 20,
+          "available": true
         }
       ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4189603922006",
-      "storeSlug": "aquatic-arts"
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:4112860446763",
+      "storeSlug": "aquahuna"
     },
     {
       "observedAt": "2026-11-20T06:27:37.184Z",
@@ -265,6 +163,23 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 20,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "30182192185387",
+          "label": "Title",
+          "price": 20,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4112860446763",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 19.99,
       "currency": "USD",
@@ -283,23 +198,6 @@
       ],
       "listingId": "imperial-tropicals:8398108950835",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:09.827Z",
-      "price": 19.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "30493786177622",
-          "label": "1 Juvenile",
-          "price": 19.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4189603922006",
-      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-20T17:33:23.452Z",
@@ -331,6 +229,23 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T17:33:27.861Z",
+      "price": 20,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "30182192185387",
+          "label": "Title",
+          "price": 20,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4112860446763",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-20T17:33:50.975Z",
       "price": 19.99,
       "currency": "USD",
@@ -346,23 +261,6 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8398108950835",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-21T01:28:57.087Z",
-      "price": 19.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "30493786177622",
-          "label": "1 Juvenile",
-          "price": 19.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquatic-arts:4189603922006",
-      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-21T01:29:05.027Z",
@@ -394,7 +292,87 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 20,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "30182192185387",
+          "label": "Title",
+          "price": 20,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4112860446763",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612126961971",
+          "label": "3-4\" Unsexed",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398108950835",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:25.006Z",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40865446396113",
+          "label": "3-4”",
+          "price": 15,
+          "available": true
+        },
+        {
+          "id": "41344889815249",
+          "label": "5-6”",
+          "price": 35,
+          "available": false
+        },
+        {
+          "id": "41922801598673",
+          "label": "8-10”",
+          "price": 115,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6974859182289",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:31.959Z",
+      "price": 20,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "30182192185387",
+          "label": "Title",
+          "price": 20,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4112860446763",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:07.776Z",
       "price": 19.99,
       "currency": "USD",
       "available": false,

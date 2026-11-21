@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:crossocheilus-oblongus",
-  "commonName": "Siamese Algae Eater (Crossocheilus oblongus)",
+  "commonName": "Siamese algae eater (Crossocheilus oblongus) SAE",
   "scientificName": "Crossocheilus oblongus",
   "listings": [
     {
@@ -8,12 +8,6 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Siamese algae eater (Crossocheilus oblongus) SAE"
-    },
-    {
-      "listingId": "imperial-tropicals:8398117404979",
-      "storeSlug": "imperial-tropicals",
-      "storeName": "Imperial Tropicals",
-      "commonName": "Siamese Algae Eater (Crossocheilus oblongus)"
     }
   ],
   "events": [
@@ -113,38 +107,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-20T06:27:43.785Z",
-      "price": 14.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "53573976260915",
-          "label": "0.5-1\" Unsexed",
-          "price": 6.99,
-          "available": false
-        },
-        {
-          "id": "45612142395699",
-          "label": "1-2\" Unsexed",
-          "price": 9.99,
-          "available": false
-        },
-        {
-          "id": "45612142428467",
-          "label": "2-3” Unsexed",
-          "price": 14.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "imperial-tropicals:8398117404979",
-      "storeSlug": "imperial-tropicals"
-    },
-    {
       "observedAt": "2026-11-20T17:33:23.452Z",
       "price": 5,
       "currency": "USD",
@@ -166,35 +128,6 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:6995394396369",
       "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:50.975Z",
-      "price": 14.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "53573976260915",
-          "label": "0.5-1\" Unsexed",
-          "price": 6.99,
-          "available": false
-        },
-        {
-          "id": "45612142395699",
-          "label": "1-2\" Unsexed",
-          "price": 9.99,
-          "available": false
-        },
-        {
-          "id": "45612142428467",
-          "label": "2-3” Unsexed",
-          "price": 14.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398117404979",
-      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-21T01:29:05.027Z",
@@ -220,33 +153,27 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-21T01:29:20.687Z",
-      "price": 14.99,
+      "observedAt": "2026-11-21T01:30:25.006Z",
+      "price": 5,
       "currency": "USD",
       "available": true,
       "variants": [
         {
-          "id": "53573976260915",
-          "label": "0.5-1\" Unsexed",
-          "price": 6.99,
-          "available": false
-        },
-        {
-          "id": "45612142395699",
-          "label": "1-2\" Unsexed",
-          "price": 9.99,
-          "available": false
-        },
-        {
-          "id": "45612142428467",
-          "label": "2-3” Unsexed",
-          "price": 14.99,
+          "id": "41607762542801",
+          "label": "1-2”",
+          "price": 5,
           "available": true
+        },
+        {
+          "id": "40921979486417",
+          "label": "2-3\"",
+          "price": 12,
+          "available": false
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398117404979",
-      "storeSlug": "imperial-tropicals"
+      "listingId": "monster-aquarium:6995394396369",
+      "storeSlug": "monster-aquarium"
     }
   ]
 }

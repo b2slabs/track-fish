@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:apistogramma-agassizii",
-  "commonName": "Apistogramma Agassizi Double Red (Pair)",
+  "commonName": "Fire RED Dwarf Cichlid (Apistogramma agassizii) - Tank Bred",
   "scientificName": "Apistogramma agassizii",
   "listings": [
     {
@@ -14,18 +14,6 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Fire RED Dwarf Cichlid (Apistogramma agassizii) - Tank Bred"
-    },
-    {
-      "listingId": "aquarium-fish:9401782862123",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Apistogramma Agassizi Double Red - Male"
-    },
-    {
-      "listingId": "aquarium-fish:5923989702",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Apistogramma Agassizi Double Red (Pair)"
     }
   ],
   "events": [
@@ -94,46 +82,6 @@
       "storeSlug": "shrimpy-business"
     },
     {
-      "observedAt": "2026-11-20T06:27:42.901Z",
-      "price": 25.49,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48927681315115",
-          "label": "Title",
-          "price": 25.49,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquarium-fish:9401782862123",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:42.901Z",
-      "price": 39.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "18726441606",
-          "label": "Title",
-          "price": 39.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquarium-fish:5923989702",
-      "storeSlug": "aquarium-fish"
-    },
-    {
       "observedAt": "2026-11-20T17:33:33.576Z",
       "price": 14.95,
       "currency": "USD",
@@ -190,40 +138,6 @@
       "type": "heartbeat",
       "listingId": "shrimpy-business:9914070958370",
       "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:47.733Z",
-      "price": 25.49,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48927681315115",
-          "label": "Title",
-          "price": 25.49,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquarium-fish:9401782862123",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:47.733Z",
-      "price": 39.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "18726441606",
-          "label": "Title",
-          "price": 39.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquarium-fish:5923989702",
-      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-21T01:29:10.831Z",
@@ -284,38 +198,62 @@
       "storeSlug": "shrimpy-business"
     },
     {
-      "observedAt": "2026-11-21T01:29:18.881Z",
-      "price": 25.49,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48927681315115",
-          "label": "Title",
-          "price": 25.49,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquarium-fish:9401782862123",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:18.881Z",
-      "price": 39.99,
+      "observedAt": "2026-11-21T01:30:42.479Z",
+      "price": 14.95,
       "currency": "USD",
       "available": false,
       "variants": [
         {
-          "id": "18726441606",
-          "label": "Title",
-          "price": 39.99,
+          "id": "52405225554210",
+          "label": "1 Fish",
+          "price": 14.95,
+          "available": false
+        },
+        {
+          "id": "52405225586978",
+          "label": "2 Fish",
+          "price": 25.95,
+          "available": false
+        },
+        {
+          "id": "52405225619746",
+          "label": "4 Fish",
+          "price": 49.95,
+          "available": false
+        },
+        {
+          "id": "52405225652514",
+          "label": "8 Fish",
+          "price": 94.95,
           "available": false
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:5923989702",
-      "storeSlug": "aquarium-fish"
+      "listingId": "shrimpy-business:10467849503010",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:42.479Z",
+      "price": 16.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50527090278690",
+          "label": "Male",
+          "price": 16.5,
+          "available": false
+        },
+        {
+          "id": "50527090311458",
+          "label": "Female",
+          "price": 16.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9914070958370",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

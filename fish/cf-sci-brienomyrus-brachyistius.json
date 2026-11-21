@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:brienomyrus-brachyistius",
-  "commonName": "African baby whale fish ( Brienomyrus brachyistius )",
+  "commonName": "Baby Whale Fish",
   "scientificName": "Brienomyrus brachyistius",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "African baby whale fish ( Brienomyrus brachyistius )"
+    },
+    {
+      "listingId": "aquarium-fish:6096735558",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Baby Whale Fish"
     }
   ],
   "events": [
@@ -83,6 +89,26 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39310482833489",
+          "label": "Title",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6096735558",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T17:33:23.452Z",
       "price": 19.99,
       "currency": "USD",
@@ -100,6 +126,23 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39310482833489",
+          "label": "Title",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6096735558",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:05.027Z",
       "price": 19.99,
       "currency": "USD",
@@ -115,6 +158,57 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7335922368721",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39310482833489",
+          "label": "Title",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6096735558",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:25.006Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41878152380625",
+          "label": "3”",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7335922368721",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39310482833489",
+          "label": "Title",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6096735558",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

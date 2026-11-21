@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:farlowella-acus",
-  "commonName": "Farlowella Catfish (Farlowella acus)",
+  "commonName": "Farlowella Long Nose Catfish",
   "scientificName": "Farlowella acus",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Farlowella Catfish (Farlowella acus)"
+    },
+    {
+      "listingId": "aquarium-fish:11007505868",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Farlowella Long Nose Catfish"
     }
   ],
   "events": [
@@ -83,6 +89,26 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41344927628",
+          "label": "Title",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:11007505868",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T17:33:23.452Z",
       "price": 12,
       "currency": "USD",
@@ -100,6 +126,23 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41344927628",
+          "label": "Title",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:11007505868",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:05.027Z",
       "price": 12,
       "currency": "USD",
@@ -115,6 +158,57 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7541526167761",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41344927628",
+          "label": "Title",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:11007505868",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:25.006Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42429809688785",
+          "label": "4-5”",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7541526167761",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41344927628",
+          "label": "Title",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:11007505868",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

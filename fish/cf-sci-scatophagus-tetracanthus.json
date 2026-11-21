@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:scatophagus-tetracanthus",
-  "commonName": "Tiger Scats (Scatophagus tetracanthus)",
+  "commonName": "African Tiger Scat",
   "scientificName": "Scatophagus tetracanthus",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Tiger Scats (Scatophagus tetracanthus)"
+    },
+    {
+      "listingId": "aquarium-fish:9844868809003",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "African Tiger Scat"
     }
   ],
   "events": [
@@ -107,6 +113,26 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50103836016939",
+          "label": "Title",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:9844868809003",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T17:33:23.452Z",
       "price": 64.99,
       "currency": "USD",
@@ -130,6 +156,23 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50103836016939",
+          "label": "Title",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9844868809003",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:05.027Z",
       "price": 64.99,
       "currency": "USD",
@@ -151,6 +194,63 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:6970032029905",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50103836016939",
+          "label": "Title",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9844868809003",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:25.006Z",
+      "price": 64.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42203296432337",
+          "label": "2.5-3”",
+          "price": 64.99,
+          "available": false
+        },
+        {
+          "id": "40853710635217",
+          "label": "3-4\"",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6970032029905",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50103836016939",
+          "label": "Title",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9844868809003",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

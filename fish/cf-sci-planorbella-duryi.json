@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:planorbella-duryi",
-  "commonName": "Ramshorn Snail",
+  "commonName": "Ramshorn Snails",
   "scientificName": "Planorbella duryi",
   "listings": [
     {
@@ -14,9 +14,69 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Ramshorn Snail"
+    },
+    {
+      "listingId": "buce-plant:8324769349832",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Ramshorn Snails"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45125107318984",
+          "label": "Title",
+          "price": 15.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8324769349832",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45125107318984",
+          "label": "Title",
+          "price": 15.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8324769349832",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45125107318984",
+          "label": "Title",
+          "price": 15.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8324769349832",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-21T01:29:44.090Z",
       "price": 3.99,
@@ -62,6 +122,23 @@
       ],
       "listingId": "nu-aqua-shop:10006359540028",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45125107318984",
+          "label": "Title",
+          "price": 15.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8324769349832",
+      "storeSlug": "buce-plant"
     }
   ]
 }

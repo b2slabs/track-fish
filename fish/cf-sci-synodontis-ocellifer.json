@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:synodontis-ocellifer",
-  "commonName": "Ocellifer Synodontis Catfish (Synodontis ocellifer)",
+  "commonName": "Synodontis ocellifer",
   "scientificName": "Synodontis ocellifer",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Ocellifer Synodontis Catfish (Synodontis ocellifer)"
+    },
+    {
+      "listingId": "imperial-tropicals:8398024704307",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Synodontis ocellifer"
     }
   ],
   "events": [
@@ -83,6 +89,26 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611846402355",
+          "label": "3-4\" Unsexed",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398024704307",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-20T17:33:23.452Z",
       "price": 19.99,
       "currency": "USD",
@@ -100,6 +126,23 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T17:33:50.975Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611846402355",
+          "label": "3-4\" Unsexed",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398024704307",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-21T01:29:05.027Z",
       "price": 19.99,
       "currency": "USD",
@@ -115,6 +158,57 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7208996700369",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611846402355",
+          "label": "3-4\" Unsexed",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398024704307",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:25.006Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41472676593873",
+          "label": "2-3\"",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7208996700369",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:07.776Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611846402355",
+          "label": "3-4\" Unsexed",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398024704307",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:corydoras-metae",
-  "commonName": "Melni Cory",
+  "commonName": "Bandit Cory",
   "scientificName": "Corydoras metae",
   "listings": [
     {
@@ -14,6 +14,18 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Melni Cory"
+    },
+    {
+      "listingId": "aquahuna:6980948000843",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Corydoras metae"
+    },
+    {
+      "listingId": "aquarium-fish:6319213894",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Bandit Cory"
     }
   ],
   "events": [
@@ -159,6 +171,26 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40447922470987",
+          "label": "Title",
+          "price": 8,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:6980948000843",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-20T06:27:34.315Z",
       "price": 49.99,
       "currency": "USD",
@@ -180,6 +212,49 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:4001875263574",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40447922470987",
+          "label": "Title",
+          "price": 8,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6980948000843",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51428224958763",
+          "label": "Each",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "51428224991531",
+          "label": "Gang of 3",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6319213894",
+      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-20T17:33:09.827Z",
@@ -205,6 +280,46 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T17:33:27.861Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40447922470987",
+          "label": "Title",
+          "price": 8,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6980948000843",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51428224958763",
+          "label": "Each",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "51428224991531",
+          "label": "Gang of 3",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6319213894",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:28:57.087Z",
       "price": 49.99,
       "currency": "USD",
@@ -228,6 +343,46 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40447922470987",
+          "label": "Title",
+          "price": 8,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6980948000843",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51428224958763",
+          "label": "Each",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "51428224991531",
+          "label": "Gang of 3",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6319213894",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:44.090Z",
       "price": 9.99,
       "currency": "USD",
@@ -246,6 +401,69 @@
       ],
       "listingId": "nu-aqua-shop:15501386383676",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:03.149Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53221633458543",
+          "label": "School of 3 (Locally Bred)",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "53221633491311",
+          "label": "School of 6 (Locally Bred)",
+          "price": 92.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4001875263574",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:31.959Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40447922470987",
+          "label": "Title",
+          "price": 8,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6980948000843",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51428224958763",
+          "label": "Each",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "51428224991531",
+          "label": "Gang of 3",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6319213894",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

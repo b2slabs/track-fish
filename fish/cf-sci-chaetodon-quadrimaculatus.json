@@ -8,6 +8,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Four Spot Butterflyfish"
+    },
+    {
+      "listingId": "aquarium-fish:11193316172",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Four Spot Butterflyfish"
     }
   ],
   "events": [
@@ -62,6 +68,26 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 144.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267641421905",
+          "label": "Medium",
+          "price": 144.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:11193316172",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T17:33:47.733Z",
       "price": 86.29,
       "currency": "USD",
@@ -109,6 +135,23 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 144.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267641421905",
+          "label": "Medium",
+          "price": 144.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:11193316172",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:18.881Z",
       "price": 86.29,
       "currency": "USD",
@@ -153,6 +196,87 @@
       ],
       "type": "heartbeat",
       "listingId": "aquarium-fish:9972667023659",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 144.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267641421905",
+          "label": "Medium",
+          "price": 144.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:11193316172",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 86.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50521353584939",
+          "label": "S",
+          "price": 86.29,
+          "available": false
+        },
+        {
+          "id": "50521353617707",
+          "label": "SM",
+          "price": 105.79,
+          "available": false
+        },
+        {
+          "id": "50521353650475",
+          "label": "M",
+          "price": 127.99,
+          "available": false
+        },
+        {
+          "id": "50521353683243",
+          "label": "ML",
+          "price": 141.99,
+          "available": false
+        },
+        {
+          "id": "50521353716011",
+          "label": "L",
+          "price": 157.79,
+          "available": false
+        },
+        {
+          "id": "50521353748779",
+          "label": "XL",
+          "price": 161.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9972667023659",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 144.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267641421905",
+          "label": "Medium",
+          "price": 144.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:11193316172",
       "storeSlug": "aquarium-fish"
     }
   ]

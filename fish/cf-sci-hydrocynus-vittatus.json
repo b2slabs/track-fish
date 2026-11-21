@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hydrocynus-vittatus",
-  "commonName": "Vittatus Tiger Fish (Hydrocynus vittatus)",
+  "commonName": "Tigerfish Vittatus",
   "scientificName": "Hydrocynus vittatus",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Vittatus Tiger Fish (Hydrocynus vittatus)"
+    },
+    {
+      "listingId": "aquarium-fish:6096790470",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Tigerfish Vittatus"
     }
   ],
   "events": [
@@ -131,6 +137,26 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 170.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19294245958",
+          "label": "Medium",
+          "price": 170.29,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6096790470",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T17:33:23.452Z",
       "price": 109.99,
       "currency": "USD",
@@ -160,6 +186,23 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 170.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19294245958",
+          "label": "Medium",
+          "price": 170.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6096790470",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:05.027Z",
       "price": 109.99,
       "currency": "USD",
@@ -187,6 +230,69 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:6966784753873",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 170.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19294245958",
+          "label": "Medium",
+          "price": 170.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6096790470",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:25.006Z",
+      "price": 109.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41413475401937",
+          "label": "3.5-4.5\"",
+          "price": 109.99,
+          "available": false
+        },
+        {
+          "id": "40847435694289",
+          "label": "5-6”",
+          "price": 149,
+          "available": false
+        },
+        {
+          "id": "41050364412113",
+          "label": "7-8”",
+          "price": 249.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6966784753873",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 170.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19294245958",
+          "label": "Medium",
+          "price": 170.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6096790470",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

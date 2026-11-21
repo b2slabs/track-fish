@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hymenochirus-boettgeri",
-  "commonName": "African Dwarf Frog (Hymenochirus boettgeri)",
+  "commonName": "Blond Dwarf Frog",
   "scientificName": "Hymenochirus boettgeri",
   "listings": [
     {
@@ -8,12 +8,6 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "African Dwarf Frog | Hymenochirus Boettgeri"
-    },
-    {
-      "listingId": "imperial-tropicals:8398104428851",
-      "storeSlug": "imperial-tropicals",
-      "storeName": "Imperial Tropicals",
-      "commonName": "African Dwarf Frog (Hymenochirus boettgeri)"
     },
     {
       "listingId": "flip-aquatics:7488184909926",
@@ -26,6 +20,18 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Platinum African Dwarf Frog | Hymenochirus Boettgeri"
+    },
+    {
+      "listingId": "aquarium-fish:10130819973419",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Blond Dwarf Frog (Army of 3)"
+    },
+    {
+      "listingId": "aquarium-fish:1572125048902",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Blond Dwarf Frog"
     }
   ],
   "events": [
@@ -90,24 +96,44 @@
       "storeSlug": "flip-aquatics"
     },
     {
-      "observedAt": "2026-11-20T06:27:43.785Z",
-      "price": 10.99,
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 24.99,
       "currency": "USD",
-      "available": false,
+      "available": true,
       "variants": [
         {
-          "id": "45612113330483",
-          "label": "(3 Pack) 1-2\" Unsexed",
-          "price": 10.99,
-          "available": false
+          "id": "51441032462635",
+          "label": "Medium",
+          "price": 24.99,
+          "available": true
         }
       ],
       "type": "change",
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "imperial-tropicals:8398104428851",
-      "storeSlug": "imperial-tropicals"
+      "listingId": "aquarium-fish:10130819973419",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "14005084815430",
+          "label": "Medium",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:1572125048902",
+      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-20T17:33:37.039Z",
@@ -161,21 +187,38 @@
       "storeSlug": "flip-aquatics"
     },
     {
-      "observedAt": "2026-11-20T17:33:50.975Z",
-      "price": 10.99,
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 24.99,
       "currency": "USD",
-      "available": false,
+      "available": true,
       "variants": [
         {
-          "id": "45612113330483",
-          "label": "(3 Pack) 1-2\" Unsexed",
-          "price": 10.99,
-          "available": false
+          "id": "51441032462635",
+          "label": "Medium",
+          "price": 24.99,
+          "available": true
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398104428851",
-      "storeSlug": "imperial-tropicals"
+      "listingId": "aquarium-fish:10130819973419",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "14005084815430",
+          "label": "Medium",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1572125048902",
+      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-21T01:29:12.871Z",
@@ -229,21 +272,123 @@
       "storeSlug": "flip-aquatics"
     },
     {
-      "observedAt": "2026-11-21T01:29:20.687Z",
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441032462635",
+          "label": "Medium",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130819973419",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "14005084815430",
+          "label": "Medium",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1572125048902",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:45.496Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42297331712102",
+          "label": "Imported / 1 Frog",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:7488184909926",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:45.496Z",
       "price": 10.99,
       "currency": "USD",
       "available": false,
       "variants": [
         {
-          "id": "45612113330483",
-          "label": "(3 Pack) 1-2\" Unsexed",
+          "id": "40933518901350",
+          "label": "Imported / 1 Frog",
           "price": 10.99,
           "available": false
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398104428851",
-      "storeSlug": "imperial-tropicals"
+      "listingId": "flip-aquatics:7063949705318",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:45.496Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40498849644646",
+          "label": "Imported / 1 Frog",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6949994332262",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441032462635",
+          "label": "Medium",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130819973419",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "14005084815430",
+          "label": "Medium",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1572125048902",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

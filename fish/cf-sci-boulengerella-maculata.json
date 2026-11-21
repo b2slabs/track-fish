@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:boulengerella-maculata",
-  "commonName": "Spotted Pike Characin (Boulengerella maculata)",
+  "commonName": "Marbled Gar",
   "scientificName": "Boulengerella maculata",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Spotted Pike Characin (Boulengerella maculata)"
+    },
+    {
+      "listingId": "aquarium-fish:6658638534",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Marbled Gar"
     }
   ],
   "events": [
@@ -83,6 +89,32 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39584328056913",
+          "label": "Medium",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "39584326418513",
+          "label": "Large",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6658638534",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T17:33:23.452Z",
       "price": 40,
       "currency": "USD",
@@ -100,6 +132,29 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39584328056913",
+          "label": "Medium",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "39584326418513",
+          "label": "Large",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6658638534",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:05.027Z",
       "price": 40,
       "currency": "USD",
@@ -115,6 +170,69 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7163518222545",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39584328056913",
+          "label": "Medium",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "39584326418513",
+          "label": "Large",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6658638534",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:25.006Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41365395439825",
+          "label": "5-6”",
+          "price": 40,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7163518222545",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39584328056913",
+          "label": "Medium",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "39584326418513",
+          "label": "Large",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6658638534",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

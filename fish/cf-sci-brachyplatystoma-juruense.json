@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:brachyplatystoma-juruense",
-  "commonName": "Juruense Catfish  ( Brachyplatystoma juruense )",
+  "commonName": "False Tigrinis Catfish",
   "scientificName": "Brachyplatystoma juruense",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Juruense Catfish  ( Brachyplatystoma juruense )"
+    },
+    {
+      "listingId": "aquarium-fish:6658015878",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "False Tigrinis Catfish"
     }
   ],
   "events": [
@@ -107,6 +113,26 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 129.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21040836742",
+          "label": "Title",
+          "price": 129.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6658015878",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T17:33:23.452Z",
       "price": 69.99,
       "currency": "USD",
@@ -130,6 +156,23 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 129.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21040836742",
+          "label": "Title",
+          "price": 129.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6658015878",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:05.027Z",
       "price": 69.99,
       "currency": "USD",
@@ -151,6 +194,63 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7739653980369",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 129.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21040836742",
+          "label": "Title",
+          "price": 129.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6658015878",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:25.006Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43082777919697",
+          "label": "2.5-3.5”",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "43082777952465",
+          "label": "6-7”",
+          "price": 268.88,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7739653980369",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 129.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21040836742",
+          "label": "Title",
+          "price": 129.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6658015878",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

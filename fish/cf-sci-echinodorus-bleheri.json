@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:echinodorus-bleheri",
-  "commonName": "Amazon Sword",
+  "commonName": "Echinodorus Bleheri - Mother Plant",
   "scientificName": "Echinodorus bleheri",
   "listings": [
     {
@@ -44,9 +44,35 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Amazon Sword"
+    },
+    {
+      "listingId": "shrimpy-business:10351541715234",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Amazon Sword (Echinoderms grisebachii)"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 7.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52068800397602",
+          "label": "Title",
+          "price": 7.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:10351541715234",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 9.99,
@@ -186,6 +212,23 @@
       "storeSlug": "glass-aqua"
     },
     {
+      "observedAt": "2026-11-20T17:33:33.576Z",
+      "price": 7.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52068800397602",
+          "label": "Title",
+          "price": 7.49,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:10351541715234",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-11-20T17:33:50.975Z",
       "price": 9.99,
       "currency": "USD",
@@ -304,6 +347,23 @@
       "type": "heartbeat",
       "listingId": "glass-aqua:7512270078038",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:10.831Z",
+      "price": 7.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52068800397602",
+          "label": "Title",
+          "price": 7.49,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:10351541715234",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-21T01:29:20.687Z",
@@ -462,6 +522,143 @@
       ],
       "listingId": "nu-aqua-shop:10006313140540",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:42.479Z",
+      "price": 7.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52068800397602",
+          "label": "Title",
+          "price": 7.49,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:10351541715234",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:07.776Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53660637430067",
+          "label": "1 Medium Plant",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "45611929207091",
+          "label": "1 Potted Plant",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398040498483",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:17.716Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043840938202",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741034885338",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15446348038225",
+          "label": "Mother Pot",
+          "price": 23.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:1569233993809",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "34230932621",
+          "label": "Pot",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "12425260531793",
+          "label": "3 Pot Package",
+          "price": 20.99,
+          "available": true
+        },
+        {
+          "id": "12425260564561",
+          "label": "5 Pot Package",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:9362933069",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42162548867272",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7408248357064",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:35.615Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42129434476630",
+          "label": "Title",
+          "price": 21.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:7512270078038",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

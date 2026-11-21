@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:stigmatogobius-sadanundio",
-  "commonName": "Knight Goby (Stigmatogobius sadanundio)",
+  "commonName": "Fan Dance Goby",
   "scientificName": "Stigmatogobius sadanundio",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Knight Goby (Stigmatogobius sadanundio)"
+    },
+    {
+      "listingId": "aquarium-fish:6652541382",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Fan Dance Goby"
     }
   ],
   "events": [
@@ -83,6 +89,26 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 20.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "21030749894",
+          "label": "Title",
+          "price": 20.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6652541382",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T17:33:23.452Z",
       "price": 12.5,
       "currency": "USD",
@@ -100,6 +126,23 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 20.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "21030749894",
+          "label": "Title",
+          "price": 20.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6652541382",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:05.027Z",
       "price": 12.5,
       "currency": "USD",
@@ -115,6 +158,61 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7139543056593",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 15.44,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "21030749894",
+          "label": "Title",
+          "price": 15.44,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6652541382",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:25.006Z",
+      "price": 12.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41300912701649",
+          "label": "2”",
+          "price": 12.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7139543056593",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 15.44,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "21030749894",
+          "label": "Title",
+          "price": 15.44,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6652541382",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

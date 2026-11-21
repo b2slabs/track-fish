@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:neocaridina-davidi-from",
-  "commonName": "Yellow Fire Shrimp",
+  "commonName": "Red Cherry Shrimp",
   "scientificName": "Neocaridina davidi from",
   "listings": [
     {
@@ -32,6 +32,24 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Yellow Fire Shrimp"
+    },
+    {
+      "listingId": "ck-fish-world:8359953760471",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Red Cherry Shrimp"
+    },
+    {
+      "listingId": "flip-aquatics:11067647108",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Red Cherry Shrimp"
+    },
+    {
+      "listingId": "aquarium-fish:6637006598",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Red Cherry Shrimp"
     }
   ],
   "events": [
@@ -96,6 +114,38 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 12.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336199299287",
+          "label": "3",
+          "price": 12.98,
+          "available": true
+        },
+        {
+          "id": "45336199332055",
+          "label": "5",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45336199364823",
+          "label": "10",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8359953760471",
+      "storeSlug": "ck-fish-world"
+    },
+    {
       "observedAt": "2026-11-20T06:27:38.279Z",
       "price": 2.2,
       "currency": "USD",
@@ -145,6 +195,87 @@
       "type": "heartbeat",
       "listingId": "aquahuna:946606735403",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.526Z",
+      "price": 12.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336199299287",
+          "label": "3",
+          "price": 12.98,
+          "available": true
+        },
+        {
+          "id": "45336199332055",
+          "label": "5",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45336199364823",
+          "label": "10",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8359953760471",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41831905860",
+          "label": "10 Pack / Imported",
+          "price": 49.99,
+          "available": true
+        },
+        {
+          "id": "40592339239014",
+          "label": "20 Pack / Imported",
+          "price": 94.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:11067647108",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 6.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51407169454379",
+          "label": "Each",
+          "price": 6.29,
+          "available": true
+        },
+        {
+          "id": "51407170502955",
+          "label": "Colony of 5",
+          "price": 23.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6637006598",
+      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-20T17:33:27.861Z",
@@ -198,6 +329,81 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T17:33:29.055Z",
+      "price": 12.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336199299287",
+          "label": "3",
+          "price": 12.98,
+          "available": true
+        },
+        {
+          "id": "45336199332055",
+          "label": "5",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45336199364823",
+          "label": "10",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8359953760471",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:37.039Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41831905860",
+          "label": "10 Pack / Imported",
+          "price": 49.99,
+          "available": true
+        },
+        {
+          "id": "40592339239014",
+          "label": "20 Pack / Imported",
+          "price": 94.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:11067647108",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 6.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51407169454379",
+          "label": "Each",
+          "price": 6.29,
+          "available": true
+        },
+        {
+          "id": "51407170502955",
+          "label": "Colony of 5",
+          "price": 23.49,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6637006598",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:07.561Z",
       "price": 2.2,
       "currency": "USD",
@@ -247,6 +453,81 @@
       "type": "heartbeat",
       "listingId": "aquahuna:946606735403",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:08.295Z",
+      "price": 12.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336199299287",
+          "label": "3",
+          "price": 12.98,
+          "available": true
+        },
+        {
+          "id": "45336199332055",
+          "label": "5",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45336199364823",
+          "label": "10",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8359953760471",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41831905860",
+          "label": "10 Pack / Imported",
+          "price": 49.99,
+          "available": true
+        },
+        {
+          "id": "40592339239014",
+          "label": "20 Pack / Imported",
+          "price": 94.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:11067647108",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 6.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51407169454379",
+          "label": "Each",
+          "price": 6.29,
+          "available": true
+        },
+        {
+          "id": "51407170502955",
+          "label": "Colony of 5",
+          "price": 23.49,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6637006598",
+      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-21T01:29:44.090Z",
@@ -299,6 +580,132 @@
       ],
       "listingId": "nu-aqua-shop:10006361473340",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:31.959Z",
+      "price": 2.2,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40012695142475",
+          "label": "Title",
+          "price": 2.2,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6830649213003",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:31.959Z",
+      "price": 3.13,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15746618261547",
+          "label": "Title",
+          "price": 3.13,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:948430209067",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:31.959Z",
+      "price": 2.4,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15746608103467",
+          "label": "Title",
+          "price": 2.4,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:946606735403",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:38.589Z",
+      "price": 12.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336199299287",
+          "label": "3",
+          "price": 12.98,
+          "available": true
+        },
+        {
+          "id": "45336199332055",
+          "label": "5",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45336199364823",
+          "label": "10",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8359953760471",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:45.496Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41831905860",
+          "label": "10 Pack / Imported",
+          "price": 49.99,
+          "available": true
+        },
+        {
+          "id": "40592339239014",
+          "label": "20 Pack / Imported",
+          "price": 94.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:11067647108",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 6.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51407169454379",
+          "label": "Each",
+          "price": 6.29,
+          "available": true
+        },
+        {
+          "id": "51407170502955",
+          "label": "Colony of 5",
+          "price": 23.49,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6637006598",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

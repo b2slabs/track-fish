@@ -1,7 +1,7 @@
 {
   "canonicalFishId": "cf:flip-aquatics:6715211022438",
-  "commonName": "Blue Variegated Guppy - Male",
-  "scientificName": null,
+  "commonName": "Variegated Blue Guppy",
+  "scientificName": "Poecilia reticulata",
   "listings": [
     {
       "listingId": "flip-aquatics:6715211022438",
@@ -14,9 +14,52 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Blue Variegated Guppy - Male"
+    },
+    {
+      "listingId": "aquahuna:7238311805003",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Blue Variegated Guppy Males"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 2.4,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41076081131595",
+          "label": "Title",
+          "price": 2.4,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:7238311805003",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 2.4,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41076081131595",
+          "label": "Title",
+          "price": 2.4,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7238311805003",
+      "storeSlug": "aquahuna"
+    },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 9.99,
@@ -50,6 +93,23 @@
       "storeSlug": "flip-aquatics"
     },
     {
+      "observedAt": "2026-11-20T17:33:27.861Z",
+      "price": 2.4,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41076081131595",
+          "label": "Title",
+          "price": 2.4,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7238311805003",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-20T17:33:37.039Z",
       "price": 9.99,
       "currency": "USD",
@@ -77,6 +137,23 @@
       "type": "heartbeat",
       "listingId": "flip-aquatics:6715211022438",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 2.4,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41076081131595",
+          "label": "Title",
+          "price": 2.4,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7238311805003",
+      "storeSlug": "aquahuna"
     },
     {
       "observedAt": "2026-11-21T01:29:12.871Z",
@@ -126,6 +203,52 @@
       ],
       "listingId": "nu-aqua-shop:10354389123388",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:31.959Z",
+      "price": 2.4,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41076081131595",
+          "label": "Title",
+          "price": 2.4,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7238311805003",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:45.496Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40838123094118",
+          "label": "Imported / Male",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "40838123126886",
+          "label": "Imported / Female",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "39606063956070",
+          "label": "Imported / Pair (M/F)",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6715211022438",
+      "storeSlug": "flip-aquatics"
     }
   ]
 }

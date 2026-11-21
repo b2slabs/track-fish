@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:neritina-sp",
-  "commonName": "3 Assorted Nerite Snails",
+  "commonName": "Tiger Blood Nerite Snail",
   "scientificName": "Neritina sp",
   "listings": [
     {
@@ -20,6 +20,30 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "3 Assorted Nerite Snails"
+    },
+    {
+      "listingId": "aquarium-fish:4660875231313",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Red Onion Snail"
+    },
+    {
+      "listingId": "aquarium-fish:6639131590",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Racing Olive Nerite Snail"
+    },
+    {
+      "listingId": "aquarium-fish:1836805455942",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Batik Snail"
+    },
+    {
+      "listingId": "aquarium-fish:6639060550",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Tiger Blood Nerite Snail"
     }
   ],
   "events": [
@@ -287,6 +311,92 @@
       "storeSlug": "flip-aquatics"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32492501172305",
+          "label": "Title",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:4660875231313",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20982654406",
+          "label": "Title",
+          "price": 2.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6639131590",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "18459634827334",
+          "label": "Title",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:1836805455942",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 6.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51428357865771",
+          "label": "Each",
+          "price": 6.59,
+          "available": true
+        },
+        {
+          "id": "51428357898539",
+          "label": "Cleaning Crew of 6",
+          "price": 26.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6639060550",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T17:33:09.827Z",
       "price": 10.99,
       "currency": "USD",
@@ -350,6 +460,80 @@
       "storeSlug": "flip-aquatics"
     },
     {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32492501172305",
+          "label": "Title",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4660875231313",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20982654406",
+          "label": "Title",
+          "price": 2.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6639131590",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "18459634827334",
+          "label": "Title",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1836805455942",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 6.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51428357865771",
+          "label": "Each",
+          "price": 6.59,
+          "available": true
+        },
+        {
+          "id": "51428357898539",
+          "label": "Cleaning Crew of 6",
+          "price": 26.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6639060550",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:28:57.087Z",
       "price": 10.99,
       "currency": "USD",
@@ -411,6 +595,217 @@
       "type": "heartbeat",
       "listingId": "flip-aquatics:6953544646758",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32492501172305",
+          "label": "Title",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4660875231313",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20982654406",
+          "label": "Title",
+          "price": 2.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6639131590",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "18459634827334",
+          "label": "Title",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1836805455942",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 6.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51428357865771",
+          "label": "Each",
+          "price": 6.59,
+          "available": true
+        },
+        {
+          "id": "51428357898539",
+          "label": "Cleaning Crew of 6",
+          "price": 26.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6639060550",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:03.149Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51718192628079",
+          "label": "3 Snails",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "51718192660847",
+          "label": "5 Snails",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "51718192693615",
+          "label": "10 Snails",
+          "price": 27.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14649682329967",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:31.959Z",
+      "price": 2.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15977995599915",
+          "label": "Title",
+          "price": 2.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1756949348395",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:45.496Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40517125406822",
+          "label": "3 Pack",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6953544646758",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32492501172305",
+          "label": "Title",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4660875231313",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20982654406",
+          "label": "Title",
+          "price": 2.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6639131590",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "18459634827334",
+          "label": "Title",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1836805455942",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 6.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51428357865771",
+          "label": "Each",
+          "price": 6.59,
+          "available": true
+        },
+        {
+          "id": "51428357898539",
+          "label": "Cleaning Crew of 6",
+          "price": 26.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6639060550",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

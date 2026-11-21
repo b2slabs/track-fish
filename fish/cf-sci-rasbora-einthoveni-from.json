@@ -20,6 +20,24 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Brilliant Rasbora"
+    },
+    {
+      "listingId": "ck-fish-world:8150005317847",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Brilliant Rasbora"
+    },
+    {
+      "listingId": "aquarium-fish:10130833441067",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Brilliant Rasbora (School of 6)"
+    },
+    {
+      "listingId": "aquarium-fish:6082592326",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Brilliant Rasbora"
     }
   ],
   "events": [
@@ -44,6 +62,38 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47305488531671",
+          "label": "3",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "47305488564439",
+          "label": "6",
+          "price": 35.98,
+          "available": true
+        },
+        {
+          "id": "47305488597207",
+          "label": "10 (+2 Free)",
+          "price": 47.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8150005317847",
+      "storeSlug": "ck-fish-world"
+    },
+    {
       "observedAt": "2026-11-20T06:27:38.279Z",
       "price": 2,
       "currency": "USD",
@@ -59,6 +109,75 @@
       "type": "heartbeat",
       "listingId": "aquahuna:1723711389739",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.526Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47305488531671",
+          "label": "3",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "47305488564439",
+          "label": "6",
+          "price": 35.98,
+          "available": true
+        },
+        {
+          "id": "47305488597207",
+          "label": "10 (+2 Free)",
+          "price": 47.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150005317847",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441098391851",
+          "label": "Title",
+          "price": 15.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10130833441067",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51428396925227",
+          "label": "Title",
+          "price": 2.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6082592326",
+      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
@@ -104,6 +223,69 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T17:33:29.055Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47305488531671",
+          "label": "3",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "47305488564439",
+          "label": "6",
+          "price": 35.98,
+          "available": true
+        },
+        {
+          "id": "47305488597207",
+          "label": "10 (+2 Free)",
+          "price": 47.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150005317847",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441098391851",
+          "label": "Title",
+          "price": 15.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130833441067",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51428396925227",
+          "label": "Title",
+          "price": 2.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6082592326",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T17:33:50.975Z",
       "price": 8.99,
       "currency": "USD",
@@ -147,6 +329,77 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-21T01:29:08.295Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47305488531671",
+          "label": "3",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "47305488564439",
+          "label": "6",
+          "price": 35.98,
+          "available": true
+        },
+        {
+          "id": "47305488597207",
+          "label": "10 (+2 Free)",
+          "price": 47.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150005317847",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 13.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441098391851",
+          "label": "Title",
+          "price": 13.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10130833441067",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 2.54,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51428396925227",
+          "label": "Title",
+          "price": 2.54,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6082592326",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:20.687Z",
       "price": 8.99,
       "currency": "USD",
@@ -188,6 +441,109 @@
       ],
       "listingId": "nu-aqua-shop:10369669824828",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:31.959Z",
+      "price": 2,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15772896591915",
+          "label": "Title",
+          "price": 2,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1723711389739",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:38.589Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47305488531671",
+          "label": "3",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "47305488564439",
+          "label": "6",
+          "price": 35.98,
+          "available": true
+        },
+        {
+          "id": "47305488597207",
+          "label": "10 (+2 Free)",
+          "price": 47.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150005317847",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 13.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441098391851",
+          "label": "Title",
+          "price": 13.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130833441067",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 2.54,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51428396925227",
+          "label": "Title",
+          "price": 2.54,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6082592326",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:07.776Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612049072435",
+          "label": "(3 Pack) 1-2\" Unsexed",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "45612049105203",
+          "label": "(10 Pack) 1-2\" Unsexed",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398077755699",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

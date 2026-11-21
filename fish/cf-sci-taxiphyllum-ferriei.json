@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:taxiphyllum-ferriei",
-  "commonName": "Weeping Moss on Stainless Steel",
+  "commonName": "Weeping Moss Dome",
   "scientificName": "Taxiphyllum ferriei",
   "listings": [
     {
@@ -8,12 +8,6 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Weeping Moss Dome"
-    },
-    {
-      "listingId": "buce-plant:4654037925969",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Weeping Moss"
     },
     {
       "listingId": "buce-plant:454167691304",
@@ -26,6 +20,12 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Weeping Moss on Stainless Steel"
+    },
+    {
+      "listingId": "glass-aqua:10412190040150",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Weeping Moss Dome"
     }
   ],
   "events": [
@@ -112,32 +112,6 @@
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "32465309499473",
-          "label": "Golfball",
-          "price": 7.99,
-          "available": false
-        },
-        {
-          "id": "32465309532241",
-          "label": "Large Cup",
-          "price": 28.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "buce-plant:4654037925969",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 14.99,
       "currency": "USD",
       "available": true,
@@ -155,6 +129,26 @@
       ],
       "listingId": "buce-plant:454167691304",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51096945623126",
+          "label": "Title",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:10412190040150",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-20T17:33:29.055Z",
@@ -204,29 +198,6 @@
     },
     {
       "observedAt": "2026-11-20T17:33:59.411Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "32465309499473",
-          "label": "Golfball",
-          "price": 7.99,
-          "available": false
-        },
-        {
-          "id": "32465309532241",
-          "label": "Large Cup",
-          "price": 28.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:4654037925969",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:59.411Z",
       "price": 14.99,
       "currency": "USD",
       "available": true,
@@ -241,6 +212,23 @@
       "type": "heartbeat",
       "listingId": "buce-plant:454167691304",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:34:13.918Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51096945623126",
+          "label": "Title",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:10412190040150",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-21T01:29:08.295Z",
@@ -290,29 +278,6 @@
     },
     {
       "observedAt": "2026-11-21T01:29:25.528Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "32465309499473",
-          "label": "Golfball",
-          "price": 7.99,
-          "available": false
-        },
-        {
-          "id": "32465309532241",
-          "label": "Large Cup",
-          "price": 28.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:4654037925969",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:25.528Z",
       "price": 14.99,
       "currency": "USD",
       "available": true,
@@ -327,6 +292,103 @@
       "type": "heartbeat",
       "listingId": "buce-plant:454167691304",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:33.919Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51096945623126",
+          "label": "Title",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:10412190040150",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:38.589Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45749238104279",
+          "label": "1",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45749238137047",
+          "label": "3",
+          "price": 45.98,
+          "available": true
+        },
+        {
+          "id": "45749238169815",
+          "label": "5",
+          "price": 74.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8733715333335",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45255178944712",
+          "label": "Title",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8354318483656",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "3802833780776",
+          "label": "Title",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:454167691304",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:35.615Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51096945623126",
+          "label": "Title",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:10412190040150",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

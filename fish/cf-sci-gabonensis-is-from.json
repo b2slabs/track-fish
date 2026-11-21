@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:gabonensis-is-from",
-  "commonName": "Vampire Shrimp - L",
+  "commonName": "Vampire Shrimp",
   "scientificName": "Gabonensis is from",
   "listings": [
     {
@@ -14,9 +14,35 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Vampire Shrimp - L"
+    },
+    {
+      "listingId": "shrimpy-business:6590500929621",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Vampire Shrimp (Atya gabonensis)"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 47.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39414268297301",
+          "label": "1 Shrimp",
+          "price": 47.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6590500929621",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 25.99,
@@ -38,6 +64,23 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T17:33:33.576Z",
+      "price": 47.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39414268297301",
+          "label": "1 Shrimp",
+          "price": 47.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6590500929621",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-11-20T17:33:47.733Z",
       "price": 25.99,
       "currency": "USD",
@@ -53,6 +96,23 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:1457636868166",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:10.831Z",
+      "price": 47.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39414268297301",
+          "label": "1 Shrimp",
+          "price": 47.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6590500929621",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-21T01:29:18.881Z",
@@ -90,6 +150,40 @@
       ],
       "listingId": "nu-aqua-shop:10295121871164",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:42.479Z",
+      "price": 47.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39414268297301",
+          "label": "1 Shrimp",
+          "price": 47.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6590500929621",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 25.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12849177329734",
+          "label": "Title",
+          "price": 25.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1457636868166",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pseudochromis-aldabraensis",
-  "commonName": "Black Neon Dottyback",
+  "commonName": "Neon Dottyback - Captive Bred",
   "scientificName": "Pseudochromis aldabraensis",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Black Neon Dottyback"
+    },
+    {
+      "listingId": "aquarium-fish:10111087804715",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Neon Dottyback - Captive Bred"
     }
   ],
   "events": [
@@ -32,6 +38,26 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 53.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51379251380523",
+          "label": "Large (3-4\")",
+          "price": 53.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10111087804715",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T17:33:47.733Z",
       "price": 60.99,
       "currency": "USD",
@@ -49,6 +75,23 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 53.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51379251380523",
+          "label": "Large (3-4\")",
+          "price": 53.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10111087804715",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:18.881Z",
       "price": 60.99,
       "currency": "USD",
@@ -63,6 +106,57 @@
       ],
       "type": "heartbeat",
       "listingId": "aquarium-fish:10124025725227",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 53.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51379251380523",
+          "label": "Large (3-4\")",
+          "price": 53.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10111087804715",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 60.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51421236855083",
+          "label": "Medium (1-1.75\")",
+          "price": 60.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10124025725227",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 53.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51379251380523",
+          "label": "Large (3-4\")",
+          "price": 53.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10111087804715",
       "storeSlug": "aquarium-fish"
     }
   ]

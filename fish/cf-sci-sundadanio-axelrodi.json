@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:sundadanio-axelrodi",
-  "commonName": "Blue Axelrodi Rasbora",
+  "commonName": "Red Axelrodi Rasbora",
   "scientificName": "Sundadanio axelrodi",
   "listings": [
     {
@@ -50,6 +50,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Blue Axelrodi Rasbora"
+    },
+    {
+      "listingId": "aquarium-fish:15405751501099",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Neon Red Rasbora"
     }
   ],
   "events": [
@@ -425,6 +431,26 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67665250222379",
+          "label": "Title",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:15405751501099",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T17:33:09.827Z",
       "price": 21.99,
       "currency": "USD",
@@ -548,6 +574,23 @@
       ],
       "type": "heartbeat",
       "listingId": "aquarium-fish:9964807323947",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67665250222379",
+          "label": "Title",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:15405751501099",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -677,6 +720,27 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 4.24,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67665250222379",
+          "label": "Title",
+          "price": 4.24,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:15405751501099",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:44.090Z",
       "price": 5.99,
       "currency": "USD",
@@ -715,6 +779,149 @@
       ],
       "listingId": "nu-aqua-shop:10006355149116",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:03.149Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12676412342358",
+          "label": "School of 3",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "12676412375126",
+          "label": "School of 6",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "12676412407894",
+          "label": "School of 9",
+          "price": 47.99,
+          "available": false
+        },
+        {
+          "id": "12676412440662",
+          "label": "School of 12",
+          "price": 57.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1371330281558",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:31.959Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42004131610699",
+          "label": "Title",
+          "price": 5.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7518221893707",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:45.496Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32145075929190",
+          "label": "Imported / 1 Fish",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:4952614666342",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 4.24,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67665250222379",
+          "label": "Title",
+          "price": 4.24,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:15405751501099",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51441096720683",
+          "label": "Title",
+          "price": 26.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130832720171",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 6.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51428260118827",
+          "label": "Title",
+          "price": 6.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6082712134",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 6.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51355562541355",
+          "label": "Each",
+          "price": 6.79,
+          "available": false
+        },
+        {
+          "id": "51355562574123",
+          "label": "School of 5",
+          "price": 28.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9964807323947",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

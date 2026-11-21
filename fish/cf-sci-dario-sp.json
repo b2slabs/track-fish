@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:dario-sp",
-  "commonName": "Black Tiger Dario / Badis",
+  "commonName": "Black Tiger Dario",
   "scientificName": "Dario sp.",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Black Tiger Dario / Badis"
+    },
+    {
+      "listingId": "aquarium-fish:4547809935441",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Black Tiger Dario"
     }
   ],
   "events": [
@@ -49,6 +55,32 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51437508985131",
+          "label": "Each",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "51437509017899",
+          "label": "School of 4",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:4547809935441",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T17:33:27.861Z",
       "price": 6,
       "currency": "USD",
@@ -66,6 +98,29 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51437508985131",
+          "label": "Each",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "51437509017899",
+          "label": "School of 4",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4547809935441",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:07.561Z",
       "price": 6,
       "currency": "USD",
@@ -81,6 +136,69 @@
       "type": "heartbeat",
       "listingId": "aquahuna:6691445604427",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51437508985131",
+          "label": "Each",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "51437509017899",
+          "label": "School of 4",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4547809935441",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:31.959Z",
+      "price": 6,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39698109661259",
+          "label": "Title",
+          "price": 6,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6691445604427",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51437508985131",
+          "label": "Each",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "51437509017899",
+          "label": "School of 4",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4547809935441",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:sawbwa-resplendens",
-  "commonName": "Sawbwa Rasbora",
+  "commonName": "Sawbwa Barb (Sawbwa resplendens)",
   "scientificName": "Sawbwa resplendens",
   "listings": [
     {
@@ -38,6 +38,24 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Sawbwa Rasbora"
+    },
+    {
+      "listingId": "aquahuna:7445371682891",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Asia Rummynose Rasbora"
+    },
+    {
+      "listingId": "aquarium-fish:9397249802539",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Rummynose Rasbora (School of 6)"
+    },
+    {
+      "listingId": "aquarium-fish:8311440245035",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Rummynose Rasbora"
     }
   ],
   "events": [
@@ -309,6 +327,26 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41787231305803",
+          "label": "Title",
+          "price": 6,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:7445371682891",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-20T06:27:34.315Z",
       "price": 17.99,
       "currency": "USD",
@@ -359,6 +397,23 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7242343710929",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41787231305803",
+          "label": "Title",
+          "price": 6,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7445371682891",
+      "storeSlug": "aquahuna"
     },
     {
       "observedAt": "2026-11-20T06:27:39.339Z",
@@ -417,6 +472,52 @@
       ],
       "listingId": "flip-aquatics:6840413782118",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 37.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48915684557099",
+          "label": "Title",
+          "price": 37.79,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:9397249802539",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 6.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51438244659499",
+          "label": "Male",
+          "price": 8.59,
+          "available": true
+        },
+        {
+          "id": "51438244626731",
+          "label": "Female",
+          "price": 6.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:8311440245035",
+      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
@@ -497,6 +598,23 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T17:33:27.861Z",
+      "price": 6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41787231305803",
+          "label": "Title",
+          "price": 6,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7445371682891",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-20T17:33:33.576Z",
       "price": 13.5,
       "currency": "USD",
@@ -547,6 +665,46 @@
       "type": "heartbeat",
       "listingId": "flip-aquatics:6840413782118",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 37.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48915684557099",
+          "label": "Title",
+          "price": 37.79,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9397249802539",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 6.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51438244659499",
+          "label": "Male",
+          "price": 8.59,
+          "available": true
+        },
+        {
+          "id": "51438244626731",
+          "label": "Female",
+          "price": 6.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8311440245035",
+      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-20T17:33:50.975Z",
@@ -629,6 +787,23 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41787231305803",
+          "label": "Title",
+          "price": 6,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7445371682891",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-21T01:29:10.831Z",
       "price": 13.5,
       "currency": "USD",
@@ -681,6 +856,46 @@
       "storeSlug": "flip-aquatics"
     },
     {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 37.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48915684557099",
+          "label": "Title",
+          "price": 37.79,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9397249802539",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 6.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51438244659499",
+          "label": "Male",
+          "price": 8.59,
+          "available": true
+        },
+        {
+          "id": "51438244626731",
+          "label": "Female",
+          "price": 6.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8311440245035",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:20.687Z",
       "price": 20.99,
       "currency": "USD",
@@ -722,6 +937,190 @@
       ],
       "listingId": "nu-aqua-shop:10006319464764",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:03.149Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12321167802454",
+          "label": "School of 3",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "12321167835222",
+          "label": "School of 6",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "12321167867990",
+          "label": "School of 9",
+          "price": 42.99,
+          "available": true
+        },
+        {
+          "id": "12321167900758",
+          "label": "School of 12",
+          "price": 53.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1326868889686",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:25.006Z",
+      "price": 5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41539457941713",
+          "label": "1\"",
+          "price": 5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7242343710929",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:31.959Z",
+      "price": 6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41787231305803",
+          "label": "Title",
+          "price": 6,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7445371682891",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:42.479Z",
+      "price": 13.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47504437248290",
+          "label": "2 Fish",
+          "price": 13.5,
+          "available": true
+        },
+        {
+          "id": "47504437281058",
+          "label": "4 Fish",
+          "price": 23.95,
+          "available": true
+        },
+        {
+          "id": "51662843347234",
+          "label": "8 Fish",
+          "price": 45.95,
+          "available": true
+        },
+        {
+          "id": "51662843380002",
+          "label": "16 Fish",
+          "price": 85.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:8883638305058",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:45.496Z",
+      "price": 9.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39991511810150",
+          "label": "Imported / 1 Fish",
+          "price": 9.49,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6840413782118",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 37.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48915684557099",
+          "label": "Title",
+          "price": 37.79,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9397249802539",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 6.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51438244659499",
+          "label": "Male",
+          "price": 8.59,
+          "available": true
+        },
+        {
+          "id": "51438244626731",
+          "label": "Female",
+          "price": 6.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8311440245035",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:07.776Z",
+      "price": 20.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47529315336499",
+          "label": "(3 Pack) 0.5-1” Unsexed",
+          "price": 20.99,
+          "available": true
+        },
+        {
+          "id": "45612296274227",
+          "label": "1-2\" Male",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398180974899",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

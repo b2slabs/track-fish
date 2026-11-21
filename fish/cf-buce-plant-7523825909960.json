@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:buce-plant:7523825909960",
-  "commonName": "UNS Controsand-Bora",
+  "commonName": "UNS Controsand - Bora",
   "scientificName": null,
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "UNS Controsand-Bora"
+    },
+    {
+      "listingId": "buce-plant:7600786997448",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "UNS Controsand - Kona"
     }
   ],
   "events": [
@@ -44,7 +50,79 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42885157781704",
+          "label": "3L",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "42885157814472",
+          "label": "8L",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:7600786997448",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42592762626248",
+          "label": "3L",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "42592762659016",
+          "label": "8L",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7523825909960",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42885157781704",
+          "label": "3L",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "42885157814472",
+          "label": "8L",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7600786997448",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
       "price": 29.99,
       "currency": "USD",
       "available": true,
@@ -73,20 +151,20 @@
       "available": true,
       "variants": [
         {
-          "id": "42592762626248",
+          "id": "42885157781704",
           "label": "3L",
           "price": 29.99,
           "available": true
         },
         {
-          "id": "42592762659016",
+          "id": "42885157814472",
           "label": "8L",
           "price": 49.99,
           "available": true
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:7523825909960",
+      "listingId": "buce-plant:7600786997448",
       "storeSlug": "buce-plant"
     },
     {
@@ -114,6 +192,52 @@
       ],
       "listingId": "nu-aqua-shop:10006320546108",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42885157781704",
+          "label": "3L",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "42885157814472",
+          "label": "8L",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7600786997448",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42592762626248",
+          "label": "3L",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "42592762659016",
+          "label": "8L",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7523825909960",
+      "storeSlug": "buce-plant"
     }
   ]
 }

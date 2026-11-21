@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hemianthus-micranthemoides",
-  "commonName": "Pearlweed-Pot",
+  "commonName": "Hemianthus Micranthemoides (Pearl Weed)",
   "scientificName": "Hemianthus micranthemoides",
   "listings": [
     {
@@ -20,6 +20,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Pearlweed-Pot"
+    },
+    {
+      "listingId": "buce-plant:9849073933",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Hemianthus Micranthemoides (Pearl Weed)"
     }
   ],
   "events": [
@@ -352,6 +358,32 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "36793914381",
+          "label": "Bunch",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "12396654526545",
+          "label": "3 Bunches + 1 Free",
+          "price": 23.97,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:9849073933",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-20T17:33:09.827Z",
       "price": 9.69,
       "currency": "USD",
@@ -398,6 +430,29 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "36793914381",
+          "label": "Bunch",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "12396654526545",
+          "label": "3 Bunches + 1 Free",
+          "price": 23.97,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:9849073933",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-21T01:28:57.087Z",
       "price": 9.69,
       "currency": "USD",
@@ -442,6 +497,29 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:3999941492822",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "36793914381",
+          "label": "Bunch",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "12396654526545",
+          "label": "3 Bunches + 1 Free",
+          "price": 23.97,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:9849073933",
+      "storeSlug": "buce-plant"
     },
     {
       "observedAt": "2026-11-21T01:29:44.090Z",
@@ -462,6 +540,75 @@
       ],
       "listingId": "nu-aqua-shop:10006359146812",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:03.149Z",
+      "price": 9.69,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39614512758870",
+          "label": "1 Bunch",
+          "price": 9.69,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6667737104470",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:03.149Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "29712072441942",
+          "label": "1 Tissue Culture",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "29712072474710",
+          "label": "2 Tissue Cultures",
+          "price": 26.99,
+          "available": false
+        },
+        {
+          "id": "29712072507478",
+          "label": "3 Tissue Cultures",
+          "price": 38.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:3999941492822",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "36793914381",
+          "label": "Bunch",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "12396654526545",
+          "label": "3 Bunches + 1 Free",
+          "price": 23.97,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:9849073933",
+      "storeSlug": "buce-plant"
     }
   ]
 }

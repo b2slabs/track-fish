@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:apistogramma-pandurini-imported",
-  "commonName": "Apistogramma Panduro-PAIR",
+  "commonName": "Apistogramma panduro",
   "scientificName": "Apistogramma pandurini imported",
   "listings": [
     {
@@ -20,6 +20,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Apistogramma Panduro-PAIR"
+    },
+    {
+      "listingId": "imperial-tropicals:8303246475571",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Apistogramma panduro"
     }
   ],
   "events": [
@@ -132,6 +138,32 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45224045936947",
+          "label": "1\" PAIR (1 Male, 1 Female)",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "45224045969715",
+          "label": "1\" Male",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8303246475571",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-20T17:33:23.452Z",
       "price": 25,
       "currency": "USD",
@@ -164,6 +196,29 @@
       "type": "heartbeat",
       "listingId": "aquahuna:2180214358059",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:50.975Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45224045936947",
+          "label": "1\" PAIR (1 Male, 1 Female)",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "45224045969715",
+          "label": "1\" Male",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8303246475571",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-21T01:29:05.027Z",
@@ -200,6 +255,29 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45224045936947",
+          "label": "1\" PAIR (1 Male, 1 Female)",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "45224045969715",
+          "label": "1\" Male",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8303246475571",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-21T01:29:44.090Z",
       "price": 35.99,
       "currency": "USD",
@@ -218,6 +296,63 @@
       ],
       "listingId": "nu-aqua-shop:10006354264380",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:25.006Z",
+      "price": 25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925194879185",
+          "label": "4-4.5cm",
+          "price": 25,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6996779696337",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:31.959Z",
+      "price": 23,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "20610370076715",
+          "label": "Title",
+          "price": 23,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:2180214358059",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:07.776Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45224045936947",
+          "label": "1\" PAIR (1 Male, 1 Female)",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "45224045969715",
+          "label": "1\" Male",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8303246475571",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

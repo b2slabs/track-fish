@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:nomorhamphus-liemi-origin",
-  "commonName": "Celebese Halfbeak",
+  "commonName": "Celebes Halfbeak",
   "scientificName": "Nomorhamphus liemi origin",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Celebese Halfbeak"
+    },
+    {
+      "listingId": "imperial-tropicals:8398126580019",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Celebes Halfbeak"
     }
   ],
   "events": [
@@ -38,6 +44,32 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612165497139",
+          "label": "1-2\" Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "67596328960307",
+          "label": "(5 Pack) 1-2\" Unsexed",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398126580019",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-20T17:33:47.733Z",
       "price": 12.99,
       "currency": "USD",
@@ -55,6 +87,33 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T17:33:50.975Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612165497139",
+          "label": "1-2\" Unsexed",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "67596328960307",
+          "label": "(5 Pack) 1-2\" Unsexed",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398126580019",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-21T01:29:18.881Z",
       "price": 12.99,
       "currency": "USD",
@@ -70,6 +129,29 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:6574387846",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612165497139",
+          "label": "1-2\" Unsexed",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "67596328960307",
+          "label": "(5 Pack) 1-2\" Unsexed",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398126580019",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-21T01:29:44.090Z",
@@ -90,6 +172,46 @@
       ],
       "listingId": "nu-aqua-shop:10245594349884",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20799182790",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6574387846",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:07.776Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612165497139",
+          "label": "1-2\" Unsexed",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "67596328960307",
+          "label": "(5 Pack) 1-2\" Unsexed",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398126580019",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

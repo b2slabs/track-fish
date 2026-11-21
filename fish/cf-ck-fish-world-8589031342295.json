@@ -1,7 +1,7 @@
 {
   "canonicalFishId": "cf:ck-fish-world:8589031342295",
-  "commonName": "Dragon Stone",
-  "scientificName": null,
+  "commonName": "Dragon Stone (Ohko)",
+  "scientificName": "Ohko stone",
   "listings": [
     {
       "listingId": "ck-fish-world:8589031342295",
@@ -20,6 +20,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Dragon Stone"
+    },
+    {
+      "listingId": "flip-aquatics:295632601128",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Dragon Stone (Ohko Stone)"
     }
   ],
   "events": [
@@ -85,6 +91,26 @@
       "storeSlug": "ck-fish-world"
     },
     {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "2998156197928",
+          "label": "Bulk 10lb",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:295632601128",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 49.99,
       "currency": "USD",
@@ -140,6 +166,23 @@
       "storeSlug": "ck-fish-world"
     },
     {
+      "observedAt": "2026-11-20T17:33:37.039Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "2998156197928",
+          "label": "Bulk 10lb",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:295632601128",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T17:33:59.411Z",
       "price": 49.99,
       "currency": "USD",
@@ -192,6 +235,23 @@
       "storeSlug": "ck-fish-world"
     },
     {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "2998156197928",
+          "label": "Bulk 10lb",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:295632601128",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-21T01:29:25.528Z",
       "price": 49.99,
       "currency": "USD",
@@ -233,6 +293,75 @@
       ],
       "listingId": "nu-aqua-shop:10221366182204",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:38.589Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45341412589783",
+          "label": "5",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45341412622551",
+          "label": "10",
+          "price": 38.98,
+          "available": true
+        },
+        {
+          "id": "45341412655319",
+          "label": "20",
+          "price": 77.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8589031342295",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:45.496Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "2998156197928",
+          "label": "Bulk 10lb",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:295632601128",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "26039658753",
+          "label": "10LB Pack",
+          "price": 49.99,
+          "available": true
+        },
+        {
+          "id": "42816434733256",
+          "label": "16LB Pack",
+          "price": 79.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7958052417",
+      "storeSlug": "buce-plant"
     }
   ]
 }

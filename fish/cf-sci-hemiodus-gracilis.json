@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hemiodus-gracilis",
-  "commonName": "Red Tail Hemiodus",
+  "commonName": "Hemiodus Red Tail",
   "scientificName": "Hemiodus gracilis",
   "listings": [
     {
@@ -8,9 +8,69 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Red Tail Hemiodus"
+    },
+    {
+      "listingId": "aquarium-fish:8955128578347",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Hemiodus Red Tail"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47718919864619",
+          "label": "Title",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:8955128578347",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47718919864619",
+          "label": "Title",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8955128578347",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47718919864619",
+          "label": "Title",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8955128578347",
+      "storeSlug": "aquarium-fish"
+    },
     {
       "observedAt": "2026-11-21T01:29:44.090Z",
       "price": 10.46,
@@ -42,6 +102,23 @@
       ],
       "listingId": "nu-aqua-shop:10006359867708",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47718919864619",
+          "label": "Title",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8955128578347",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

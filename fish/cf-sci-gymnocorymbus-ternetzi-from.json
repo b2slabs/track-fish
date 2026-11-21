@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:gymnocorymbus-ternetzi-from",
-  "commonName": "Black Skirt Tetra",
+  "commonName": "Black Skirt Tetra (Gymnocorymbus ternetzi)",
   "scientificName": "Gymnocorymbus ternetzi from",
   "listings": [
     {
@@ -20,6 +20,30 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Black Skirt Tetra"
+    },
+    {
+      "listingId": "flip-aquatics:6853283610726",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Black Tetra | Black Skirt Tetra"
+    },
+    {
+      "listingId": "aquarium-fish:10130822005035",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Black Skirt Tetra (School of 6)"
+    },
+    {
+      "listingId": "aquarium-fish:1524506951750",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Black Skirt Tetra"
+    },
+    {
+      "listingId": "imperial-tropicals:8397986758963",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Black Skirt Tetra (Gymnocorymbus ternetzi)"
     }
   ],
   "events": [
@@ -98,6 +122,92 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40059716927590",
+          "label": "Imported / 1 Fish",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6853283610726",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 26.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51441043013931",
+          "label": "Title",
+          "price": 26.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10130822005035",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 5.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51437795508523",
+          "label": "Title",
+          "price": 5.79,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:1524506951750",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51727070298419",
+          "label": "(3 Pack) 1-2” Unsexed",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "45611750654259",
+          "label": "(10 Pack) 1-2” Unsexed",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8397986758963",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-20T17:33:27.861Z",
       "price": 3,
       "currency": "USD",
@@ -132,6 +242,84 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T17:33:37.039Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40059716927590",
+          "label": "Imported / 1 Fish",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6853283610726",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 26.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51441043013931",
+          "label": "Title",
+          "price": 26.49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130822005035",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 5.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51437795508523",
+          "label": "Title",
+          "price": 5.79,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1524506951750",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:50.975Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51727070298419",
+          "label": "(3 Pack) 1-2” Unsexed",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "45611750654259",
+          "label": "(10 Pack) 1-2” Unsexed",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8397986758963",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-21T01:29:07.561Z",
       "price": 3,
       "currency": "USD",
@@ -164,6 +352,80 @@
       "type": "heartbeat",
       "listingId": "aquahuna:4738582216779",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40059716927590",
+          "label": "Imported / 1 Fish",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6853283610726",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 26.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51441043013931",
+          "label": "Title",
+          "price": 26.49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130822005035",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 5.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51437795508523",
+          "label": "Title",
+          "price": 5.79,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1524506951750",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51727070298419",
+          "label": "(3 Pack) 1-2” Unsexed",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "45611750654259",
+          "label": "(10 Pack) 1-2” Unsexed",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397986758963",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-21T01:29:44.090Z",
@@ -184,6 +446,114 @@
       ],
       "listingId": "nu-aqua-shop:10354505908540",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:31.959Z",
+      "price": 3,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42250807935051",
+          "label": "Title",
+          "price": 3,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7634383274059",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:31.959Z",
+      "price": 2.2,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33071507144779",
+          "label": "Title",
+          "price": 2.2,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4738582216779",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:45.496Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40059716927590",
+          "label": "Imported / 1 Fish",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6853283610726",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 26.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51441043013931",
+          "label": "Title",
+          "price": 26.49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130822005035",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 5.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51437795508523",
+          "label": "Title",
+          "price": 5.79,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1524506951750",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:07.776Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51727070298419",
+          "label": "(3 Pack) 1-2” Unsexed",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "45611750654259",
+          "label": "(10 Pack) 1-2” Unsexed",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397986758963",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

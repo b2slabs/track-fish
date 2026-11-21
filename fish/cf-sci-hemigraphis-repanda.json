@@ -14,9 +14,41 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Hemigraphis Repanda Green"
+    },
+    {
+      "listingId": "aquarium-fish:9967336063275",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Dragon's Tongue (Flame)"
+    },
+    {
+      "listingId": "buce-plant:10014289741",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Hemigraphis Repanda / Dragon's Tongue"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50503111442731",
+          "label": "Title",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:9967336063275",
+      "storeSlug": "aquarium-fish"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 7.99,
@@ -35,6 +67,26 @@
         "first-observed"
       ],
       "listingId": "buce-plant:4453538365521",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37579936013",
+          "label": "Pot",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:10014289741",
       "storeSlug": "buce-plant"
     },
     {
@@ -58,6 +110,23 @@
       "storeSlug": "glass-aqua"
     },
     {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50503111442731",
+          "label": "Title",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9967336063275",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T17:33:59.411Z",
       "price": 7.99,
       "currency": "USD",
@@ -72,6 +141,23 @@
       ],
       "type": "heartbeat",
       "listingId": "buce-plant:4453538365521",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37579936013",
+          "label": "Pot",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10014289741",
       "storeSlug": "buce-plant"
     },
     {
@@ -92,6 +178,23 @@
       "storeSlug": "glass-aqua"
     },
     {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50503111442731",
+          "label": "Title",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9967336063275",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:25.528Z",
       "price": 7.99,
       "currency": "USD",
@@ -109,7 +212,92 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37579936013",
+          "label": "Pot",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10014289741",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-21T01:29:33.919Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32811793219670",
+          "label": "Title",
+          "price": 5.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:4764582838358",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50503111442731",
+          "label": "Title",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9967336063275",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31662080655441",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:4453538365521",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37579936013",
+          "label": "Pot",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10014289741",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:35.615Z",
       "price": 5.99,
       "currency": "USD",
       "available": true,

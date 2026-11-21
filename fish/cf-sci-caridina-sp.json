@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:caridina-sp",
-  "commonName": "Assorted Caridina Shrimp",
+  "commonName": "Caridina Culls",
   "scientificName": "Caridina sp.",
   "listings": [
     {
@@ -26,6 +26,12 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Assorted Caridina Shrimp"
+    },
+    {
+      "listingId": "buce-plant:7673369166024",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Caridina Culls"
     }
   ],
   "events": [
@@ -668,6 +674,38 @@
       "storeSlug": "flip-aquatics"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43073470955720",
+          "label": "5 Shrimp",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "43073470759112",
+          "label": "10 Shrimp",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "43073470791880",
+          "label": "20 Shrimp",
+          "price": 114.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:7673369166024",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-20T17:33:09.827Z",
       "price": 107.99,
       "currency": "USD",
@@ -772,6 +810,35 @@
       "storeSlug": "flip-aquatics"
     },
     {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43073470955720",
+          "label": "5 Shrimp",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "43073470759112",
+          "label": "10 Shrimp",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "43073470791880",
+          "label": "20 Shrimp",
+          "price": 114.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7673369166024",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-21T01:28:57.087Z",
       "price": 107.99,
       "currency": "USD",
@@ -874,6 +941,168 @@
       "type": "heartbeat",
       "listingId": "flip-aquatics:7412898201702",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43073470955720",
+          "label": "5 Shrimp",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "43073470759112",
+          "label": "10 Shrimp",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "43073470791880",
+          "label": "20 Shrimp",
+          "price": 114.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7673369166024",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:03.149Z",
+      "price": 107.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52789750464879",
+          "label": "3 Shrimp",
+          "price": 107.99,
+          "available": true
+        },
+        {
+          "id": "52789750497647",
+          "label": "5 Shrimp",
+          "price": 152.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14918204326255",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:03.149Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51853241811311",
+          "label": "1 Shrimp",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "51853241844079",
+          "label": "5 Shrimp",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "51853241876847",
+          "label": "10 Shrimp",
+          "price": 75.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14694688358767",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:03.149Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39960320737366",
+          "label": "3 Shrimp",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "39960320770134",
+          "label": "5 Shrimp",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "39960320802902",
+          "label": "10 Shrimp",
+          "price": 64.99,
+          "available": false
+        },
+        {
+          "id": "39960320835670",
+          "label": "20 Shrimp",
+          "price": 124.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6783223332950",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:45.496Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42015223185510",
+          "label": "Imported",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:7412898201702",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43073470955720",
+          "label": "5 Shrimp",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "43073470759112",
+          "label": "10 Shrimp",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "43073470791880",
+          "label": "20 Shrimp",
+          "price": 114.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7673369166024",
+      "storeSlug": "buce-plant"
     }
   ]
 }

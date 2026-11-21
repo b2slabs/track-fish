@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:cichla-intermedia",
-  "commonName": "Intermedia Peacock Bass (Cichla intermedia)",
+  "commonName": "Royal Peacock Bass",
   "scientificName": "Cichla intermedia",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Intermedia Peacock Bass (Cichla intermedia)"
+    },
+    {
+      "listingId": "imperial-tropicals:8398086242611",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Royal Peacock Bass"
     }
   ],
   "events": [
@@ -107,6 +113,26 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612070437171",
+          "label": "3-4\" Unsexed",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398086242611",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-20T17:33:23.452Z",
       "price": 29.99,
       "currency": "USD",
@@ -130,6 +156,23 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T17:33:50.975Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612070437171",
+          "label": "3-4\" Unsexed",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398086242611",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-21T01:29:05.027Z",
       "price": 29.99,
       "currency": "USD",
@@ -151,6 +194,63 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7131851096273",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612070437171",
+          "label": "3-4\" Unsexed",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398086242611",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:25.006Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42166401171665",
+          "label": "3”",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "41284845502673",
+          "label": "6-7\"",
+          "price": 85,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7131851096273",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:07.776Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612070437171",
+          "label": "3-4\" Unsexed",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398086242611",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }
