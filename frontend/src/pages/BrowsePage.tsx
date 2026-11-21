@@ -47,15 +47,19 @@ export function BrowsePage() {
   }, [index, filters.search, filters.storeSlug, filters.availability]);
 
   // One card per Canonical Fish (issue #20): group the filtered Listings by
-  // canonicalFishId, then sort groups by their representative (lowest
-  // across Stores) price.
+  // canonicalFishId, then sort groups with in-stock ones first (regardless
+  // of price direction), and within each availability tier by their
+  // representative (lowest across Stores) price.
   const groups = useMemo(() => {
     const grouped = groupListingsByCanonicalFish(filteredListings);
-    return grouped.sort((a, b) =>
-      filters.sort === 'price-asc'
+    return grouped.sort((a, b) => {
+      if (a.available !== b.available) {
+        return a.available ? -1 : 1;
+      }
+      return filters.sort === 'price-asc'
         ? a.representative.price - b.representative.price
-        : b.representative.price - a.representative.price,
-    );
+        : b.representative.price - a.representative.price;
+    });
   }, [filteredListings, filters.sort]);
 
   function handleFilterChange(next: FilterState) {
