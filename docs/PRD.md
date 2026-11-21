@@ -56,7 +56,7 @@ New stores are added via config, not a redesign.
 ### Raw archive
 
 - See [ADR 0001](./adr/0001-raw-archive-via-github-releases.md): archived as GitHub Release assets, not a git branch.
-- One Release per day (tagged by date), one gzip-compressed JSON asset per Store, plus a manifest of SHA-256 checksums for integrity verification.
+- One Release per day (tagged by date), one combined gzip-compressed JSON asset covering every Store (keyed by store slug), plus a manifest with its SHA-256 checksum for integrity verification.
 - No deduplication — every Store's Observation is archived in full every Scrape Run.
 
 ### Processing & storage

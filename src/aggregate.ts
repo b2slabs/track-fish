@@ -3,25 +3,27 @@ import path from 'path';
 import { execSync } from 'child_process';
 import stores from './config/stores.js';
 import { readScrapedStore } from './scrape.js';
+import { buildCombinedRawArchive, combinedGzipFilenameFor } from './lib/raw-archive.js';
 import { withDataBranchWorktree, commitAndPushDataBranch } from './lib/data-branch.js';
 import { processStoreRun, type StoreConfig } from './process.js';
 
 /**
  * The aggregation step of the daily pipeline (see issue #5 / PRD
- * "Automation"): reads back every Store's raw archive (gzip files already
- * sitting in `outDir`, each written independently by a per-Store scrape --
- * either in-process via `src/run.ts`, or downloaded as GitHub Actions
- * matrix-job artifacts by `src/cli/aggregate.ts`), then does the two
- * exactly-once side effects for the day: one GitHub Release of the raw
- * archives, and one commit+push to the `data` branch of the normalized
- * result. A Store with no archive present in `outDir` (its scrape job
- * failed, or never ran) is skipped rather than blocking the rest.
+ * "Automation", and issue #30 for the combined-archive shape): reads back
+ * every Store's raw archive (gzip files already sitting in `outDir`, each
+ * written independently by a per-Store scrape -- either in-process via
+ * `src/run.ts`, or downloaded as GitHub Actions matrix-job artifacts by
+ * `src/cli/aggregate.ts`), then does the two exactly-once side effects for
+ * the day: one GitHub Release containing a single combined gzip of every
+ * Store's raw data (keyed by store slug) plus its checksum, and one
+ * commit+push to the `data` branch of the normalized result. A Store with
+ * no archive present in `outDir` (its scrape job failed, or never ran) is
+ * skipped rather than blocking the rest.
  */
 export async function aggregateAndPublish(outDir: string): Promise<void> {
   const today = new Date().toISOString().split('T')[0];
   const releaseTag = `raw-${today}`;
 
-  const manifestData: { filename: string; sha256: string }[] = [];
   const scrapedByStore: { store: StoreConfig; data: unknown }[] = [];
 
   for (const store of stores) {
@@ -30,7 +32,6 @@ export async function aggregateAndPublish(outDir: string): Promise<void> {
       console.error(`No raw archive found for ${store.name} (${store.slug}) -- its scrape step likely failed; skipping.`);
       continue;
     }
-    manifestData.push({ filename: scraped.gzipFilename, sha256: scraped.checksum });
     scrapedByStore.push({ store, data: scraped.data });
     console.log(`Found archive for ${store.name}: ${scraped.gzipFilename}`);
   }
@@ -39,19 +40,25 @@ export async function aggregateAndPublish(outDir: string): Promise<void> {
     throw new Error('No Store archives were found to aggregate -- every scrape step must have failed.');
   }
 
-  const manifestPath = path.join(outDir, 'manifest.json');
-  writeFileSync(manifestPath, JSON.stringify(manifestData, null, 2));
+  const { gzipBuffer, checksum } = buildCombinedRawArchive(
+    scrapedByStore.map(({ store, data }) => ({ slug: store.slug, data }))
+  );
 
-  const gzFiles = manifestData.map((entry) => path.join(outDir, entry.filename)).join(' ');
+  const combinedGzipFilename = combinedGzipFilenameFor(today);
+  const combinedGzipPath = path.join(outDir, combinedGzipFilename);
+  writeFileSync(combinedGzipPath, gzipBuffer);
+
+  const manifestPath = path.join(outDir, 'manifest.json');
+  writeFileSync(manifestPath, JSON.stringify({ filename: combinedGzipFilename, sha256: checksum }, null, 2));
 
   try {
     execSync(
-      `gh release create ${releaseTag} ${gzFiles} ${manifestPath} --repo b2slabs/track-fish --title "Raw archive ${today}" --notes "."`,
+      `gh release create ${releaseTag} ${combinedGzipPath} ${manifestPath} --repo b2slabs/track-fish --title "Raw archive ${today}" --notes "."`,
       { stdio: 'inherit' }
     );
   } catch (err) {
     console.error('Release already exists, uploading...');
-    execSync(`gh release upload --clobber ${releaseTag} ${gzFiles} ${manifestPath} --repo b2slabs/track-fish`, {
+    execSync(`gh release upload --clobber ${releaseTag} ${combinedGzipPath} ${manifestPath} --repo b2slabs/track-fish`, {
       stdio: 'inherit',
     });
   }
