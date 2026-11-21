@@ -243,6 +243,33 @@
       "type": "heartbeat",
       "listingId": "glass-aqua:7973553504342",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T16:39:51.178Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45441856733270",
+          "label": "Potted",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "45441856766038",
+          "label": "Bunch",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7973553504342",
+      "storeSlug": "glass-aqua"
     }
   ]
 }
