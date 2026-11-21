@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:cryptocoryne-wendtii:brown",
-  "commonName": "Cryptocoryne Wendtii Brown UNS Tissue Culture",
+  "commonName": "Cryptocoryne Wendtii Brown",
   "scientificName": "Cryptocoryne wendtii",
   "listings": [
     {
@@ -20,6 +20,30 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Cryptocoryne Wendtii Brown UNS Tissue Culture"
+    },
+    {
+      "listingId": "buce-plant:7251973341384",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Cryptocoryne Wendtii Brown Indo"
+    },
+    {
+      "listingId": "buce-plant:8554746765",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Cryptocoryne Wendtii Brown"
+    },
+    {
+      "listingId": "glass-aqua:11277474567",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Cryptocoryne Wendtii Brown Indo"
+    },
+    {
+      "listingId": "glass-aqua:11277468231",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Cryptocoryne Wendtii Brown"
     }
   ],
   "events": [
@@ -84,6 +108,104 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41590559178952",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:7251973341384",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29156836685",
+          "label": "Pot",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12423105871953",
+          "label": "3 Pot Package",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "12423105904721",
+          "label": "5 Pot Package",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8554746765",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738888647",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:11277474567",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12176616620118",
+          "label": "Potted",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "52738851783",
+          "label": "UNS Tissue Culture",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:11277468231",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-11-20T17:33:59.411Z",
       "price": 8.99,
       "currency": "USD",
@@ -133,6 +255,96 @@
       "type": "heartbeat",
       "listingId": "buce-plant:10012855245",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41590559178952",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:7251973341384",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29156836685",
+          "label": "Pot",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12423105871953",
+          "label": "3 Pot Package",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "12423105904721",
+          "label": "5 Pot Package",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8554746765",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:34:13.918Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738888647",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277474567",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T17:34:13.918Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12176616620118",
+          "label": "Potted",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "52738851783",
+          "label": "UNS Tissue Culture",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277468231",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-21T01:29:25.528Z",
@@ -190,6 +402,102 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41590559178952",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:7251973341384",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29156836685",
+          "label": "Pot",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12423105871953",
+          "label": "3 Pot Package",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "12423105904721",
+          "label": "5 Pot Package",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:8554746765",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:33.919Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738888647",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277474567",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:33.919Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12176616620118",
+          "label": "Potted",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "52738851783",
+          "label": "UNS Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277468231",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-11-21T01:31:18.727Z",
       "price": 8.99,
       "currency": "USD",
@@ -239,6 +547,92 @@
       "type": "heartbeat",
       "listingId": "buce-plant:10012855245",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41590559178952",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7251973341384",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29156836685",
+          "label": "Pot",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12423105871953",
+          "label": "3 Pot Package",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "12423105904721",
+          "label": "5 Pot Package",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8554746765",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:35.615Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738888647",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277474567",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:35.615Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12176616620118",
+          "label": "Potted",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "52738851783",
+          "label": "UNS Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277468231",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-21T02:01:06.591Z",
@@ -292,6 +686,92 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-21T02:01:06.591Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41590559178952",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7251973341384",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:06.591Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29156836685",
+          "label": "Pot",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12423105871953",
+          "label": "3 Pot Package",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "12423105904721",
+          "label": "5 Pot Package",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8554746765",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:24.375Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738888647",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277474567",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:24.375Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12176616620118",
+          "label": "Potted",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "52738851783",
+          "label": "UNS Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277468231",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-11-21T02:06:34.378Z",
       "price": 8.99,
       "currency": "USD",
@@ -341,6 +821,92 @@
       "type": "heartbeat",
       "listingId": "buce-plant:10012855245",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T02:06:34.378Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41590559178952",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7251973341384",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T02:06:34.378Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29156836685",
+          "label": "Pot",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12423105871953",
+          "label": "3 Pot Package",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "12423105904721",
+          "label": "5 Pot Package",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8554746765",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T02:06:53.174Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738888647",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277474567",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T02:06:53.174Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12176616620118",
+          "label": "Potted",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "52738851783",
+          "label": "UNS Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277468231",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-21T14:38:56.536Z",
@@ -394,6 +960,92 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-21T14:38:56.536Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41590559178952",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7251973341384",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T14:38:56.536Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29156836685",
+          "label": "Pot",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12423105871953",
+          "label": "3 Pot Package",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "12423105904721",
+          "label": "5 Pot Package",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8554746765",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T14:39:29.647Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738888647",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277474567",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T14:39:29.647Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12176616620118",
+          "label": "Potted",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "52738851783",
+          "label": "UNS Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277468231",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-11-21T14:50:32.244Z",
       "price": 8.99,
       "currency": "USD",
@@ -443,6 +1095,229 @@
       "type": "heartbeat",
       "listingId": "buce-plant:10012855245",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T14:50:32.244Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41590559178952",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7251973341384",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T14:50:32.244Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29156836685",
+          "label": "Pot",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12423105871953",
+          "label": "3 Pot Package",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "12423105904721",
+          "label": "5 Pot Package",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8554746765",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T14:50:55.647Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738888647",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277474567",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T14:50:55.647Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12176616620118",
+          "label": "Potted",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "52738851783",
+          "label": "UNS Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277468231",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:27.521Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41590559178952",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7251973341384",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:27.521Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43952775102664",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8011810308296",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:27.521Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37568088333",
+          "label": "1 Cup",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10012901581",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:27.521Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "37567783757",
+          "label": "1 Cup",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10012855245",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:27.521Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29156836685",
+          "label": "Pot",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12423105871953",
+          "label": "3 Pot Package",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "12423105904721",
+          "label": "5 Pot Package",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8554746765",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:45.968Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738888647",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277474567",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:45.968Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12176616620118",
+          "label": "Potted",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "52738851783",
+          "label": "UNS Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277468231",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

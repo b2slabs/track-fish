@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:apistogramma-agassizi:red",
-  "commonName": "Apistogramma Agassizi Super Red",
+  "commonName": "Apistogramma Agassizi Double Red",
   "scientificName": "Apistogramma agassizi",
   "listings": [
     {
@@ -8,9 +8,87 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Apistogramma Agassizi Super Red"
+    },
+    {
+      "listingId": "monster-aquarium:6996779172049",
+      "storeSlug": "monster-aquarium",
+      "storeName": "Monster Aquarium",
+      "commonName": "Apistogramma Agassizii \"Fire Red\""
+    },
+    {
+      "listingId": "aquahuna:7374271217739",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Apistogramma Agassizi Double Red"
+    },
+    {
+      "listingId": "aquahuna:6844046835787",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Apistogramma Agassizi Fire Red"
+    },
+    {
+      "listingId": "aquahuna:6829145260107",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Apistogramma Agassizi Double Red"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925194354897",
+          "label": "1.5-2.5” (1 pair )",
+          "price": 55,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:6996779172049",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:03:59.400Z",
+      "price": 55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925194354897",
+          "label": "1.5-2.5” (1 pair )",
+          "price": 55,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6996779172049",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:41.736Z",
+      "price": 55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925194354897",
+          "label": "1.5-2.5” (1 pair )",
+          "price": 55,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6996779172049",
+      "storeSlug": "monster-aquarium"
+    },
     {
       "observedAt": "2026-11-20T06:14:42.593Z",
       "price": 24,
@@ -32,6 +110,83 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41497364987979",
+          "label": "Title",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:7374271217739",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 24,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40043136811083",
+          "label": "Title",
+          "price": 24,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:6844046835787",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 22,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40007722008651",
+          "label": "Title",
+          "price": 22,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:6829145260107",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:37.184Z",
+      "price": 55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925194354897",
+          "label": "1.5-2.5” (1 pair )",
+          "price": 55,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6996779172049",
+      "storeSlug": "monster-aquarium"
+    },
+    {
       "observedAt": "2026-11-20T06:27:38.279Z",
       "price": 24,
       "currency": "USD",
@@ -47,6 +202,74 @@
       "type": "heartbeat",
       "listingId": "aquahuna:6844046606411",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41497364987979",
+          "label": "Title",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7374271217739",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 24,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40043136811083",
+          "label": "Title",
+          "price": 24,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6844046835787",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:38.279Z",
+      "price": 22,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40007722008651",
+          "label": "Title",
+          "price": 22,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6829145260107",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:23.452Z",
+      "price": 55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925194354897",
+          "label": "1.5-2.5” (1 pair )",
+          "price": 55,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6996779172049",
+      "storeSlug": "monster-aquarium"
     },
     {
       "observedAt": "2026-11-20T17:33:27.861Z",
@@ -66,6 +289,74 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T17:33:27.861Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41497364987979",
+          "label": "Title",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7374271217739",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:27.861Z",
+      "price": 24,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40043136811083",
+          "label": "Title",
+          "price": 24,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6844046835787",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:27.861Z",
+      "price": 22,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40007722008651",
+          "label": "Title",
+          "price": 22,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6829145260107",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:05.027Z",
+      "price": 55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925194354897",
+          "label": "1.5-2.5” (1 pair )",
+          "price": 55,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6996779172049",
+      "storeSlug": "monster-aquarium"
+    },
+    {
       "observedAt": "2026-11-21T01:29:07.561Z",
       "price": 24,
       "currency": "USD",
@@ -81,6 +372,74 @@
       "type": "heartbeat",
       "listingId": "aquahuna:6844046606411",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41497364987979",
+          "label": "Title",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7374271217739",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 24,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40043136811083",
+          "label": "Title",
+          "price": 24,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6844046835787",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 22,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40007722008651",
+          "label": "Title",
+          "price": 22,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6829145260107",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:25.006Z",
+      "price": 55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925194354897",
+          "label": "1.5-2.5” (1 pair )",
+          "price": 55,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6996779172049",
+      "storeSlug": "monster-aquarium"
     },
     {
       "observedAt": "2026-11-21T01:30:31.959Z",
@@ -100,6 +459,74 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-21T01:30:31.959Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41497364987979",
+          "label": "Title",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7374271217739",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:31.959Z",
+      "price": 24,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40043136811083",
+          "label": "Title",
+          "price": 24,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6844046835787",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:31.959Z",
+      "price": 22,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40007722008651",
+          "label": "Title",
+          "price": 22,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6829145260107",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:10.177Z",
+      "price": 55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925194354897",
+          "label": "1.5-2.5” (1 pair )",
+          "price": 55,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6996779172049",
+      "storeSlug": "monster-aquarium"
+    },
+    {
       "observedAt": "2026-11-21T02:00:17.408Z",
       "price": 24,
       "currency": "USD",
@@ -115,6 +542,74 @@
       "type": "heartbeat",
       "listingId": "aquahuna:6844046606411",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:17.408Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41497364987979",
+          "label": "Title",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7374271217739",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:17.408Z",
+      "price": 24,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40043136811083",
+          "label": "Title",
+          "price": 24,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6844046835787",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:17.408Z",
+      "price": 22,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40007722008651",
+          "label": "Title",
+          "price": 22,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6829145260107",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T02:05:35.613Z",
+      "price": 55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925194354897",
+          "label": "1.5-2.5” (1 pair )",
+          "price": 55,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6996779172049",
+      "storeSlug": "monster-aquarium"
     },
     {
       "observedAt": "2026-11-21T02:05:43.497Z",
@@ -134,6 +629,74 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-21T02:05:43.497Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41497364987979",
+          "label": "Title",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7374271217739",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T02:05:43.497Z",
+      "price": 24,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40043136811083",
+          "label": "Title",
+          "price": 24,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6844046835787",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T02:05:43.497Z",
+      "price": 22,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40007722008651",
+          "label": "Title",
+          "price": 22,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6829145260107",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T14:37:03.941Z",
+      "price": 55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925194354897",
+          "label": "1.5-2.5” (1 pair )",
+          "price": 55,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6996779172049",
+      "storeSlug": "monster-aquarium"
+    },
+    {
       "observedAt": "2026-11-21T14:37:18.780Z",
       "price": 24,
       "currency": "USD",
@@ -151,6 +714,74 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-21T14:37:18.780Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41497364987979",
+          "label": "Title",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7374271217739",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T14:37:18.780Z",
+      "price": 24,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40043136811083",
+          "label": "Title",
+          "price": 24,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6844046835787",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T14:37:18.780Z",
+      "price": 22,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40007722008651",
+          "label": "Title",
+          "price": 22,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6829145260107",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T14:49:03.810Z",
+      "price": 55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925194354897",
+          "label": "1.5-2.5” (1 pair )",
+          "price": 55,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6996779172049",
+      "storeSlug": "monster-aquarium"
+    },
+    {
       "observedAt": "2026-11-21T14:49:16.562Z",
       "price": 24,
       "currency": "USD",
@@ -165,6 +796,142 @@
       ],
       "type": "heartbeat",
       "listingId": "aquahuna:6844046606411",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T14:49:16.562Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41497364987979",
+          "label": "Title",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7374271217739",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T14:49:16.562Z",
+      "price": 24,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40043136811083",
+          "label": "Title",
+          "price": 24,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6844046835787",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T14:49:16.562Z",
+      "price": 22,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40007722008651",
+          "label": "Title",
+          "price": 22,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6829145260107",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T14:59:29.588Z",
+      "price": 55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925194354897",
+          "label": "1.5-2.5” (1 pair )",
+          "price": 55,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6996779172049",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T14:59:36.759Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41497364987979",
+          "label": "Title",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7374271217739",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T14:59:36.759Z",
+      "price": 24,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40043136811083",
+          "label": "Title",
+          "price": 24,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6844046835787",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T14:59:36.759Z",
+      "price": 24,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40043135664203",
+          "label": "Title",
+          "price": 24,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6844046606411",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T14:59:36.759Z",
+      "price": 22,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40007722008651",
+          "label": "Title",
+          "price": 22,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6829145260107",
       "storeSlug": "aquahuna"
     }
   ]

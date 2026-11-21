@@ -564,6 +564,52 @@
       "type": "heartbeat",
       "listingId": "buce-plant:7678288199880",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T14:59:10.619Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15492961286",
+          "label": "1 Plant",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "30432370316",
+          "label": "2 Plants",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "30432370380",
+          "label": "3 Plants",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4735540422",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:27.521Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43090257871048",
+          "label": "Title",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7678288199880",
+      "storeSlug": "buce-plant"
     }
   ]
 }

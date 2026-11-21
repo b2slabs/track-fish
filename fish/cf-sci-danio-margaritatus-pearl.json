@@ -26,6 +26,24 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Celestial Pearl Danio"
+    },
+    {
+      "listingId": "imperial-tropicals:8397999178035",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Celestial Pearl Danio"
+    },
+    {
+      "listingId": "daku-aquatics:8741041930458",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Celestial Pearl Danio"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006314877244",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Celestial Pearl Danio"
     }
   ],
   "events": [
@@ -168,6 +186,52 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611783946547",
+          "label": "(3 Pack) 0.25-0.5\" Unsexed",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "50480894705971",
+          "label": "(10 Pack) 0.25-0.5\" Unsexed",
+          "price": 89.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8397999178035",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043854242010",
+          "label": "5 Pack (mixed sex)",
+          "price": 40,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741041930458",
+      "storeSlug": "daku-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T17:33:27.861Z",
       "price": 8,
       "currency": "USD",
@@ -246,6 +310,46 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:775134806135",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:50.975Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611783946547",
+          "label": "(3 Pack) 0.25-0.5\" Unsexed",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "50480894705971",
+          "label": "(10 Pack) 0.25-0.5\" Unsexed",
+          "price": 89.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397999178035",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:57.952Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043854242010",
+          "label": "5 Pack (mixed sex)",
+          "price": 40,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741041930458",
+      "storeSlug": "daku-aquatics"
     },
     {
       "observedAt": "2026-11-21T01:29:07.561Z",
@@ -336,6 +440,78 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611783946547",
+          "label": "(3 Pack) 0.25-0.5\" Unsexed",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "50480894705971",
+          "label": "(10 Pack) 0.25-0.5\" Unsexed",
+          "price": 89.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397999178035",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:24.660Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043854242010",
+          "label": "5 Pack (mixed sex)",
+          "price": 40,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741041930458",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 8.34,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718417187132",
+          "label": "Single",
+          "price": 8.34,
+          "available": false
+        },
+        {
+          "id": "51718417219900",
+          "label": "Group of 3",
+          "price": 22.52,
+          "available": false
+        },
+        {
+          "id": "51718417252668",
+          "label": "Group of 6",
+          "price": 40.03,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006314877244",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
       "observedAt": "2026-11-21T01:30:31.959Z",
       "price": 8,
       "currency": "USD",
@@ -414,6 +590,46 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:775134806135",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:07.776Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611783946547",
+          "label": "(3 Pack) 0.25-0.5\" Unsexed",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "50480894705971",
+          "label": "(10 Pack) 0.25-0.5\" Unsexed",
+          "price": 89.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397999178035",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:17.716Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043854242010",
+          "label": "5 Pack (mixed sex)",
+          "price": 40,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741041930458",
+      "storeSlug": "daku-aquatics"
     },
     {
       "observedAt": "2026-11-21T02:00:17.408Z",
@@ -496,6 +712,75 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-21T02:00:55.045Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611783946547",
+          "label": "(3 Pack) 0.25-0.5\" Unsexed",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "50480894705971",
+          "label": "(10 Pack) 0.25-0.5\" Unsexed",
+          "price": 89.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397999178035",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:05.579Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043854242010",
+          "label": "5 Pack (mixed sex)",
+          "price": 40,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741041930458",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:36.649Z",
+      "price": 8.34,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718417187132",
+          "label": "Single",
+          "price": 8.34,
+          "available": false
+        },
+        {
+          "id": "51718417219900",
+          "label": "Group of 3",
+          "price": 22.52,
+          "available": false
+        },
+        {
+          "id": "51718417252668",
+          "label": "Group of 6",
+          "price": 40.03,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006314877244",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
       "observedAt": "2026-11-21T02:05:43.497Z",
       "price": 8,
       "currency": "USD",
@@ -574,6 +859,75 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:775134806135",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T02:06:22.842Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611783946547",
+          "label": "(3 Pack) 0.25-0.5\" Unsexed",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "50480894705971",
+          "label": "(10 Pack) 0.25-0.5\" Unsexed",
+          "price": 89.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397999178035",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T02:06:33.360Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043854242010",
+          "label": "5 Pack (mixed sex)",
+          "price": 40,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741041930458",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T02:07:05.919Z",
+      "price": 8.34,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718417187132",
+          "label": "Single",
+          "price": 8.34,
+          "available": false
+        },
+        {
+          "id": "51718417219900",
+          "label": "Group of 3",
+          "price": 22.52,
+          "available": false
+        },
+        {
+          "id": "51718417252668",
+          "label": "Group of 6",
+          "price": 40.03,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006314877244",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-21T14:37:18.780Z",
@@ -656,6 +1010,75 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-21T14:38:33.801Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611783946547",
+          "label": "(3 Pack) 0.25-0.5\" Unsexed",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "50480894705971",
+          "label": "(10 Pack) 0.25-0.5\" Unsexed",
+          "price": 89.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397999178035",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T14:38:54.757Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043854242010",
+          "label": "5 Pack (mixed sex)",
+          "price": 40,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741041930458",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:39:54.085Z",
+      "price": 8.34,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718417187132",
+          "label": "Single",
+          "price": 8.34,
+          "available": false
+        },
+        {
+          "id": "51718417219900",
+          "label": "Group of 3",
+          "price": 22.52,
+          "available": false
+        },
+        {
+          "id": "51718417252668",
+          "label": "Group of 6",
+          "price": 40.03,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006314877244",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
       "observedAt": "2026-11-21T14:49:16.562Z",
       "price": 8,
       "currency": "USD",
@@ -734,6 +1157,224 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:775134806135",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T14:50:16.363Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611783946547",
+          "label": "(3 Pack) 0.25-0.5\" Unsexed",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "50480894705971",
+          "label": "(10 Pack) 0.25-0.5\" Unsexed",
+          "price": 89.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397999178035",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T14:50:30.754Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043854242010",
+          "label": "5 Pack (mixed sex)",
+          "price": 40,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741041930458",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:51:13.682Z",
+      "price": 8.34,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718417187132",
+          "label": "Single",
+          "price": 8.34,
+          "available": false
+        },
+        {
+          "id": "51718417219900",
+          "label": "Group of 3",
+          "price": 22.52,
+          "available": false
+        },
+        {
+          "id": "51718417252668",
+          "label": "Group of 6",
+          "price": 40.03,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006314877244",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T14:59:36.759Z",
+      "price": 8,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "33008409903179",
+          "label": "Title",
+          "price": 8,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4717607518283",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T14:59:43.540Z",
+      "price": 20.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336045977815",
+          "label": "3",
+          "price": 20.98,
+          "available": true
+        },
+        {
+          "id": "45336046010583",
+          "label": "5",
+          "price": 30.98,
+          "available": true
+        },
+        {
+          "id": "45336046043351",
+          "label": "10",
+          "price": 50.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8147766935767",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:01.282Z",
+      "price": 27.22,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441054122283",
+          "label": "Title",
+          "price": 27.22,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130824495403",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:01.282Z",
+      "price": 6.22,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51437871300907",
+          "label": "Title",
+          "price": 6.22,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:775134806135",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:16.231Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611783946547",
+          "label": "(3 Pack) 0.25-0.5\" Unsexed",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "50480894705971",
+          "label": "(10 Pack) 0.25-0.5\" Unsexed",
+          "price": 89.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397999178035",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:26.133Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043854242010",
+          "label": "5 Pack (mixed sex)",
+          "price": 40,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741041930458",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T15:01:01.678Z",
+      "price": 8.34,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718417187132",
+          "label": "Single",
+          "price": 8.34,
+          "available": false
+        },
+        {
+          "id": "51718417219900",
+          "label": "Group of 3",
+          "price": 22.52,
+          "available": false
+        },
+        {
+          "id": "51718417252668",
+          "label": "Group of 6",
+          "price": 40.03,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006314877244",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }
