@@ -33,8 +33,6 @@ export function FishDetailPage() {
         <ArrowLeft className="size-4" /> Back to browse
       </Link>
 
-      {index && <LastUpdated index={index} />}
-
       {loading && (
         <div className="mt-6 space-y-4">
           <Skeleton className="h-64 w-full" />
@@ -132,6 +130,12 @@ export function FishDetailPage() {
             })}
           </div>
         </div>
+      )}
+
+      {index && (
+        <footer className="mt-10 border-t pt-4">
+          <LastUpdated index={index} />
+        </footer>
       )}
     </div>
   );
