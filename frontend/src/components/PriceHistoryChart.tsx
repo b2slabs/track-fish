@@ -1,3 +1,5 @@
+import { useMemo, useRef, useState } from 'react';
+import type { MouseEvent as ReactMouseEvent } from 'react';
 import {
   CartesianGrid,
   Line,
@@ -194,74 +196,243 @@ function buildVariantSeries(events: HistoryEvent[]): {
 }
 
 /**
+ * One series' own real observation, already stripped of every other
+ * series' keys (issue #29) — the shape each per-series/per-run `<Line
+ * data={...}>` plots directly, and what the custom nearest-point hover
+ * below compares the cursor against. `key`/`label`/`color`/`currency`
+ * identify which series/Store the point belongs to.
+ */
+interface SeriesPoint {
+  key: string;
+  label: string;
+  color: string;
+  currency: string;
+  timestamp: number;
+  observedAt: string;
+  price: number;
+  available: boolean;
+  type: HistoryEvent['type'];
+}
+
+/**
+ * Pulls one series' real observations (non-null, non-$0.00-placeholder)
+ * out of the combined per-event matrix built by `buildVariantSeries`/
+ * `buildUnifiedSeries`, in the time order `points` is already sorted in.
+ * `price == null` catches both: a row that is genuinely this series' own
+ * event with a `null` (sold-out $0.00) price, and a row that is some
+ * *other* series' event where this series' key was never set at all
+ * (`undefined`, the Unified chart's sparse case) — both mean "nothing to
+ * plot for this series here".
+ */
+function extractSeriesPoints(
+  points: MultiVariantPoint[],
+  id: string,
+  meta: { key: string; label: string; color: string; currency: string },
+): SeriesPoint[] {
+  const out: SeriesPoint[] = [];
+  for (const p of points) {
+    const price = p[priceKey(id)] as number | null | undefined;
+    if (price == null) continue;
+    out.push({
+      ...meta,
+      timestamp: p.timestamp,
+      observedAt: p.observedAt,
+      price,
+      available: Boolean(p[availKey(id)]),
+      type: p.type,
+    });
+  }
+  return out;
+}
+
+/**
+ * How much larger than a series' own typical observation gap counts as
+ * "too large to bridge" (issue #29, bug 2). Chosen as a multiple of that
+ * series' own median gap — not a fixed time span, and not the combined
+ * chart's cadence — because how often *this* series itself is actually
+ * observed is the only basis for calling one of its own gaps anomalous
+ * rather than normal spacing.
+ */
+const GAP_BREAK_MULTIPLIER = 5;
+
+/**
+ * Splits one series' own real observations (time-sorted) into runs that
+ * should each be drawn as one connected line. Consecutive observations
+ * join into the same run — connecting through the combined chart's
+ * nulls, which just mean "no other series changed here", not "no data"
+ * for this series — *unless* the gap between them is unusually large
+ * relative to this series' own typical cadence, in which case a new run
+ * starts: bridging that stretch would draw a flat line implying a price
+ * held steady through a period this series was never actually observed.
+ * With fewer than 3 points there's no basis for "typical", so everything
+ * in a single run of 1-2 points stays connected.
+ */
+function splitConnectedRuns(seriesPoints: SeriesPoint[]): SeriesPoint[][] {
+  if (seriesPoints.length <= 2) {
+    return seriesPoints.length > 0 ? [seriesPoints] : [];
+  }
+  const gaps = seriesPoints.slice(1).map((p, i) => p.timestamp - seriesPoints[i].timestamp);
+  const sortedGaps = [...gaps].sort((a, b) => a - b);
+  const medianGap = sortedGaps[Math.floor(sortedGaps.length / 2)];
+  const threshold = medianGap * GAP_BREAK_MULTIPLIER;
+
+  const runs: SeriesPoint[][] = [[seriesPoints[0]]];
+  gaps.forEach((gap, i) => {
+    if (medianGap > 0 && gap > threshold) {
+      runs.push([seriesPoints[i + 1]]);
+    } else {
+      runs[runs.length - 1].push(seriesPoints[i + 1]);
+    }
+  });
+  return runs;
+}
+
+/**
  * Filled dot in the series' color when in stock; hollow (background
  * fill, colored ring) when out of stock — so availability reads from
  * shape, not just color, per series (issue #17, extended to per-Store
- * series by issue #23). No dot is drawn where there is no price to plot
- * (series absent from that event, or a $0.00 sold-out placeholder).
+ * series by issue #23). Each `<Line>` now plots only its own run of real
+ * `SeriesPoint`s (issue #29), so there is no "absent here" case left to
+ * handle — every point passed in has a real price.
  */
-function SeriesDot(
-  props: DotProps & { payload?: MultiVariantPoint; seriesKey: string; color: string },
-) {
-  const { cx, cy, payload, seriesKey, color } = props;
+function SeriesDot(props: DotProps & { payload?: SeriesPoint; color: string }) {
+  const { cx, cy, payload, color } = props;
   if (cx == null || cy == null || !payload) return null;
-  const price = payload[priceKey(seriesKey)];
-  if (price == null) return null;
-  const available = Boolean(payload[availKey(seriesKey)]);
   return (
     <circle
       cx={cx}
       cy={cy}
       r={4}
-      fill={available ? color : 'var(--color-background, #fff)'}
+      fill={payload.available ? color : 'var(--color-background, #fff)'}
       stroke={color}
-      strokeWidth={available ? 1.5 : 2}
+      strokeWidth={payload.available ? 1.5 : 2}
     />
   );
 }
 
-function MultiVariantTooltip({
-  active,
-  payload,
-  variants,
-  colors,
-  currency,
-}: {
-  active?: boolean;
-  payload?: Array<{ payload: MultiVariantPoint }>;
-  variants: VariantMeta[];
-  colors: string[];
-  currency: string;
-}) {
-  if (!active || !payload?.length) return null;
-  const point = payload[0].payload;
+interface HoverState {
+  point: SeriesPoint;
+  left: number;
+  top: number;
+}
+
+/**
+ * Finds the real data point genuinely nearest the mouse — in both price
+ * (vertical) and time (horizontal) — rather than Recharts' default
+ * nearest-x-index behavior, which (issue #29, bug 3) surfaced whichever
+ * series happened to have a value at the nearest shared timestamp,
+ * regardless of how far away that value actually was on screen. With
+ * each series populated at only a handful of the full combined x-axis's
+ * timestamps, nearest-x-index routinely landed on the wrong series.
+ *
+ * Distance is computed in the plot's own normalized [0,1] x [0,1] space
+ * (fraction of the full time range / full price range), not raw units,
+ * so time (spanning days of milliseconds) and price (spanning single
+ * dollars) contribute comparably to "nearest" instead of time dominating.
+ *
+ * The plot's pixel rectangle is read straight from Recharts' own
+ * `.recharts-cartesian-grid-bg` background rect at move-time via the DOM,
+ * rather than recomputed from margins/axis widths — that rect is exactly
+ * the chart's actual plotting area in every Recharts version, so this
+ * stays correct even if those layout numbers change.
+ */
+function useNearestPointHover(points: SeriesPoint[]) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [hover, setHover] = useState<HoverState | null>(null);
+
+  const domain = useMemo(() => {
+    if (points.length === 0) return null;
+    let minT = Infinity;
+    let maxT = -Infinity;
+    let minP = Infinity;
+    let maxP = -Infinity;
+    for (const p of points) {
+      if (p.timestamp < minT) minT = p.timestamp;
+      if (p.timestamp > maxT) maxT = p.timestamp;
+      if (p.price < minP) minP = p.price;
+      if (p.price > maxP) maxP = p.price;
+    }
+    // Small symmetric padding, roughly mirroring Recharts' own 'auto' Y
+    // domain padding, so points at the exact min/max price aren't glued
+    // to the plot's edge when computing normalized distance.
+    const pad = (maxP - minP) * 0.1 || Math.max(maxP, 1) * 0.1;
+    return { minT, maxT: maxT === minT ? maxT + 1 : maxT, minP: minP - pad, maxP: maxP + pad };
+  }, [points]);
+
+  const handleMove = (e: ReactMouseEvent<HTMLDivElement>) => {
+    const container = containerRef.current;
+    if (!container || !domain || points.length === 0) return;
+    const gridBg = container.querySelector('.recharts-cartesian-grid-bg');
+    if (!gridBg) return;
+    const plotBox = gridBg.getBoundingClientRect();
+    const containerBox = container.getBoundingClientRect();
+    if (plotBox.width === 0 || plotBox.height === 0) return;
+
+    const fracX = Math.min(1, Math.max(0, (e.clientX - plotBox.left) / plotBox.width));
+    const fracY = Math.min(1, Math.max(0, (e.clientY - plotBox.top) / plotBox.height));
+    const { minT, maxT, minP, maxP } = domain;
+
+    let best: SeriesPoint | null = null;
+    let bestDist = Infinity;
+    for (const p of points) {
+      const px = (p.timestamp - minT) / (maxT - minT);
+      const py = 1 - (p.price - minP) / (maxP - minP);
+      const dist = (px - fracX) ** 2 + (py - fracY) ** 2;
+      if (dist < bestDist) {
+        bestDist = dist;
+        best = p;
+      }
+    }
+    if (!best) return;
+
+    const bestPx = (best.timestamp - minT) / (maxT - minT);
+    const bestPy = 1 - (best.price - minP) / (maxP - minP);
+    setHover({
+      point: best,
+      left: plotBox.left - containerBox.left + bestPx * plotBox.width,
+      top: plotBox.top - containerBox.top + bestPy * plotBox.height,
+    });
+  };
+
+  return { containerRef, hover, handleMove, handleLeave: () => setHover(null) };
+}
+
+/**
+ * Floating tooltip + highlight ring for whatever point
+ * `useNearestPointHover` found nearest the cursor. Positioned in pixels
+ * relative to the hover container (not Recharts' own Tooltip, which this
+ * replaces for the multi-series charts — see `useNearestPointHover`).
+ * Flips below the point instead of above when too close to the chart's
+ * top edge, so it is never clipped off the top of the card.
+ */
+function PointHoverOverlay({ hover }: { hover: HoverState }) {
+  const { point, left, top } = hover;
+  const flipBelow = top < 56;
   return (
-    <div className="rounded-md border bg-popover px-3 py-2 text-sm shadow-md">
-      <p className="mb-1 font-medium">{formatDateTime(point.observedAt)}</p>
-      <ul className="space-y-0.5">
-        {variants.map((v, idx) => {
-          const price = point[priceKey(v.id)] as number | null;
-          const available = Boolean(point[availKey(v.id)]);
-          return (
-            <li key={v.id} className="flex items-center gap-2">
-              <span
-                className="inline-block size-2 shrink-0 rounded-full"
-                style={{ backgroundColor: colors[idx] }}
-              />
-              <span className="text-muted-foreground">{v.label}:</span>
-              <span className="font-medium">
-                {price == null ? 'Sold out (no price)' : formatPrice(price, currency)}
-              </span>
-              {price != null && !available && (
-                <span className="text-xs text-red-500">out of stock</span>
-              )}
-            </li>
-          );
-        })}
-      </ul>
-      <p className="mt-1 text-xs text-muted-foreground">
-        {point.type === 'change' ? 'Change event' : 'Heartbeat'}
-      </p>
+    <div className="pointer-events-none absolute inset-0 z-10">
+      <span
+        className="absolute size-3 -translate-x-1/2 -translate-y-1/2 rounded-full ring-2 ring-offset-1 ring-offset-background"
+        style={{ left, top, backgroundColor: point.color, boxShadow: `0 0 0 2px ${point.color}` }}
+      />
+      <div
+        className={`absolute -translate-x-1/2 rounded-md border bg-popover px-3 py-2 text-sm shadow-md ${
+          flipBelow ? 'translate-y-3' : '-translate-y-[calc(100%+12px)]'
+        }`}
+        style={{ left, top }}
+      >
+        <p className="mb-0.5 font-medium">{formatDateTime(point.observedAt)}</p>
+        <p className="flex items-center gap-1.5">
+          <span
+            className="inline-block size-2 shrink-0 rounded-full"
+            style={{ backgroundColor: point.color }}
+          />
+          <span className="text-muted-foreground">{point.label}:</span>
+          <span className="font-medium">{formatPrice(point.price, point.currency)}</span>
+        </p>
+        <p className={point.available ? 'text-xs text-emerald-600' : 'text-xs text-red-500'}>
+          {point.available ? 'In stock' : 'Out of stock'}
+        </p>
+      </div>
     </div>
   );
 }
@@ -282,50 +453,76 @@ function MultiVariantPriceHistoryChart({
   const { variants, points } = buildVariantSeries(events);
   const colors = variants.map((_, idx) => seriesColor(idx));
 
+  // Per-series real-observation runs (issue #29, bug 2) — each `<Line>`
+  // below plots one run, so a run's own points draw a connected line while
+  // a gap too large for that series' own cadence starts a new, separately
+  // drawn run instead of a misleading straight line across it.
+  const runsByVariant = variants.map((v, idx) =>
+    splitConnectedRuns(
+      extractSeriesPoints(points, v.id, {
+        key: v.id,
+        label: v.label,
+        color: colors[idx],
+        currency,
+      }),
+    ),
+  );
+  const flatPoints = runsByVariant.flat(2);
+  const { containerRef, hover, handleMove, handleLeave } = useNearestPointHover(flatPoints);
+
   return (
-    <div className="h-72 w-full">
-      <ResponsiveContainer width="100%" height="100%">
-        <LineChart data={points} margin={{ top: 8, right: 16, bottom: 8, left: 8 }}>
-          <CartesianGrid strokeDasharray="3 3" className="stroke-border" />
-          <XAxis
-            dataKey="timestamp"
-            type="number"
-            domain={['dataMin', 'dataMax']}
-            tickFormatter={(ts: number) =>
-              new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' }).format(
-                new Date(ts),
-              )
-            }
-            className="text-xs"
-          />
-          <YAxis
-            tickFormatter={(p: number) => formatPrice(p, currency)}
-            width={80}
-            domain={['auto', 'auto']}
-            className="text-xs"
-          />
-          <Tooltip
-            content={<MultiVariantTooltip variants={variants} colors={colors} currency={currency} />}
-          />
-          {variants.map((v, idx) => {
-            const color = colors[idx];
-            return (
-              <Line
-                key={v.id}
-                type="stepAfter"
-                dataKey={priceKey(v.id)}
-                name={v.label}
-                stroke={color}
-                strokeWidth={2}
-                dot={<SeriesDot seriesKey={v.id} color={color} />}
-                activeDot={{ r: 6, fill: color, stroke: 'var(--background)' }}
-                connectNulls={false}
-                isAnimationActive={false}
-              />
-            );
-          })}
-        </LineChart>
-      </ResponsiveContainer>
+    <div className="w-full">
+      <div
+        ref={containerRef}
+        className="relative h-72 w-full"
+        onMouseMove={handleMove}
+        onMouseLeave={handleLeave}
+      >
+        <ResponsiveContainer width="100%" height="100%">
+          <LineChart data={points} margin={{ top: 8, right: 16, bottom: 8, left: 8 }}>
+            {/* `fill="transparent"` (invisible — Recharts' default is `fill="none"`,
+                which renders no background rect at all) forces Recharts to render
+                its `.recharts-cartesian-grid-bg` rect, which `useNearestPointHover`
+                reads via the DOM to know the plot area's exact pixel bounds. */}
+            <CartesianGrid strokeDasharray="3 3" className="stroke-border" fill="transparent" />
+            <XAxis
+              dataKey="timestamp"
+              type="number"
+              domain={['dataMin', 'dataMax']}
+              tickFormatter={(ts: number) =>
+                new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' }).format(
+                  new Date(ts),
+                )
+              }
+              className="text-xs"
+            />
+            <YAxis
+              tickFormatter={(p: number) => formatPrice(p, currency)}
+              width={80}
+              domain={['auto', 'auto']}
+              className="text-xs"
+            />
+            {variants.map((v, idx) => {
+              const color = colors[idx];
+              return runsByVariant[idx].map((run, runIdx) => (
+                <Line
+                  key={`${v.id}-${runIdx}`}
+                  data={run}
+                  type="stepAfter"
+                  dataKey="price"
+                  name={v.label}
+                  stroke={color}
+                  strokeWidth={2}
+                  dot={<SeriesDot color={color} />}
+                  activeDot={false}
+                  isAnimationActive={false}
+                />
+              ));
+            })}
+          </LineChart>
+        </ResponsiveContainer>
+        {hover && <PointHoverOverlay hover={hover} />}
+      </div>
       <div className="mt-2 space-y-1 text-xs text-muted-foreground">
         <div className="flex flex-wrap gap-x-4 gap-y-1">
           {variants.map((v, idx) => (
@@ -491,54 +688,6 @@ function buildUnifiedSeries(
   return { series, points };
 }
 
-function UnifiedTooltip({
-  active,
-  payload,
-  series,
-}: {
-  active?: boolean;
-  payload?: Array<{ payload: MultiVariantPoint }>;
-  series: UnifiedSeriesMeta[];
-}) {
-  if (!active || !payload?.length) return null;
-  const point = payload[0].payload;
-  // Only series actually observed at this exact timestamp carry a value on
-  // this row (see `buildUnifiedSeries`) — every other Store's series is
-  // `undefined` here, not `null`, and is left out rather than shown as a
-  // false "sold out".
-  const observed = series.filter((s) => point[priceKey(s.key)] !== undefined);
-  if (observed.length === 0) return null;
-  return (
-    <div className="rounded-md border bg-popover px-3 py-2 text-sm shadow-md">
-      <p className="mb-1 font-medium">{formatDateTime(point.observedAt)}</p>
-      <ul className="space-y-0.5">
-        {observed.map((s) => {
-          const price = point[priceKey(s.key)] as number | null;
-          const available = Boolean(point[availKey(s.key)]);
-          return (
-            <li key={s.key} className="flex items-center gap-2">
-              <span
-                className="inline-block size-2 shrink-0 rounded-full"
-                style={{ backgroundColor: s.color }}
-              />
-              <span className="text-muted-foreground">{s.label}:</span>
-              <span className="font-medium">
-                {price == null ? 'Sold out (no price)' : formatPrice(price, s.currency)}
-              </span>
-              {price != null && !available && (
-                <span className="text-xs text-red-500">out of stock</span>
-              )}
-            </li>
-          );
-        })}
-      </ul>
-      <p className="mt-1 text-xs text-muted-foreground">
-        {point.type === 'change' ? 'Change event' : 'Heartbeat'}
-      </p>
-    </div>
-  );
-}
-
 /**
  * Renders ONE price/availability chart across every Store carrying a
  * Canonical Fish (issue #23) — hue identifies the Store, dash pattern
@@ -563,46 +712,74 @@ function UnifiedPriceHistoryChart({
   // for the exact figure.
   const axisCurrency = listings[0]?.currency ?? 'USD';
 
+  // Per-series real-observation runs (issue #29, bug 2) — see
+  // `MultiVariantPriceHistoryChart` above for the same treatment.
+  const runsBySeries = series.map((s) =>
+    splitConnectedRuns(
+      extractSeriesPoints(points, s.key, {
+        key: s.key,
+        label: s.label,
+        color: s.color,
+        currency: s.currency,
+      }),
+    ),
+  );
+  const flatPoints = runsBySeries.flat(2);
+  const { containerRef, hover, handleMove, handleLeave } = useNearestPointHover(flatPoints);
+
   return (
-    <div className="h-72 w-full">
-      <ResponsiveContainer width="100%" height="100%">
-        <LineChart data={points} margin={{ top: 8, right: 16, bottom: 8, left: 8 }}>
-          <CartesianGrid strokeDasharray="3 3" className="stroke-border" />
-          <XAxis
-            dataKey="timestamp"
-            type="number"
-            domain={['dataMin', 'dataMax']}
-            tickFormatter={(ts: number) =>
-              new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' }).format(
-                new Date(ts),
-              )
-            }
-            className="text-xs"
-          />
-          <YAxis
-            tickFormatter={(p: number) => formatPrice(p, axisCurrency)}
-            width={80}
-            domain={['auto', 'auto']}
-            className="text-xs"
-          />
-          <Tooltip content={<UnifiedTooltip series={series} />} />
-          {series.map((s) => (
-            <Line
-              key={s.key}
-              type="stepAfter"
-              dataKey={priceKey(s.key)}
-              name={s.label}
-              stroke={s.color}
-              strokeDasharray={s.dash}
-              strokeWidth={2}
-              dot={<SeriesDot seriesKey={s.key} color={s.color} />}
-              activeDot={{ r: 6, fill: s.color, stroke: 'var(--background)' }}
-              connectNulls={false}
-              isAnimationActive={false}
+    <div className="w-full">
+      <div
+        ref={containerRef}
+        className="relative h-72 w-full"
+        onMouseMove={handleMove}
+        onMouseLeave={handleLeave}
+      >
+        <ResponsiveContainer width="100%" height="100%">
+          <LineChart data={points} margin={{ top: 8, right: 16, bottom: 8, left: 8 }}>
+            {/* `fill="transparent"` (invisible — Recharts' default is `fill="none"`,
+                which renders no background rect at all) forces Recharts to render
+                its `.recharts-cartesian-grid-bg` rect, which `useNearestPointHover`
+                reads via the DOM to know the plot area's exact pixel bounds. */}
+            <CartesianGrid strokeDasharray="3 3" className="stroke-border" fill="transparent" />
+            <XAxis
+              dataKey="timestamp"
+              type="number"
+              domain={['dataMin', 'dataMax']}
+              tickFormatter={(ts: number) =>
+                new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' }).format(
+                  new Date(ts),
+                )
+              }
+              className="text-xs"
             />
-          ))}
-        </LineChart>
-      </ResponsiveContainer>
+            <YAxis
+              tickFormatter={(p: number) => formatPrice(p, axisCurrency)}
+              width={80}
+              domain={['auto', 'auto']}
+              className="text-xs"
+            />
+            {series.map((s, idx) =>
+              runsBySeries[idx].map((run, runIdx) => (
+                <Line
+                  key={`${s.key}-${runIdx}`}
+                  data={run}
+                  type="stepAfter"
+                  dataKey="price"
+                  name={s.label}
+                  stroke={s.color}
+                  strokeDasharray={s.dash}
+                  strokeWidth={2}
+                  dot={<SeriesDot color={s.color} />}
+                  activeDot={false}
+                  isAnimationActive={false}
+                />
+              )),
+            )}
+          </LineChart>
+        </ResponsiveContainer>
+        {hover && <PointHoverOverlay hover={hover} />}
+      </div>
       <div className="mt-2 space-y-1 text-xs text-muted-foreground">
         <div className="flex flex-wrap gap-x-4 gap-y-1.5">
           {series.map((s) => (
@@ -699,41 +876,43 @@ export function PriceHistoryChart({
     .sort((a, b) => a.timestamp - b.timestamp);
 
   return (
-    <div className="h-72 w-full">
-      <ResponsiveContainer width="100%" height="100%">
-        <LineChart data={points} margin={{ top: 8, right: 16, bottom: 8, left: 8 }}>
-          <CartesianGrid strokeDasharray="3 3" className="stroke-border" />
-          <XAxis
-            dataKey="timestamp"
-            type="number"
-            domain={['dataMin', 'dataMax']}
-            tickFormatter={(ts: number) =>
-              new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' }).format(
-                new Date(ts),
-              )
-            }
-            className="text-xs"
-          />
-          <YAxis
-            dataKey="price"
-            tickFormatter={(p: number) => formatPrice(p, currency)}
-            width={80}
-            domain={['auto', 'auto']}
-            className="text-xs"
-          />
-          <Tooltip content={<ChartTooltip />} />
-          <Line
-            type="stepAfter"
-            dataKey="price"
-            stroke="currentColor"
-            className="text-primary"
-            strokeWidth={2}
-            dot={<AvailabilityDot />}
-            activeDot={{ r: 6 }}
-            isAnimationActive={false}
-          />
-        </LineChart>
-      </ResponsiveContainer>
+    <div className="w-full">
+      <div className="h-72 w-full">
+        <ResponsiveContainer width="100%" height="100%">
+          <LineChart data={points} margin={{ top: 8, right: 16, bottom: 8, left: 8 }}>
+            <CartesianGrid strokeDasharray="3 3" className="stroke-border" />
+            <XAxis
+              dataKey="timestamp"
+              type="number"
+              domain={['dataMin', 'dataMax']}
+              tickFormatter={(ts: number) =>
+                new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' }).format(
+                  new Date(ts),
+                )
+              }
+              className="text-xs"
+            />
+            <YAxis
+              dataKey="price"
+              tickFormatter={(p: number) => formatPrice(p, currency)}
+              width={80}
+              domain={['auto', 'auto']}
+              className="text-xs"
+            />
+            <Tooltip content={<ChartTooltip />} />
+            <Line
+              type="stepAfter"
+              dataKey="price"
+              stroke="currentColor"
+              className="text-primary"
+              strokeWidth={2}
+              dot={<AvailabilityDot />}
+              activeDot={{ r: 6 }}
+              isAnimationActive={false}
+            />
+          </LineChart>
+        </ResponsiveContainer>
+      </div>
       <p className="mt-2 text-xs text-muted-foreground">
         <span className="mr-3">
           <span className="inline-block size-2 rounded-full bg-emerald-500" /> In stock
