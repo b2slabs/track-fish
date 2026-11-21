@@ -30,7 +30,7 @@ export function FishDetailPage() {
         to="/"
         className="mb-6 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground hover:underline"
       >
-        <ArrowLeft className="size-4" /> Back to browse
+        <ArrowLeft className="size-4" /> Back
       </Link>
 
       {loading && (
@@ -89,10 +89,6 @@ export function FishDetailPage() {
           <Card>
             <CardHeader>
               <h2 className="text-lg font-semibold">Price &amp; availability by store</h2>
-              <p className="text-sm text-muted-foreground">
-                Size/grade is shown next to each price — Listings at different sizes are not
-                directly comparable (see ADR 0002).
-              </p>
             </CardHeader>
             <CardContent>
               <div className="grid gap-4 sm:grid-cols-2">

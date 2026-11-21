@@ -24,6 +24,15 @@ export function formatDate(iso: string): string {
   return new Intl.DateTimeFormat('en-US', { dateStyle: 'medium' }).format(date);
 }
 
+/** Compact "21 Nov 2026" style date, no time — for small/secondary UI text. */
+export function formatShortDate(iso: string): string {
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return iso;
+  return new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }).format(
+    date,
+  );
+}
+
 /**
  * Shopify gives a product with exactly one variant the literal placeholder
  * option value "Title" — a raw internal label, not a real size/grade, that
