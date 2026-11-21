@@ -29,32 +29,43 @@ export interface CanonicalFishOverride {
 const overrides: CanonicalFishOverride[] = [
   {
     listingId: 'monster-aquarium:7008092487889',
-    canonicalFishId: 'cf:sci:paracheirodon-axelrodi',
+    canonicalFishId: 'cf:sci:paracheirodon-axelrodi:albino',
     note:
       'Monster Aquarium titles this Listing \'Albino Cardinal Tetra "Paracheirodon axelrodi"\' -- ' +
       'quotation marks around the scientific name instead of parentheses, which the extractor ' +
       'does not currently recognize (see src/lib/scientific-name.ts). It landed in ' +
-      'pending-matches.json (fuzzy score 0.6) instead of auto-matching on first run. Per ADR 0002 ' +
-      'an albino color morph is not a separate identity from the species, and Aquatic Arts lists ' +
-      'the same species as "Cardinal Tetra (Paracheirodon axelrodi), Tank-Bred" -- confirmed by a ' +
-      'maintainer as the same Canonical Fish.',
+      'pending-matches.json (fuzzy score 0.6) instead of auto-matching on first run. Originally ' +
+      'pointed at the bare cf:sci:paracheirodon-axelrodi id on the strength of ADR 0002 ' +
+      '("an albino color morph is not a separate identity from the species") -- that ADR was ' +
+      'amended by issue #34, which made variety/color-morph part of Canonical Fish identity ' +
+      'specifically because merges like this one (an albino morph folded into the plain species) ' +
+      'were incorrectly conflating separately-marketed products. Repointed to the ' +
+      '":albino"-suffixed id so this Listing lands on the same id automatic matching now gives ' +
+      'every other "Albino Cardinal Tetra" Listing, instead of merging with plain, non-albino ' +
+      '"Cardinal Tetra (Paracheirodon axelrodi), Tank-Bred" Listings (e.g. Aquatic Arts\'s).',
   },
   {
     listingId: 'aquahuna:4738582609995',
-    canonicalFishId: 'cf:sci:corydoras-aeneus',
+    canonicalFishId: 'cf:sci:corydoras-aeneus:albino',
     note:
       'Before issue #16\'s fix, a case-insensitivity bug in the "Scientific Name:" label matcher ' +
       '(see scientific-name.ts) let several Stores\' mis-capitalized or run-on descriptions ' +
       '(e.g. "...Corydoras Aeneus From our tank...") get corrupted into their own ' +
       'cf:sci:corydoras-aeneus-from id, splitting them from the correct cf:sci:corydoras-aeneus ' +
       'group. The extraction bug itself is fixed, and on reprocessing every other affected ' +
-      'Listing self-corrects back to cf:sci:corydoras-aeneus via its own clean re-extraction or a ' +
-      'confident fuzzy match against it. This Listing is the one exception: its title ("Albino ' +
-      'Cory") and description extract no scientific name of their own at all, so it depends purely ' +
-      'on fuzzy common-name matching, and a same-scoring tie between the (shrinking) legacy ' +
-      '"-from" group and the correct group does not reliably resolve to the correct one depending ' +
-      'on processing order. Confirmed the same species (Corydoras aeneus / albino corydoras) as ' +
-      'every other "Albino Cory"/"Albino Cory (Corydoras aeneus)" Listing across stores.',
+      'Listing self-corrects back via its own clean re-extraction or a confident fuzzy match. This ' +
+      'Listing is the one exception: its title ("Albino Cory") and description extract no ' +
+      'scientific name of their own at all, so it depends purely on fuzzy common-name matching, ' +
+      'and a same-scoring tie between the (shrinking) legacy "-from" group and the correct group ' +
+      'does not reliably resolve to the correct one depending on processing order. Originally ' +
+      'pointed at the bare cf:sci:corydoras-aeneus id; repointed to the ":albino"-suffixed id by ' +
+      'issue #34 (variety is now part of Canonical Fish identity), which also split the bare id ' +
+      'away from "Bronze Cory" and "Orange Venezuelan Cory" -- other color morphs of the same ' +
+      'species that this override must not drag the Albino morph back into. Still the same ' +
+      'species/variety (Corydoras aeneus, albino) as every other plain "Albino Cory"/"Albino ' +
+      'Cory (Corydoras aeneus)" Listing across stores -- note "Albino HiFin Cory" is a distinct, ' +
+      'further-specialized variety signature ({albino, hifin} vs {albino}) and correctly lands ' +
+      'on its own id, not this one.',
   },
   ...(['aquahuna:7456012402763', 'aquarium-fish:10359234167083', 'aquarium-fish:1592179064902',
        'aquatic-arts:11385997708', 'monster-aquarium:7466867392721', 'nu-aqua-shop:10006318842172',

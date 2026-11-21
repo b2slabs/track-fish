@@ -19,7 +19,7 @@ test('two Listings from different Stores with the same scientific name get the s
   const contextB = buildMatchContext('monster-aquarium', [], []);
 
   const a = matchCanonicalFish(
-    { productIdentifier: '1', commonName: 'Blue Cobalt Discus (Symphysodon aequifasciatus)', description: '' },
+    { productIdentifier: '1', commonName: 'Cobalt Discus (Symphysodon aequifasciatus)', description: '' },
     contextA
   );
   const b = matchCanonicalFish(
@@ -127,8 +127,10 @@ test('issue #16: a mid-confidence rival fuzzy candidate against a scientific-nam
   );
   assert.equal(result.status, 'ambiguous');
   // Stays on its own scientific-name id -- a mid-confidence rival isn't
-  // confident enough to override a deterministic signal outright.
-  assert.equal(result.canonicalFishId, 'cf:sci:symphysodon-aequifasciatus');
+  // confident enough to override a deterministic signal outright. The id
+  // carries a ":blue" suffix (issue #34): "Blue Diamond Discus" has a
+  // detected "blue" variety, folded into the deterministic id.
+  assert.equal(result.canonicalFishId, 'cf:sci:symphysodon-aequifasciatus:blue');
   assert.equal(result.ambiguousCandidate?.canonicalFishId, 'cf:aquatic-arts:9');
 });
 

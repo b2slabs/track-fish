@@ -7,6 +7,7 @@ import type {
 import type { CanonicalFishOverride } from '../config/canonical-fish-overrides.js';
 import { extractScientificName, scientificNameSlug } from './scientific-name.js';
 import { commonNameSimilarity, tokenize } from './fuzzy-match.js';
+import { extractVariety, varietyCompatible, varietySlug } from './variety.js';
 
 /**
  * Cross-store Canonical Fish matching (see issue #3 and
@@ -65,6 +66,20 @@ import { commonNameSimilarity, tokenize } from './fuzzy-match.js';
  * single-Listing `cf:${storeSlug}:${productIdentifier}` id it always
  * had, in its own distinct namespace so it can be repointed later
  * without disturbing its listingId or any already-written history.
+ *
+ * Variety/color-morph (issue #34, see `variety.ts`): since ADR 0002 was
+ * amended, Canonical Fish identity is species AND variety, not species
+ * alone -- two genuinely different, separately-marketed color morphs of
+ * the same species (e.g. "Albino Cory" vs "Bronze Cory", both nominally
+ * *Corydoras aeneus*) must land on different Canonical Fish entries.
+ * This is folded into both signals above rather than being a fourth,
+ * separate signal: a detected variety is appended to the deterministic
+ * `cf:sci:<slug>` id (`cf:sci:<slug>:<variety>`), so two same-species,
+ * different-variety Listings mint different ids outright; and every
+ * fuzzy common-name comparison (signal 3, including the sci-name rival
+ * check) is additionally gated on `varietyCompatible` before scoring, so
+ * a shared base noun ("Cory", "Medaka") can no longer carry a match
+ * across a variety mismatch the way it used to.
  */
 
 export type MatchStatus = 'override' | 'scientific-name' | 'fuzzy-auto' | 'ambiguous' | 'unmatched';
@@ -166,14 +181,16 @@ export function matchCanonicalFish(
   const listingId = `${storeSlug}:${parsed.productIdentifier}`;
   const trivialCanonicalFishId = `cf:${listingId}`;
   const scientificName = extractScientificName(parsed);
-  const sciCanonicalFishId = scientificName ? `cf:sci:${scientificNameSlug(scientificName)}` : null;
+  const variety = extractVariety(parsed.commonName);
+  const varietySuffix = variety.length > 0 ? `:${varietySlug(variety)}` : '';
+  const sciCanonicalFishId = scientificName ? `cf:sci:${scientificNameSlug(scientificName)}${varietySuffix}` : null;
 
   const override = context.overridesByListingId.get(listingId);
   if (override) {
     return { canonicalFishId: override, status: 'override', scientificName };
   }
 
-  const best = findBestFuzzyCandidate(parsed.commonName, context);
+  const best = findBestFuzzyCandidate(parsed.commonName, variety, context);
 
   if (sciCanonicalFishId) {
     // Only defer to a fuzzy rival when this Listing's own scientific-name
@@ -226,8 +243,20 @@ export function matchCanonicalFish(
   return { canonicalFishId: trivialCanonicalFishId, status: 'unmatched', scientificName: null };
 }
 
+/**
+ * Finds the best-scoring fuzzy candidate for `commonName`, gated on
+ * variety compatibility (issue #34): a candidate's own common name only
+ * contributes to its score when its detected variety is compatible with
+ * `variety` (see `varietyCompatible` in `variety.ts`). A candidate with
+ * every alias incompatible is skipped entirely -- it is not merely
+ * scored at 0, which would still let it lose to an even-worse-but-
+ * compatible rival; it simply isn't a candidate for this Listing. This
+ * is what stops a shared base noun ("Cory", "Medaka") from carrying a
+ * fuzzy match across a genuine color/variety mismatch.
+ */
 function findBestFuzzyCandidate(
   commonName: string,
+  variety: string[],
   context: MatchContext
 ): { candidate: FuzzyCandidate; score: number } | undefined {
   const seen = new Set<string>();
@@ -243,7 +272,13 @@ function findBestFuzzyCandidate(
         continue;
       }
       seen.add(candidate.canonicalFishId);
-      const score = Math.max(...candidate.commonNames.map((name) => commonNameSimilarity(commonName, name)));
+      const compatibleScores = candidate.commonNames
+        .filter((name) => varietyCompatible(variety, extractVariety(name)))
+        .map((name) => commonNameSimilarity(commonName, name));
+      if (compatibleScores.length === 0) {
+        continue;
+      }
+      const score = Math.max(...compatibleScores);
       if (!best || score > best.score) {
         best = { candidate, score };
       }
