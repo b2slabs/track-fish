@@ -1,14 +1,6 @@
-import { useMemo, useRef, useState } from 'react';
-import type { MouseEvent as ReactMouseEvent } from 'react';
-import {
-  CartesianGrid,
-  Line,
-  LineChart,
-  ResponsiveContainer,
-  Tooltip,
-  XAxis,
-  YAxis,
-} from 'recharts';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import type { MouseEvent as ReactMouseEvent, RefObject } from 'react';
+import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import type { DotProps } from 'recharts';
 import { formatDateTime, formatPrice } from '@/lib/format';
 import type { HistoryEvent } from '@/types/data';
@@ -60,9 +52,10 @@ function ChartTooltip({
 }
 
 /**
- * Fixed-order categorical palette for per-variant lines (issue #17), reused
- * for per-Store lines (issue #23) — one shared, already-validated 8-hue
- * palette, never two independent color schemes layered on the same chart.
+ * Fixed-order categorical palette for per-Store identity (issue #23), reused
+ * as the per-Store range-bar fill color (issue #35) — one shared,
+ * already-validated 8-hue palette, never two independent color schemes
+ * layered on the same chart.
  *
  * Hues, order, and hex steps come directly from this project's `dataviz`
  * skill's validated default 8-hue categorical palette (`references/palette.md`
@@ -95,11 +88,10 @@ const SERIES_COLOR_VARS = [
 ];
 
 /**
- * Assigns a slot its color by stable index (first-seen order — a variant's
- * first-seen order within a Listing for #17, a Store's first-seen order
- * across Listings for #23 — never by current price rank), so an entity
- * keeps its color as siblings come and go in the underlying data. Past the
- * 8 validated hues (an edge case — not the common case) colors cycle rather
+ * Assigns a slot its color by stable index (first-seen order of a Store
+ * across `listings` — never by current price rank), so a Store keeps its
+ * color as siblings come and go in the underlying data. Past the 8
+ * validated hues (an edge case — not the common case) colors cycle rather
  * than inventing an ungoverned 9th hue; the legend's text label remains the
  * authoritative way to tell those apart.
  */
@@ -108,448 +100,504 @@ function seriesColor(index: number): string {
 }
 
 /**
- * Dash patterns used as the *secondary* encoding layered on top of a
- * Store's hue (issue #23) — distinguishing multiple series within one
- * Store (its own variants, or — see `cf:sci:danio-margaritatus-aka` on the
- * live `data` branch — multiple Listings the same Store carries for one
- * Canonical Fish) without inventing a second, ungoverned color per Store.
- * Index 0 (solid) matches today's single-series-per-Store rendering
- * exactly, so a Store contributing just one series is visually unchanged.
- * Cycles past 4 (an edge case) — same rationale as `seriesColor` above.
+ * One real-priced variant contributing to a `StoreBar` at one instant —
+ * carried through to the tooltip so per-variant detail survives collapsing
+ * variants into a single range bar (issue #35's "ideally still lists each
+ * individual variant's price" acceptance criterion).
  */
-const DASH_PATTERNS: Array<string | undefined> = [undefined, '6 3', '2 3', '10 3 2 3'];
-
-function dashPattern(index: number): string | undefined {
-  return DASH_PATTERNS[index % DASH_PATTERNS.length];
-}
-
-interface VariantMeta {
+interface VariantPriceDetail {
   id: string;
   label: string;
-}
-
-interface MultiVariantPoint {
-  observedAt: string;
-  timestamp: number;
-  type: HistoryEvent['type'];
-  /** `price__<variantId>` -> number | null, `avail__<variantId>` -> boolean. */
-  [key: string]: unknown;
-}
-
-function priceKey(id: string): string {
-  return `price__${id}`;
-}
-
-function availKey(id: string): string {
-  return `avail__${id}`;
+  price: number;
+  available: boolean;
 }
 
 /**
- * Builds one row per history event, carrying every variant's price
- * (or `null` when absent) alongside its own availability, plus the
- * stable, first-seen-order list of variants to render as lines.
- *
- * A variant priced at $0.00 is almost certainly a sold-out placeholder
- * (per issue #17's reported example), not a real price — it is recorded
- * as `null` here so the chart leaves a gap instead of plotting a price
- * that fell to zero.
+ * One Store's min/max/average range bar for one observed instant (issue
+ * #35) — replaces the one-line-per-variant rendering from issues #17/#23,
+ * which became unreadable once a Store carried more than a couple of pack
+ * sizes (e.g. Aquatic Arts' "School of 3/6/9/12").
  */
-function buildVariantSeries(events: HistoryEvent[]): {
-  variants: VariantMeta[];
-  points: MultiVariantPoint[];
-} {
-  const sorted = [...events].sort(
-    (a, b) => new Date(a.observedAt).getTime() - new Date(b.observedAt).getTime(),
-  );
-
-  const variants: VariantMeta[] = [];
-  const seen = new Set<string>();
-  for (const e of sorted) {
-    for (const v of e.variants ?? []) {
-      if (!seen.has(v.id)) {
-        seen.add(v.id);
-        variants.push({ id: v.id, label: v.label });
-      }
-    }
-  }
-
-  const points: MultiVariantPoint[] = sorted.map((e) => {
-    const point: MultiVariantPoint = {
-      observedAt: e.observedAt,
-      timestamp: new Date(e.observedAt).getTime(),
-      type: e.type,
-    };
-    for (const meta of variants) {
-      const v = (e.variants ?? []).find((x) => x.id === meta.id);
-      if (!v) {
-        point[priceKey(meta.id)] = null;
-        point[availKey(meta.id)] = false;
-        continue;
-      }
-      point[priceKey(meta.id)] = v.price === 0 ? null : v.price;
-      point[availKey(meta.id)] = v.available;
-    }
-    return point;
-  });
-
-  return { variants, points };
-}
-
-/**
- * One series' own real observation, already stripped of every other
- * series' keys (issue #29) — the shape each per-series/per-run `<Line
- * data={...}>` plots directly, and what the custom nearest-point hover
- * below compares the cursor against. `key`/`label`/`color`/`currency`
- * identify which series/Store the point belongs to.
- */
-interface SeriesPoint {
+interface StoreBar {
   key: string;
+  storeSlug: string;
   label: string;
   color: string;
   currency: string;
   timestamp: number;
   observedAt: string;
-  price: number;
-  available: boolean;
   type: HistoryEvent['type'];
+  min: number;
+  max: number;
+  avg: number;
+  /** Real-priced variants only, ascending by price — the tooltip's breakdown. */
+  variants: VariantPriceDetail[];
+}
+
+/** Per-Store display identity a bar needs: legend/tooltip label, fill color, currency. */
+interface StoreMeta {
+  label: string;
+  color: string;
+  currency: string;
 }
 
 /**
- * Pulls one series' real observations (non-null, non-$0.00-placeholder)
- * out of the combined per-event matrix built by `buildVariantSeries`/
- * `buildUnifiedSeries`, in the time order `points` is already sorted in.
- * `price == null` catches both: a row that is genuinely this series' own
- * event with a `null` (sold-out $0.00) price, and a row that is some
- * *other* series' event where this series' key was never set at all
- * (`undefined`, the Unified chart's sparse case) — both mean "nothing to
- * plot for this series here".
+ * Collapses every variant a Store had priced at one instant into a single
+ * min/max/average range bar (issue #35) — one bar per Store per timestamp,
+ * not one line per variant.
+ *
+ * Grouping key is `${storeSlug}::${timestamp}` (not per-Listing/variant), so
+ * two Listings the same Store happens to carry for one Canonical Fish (see
+ * `cf:sci:hyphessobrycon-sp` on the live `data` branch, where AquaHuna and
+ * Imperial Tropicals each carry more than one Listing) would collapse into
+ * one bar if they were ever observed at the exact same instant — true to
+ * "one bar per Store per timestamp" (the issue's scope decision) — while
+ * the overwhelmingly common case of independently-scraped Listings at their
+ * own distinct timestamps still gets its own separate bar per observation,
+ * exactly as the per-variant lines it replaces did.
+ *
+ * A variant priced at $0.00 is still treated as a sold-out placeholder (the
+ * same rule issue #17 established for the per-variant lines) and excluded
+ * from the min/max/average and from the tooltip's per-variant breakdown; an
+ * instant left with no real-priced variant renders no bar at all, exactly
+ * as it previously left no point on any line.
  */
-function extractSeriesPoints(
-  points: MultiVariantPoint[],
-  id: string,
-  meta: { key: string; label: string; color: string; currency: string },
-): SeriesPoint[] {
-  const out: SeriesPoint[] = [];
-  for (const p of points) {
-    const price = p[priceKey(id)] as number | null | undefined;
-    if (price == null) continue;
-    out.push({
-      ...meta,
-      timestamp: p.timestamp,
-      observedAt: p.observedAt,
-      price,
-      available: Boolean(p[availKey(id)]),
-      type: p.type,
+function computeStoreBars(events: HistoryEvent[], storeMeta: Map<string, StoreMeta>): StoreBar[] {
+  const sorted = [...events].sort(
+    (a, b) => new Date(a.observedAt).getTime() - new Date(b.observedAt).getTime(),
+  );
+
+  interface Group {
+    storeSlug: string;
+    timestamp: number;
+    observedAt: string;
+    type: HistoryEvent['type'];
+    variants: VariantPriceDetail[];
+  }
+  const groups = new Map<string, Group>();
+  for (const e of sorted) {
+    if (!storeMeta.has(e.storeSlug)) continue;
+    const timestamp = new Date(e.observedAt).getTime();
+    const key = `${e.storeSlug}::${timestamp}`;
+    let group = groups.get(key);
+    if (!group) {
+      group = { storeSlug: e.storeSlug, timestamp, observedAt: e.observedAt, type: e.type, variants: [] };
+      groups.set(key, group);
+    }
+    for (const v of e.variants ?? []) {
+      if (v.price === 0) continue; // sold-out placeholder, not a real price
+      group.variants.push({ id: v.id, label: v.label, price: v.price, available: v.available });
+    }
+  }
+
+  const bars: StoreBar[] = [];
+  for (const group of groups.values()) {
+    if (group.variants.length === 0) continue;
+    const meta = storeMeta.get(group.storeSlug)!;
+    const prices = group.variants.map((v) => v.price);
+    const min = Math.min(...prices);
+    const max = Math.max(...prices);
+    const avg = prices.reduce((sum, p) => sum + p, 0) / prices.length;
+    bars.push({
+      key: `${group.storeSlug}::${group.timestamp}`,
+      storeSlug: group.storeSlug,
+      label: meta.label,
+      color: meta.color,
+      currency: meta.currency,
+      timestamp: group.timestamp,
+      observedAt: group.observedAt,
+      type: group.type,
+      min,
+      max,
+      avg,
+      variants: [...group.variants].sort((a, b) => a.price - b.price),
     });
   }
-  return out;
+  return bars.sort((a, b) => a.timestamp - b.timestamp);
 }
 
-/**
- * How much larger than a series' own typical observation gap counts as
- * "too large to bridge" (issue #29, bug 2). Chosen as a multiple of that
- * series' own median gap — not a fixed time span, and not the combined
- * chart's cadence — because how often *this* series itself is actually
- * observed is the only basis for calling one of its own gaps anomalous
- * rather than normal spacing.
- */
-const GAP_BREAK_MULTIPLIER = 5;
+interface Domain {
+  minT: number;
+  maxT: number;
+  minP: number;
+  maxP: number;
+}
 
-/**
- * Splits one series' own real observations (time-sorted) into runs that
- * should each be drawn as one connected line. Consecutive observations
- * join into the same run — connecting through the combined chart's
- * nulls, which just mean "no other series changed here", not "no data"
- * for this series — *unless* the gap between them is unusually large
- * relative to this series' own typical cadence, in which case a new run
- * starts: bridging that stretch would draw a flat line implying a price
- * held steady through a period this series was never actually observed.
- * With fewer than 3 points there's no basis for "typical", so everything
- * in a single run of 1-2 points stays connected.
- */
-function splitConnectedRuns(seriesPoints: SeriesPoint[]): SeriesPoint[][] {
-  if (seriesPoints.length <= 2) {
-    return seriesPoints.length > 0 ? [seriesPoints] : [];
-  }
-  const gaps = seriesPoints.slice(1).map((p, i) => p.timestamp - seriesPoints[i].timestamp);
-  const sortedGaps = [...gaps].sort((a, b) => a - b);
-  const medianGap = sortedGaps[Math.floor(sortedGaps.length / 2)];
-  const threshold = medianGap * GAP_BREAK_MULTIPLIER;
-
-  const runs: SeriesPoint[][] = [[seriesPoints[0]]];
-  gaps.forEach((gap, i) => {
-    if (medianGap > 0 && gap > threshold) {
-      runs.push([seriesPoints[i + 1]]);
-    } else {
-      runs[runs.length - 1].push(seriesPoints[i + 1]);
+/** Shared time+price domain every bar is plotted against, padded like Recharts' own 'auto' Y domain. */
+function useBarDomain(bars: StoreBar[]): Domain | null {
+  return useMemo(() => {
+    if (bars.length === 0) return null;
+    let minT = Infinity;
+    let maxT = -Infinity;
+    let minP = Infinity;
+    let maxP = -Infinity;
+    for (const b of bars) {
+      if (b.timestamp < minT) minT = b.timestamp;
+      if (b.timestamp > maxT) maxT = b.timestamp;
+      if (b.min < minP) minP = b.min;
+      if (b.max > maxP) maxP = b.max;
     }
-  });
-  return runs;
+    const pad = (maxP - minP) * 0.1 || Math.max(maxP, 1) * 0.1;
+    return {
+      minT,
+      maxT: maxT === minT ? maxT + 1 : maxT,
+      minP: Math.max(0, minP - pad),
+      maxP: maxP + pad,
+    };
+  }, [bars]);
+}
+
+interface PlotRect {
+  left: number;
+  top: number;
+  width: number;
+  height: number;
 }
 
 /**
- * Filled dot in the series' color when in stock; hollow (background
- * fill, colored ring) when out of stock — so availability reads from
- * shape, not just color, per series (issue #17, extended to per-Store
- * series by issue #23). Each `<Line>` now plots only its own run of real
- * `SeriesPoint`s (issue #29), so there is no "absent here" case left to
- * handle — every point passed in has a real price.
+ * Measures the chart's actual plotting-area rectangle (relative to the
+ * hover container) straight from Recharts' own
+ * `.recharts-cartesian-grid-bg` background rect via the DOM, the same
+ * technique issue #29 introduced for hover — that rect is exactly the
+ * chart's plotting area in every Recharts version, so range bars drawn in
+ * an absolutely-positioned overlay on top of it stay pixel-aligned with the
+ * axes even as the container resizes (tracked here via `ResizeObserver`,
+ * since bars must be visible on first paint, not only after a mouse move).
+ *
+ * `ResponsiveContainer` measures its own box and only mounts the actual
+ * chart (and so `.recharts-cartesian-grid-bg`) on a follow-up render after
+ * that — a real, observed race: on a cold load this effect can run before
+ * that element exists yet, and since the *outer* wrapper being observed
+ * here doesn't itself resize when that inner content later appears,
+ * `ResizeObserver` alone never fires again and bars silently never render.
+ * `requestAnimationFrame` polling bridges exactly that gap — cheap, bounded
+ * to the handful of frames the element actually takes to appear — and hands
+ * off to the `ResizeObserver` once the element is found for ongoing resize
+ * tracking.
  */
-function SeriesDot(props: DotProps & { payload?: SeriesPoint; color: string }) {
-  const { cx, cy, payload, color } = props;
-  if (cx == null || cy == null || !payload) return null;
+function usePlotRect(dataLength: number) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [rect, setRect] = useState<PlotRect | null>(null);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+    let rafId: number | null = null;
+    let ro: ResizeObserver | null = null;
+    let cancelled = false;
+
+    const measure = () => {
+      const gridBg = container.querySelector('.recharts-cartesian-grid-bg');
+      if (!gridBg) return false;
+      const plotBox = gridBg.getBoundingClientRect();
+      const containerBox = container.getBoundingClientRect();
+      if (plotBox.width === 0 || plotBox.height === 0) return false;
+      setRect({
+        left: plotBox.left - containerBox.left,
+        top: plotBox.top - containerBox.top,
+        width: plotBox.width,
+        height: plotBox.height,
+      });
+      return true;
+    };
+
+    const pollUntilMounted = () => {
+      if (cancelled) return;
+      if (measure()) {
+        ro = new ResizeObserver(measure);
+        ro.observe(container);
+        return;
+      }
+      rafId = requestAnimationFrame(pollUntilMounted);
+    };
+    pollUntilMounted();
+
+    return () => {
+      cancelled = true;
+      if (rafId != null) cancelAnimationFrame(rafId);
+      ro?.disconnect();
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [dataLength]);
+
+  return { containerRef, rect };
+}
+
+/** A bar's pixel geometry: horizontal center, vertical span (min-enforced), and the average tick's y. */
+interface BarGeometry {
+  cx: number;
+  yTop: number;
+  yBottom: number;
+  avgY: number;
+}
+
+const BAR_WIDTH = 10;
+/**
+ * Minimum rendered bar height in pixels — enforced so a Store with only one
+ * variant at a given timestamp (min = max = average) still renders as a
+ * visible, simple pill rather than a invisible sliver (issue #35's
+ * degenerate-bar acceptance criterion).
+ */
+const MIN_BAR_HEIGHT_PX = 6;
+
+function barGeometry(rect: PlotRect, domain: Domain, bar: StoreBar): BarGeometry {
+  const cx = rect.left + ((bar.timestamp - domain.minT) / (domain.maxT - domain.minT)) * rect.width;
+  const priceToY = (price: number) =>
+    rect.top + (1 - (price - domain.minP) / (domain.maxP - domain.minP)) * rect.height;
+  let yTop = priceToY(bar.max);
+  let yBottom = priceToY(bar.min);
+  if (yBottom - yTop < MIN_BAR_HEIGHT_PX) {
+    const center = (yTop + yBottom) / 2;
+    yTop = center - MIN_BAR_HEIGHT_PX / 2;
+    yBottom = center + MIN_BAR_HEIGHT_PX / 2;
+  }
+  const avgY = Math.min(yBottom, Math.max(yTop, priceToY(bar.avg)));
+  return { cx, yTop, yBottom, avgY };
+}
+
+/**
+ * Draws every Store's range bars as an absolutely-positioned SVG overlay on
+ * top of Recharts' axes/grid (see `usePlotRect` for why bars aren't plotted
+ * through Recharts' own `<Bar>`: full control over the floating min-max
+ * span, the enforced minimum height, and the average tick notch, mirroring
+ * this file's existing precedent of overlaying custom marks on the
+ * Recharts-drawn axes — see `PointHoverOverlay`'s predecessor). The average
+ * tick is drawn in the chart surface color cut through the fill (the
+ * dataviz skill's "surface gap" mechanism) rather than an added stroke, so
+ * it reads in both light and dark without a second ink.
+ */
+function BarsOverlay({
+  bars,
+  rect,
+  domain,
+  hoveredKey,
+}: {
+  bars: StoreBar[];
+  rect: PlotRect;
+  domain: Domain;
+  hoveredKey?: string;
+}) {
   return (
-    <circle
-      cx={cx}
-      cy={cy}
-      r={4}
-      fill={payload.available ? color : 'var(--color-background, #fff)'}
-      stroke={color}
-      strokeWidth={payload.available ? 1.5 : 2}
-    />
+    <svg className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden="true">
+      {bars.map((bar) => {
+        const geo = barGeometry(rect, domain, bar);
+        const isHovered = bar.key === hoveredKey;
+        return (
+          <g key={bar.key}>
+            <rect
+              x={geo.cx - BAR_WIDTH / 2}
+              y={geo.yTop}
+              width={BAR_WIDTH}
+              height={geo.yBottom - geo.yTop}
+              rx={BAR_WIDTH / 2}
+              fill={bar.color}
+              opacity={isHovered ? 1 : 0.85}
+            />
+            <rect
+              x={geo.cx - BAR_WIDTH / 2 - 1}
+              y={geo.avgY - 1}
+              width={BAR_WIDTH + 2}
+              height={2}
+              fill="var(--color-background, #fff)"
+            />
+            {isHovered && (
+              <rect
+                x={geo.cx - BAR_WIDTH / 2 - 2}
+                y={geo.yTop - 2}
+                width={BAR_WIDTH + 4}
+                height={geo.yBottom - geo.yTop + 4}
+                rx={BAR_WIDTH / 2 + 2}
+                fill="none"
+                stroke={bar.color}
+                strokeWidth={2}
+              />
+            )}
+          </g>
+        );
+      })}
+    </svg>
   );
 }
 
-interface HoverState {
-  point: SeriesPoint;
+interface BarHoverState {
+  bar: StoreBar;
   left: number;
   top: number;
 }
 
 /**
- * Finds the real data point genuinely nearest the mouse — in both price
- * (vertical) and time (horizontal) — rather than Recharts' default
- * nearest-x-index behavior, which (issue #29, bug 3) surfaced whichever
- * series happened to have a value at the nearest shared timestamp,
- * regardless of how far away that value actually was on screen. With
- * each series populated at only a handful of the full combined x-axis's
- * timestamps, nearest-x-index routinely landed on the wrong series.
- *
- * Distance is computed in the plot's own normalized [0,1] x [0,1] space
- * (fraction of the full time range / full price range), not raw units,
- * so time (spanning days of milliseconds) and price (spanning single
- * dollars) contribute comparably to "nearest" instead of time dominating.
- *
- * The plot's pixel rectangle is read straight from Recharts' own
- * `.recharts-cartesian-grid-bg` background rect at move-time via the DOM,
- * rather than recomputed from margins/axis widths — that rect is exactly
- * the chart's actual plotting area in every Recharts version, so this
- * stays correct even if those layout numbers change.
+ * Finds the bar genuinely nearest the cursor: zero vertical distance
+ * anywhere inside a bar's own min-max span (so the whole bar — not just its
+ * exact average — is the hit target, per the dataviz skill's "the mark is
+ * the hit target" rule for bar/cell marks), distance to the nearer edge
+ * outside it, both normalized against the plot's own pixel size so time and
+ * price contribute comparably — the same normalization `useNearestPointHover`
+ * used for per-variant lines (issue #29) before this chart replaced them.
  */
-function useNearestPointHover(points: SeriesPoint[]) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [hover, setHover] = useState<HoverState | null>(null);
-
-  const domain = useMemo(() => {
-    if (points.length === 0) return null;
-    let minT = Infinity;
-    let maxT = -Infinity;
-    let minP = Infinity;
-    let maxP = -Infinity;
-    for (const p of points) {
-      if (p.timestamp < minT) minT = p.timestamp;
-      if (p.timestamp > maxT) maxT = p.timestamp;
-      if (p.price < minP) minP = p.price;
-      if (p.price > maxP) maxP = p.price;
-    }
-    // Small symmetric padding, roughly mirroring Recharts' own 'auto' Y
-    // domain padding, so points at the exact min/max price aren't glued
-    // to the plot's edge when computing normalized distance.
-    const pad = (maxP - minP) * 0.1 || Math.max(maxP, 1) * 0.1;
-    return { minT, maxT: maxT === minT ? maxT + 1 : maxT, minP: minP - pad, maxP: maxP + pad };
-  }, [points]);
+function useNearestBarHover(
+  bars: StoreBar[],
+  containerRef: RefObject<HTMLDivElement | null>,
+  rect: PlotRect | null,
+  domain: Domain | null,
+) {
+  const [hover, setHover] = useState<BarHoverState | null>(null);
 
   const handleMove = (e: ReactMouseEvent<HTMLDivElement>) => {
     const container = containerRef.current;
-    if (!container || !domain || points.length === 0) return;
-    const gridBg = container.querySelector('.recharts-cartesian-grid-bg');
-    if (!gridBg) return;
-    const plotBox = gridBg.getBoundingClientRect();
+    if (!container || !rect || !domain || bars.length === 0) return;
     const containerBox = container.getBoundingClientRect();
-    if (plotBox.width === 0 || plotBox.height === 0) return;
+    const mx = e.clientX - containerBox.left;
+    const my = e.clientY - containerBox.top;
 
-    const fracX = Math.min(1, Math.max(0, (e.clientX - plotBox.left) / plotBox.width));
-    const fracY = Math.min(1, Math.max(0, (e.clientY - plotBox.top) / plotBox.height));
-    const { minT, maxT, minP, maxP } = domain;
-
-    let best: SeriesPoint | null = null;
+    let bestBar: StoreBar | null = null;
+    let bestGeo: BarGeometry | null = null;
     let bestDist = Infinity;
-    for (const p of points) {
-      const px = (p.timestamp - minT) / (maxT - minT);
-      const py = 1 - (p.price - minP) / (maxP - minP);
-      const dist = (px - fracX) ** 2 + (py - fracY) ** 2;
+    for (const bar of bars) {
+      const geo = barGeometry(rect, domain, bar);
+      const dx = (geo.cx - mx) / rect.width;
+      let dy = 0;
+      if (my < geo.yTop) dy = (geo.yTop - my) / rect.height;
+      else if (my > geo.yBottom) dy = (my - geo.yBottom) / rect.height;
+      const dist = dx * dx + dy * dy;
       if (dist < bestDist) {
         bestDist = dist;
-        best = p;
+        bestBar = bar;
+        bestGeo = geo;
       }
     }
-    if (!best) return;
-
-    const bestPx = (best.timestamp - minT) / (maxT - minT);
-    const bestPy = 1 - (best.price - minP) / (maxP - minP);
-    setHover({
-      point: best,
-      left: plotBox.left - containerBox.left + bestPx * plotBox.width,
-      top: plotBox.top - containerBox.top + bestPy * plotBox.height,
-    });
+    if (!bestBar || !bestGeo) return;
+    setHover({ bar: bestBar, left: bestGeo.cx, top: (bestGeo.yTop + bestGeo.yBottom) / 2 });
   };
 
-  return { containerRef, hover, handleMove, handleLeave: () => setHover(null) };
+  return { hover, handleMove, handleLeave: () => setHover(null) };
 }
 
 /**
- * Floating tooltip + highlight ring for whatever point
- * `useNearestPointHover` found nearest the cursor. Positioned in pixels
- * relative to the hover container (not Recharts' own Tooltip, which this
- * replaces for the multi-series charts — see `useNearestPointHover`).
- * Flips below the point instead of above when too close to the chart's
- * top edge, so it is never clipped off the top of the card.
+ * Floating tooltip for whatever bar `useNearestBarHover` found nearest the
+ * cursor: Store, observed date, average (the headline value) with the
+ * min-max span beneath it, and — issue #35's "ideally still lists each
+ * individual variant's price" criterion — every real-priced variant that
+ * went into this bar, struck through when that variant was out of stock at
+ * the time. Omits the per-variant list entirely for a degenerate
+ * single-variant bar, where it would just repeat the average/min/max line.
  */
-function PointHoverOverlay({ hover }: { hover: HoverState }) {
-  const { point, left, top } = hover;
-  const flipBelow = top < 56;
+function BarHoverOverlay({ hover }: { hover: BarHoverState }) {
+  const { bar, left, top } = hover;
+  const flipBelow = top < 96;
   return (
     <div className="pointer-events-none absolute inset-0 z-10">
-      <span
-        className="absolute size-3 -translate-x-1/2 -translate-y-1/2 rounded-full ring-2 ring-offset-1 ring-offset-background"
-        style={{ left, top, backgroundColor: point.color, boxShadow: `0 0 0 2px ${point.color}` }}
-      />
       <div
         className={`absolute -translate-x-1/2 rounded-md border bg-popover px-3 py-2 text-sm shadow-md ${
           flipBelow ? 'translate-y-3' : '-translate-y-[calc(100%+12px)]'
         }`}
-        style={{ left, top }}
+        style={{ left, top, minWidth: '11rem' }}
       >
-        <p className="mb-0.5 font-medium">{formatDateTime(point.observedAt)}</p>
-        <p className="flex items-center gap-1.5">
+        <p className="mb-1 flex items-center gap-1.5 font-medium">
           <span
-            className="inline-block size-2 shrink-0 rounded-full"
-            style={{ backgroundColor: point.color }}
+            className="inline-block size-2.5 shrink-0 rounded-[2px]"
+            style={{ backgroundColor: bar.color }}
           />
-          <span className="text-muted-foreground">{point.label}:</span>
-          <span className="font-medium">{formatPrice(point.price, point.currency)}</span>
+          {bar.label}
         </p>
-        <p className={point.available ? 'text-xs text-emerald-600' : 'text-xs text-red-500'}>
-          {point.available ? 'In stock' : 'Out of stock'}
+        <p className="text-xs text-muted-foreground">{formatDateTime(bar.observedAt)}</p>
+        <p className="mt-1">
+          <span className="font-medium">{formatPrice(bar.avg, bar.currency)}</span>{' '}
+          <span className="text-xs text-muted-foreground">average</span>
         </p>
+        <p className="text-xs text-muted-foreground">
+          {formatPrice(bar.min, bar.currency)} – {formatPrice(bar.max, bar.currency)} range
+        </p>
+        {bar.variants.length > 1 && (
+          <ul className="mt-1.5 space-y-0.5 border-t pt-1.5 text-xs">
+            {bar.variants.map((v) => (
+              <li key={v.id} className="flex items-center justify-between gap-3">
+                <span className={v.available ? 'text-muted-foreground' : 'text-muted-foreground line-through'}>
+                  {v.label}
+                </span>
+                <span className="font-medium">{formatPrice(v.price, bar.currency)}</span>
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
     </div>
   );
 }
 
 /**
- * Renders the distinct-colored per-variant lines, legend, and
- * availability-by-shape chart for a Listing with more than one variant
- * (issue #17). Only reached when a Canonical Fish has exactly one Listing
- * (see dispatch in `PriceHistoryChart` below) — unchanged by issue #23.
+ * Shared chart chrome for every range-bar chart (one Store or many): the
+ * Recharts axes/grid for scale and ticks, the bar overlay drawn on top of
+ * them, and the nearest-bar hover tooltip. `currency` formats the Y axis
+ * ticks; a Store's own bar/tooltip always uses that Store's own currency
+ * (see `StoreBar.currency`), never coerced to this axis's.
  */
-function MultiVariantPriceHistoryChart({
-  events,
-  currency,
-}: {
-  events: HistoryEvent[];
-  currency: string;
-}) {
-  const { variants, points } = buildVariantSeries(events);
-  const colors = variants.map((_, idx) => seriesColor(idx));
-
-  // Per-series real-observation runs (issue #29, bug 2) — each `<Line>`
-  // below plots one run, so a run's own points draw a connected line while
-  // a gap too large for that series' own cadence starts a new, separately
-  // drawn run instead of a misleading straight line across it.
-  const runsByVariant = variants.map((v, idx) =>
-    splitConnectedRuns(
-      extractSeriesPoints(points, v.id, {
-        key: v.id,
-        label: v.label,
-        color: colors[idx],
-        currency,
-      }),
-    ),
-  );
-  const flatPoints = runsByVariant.flat(2);
-  const { containerRef, hover, handleMove, handleLeave } = useNearestPointHover(flatPoints);
+function RangeBarChart({ bars, axisCurrency }: { bars: StoreBar[]; axisCurrency: string }) {
+  const domain = useBarDomain(bars);
+  const { containerRef, rect } = usePlotRect(bars.length);
+  const { hover, handleMove, handleLeave } = useNearestBarHover(bars, containerRef, rect, domain);
 
   return (
-    <div className="w-full">
-      <div
-        ref={containerRef}
-        className="relative h-72 w-full"
-        onMouseMove={handleMove}
-        onMouseLeave={handleLeave}
-      >
-        <ResponsiveContainer width="100%" height="100%">
-          <LineChart data={points} margin={{ top: 8, right: 16, bottom: 8, left: 8 }}>
-            {/* `fill="transparent"` (invisible — Recharts' default is `fill="none"`,
-                which renders no background rect at all) forces Recharts to render
-                its `.recharts-cartesian-grid-bg` rect, which `useNearestPointHover`
-                reads via the DOM to know the plot area's exact pixel bounds. */}
-            <CartesianGrid strokeDasharray="3 3" className="stroke-border" fill="transparent" />
-            <XAxis
-              dataKey="timestamp"
-              type="number"
-              domain={['dataMin', 'dataMax']}
-              tickFormatter={(ts: number) =>
-                new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' }).format(
-                  new Date(ts),
-                )
-              }
-              className="text-xs"
-            />
-            <YAxis
-              tickFormatter={(p: number) => formatPrice(p, currency)}
-              width={80}
-              domain={['auto', 'auto']}
-              className="text-xs"
-            />
-            {variants.map((v, idx) => {
-              const color = colors[idx];
-              return runsByVariant[idx].map((run, runIdx) => (
-                <Line
-                  key={`${v.id}-${runIdx}`}
-                  data={run}
-                  type="stepAfter"
-                  dataKey="price"
-                  name={v.label}
-                  stroke={color}
-                  strokeWidth={2}
-                  dot={<SeriesDot color={color} />}
-                  activeDot={false}
-                  isAnimationActive={false}
-                />
-              ));
-            })}
-          </LineChart>
-        </ResponsiveContainer>
-        {hover && <PointHoverOverlay hover={hover} />}
-      </div>
-      <div className="mt-2 space-y-1 text-xs text-muted-foreground">
-        <div className="flex flex-wrap gap-x-4 gap-y-1">
-          {variants.map((v, idx) => (
-            <span key={v.id} className="inline-flex items-center gap-1.5">
-              <span
-                className="inline-block size-2.5 rounded-full"
-                style={{ backgroundColor: colors[idx] }}
-              />
-              {v.label}
-            </span>
-          ))}
-        </div>
-        <p className="inline-flex items-center gap-1.5">
-          <span className="inline-block size-2 rounded-full border-2 border-current" /> Hollow
-          marker = out of stock at that point. A variant with no line/price shown was priced
-          $0.00 (sold out, not a real price).
-        </p>
-      </div>
+    <div
+      ref={containerRef}
+      className="relative h-72 w-full"
+      onMouseMove={handleMove}
+      onMouseLeave={handleLeave}
+    >
+      <ResponsiveContainer width="100%" height="100%">
+        <LineChart data={bars} margin={{ top: 8, right: 16, bottom: 8, left: 8 }}>
+          {/* `fill="transparent"` (invisible — Recharts' default is `fill="none"`,
+              which renders no background rect at all) forces Recharts to render
+              its `.recharts-cartesian-grid-bg` rect, which `usePlotRect` reads via
+              the DOM to know the plot area's exact pixel bounds. */}
+          <CartesianGrid strokeDasharray="3 3" className="stroke-border" fill="transparent" />
+          <XAxis
+            dataKey="timestamp"
+            type="number"
+            // Explicit numeric domain (not 'dataMin'/'dataMax') so the axis matches
+            // `domain` exactly — the same domain the bar overlay's own pixel
+            // mapping uses — regardless of whether any Recharts graphical child
+            // (there are none; bars are a custom overlay) would otherwise
+            // contribute to Recharts' own domain auto-detection.
+            domain={domain ? [domain.minT, domain.maxT] : ['auto', 'auto']}
+            tickFormatter={(ts: number) =>
+              new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' }).format(new Date(ts))
+            }
+            className="text-xs"
+          />
+          <YAxis
+            tickFormatter={(p: number) => formatPrice(p, axisCurrency)}
+            width={80}
+            domain={domain ? [domain.minP, domain.maxP] : ['auto', 'auto']}
+            className="text-xs"
+          />
+          {/* Invisible line keyed on each bar's average price — bars are a custom
+              overlay, not a Recharts graphical child, and without any graphical
+              item Recharts never generates Y-axis ticks at all (it only ticks an
+              axis something is actually plotted against), leaving the Y axis
+              blank even though its line/width render. This line's own values are
+              never seen (`stroke="none"`, no dot, no active state) — it exists
+              solely to give the Y axis a real series to tick against. */}
+          <Line
+            dataKey="avg"
+            stroke="none"
+            dot={false}
+            activeDot={false}
+            isAnimationActive={false}
+            legendType="none"
+          />
+        </LineChart>
+      </ResponsiveContainer>
+      {rect && domain && <BarsOverlay bars={bars} rect={rect} domain={domain} hoveredKey={hover?.bar.key} />}
+      {hover && <BarHoverOverlay hover={hover} />}
     </div>
   );
 }
 
 /**
- * One Store's Listing, as the unified chart (issue #23) needs to know it:
- * which Store it belongs to (for hue), its own currency (a Store's price
- * line is always formatted in its own currency, never coerced to another
- * Store's), and its display name for the legend.
+ * One Store's Listing, as the chart needs to know it: which Store it
+ * belongs to (for hue), its own currency (a Store's bar is always formatted
+ * in its own currency, never coerced to another Store's), and its display
+ * name for the legend.
  */
 export interface ChartListing {
   listingId: string;
@@ -559,255 +607,94 @@ export interface ChartListing {
   currency: string;
 }
 
-interface UnifiedSeriesMeta {
-  key: string;
-  storeSlug: string;
-  color: string;
-  dash: string | undefined;
-  label: string;
-  currency: string;
-}
-
 /**
- * Builds one line per (Listing, variant) pair across every Store carrying
- * this Canonical Fish, colored by Store (fixed hue, first-seen order across
- * `listings`) and, within a Store, distinguished by dash pattern
- * (first-seen order of that Store's own series) — see the dataviz-skill
- * rationale on `SERIES_COLOR_VARS`/`DASH_PATTERNS` above for why hue is the
- * Store-level identity channel and dash is the secondary, within-Store one.
- *
- * A Store can contribute more than one series in two real shapes seen on
- * the live `data` branch: a single Listing with multiple variants (#17's
- * case, e.g. Shrimpy Business's "3/6/12/24 Fish" on
- * `cf:sci:danio-margaritatus-aka`), or multiple distinct Listings from the
- * very same Store matched onto one Canonical Fish (e.g. AquaHuna carries
- * both a "Size Small" and a "Size Large" Listing for that same fish) — both
- * are handled by keying each series on `${listingId}::${variantId}` rather
- * than assuming one Listing per Store.
+ * Renders a single Store's own range bars across time (issue #35) — one
+ * bar per observed timestamp, min-to-max across that Store's variants, with
+ * an average tick. Only reached when a Canonical Fish has exactly one
+ * Listing with more than one variant (see dispatch in `PriceHistoryChart`
+ * below) — a single Store is "a single series" for legend purposes (the
+ * dataviz skill's rule: one color needs no legend box), so this renders a
+ * short caption instead of a swatch legend.
  */
-function buildUnifiedSeries(
-  events: HistoryEvent[],
-  listings: ChartListing[],
-): { series: UnifiedSeriesMeta[]; points: MultiVariantPoint[] } {
-  const sorted = [...events].sort(
-    (a, b) => new Date(a.observedAt).getTime() - new Date(b.observedAt).getTime(),
+function SingleStoreRangeBarChart({
+  events,
+  listing,
+}: {
+  events: HistoryEvent[];
+  listing: ChartListing;
+}) {
+  const storeMeta = useMemo(
+    () =>
+      new Map([[listing.storeSlug, { label: listing.storeName, color: seriesColor(0), currency: listing.currency }]]),
+    [listing.storeSlug, listing.storeName, listing.currency],
   );
-  const listingBydId = new Map(listings.map((l) => [l.listingId, l]));
+  const bars = useMemo(() => computeStoreBars(events, storeMeta), [events, storeMeta]);
 
-  // Store order + the Listings each Store contributes, both in first-seen
-  // order of the `listings` input (not event order, and never price rank).
-  const storeOrder: string[] = [];
-  const listingIdsByStore = new Map<string, string[]>();
-  for (const l of listings) {
-    if (!listingIdsByStore.has(l.storeSlug)) {
-      listingIdsByStore.set(l.storeSlug, []);
-      storeOrder.push(l.storeSlug);
-    }
-    const ids = listingIdsByStore.get(l.storeSlug)!;
-    if (!ids.includes(l.listingId)) ids.push(l.listingId);
-  }
-  const storeColor = new Map(storeOrder.map((slug, idx) => [slug, seriesColor(idx)]));
-
-  // Variants per Listing, first-seen order across the sorted events.
-  const variantsByListing = new Map<string, VariantMeta[]>();
-  const seenVariant = new Set<string>();
-  for (const e of sorted) {
-    for (const v of e.variants ?? []) {
-      const seenKey = `${e.listingId}::${v.id}`;
-      if (seenVariant.has(seenKey)) continue;
-      seenVariant.add(seenKey);
-      const arr = variantsByListing.get(e.listingId) ?? [];
-      arr.push({ id: v.id, label: v.label });
-      variantsByListing.set(e.listingId, arr);
-    }
-  }
-
-  const series: UnifiedSeriesMeta[] = [];
-  for (const storeSlug of storeOrder) {
-    const listingIds = listingIdsByStore.get(storeSlug) ?? [];
-    const subSeriesCount = listingIds.reduce(
-      (sum, id) => sum + (variantsByListing.get(id)?.length ?? 0),
-      0,
-    );
-    let dashIdx = 0;
-    for (const listingId of listingIds) {
-      const listing = listingBydId.get(listingId);
-      if (!listing) continue;
-      const variants = variantsByListing.get(listingId) ?? [];
-      const listingHasMultipleVariants = variants.length > 1;
-      const storeHasMultipleListings = listingIds.length > 1;
-      for (const v of variants) {
-        // Single series for this Store overall -> plain Store name, exactly
-        // like today's single-Store chart (no empty/confusing legend text).
-        // Otherwise name the discriminator by whichever axis actually
-        // varies for this series: the variant label when this Listing has
-        // more than one variant, else the Listing's own name when it's the
-        // Store itself carrying more than one Listing.
-        const label =
-          subSeriesCount === 1
-            ? listing.storeName
-            : `${listing.storeName} — ${
-                listingHasMultipleVariants
-                  ? v.label
-                  : storeHasMultipleListings
-                    ? listing.commonName
-                    : v.label
-              }`;
-        series.push({
-          key: `${listingId}::${v.id}`,
-          storeSlug,
-          color: storeColor.get(storeSlug)!,
-          dash: dashPattern(dashIdx),
-          label,
-          currency: listing.currency,
-        });
-        dashIdx += 1;
-      }
-    }
-  }
-
-  // One row per event — a Store's own series are filled in; every other
-  // Store's keys are left unset (not `null`) on that row, since a given
-  // event only ever reflects its own Listing's scrape, not a snapshot of
-  // every Store at once. `null` is reserved for this row's own $0.00
-  // sold-out-placeholder case, consistent with the single-Listing path.
-  const points: MultiVariantPoint[] = sorted.map((e) => {
-    const point: MultiVariantPoint = {
-      observedAt: e.observedAt,
-      timestamp: new Date(e.observedAt).getTime(),
-      type: e.type,
-    };
-    for (const v of e.variants ?? []) {
-      const key = `${e.listingId}::${v.id}`;
-      point[priceKey(key)] = v.price === 0 ? null : v.price;
-      point[availKey(key)] = v.available;
-    }
-    return point;
-  });
-
-  return { series, points };
+  return (
+    <div className="w-full">
+      <RangeBarChart bars={bars} axisCurrency={listing.currency} />
+      <p className="mt-2 text-xs text-muted-foreground">
+        Each bar spans {listing.storeName}&apos;s lowest to highest priced variant at that time;
+        the pale notch marks the average. Hover a bar for every variant&apos;s own price — a
+        struck-through variant was out of stock at that time. A variant priced $0.00 is treated
+        as sold out, not a real price, and is left out of the bar.
+      </p>
+    </div>
+  );
 }
 
 /**
  * Renders ONE price/availability chart across every Store carrying a
- * Canonical Fish (issue #23) — hue identifies the Store, dash pattern
- * identifies a series within a Store (its own variants, or a second
- * Listing the same Store carries), and marker shape (filled/hollow) still
- * carries availability, consistent with #17's treatment. Only reached when
- * a Canonical Fish has more than one Listing; see dispatch below.
+ * Canonical Fish (issue #23), with each Store's own variants collapsed into
+ * one min/max/average range bar per timestamp (issue #35) rather than one
+ * line per (Listing, variant) pair. Hue still identifies the Store, in the
+ * same fixed first-seen order as before. Only reached when a Canonical Fish
+ * has more than one Listing; see dispatch below.
  */
-function UnifiedPriceHistoryChart({
-  events,
-  listings,
-}: {
-  events: HistoryEvent[];
-  listings: ChartListing[];
-}) {
-  const { series, points } = buildUnifiedSeries(events, listings);
+function UnifiedRangeBarChart({ events, listings }: { events: HistoryEvent[]; listings: ChartListing[] }) {
+  const storeMeta = useMemo(() => {
+    const meta = new Map<string, StoreMeta>();
+    let idx = 0;
+    for (const l of listings) {
+      if (meta.has(l.storeSlug)) continue;
+      meta.set(l.storeSlug, { label: l.storeName, color: seriesColor(idx), currency: l.currency });
+      idx += 1;
+    }
+    return meta;
+  }, [listings]);
+  const bars = useMemo(() => computeStoreBars(events, storeMeta), [events, storeMeta]);
   const currencies = new Set(listings.map((l) => l.currency));
-  // The Y axis is one shared scale across every Store's price line; when
-  // Stores price in different currencies, format ticks in the first
-  // Store's currency as a best-effort axis label and point readers to the
-  // tooltip (always formatted per-series, in that series' own currency)
-  // for the exact figure.
+  // The Y axis is one shared scale across every Store's bars; when Stores
+  // price in different currencies, format ticks in the first Store's
+  // currency as a best-effort axis label and point readers to the tooltip
+  // (always formatted per-Store, in that Store's own currency) for the
+  // exact figure.
   const axisCurrency = listings[0]?.currency ?? 'USD';
-
-  // Per-series real-observation runs (issue #29, bug 2) — see
-  // `MultiVariantPriceHistoryChart` above for the same treatment.
-  const runsBySeries = series.map((s) =>
-    splitConnectedRuns(
-      extractSeriesPoints(points, s.key, {
-        key: s.key,
-        label: s.label,
-        color: s.color,
-        currency: s.currency,
-      }),
-    ),
-  );
-  const flatPoints = runsBySeries.flat(2);
-  const { containerRef, hover, handleMove, handleLeave } = useNearestPointHover(flatPoints);
 
   return (
     <div className="w-full">
-      <div
-        ref={containerRef}
-        className="relative h-72 w-full"
-        onMouseMove={handleMove}
-        onMouseLeave={handleLeave}
-      >
-        <ResponsiveContainer width="100%" height="100%">
-          <LineChart data={points} margin={{ top: 8, right: 16, bottom: 8, left: 8 }}>
-            {/* `fill="transparent"` (invisible — Recharts' default is `fill="none"`,
-                which renders no background rect at all) forces Recharts to render
-                its `.recharts-cartesian-grid-bg` rect, which `useNearestPointHover`
-                reads via the DOM to know the plot area's exact pixel bounds. */}
-            <CartesianGrid strokeDasharray="3 3" className="stroke-border" fill="transparent" />
-            <XAxis
-              dataKey="timestamp"
-              type="number"
-              domain={['dataMin', 'dataMax']}
-              tickFormatter={(ts: number) =>
-                new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' }).format(
-                  new Date(ts),
-                )
-              }
-              className="text-xs"
-            />
-            <YAxis
-              tickFormatter={(p: number) => formatPrice(p, axisCurrency)}
-              width={80}
-              domain={['auto', 'auto']}
-              className="text-xs"
-            />
-            {series.map((s, idx) =>
-              runsBySeries[idx].map((run, runIdx) => (
-                <Line
-                  key={`${s.key}-${runIdx}`}
-                  data={run}
-                  type="stepAfter"
-                  dataKey="price"
-                  name={s.label}
-                  stroke={s.color}
-                  strokeDasharray={s.dash}
-                  strokeWidth={2}
-                  dot={<SeriesDot color={s.color} />}
-                  activeDot={false}
-                  isAnimationActive={false}
-                />
-              )),
-            )}
-          </LineChart>
-        </ResponsiveContainer>
-        {hover && <PointHoverOverlay hover={hover} />}
-      </div>
+      <RangeBarChart bars={bars} axisCurrency={axisCurrency} />
       <div className="mt-2 space-y-1 text-xs text-muted-foreground">
         <div className="flex flex-wrap gap-x-4 gap-y-1.5">
-          {series.map((s) => (
-            <span key={s.key} className="inline-flex items-center gap-1.5">
-              <svg width="18" height="8" className="shrink-0" aria-hidden="true">
-                <line
-                  x1="0"
-                  y1="4"
-                  x2="18"
-                  y2="4"
-                  stroke={s.color}
-                  strokeWidth="2"
-                  strokeDasharray={s.dash}
-                />
-              </svg>
-              {s.label}
+          {Array.from(storeMeta.entries()).map(([storeSlug, meta]) => (
+            <span key={storeSlug} className="inline-flex items-center gap-1.5">
+              <span
+                className="inline-block size-2.5 shrink-0 rounded-[2px]"
+                style={{ backgroundColor: meta.color }}
+              />
+              {meta.label}
             </span>
           ))}
         </div>
-        <p className="inline-flex items-center gap-1.5">
-          <span className="inline-block size-2 rounded-full border-2 border-current" /> Hollow
-          marker = out of stock at that point. A gap in a line means that Store/variant was
-          priced $0.00 (sold out, not a real price) or simply wasn't observed at that time.
+        <p>
+          Each bar spans a Store&apos;s lowest to highest priced variant at that time; the pale
+          notch marks the average. Hover a bar for every variant&apos;s own price — a
+          struck-through variant was out of stock at that time.
         </p>
         {currencies.size > 1 && (
           <p>
-            Stores shown price in different currencies — the axis is approximate; hover a
-            point for the exact price and currency per Store.
+            Stores shown price in different currencies — the axis is approximate; hover a bar
+            for the exact prices and currency per Store.
           </p>
         )}
       </div>
@@ -817,10 +704,11 @@ function UnifiedPriceHistoryChart({
 
 /**
  * Renders a Canonical Fish's historical price/availability chart from its
- * history events — one unified chart across every Store carrying it
- * (issue #23), building on #17's per-variant color-coding. `listings` must
- * contain exactly the Listings whose events appear in `events` (the
- * Listings a Canonical Fish currently has, from the index).
+ * history events — one unified chart across every Store carrying it (issue
+ * #23), with every Store's variants collapsed into one min/max/average
+ * range bar per timestamp rather than one line per variant (issue #35).
+ * `listings` must contain exactly the Listings whose events appear in
+ * `events` (the Listings a Canonical Fish currently has, from the index).
  */
 export function PriceHistoryChart({
   events,
@@ -848,21 +736,21 @@ export function PriceHistoryChart({
 
   // More than one Listing (whether from different Stores, or the same
   // Store carrying two Listings for this Canonical Fish) gets the unified
-  // multi-series chart (issue #23). Exactly one Listing — the common
-  // case — falls through unchanged to #17's per-variant chart or the
-  // original single-line chart below: no regression, no empty/confusing
-  // legend.
+  // multi-Store range-bar chart (issues #23/#35). Exactly one Listing — the
+  // common case — falls through unchanged to the single-Store range-bar
+  // chart or the original single-line chart below: no regression, no
+  // empty/confusing legend.
   const distinctListingIds = new Set(listings.map((l) => l.listingId));
   if (distinctListingIds.size > 1) {
-    return <UnifiedPriceHistoryChart events={events} listings={listings} />;
+    return <UnifiedRangeBarChart events={events} listings={listings} />;
   }
 
   const distinctVariantIds = new Set<string>();
   for (const e of events) {
     for (const v of e.variants ?? []) distinctVariantIds.add(v.id);
   }
-  if (distinctVariantIds.size > 1) {
-    return <MultiVariantPriceHistoryChart events={events} currency={currency} />;
+  if (distinctVariantIds.size > 1 && listings[0]) {
+    return <SingleStoreRangeBarChart events={events} listing={listings[0]} />;
   }
 
   const points: ChartPoint[] = events
