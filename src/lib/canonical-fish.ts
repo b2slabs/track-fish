@@ -143,6 +143,26 @@ export const AMBIGUOUS_THRESHOLD = 0.6;
  * not be allowed to fuzzy-match this run's Listing right back onto the id
  * it's being freshly computed for, which would be comparing a Store's
  * Listing against itself under a different name.
+ *
+ * Variety-split grouping (issue #34): a `cf:sci:<slug>` id can predate
+ * this fix, or predate every Listing that currently shares it getting a
+ * chance to individually recompute its own id this run, and so can still
+ * carry more than one distinct variety signature in its history --
+ * exactly the historical contamination this issue reports. Nothing
+ * retroactively un-mixes an already-written history file, but new
+ * matching must not keep reinforcing that mix: two same-variety Listings
+ * sharing a contaminated `cf:sci:<slug>` id should still match each other
+ * (that pairing is correct), but must not drag in a third, different-
+ * variety Listing just because all three happen to share the same
+ * underlying id string. So each existing Listing is grouped by
+ * `resolvedGroupId` -- its own commonName's variety folded into its
+ * stored id as a suffix, unless that id already ends in exactly that
+ * suffix -- rather than by the raw stored id. A `cf:sci:<slug>` id with
+ * one clean variety keeps matching as a single group, same as always;
+ * one that has drifted into carrying several splits into one resolved
+ * group per variety on this and future runs, each independently
+ * reachable, until every Listing that contributed to the mix has been
+ * individually reprocessed onto its own resolved id.
  */
 export function buildMatchContext(
   storeSlug: string,
@@ -154,14 +174,15 @@ export function buildMatchContext(
   const namesById = new Map<string, Map<string, { commonName: string; storeSlug: string }>>();
   const storeSlugsById = new Map<string, Set<string>>();
   for (const listing of existingListings) {
-    if (!namesById.has(listing.canonicalFishId)) {
-      namesById.set(listing.canonicalFishId, new Map());
-      storeSlugsById.set(listing.canonicalFishId, new Set());
+    const groupId = resolvedGroupId(listing.canonicalFishId, extractVariety(listing.commonName));
+    if (!namesById.has(groupId)) {
+      namesById.set(groupId, new Map());
+      storeSlugsById.set(groupId, new Set());
     }
     namesById
-      .get(listing.canonicalFishId)!
+      .get(groupId)!
       .set(`${listing.storeSlug} ${listing.commonName}`, { commonName: listing.commonName, storeSlug: listing.storeSlug });
-    storeSlugsById.get(listing.canonicalFishId)!.add(listing.storeSlug);
+    storeSlugsById.get(groupId)!.add(listing.storeSlug);
   }
 
   const candidatesByToken = new Map<string, FuzzyCandidate[]>();
@@ -183,6 +204,22 @@ export function buildMatchContext(
   }
 
   return { storeSlug, overridesByListingId, candidatesByToken, candidateIds };
+}
+
+/**
+ * Folds `variety` into `rawId` as a suffix, unless `rawId` already ends
+ * in exactly that suffix or `variety` is empty -- see the variety-split
+ * grouping note in `buildMatchContext`'s doc. Scoped to the `cf:sci:`
+ * namespace only: a trivial `cf:<store>:<productIdentifier>` id is
+ * already maximally specific (one Listing) and never needs a suffix
+ * synthesized onto it.
+ */
+function resolvedGroupId(rawId: string, variety: string[]): string {
+  if (variety.length === 0 || !rawId.startsWith('cf:sci:')) {
+    return rawId;
+  }
+  const suffix = `:${varietySlug(variety)}`;
+  return rawId.endsWith(suffix) ? rawId : `${rawId}${suffix}`;
 }
 
 export function matchCanonicalFish(

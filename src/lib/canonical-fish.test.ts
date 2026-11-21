@@ -186,6 +186,27 @@ test('issue #34: a Listing does not fuzzy-match its own prior-run commonName sit
   assert.equal(result.canonicalFishId, 'cf:aquahuna:1');
 });
 
+test('issue #34: a cf:sci: id already contaminated with two varieties splits going forward instead of reinforcing the mix', () => {
+  // Real-world shape (pre-dating this fix, or pre-dating every affected
+  // Listing getting a chance to individually recompute its own id): one
+  // cf:sci:<slug> id's history already mixes two distinct varieties
+  // across Stores. A third, same-variety Listing from yet another Store
+  // must join the matching sub-cluster only -- not the id's other,
+  // incompatible-variety members, just because they share one id string.
+  const context = buildMatchContext('nu-aqua-shop', [
+    existingListing({ canonicalFishId: 'cf:sci:corydoras-aeneus', storeSlug: 'aquahuna', commonName: 'Orange Venezuelan Cory' }),
+    existingListing({ canonicalFishId: 'cf:sci:corydoras-aeneus', storeSlug: 'aquarium-fish', commonName: 'Green Laser Cory' }),
+  ], []);
+  const result = matchCanonicalFish(
+    { productIdentifier: '1', commonName: 'Orange Venezuelan Cory', description: '' },
+    context
+  );
+  assert.equal(result.status, 'fuzzy-auto');
+  // Resolves to the orange sub-cluster's own id, distinct from the raw
+  // contaminated id and from the green sub-cluster.
+  assert.equal(result.canonicalFishId, 'cf:sci:corydoras-aeneus:orange');
+});
+
 test('no scientific name and no fuzzy candidate falls back to the trivial per-Listing id', () => {
   const context = buildMatchContext('aquatic-arts', [], []);
   const result = matchCanonicalFish(
