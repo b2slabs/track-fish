@@ -6,6 +6,7 @@ import { ListingCard } from '@/components/ListingCard';
 import { Skeleton } from '@/components/ui/skeleton';
 import { useIndex } from '@/hooks/useIndex';
 import { useInfiniteScroll } from '@/hooks/useInfiniteScroll';
+import { groupListingsByCanonicalFish } from '@/lib/group-listings';
 
 const PAGE_SIZE = 24;
 
@@ -21,7 +22,12 @@ export function BrowsePage() {
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
-  const filtered = useMemo(() => {
+  // Search/store/availability filters run on individual Listings, same as
+  // before grouping was introduced. Filtering is intentionally done BEFORE
+  // grouping (not after) — see group-listings.ts — so e.g. a store filter
+  // naturally keeps a grouped card iff at least one of its Listings is from
+  // that Store, without any group-aware filter logic of its own.
+  const filteredListings = useMemo(() => {
     if (!index) return [];
     const search = filters.search.trim().toLowerCase();
     let listings = index.listings;
@@ -37,22 +43,31 @@ export function BrowsePage() {
       listings = listings.filter((l) => l.available === wantAvailable);
     }
 
-    const sorted = [...listings].sort((a, b) =>
-      filters.sort === 'price-asc' ? a.price - b.price : b.price - a.price,
+    return listings;
+  }, [index, filters.search, filters.storeSlug, filters.availability]);
+
+  // One card per Canonical Fish (issue #20): group the filtered Listings by
+  // canonicalFishId, then sort groups by their representative (lowest
+  // across Stores) price.
+  const groups = useMemo(() => {
+    const grouped = groupListingsByCanonicalFish(filteredListings);
+    return grouped.sort((a, b) =>
+      filters.sort === 'price-asc'
+        ? a.representative.price - b.representative.price
+        : b.representative.price - a.representative.price,
     );
-    return sorted;
-  }, [index, filters]);
+  }, [filteredListings, filters.sort]);
 
   function handleFilterChange(next: FilterState) {
     setFilters(next);
     setVisibleCount(PAGE_SIZE);
   }
 
-  const hasMore = visibleCount < filtered.length;
+  const hasMore = visibleCount < groups.length;
 
   const loadMore = useCallback(() => {
-    setVisibleCount((c) => Math.min(c + PAGE_SIZE, filtered.length));
-  }, [filtered.length]);
+    setVisibleCount((c) => Math.min(c + PAGE_SIZE, groups.length));
+  }, [groups.length]);
 
   const { sentinelRef, isLoadingMore } = useInfiniteScroll({
     hasMore,
@@ -89,16 +104,20 @@ export function BrowsePage() {
           </div>
 
           <p className="mb-4 text-sm text-muted-foreground">
-            {filtered.length} {filtered.length === 1 ? 'fish matches' : 'fish match'}
+            {groups.length} {groups.length === 1 ? 'fish matches' : 'fish match'}
           </p>
 
-          {filtered.length === 0 ? (
+          {groups.length === 0 ? (
             <p className="py-12 text-center text-muted-foreground">No fish match your filters.</p>
           ) : (
             <>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                {filtered.slice(0, visibleCount).map((listing) => (
-                  <ListingCard key={listing.listingId} listing={listing} />
+                {groups.slice(0, visibleCount).map((group) => (
+                  <ListingCard
+                    key={group.canonicalFishId}
+                    listing={group.representative}
+                    storeCount={group.storeCount}
+                  />
                 ))}
               </div>
               {hasMore && (
