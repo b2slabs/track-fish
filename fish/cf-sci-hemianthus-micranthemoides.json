@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hemianthus-micranthemoides",
-  "commonName": "Hemianthus Micranthemoides (Pearl Weed)",
+  "commonName": "Pearlweed-Pot",
   "scientificName": "Hemianthus micranthemoides",
   "listings": [
     {
@@ -26,6 +26,24 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Hemianthus Micranthemoides (Pearl Weed)"
+    },
+    {
+      "listingId": "aquarium-fish:8337220993323",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Pearl Weed"
+    },
+    {
+      "listingId": "imperial-tropicals:9977620889907",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Pearlweed (Micranthemum glomeratus)"
+    },
+    {
+      "listingId": "daku-aquatics:8741034655962",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Pearl Weed"
     }
   ],
   "events": [
@@ -358,6 +376,66 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45296775725355",
+          "label": "Title",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:8337220993323",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52710562595123",
+          "label": "1 Potted Plant",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9977620889907",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043840217306",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741034655962",
+      "storeSlug": "daku-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 7.99,
       "currency": "USD",
@@ -430,6 +508,57 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45296775725355",
+          "label": "Title",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8337220993323",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:50.975Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52710562595123",
+          "label": "1 Potted Plant",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9977620889907",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:57.952Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043840217306",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741034655962",
+      "storeSlug": "daku-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T17:33:59.411Z",
       "price": 7.99,
       "currency": "USD",
@@ -497,6 +626,61 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:3999941492822",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45296775725355",
+          "label": "Title",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8337220993323",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52710562595123",
+          "label": "1 Potted Plant",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:9977620889907",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:24.660Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043840217306",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741034655962",
+      "storeSlug": "daku-aquatics"
     },
     {
       "observedAt": "2026-11-21T01:29:25.528Z",
@@ -588,6 +772,57 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45296775725355",
+          "label": "Title",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8337220993323",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:07.776Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52710562595123",
+          "label": "1 Potted Plant",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9977620889907",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:17.716Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043840217306",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741034655962",
+      "storeSlug": "daku-aquatics"
+    },
+    {
       "observedAt": "2026-11-21T01:31:18.727Z",
       "price": 7.99,
       "currency": "USD",
@@ -609,6 +844,143 @@
       "type": "heartbeat",
       "listingId": "buce-plant:9849073933",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:59:48.002Z",
+      "price": 9.69,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39614512758870",
+          "label": "1 Bunch",
+          "price": 9.69,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6667737104470",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:59:48.002Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "29712072441942",
+          "label": "1 Tissue Culture",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "29712072474710",
+          "label": "2 Tissue Cultures",
+          "price": 26.99,
+          "available": false
+        },
+        {
+          "id": "29712072507478",
+          "label": "3 Tissue Cultures",
+          "price": 38.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:3999941492822",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:39.304Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45296775725355",
+          "label": "Title",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8337220993323",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:55.045Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52710562595123",
+          "label": "1 Potted Plant",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9977620889907",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:05.579Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043840217306",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741034655962",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:06.591Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "36793914381",
+          "label": "Bunch",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "12396654526545",
+          "label": "3 Bunches + 1 Free",
+          "price": 23.97,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:9849073933",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:36.649Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627671257404",
+          "label": "Title",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006359146812",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

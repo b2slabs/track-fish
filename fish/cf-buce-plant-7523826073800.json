@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:buce-plant:7523826073800",
-  "commonName": "UNS Controsand - Monterey",
+  "commonName": "UNS Controsand Monterey",
   "scientificName": null,
   "listings": [
     {
@@ -137,6 +137,52 @@
       "type": "heartbeat",
       "listingId": "buce-plant:7523826073800",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:06.591Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42592762855624",
+          "label": "3L",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "42592762888392",
+          "label": "8L",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7523826073800",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:36.649Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52482747662652",
+          "label": "3L",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "52482747695420",
+          "label": "8L",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10237104619836",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

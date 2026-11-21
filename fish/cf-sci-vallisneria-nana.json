@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:vallisneria-nana",
-  "commonName": "Narrowleaf Vallisneria (Vallisneria nana), Bunch w/Lead",
+  "commonName": "Vallisneria Nana",
   "scientificName": "Vallisneria nana",
   "listings": [
     {
@@ -8,6 +8,24 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Narrowleaf Vallisneria (Vallisneria nana), Bunch w/Lead"
+    },
+    {
+      "listingId": "buce-plant:10220148685",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Vallisneria Nana"
+    },
+    {
+      "listingId": "glass-aqua:1341706240086",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Vallisneria Nana"
+    },
+    {
+      "listingId": "nu-aqua-shop:10309282070844",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Vallisneria Nana"
     }
   ],
   "events": [
@@ -218,6 +236,52 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38776683725",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12396866797649",
+          "label": "4 Bunches",
+          "price": 20.97,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:10220148685",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12368408215638",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:1341706240086",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-11-20T17:33:09.827Z",
       "price": 4.99,
       "currency": "USD",
@@ -245,6 +309,46 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:3546916683862",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:59.411Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38776683725",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12396866797649",
+          "label": "4 Bunches",
+          "price": 20.97,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10220148685",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T17:34:13.918Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12368408215638",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:1341706240086",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-21T01:28:57.087Z",
@@ -276,6 +380,66 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38776683725",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12396866797649",
+          "label": "4 Bunches",
+          "price": 20.97,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10220148685",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:33.919Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12368408215638",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:1341706240086",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52798729847100",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10309282070844",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
       "observedAt": "2026-11-21T01:30:03.149Z",
       "price": 4.99,
       "currency": "USD",
@@ -303,6 +467,132 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:3546916683862",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:18.727Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38776683725",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12396866797649",
+          "label": "4 Bunches",
+          "price": 20.97,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10220148685",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:35.615Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12368408215638",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:1341706240086",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:59:48.002Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "28150945349718",
+          "label": "1 Bunch",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "28150945382486",
+          "label": "2 Bunches",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "28150945415254",
+          "label": "3 Bunches",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:3546916683862",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:06.591Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38776683725",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12396866797649",
+          "label": "4 Bunches",
+          "price": 20.97,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10220148685",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:24.375Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12368408215638",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:1341706240086",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:36.649Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52798729847100",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10309282070844",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

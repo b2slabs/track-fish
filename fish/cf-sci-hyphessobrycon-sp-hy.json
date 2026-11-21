@@ -1,43 +1,13 @@
 {
   "canonicalFishId": "cf:sci:hyphessobrycon-sp-hy",
-  "commonName": "Candy Cane Tetra",
+  "commonName": "Candy Cane Tetra (hyphessobrycon sp)",
   "scientificName": "Hyphessobrycon sp. hy",
   "listings": [
-    {
-      "listingId": "aquahuna:1778965512235",
-      "storeSlug": "aquahuna",
-      "storeName": "AquaHuna",
-      "commonName": "Candy Cane Tetra"
-    },
-    {
-      "listingId": "ck-fish-world:8150010167511",
-      "storeSlug": "ck-fish-world",
-      "storeName": "CK Fish World",
-      "commonName": "Candy Cane Tetra"
-    },
     {
       "listingId": "monster-aquarium:7162350010577",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Candy Cane Tetra (hyphessobrycon sp)"
-    },
-    {
-      "listingId": "nu-aqua-shop:10006314844476",
-      "storeSlug": "nu-aqua-shop",
-      "storeName": "NU Aqua Shop",
-      "commonName": "Candy Cane Tetra"
-    },
-    {
-      "listingId": "aquarium-fish:9153893007659",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Candy Cane Tetra (School of 6)"
-    },
-    {
-      "listingId": "aquarium-fish:7014946734161",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Candy Cane Tetra"
     }
   ],
   "events": [
@@ -96,58 +66,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.593Z",
-      "price": 3.25,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "16064102170667",
-          "label": "Title",
-          "price": 3.25,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquahuna:1778965512235",
-      "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 21.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336045027543",
-          "label": "3",
-          "price": 21.98,
-          "available": true
-        },
-        {
-          "id": "45336045060311",
-          "label": "5",
-          "price": 34.98,
-          "available": true
-        },
-        {
-          "id": "45336045093079",
-          "label": "10",
-          "price": 59.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8150010167511",
-      "storeSlug": "ck-fish-world"
-    },
-    {
       "observedAt": "2026-11-20T06:27:37.184Z",
       "price": 4.99,
       "currency": "USD",
@@ -163,92 +81,6 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7162350010577",
       "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:38.279Z",
-      "price": 3.25,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "16064102170667",
-          "label": "Title",
-          "price": 3.25,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquahuna:1778965512235",
-      "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:38.526Z",
-      "price": 21.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336045027543",
-          "label": "3",
-          "price": 21.98,
-          "available": true
-        },
-        {
-          "id": "45336045060311",
-          "label": "5",
-          "price": 34.98,
-          "available": true
-        },
-        {
-          "id": "45336045093079",
-          "label": "10",
-          "price": 59.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8150010167511",
-      "storeSlug": "ck-fish-world"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:42.901Z",
-      "price": 26.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48332423823659",
-          "label": "Title",
-          "price": 26.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquarium-fish:9153893007659",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:42.901Z",
-      "price": 6.29,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51437762478379",
-          "label": "Title",
-          "price": 6.29,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquarium-fish:7014946734161",
-      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-20T17:33:23.452Z",
@@ -268,86 +100,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-20T17:33:27.861Z",
-      "price": 3.25,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "16064102170667",
-          "label": "Title",
-          "price": 3.25,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquahuna:1778965512235",
-      "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:29.055Z",
-      "price": 21.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336045027543",
-          "label": "3",
-          "price": 21.98,
-          "available": true
-        },
-        {
-          "id": "45336045060311",
-          "label": "5",
-          "price": 34.98,
-          "available": true
-        },
-        {
-          "id": "45336045093079",
-          "label": "10",
-          "price": 59.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8150010167511",
-      "storeSlug": "ck-fish-world"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:47.733Z",
-      "price": 26.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48332423823659",
-          "label": "Title",
-          "price": 26.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquarium-fish:9153893007659",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:47.733Z",
-      "price": 6.29,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51437762478379",
-          "label": "Title",
-          "price": 6.29,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquarium-fish:7014946734161",
-      "storeSlug": "aquarium-fish"
-    },
-    {
       "observedAt": "2026-11-21T01:29:05.027Z",
       "price": 4.99,
       "currency": "USD",
@@ -363,114 +115,6 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7162350010577",
       "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:07.561Z",
-      "price": 3.25,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "16064102170667",
-          "label": "Title",
-          "price": 3.25,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquahuna:1778965512235",
-      "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:08.295Z",
-      "price": 21.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336045027543",
-          "label": "3",
-          "price": 21.98,
-          "available": true
-        },
-        {
-          "id": "45336045060311",
-          "label": "5",
-          "price": 34.98,
-          "available": true
-        },
-        {
-          "id": "45336045093079",
-          "label": "10",
-          "price": 59.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8150010167511",
-      "storeSlug": "ck-fish-world"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:18.881Z",
-      "price": 22.94,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48332423823659",
-          "label": "Title",
-          "price": 22.94,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:9153893007659",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:18.881Z",
-      "price": 5.35,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51437762478379",
-          "label": "Title",
-          "price": 5.35,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:7014946734161",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:44.090Z",
-      "price": 6.27,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51627486576956",
-          "label": "Title",
-          "price": 6.27,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "nu-aqua-shop:10006314844476",
-      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-21T01:30:25.006Z",
@@ -490,84 +134,21 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-21T01:30:31.959Z",
-      "price": 3.25,
+      "observedAt": "2026-11-21T02:00:10.177Z",
+      "price": 4.99,
       "currency": "USD",
       "available": true,
       "variants": [
         {
-          "id": "16064102170667",
-          "label": "Title",
-          "price": 3.25,
+          "id": "41363340984529",
+          "label": "1-1.25”",
+          "price": 4.99,
           "available": true
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquahuna:1778965512235",
-      "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-21T01:30:38.589Z",
-      "price": 21.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336045027543",
-          "label": "3",
-          "price": 21.98,
-          "available": true
-        },
-        {
-          "id": "45336045060311",
-          "label": "5",
-          "price": 34.98,
-          "available": true
-        },
-        {
-          "id": "45336045093079",
-          "label": "10",
-          "price": 59.98,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "ck-fish-world:8150010167511",
-      "storeSlug": "ck-fish-world"
-    },
-    {
-      "observedAt": "2026-11-21T01:30:53.467Z",
-      "price": 22.94,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48332423823659",
-          "label": "Title",
-          "price": 22.94,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquarium-fish:9153893007659",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-21T01:30:53.467Z",
-      "price": 5.35,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51437762478379",
-          "label": "Title",
-          "price": 5.35,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquarium-fish:7014946734161",
-      "storeSlug": "aquarium-fish"
+      "listingId": "monster-aquarium:7162350010577",
+      "storeSlug": "monster-aquarium"
     }
   ]
 }

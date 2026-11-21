@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:bolbitis-heteroclita-difformis",
-  "commonName": "Mini Bolbitis on Driftwood",
+  "commonName": "Bolbitis Heteroclita Difformis",
   "scientificName": "Bolbitis heteroclita difformis",
   "listings": [
     {
@@ -26,12 +26,6 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Bolbitis Heteroclita Difformis"
-    },
-    {
-      "listingId": "buce-plant:1346606006353",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Mini Bolbitis on Driftwood"
     }
   ],
   "events": [
@@ -446,32 +440,6 @@
       "storeSlug": "flip-aquatics"
     },
     {
-      "observedAt": "2026-11-20T06:27:47.109Z",
-      "price": 20.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "12332486230097",
-          "label": "SMALL 12CM",
-          "price": 16.99,
-          "available": false
-        },
-        {
-          "id": "12332486688849",
-          "label": "MED 15CM",
-          "price": 20.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "buce-plant:1346606006353",
-      "storeSlug": "buce-plant"
-    },
-    {
       "observedAt": "2026-11-20T17:33:09.827Z",
       "price": 15.99,
       "currency": "USD",
@@ -556,29 +524,6 @@
       "type": "heartbeat",
       "listingId": "flip-aquatics:6692632297574",
       "storeSlug": "flip-aquatics"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:59.411Z",
-      "price": 20.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "12332486230097",
-          "label": "SMALL 12CM",
-          "price": 16.99,
-          "available": false
-        },
-        {
-          "id": "12332486688849",
-          "label": "MED 15CM",
-          "price": 20.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:1346606006353",
-      "storeSlug": "buce-plant"
     },
     {
       "observedAt": "2026-11-21T01:28:57.087Z",
@@ -667,29 +612,6 @@
       "storeSlug": "flip-aquatics"
     },
     {
-      "observedAt": "2026-11-21T01:29:25.528Z",
-      "price": 20.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "12332486230097",
-          "label": "SMALL 12CM",
-          "price": 16.99,
-          "available": false
-        },
-        {
-          "id": "12332486688849",
-          "label": "MED 15CM",
-          "price": 20.99,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "buce-plant:1346606006353",
-      "storeSlug": "buce-plant"
-    },
-    {
       "observedAt": "2026-11-21T01:30:03.149Z",
       "price": 15.99,
       "currency": "USD",
@@ -776,27 +698,90 @@
       "storeSlug": "flip-aquatics"
     },
     {
-      "observedAt": "2026-11-21T01:31:18.727Z",
-      "price": 20.99,
+      "observedAt": "2026-11-21T01:59:48.002Z",
+      "price": 15.99,
       "currency": "USD",
-      "available": true,
+      "available": false,
       "variants": [
         {
-          "id": "12332486230097",
-          "label": "SMALL 12CM",
+          "id": "51667199918447",
+          "label": "Title",
+          "price": 15.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14630053544303",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:59:48.002Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31978171859030",
+          "label": "1 Bunch",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "31978171891798",
+          "label": "2 Bunches",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "31978171924566",
+          "label": "3 Bunches",
           "price": 16.99,
           "available": false
         },
         {
-          "id": "12332486688849",
-          "label": "MED 15CM",
-          "price": 20.99,
+          "id": "51667208700271",
+          "label": "1 Potted",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4568205066326",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:27.948Z",
+      "price": 13.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39936041877589",
+          "label": "Title",
+          "price": 13.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6721949925461",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:31.129Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550739906662",
+          "label": "Potted / Loose",
+          "price": 9.99,
           "available": true
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:1346606006353",
-      "storeSlug": "buce-plant"
+      "listingId": "flip-aquatics:6692632297574",
+      "storeSlug": "flip-aquatics"
     }
   ]
 }

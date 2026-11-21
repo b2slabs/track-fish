@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:buce-plant:7519706185928",
-  "commonName": "Mighty Aquarium Filter - HOB Filter",
+  "commonName": "Mighty Aquarium Filter- Large",
   "scientificName": null,
   "listings": [
     {
@@ -20,6 +20,18 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Mighty Aquarium Filter XL"
+    },
+    {
+      "listingId": "nu-aqua-shop:10441038496060",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Mighty Aquarium Filter - Small"
+    },
+    {
+      "listingId": "nu-aqua-shop:10441038102844",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Mighty Aquarium Filter- Large"
     }
   ],
   "events": [
@@ -296,6 +308,46 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 26.39,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53943178428732",
+          "label": "Title",
+          "price": 26.39,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10441038496060",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 33.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53943178035516",
+          "label": "Title",
+          "price": 33.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10441038102844",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
       "observedAt": "2026-11-21T01:31:18.727Z",
       "price": 15.99,
       "currency": "USD",
@@ -376,6 +428,139 @@
       "type": "heartbeat",
       "listingId": "glass-aqua:6854647677014",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:06.591Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42581936046280",
+          "label": "XS MG02",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "42581936079048",
+          "label": "S MG04",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "42581936111816",
+          "label": "M MG08",
+          "price": 20.99,
+          "available": true
+        },
+        {
+          "id": "43786038902984",
+          "label": "L MG12",
+          "price": 27.99,
+          "available": true
+        },
+        {
+          "id": "43786038935752",
+          "label": "XL MG20",
+          "price": 39.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7519706185928",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:24.375Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40200982954070",
+          "label": "XS [MG02]",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "40200982986838",
+          "label": "S [MG04]",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "40200983019606",
+          "label": "M [MG08]",
+          "price": 20.99,
+          "available": true
+        },
+        {
+          "id": "41446993985622",
+          "label": "L [MG12]",
+          "price": 27.99,
+          "available": true
+        },
+        {
+          "id": "41446994018390",
+          "label": "XL [MG20]",
+          "price": 39.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6854647677014",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:36.649Z",
+      "price": 49.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53943179116860",
+          "label": "Title",
+          "price": 49.49,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10441038692668",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:36.649Z",
+      "price": 26.39,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53943178428732",
+          "label": "Title",
+          "price": 26.39,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10441038496060",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:36.649Z",
+      "price": 33.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53943178035516",
+          "label": "Title",
+          "price": 33.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10441038102844",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

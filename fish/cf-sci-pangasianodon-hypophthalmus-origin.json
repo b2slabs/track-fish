@@ -1,14 +1,8 @@
 {
   "canonicalFishId": "cf:sci:pangasianodon-hypophthalmus-origin",
-  "commonName": "Iridescent Shark",
+  "commonName": "Iridescent Shark (Pangasianodon hypophthalmus)",
   "scientificName": "Pangasianodon hypophthalmus origin",
   "listings": [
-    {
-      "listingId": "aquarium-fish:4638258856017",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Iridescent Shark"
-    },
     {
       "listingId": "monster-aquarium:7479741645009",
       "storeSlug": "monster-aquarium",
@@ -190,26 +184,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-20T06:27:42.901Z",
-      "price": 7.9,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "32403622789201",
-          "label": "Title",
-          "price": 7.9,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquarium-fish:4638258856017",
-      "storeSlug": "aquarium-fish"
-    },
-    {
       "observedAt": "2026-11-20T17:33:23.452Z",
       "price": 26.99,
       "currency": "USD",
@@ -248,23 +222,6 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7045669093585",
       "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:47.733Z",
-      "price": 7.9,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "32403622789201",
-          "label": "Title",
-          "price": 7.9,
-          "available": true
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquarium-fish:4638258856017",
-      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-21T01:29:05.027Z",
@@ -307,27 +264,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-21T01:29:18.881Z",
-      "price": 9.29,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "32403622789201",
-          "label": "Title",
-          "price": 9.29,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:4638258856017",
-      "storeSlug": "aquarium-fish"
-    },
-    {
       "observedAt": "2026-11-21T01:30:25.006Z",
       "price": 26.99,
       "currency": "USD",
@@ -368,21 +304,44 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-21T01:30:53.467Z",
-      "price": 9.29,
+      "observedAt": "2026-11-21T02:00:10.177Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42264789778641",
+          "label": "4-5\"",
+          "price": 26.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7479741645009",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:10.177Z",
+      "price": 32.99,
       "currency": "USD",
       "available": true,
       "variants": [
         {
-          "id": "32403622789201",
-          "label": "Title",
-          "price": 9.29,
+          "id": "41864025342161",
+          "label": "2-3”",
+          "price": 20,
+          "available": false
+        },
+        {
+          "id": "41066035577041",
+          "label": "4-5”",
+          "price": 32.99,
           "available": true
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:4638258856017",
-      "storeSlug": "aquarium-fish"
+      "listingId": "monster-aquarium:7045669093585",
+      "storeSlug": "monster-aquarium"
     }
   ]
 }

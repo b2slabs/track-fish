@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:apistogramma-borellii-imported",
-  "commonName": "Apistogramma borellii \"Opal\"",
+  "commonName": "Apistogramma Borellii PAIR",
   "scientificName": "Apistogramma borellii imported",
   "listings": [
     {
@@ -14,12 +14,6 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Apistogramma Borellii PAIR"
-    },
-    {
-      "listingId": "imperial-tropicals:8398113636659",
-      "storeSlug": "imperial-tropicals",
-      "storeName": "Imperial Tropicals",
-      "commonName": "Apistogramma borellii \"Opal\""
     }
   ],
   "events": [
@@ -61,26 +55,6 @@
       "storeSlug": "aquahuna"
     },
     {
-      "observedAt": "2026-11-20T06:27:43.785Z",
-      "price": 39.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51779763700019",
-          "label": "1-2\" Unsexed",
-          "price": 39.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "imperial-tropicals:8398113636659",
-      "storeSlug": "imperial-tropicals"
-    },
-    {
       "observedAt": "2026-11-20T17:33:27.861Z",
       "price": 18,
       "currency": "USD",
@@ -98,27 +72,6 @@
       "storeSlug": "aquahuna"
     },
     {
-      "observedAt": "2026-11-20T17:33:50.975Z",
-      "price": 39.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51779763700019",
-          "label": "1-2\" Unsexed",
-          "price": 39.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "available",
-        "variants"
-      ],
-      "listingId": "imperial-tropicals:8398113636659",
-      "storeSlug": "imperial-tropicals"
-    },
-    {
       "observedAt": "2026-11-21T01:29:07.561Z",
       "price": 18,
       "currency": "USD",
@@ -134,27 +87,6 @@
       "type": "heartbeat",
       "listingId": "aquahuna:6844047917131",
       "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-21T01:29:20.687Z",
-      "price": 39.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51779763700019",
-          "label": "1-2\" Unsexed",
-          "price": 39.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "available",
-        "variants"
-      ],
-      "listingId": "imperial-tropicals:8398113636659",
-      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-21T01:29:44.090Z",
@@ -194,21 +126,38 @@
       "storeSlug": "aquahuna"
     },
     {
-      "observedAt": "2026-11-21T01:31:07.776Z",
-      "price": 39.99,
+      "observedAt": "2026-11-21T02:00:17.408Z",
+      "price": 18,
       "currency": "USD",
       "available": false,
       "variants": [
         {
-          "id": "51779763700019",
-          "label": "1-2\" Unsexed",
-          "price": 39.99,
+          "id": "40043139596363",
+          "label": "Title",
+          "price": 18,
           "available": false
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398113636659",
-      "storeSlug": "imperial-tropicals"
+      "listingId": "aquahuna:6844047917131",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T02:01:36.649Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627484938556",
+          "label": "Title",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006313599292",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

@@ -1,14 +1,8 @@
 {
   "canonicalFishId": "cf:sci:mesoheros-festae-common",
-  "commonName": "Red Terror",
+  "commonName": "Red Terror (mesoheros festae)",
   "scientificName": "Mesoheros festae common",
   "listings": [
-    {
-      "listingId": "imperial-tropicals:8398107410739",
-      "storeSlug": "imperial-tropicals",
-      "storeName": "Imperial Tropicals",
-      "commonName": "Red Terror"
-    },
     {
       "listingId": "monster-aquarium:7082712957137",
       "storeSlug": "monster-aquarium",
@@ -161,32 +155,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-20T06:27:43.785Z",
-      "price": 19.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "45612119556403",
-          "label": "1-2\" Unsexed",
-          "price": 19.99,
-          "available": false
-        },
-        {
-          "id": "45612119523635",
-          "label": "2-3” Unsexed",
-          "price": 24.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "imperial-tropicals:8398107410739",
-      "storeSlug": "imperial-tropicals"
-    },
-    {
       "observedAt": "2026-11-20T17:33:23.452Z",
       "price": 34.99,
       "currency": "USD",
@@ -220,29 +188,6 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7082712957137",
       "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-20T17:33:50.975Z",
-      "price": 19.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "45612119556403",
-          "label": "1-2\" Unsexed",
-          "price": 19.99,
-          "available": false
-        },
-        {
-          "id": "45612119523635",
-          "label": "2-3” Unsexed",
-          "price": 24.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398107410739",
-      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-21T01:29:05.027Z",
@@ -280,29 +225,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-21T01:29:20.687Z",
-      "price": 19.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "45612119556403",
-          "label": "1-2\" Unsexed",
-          "price": 19.99,
-          "available": false
-        },
-        {
-          "id": "45612119523635",
-          "label": "2-3” Unsexed",
-          "price": 24.99,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398107410739",
-      "storeSlug": "imperial-tropicals"
-    },
-    {
       "observedAt": "2026-11-21T01:30:25.006Z",
       "price": 34.99,
       "currency": "USD",
@@ -338,27 +260,39 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-21T01:31:07.776Z",
-      "price": 19.99,
+      "observedAt": "2026-11-21T02:00:10.177Z",
+      "price": 34.99,
       "currency": "USD",
-      "available": false,
+      "available": true,
       "variants": [
         {
-          "id": "45612119556403",
-          "label": "1-2\" Unsexed",
-          "price": 19.99,
+          "id": "41162482221265",
+          "label": "2-2.5\"",
+          "price": 25.99,
           "available": false
         },
         {
-          "id": "45612119523635",
-          "label": "2-3” Unsexed",
-          "price": 24.99,
+          "id": "42230030139601",
+          "label": "2.5-3\"",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "41614224031953",
+          "label": "5.5-6”",
+          "price": 95,
+          "available": false
+        },
+        {
+          "id": "41820160655569",
+          "label": "9-10\"",
+          "price": 399.99,
           "available": false
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:8398107410739",
-      "storeSlug": "imperial-tropicals"
+      "listingId": "monster-aquarium:7082712957137",
+      "storeSlug": "monster-aquarium"
     }
   ]
 }
