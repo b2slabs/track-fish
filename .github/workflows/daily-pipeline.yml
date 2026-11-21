@@ -12,12 +12,13 @@ name: Daily pipeline
 #                    race each other over either of those.
 #   3. aggregate   - a single job that downloads every Store's artifact,
 #                    then does the day's two exactly-once side effects: one
-#                    GitHub Release of the raw archives, and one commit+push
-#                    to the `data` branch of the normalized result. Runs
-#                    even if some Stores failed to scrape (publishing the
-#                    rest), but still fails the overall workflow run in that
-#                    case so GitHub's default failure-email notification
-#                    fires.
+#                    GitHub Release containing a single combined gzip of
+#                    every Store's raw data plus its checksum (issue #30),
+#                    and one commit+push to the `data` branch of the
+#                    normalized result. Runs even if some Stores failed to
+#                    scrape (publishing the rest), but still fails the
+#                    overall workflow run in that case so GitHub's default
+#                    failure-email notification fires.
 on:
   schedule:
     # Cadence lives here and only here -- edit this line to reschedule.
