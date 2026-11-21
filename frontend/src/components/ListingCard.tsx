@@ -1,4 +1,3 @@
-import { ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
@@ -6,22 +5,32 @@ import { formatPrice } from '@/lib/format';
 import type { Listing } from '@/types/data';
 
 /**
- * One Canonical Fish in the browse grid, represented by its cheapest
- * Listing. Links to the original store product page directly, and uses
- * that store's own hotlinked image URL (never mirrored) — per GLOSSARY.md
- * and docs/adr/0003.
+ * One Canonical Fish in the browse grid, represented by a single Listing
+ * (see group-listings.ts for how it's picked). Deliberately carries no
+ * store/website reference — single- and multi-store cards render
+ * identically — because a card can represent several Stores at once and
+ * naming just one (or linking to just one product page) is misleading
+ * (issue #39). Per-store breakdown and buy links live on the fish detail
+ * page instead.
  *
  * `storeCount` is how many Stores carry this Canonical Fish in the current
  * filtered view (see group-listings.ts, issue #20). It defaults to 1 so
  * the common single-store case renders exactly as it always has, with no
  * extra badge.
+ *
+ * `available` reflects whether ANY Listing in the group is in stock
+ * (issue #39) — the caller passes `group.available`, not `listing.available`,
+ * since `listing` (the representative) may itself be out of stock while a
+ * cheaper option from another Store is available.
  */
 export function ListingCard({
   listing,
   storeCount = 1,
+  available = listing.available,
 }: {
   listing: Listing;
   storeCount?: number;
+  available?: boolean;
 }) {
   const detailHref = `/fish/${encodeURIComponent(listing.canonicalFishId)}`;
 
@@ -48,9 +57,8 @@ export function ListingCard({
           {listing.commonName}
         </Link>
         <div className="flex flex-wrap items-center gap-1.5">
-          <Badge variant="secondary">{listing.storeName}</Badge>
-          <Badge variant={listing.available ? 'default' : 'outline'}>
-            {listing.available ? 'In stock' : 'Out of stock'}
+          <Badge variant={available ? 'default' : 'outline'}>
+            {available ? 'In stock' : 'Out of stock'}
           </Badge>
           {storeCount > 1 && (
             <Badge variant="outline" className="border-primary/40 text-primary">
@@ -71,19 +79,10 @@ export function ListingCard({
           </p>
         )}
       </CardContent>
-      <CardFooter className="flex items-center justify-between gap-2 pt-0">
+      <CardFooter className="pt-0">
         <Link to={detailHref} className="text-sm text-muted-foreground hover:underline">
           Price history
         </Link>
-        <a
-          href={listing.productUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
-        >
-          View on {listing.storeName}
-          <ExternalLink className="size-3.5" />
-        </a>
       </CardFooter>
     </Card>
   );

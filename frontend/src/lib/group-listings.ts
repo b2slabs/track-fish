@@ -7,12 +7,24 @@ import type { Listing } from '@/types/data';
  */
 export interface GroupedListing {
   canonicalFishId: string;
-  /** The cheapest Listing in the group — drives the card's price/name/image. */
+  /**
+   * The Listing whose price/name/image drive the card: the lowest-priced
+   * in-stock, non-placeholder ($0) Listing in the group, or — if none of
+   * the group's Listings qualify — the lowest non-zero price among all of
+   * them (issue #39). This may NOT be the globally lowest raw `price`.
+   */
   representative: Listing;
   /** Every Listing in the group (after upstream filtering), one per Store. */
   listings: Listing[];
   /** Count of distinct Stores carrying this Canonical Fish in `listings`. */
   storeCount: number;
+  /**
+   * True if ANY Listing in the group is in stock (issue #39) — not merely
+   * whether `representative` itself is, since `representative` may end up
+   * being an out-of-stock Listing when nothing in the group is both
+   * in-stock and non-placeholder-priced.
+   */
+  available: boolean;
 }
 
 /**
@@ -43,10 +55,38 @@ export function groupListingsByCanonicalFish(listings: Listing[]): GroupedListin
 
   return order.map((canonicalFishId) => {
     const groupListings = groups.get(canonicalFishId) as Listing[];
-    const representative = groupListings.reduce((lowest, l) =>
-      l.price < lowest.price ? l : lowest,
-    );
+    const representative = pickRepresentative(groupListings);
     const storeCount = new Set(groupListings.map((l) => l.storeSlug)).size;
-    return { canonicalFishId, representative, listings: groupListings, storeCount };
+    const available = groupListings.some((l) => l.available);
+    return { canonicalFishId, representative, listings: groupListings, storeCount, available };
   });
+}
+
+/**
+ * Picks the Listing that should drive a group's card (issue #39).
+ *
+ * Preferred: the lowest-priced Listing that is both in stock AND has a real
+ * (non-zero) price — a `price` of 0 is a sold-out placeholder some Stores
+ * emit rather than a genuine free/zero price, so it's never eligible here.
+ *
+ * Fallback (nothing in the group is both in-stock and non-zero-priced):
+ * the lowest non-zero price among ALL Listings in the group, so a
+ * genuinely all-out-of-stock group still shows a real price instead of a
+ * $0 placeholder.
+ *
+ * Last resort (every Listing in the group is priced at 0): just the first
+ * Listing, to guarantee a representative always exists.
+ */
+function pickRepresentative(groupListings: Listing[]): Listing {
+  const inStockPriced = groupListings.filter((l) => l.available && l.price > 0);
+  if (inStockPriced.length > 0) {
+    return inStockPriced.reduce((lowest, l) => (l.price < lowest.price ? l : lowest));
+  }
+
+  const nonZeroPriced = groupListings.filter((l) => l.price > 0);
+  if (nonZeroPriced.length > 0) {
+    return nonZeroPriced.reduce((lowest, l) => (l.price < lowest.price ? l : lowest));
+  }
+
+  return groupListings[0];
 }
