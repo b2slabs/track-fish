@@ -6,11 +6,23 @@ import { formatPrice } from '@/lib/format';
 import type { Listing } from '@/types/data';
 
 /**
- * One Listing in the browse grid. Links to the original store product
- * page directly, and uses that store's own hotlinked image URL (never
- * mirrored) — per GLOSSARY.md and docs/adr/0003.
+ * One Canonical Fish in the browse grid, represented by its cheapest
+ * Listing. Links to the original store product page directly, and uses
+ * that store's own hotlinked image URL (never mirrored) — per GLOSSARY.md
+ * and docs/adr/0003.
+ *
+ * `storeCount` is how many Stores carry this Canonical Fish in the current
+ * filtered view (see group-listings.ts, issue #20). It defaults to 1 so
+ * the common single-store case renders exactly as it always has, with no
+ * extra badge.
  */
-export function ListingCard({ listing }: { listing: Listing }) {
+export function ListingCard({
+  listing,
+  storeCount = 1,
+}: {
+  listing: Listing;
+  storeCount?: number;
+}) {
   const detailHref = `/fish/${encodeURIComponent(listing.canonicalFishId)}`;
 
   return (
@@ -40,10 +52,18 @@ export function ListingCard({ listing }: { listing: Listing }) {
           <Badge variant={listing.available ? 'default' : 'outline'}>
             {listing.available ? 'In stock' : 'Out of stock'}
           </Badge>
+          {storeCount > 1 && (
+            <Badge variant="outline" className="border-primary/40 text-primary">
+              Available at {storeCount} stores
+            </Badge>
+          )}
         </div>
       </CardHeader>
       <CardContent className="flex-1 pb-2">
-        <p className="text-lg font-semibold">{formatPrice(listing.price, listing.currency)}</p>
+        <p className="text-lg font-semibold">
+          {storeCount > 1 ? 'From ' : ''}
+          {formatPrice(listing.price, listing.currency)}
+        </p>
         {listing.variants.length > 1 && (
           <p className="text-xs text-muted-foreground">
             {listing.variants.length} variants · from{' '}
