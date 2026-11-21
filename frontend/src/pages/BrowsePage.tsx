@@ -1,10 +1,11 @@
-import { useMemo, useState } from 'react';
+import { Loader2 } from 'lucide-react';
+import { useCallback, useMemo, useState } from 'react';
 import { FilterBar, type FilterState } from '@/components/FilterBar';
 import { LastUpdated } from '@/components/LastUpdated';
 import { ListingCard } from '@/components/ListingCard';
-import { Button } from '@/components/ui/button';
 import { Skeleton } from '@/components/ui/skeleton';
 import { useIndex } from '@/hooks/useIndex';
+import { useInfiniteScroll } from '@/hooks/useInfiniteScroll';
 
 const PAGE_SIZE = 24;
 
@@ -46,6 +47,17 @@ export function BrowsePage() {
     setFilters(next);
     setVisibleCount(PAGE_SIZE);
   }
+
+  const hasMore = visibleCount < filtered.length;
+
+  const loadMore = useCallback(() => {
+    setVisibleCount((c) => Math.min(c + PAGE_SIZE, filtered.length));
+  }, [filtered.length]);
+
+  const { sentinelRef, isLoadingMore } = useInfiniteScroll({
+    hasMore,
+    onLoadMore: loadMore,
+  });
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8">
@@ -90,14 +102,14 @@ export function BrowsePage() {
                   <ListingCard key={listing.listingId} listing={listing} />
                 ))}
               </div>
-              {visibleCount < filtered.length && (
-                <div className="mt-8 flex justify-center">
-                  <Button
-                    variant="outline"
-                    onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
-                  >
-                    Load more ({filtered.length - visibleCount} remaining)
-                  </Button>
+              {hasMore && (
+                <div ref={sentinelRef} className="mt-8 flex justify-center py-4">
+                  {isLoadingMore && (
+                    <span role="status" className="flex items-center gap-2 text-sm text-muted-foreground">
+                      <Loader2 className="h-4 w-4 animate-spin" aria-hidden="true" />
+                      Loading more…
+                    </span>
+                  )}
                 </div>
               )}
             </>
