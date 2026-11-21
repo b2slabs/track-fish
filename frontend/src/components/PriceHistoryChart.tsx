@@ -132,6 +132,14 @@ interface StoreBar {
   avg: number;
   /** Real-priced variants only, ascending by price — the tooltip's breakdown. */
   variants: VariantPriceDetail[];
+  /**
+   * This Store's stable first-seen index across `listings` (issue #53) —
+   * the same index `seriesColor` uses for hue, reused here as the basis for
+   * this Store's horizontal stagger offset so a Store's bars always nudge
+   * the same direction/amount regardless of which other Stores happen to
+   * share a day with it.
+   */
+  seriesIndex: number;
 }
 
 /** Per-Store display identity a bar needs: legend/tooltip label, fill color, currency. */
@@ -139,6 +147,8 @@ interface StoreMeta {
   label: string;
   color: string;
   currency: string;
+  /** Stable first-seen index — see `StoreBar.seriesIndex`. */
+  seriesIndex: number;
 }
 
 /**
@@ -211,6 +221,7 @@ function computeStoreBars(events: HistoryEvent[], storeMeta: Map<string, StoreMe
       max,
       avg,
       variants: [...group.variants].sort((a, b) => a.price - b.price),
+      seriesIndex: meta.seriesIndex,
     });
   }
   return bars.sort((a, b) => a.timestamp - b.timestamp);
@@ -354,8 +365,55 @@ const AVG_DOT_RING_WIDTH = 2;
  */
 const MIN_STEM_HEIGHT_PX = 6;
 
-function barGeometry(rect: PlotRect, domain: Domain, bar: StoreBar): BarGeometry {
-  const cx = rect.left + ((bar.timestamp - domain.minT) / (domain.maxT - domain.minT)) * rect.width;
+const DAY_MS = 24 * 60 * 60 * 1000;
+/** Smallest/largest per-step horizontal nudge a Store's stagger offset can use. */
+const MIN_STAGGER_SPACING_PX = 2;
+const MAX_STAGGER_SPACING_PX = 7;
+/**
+ * How much of one day's own pixel width the full staggered cluster (every
+ * Store's offset, end to end) may spread across, at most. `cx` is
+ * continuous time, so on a short/zoomed-in time range one day already spans
+ * many pixels and a generous stagger reads clearly as "a few Stores sharing
+ * a day"; on a long time range one day can collapse toward a single pixel,
+ * and the same fixed-pixel stagger would start to look like a run of
+ * separate days. Scaling the spacing to a fraction of the domain's own
+ * pixels-per-day — capped either way by `MIN/MAX_STAGGER_SPACING_PX` — keeps
+ * the cluster small relative to a day's own width at any zoom level, so
+ * genuinely different days never get confused for one staggered cluster
+ * (issue #53's "x-axis isn't misleading over longer time ranges" criterion).
+ */
+const MAX_CLUSTER_FRACTION_OF_DAY = 0.5;
+
+/**
+ * This Store's horizontal pixel nudge, stable for the life of the chart
+ * (depends only on `seriesIndex` and the overall domain/store count, never
+ * on which other Stores happen to share a particular day — issue #53).
+ * Offsets are centered on zero and evenly spaced by `seriesIndex`, so a
+ * cluster of Stores observed on the same day fans out symmetrically around
+ * that day's true x position instead of drifting the whole cluster to one
+ * side. A single-Store chart (`storeCount <= 1`) always gets zero offset —
+ * nothing to stagger against.
+ */
+function staggerOffsetPx(
+  rect: PlotRect,
+  domain: Domain,
+  seriesIndex: number,
+  storeCount: number,
+): number {
+  if (storeCount <= 1) return 0;
+  const span = domain.maxT - domain.minT || 1;
+  const pixelsPerDay = (rect.width * DAY_MS) / span;
+  const maxClusterWidth = pixelsPerDay * MAX_CLUSTER_FRACTION_OF_DAY;
+  const spacing = Math.min(
+    MAX_STAGGER_SPACING_PX,
+    Math.max(MIN_STAGGER_SPACING_PX, maxClusterWidth / (storeCount - 1)),
+  );
+  return (seriesIndex - (storeCount - 1) / 2) * spacing;
+}
+
+function barGeometry(rect: PlotRect, domain: Domain, bar: StoreBar, storeCount: number): BarGeometry {
+  const baseCx = rect.left + ((bar.timestamp - domain.minT) / (domain.maxT - domain.minT)) * rect.width;
+  const cx = baseCx + staggerOffsetPx(rect, domain, bar.seriesIndex, storeCount);
   const priceToY = (price: number) =>
     rect.top + (1 - (price - domain.minP) / (domain.maxP - domain.minP)) * rect.height;
 
@@ -393,21 +451,135 @@ function barGeometry(rect: PlotRect, domain: Domain, bar: StoreBar): BarGeometry
  * separate average marker, since min = max = average are all the same
  * value.
  */
+/**
+ * How much larger than a Store's own typical observation gap counts as "too
+ * large to bridge" with a connecting line (issue #53, same spirit as issue
+ * #29's per-variant line-gap handling). A multiple of that Store's own
+ * median gap between consecutive bars — not a fixed time span — because how
+ * often *this* Store is actually observed is the only basis for calling one
+ * of its own gaps anomalous rather than normal cadence.
+ */
+const GAP_BREAK_MULTIPLIER = 5;
+
+/**
+ * Splits one Store's own bars (already time-sorted) into runs that should
+ * each be drawn as one connected line, breaking the run wherever the gap to
+ * the next bar is unusually large relative to this Store's own typical
+ * cadence — bridging that stretch would draw a line implying a price held
+ * steady through a period this Store was never actually observed. With
+ * fewer than 3 bars there's no basis for "typical", so 1-2 bars stay in a
+ * single run.
+ */
+function splitConnectedRuns(storeBars: StoreBar[]): StoreBar[][] {
+  if (storeBars.length <= 2) return storeBars.length > 0 ? [storeBars] : [];
+  const gaps = storeBars.slice(1).map((b, i) => b.timestamp - storeBars[i].timestamp);
+  const sortedGaps = [...gaps].sort((a, b) => a - b);
+  const medianGap = sortedGaps[Math.floor(sortedGaps.length / 2)];
+  const threshold = medianGap * GAP_BREAK_MULTIPLIER;
+
+  const runs: StoreBar[][] = [[storeBars[0]]];
+  gaps.forEach((gap, i) => {
+    if (medianGap > 0 && gap > threshold) {
+      runs.push([storeBars[i + 1]]);
+    } else {
+      runs[runs.length - 1].push(storeBars[i + 1]);
+    }
+  });
+  return runs;
+}
+
+interface StoreLine {
+  storeSlug: string;
+  color: string;
+  runs: StoreBar[][];
+}
+
+/**
+ * Groups every bar by Store (preserving the time order `computeStoreBars`
+ * already sorted them in) and splits each Store's own bars into
+ * line-connectable runs (see `splitConnectedRuns`) — the data a Store's
+ * thin trend line needs (issue #53), independent of the bars themselves.
+ */
+function computeStoreLines(bars: StoreBar[]): StoreLine[] {
+  const byStore = new Map<string, StoreBar[]>();
+  for (const bar of bars) {
+    const list = byStore.get(bar.storeSlug);
+    if (list) list.push(bar);
+    else byStore.set(bar.storeSlug, [bar]);
+  }
+  const lines: StoreLine[] = [];
+  for (const [storeSlug, storeBars] of byStore) {
+    lines.push({ storeSlug, color: storeBars[0].color, runs: splitConnectedRuns(storeBars) });
+  }
+  return lines;
+}
+
+/**
+ * Draws a thin trend line per Store, in that Store's own color, through its
+ * own bars' average points at their stagger-adjusted x position (issue
+ * #53) — restoring the visual thread across time that issue #35 removed
+ * when it replaced per-variant lines with isolated per-Store bars. Rendered
+ * underneath `BarsOverlay` so the stem/caps/average-dot marks always sit on
+ * top of the connecting line, not the other way around.
+ */
+function StoreLinesOverlay({
+  bars,
+  rect,
+  domain,
+  storeCount,
+}: {
+  bars: StoreBar[];
+  rect: PlotRect;
+  domain: Domain;
+  storeCount: number;
+}) {
+  const lines = useMemo(() => computeStoreLines(bars), [bars]);
+  return (
+    <svg className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden="true">
+      {lines.map((line) =>
+        line.runs.map((run, runIdx) => {
+          if (run.length < 2) return null;
+          const points = run
+            .map((bar) => {
+              const geo = barGeometry(rect, domain, bar, storeCount);
+              return `${geo.cx},${geo.avgY}`;
+            })
+            .join(' ');
+          return (
+            <polyline
+              key={`${line.storeSlug}-${runIdx}`}
+              points={points}
+              fill="none"
+              stroke={line.color}
+              strokeWidth={1.5}
+              strokeLinejoin="round"
+              strokeLinecap="round"
+              opacity={0.65}
+            />
+          );
+        }),
+      )}
+    </svg>
+  );
+}
+
 function BarsOverlay({
   bars,
   rect,
   domain,
+  storeCount,
   hoveredKey,
 }: {
   bars: StoreBar[];
   rect: PlotRect;
   domain: Domain;
+  storeCount: number;
   hoveredKey?: string;
 }) {
   return (
     <svg className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden="true">
       {bars.map((bar) => {
-        const geo = barGeometry(rect, domain, bar);
+        const geo = barGeometry(rect, domain, bar, storeCount);
         const isHovered = bar.key === hoveredKey;
         const opacity = isHovered ? 1 : 0.85;
         return (
@@ -509,6 +681,7 @@ function useNearestBarHover(
   containerRef: RefObject<HTMLDivElement | null>,
   rect: PlotRect | null,
   domain: Domain | null,
+  storeCount: number,
 ) {
   const [hover, setHover] = useState<BarHoverState | null>(null);
 
@@ -523,7 +696,7 @@ function useNearestBarHover(
     let bestGeo: BarGeometry | null = null;
     let bestDist = Infinity;
     for (const bar of bars) {
-      const geo = barGeometry(rect, domain, bar);
+      const geo = barGeometry(rect, domain, bar, storeCount);
       const dx = (geo.cx - mx) / rect.width;
       let dy = 0;
       if (my < geo.yTop) dy = (geo.yTop - my) / rect.height;
@@ -615,7 +788,12 @@ function BarHoverOverlay({ hover }: { hover: BarHoverState }) {
 function RangeBarChart({ bars, axisCurrency }: { bars: StoreBar[]; axisCurrency: string }) {
   const domain = useBarDomain(bars);
   const { containerRef, rect } = usePlotRect(bars.length);
-  const { hover, handleMove, handleLeave } = useNearestBarHover(bars, containerRef, rect, domain);
+  // Total distinct Stores in this chart (not just how many share any one
+  // day) — the stable denominator `staggerOffsetPx` centers each Store's
+  // fixed offset against. A single-Store chart naturally lands at 1, which
+  // `staggerOffsetPx` treats as "nothing to stagger against".
+  const storeCount = useMemo(() => new Set(bars.map((b) => b.seriesIndex)).size, [bars]);
+  const { hover, handleMove, handleLeave } = useNearestBarHover(bars, containerRef, rect, domain, storeCount);
 
   return (
     <div
@@ -668,7 +846,18 @@ function RangeBarChart({ bars, axisCurrency }: { bars: StoreBar[]; axisCurrency:
           />
         </LineChart>
       </ResponsiveContainer>
-      {rect && domain && <BarsOverlay bars={bars} rect={rect} domain={domain} hoveredKey={hover?.bar.key} />}
+      {rect && domain && (
+        <>
+          <StoreLinesOverlay bars={bars} rect={rect} domain={domain} storeCount={storeCount} />
+          <BarsOverlay
+            bars={bars}
+            rect={rect}
+            domain={domain}
+            storeCount={storeCount}
+            hoveredKey={hover?.bar.key}
+          />
+        </>
+      )}
       {hover && <BarHoverOverlay hover={hover} />}
     </div>
   );
@@ -706,7 +895,12 @@ function SingleStoreRangeBarChart({
 }) {
   const storeMeta = useMemo(
     () =>
-      new Map([[listing.storeSlug, { label: listing.storeName, color: seriesColor(0), currency: listing.currency }]]),
+      new Map([
+        [
+          listing.storeSlug,
+          { label: listing.storeName, color: seriesColor(0), currency: listing.currency, seriesIndex: 0 },
+        ],
+      ]),
     [listing.storeSlug, listing.storeName, listing.currency],
   );
   const bars = useMemo(() => computeStoreBars(events, storeMeta), [events, storeMeta]);
@@ -732,7 +926,7 @@ function UnifiedRangeBarChart({ events, listings }: { events: HistoryEvent[]; li
     let idx = 0;
     for (const l of listings) {
       if (meta.has(l.storeSlug)) continue;
-      meta.set(l.storeSlug, { label: l.storeName, color: seriesColor(idx), currency: l.currency });
+      meta.set(l.storeSlug, { label: l.storeName, color: seriesColor(idx), currency: l.currency, seriesIndex: idx });
       idx += 1;
     }
     return meta;
