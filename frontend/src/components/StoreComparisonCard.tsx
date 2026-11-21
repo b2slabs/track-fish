@@ -1,7 +1,7 @@
 import { ExternalLink } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
-import { formatDateTime, formatPrice } from '@/lib/format';
+import { formatDateTime, formatPrice, normalizeVariantLabel } from '@/lib/format';
 import type { Listing } from '@/types/data';
 
 /**
@@ -31,7 +31,9 @@ export function StoreComparisonCard({ listing }: { listing: Listing }) {
         <ul className="space-y-1 text-sm">
           {listing.variants.map((v) => (
             <li key={v.id} className="flex items-baseline justify-between gap-3">
-              <span className="text-muted-foreground">{v.label}</span>
+              <span className="text-muted-foreground">
+                {normalizeVariantLabel(v.label, listing.variants.length)}
+              </span>
               <span
                 className={
                   v.available

@@ -105,7 +105,7 @@ export function FishDetailPage() {
 
           <Card>
             <CardHeader>
-              <h2 className="text-lg font-semibold">Price history</h2>
+              <h2 className="text-lg font-semibold">Price History</h2>
             </CardHeader>
             <CardContent>
               {/* The shared history file interleaves events from every Store's
