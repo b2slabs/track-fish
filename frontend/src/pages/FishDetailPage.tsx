@@ -16,10 +16,13 @@ export function FishDetailPage() {
   const { data: history, loading: historyLoading, error: historyError } =
     useFishHistory(canonicalFishId);
 
-  // A Canonical Fish is species-level (see ADR 0002) — it can have one
-  // Listing per Store that carries it. Filter (not find) so the page shows
-  // every Store side by side, however many there are.
+  // A Canonical Fish is species-level (see ADR 0002). A Store can carry more
+  // than one Listing for it (e.g. a "School of 6" and a "Single" as separate
+  // Shopify products — see issue #56), so `listings.length` is a Listing
+  // count, not a Store count. Filter (not find) so the page shows every
+  // Listing side by side, however many there are.
   const listings = index?.listings.filter((l) => l.canonicalFishId === canonicalFishId) ?? [];
+  const storeCount = new Set(listings.map((l) => l.storeSlug)).size;
   // Use whichever Listing has an image for the header; all share one species.
   const primary = listings.find((l) => l.imageUrl) ?? listings[0];
   const loading = indexLoading || historyLoading;
@@ -80,7 +83,7 @@ export function FishDetailPage() {
                   </p>
                 )}
                 <p className="text-sm text-muted-foreground">
-                  Tracked at {listings.length} store{listings.length === 1 ? '' : 's'}
+                  Tracked at {storeCount} store{storeCount === 1 ? '' : 's'}
                 </p>
               </div>
             </div>
