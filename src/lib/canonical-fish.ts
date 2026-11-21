@@ -99,10 +99,12 @@ export interface MatchResult {
 }
 
 /** A fuzzy-match candidate: one Canonical Fish, represented by every
- * common name any already-known Listing has used for it. */
+ * common name any already-known Listing has used for it, tagged with
+ * which Store contributed it (see `findBestFuzzyCandidate`'s per-name,
+ * not just per-candidate, same-Store exclusion). */
 interface FuzzyCandidate {
   canonicalFishId: string;
-  commonNames: string[];
+  commonNames: { commonName: string; storeSlug: string }[];
 }
 
 export interface MatchContext {
@@ -132,7 +134,15 @@ export const AMBIGUOUS_THRESHOLD = 0.6;
  * whose only Listings are from `storeSlug` itself — fuzzy wording
  * similarity is a cross-store identity heuristic (two sellers describing
  * the same species similarly), not a signal for merging two genuinely
- * different products a single Store happens to word similarly.
+ * different products a single Store happens to word similarly. Each
+ * commonName is also individually tagged with its Store (see
+ * `findBestFuzzyCandidate`): a Canonical Fish id can have cross-store
+ * membership overall while one specific commonName in its history still
+ * came from `storeSlug` itself (most commonly: this exact Listing's own
+ * commonName, from before this run touched it) — that specific name must
+ * not be allowed to fuzzy-match this run's Listing right back onto the id
+ * it's being freshly computed for, which would be comparing a Store's
+ * Listing against itself under a different name.
  */
 export function buildMatchContext(
   storeSlug: string,
@@ -141,28 +151,30 @@ export function buildMatchContext(
 ): MatchContext {
   const overridesByListingId = new Map(overrides.map((o) => [o.listingId, o.canonicalFishId]));
 
-  const commonNamesById = new Map<string, Set<string>>();
+  const namesById = new Map<string, Map<string, { commonName: string; storeSlug: string }>>();
   const storeSlugsById = new Map<string, Set<string>>();
   for (const listing of existingListings) {
-    if (!commonNamesById.has(listing.canonicalFishId)) {
-      commonNamesById.set(listing.canonicalFishId, new Set());
+    if (!namesById.has(listing.canonicalFishId)) {
+      namesById.set(listing.canonicalFishId, new Map());
       storeSlugsById.set(listing.canonicalFishId, new Set());
     }
-    commonNamesById.get(listing.canonicalFishId)!.add(listing.commonName);
+    namesById
+      .get(listing.canonicalFishId)!
+      .set(`${listing.storeSlug} ${listing.commonName}`, { commonName: listing.commonName, storeSlug: listing.storeSlug });
     storeSlugsById.get(listing.canonicalFishId)!.add(listing.storeSlug);
   }
 
   const candidatesByToken = new Map<string, FuzzyCandidate[]>();
   const candidateIds = new Set<string>();
-  for (const [canonicalFishId, commonNames] of commonNamesById) {
+  for (const [canonicalFishId, names] of namesById) {
     const storeSlugs = storeSlugsById.get(canonicalFishId)!;
     const isCrossStoreCandidate = [...storeSlugs].some((slug) => slug !== storeSlug);
     if (!isCrossStoreCandidate) {
       continue;
     }
     candidateIds.add(canonicalFishId);
-    const candidate: FuzzyCandidate = { canonicalFishId, commonNames: [...commonNames] };
-    const tokens = new Set(candidate.commonNames.flatMap(tokenize));
+    const candidate: FuzzyCandidate = { canonicalFishId, commonNames: [...names.values()] };
+    const tokens = new Set(candidate.commonNames.flatMap(({ commonName }) => tokenize(commonName)));
     for (const token of tokens) {
       const list = candidatesByToken.get(token) ?? [];
       list.push(candidate);
@@ -214,7 +226,7 @@ export function matchCanonicalFish(
         scientificName,
         ambiguousCandidate: {
           canonicalFishId: rival.candidate.canonicalFishId,
-          commonName: rival.candidate.commonNames[0],
+          commonName: rival.candidate.commonNames[0].commonName,
           score: rival.score,
         },
       };
@@ -234,7 +246,7 @@ export function matchCanonicalFish(
       scientificName: null,
       ambiguousCandidate: {
         canonicalFishId: best.candidate.canonicalFishId,
-        commonName: best.candidate.commonNames[0],
+        commonName: best.candidate.commonNames[0].commonName,
         score: best.score,
       },
     };
@@ -244,15 +256,24 @@ export function matchCanonicalFish(
 }
 
 /**
- * Finds the best-scoring fuzzy candidate for `commonName`, gated on
- * variety compatibility (issue #34): a candidate's own common name only
- * contributes to its score when its detected variety is compatible with
- * `variety` (see `varietyCompatible` in `variety.ts`). A candidate with
- * every alias incompatible is skipped entirely -- it is not merely
- * scored at 0, which would still let it lose to an even-worse-but-
- * compatible rival; it simply isn't a candidate for this Listing. This
- * is what stops a shared base noun ("Cory", "Medaka") from carrying a
- * fuzzy match across a genuine color/variety mismatch.
+ * Finds the best-scoring fuzzy candidate for `commonName`, gated two
+ * ways before a name is allowed to contribute to a candidate's score:
+ *
+ *   1. Same-Store exclusion: a commonName sourced from `context.storeSlug`
+ *      itself is skipped, even inside an otherwise-legitimate cross-store
+ *      candidate. Without this, a Listing being freshly (re)matched this
+ *      run can fuzzy-match its own prior-run commonName (identical text,
+ *      score 1.0) sitting in the pool from before this run started,
+ *      perpetually re-anchoring it to whatever id it already had instead
+ *      of letting it land on a freshly-computed one.
+ *   2. Variety compatibility (issue #34): a name only contributes when
+ *      its own detected variety is compatible with `variety` (see
+ *      `varietyCompatible` in `variety.ts`). A candidate with every name
+ *      excluded by either gate is skipped entirely -- it is not merely
+ *      scored at 0, which would still let it lose to an even-worse-but-
+ *      eligible rival; it simply isn't a candidate for this Listing. This
+ *      is what stops a shared base noun ("Cory", "Medaka") from carrying
+ *      a fuzzy match across a genuine color/variety mismatch.
  */
 function findBestFuzzyCandidate(
   commonName: string,
@@ -272,13 +293,14 @@ function findBestFuzzyCandidate(
         continue;
       }
       seen.add(candidate.canonicalFishId);
-      const compatibleScores = candidate.commonNames
-        .filter((name) => varietyCompatible(variety, extractVariety(name)))
-        .map((name) => commonNameSimilarity(commonName, name));
-      if (compatibleScores.length === 0) {
+      const eligibleScores = candidate.commonNames
+        .filter((name) => name.storeSlug !== context.storeSlug)
+        .filter((name) => varietyCompatible(variety, extractVariety(name.commonName)))
+        .map((name) => commonNameSimilarity(commonName, name.commonName));
+      if (eligibleScores.length === 0) {
         continue;
       }
-      const score = Math.max(...compatibleScores);
+      const score = Math.max(...eligibleScores);
       if (!best || score > best.score) {
         best = { candidate, score };
       }

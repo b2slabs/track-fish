@@ -163,6 +163,29 @@ test('issue #16 regression: an already cross-store-established scientific-name i
   assert.equal(result.canonicalFishId, 'cf:sci:boraras-merah');
 });
 
+test('issue #34: a Listing does not fuzzy-match its own prior-run commonName sitting in an otherwise cross-store candidate', () => {
+  // Real-world shape: a Canonical Fish id has cross-store membership
+  // overall (so it isn't excluded by the same-Store-only rule), but the
+  // specific commonName this query would score highest against is this
+  // very Listing's own commonName from before this run started (e.g. an
+  // old, now-incorrect grouping it hasn't been individually repointed
+  // out of yet). That self-match must not re-anchor it to the old id.
+  const context = buildMatchContext('aquahuna', [
+    existingListing({ canonicalFishId: 'cf:legacy:mixed', storeSlug: 'aquatic-arts', commonName: 'Bronze Cory' }),
+    existingListing({ canonicalFishId: 'cf:legacy:mixed', storeSlug: 'aquahuna', commonName: 'Albino Cory' }),
+  ], []);
+  const result = matchCanonicalFish(
+    { productIdentifier: '1', commonName: 'Albino Cory', description: '' },
+    context
+  );
+  // Must not fuzzy-merge back into the legacy mixed-variety group via its
+  // own stale self-entry -- stays on its own trivial id instead (no
+  // eligible cross-store candidate: the only "Albino"-compatible name in
+  // the pool is this Listing's own, excluded as same-Store).
+  assert.notEqual(result.canonicalFishId, 'cf:legacy:mixed');
+  assert.equal(result.canonicalFishId, 'cf:aquahuna:1');
+});
+
 test('no scientific name and no fuzzy candidate falls back to the trivial per-Listing id', () => {
   const context = buildMatchContext('aquatic-arts', [], []);
   const result = matchCanonicalFish(
