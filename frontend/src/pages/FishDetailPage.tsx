@@ -105,18 +105,7 @@ export function FishDetailPage() {
 
           <Card>
             <CardHeader>
-              <h2 className="text-lg font-semibold">
-                {listings.length > 1
-                  ? 'Price & availability history across stores'
-                  : 'Price & availability history'}
-              </h2>
-              {listings.length > 1 && (
-                <p className="text-sm text-muted-foreground">
-                  One chart, every Store — color identifies the Store, line style tells apart
-                  more than one series from the same Store (its own variants, or a second
-                  Listing it carries for this fish).
-                </p>
-              )}
+              <h2 className="text-lg font-semibold">Price history</h2>
             </CardHeader>
             <CardContent>
               {/* The shared history file interleaves events from every Store's
