@@ -27,10 +27,12 @@ export function ListingCard({
   listing,
   storeCount = 1,
   available = listing.available,
+  inStockStoreCount = available ? 1 : 0,
 }: {
   listing: Listing;
   storeCount?: number;
   available?: boolean;
+  inStockStoreCount?: number;
 }) {
   const detailHref = `/fish/${encodeURIComponent(listing.canonicalFishId)}`;
 
@@ -58,7 +60,11 @@ export function ListingCard({
         </Link>
         <div className="flex flex-wrap items-center gap-1.5">
           <Badge variant={available ? 'default' : 'outline'}>
-            {available ? 'In stock' : 'Out of stock'}
+            {available
+              ? storeCount > 1
+                ? `In stock in ${inStockStoreCount} store${inStockStoreCount === 1 ? '' : 's'}`
+                : 'In stock'
+              : 'Out of stock'}
           </Badge>
           {storeCount > 1 && (
             <Badge variant="outline" className="border-primary/40 text-primary">

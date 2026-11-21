@@ -25,6 +25,8 @@ export interface GroupedListing {
    * in-stock and non-placeholder-priced.
    */
   available: boolean;
+  /** Count of distinct Stores where this Canonical Fish is currently in stock (<= storeCount). */
+  inStockStoreCount: number;
 }
 
 /**
@@ -58,7 +60,17 @@ export function groupListingsByCanonicalFish(listings: Listing[]): GroupedListin
     const representative = pickRepresentative(groupListings);
     const storeCount = new Set(groupListings.map((l) => l.storeSlug)).size;
     const available = groupListings.some((l) => l.available);
-    return { canonicalFishId, representative, listings: groupListings, storeCount, available };
+    const inStockStoreCount = new Set(
+      groupListings.filter((l) => l.available).map((l) => l.storeSlug),
+    ).size;
+    return {
+      canonicalFishId,
+      representative,
+      listings: groupListings,
+      storeCount,
+      available,
+      inStockStoreCount,
+    };
   });
 }
 

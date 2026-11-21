@@ -150,6 +150,7 @@ export function BrowsePage() {
                     listing={group.representative}
                     storeCount={group.storeCount}
                     available={group.available}
+                    inStockStoreCount={group.inStockStoreCount}
                   />
                 ))}
               </div>
