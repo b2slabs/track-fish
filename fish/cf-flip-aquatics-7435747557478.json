@@ -8,6 +8,12 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Congo Wood"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006356361532",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Congo Wood"
     }
   ],
   "events": [
@@ -47,6 +53,43 @@
       "type": "heartbeat",
       "listingId": "flip-aquatics:7435747557478",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42113113882726",
+          "label": "Title",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:7435747557478",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627665326396",
+          "label": "Title",
+          "price": 26.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006356361532",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

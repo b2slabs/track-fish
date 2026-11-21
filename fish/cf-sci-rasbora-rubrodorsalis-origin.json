@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:rasbora-rubrodorsalis-origin",
-  "commonName": "Red Fin Rasbora",
+  "commonName": "Red Line Rasbora",
   "scientificName": "Rasbora rubrodorsalis origin",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Fin Rasbora"
+    },
+    {
+      "listingId": "nu-aqua-shop:10160061186364",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Red Line Rasbora"
     }
   ],
   "events": [
@@ -47,6 +53,43 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:9601662648619",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 6.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49376746340651",
+          "label": "Title",
+          "price": 6.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9601662648619",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52162561114428",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10160061186364",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

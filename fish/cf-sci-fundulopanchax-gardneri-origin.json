@@ -8,6 +8,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Gardneri Killifish"
+    },
+    {
+      "listingId": "nu-aqua-shop:10278871761212",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Gardneri Killifish"
     }
   ],
   "events": [
@@ -47,6 +53,49 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:6548624006",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "20732034630",
+          "label": "Title",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6548624006",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52660832600380",
+          "label": "Male",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "52660832633148",
+          "label": "Pair",
+          "price": 38.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10278871761212",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

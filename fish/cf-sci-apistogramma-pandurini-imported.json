@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:apistogramma-pandurini-imported",
-  "commonName": "Apistogramma Pandurini",
+  "commonName": "Apistogramma Panduro-PAIR",
   "scientificName": "Apistogramma pandurini imported",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Apistogramma Panduro"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006354264380",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Apistogramma Panduro-PAIR"
     }
   ],
   "events": [
@@ -158,6 +164,60 @@
       "type": "heartbeat",
       "listingId": "aquahuna:2180214358059",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:05.027Z",
+      "price": 25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925194879185",
+          "label": "4-4.5cm",
+          "price": 25,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6996779696337",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 23,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "20610370076715",
+          "label": "Title",
+          "price": 23,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:2180214358059",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 35.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627658707260",
+          "label": "Title",
+          "price": 35.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006354264380",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

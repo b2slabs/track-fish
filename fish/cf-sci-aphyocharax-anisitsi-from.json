@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Bloodfin Tetra"
+    },
+    {
+      "listingId": "nu-aqua-shop:10411435917628",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Bloodfin Tetra"
     }
   ],
   "events": [
@@ -64,6 +70,43 @@
       "type": "heartbeat",
       "listingId": "aquahuna:4603050000459",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 3.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32450449440843",
+          "label": "Title",
+          "price": 3.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4603050000459",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53148487614780",
+          "label": "Title",
+          "price": 3.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10411435917628",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

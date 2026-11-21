@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:yasuhikotakia-modesta",
-  "commonName": "Blue Botia Red tail loach (Yasuhikotakia modesta)",
+  "commonName": "Blue Botia",
   "scientificName": "Yasuhikotakia modesta",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Blue Botia Red tail loach (Yasuhikotakia modesta)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006355181884",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Blue Botia"
     }
   ],
   "events": [
@@ -128,6 +134,49 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7281714069713",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:05.027Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41635108978897",
+          "label": "3-4”",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "41838214709457",
+          "label": "4-5”",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7281714069713",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627662573884",
+          "label": "Title",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006355181884",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

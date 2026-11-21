@@ -14,6 +14,12 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Bleeding Heart Tetra"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006313992508",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Bleeding Heart Tetra"
     }
   ],
   "events": [
@@ -90,6 +96,72 @@
       "type": "heartbeat",
       "listingId": "global-exoticquatics:10249440854208",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 5.89,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15908934086",
+          "label": "Title",
+          "price": 5.89,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4852488518",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:41.357Z",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50404333158592",
+          "label": "5 fish",
+          "price": 25,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:10249440854208",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 7.17,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718406078780",
+          "label": "Single",
+          "price": 7.17,
+          "available": false
+        },
+        {
+          "id": "51718406111548",
+          "label": "Group of 3",
+          "price": 19.36,
+          "available": false
+        },
+        {
+          "id": "51718406144316",
+          "label": "Group of 6",
+          "price": 34.42,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006313992508",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

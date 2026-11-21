@@ -26,6 +26,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Black emperor tetra ( Nematobrycon palmeri var. black )"
+    },
+    {
+      "listingId": "nu-aqua-shop:10400532005180",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Emperor Tetra"
     }
   ],
   "events": [
@@ -507,6 +513,112 @@
       "type": "heartbeat",
       "listingId": "aquahuna:1846230220843",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12744658157654",
+          "label": "School of 3",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "12744658190422",
+          "label": "School of 6",
+          "price": 22.99,
+          "available": true
+        },
+        {
+          "id": "12744658223190",
+          "label": "School of 9",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "id": "12744658255958",
+          "label": "School of 12",
+          "price": 42.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1379548430422",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:05.027Z",
+      "price": 6,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42221139329233",
+          "label": ".5-1\"",
+          "price": 6,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7464588280017",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 3.75,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39607662936139",
+          "label": "Title",
+          "price": 3.75,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6651882733643",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 3.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "16867730587691",
+          "label": "Title",
+          "price": 3.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1846230220843",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53113032540476",
+          "label": "Title",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10400532005180",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

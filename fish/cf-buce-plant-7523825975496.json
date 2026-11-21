@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:buce-plant:7523825975496",
-  "commonName": "UNS Controsand - Mojave",
+  "commonName": "UNS Controsand- Mojave",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "UNS Controsand - Mojave"
+    },
+    {
+      "listingId": "nu-aqua-shop:10187317608764",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "UNS Controsand- Mojave"
     }
   ],
   "events": [
@@ -59,6 +65,49 @@
       "type": "heartbeat",
       "listingId": "buce-plant:7523825975496",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42592762724552",
+          "label": "3L",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "42592762757320",
+          "label": "8L",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7523825975496",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 37.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52316755919164",
+          "label": "8L",
+          "price": 37.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10187317608764",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

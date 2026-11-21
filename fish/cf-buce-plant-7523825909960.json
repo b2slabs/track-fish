@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:buce-plant:7523825909960",
-  "commonName": "UNS Controsand - Bora",
+  "commonName": "UNS Controsand-Bora",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "UNS Controsand - Bora"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006320546108",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "UNS Controsand-Bora"
     }
   ],
   "events": [
@@ -59,6 +65,55 @@
       "type": "heartbeat",
       "listingId": "buce-plant:7523825909960",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42592762626248",
+          "label": "3L",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "42592762659016",
+          "label": "8L",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7523825909960",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718536266044",
+          "label": "3L",
+          "price": 22.99,
+          "available": false
+        },
+        {
+          "id": "51718536298812",
+          "label": "8L",
+          "price": 37.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006320546108",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

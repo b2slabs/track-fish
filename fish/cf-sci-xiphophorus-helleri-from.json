@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:xiphophorus-helleri-from",
-  "commonName": "Koi Swordtail",
+  "commonName": "Koi Swordtails",
   "scientificName": "Xiphophorus helleri from",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Koi Swordtail"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006357934396",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Koi Swordtails"
     }
   ],
   "events": [
@@ -124,6 +130,66 @@
       "type": "heartbeat",
       "listingId": "aquahuna:4165028905003",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 6.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40830360748107",
+          "label": "Title",
+          "price": 6.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7147532812363",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "30267492925483",
+          "label": "Title",
+          "price": 5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4165028905003",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 3.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52992787677500",
+          "label": "Large",
+          "price": 10.79,
+          "available": false
+        },
+        {
+          "id": "52992787710268",
+          "label": "Extra Small",
+          "price": 3.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006357934396",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

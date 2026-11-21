@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:microrasbora-rubescens",
-  "commonName": "Red Dwarf Rasbora | Microrasbora rubescens",
+  "commonName": "Red Dwarf Rasbora",
   "scientificName": "Microrasbora rubescens",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Red Dwarf Rasbora | Microrasbora rubescens"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006319038780",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Red Dwarf Rasbora"
     }
   ],
   "events": [
@@ -47,6 +53,55 @@
       "type": "heartbeat",
       "listingId": "flip-aquatics:7056479780966",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40903824736358",
+          "label": "Imported / 1 Fish",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:7056479780966",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718512771388",
+          "label": "Single",
+          "price": 3.99,
+          "available": false
+        },
+        {
+          "id": "51718512804156",
+          "label": "Group of 3",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "51718512836924",
+          "label": "Group of 6",
+          "price": 21.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006319038780",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

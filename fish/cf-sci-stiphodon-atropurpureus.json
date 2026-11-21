@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:stiphodon-atropurpureus",
-  "commonName": "Blue Neon Goby (Stiphodon atropurpureus)",
+  "commonName": "Blue Neon Goby",
   "scientificName": "Stiphodon atropurpureus",
   "listings": [
     {
@@ -38,6 +38,12 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Blue Neon Stiphodon Goby (Male)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006314352956",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Blue Neon Goby"
     }
   ],
   "events": [
@@ -496,6 +502,166 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8398116684083",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43310913868",
+          "label": "1 Fish",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "43310913932",
+          "label": "Group of 3",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "43310913996",
+          "label": "Group of 6",
+          "price": 46.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11454893452",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:10.831Z",
+      "price": 20.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49112869142818",
+          "label": "2 Fish",
+          "price": 20.95,
+          "available": true
+        },
+        {
+          "id": "49112869175586",
+          "label": "4 Fish",
+          "price": 37.95,
+          "available": true
+        },
+        {
+          "id": "51662841119010",
+          "label": "8 Fish",
+          "price": 70.95,
+          "available": true
+        },
+        {
+          "id": "51662841151778",
+          "label": "16 Fish",
+          "price": 133.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9470974001442",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31495138639974",
+          "label": "Imported / 1 Fish",
+          "price": 16.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:4673553793126",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 43.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53621558411563",
+          "label": "Title",
+          "price": 43.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10404113744171",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "21030719238",
+          "label": "Title",
+          "price": 17.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6652532870",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612141150515",
+          "label": "1-2\" Unsexed",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398116684083",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 11.25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627485888828",
+          "label": "Title",
+          "price": 11.25,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006314352956",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

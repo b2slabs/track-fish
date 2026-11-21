@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:corydoras-similis-origin",
-  "commonName": "Smudge Pot Cory",
+  "commonName": "Smudge Spot Cory",
   "scientificName": "Corydoras similis origin",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Smudge Pot Cory"
+    },
+    {
+      "listingId": "nu-aqua-shop:10063974203708",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Smudge Spot Cory"
     }
   ],
   "events": [
@@ -47,6 +53,43 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:8426961830187",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45647120662827",
+          "label": "Title",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8426961830187",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51793931501884",
+          "label": "Title",
+          "price": 15.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10063974203708",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

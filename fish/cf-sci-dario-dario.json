@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:dario-dario",
-  "commonName": "Scarlet Badis",
+  "commonName": "Black Tiger Badis",
   "scientificName": "Dario dario",
   "listings": [
     {
@@ -26,6 +26,12 @@
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Scarlet Badis"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006313894204",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Black Tiger Badis"
     }
   ],
   "events": [
@@ -668,6 +674,133 @@
       "type": "heartbeat",
       "listingId": "daku-aquatics:15308631769306",
       "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "28021393653846",
+          "label": "Group of 3",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "15503243910",
+          "label": "Group of 6",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "id": "28021394178134",
+          "label": "Group of 9",
+          "price": 47.99,
+          "available": false
+        },
+        {
+          "id": "15503243974",
+          "label": "Group of 12",
+          "price": 61.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4740965446",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47143768268",
+          "label": "Group of 3",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "47143563276",
+          "label": "Group of 6",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "47143781900",
+          "label": "Group of 9",
+          "price": 71.99,
+          "available": false
+        },
+        {
+          "id": "47143563340",
+          "label": "Group of 12",
+          "price": 92.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:11738387084",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31441120821350",
+          "label": "Imported / 1 Fish",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:458235248680",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:24.660Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "68029093707994",
+          "label": "5 pack (males)",
+          "price": 40,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:15308631769306",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 10.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627485331772",
+          "label": "Title",
+          "price": 10.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006313894204",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

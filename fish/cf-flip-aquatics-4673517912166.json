@@ -14,6 +14,12 @@
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Red Flame Sword"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006319071548",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Red Flame Sword"
     }
   ],
   "events": [
@@ -90,6 +96,60 @@
       "type": "heartbeat",
       "listingId": "daku-aquatics:8741035278554",
       "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31494955303014",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:4673517912166",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:24.660Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043841495258",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741035278554",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51627492081980",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006319071548",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

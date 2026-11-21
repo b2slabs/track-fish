@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:eleocharis-montevidensis",
-  "commonName": "Giant Hairgrass AKA Sand Spikerush (Eleocharis montevidensis)",
+  "commonName": "Giant Hairgrass",
   "scientificName": "Eleocharis montevidensis",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Giant Hairgrass AKA Sand Spikerush (Eleocharis montevidensis)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006316417340",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Giant Hairgrass"
     }
   ],
   "events": [
@@ -245,6 +251,55 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:1353146466390",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12417443987542",
+          "label": "1 Clump",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12417873903702",
+          "label": "2 Clumps",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "12417873936470",
+          "label": "3 Clumps",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1353146466390",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627488608572",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006316417340",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

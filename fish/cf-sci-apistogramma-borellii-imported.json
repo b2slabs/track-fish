@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:apistogramma-borellii-imported",
-  "commonName": "Apistogramma Borellii Opal",
+  "commonName": "Apistogramma Borellii PAIR",
   "scientificName": "Apistogramma borellii imported",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Apistogramma Borellii Opal"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006313599292",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Apistogramma Borellii PAIR"
     }
   ],
   "events": [
@@ -64,6 +70,43 @@
       "type": "heartbeat",
       "listingId": "aquahuna:6844047917131",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 18,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40043139596363",
+          "label": "Title",
+          "price": 18,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6844047917131",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627484938556",
+          "label": "Title",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006313599292",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

@@ -8,6 +8,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Zebra Loach"
+    },
+    {
+      "listingId": "nu-aqua-shop:10116988174652",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Zebra Loach"
     }
   ],
   "events": [
@@ -47,6 +53,43 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:6203121926",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19642821126",
+          "label": "Title",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6203121926",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 13.26,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51972380328252",
+          "label": "Title",
+          "price": 13.26,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10116988174652",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

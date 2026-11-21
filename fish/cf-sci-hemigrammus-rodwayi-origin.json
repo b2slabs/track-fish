@@ -14,6 +14,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Gold Tetra"
+    },
+    {
+      "listingId": "nu-aqua-shop:10050293662012",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Gold Tetra"
     }
   ],
   "events": [
@@ -90,6 +96,72 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:777269149815",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51441047503147",
+          "label": "Title",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130823053611",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51437569671467",
+          "label": "Title",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:777269149815",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51756013781308",
+          "label": "Single",
+          "price": 2.99,
+          "available": false
+        },
+        {
+          "id": "51756013814076",
+          "label": "Group of 3",
+          "price": 8.97,
+          "available": false
+        },
+        {
+          "id": "51756013846844",
+          "label": "Group of 6",
+          "price": 17.94,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10050293662012",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

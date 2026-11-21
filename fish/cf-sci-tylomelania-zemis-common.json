@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:tylomelania-zemis-common",
-  "commonName": "Mini Yellow Rabbit Snail",
+  "commonName": "Yellow Mini Rabbit Snail",
   "scientificName": "Tylomelania zemis common",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Mini Yellow Rabbit Snail"
+    },
+    {
+      "listingId": "nu-aqua-shop:10345948250428",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Yellow Mini Rabbit Snail"
     }
   ],
   "events": [
@@ -47,6 +53,43 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8397990527283",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611759763763",
+          "label": "(3 Pack) 0.25-0.5\" Unsexed",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397990527283",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52919876321596",
+          "label": "Title",
+          "price": 5.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10345948250428",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:apistogramma-agassizii-from",
-  "commonName": "Apistogramma Agassizi Double Red (male)",
+  "commonName": "Apistogramma Agassizii Double Red",
   "scientificName": "Apistogramma agassizii from",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Apistogramma Agassizii \"Double Red\""
+    },
+    {
+      "listingId": "nu-aqua-shop:10092294570300",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Apistogramma Agassizii Double Red"
     }
   ],
   "events": [
@@ -158,6 +164,72 @@
       "type": "heartbeat",
       "listingId": "aquahuna:2179580756011",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:05.027Z",
+      "price": 25.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925194256593",
+          "label": "1-1.5”",
+          "price": 25.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6996779073745",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 22,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20608260145195",
+          "label": "Title",
+          "price": 22,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:2179580756011",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52547352854844",
+          "label": "Pair",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "52547352887612",
+          "label": "Female",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "52547352920380",
+          "label": "Male",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10092294570300",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

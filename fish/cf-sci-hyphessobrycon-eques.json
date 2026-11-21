@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hyphessobrycon-eques",
-  "commonName": "Long-fin Serpae Tetra",
+  "commonName": "Serpae Tetra",
   "scientificName": "Hyphessobrycon eques",
   "listings": [
     {
@@ -32,6 +32,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Long-fin Serpae Tetra"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006360391996",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Serpae Tetra"
     }
   ],
   "events": [
@@ -425,6 +431,123 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:777265512567",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:05.027Z",
+      "price": 7,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41518830911697",
+          "label": ".75-1\"",
+          "price": 7,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7231869288657",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:05.027Z",
+      "price": 4,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41518830747857",
+          "label": ".75-1\"",
+          "price": 4,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7231869190353",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:05.027Z",
+      "price": 7.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40848404054225",
+          "label": ".75-1\"",
+          "price": 7.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6967211786449",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:08.295Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336212865239",
+          "label": "3",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45336212898007",
+          "label": "5",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45336212930775",
+          "label": "10",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8149530411223",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 5.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "8659449282679",
+          "label": "Title",
+          "price": 5.49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:777265512567",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 4.71,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627672502588",
+          "label": "Title",
+          "price": 4.71,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006360391996",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

@@ -200,6 +200,90 @@
       "type": "heartbeat",
       "listingId": "glass-aqua:7436497485910",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32213041938534",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:4974812364902",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611840176435",
+          "label": "1 Bunch",
+          "price": 4.99,
+          "available": true
+        },
+        {
+          "id": "45611840209203",
+          "label": "1 Potted Plant",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398022213939",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 6.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41219667341",
+          "label": "Lead Bunch",
+          "price": 6.79,
+          "available": false
+        },
+        {
+          "id": "12396829540433",
+          "label": "4 Bunches",
+          "price": 20.37,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10543881869",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:33.919Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41875492438102",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:7436497485910",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

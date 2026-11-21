@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:vallisneria-spiralis",
-  "commonName": "Vallisneria Spiralis Leopard",
+  "commonName": "Vallisneria Spiralis ‘Leopard’",
   "scientificName": "Vallisneria spiralis",
   "listings": [
     {
@@ -26,6 +26,12 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Vallisneria Spiralis Leopard"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006320775484",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Vallisneria Spiralis ‘Leopard’"
     }
   ],
   "events": [
@@ -386,6 +392,112 @@
       "type": "heartbeat",
       "listingId": "glass-aqua:4581903532118",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39315772670038",
+          "label": "1 Plant",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "39315772702806",
+          "label": "2 Plants",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "39315772735574",
+          "label": "3 Plants",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6556677505110",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51806512218419",
+          "label": "1 Bunch",
+          "price": 5.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9810383438131",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 6.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "3736276238376",
+          "label": "Lead Bunch",
+          "price": 6.79,
+          "available": false
+        },
+        {
+          "id": "12398859616337",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.39,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:436008845352",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:33.919Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32032251248726",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:4581903532118",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627494441276",
+          "label": "Title",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006320775484",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

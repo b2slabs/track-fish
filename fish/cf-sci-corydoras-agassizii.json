@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:corydoras-agassizii",
-  "commonName": "Agassizii Cory (Corydoras agassizii)",
+  "commonName": "Agassizii Cory - L",
   "scientificName": "Corydoras agassizii",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Agassizii Cory (Corydoras agassizii)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10432614793532",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Agassizii Cory - L"
     }
   ],
   "events": [
@@ -128,6 +134,49 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7056452452561",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:05.027Z",
+      "price": 6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41097579233489",
+          "label": "1\"",
+          "price": 6,
+          "available": true
+        },
+        {
+          "id": "42585996591313",
+          "label": "1.5”-2”",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7056452452561",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 10.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53519782412604",
+          "label": "Title",
+          "price": 10.29,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10432614793532",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

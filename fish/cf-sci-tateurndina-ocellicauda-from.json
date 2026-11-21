@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Peacock Gudgeon"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006318776636",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Peacock Gudgeon"
     }
   ],
   "events": [
@@ -64,6 +70,43 @@
       "type": "heartbeat",
       "listingId": "aquahuna:6670560297035",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 9,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39647757533259",
+          "label": "Title",
+          "price": 9,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6670560297035",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51627491721532",
+          "label": "Title",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006318776636",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

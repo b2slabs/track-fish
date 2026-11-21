@@ -293,6 +293,45 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:4704473546838",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32517358420054",
+          "label": "School of 3",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "32517358452822",
+          "label": "School of 6",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "32517358485590",
+          "label": "School of 9",
+          "price": 57.99,
+          "available": false
+        },
+        {
+          "id": "32517358518358",
+          "label": "School of 12",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:4704473546838",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

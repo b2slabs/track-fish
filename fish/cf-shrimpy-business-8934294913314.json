@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:shrimpy-business:8934294913314",
-  "commonName": "GlasGarten - Shrimp Baby Food (35g)",
+  "commonName": "GlasGarten Shrimp Baby Food",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "GlasGarten - Shrimp Baby Food (35g)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10360381931836",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "GlasGarten Shrimp Baby Food"
     }
   ],
   "events": [
@@ -47,6 +53,49 @@
       "type": "heartbeat",
       "listingId": "shrimpy-business:8934294913314",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:10.831Z",
+      "price": 16.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47691393499426",
+          "label": "Title",
+          "price": 16.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:8934294913314",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 16.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67953026564412",
+          "label": "35g",
+          "price": 16.29,
+          "available": true
+        },
+        {
+          "id": "67953026597180",
+          "label": "70g",
+          "price": 21.32,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10360381931836",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

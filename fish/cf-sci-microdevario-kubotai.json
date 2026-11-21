@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:microdevario-kubotai",
-  "commonName": "Green Kubotai Rasbora",
+  "commonName": "Kubotai Rasbora",
   "scientificName": "Microdevario kubotai",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Green Kubotai Rasbora"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006317793596",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Kubotai Rasbora"
     }
   ],
   "events": [
@@ -389,6 +395,102 @@
       "type": "heartbeat",
       "listingId": "ck-fish-world:8149572419799",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43221574156",
+          "label": "School of 3",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "15498627718",
+          "label": "School of 6",
+          "price": 33.99,
+          "available": false
+        },
+        {
+          "id": "43285029580",
+          "label": "School of 9",
+          "price": 45.99,
+          "available": false
+        },
+        {
+          "id": "15498627782",
+          "label": "School of 12",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4738172806",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:08.295Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336106533079",
+          "label": "3",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45336106565847",
+          "label": "5",
+          "price": 29.98,
+          "available": true
+        },
+        {
+          "id": "45336106598615",
+          "label": "10",
+          "price": 49.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8149572419799",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 6.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718494060860",
+          "label": "Single",
+          "price": 6.29,
+          "available": false
+        },
+        {
+          "id": "51718494093628",
+          "label": "Group of 3",
+          "price": 18.87,
+          "available": false
+        },
+        {
+          "id": "51718494126396",
+          "label": "Group of 6",
+          "price": 33.55,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006317793596",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

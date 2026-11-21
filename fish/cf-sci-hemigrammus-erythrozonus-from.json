@@ -14,6 +14,12 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Glowlight Tetra"
+    },
+    {
+      "listingId": "nu-aqua-shop:10178944368956",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Glowlight Tetra"
     }
   ],
   "events": [
@@ -160,6 +166,72 @@
       "type": "heartbeat",
       "listingId": "ck-fish-world:8150006825175",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 2.2,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32390982008907",
+          "label": "Title",
+          "price": 2.2,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4592065085515",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:08.295Z",
+      "price": 12.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336086020311",
+          "label": "3",
+          "price": 12.98,
+          "available": true
+        },
+        {
+          "id": "45336086053079",
+          "label": "5",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45336086085847",
+          "label": "10",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150006825175",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52277548417340",
+          "label": "Title",
+          "price": 3.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10178944368956",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

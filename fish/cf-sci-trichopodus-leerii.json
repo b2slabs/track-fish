@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:trichopodus-leerii",
-  "commonName": "Starfire Red Glo Gourami",
+  "commonName": "Pearl Gourami",
   "scientificName": "Trichopodus leerii",
   "listings": [
     {
@@ -20,6 +20,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Starfire Red Glo Gourami"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006359114044",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Pearl Gourami"
     }
   ],
   "events": [
@@ -184,6 +190,77 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:10366772412715",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:05.027Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41090513502417",
+          "label": "2\"-2.5\"",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7053084623057",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 59.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "54187836670251",
+          "label": "Title",
+          "price": 59.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10476608586027",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 21.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53396678803755",
+          "label": "Title",
+          "price": 21.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10366772412715",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 8.55,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51627671224636",
+          "label": "Title",
+          "price": 8.55,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006359114044",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

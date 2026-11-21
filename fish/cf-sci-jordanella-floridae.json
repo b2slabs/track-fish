@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:jordanella-floridae",
-  "commonName": "American Flagfish Killifish (Jordanella floridae)",
+  "commonName": "Florida Flagfish",
   "scientificName": "Jordanella floridae",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "American Flagfish Killifish (Jordanella floridae)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006315991356",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Florida Flagfish"
     }
   ],
   "events": [
@@ -293,6 +299,61 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:4482792030294",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31699142180950",
+          "label": "Group of 3",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "31699142213718",
+          "label": "Group of 6",
+          "price": 20.99,
+          "available": true
+        },
+        {
+          "id": "31699142246486",
+          "label": "Group of 9",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "id": "31699142279254",
+          "label": "Group of 12",
+          "price": 35.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4482792030294",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 5.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627488084284",
+          "label": "Title",
+          "price": 5.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006315991356",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

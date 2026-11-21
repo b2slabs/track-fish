@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hyphessobrycon-wadai",
-  "commonName": "Blueberry Tetra (Hyphessobrycon wadai)",
+  "commonName": "Blueberry Tetra",
   "scientificName": "Hyphessobrycon wadai",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Blueberry Tetra (Hyphessobrycon wadai)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006355378492",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Blueberry Tetra"
     }
   ],
   "events": [
@@ -300,6 +306,90 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8398139195699",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52131023651183",
+          "label": "3 Fish",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "52131023683951",
+          "label": "6 Fish",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "52131023716719",
+          "label": "9 Fish",
+          "price": 142.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14768314220911",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49818738917683",
+          "label": "1-2\" Unsexed",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "49818766967091",
+          "label": "(10 Pack) 1-2\" Unsexed",
+          "price": 134.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398139195699",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51647494357308",
+          "label": "Single",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "51647494390076",
+          "label": "Group of 3",
+          "price": 45.87,
+          "available": false
+        },
+        {
+          "id": "51647494422844",
+          "label": "Group of 6",
+          "price": 81.55,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006355378492",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

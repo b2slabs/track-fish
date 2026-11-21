@@ -14,6 +14,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Glass catfish (Kryptoterus Viteolus)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006316450108",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Glass Catfish"
     }
   ],
   "events": [
@@ -158,6 +164,60 @@
       "type": "heartbeat",
       "listingId": "aquahuna:1778963709995",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:05.027Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41220979687633",
+          "label": "2”-3”",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7106601418961",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "16064095682603",
+          "label": "Title",
+          "price": 10,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1778963709995",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 12.27,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627488674108",
+          "label": "Title",
+          "price": 12.27,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006316450108",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

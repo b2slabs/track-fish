@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:stiphodon-annieae",
-  "commonName": "Annie's Goby (Stiphodon annieae)",
+  "commonName": "Annie's Goby",
   "scientificName": "Stiphodon annieae",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Annie's Goby (Stiphodon annieae)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10105556435260",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Annie's Goby"
     }
   ],
   "events": [
@@ -288,6 +294,72 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8398138376499",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39366193217622",
+          "label": "1 Fish",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "39366193250390",
+          "label": "Group of 3",
+          "price": 56.49,
+          "available": false
+        },
+        {
+          "id": "39366193283158",
+          "label": "Group of 6",
+          "price": 108.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6574029865046",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612191252787",
+          "label": "1-2\" Unsexed",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398138376499",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51938010693948",
+          "label": "Title",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10105556435260",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

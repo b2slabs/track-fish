@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:cleithracara-maronii-common",
-  "commonName": "Keyhole Cichlid",
+  "commonName": "Keyhole Cichlid- M",
   "scientificName": "Cleithracara maronii common",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Keyhole Cichlid"
+    },
+    {
+      "listingId": "nu-aqua-shop:10042814660924",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Keyhole Cichlid- M"
     }
   ],
   "events": [
@@ -94,6 +100,60 @@
       "type": "heartbeat",
       "listingId": "global-exoticquatics:8678206079168",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611911872819",
+          "label": "2-3\" Unsexed",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398037942579",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:41.357Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48782255947968",
+          "label": "Title",
+          "price": 10,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8678206079168",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51736965873980",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10042814660924",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

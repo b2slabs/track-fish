@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:vallisneria-biawensis-shipping",
-  "commonName": "Corkscrew vallisneria",
+  "commonName": "Vallisneria Corkscrew",
   "scientificName": "Vallisneria biawensis shipping",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Corkscrew vallisneria"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006320808252",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Vallisneria Corkscrew"
     }
   ],
   "events": [
@@ -47,6 +53,43 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:6260707398",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19810072454",
+          "label": "Title",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6260707398",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627494474044",
+          "label": "Title",
+          "price": 5.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006320808252",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

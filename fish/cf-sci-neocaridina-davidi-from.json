@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:neocaridina-davidi-from",
-  "commonName": "Red Cherry Shrimp (Grade A)",
+  "commonName": "Yellow Fire Shrimp",
   "scientificName": "Neocaridina davidi from",
   "listings": [
     {
@@ -20,6 +20,18 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Red Cherry Shrimp (Grade A)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10170803650876",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Red Cherry Shrimp"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006361473340",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Yellow Fire Shrimp"
     }
   ],
   "events": [
@@ -184,6 +196,109 @@
       "type": "heartbeat",
       "listingId": "aquahuna:946606735403",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 2.2,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40012695142475",
+          "label": "Title",
+          "price": 2.2,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6830649213003",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 3.13,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15746618261547",
+          "label": "Title",
+          "price": 3.13,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:948430209067",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 2.4,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15746608103467",
+          "label": "Title",
+          "price": 2.4,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:946606735403",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52807461372220",
+          "label": "Single",
+          "price": 3.99,
+          "available": false
+        },
+        {
+          "id": "52807461404988",
+          "label": "Group of 3",
+          "price": 11.49,
+          "available": false
+        },
+        {
+          "id": "52807461437756",
+          "label": "Group of 5",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10170803650876",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52988474196284",
+          "label": "Single",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006361473340",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

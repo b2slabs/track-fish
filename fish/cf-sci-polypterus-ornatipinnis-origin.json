@@ -14,6 +14,12 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Ornate Bichir"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006358917436",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Ornate Bichir"
     }
   ],
   "events": [
@@ -90,6 +96,60 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8398053835059",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19288638022",
+          "label": "Title",
+          "price": 39.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6095237126",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611979768115",
+          "label": "4-5” Unsexed",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398053835059",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 48.75,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627671028028",
+          "label": "Title",
+          "price": 48.75,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006358917436",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

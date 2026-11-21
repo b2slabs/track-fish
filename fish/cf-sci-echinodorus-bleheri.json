@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:echinodorus-bleheri",
-  "commonName": "Echinodorus Bleheri - Mother Plant",
+  "commonName": "Amazon Sword",
   "scientificName": "Echinodorus bleheri",
   "listings": [
     {
@@ -38,6 +38,12 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Echinodorus Bleheri / Amazon Sword - Large"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006313140540",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Amazon Sword"
     }
   ],
   "events": [
@@ -298,6 +304,164 @@
       "type": "heartbeat",
       "listingId": "glass-aqua:7512270078038",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53660637430067",
+          "label": "1 Medium Plant",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "45611929207091",
+          "label": "1 Potted Plant",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398040498483",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:24.660Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043840938202",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741034885338",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15446348038225",
+          "label": "Mother Pot",
+          "price": 23.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:1569233993809",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "34230932621",
+          "label": "Pot",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "12425260531793",
+          "label": "3 Pot Package",
+          "price": 20.99,
+          "available": true
+        },
+        {
+          "id": "12425260564561",
+          "label": "5 Pot Package",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:9362933069",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42162548867272",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7408248357064",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:33.919Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42129434476630",
+          "label": "Title",
+          "price": 21.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:7512270078038",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52456107606332",
+          "label": "Small",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "52456107639100",
+          "label": "Medium",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "52456107671868",
+          "label": "Large",
+          "price": 14.39,
+          "available": true
+        },
+        {
+          "id": "52906014867772",
+          "label": "XL",
+          "price": 22.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006313140540",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

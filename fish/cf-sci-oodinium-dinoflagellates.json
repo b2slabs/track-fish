@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:oodinium-dinoflagellates",
-  "commonName": "Fritz ParaCleanse",
+  "commonName": "Fritz Paracleanse",
   "scientificName": "Oodinium dinoflagellates",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Fritz ParaCleanse"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006316187964",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Fritz Paracleanse"
     }
   ],
   "events": [
@@ -137,6 +143,78 @@
       "type": "heartbeat",
       "listingId": "flip-aquatics:4574839472230",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:08.295Z",
+      "price": 17.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44152663277783",
+          "label": "10 pack",
+          "price": 17.98,
+          "available": true
+        },
+        {
+          "id": "44152663310551",
+          "label": "20 pack",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8168889221335",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31396193042534",
+          "label": "10 pack",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "31396193075302",
+          "label": "20 pack",
+          "price": 27.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:4574839472230",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 13.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51954487918908",
+          "label": "10ct",
+          "price": 13.59,
+          "available": false
+        },
+        {
+          "id": "51954487951676",
+          "label": "20ct",
+          "price": 22.39,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006316187964",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hyphessobrycon-flammeus",
-  "commonName": "Von Rio Tetra (Hyphessobrycon flammeus)",
+  "commonName": "Orange Von Rio Tetra",
   "scientificName": "Hyphessobrycon flammeus",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Von Rio Tetra (Hyphessobrycon flammeus)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006358884668",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Orange Von Rio Tetra"
     }
   ],
   "events": [
@@ -293,6 +299,61 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:15005000237423",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53145872859503",
+          "label": "School of 3",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "53145872892271",
+          "label": "School of 6",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "53145872925039",
+          "label": "School of 9",
+          "price": 23.99,
+          "available": false
+        },
+        {
+          "id": "53145872957807",
+          "label": "School of 12",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:15005000237423",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51627670995260",
+          "label": "Title",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006358884668",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

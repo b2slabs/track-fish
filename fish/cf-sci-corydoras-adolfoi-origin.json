@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:corydoras-adolfoi-origin",
-  "commonName": "Cory Adolfoi",
+  "commonName": "Adolfoi Cory",
   "scientificName": "Corydoras adolfoi origin",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Cory Adolfoi"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006353903932",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Adolfoi Cory"
     }
   ],
   "events": [
@@ -47,6 +53,43 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:779110023287",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "8669783654519",
+          "label": "Title",
+          "price": 28.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:779110023287",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627658346812",
+          "label": "Title",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006353903932",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

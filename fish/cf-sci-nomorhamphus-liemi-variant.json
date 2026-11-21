@@ -8,6 +8,12 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Platinum Halfbeak"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006359277884",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Platinum Halfbeak"
     }
   ],
   "events": [
@@ -82,6 +88,49 @@
       "type": "heartbeat",
       "listingId": "ck-fish-world:8537397526743",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:08.295Z",
+      "price": 20.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46112633061591",
+          "label": "3",
+          "price": 20.98,
+          "available": true
+        },
+        {
+          "id": "46112633094359",
+          "label": "5",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8537397526743",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627671388476",
+          "label": "Title",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006359277884",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

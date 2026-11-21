@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:betta-macrostoma-origin",
-  "commonName": "Betta Macrostoma (Pair)",
+  "commonName": "Betta Macrostoma",
   "scientificName": "Betta macrostoma origin",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Betta Macrostoma (Pair)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10285938803004",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Betta Macrostoma"
     }
   ],
   "events": [
@@ -47,6 +53,55 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:1747707232326",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 125.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "17153633976390",
+          "label": "Title",
+          "price": 125.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1747707232326",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 119.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52982754804028",
+          "label": "Pair",
+          "price": 239.99,
+          "available": false
+        },
+        {
+          "id": "52982754836796",
+          "label": "Male",
+          "price": 143.99,
+          "available": false
+        },
+        {
+          "id": "52982754869564",
+          "label": "Female",
+          "price": 119.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10285938803004",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

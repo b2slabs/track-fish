@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:eleocharis-acicularis",
-  "commonName": "Eleocharis acicularis 'Mini' - Tissue Culture",
+  "commonName": "Dwarf Hairgrass",
   "scientificName": "Eleocharis acicularis",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Eleocharis acicularis 'Mini' - Tissue Culture"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006315729212",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Dwarf Hairgrass"
     }
   ],
   "events": [
@@ -288,6 +294,72 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:10105537364267",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12798182326358",
+          "label": "1 Tissue Culture Cup",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "12798192648278",
+          "label": "2 Tissue Culture Cups",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "12798192681046",
+          "label": "3 Tissue Culture Cups",
+          "price": 32.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1396030406742",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 11.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51386931970347",
+          "label": "Each",
+          "price": 11.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10105537364267",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627487756604",
+          "label": "Title",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006315729212",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

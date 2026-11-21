@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:apteronotus-albifrons-origin",
-  "commonName": "Black Ghost Knifefish",
+  "commonName": "Black Ghost Knifefish - 3-5\"",
   "scientificName": "Apteronotus albifrons origin",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Black Ghost Knifefish"
+    },
+    {
+      "listingId": "nu-aqua-shop:10283316314428",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Black Ghost Knifefish - 3-5\""
     }
   ],
   "events": [
@@ -143,6 +149,78 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:6657599558",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:08.295Z",
+      "price": 14.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44098374041815",
+          "label": "Title",
+          "price": 14.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150019571927",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44884281688363",
+          "label": "Small (2\")",
+          "price": 17.29,
+          "available": false
+        },
+        {
+          "id": "44884281721131",
+          "label": "Medium (3-4\")",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "44884281753899",
+          "label": "Large (4-5\")",
+          "price": 26.99,
+          "available": false
+        },
+        {
+          "id": "45968034005291",
+          "label": "X-Large (10\")",
+          "price": 86.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6657599558",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52695832396092",
+          "label": "Title",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10283316314428",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

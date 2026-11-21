@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:apistogramma-trifasciata-common",
-  "commonName": "Apistogramma trifasciata",
+  "commonName": "Apistogramma Trifasciata PAIR",
   "scientificName": "Apistogramma trifasciata common",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Apistogramma trifasciata"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006354329916",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Apistogramma Trifasciata PAIR"
     }
   ],
   "events": [
@@ -71,6 +77,55 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8303244017971",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45224040726835",
+          "label": "0.75-1\" Unsexed",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "45224040759603",
+          "label": "0.75-1\" ATTEMPTED MALE",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "45224040792371",
+          "label": "0.75-1\" ATTEMPTED FEMALE",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8303244017971",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 51.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627658772796",
+          "label": "Title",
+          "price": 51.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006354329916",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

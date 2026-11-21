@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:osteoglossum-bicirrhosum-from",
-  "commonName": "Silver Arowana",
+  "commonName": "Silver Arowana 3-4\"",
   "scientificName": "Osteoglossum bicirrhosum from",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Silver Arowana"
+    },
+    {
+      "listingId": "nu-aqua-shop:10399083725116",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Silver Arowana 3-4\""
     }
   ],
   "events": [
@@ -107,6 +113,60 @@
       "type": "heartbeat",
       "listingId": "global-exoticquatics:10249447702720",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 53,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31442211536971",
+          "label": "Title",
+          "price": 53,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4388877795403",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:41.357Z",
+      "price": 75,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50404348297408",
+          "label": "6-7in",
+          "price": 75,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:10249447702720",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 62.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53106727551292",
+          "label": "Title",
+          "price": 62.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10399083725116",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

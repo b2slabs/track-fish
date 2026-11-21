@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:danio-roseus-from",
-  "commonName": "Danio Rose",
+  "commonName": "Rose Danio",
   "scientificName": "Danio roseus from",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Danio Rose"
+    },
+    {
+      "listingId": "nu-aqua-shop:10016429080892",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Rose Danio"
     }
   ],
   "events": [
@@ -64,6 +70,43 @@
       "type": "heartbeat",
       "listingId": "aquahuna:1818263126059",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 3.25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "16494740865067",
+          "label": "Title",
+          "price": 3.25,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1818263126059",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 8.97,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51657511567676",
+          "label": "Title",
+          "price": 8.97,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10016429080892",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

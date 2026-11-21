@@ -14,6 +14,12 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Blue Eye Lemon Bristlenose Pleco (Tank-Bred)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006355280188",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Blue Eye Lemon Bristlenose Pleco"
     }
   ],
   "events": [
@@ -138,6 +144,90 @@
       "type": "heartbeat",
       "listingId": "buce-plant:7551649284296",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:10.831Z",
+      "price": 16.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39967226003541",
+          "label": "1 Fish",
+          "price": 16.95,
+          "available": true
+        },
+        {
+          "id": "48830349967650",
+          "label": "3 Fish",
+          "price": 45.95,
+          "available": true
+        },
+        {
+          "id": "51662846099746",
+          "label": "6 Fish",
+          "price": 85.95,
+          "available": true
+        },
+        {
+          "id": "51662846132514",
+          "label": "12 Fish",
+          "price": 162.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6730781098069",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42691407839432",
+          "label": "Single",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "42691407872200",
+          "label": "3 Fish",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7551649284296",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53099760189756",
+          "label": "S 1.5-2\"",
+          "price": 22.99,
+          "available": false
+        },
+        {
+          "id": "53099760222524",
+          "label": "XL 4-4.5",
+          "price": 99.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006355280188",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

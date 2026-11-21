@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pethia-nigrofasciata-from",
-  "commonName": "Black Ruby Barb",
+  "commonName": "Black Ruby Barb - L",
   "scientificName": "Pethia nigrofasciata from",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Black Ruby Barb"
+    },
+    {
+      "listingId": "nu-aqua-shop:10466322153788",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Black Ruby Barb - L"
     }
   ],
   "events": [
@@ -107,6 +113,60 @@
       "type": "heartbeat",
       "listingId": "flip-aquatics:7487741132902",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42043219148875",
+          "label": "Title",
+          "price": 6,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7533777256523",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 4.75,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42294162391142",
+          "label": "Imported / 1 Fish",
+          "price": 4.75,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:7487741132902",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "54015815385404",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10466322153788",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

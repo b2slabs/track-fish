@@ -769,6 +769,116 @@
       "type": "heartbeat",
       "listingId": "shrimpy-business:9659292090658",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53268790346095",
+          "label": "1 Fish (Male)",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "53268790378863",
+          "label": "1 Fish (Female)",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "53268790411631",
+          "label": "1 Pair ( 1 Male + 1 Female )",
+          "price": 35.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:15036733718895",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47328455360791",
+          "label": "1 Unsexed Juvenile",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "47328455393559",
+          "label": "3 Unsexed Juveniles",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "28150541680726",
+          "label": "1 Male/Female Pair",
+          "price": 26.99,
+          "available": false
+        },
+        {
+          "id": "28150541746262",
+          "label": "1 Male",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "28150541877334",
+          "label": "1 Female",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "68231956398447",
+          "label": "1 Male (Locally Bred)",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "68231956431215",
+          "label": "1 Female (Locally Bred)",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "68231956463983",
+          "label": "1 Pair ( 1 Male+ 1 Female ) Locally Bred",
+          "price": 27.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:3546830733398",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:10.831Z",
+      "price": 24.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49703598063906",
+          "label": "1 Fish",
+          "price": 24.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9659292090658",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

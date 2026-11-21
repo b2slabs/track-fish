@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:vallisneria-asiatica",
-  "commonName": "Vallisneria Contortionist",
+  "commonName": "Contortionist Vallisneria",
   "scientificName": "Vallisneria asiatica",
   "listings": [
     {
@@ -20,6 +20,12 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Vallisneria Contortionist"
+    },
+    {
+      "listingId": "nu-aqua-shop:10481411555644",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Contortionist Vallisneria"
     }
   ],
   "events": [
@@ -145,6 +151,83 @@
       "type": "heartbeat",
       "listingId": "glass-aqua:7481385975894",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:24.660Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043852832986",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741040980186",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "35342410381",
+          "label": "Lead Bundle",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12396898025553",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.97,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:9541099917",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:33.919Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42019620683862",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:7481385975894",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "54350309589308",
+          "label": "Title",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10481411555644",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

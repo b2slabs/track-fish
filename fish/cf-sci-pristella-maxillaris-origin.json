@@ -14,6 +14,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Pristella Tetra"
+    },
+    {
+      "listingId": "nu-aqua-shop:10187316396348",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Pristella Tetra"
     }
   ],
   "events": [
@@ -90,6 +96,60 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:777598959735",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51440580100395",
+          "label": "Title",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130700239147",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51428375429419",
+          "label": "Title",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:777598959735",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 4.57,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52316736651580",
+          "label": "Title",
+          "price": 4.57,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10187316396348",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

@@ -1,0 +1,67 @@
+{
+  "canonicalFishId": "cf:sci:planorbella-duryi",
+  "commonName": "Ramshorn Snail",
+  "scientificName": "Planorbella duryi",
+  "listings": [
+    {
+      "listingId": "nu-aqua-shop:10006359834940",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Red Ramshorn Snail"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006359540028",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Ramshorn Snail"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627671945532",
+          "label": "Title",
+          "price": 3.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006359834940",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 0.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52741912232252",
+          "label": "Regular",
+          "price": 2.49,
+          "available": false
+        },
+        {
+          "id": "52741912265020",
+          "label": "Small",
+          "price": 0.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006359540028",
+      "storeSlug": "nu-aqua-shop"
+    }
+  ]
+}

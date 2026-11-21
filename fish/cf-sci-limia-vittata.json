@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:limia-vittata",
-  "commonName": "Banded Limia | Limia vittata",
+  "commonName": "Cuban Limia S",
   "scientificName": "Limia vittata",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Banded Limia | Limia vittata"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006315401532",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Cuban Limia S"
     }
   ],
   "events": [
@@ -71,6 +77,55 @@
       "type": "heartbeat",
       "listingId": "flip-aquatics:7390324654182",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41913698386022",
+          "label": "Imported / Male",
+          "price": 22.99,
+          "available": false
+        },
+        {
+          "id": "41913698418790",
+          "label": "Imported / Female",
+          "price": 22.99,
+          "available": false
+        },
+        {
+          "id": "41913698451558",
+          "label": "Imported / Pair (M/F)",
+          "price": 40.49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:7390324654182",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627487297852",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006315401532",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

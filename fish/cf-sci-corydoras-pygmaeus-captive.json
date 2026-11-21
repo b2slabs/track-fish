@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Pygmy Cory"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006359376188",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Pygmy Cory"
     }
   ],
   "events": [
@@ -64,6 +70,55 @@
       "type": "heartbeat",
       "listingId": "aquahuna:4686195621963",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 4,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32912577396811",
+          "label": "Title",
+          "price": 4,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4686195621963",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51634271060284",
+          "label": "Single",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "51634271093052",
+          "label": "Group of 3",
+          "price": 21.57,
+          "available": false
+        },
+        {
+          "id": "51634271125820",
+          "label": "Group of 6",
+          "price": 40.75,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006359376188",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

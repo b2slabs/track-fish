@@ -20,6 +20,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Candy Cane Tetra (hyphessobrycon sp)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006314844476",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Candy Cane Tetra"
     }
   ],
   "events": [
@@ -254,6 +260,89 @@
       "type": "heartbeat",
       "listingId": "ck-fish-world:8150010167511",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:05.027Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41363340984529",
+          "label": "1-1.25”",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7162350010577",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 3.25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "16064102170667",
+          "label": "Title",
+          "price": 3.25,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1778965512235",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:08.295Z",
+      "price": 21.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336045027543",
+          "label": "3",
+          "price": 21.98,
+          "available": true
+        },
+        {
+          "id": "45336045060311",
+          "label": "5",
+          "price": 34.98,
+          "available": true
+        },
+        {
+          "id": "45336045093079",
+          "label": "10",
+          "price": 59.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150010167511",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 6.27,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627486576956",
+          "label": "Title",
+          "price": 6.27,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006314844476",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

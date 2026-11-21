@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:apistogramma-hongsloi-common",
-  "commonName": "Red Gold Hongsloi",
+  "commonName": "Apistogramma Hongsloi",
   "scientificName": "Apistogramma hongsloi common",
   "listings": [
     {
@@ -19,6 +19,12 @@
       "listingId": "monster-aquarium:7079787790545",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
+      "commonName": "Apistogramma Hongsloi"
+    },
+    {
+      "listingId": "nu-aqua-shop:10437665620284",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
       "commonName": "Apistogramma Hongsloi"
     }
   ],
@@ -208,6 +214,101 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8398185005363",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:05.027Z",
+      "price": 30,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41152072712401",
+          "label": "4.5-5cm",
+          "price": 30,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7079787790545",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51779759374643",
+          "label": "1-2\" Unsexed",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398185693491",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612302467379",
+          "label": "1-2\" Female",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "45612302401843",
+          "label": "1-2\" Male",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "45612302434611",
+          "label": "1-2\" PAIR (1 Male, 1 Female)",
+          "price": 54.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398185005363",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 32.76,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53769966682428",
+          "label": "Attempted Pair",
+          "price": 63.99,
+          "available": false
+        },
+        {
+          "id": "53769966715196",
+          "label": "Male",
+          "price": 32.76,
+          "available": false
+        },
+        {
+          "id": "53769966747964",
+          "label": "Female",
+          "price": 32.76,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10437665620284",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

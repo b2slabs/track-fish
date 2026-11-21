@@ -59,6 +59,33 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:15496640561451",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 6.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "68031303745835",
+          "label": "Each",
+          "price": 6.79,
+          "available": true
+        },
+        {
+          "id": "68031303778603",
+          "label": "School of 6",
+          "price": 33.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:15496640561451",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

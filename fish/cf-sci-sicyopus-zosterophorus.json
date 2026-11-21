@@ -324,6 +324,73 @@
       "type": "heartbeat",
       "listingId": "shrimpy-business:9837744226594",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12730803781718",
+          "label": "1 Fish",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "12730803814486",
+          "label": "Group of 3",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "12730803847254",
+          "label": "Group of 6",
+          "price": 55.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1376863584342",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:10.831Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": true
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 41.95,
+          "available": true
+        },
+        {
+          "id": "51662836728098",
+          "label": "6 Fish",
+          "price": 78.95,
+          "available": true
+        },
+        {
+          "id": "51662836760866",
+          "label": "12 Fish",
+          "price": 148.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

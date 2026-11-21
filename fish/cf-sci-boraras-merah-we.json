@@ -14,6 +14,12 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Phoenix Rasbora"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006318842172",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Phoenix Rasbora"
     }
   ],
   "events": [
@@ -143,6 +149,78 @@
       "type": "heartbeat",
       "listingId": "shrimpy-business:9470968693026",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 3.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41820315320395",
+          "label": "Title",
+          "price": 3.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7456012402763",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:10.831Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49112853676322",
+          "label": "3 Fish",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "49112853709090",
+          "label": "6 Fish",
+          "price": 31.95,
+          "available": false
+        },
+        {
+          "id": "51662841217314",
+          "label": "12 Fish",
+          "price": 60.95,
+          "available": false
+        },
+        {
+          "id": "51662841250082",
+          "label": "24 Fish",
+          "price": 114.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9470968693026",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 4.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627491787068",
+          "label": "Title",
+          "price": 4.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006318842172",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

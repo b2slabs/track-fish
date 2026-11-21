@@ -14,6 +14,12 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Diamond Tetra"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006315434300",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Diamond Tetra"
     }
   ],
   "events": [
@@ -107,6 +113,72 @@
       "type": "heartbeat",
       "listingId": "global-exoticquatics:8322223866048",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 4,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33003330928715",
+          "label": "Title",
+          "price": 4,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4715869634635",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:41.357Z",
+      "price": 24,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46744982257856",
+          "label": "6 Fish",
+          "price": 24,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8322223866048",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 5.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718425805116",
+          "label": "Single",
+          "price": 5.49,
+          "available": false
+        },
+        {
+          "id": "51718425837884",
+          "label": "Group of 3",
+          "price": 14.82,
+          "available": false
+        },
+        {
+          "id": "51718425870652",
+          "label": "Group of 6",
+          "price": 26.35,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006315434300",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

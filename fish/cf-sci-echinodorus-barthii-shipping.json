@@ -8,6 +8,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Melon Sword"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006359769404",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Red Melon Sword"
     }
   ],
   "events": [
@@ -59,6 +65,49 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:6260571334",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 8.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19809724934",
+          "label": "Medium (6\")",
+          "price": 8.29,
+          "available": true
+        },
+        {
+          "id": "12960272220230",
+          "label": "Large (12\")",
+          "price": 15.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6260571334",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627671879996",
+          "label": "Title",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006359769404",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

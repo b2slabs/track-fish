@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:betta-splendens-note",
-  "commonName": "Crowntail Betta",
+  "commonName": "Betta Crowntail Male",
   "scientificName": "Betta splendens note",
   "listings": [
     {
@@ -32,6 +32,12 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Crowntail Betta"
+    },
+    {
+      "listingId": "nu-aqua-shop:10276794106172",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Betta Crowntail Male"
     }
   ],
   "events": [
@@ -305,6 +311,117 @@
       "type": "heartbeat",
       "listingId": "shrimpy-business:9946197131554",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40968378941515",
+          "label": "Title",
+          "price": 6,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7192600936523",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 9.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15719597211691",
+          "label": "Title",
+          "price": 9.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1710180630571",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 7.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15719601242155",
+          "label": "Title",
+          "price": 7.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1710181089323",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:08.295Z",
+      "price": 6.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44098276851927",
+          "label": "Male",
+          "price": 7.98,
+          "available": true
+        },
+        {
+          "id": "44098276884695",
+          "label": "Female",
+          "price": 6.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150006661335",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:10.831Z",
+      "price": 24.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50601766256930",
+          "label": "Title",
+          "price": 24.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9946197131554",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 20.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52648730755388",
+          "label": "Title",
+          "price": 20.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10276794106172",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

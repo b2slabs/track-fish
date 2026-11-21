@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Glowlight Rasbora"
+    },
+    {
+      "listingId": "nu-aqua-shop:10247126122812",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Glowlight Rasbora"
     }
   ],
   "events": [
@@ -64,6 +70,43 @@
       "type": "heartbeat",
       "listingId": "aquahuna:7403755077707",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 3.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41611982110795",
+          "label": "Title",
+          "price": 3.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7403755077707",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52531613860156",
+          "label": "Title",
+          "price": 3.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10247126122812",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

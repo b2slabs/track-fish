@@ -20,6 +20,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Pearl Danio"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006359081276",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Pearl Danio"
     }
   ],
   "events": [
@@ -133,6 +139,77 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:6019769606",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 20.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51441101275435",
+          "label": "Title",
+          "price": 20.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130833703211",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 28.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51441031741739",
+          "label": "Title",
+          "price": 28.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130819809579",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 4.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51437698515243",
+          "label": "Title",
+          "price": 4.49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6019769606",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627671191868",
+          "label": "Title",
+          "price": 3.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006359081276",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

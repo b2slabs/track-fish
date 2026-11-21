@@ -20,6 +20,12 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Hikari Algae Wafers"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006316745020",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Hikari Algae Wafers"
     }
   ],
   "events": [
@@ -204,6 +210,107 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8398142439731",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:08.295Z",
+      "price": 4.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44146629968087",
+          "label": "0.7 oz",
+          "price": 4.98,
+          "available": true
+        },
+        {
+          "id": "44146630000855",
+          "label": "1.41 oz",
+          "price": 6.98,
+          "available": true
+        },
+        {
+          "id": "44146630033623",
+          "label": "2.89 oz",
+          "price": 9.98,
+          "available": true
+        },
+        {
+          "id": "44146630066391",
+          "label": "8.8 oz",
+          "price": 19.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8166136578263",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 6.89,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32283920662609",
+          "label": "Title",
+          "price": 6.89,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4609171914833",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612205211955",
+          "label": "8.8oz / 250g",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398142439731",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 4.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51718467715388",
+          "label": "1.41oz",
+          "price": 4.29,
+          "available": true
+        },
+        {
+          "id": "51718467748156",
+          "label": "2.89oz",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "51718467780924",
+          "label": "8.8oz",
+          "price": 15.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006316745020",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

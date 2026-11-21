@@ -59,6 +59,33 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:11250950796",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 9.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42553630348",
+          "label": "Small",
+          "price": 6.29,
+          "available": false
+        },
+        {
+          "id": "22109276045393",
+          "label": "Medium",
+          "price": 9.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:11250950796",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

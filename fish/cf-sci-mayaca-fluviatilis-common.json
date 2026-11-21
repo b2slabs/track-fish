@@ -32,6 +32,12 @@
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Mayaca Fluviatilis"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006358360380",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Mayaca Fluviatilis"
     }
   ],
   "events": [
@@ -243,6 +249,123 @@
       "type": "heartbeat",
       "listingId": "glass-aqua:7481395576918",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:10.831Z",
+      "price": 9.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49165799227682",
+          "label": "Title",
+          "price": 9.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9488872210722",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:24.660Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48324523393242",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:9425468948698",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45220062003400",
+          "label": "Title",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8344167317704",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "199466450957",
+          "label": "Lead Bunch",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "12396650430545",
+          "label": "3 Bunches + 1 Free",
+          "price": 23.97,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:28995616781",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:33.919Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45790493605974",
+          "label": "Bunch",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "45790493638742",
+          "label": "UNS Tissue Culture",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:7481395576918",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627667947836",
+          "label": "Title",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006358360380",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

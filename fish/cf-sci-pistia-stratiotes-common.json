@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pistia-stratiotes-common",
-  "commonName": "Pistia Stratiotes/ Water Lettuce",
+  "commonName": "Dwarf Water Lettuce",
   "scientificName": "Pistia stratiotes common",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Pistia Stratiotes/ Water Lettuce"
+    },
+    {
+      "listingId": "nu-aqua-shop:10110476878140",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Dwarf Water Lettuce"
     }
   ],
   "events": [
@@ -90,6 +96,60 @@
       "type": "heartbeat",
       "listingId": "buce-plant:9541168717",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39498757308518",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6664255111270",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "35342895629",
+          "label": "Floating",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:9541168717",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51952827203900",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10110476878140",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

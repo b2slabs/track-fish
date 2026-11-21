@@ -14,6 +14,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Black Skirt Tetra"
+    },
+    {
+      "listingId": "nu-aqua-shop:10354505908540",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Black Skirt Tetra"
     }
   ],
   "events": [
@@ -124,6 +130,60 @@
       "type": "heartbeat",
       "listingId": "aquahuna:4738582216779",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 3,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42250807935051",
+          "label": "Title",
+          "price": 3,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7634383274059",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 2.2,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33071507144779",
+          "label": "Title",
+          "price": 2.2,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4738582216779",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52949330952508",
+          "label": "Title",
+          "price": 2.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10354505908540",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

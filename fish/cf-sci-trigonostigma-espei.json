@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:trigonostigma-espei",
-  "commonName": "Lambchop Rasbora",
+  "commonName": "Espei Rasbora",
   "scientificName": "Trigonostigma espei",
   "listings": [
     {
@@ -26,6 +26,12 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Lambchop Rasbora"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006315893052",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Espei Rasbora"
     }
   ],
   "events": [
@@ -562,6 +568,142 @@
       "type": "heartbeat",
       "listingId": "shrimpy-business:9470962696482",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41398080716",
+          "label": "School of 3",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "15502638342",
+          "label": "School of 6",
+          "price": 22.99,
+          "available": true
+        },
+        {
+          "id": "41398122380",
+          "label": "School of 9",
+          "price": 31.99,
+          "available": true
+        },
+        {
+          "id": "15502638406",
+          "label": "School of 12",
+          "price": 39.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4740621062",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:05.027Z",
+      "price": 5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43214577139921",
+          "label": ".5\"",
+          "price": 5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7777418739921",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:08.295Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46360922783959",
+          "label": "3",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "46360922816727",
+          "label": "5",
+          "price": 29.98,
+          "available": true
+        },
+        {
+          "id": "46360922849495",
+          "label": "10",
+          "price": 49.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8920517116119",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:10.831Z",
+      "price": 12.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49112827199778",
+          "label": "3 Fish",
+          "price": 12.5,
+          "available": false
+        },
+        {
+          "id": "49112827232546",
+          "label": "6 Fish",
+          "price": 22.95,
+          "available": false
+        },
+        {
+          "id": "51662841282850",
+          "label": "12 Fish",
+          "price": 42.95,
+          "available": false
+        },
+        {
+          "id": "51662841315618",
+          "label": "24 Fish",
+          "price": 79.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9470962696482",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718432522556",
+          "label": "Single",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006315893052",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

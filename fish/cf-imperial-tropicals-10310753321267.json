@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:imperial-tropicals:10310753321267",
-  "commonName": "Marble Queen Sword (Echinodorus cordifolius \"Marble Queen\")",
+  "commonName": "Marble Queen Sword",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Marble Queen Sword (Echinodorus cordifolius \"Marble Queen\")"
+    },
+    {
+      "listingId": "nu-aqua-shop:10299598864700",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Marble Queen Sword"
     }
   ],
   "events": [
@@ -47,6 +53,43 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:10310753321267",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53660666691891",
+          "label": "1 Potted Plant",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:10310753321267",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52740101898556",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10299598864700",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

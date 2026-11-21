@@ -14,6 +14,12 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Chili Rasbora"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006314975548",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Chili Rasbora"
     }
   ],
   "events": [
@@ -107,6 +113,78 @@
       "type": "heartbeat",
       "listingId": "global-exoticquatics:8309354463424",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 3.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15774063657003",
+          "label": "Title",
+          "price": 3.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1724206874667",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:41.357Z",
+      "price": 20,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46706212634816",
+          "label": "6 Fish",
+          "price": 20,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8309354463424",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718418956604",
+          "label": "Single",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "51718418989372",
+          "label": "Group of 3",
+          "price": 12.15,
+          "available": false
+        },
+        {
+          "id": "51718419022140",
+          "label": "Group of 6",
+          "price": 21.6,
+          "available": false
+        },
+        {
+          "id": "51718419054908",
+          "label": "Group of 12",
+          "price": 40.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006314975548",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

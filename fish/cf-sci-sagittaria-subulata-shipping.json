@@ -20,6 +20,12 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Dwarf Sagittaria"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006315761980",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Dwarf Sagittaria"
     }
   ],
   "events": [
@@ -157,6 +163,89 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8398022672691",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:10.831Z",
+      "price": 8.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39899538161749",
+          "label": "Pot",
+          "price": 8.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:4791601889365",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 5.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32335417147473",
+          "label": "Title",
+          "price": 5.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4620213813329",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611840995635",
+          "label": "1 Bunch",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "53874123931955",
+          "label": "(3 Pack) 1 Bunch",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "47249867735347",
+          "label": "1 Potted Plant",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398022672691",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51627487789372",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006315761980",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

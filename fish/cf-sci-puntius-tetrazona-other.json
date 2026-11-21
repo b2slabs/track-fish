@@ -26,6 +26,12 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Tiger Barb"
+    },
+    {
+      "listingId": "nu-aqua-shop:10075573911868",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Tiger Barb"
     }
   ],
   "events": [
@@ -275,6 +281,112 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8397984858419",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39936971538507",
+          "label": "Title",
+          "price": 5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6802517098571",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 3.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15767839572011",
+          "label": "Title",
+          "price": 3.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1722586005547",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:08.295Z",
+      "price": 21.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336206311639",
+          "label": "3",
+          "price": 21.98,
+          "available": true
+        },
+        {
+          "id": "45336206344407",
+          "label": "5",
+          "price": 34.98,
+          "available": true
+        },
+        {
+          "id": "45336206377175",
+          "label": "10",
+          "price": 59.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8149531951319",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611747180851",
+          "label": "(3 Pack) 1-2\" Unsexed",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "45611747213619",
+          "label": "(10 Pack) 1-2\" Unsexed",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397984858419",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51831708352828",
+          "label": "Title",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10075573911868",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

@@ -8,6 +8,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Pictus Catfish"
+    },
+    {
+      "listingId": "nu-aqua-shop:10244494131516",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Pictus Catfish"
     }
   ],
   "events": [
@@ -47,6 +53,43 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:8807493304619",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 22.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47231958319403",
+          "label": "Title",
+          "price": 22.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8807493304619",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 12.24,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52520222622012",
+          "label": "Title",
+          "price": 12.24,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10244494131516",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

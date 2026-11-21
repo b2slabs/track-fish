@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Panda Loach"
+    },
+    {
+      "listingId": "nu-aqua-shop:10068471513404",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Panda Loach"
     }
   ],
   "events": [
@@ -64,6 +70,43 @@
       "type": "heartbeat",
       "listingId": "aquahuna:6835283099723",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 13.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40021159182411",
+          "label": "Title",
+          "price": 13.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6835283099723",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 24.75,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51809200341308",
+          "label": "Title",
+          "price": 24.75,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10068471513404",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

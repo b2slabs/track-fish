@@ -14,6 +14,12 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Red Eye Tetra"
+    },
+    {
+      "listingId": "nu-aqua-shop:10116997513532",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Red Eye Tetra"
     }
   ],
   "events": [
@@ -160,6 +166,72 @@
       "type": "heartbeat",
       "listingId": "ck-fish-world:8150005055703",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 2.7,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42176143982667",
+          "label": "Title",
+          "price": 2.7,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7608454938699",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:08.295Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45696736592087",
+          "label": "3",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45696736624855",
+          "label": "5",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45696736657623",
+          "label": "10",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150005055703",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 3.39,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51972401627452",
+          "label": "Title",
+          "price": 3.39,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10116997513532",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

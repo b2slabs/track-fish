@@ -14,6 +14,12 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Gold Ring Danio"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006316581180",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Gold Ring Danio"
     }
   ],
   "events": [
@@ -160,6 +166,84 @@
       "type": "heartbeat",
       "listingId": "ck-fish-world:9071431712983",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41939522420811",
+          "label": "Title",
+          "price": 5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7497670852683",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:08.295Z",
+      "price": 24.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47305388097751",
+          "label": "3",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "47305388130519",
+          "label": "6",
+          "price": 41.98,
+          "available": true
+        },
+        {
+          "id": "47305388163287",
+          "label": "10 (+2 Free)",
+          "price": 59.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:9071431712983",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718435406140",
+          "label": "Single",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "51718435438908",
+          "label": "Group of 3",
+          "price": 20.22,
+          "available": false
+        },
+        {
+          "id": "51718435471676",
+          "label": "Group of 6",
+          "price": 35.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006316581180",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

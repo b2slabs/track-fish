@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:corydoras-metae",
-  "commonName": "Bandit Cory Catfish (Corydoras metae) - Tank Bred",
+  "commonName": "Melni Cory",
   "scientificName": "Corydoras metae",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Bandit Cory Catfish (Corydoras metae) - Tank Bred"
+    },
+    {
+      "listingId": "nu-aqua-shop:15501386383676",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Melni Cory"
     }
   ],
   "events": [
@@ -197,6 +203,49 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:4001875263574",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53221633458543",
+          "label": "School of 3 (Locally Bred)",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "53221633491311",
+          "label": "School of 6 (Locally Bred)",
+          "price": 92.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4001875263574",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "68213816688956",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:15501386383676",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

@@ -20,6 +20,12 @@
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Brazilian Pennywort"
+    },
+    {
+      "listingId": "nu-aqua-shop:10127075737916",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Brazilian Pennywort"
     }
   ],
   "events": [
@@ -247,6 +253,83 @@
       "type": "heartbeat",
       "listingId": "daku-aquatics:8741033443546",
       "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:28:57.087Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15503289414",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4740998854",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612058968371",
+          "label": "1 Bunch",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "45612059001139",
+          "label": "1 Potted Plant",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398080672051",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:24.660Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043836612826",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741033443546",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52016138846524",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10127075737916",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

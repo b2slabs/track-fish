@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Apistogramma Macmasteri"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006354198844",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Apistogramma Macmasteri"
     }
   ],
   "events": [
@@ -64,6 +70,49 @@
       "type": "heartbeat",
       "listingId": "aquahuna:2180213506091",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 20,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "20610369126443",
+          "label": "Title",
+          "price": 20,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:2180213506091",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718403260732",
+          "label": "Single UNSEXED",
+          "price": 28.99,
+          "available": false
+        },
+        {
+          "id": "51718403293500",
+          "label": "Pair",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006354198844",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

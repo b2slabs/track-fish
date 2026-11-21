@@ -14,6 +14,12 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Snowball Shrimp"
+    },
+    {
+      "listingId": "nu-aqua-shop:10116985454908",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Snowball Shrimp"
     }
   ],
   "events": [
@@ -143,6 +149,90 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8398051246387",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:07.561Z",
+      "price": 3.63,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15746612002859",
+          "label": "Title",
+          "price": 3.63,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:948441710635",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611969020211",
+          "label": "(3 Pack) 0.25-0.75\" Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45611969052979",
+          "label": "(6 Pack) 0.25-0.75\" Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "45611969085747",
+          "label": "(12 Pack) 0.25-0.75\" Unsexed",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "45611969118515",
+          "label": "(25 Pack) 0.25-0.75\" Unsexed",
+          "price": 74.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398051246387",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52828642771260",
+          "label": "Single",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "52828642804028",
+          "label": "Group of 3",
+          "price": 23.85,
+          "available": false
+        },
+        {
+          "id": "52828642836796",
+          "label": "Group of 5",
+          "price": 36.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10116985454908",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

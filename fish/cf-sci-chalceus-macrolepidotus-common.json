@@ -8,6 +8,12 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Pink Tail Chalceus"
+    },
+    {
+      "listingId": "nu-aqua-shop:10260361806140",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Pink Tail Chalceus"
     }
   ],
   "events": [
@@ -47,6 +53,49 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8398186479923",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612304597299",
+          "label": "4-5\" Unsexed",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398186479923",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "67718481772860",
+          "label": "XL",
+          "price": 25.59,
+          "available": false
+        },
+        {
+          "id": "67718481805628",
+          "label": "Small",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10260361806140",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:gabonensis-is-from",
-  "commonName": "Vampire Shrimp",
+  "commonName": "Vampire Shrimp - L",
   "scientificName": "Gabonensis is from",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Vampire Shrimp"
+    },
+    {
+      "listingId": "nu-aqua-shop:10295121871164",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Vampire Shrimp - L"
     }
   ],
   "events": [
@@ -47,6 +53,43 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:1457636868166",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 25.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12849177329734",
+          "label": "Title",
+          "price": 25.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1457636868166",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52728173330748",
+          "label": "Title",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10295121871164",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

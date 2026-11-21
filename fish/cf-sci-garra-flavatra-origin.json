@@ -8,6 +8,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Panda Garra"
+    },
+    {
+      "listingId": "nu-aqua-shop:10171397603644",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Panda Garra"
     }
   ],
   "events": [
@@ -59,6 +65,49 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:1597262200902",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 9.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51428326244651",
+          "label": "Each",
+          "price": 9.59,
+          "available": true
+        },
+        {
+          "id": "51428326277419",
+          "label": "School of 3",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1597262200902",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52233735209276",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10171397603644",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

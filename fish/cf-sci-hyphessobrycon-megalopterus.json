@@ -8,6 +8,12 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Black Phantom Tetra"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006355050812",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Black Phantom Tetra"
     }
   ],
   "events": [
@@ -47,6 +53,55 @@
       "type": "heartbeat",
       "listingId": "flip-aquatics:6818502606950",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39914604986470",
+          "label": "Imported / 1 Fish",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6818502606950",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 1.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51684128391484",
+          "label": "Single",
+          "price": 1.5,
+          "available": false
+        },
+        {
+          "id": "51647502713148",
+          "label": "Group of 3",
+          "price": 4.05,
+          "available": false
+        },
+        {
+          "id": "51647502745916",
+          "label": "Group of 6",
+          "price": 7.65,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006355050812",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }
