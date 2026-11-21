@@ -6,6 +6,7 @@ import { ListingCard } from '@/components/ListingCard';
 import { Skeleton } from '@/components/ui/skeleton';
 import { useIndex } from '@/hooks/useIndex';
 import { useInfiniteScroll } from '@/hooks/useInfiniteScroll';
+import { categorizeListing, categoryRank } from '@/lib/categorize';
 import { groupListingsByCanonicalFish } from '@/lib/group-listings';
 
 const PAGE_SIZE = 24;
@@ -47,12 +48,28 @@ export function BrowsePage() {
   }, [index, filters.search, filters.storeSlug, filters.availability]);
 
   // One card per Canonical Fish (issue #20): group the filtered Listings by
-  // canonicalFishId, then sort groups with in-stock ones first (regardless
-  // of price direction), and within each availability tier by their
-  // representative (lowest across Stores) price.
+  // canonicalFishId, then sort groups by:
+  //   1. category tier (issue #54) — fish/livestock above plants above
+  //      everything else, derived from the group's representative Listing
+  //      since that's the same Listing already driving the card's name/
+  //      price/image. This runs ahead of availability/price so a cheap,
+  //      in-stock accessory (e.g. "Item Customizations" $0.01) can never
+  //      outrank a genuine fish the way it could before this sort key
+  //      existed.
+  //   2. in-stock first (regardless of price direction) within a tier,
+  //   3. representative (lowest across Stores) price within an
+  //      availability tier.
+  // This same pipeline runs for both the default browse order and search
+  // results, since search only affects `filteredListings` upstream — so
+  // tiering applies identically either way.
   const groups = useMemo(() => {
     const grouped = groupListingsByCanonicalFish(filteredListings);
     return grouped.sort((a, b) => {
+      const rankDiff =
+        categoryRank(categorizeListing(a.representative)) - categoryRank(categorizeListing(b.representative));
+      if (rankDiff !== 0) {
+        return rankDiff;
+      }
       if (a.available !== b.available) {
         return a.available ? -1 : 1;
       }
