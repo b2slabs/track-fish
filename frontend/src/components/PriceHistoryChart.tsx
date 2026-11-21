@@ -714,12 +714,6 @@ function SingleStoreRangeBarChart({
   return (
     <div className="w-full">
       <RangeBarChart bars={bars} axisCurrency={listing.currency} />
-      <p className="mt-2 text-xs text-muted-foreground">
-        Each mark spans {listing.storeName}&apos;s lowest to highest priced variant at that time;
-        the dot marks the average. Hover a mark for every variant&apos;s own price — a
-        struck-through variant was out of stock at that time. A variant priced $0.00 is treated
-        as sold out, not a real price, and is left out of the mark.
-      </p>
     </div>
   );
 }
@@ -767,11 +761,6 @@ function UnifiedRangeBarChart({ events, listings }: { events: HistoryEvent[]; li
             </span>
           ))}
         </div>
-        <p>
-          Each mark spans a Store&apos;s lowest to highest priced variant at that time; the dot
-          marks the average. Hover a mark for every variant&apos;s own price — a
-          struck-through variant was out of stock at that time.
-        </p>
         {currencies.size > 1 && (
           <p>
             Stores shown price in different currencies — the axis is approximate; hover a mark
