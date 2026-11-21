@@ -84,6 +84,83 @@ test('fuzzy matching ignores candidates whose only Listings are from the same St
   assert.equal(result.canonicalFishId, 'cf:aquatic-arts:1');
 });
 
+test('issue #16: a confident fuzzy common-name match reconciles two different extracted scientific names (vendor synonym) into the already-established group', () => {
+  const context = buildMatchContext('nationwide-aquatics-usa', [
+    existingListing({
+      canonicalFishId: 'cf:sci:corydoras-hastatus',
+      storeSlug: 'aquatic-arts',
+      commonName: 'Tail Spot Pygmy Cory (Corydoras hastatus) - Tank Bred',
+    }),
+  ], []);
+  const result = matchCanonicalFish(
+    { productIdentifier: '1', commonName: 'Tail Spot Pygmy Cory (Gastrodermus hastatus)', description: '' },
+    context
+  );
+  assert.equal(result.status, 'fuzzy-auto');
+  assert.equal(result.canonicalFishId, 'cf:sci:corydoras-hastatus');
+  // The (differing) extracted scientific name is still reported, e.g. for
+  // history bookkeeping, even though it didn't decide the final id.
+  assert.equal(result.scientificName, 'Gastrodermus hastatus');
+});
+
+test('issue #16: a scientific name with no rival fuzzy candidate is unaffected -- still deterministic', () => {
+  const context = buildMatchContext('aquatic-arts', [], []);
+  const result = matchCanonicalFish(
+    { productIdentifier: '1', commonName: 'Phoenix Rasbora (Boraras merah)', description: '' },
+    context
+  );
+  assert.equal(result.status, 'scientific-name');
+  assert.equal(result.canonicalFishId, 'cf:sci:boraras-merah');
+});
+
+test('issue #16: a mid-confidence rival fuzzy candidate against a scientific-name match is flagged ambiguous, not silently overridden', () => {
+  const context = buildMatchContext('monster-aquarium', [
+    existingListing({
+      canonicalFishId: 'cf:aquatic-arts:9',
+      storeSlug: 'aquatic-arts',
+      commonName: 'Blue Cobalt Discus',
+    }),
+  ], []);
+  const result = matchCanonicalFish(
+    { productIdentifier: '1', commonName: 'Blue Diamond Discus (Symphysodon aequifasciatus)', description: '' },
+    context
+  );
+  assert.equal(result.status, 'ambiguous');
+  // Stays on its own scientific-name id -- a mid-confidence rival isn't
+  // confident enough to override a deterministic signal outright.
+  assert.equal(result.canonicalFishId, 'cf:sci:symphysodon-aequifasciatus');
+  assert.equal(result.ambiguousCandidate?.canonicalFishId, 'cf:aquatic-arts:9');
+});
+
+test('issue #16 regression: an already cross-store-established scientific-name id is NOT hijacked by a same-scoring fuzzy rival', () => {
+  // Real production scenario this guards against: "Phoenix Rasbora
+  // (Boraras merah)" Listings with a clean, title-parenthetical
+  // scientific name were getting pulled into a completely different,
+  // already-corrupted "cf:sci:boraras-merah-we" group (itself created by
+  // a mis-extraction bug on an unrelated Store's Listing) purely because
+  // that corrupted group happened to iterate first and tie at the same
+  // fuzzy score. Once a Canonical Fish id already has independent
+  // cross-store corroboration under its own slug, a rival must not win.
+  const context = buildMatchContext('aquatic-arts', [
+    existingListing({
+      canonicalFishId: 'cf:sci:boraras-merah',
+      storeSlug: 'monster-aquarium',
+      commonName: 'Phoenix Rasbora (Boraras merah)',
+    }),
+    existingListing({
+      canonicalFishId: 'cf:sci:boraras-merah-we',
+      storeSlug: 'aquahuna',
+      commonName: 'Phoenix Rasbora',
+    }),
+  ], []);
+  const result = matchCanonicalFish(
+    { productIdentifier: '1', commonName: 'Phoenix Rasbora (Boraras merah)', description: '' },
+    context
+  );
+  assert.equal(result.status, 'scientific-name');
+  assert.equal(result.canonicalFishId, 'cf:sci:boraras-merah');
+});
+
 test('no scientific name and no fuzzy candidate falls back to the trivial per-Listing id', () => {
   const context = buildMatchContext('aquatic-arts', [], []);
   const result = matchCanonicalFish(

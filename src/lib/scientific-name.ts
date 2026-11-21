@@ -31,16 +31,37 @@ const STOPWORDS = new Set([
   'colors', 'colour', 'colours', 'variety', 'pattern', 'patterns', 'type',
   'types', 'default', 'title', 'option', 'one', 'live', 'arrival',
   'guarantee', 'shipping', 'sold', 'packs', 'multiples', 'rare', 'new',
+  'from', 'origin',
 ]);
 
 // A binomial-looking fragment: a capitalized genus word, then either the
 // literal "sp." (an undescribed/unspecified species within a genus — a
 // legitimate scientific-name convention) or a lowercase species word,
 // optionally followed by a third lowercase word (subspecies/variety).
+//
+// The genus/species/subspecies slots are deliberately case-sensitive
+// (capital genus, lowercase rest) even where this pattern is embedded in
+// an otherwise case-insensitive match (see `matchLabeledBinomial`): many
+// Store descriptions follow a "Scientific Name: <name> <Next Label>..."
+// or "Scientific Name: <name> <Next sentence>..." shape with no
+// separating punctuation, e.g. "Scientific Name: Corydoras Aeneus From
+// our tank to your tank!" or "...Corydoras pygmaeus Origin Brazil...". A
+// case-insensitive third-word slot would swallow that next capitalized
+// word ("From", "Origin") as if it were a lowercase subspecies/variety
+// epithet, producing a corrupted name ("Corydoras aeneus from") that
+// then permanently diverges from the correctly-extracted "Corydoras
+// aeneus" for the same product on another Store (see issue #16). Real
+// subspecies/variety epithets are conventionally all-lowercase, so
+// case-sensitivity here is the biologically-accurate assumption, not
+// just a workaround.
 const BINOMIAL = /([A-Z][a-z]{2,})\s+(sp\.|[a-z]{2,})(?:\s+([a-z]{2,}))?/;
 
 const PARENTHETICAL_BINOMIAL = new RegExp(`\\(\\s*${BINOMIAL.source}\\s*\\)`);
-const LABELED_BINOMIAL = new RegExp(`scientific\\s*name\\s*[:\\-]?\\s*${BINOMIAL.source}`, 'i');
+// Only the label text itself ("scientific name:") is case-insensitive —
+// the binomial that follows it is matched by the case-sensitive BINOMIAL
+// pattern above, via `matchLabeledBinomial`.
+const LABEL_PREFIX = /scientific\s*name\s*[:\-]?\s*/i;
+const ANCHORED_BINOMIAL = new RegExp(`^${BINOMIAL.source}`);
 
 function isPlausible(genus: string, species: string): boolean {
   const g = genus.toLowerCase();
@@ -53,7 +74,12 @@ function isPlausible(genus: string, species: string): boolean {
 
 function normalizeMatch(genus: string, species: string, subspecies?: string): string {
   const parts = [capitalize(genus), species.toLowerCase()];
-  if (subspecies) {
+  // A subspecies/variety word that is itself a stopword (e.g. a stray
+  // "from"/"origin" that slipped past the case-sensitivity guard above,
+  // or genuinely all-lowercase in the source text) is dropped rather
+  // than invalidating the whole match -- the genus+species pair is still
+  // a confident result on its own (see issue #16).
+  if (subspecies && !STOPWORDS.has(subspecies.toLowerCase())) {
     parts.push(subspecies.toLowerCase());
   }
   return parts.join(' ');
@@ -81,12 +107,31 @@ export function extractScientificName(listing: { commonName: string; description
     return fromTitle;
   }
 
-  const fromLabel = matchBinomial(listing.description, LABELED_BINOMIAL);
+  const fromLabel = matchLabeledBinomial(listing.description);
   if (fromLabel) {
     return fromLabel;
   }
 
   return matchBinomial(listing.description, PARENTHETICAL_BINOMIAL);
+}
+
+/**
+ * Finds a case-insensitive "scientific name:" label anywhere in `text`,
+ * then matches the case-sensitive BINOMIAL pattern immediately after it.
+ * Kept separate from `matchBinomial` because only the label text should
+ * be case-insensitive -- the binomial itself must stay case-sensitive
+ * (see the comment above `BINOMIAL`).
+ */
+function matchLabeledBinomial(text: string): string | null {
+  if (!text) {
+    return null;
+  }
+  const labelMatch = text.match(LABEL_PREFIX);
+  if (!labelMatch || labelMatch.index === undefined) {
+    return null;
+  }
+  const rest = text.slice(labelMatch.index + labelMatch[0].length);
+  return matchBinomial(rest, ANCHORED_BINOMIAL);
 }
 
 function matchBinomial(text: string, pattern: RegExp): string | null {

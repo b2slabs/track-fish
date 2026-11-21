@@ -129,6 +129,127 @@ test('an ambiguous cross-store match is recorded in pending-matches.json, not au
   });
 });
 
+test('issue #16: "Albino Cory" merges into one Canonical Fish across three real Stores despite mixed scientific-name extraction (vendor miscapitalization, a missed description pattern, and a correct extraction)', () => {
+  withTempDataDir((dataDir) => {
+    const storeAquariumFish: StoreConfig = { name: 'Aquarium Co-Op', slug: 'aquarium-fish', domain: 'aquariumcoop.com', platform: 'shopify' };
+    const storeAquaHuna: StoreConfig = { name: 'AquaHuna', slug: 'aquahuna', domain: 'aquahuna.com', platform: 'shopify' };
+    const storeCkFishWorld: StoreConfig = { name: 'CK Fish World', slug: 'ck-fish-world', domain: 'ckfishworld.com', platform: 'shopify' };
+
+    // aquarium-fish: a correctly-cased "Scientific Name" label -> extracts cleanly.
+    const aquariumFishRaw = rawProduct(1, 'Albino Cory', '3.00');
+    (aquariumFishRaw.products[0] as { body_html: string }).body_html =
+      'Quick Facts Scientific Name Corydoras aeneus (albino variety) Origin Captive-bred Care Level Easy, good for beginners.';
+    processStoreRun({ store: storeAquariumFish, rawData: aquariumFishRaw, dataDir, now: new Date('2026-11-18T00:00:00.000Z') });
+
+    // aquahuna: real-world description shape "Scientific Name: Corydoras
+    // Aeneus From our tank..." -- vendor capitalized the species, so
+    // extraction yields nothing and this Listing must fall back to fuzzy
+    // common-name matching against aquarium-fish's "Albino Cory".
+    const aquahunaRaw = rawProduct(2, 'Albino Cory', '4.00');
+    (aquahunaRaw.products[0] as { body_html: string }).body_html =
+      'Scientific Name: Corydoras Aeneus From our tank to your tank! We have mastered the art of keeping aquatic life.';
+    processStoreRun({ store: storeAquaHuna, rawData: aquahunaRaw, dataDir, now: new Date('2026-11-18T00:00:01.000Z') });
+
+    // ck-fish-world: a parenthetical binomial broken up by "var." -- the
+    // extractor's parenthetical pattern doesn't match it either, so this
+    // also falls back to fuzzy common-name matching.
+    const ckRaw = rawProduct(3, 'Albino Cory', '5.00');
+    (ckRaw.products[0] as { body_html: string }).body_html =
+      'The Albino Corydora ( Corydoras aeneus var. albino ) is a small, peaceful freshwater catfish.';
+    processStoreRun({ store: storeCkFishWorld, rawData: ckRaw, dataDir, now: new Date('2026-11-18T00:00:02.000Z') });
+
+    const index = readIndexFile(dataDir);
+    const a = index.listings.find((l) => l.listingId === 'aquarium-fish:1')!;
+    const b = index.listings.find((l) => l.listingId === 'aquahuna:2')!;
+    const c = index.listings.find((l) => l.listingId === 'ck-fish-world:3')!;
+
+    assert.equal(a.canonicalFishId, 'cf:sci:corydoras-aeneus');
+    assert.equal(b.canonicalFishId, a.canonicalFishId);
+    assert.equal(c.canonicalFishId, a.canonicalFishId);
+
+    const history = readHistoryFile(dataDir, a.canonicalFishId) as CanonicalFishHistory;
+    const storeSlugs = history.listings.map((l) => l.storeSlug).sort();
+    assert.deepEqual(storeSlugs, ['aquahuna', 'aquarium-fish', 'ck-fish-world']);
+  });
+});
+
+test('issue #16: "Tail Spot Pygmy Cory" merges across two Stores despite a vendor-specific genus synonym ("Gastrodermus" vs "Corydoras")', () => {
+  withTempDataDir((dataDir) => {
+    const storeAquaticArts: StoreConfig = { name: 'Aquatic Arts', slug: 'aquatic-arts', domain: 'aquaticarts.com', platform: 'shopify' };
+    const storeNationwide: StoreConfig = { name: 'Nationwide Aquatics USA', slug: 'nationwide-aquatics-usa', domain: 'nationwideaquaticsusa.com', platform: 'shopify' };
+
+    processStoreRun({
+      store: storeAquaticArts,
+      rawData: rawProduct(1, 'Tail Spot Pygmy Cory (Corydoras hastatus) - Tank Bred', '6.00'),
+      dataDir,
+      now: new Date('2026-11-18T00:00:00.000Z'),
+    });
+    processStoreRun({
+      store: storeNationwide,
+      rawData: rawProduct(2, 'Tail Spot Pygmy Cory (Gastrodermus hastatus)', '7.00'),
+      dataDir,
+      now: new Date('2026-11-18T00:00:01.000Z'),
+    });
+
+    const index = readIndexFile(dataDir);
+    const a = index.listings.find((l) => l.listingId === 'aquatic-arts:1')!;
+    const b = index.listings.find((l) => l.listingId === 'nationwide-aquatics-usa:2')!;
+
+    assert.equal(a.canonicalFishId, 'cf:sci:corydoras-hastatus');
+    assert.equal(b.canonicalFishId, a.canonicalFishId);
+
+    const history = readHistoryFile(dataDir, a.canonicalFishId) as CanonicalFishHistory;
+    assert.equal(history.listings.length, 2);
+  });
+});
+
+test('issue #16 regression: a cross-store-established scientific-name group is not hijacked by an unrelated corrupted rival sharing the same generic wording', () => {
+  withTempDataDir((dataDir) => {
+    const storeMonster: StoreConfig = { name: 'Monster Aquarium', slug: 'monster-aquarium', domain: 'monsteraquariumon9.com', platform: 'shopify' };
+    const storeAquaHuna: StoreConfig = { name: 'AquaHuna', slug: 'aquahuna', domain: 'aquahuna.com', platform: 'shopify' };
+    const storeAquaticArts: StoreConfig = { name: 'Aquatic Arts', slug: 'aquatic-arts', domain: 'aquaticarts.com', platform: 'shopify' };
+
+    // monster-aquarium: clean title-parenthetical extraction establishes
+    // the correct cf:sci:boraras-merah group first.
+    processStoreRun({
+      store: storeMonster,
+      rawData: rawProduct(1, 'Phoenix Rasbora (Boraras merah)', '5.00'),
+      dataDir,
+      now: new Date('2026-11-18T00:00:00.000Z'),
+    });
+
+    // aquahuna: no scientific name extracted at all (bare title, no
+    // description) -- falls back to fuzzy common-name matching and
+    // establishes an unrelated, lower-fidelity group under its own
+    // trivial id (no rival exists yet to merge into).
+    processStoreRun({
+      store: storeAquaHuna,
+      rawData: rawProduct(2, 'Phoenix Rasbora', '6.00'),
+      dataDir,
+      now: new Date('2026-11-18T00:00:01.000Z'),
+    });
+
+    // aquatic-arts: also a clean title-parenthetical extraction for the
+    // same species. Even though aquahuna's bare "Phoenix Rasbora" ties at
+    // the same fuzzy score, this Listing's own cf:sci:boraras-merah id
+    // already has cross-store corroboration (monster-aquarium) and must
+    // win -- it must NOT be redirected onto aquahuna's trivial id.
+    processStoreRun({
+      store: storeAquaticArts,
+      rawData: rawProduct(3, 'Phoenix Rasbora (Boraras merah)', '7.00'),
+      dataDir,
+      now: new Date('2026-11-18T00:00:02.000Z'),
+    });
+
+    const index = readIndexFile(dataDir);
+    const monster = index.listings.find((l) => l.listingId === 'monster-aquarium:1')!;
+    const arts = index.listings.find((l) => l.listingId === 'aquatic-arts:3')!;
+
+    assert.equal(monster.canonicalFishId, 'cf:sci:boraras-merah');
+    assert.equal(arts.canonicalFishId, 'cf:sci:boraras-merah');
+  });
+});
+
 test('history is preserved, not lost or duplicated, when a Listing is repointed to a merged Canonical Fish on a later run', () => {
   withTempDataDir((dataDir) => {
     // Run 1: Store A's Listing has no scientific name yet -- gets a trivial id.

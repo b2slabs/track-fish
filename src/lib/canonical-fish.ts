@@ -11,8 +11,7 @@ import { commonNameSimilarity, tokenize } from './fuzzy-match.js';
 /**
  * Cross-store Canonical Fish matching (see issue #3 and
  * `docs/adr/0002-canonical-fish-is-species-level.md`): a hybrid of three
- * signals, tried in order, each one only reached if the one before it
- * didn't apply —
+ * signals —
  *
  *   1. A maintainer override (`src/config/canonical-fish-overrides.ts`)
  *      always wins — it resolves whatever the automatic signals below
@@ -22,16 +21,45 @@ import { commonNameSimilarity, tokenize } from './fuzzy-match.js';
  *      Canonical Fish id is derived directly from the normalized name
  *      (`cf:sci:<slug>`), so any two Listings — same Store or different
  *      Stores, any processing order — land on the same id without a
- *      lookup. This is deliberately not size/grade-aware (ADR 0002):
- *      two Listings of the same species at different sizes still share
- *      one Canonical Fish.
+ *      lookup, *provided they extracted the same name*. This is
+ *      deliberately not size/grade-aware (ADR 0002): two Listings of the
+ *      same species at different sizes still share one Canonical Fish.
  *   3. Fuzzy common-name matching against Listings already known from a
  *      *different* Store (see `fuzzy-match.ts`). A high-confidence match
  *      auto-merges; a mid-confidence one is "ambiguous" and is
  *      deliberately NOT auto-merged — it falls back to this Listing's
- *      own trivial id, with the candidate recorded in
- *      `pending-matches.json` for a maintainer to resolve via an
- *      override.
+ *      own id, with the candidate recorded in `pending-matches.json` for
+ *      a maintainer to resolve via an override.
+ *
+ * Signal 2 is deterministic but not infallible: two Stores can describe
+ * the same species with two different extracted names — a vendor-specific
+ * synonym, an outdated genus, a typo — that will never collide as the
+ * same slug. Left alone, that would permanently fork one species into two
+ * never-reconciled Canonical Fish entries (see issue #16: "Tail Spot
+ * Pygmy Cory (Gastrodermus hastatus)" vs "... (Corydoras hastatus)").
+ * So signal 3 is *also* checked when a scientific name was found: if the
+ * best fuzzy common-name candidate belongs to an already-established,
+ * different Canonical Fish and is confident enough, that existing group
+ * wins over minting a fresh `cf:sci:<slug>` id.
+ *
+ * That reconciliation is deliberately guarded by one more condition: it
+ * only fires when this Listing's *own* `cf:sci:<slug>` id has no existing
+ * cross-store members yet. Without that guard, a brand-new, correctly-
+ * extracted scientific name can be hijacked away from its own (legitimate,
+ * about-to-be-established) group into an unrelated, already-larger rival
+ * group purely because of an incidental fuzzy-score tie — which is exactly
+ * what happened chasing issue #16 in practice: "Phoenix Rasbora (Boraras
+ * merah)" Listings with a clean, title-parenthetical scientific name were
+ * getting pulled into a completely different, already-corrupted
+ * `cf:sci:boraras-merah-we` group (itself the product of the very
+ * mis-extraction bug this fix addresses, from a different Store's
+ * unrelated Listing) rather than keeping their own correct
+ * `cf:sci:boraras-merah` — simply because that corrupted group happened
+ * to iterate first and tie at the same score. Once a `cf:sci:<slug>` id
+ * already has independent cross-store corroboration, it is strong enough
+ * evidence of its own correctness that a same-wording rival must not be
+ * allowed to override it; only a *fresh* slug with no such corroboration
+ * (the genuine vendor-synonym case) defers to a confident fuzzy rival.
  *
  * A Listing that matches none of the above keeps the trivial,
  * single-Listing `cf:${storeSlug}:${productIdentifier}` id it always
@@ -66,6 +94,10 @@ export interface MatchContext {
   storeSlug: string;
   overridesByListingId: Map<string, string>;
   candidatesByToken: Map<string, FuzzyCandidate[]>;
+  /** Every Canonical Fish id that already has cross-store corroboration
+   * (see `buildMatchContext`) — used to guard against a fuzzy rival
+   * hijacking an already-established `cf:sci:<slug>` group. */
+  candidateIds: Set<string>;
 }
 
 /** A fuzzy-match score of this or higher auto-merges into the candidate. */
@@ -106,12 +138,14 @@ export function buildMatchContext(
   }
 
   const candidatesByToken = new Map<string, FuzzyCandidate[]>();
+  const candidateIds = new Set<string>();
   for (const [canonicalFishId, commonNames] of commonNamesById) {
     const storeSlugs = storeSlugsById.get(canonicalFishId)!;
     const isCrossStoreCandidate = [...storeSlugs].some((slug) => slug !== storeSlug);
     if (!isCrossStoreCandidate) {
       continue;
     }
+    candidateIds.add(canonicalFishId);
     const candidate: FuzzyCandidate = { canonicalFishId, commonNames: [...commonNames] };
     const tokens = new Set(candidate.commonNames.flatMap(tokenize));
     for (const token of tokens) {
@@ -121,7 +155,7 @@ export function buildMatchContext(
     }
   }
 
-  return { storeSlug, overridesByListingId, candidatesByToken };
+  return { storeSlug, overridesByListingId, candidatesByToken, candidateIds };
 }
 
 export function matchCanonicalFish(
@@ -132,21 +166,47 @@ export function matchCanonicalFish(
   const listingId = `${storeSlug}:${parsed.productIdentifier}`;
   const trivialCanonicalFishId = `cf:${listingId}`;
   const scientificName = extractScientificName(parsed);
+  const sciCanonicalFishId = scientificName ? `cf:sci:${scientificNameSlug(scientificName)}` : null;
 
   const override = context.overridesByListingId.get(listingId);
   if (override) {
     return { canonicalFishId: override, status: 'override', scientificName };
   }
 
-  if (scientificName) {
-    return {
-      canonicalFishId: `cf:sci:${scientificNameSlug(scientificName)}`,
-      status: 'scientific-name',
-      scientificName,
-    };
+  const best = findBestFuzzyCandidate(parsed.commonName, context);
+
+  if (sciCanonicalFishId) {
+    // Only defer to a fuzzy rival when this Listing's own scientific-name
+    // id has no existing cross-store corroboration yet -- see the module
+    // doc for why an already-established id must not be hijacked by a
+    // same-scoring rival.
+    const ownIdAlreadyEstablished = context.candidateIds.has(sciCanonicalFishId);
+    const rival =
+      !ownIdAlreadyEstablished && best && best.candidate.canonicalFishId !== sciCanonicalFishId ? best : undefined;
+
+    if (rival && rival.score >= AUTO_MERGE_THRESHOLD) {
+      return { canonicalFishId: rival.candidate.canonicalFishId, status: 'fuzzy-auto', scientificName };
+    }
+    if (rival && rival.score >= AMBIGUOUS_THRESHOLD) {
+      // Confident enough to flag, not confident enough to override a
+      // deterministic signal outright -- stays on its own scientific-name
+      // id, with the rival recorded for a maintainer.
+      return {
+        canonicalFishId: sciCanonicalFishId,
+        status: 'ambiguous',
+        scientificName,
+        ambiguousCandidate: {
+          canonicalFishId: rival.candidate.canonicalFishId,
+          commonName: rival.candidate.commonNames[0],
+          score: rival.score,
+        },
+      };
+    }
+    return { canonicalFishId: sciCanonicalFishId, status: 'scientific-name', scientificName };
   }
 
-  const best = findBestFuzzyCandidate(parsed.commonName, context);
+  // No scientific name at all -- plain fuzzy common-name matching, same
+  // as before issue #16.
   if (best && best.score >= AUTO_MERGE_THRESHOLD) {
     return { canonicalFishId: best.candidate.canonicalFishId, status: 'fuzzy-auto', scientificName: null };
   }
