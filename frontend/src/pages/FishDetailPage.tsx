@@ -1,4 +1,5 @@
 import { ArrowLeft } from 'lucide-react';
+import { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { LastUpdated } from '@/components/LastUpdated';
 import { PriceHistoryChart } from '@/components/PriceHistoryChart';
@@ -26,6 +27,13 @@ export function FishDetailPage() {
   // Use whichever Listing has an image for the header; all share one species.
   const primary = listings.find((l) => l.imageUrl) ?? listings[0];
   const loading = indexLoading || historyLoading;
+
+  useEffect(() => {
+    document.title = primary ? `${primary.commonName} - Track Fish` : 'Track Fish';
+    return () => {
+      document.title = 'Track Fish';
+    };
+  }, [primary]);
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8">
