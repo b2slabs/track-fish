@@ -88,6 +88,12 @@ const stores = [
     slug: 'nu-aqua-shop',
     domain: 'nuaquashop.com',
     platform: 'shopify'
+  },
+  {
+    name: "Dan's Fish",
+    slug: 'dans-fish',
+    domain: 'dansfish.com',
+    platform: 'shopify'
   }
 ];
 
