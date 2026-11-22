@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:betta-splendens:crowntail",
-  "commonName": "Betta Crowntail Male",
+  "commonName": "Crowntail Betta",
   "scientificName": "Betta splendens",
   "listings": [
     {
@@ -15,7 +15,7 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Crowntail Betta",
-      "lastCheckedAt": "2026-11-22T16:05:48.473Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "nu-aqua-shop:10276794106172",
@@ -59,6 +59,47 @@
       ],
       "listingId": "aquahuna:1710181089323",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 24.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50601766256930",
+          "label": "Title",
+          "price": 24.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9946197131554",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-02-23T03:00:00.000Z",
+      "price": 24.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50601766256930",
+          "label": "Title",
+          "price": 24.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9946197131554",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-20T06:14:42.593Z",

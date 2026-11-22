@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:bacopa-monnieri",
-  "commonName": "Bacopa Monnieri",
+  "commonName": "Moneywort (Bacopa monnieri)",
   "scientificName": "Bacopa monnieri",
   "listings": [
     {
@@ -8,7 +8,7 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Moneywort (Bacopa monnieri)",
-      "lastCheckedAt": "2026-11-22T16:05:48.473Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "imperial-tropicals:8398000521523",
@@ -61,6 +61,26 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-10T07:00:00.000Z",
+      "price": 7.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67709056975138",
+          "label": "Title",
+          "price": 7.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:15399521517858",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 6.29,

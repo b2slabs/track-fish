@@ -8,10 +8,48 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Cleanup Crew Bundle",
-      "lastCheckedAt": "2026-11-22T16:05:48.473Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-08-22T02:00:00.000Z",
+      "price": 54.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52254110777634",
+          "label": "1 Pack",
+          "price": 54.95,
+          "available": true
+        },
+        {
+          "id": "52254110810402",
+          "label": "2 Pack",
+          "price": 98.95,
+          "available": true
+        },
+        {
+          "id": "52254110843170",
+          "label": "4 Pack",
+          "price": 186.95,
+          "available": true
+        },
+        {
+          "id": "52254110875938",
+          "label": "8 Pack",
+          "price": 351.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:10441115959586",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 54.95,

@@ -9,9 +9,42 @@
       "storeName": "Buce Plant",
       "commonName": "Qanvee Sponge Filter",
       "lastCheckedAt": "2026-11-22T16:06:30.023Z"
+    },
+    {
+      "listingId": "shrimpy-business:6699773886549",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Qanvee Sponge Filter",
+      "lastCheckedAt": "2026-05-05T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 15.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39872201097301",
+          "label": "QS-100A",
+          "price": 15.95,
+          "available": false
+        },
+        {
+          "id": "39872201130069",
+          "label": "QS-200A",
+          "price": 19.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6699773886549",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 14.99,

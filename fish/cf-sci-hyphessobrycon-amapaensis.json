@@ -15,7 +15,7 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Amapa Tetra",
-      "lastCheckedAt": "2026-11-22T16:05:48.473Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "nu-aqua-shop:10016447201596",
@@ -47,6 +47,32 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 45.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49245322051874",
+          "label": "3 Fish",
+          "price": 45.5,
+          "available": false
+        },
+        {
+          "id": "49245322084642",
+          "label": "6 Fish",
+          "price": 84.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9516476203298",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-02-27T03:00:00.000Z",
       "price": 44.99,
@@ -153,6 +179,82 @@
       ],
       "listingId": "aquatic-arts:14896622829935",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-05-23T04:00:00.000Z",
+      "price": 45.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49245322051874",
+          "label": "3 Fish",
+          "price": 45.5,
+          "available": false
+        },
+        {
+          "id": "49245322084642",
+          "label": "6 Fish",
+          "price": 84.5,
+          "available": false
+        },
+        {
+          "id": "51662839644450",
+          "label": "12 Fish",
+          "price": 154.95,
+          "available": false
+        },
+        {
+          "id": "51662839677218",
+          "label": "24 Fish",
+          "price": 290.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9516476203298",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-06-03T05:00:00.000Z",
+      "price": 45.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49245322051874",
+          "label": "3 Fish",
+          "price": 45.5,
+          "available": false
+        },
+        {
+          "id": "49245322084642",
+          "label": "6 Fish",
+          "price": 81.95,
+          "available": false
+        },
+        {
+          "id": "51662839644450",
+          "label": "12 Fish",
+          "price": 154.95,
+          "available": false
+        },
+        {
+          "id": "51662839677218",
+          "label": "24 Fish",
+          "price": 290.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9516476203298",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-06-16T06:00:00.000Z",

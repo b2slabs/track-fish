@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:caridina-multidentata:yellow",
-  "commonName": "Lemon Yellow Amano Shrimp, (4 pack)",
+  "commonName": "Yellow Amano Shrimp",
   "scientificName": "Caridina multidentata",
   "listings": [
     {
@@ -8,7 +8,7 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Yellow Amano Shrimp",
-      "lastCheckedAt": "2026-11-22T16:05:48.473Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "aquatic-arts:9622486712599",
@@ -26,6 +26,135 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 34.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50568228438306",
+          "label": "5 Shrimp",
+          "price": 34.95,
+          "available": true
+        },
+        {
+          "id": "50568228471074",
+          "label": "10 Shrimp",
+          "price": 64.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9934568161570",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-02-15T03:00:00.000Z",
+      "price": 34.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50568228438306",
+          "label": "5 Shrimp",
+          "price": 34.95,
+          "available": false
+        },
+        {
+          "id": "50568228471074",
+          "label": "10 Shrimp",
+          "price": 64.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9934568161570",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-05-23T04:00:00.000Z",
+      "price": 34.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50568228438306",
+          "label": "5 Shrimp",
+          "price": 34.95,
+          "available": false
+        },
+        {
+          "id": "50568228471074",
+          "label": "10 Shrimp",
+          "price": 64.95,
+          "available": false
+        },
+        {
+          "id": "51662833254690",
+          "label": "20 Shrimp",
+          "price": 118.95,
+          "available": false
+        },
+        {
+          "id": "51662833287458",
+          "label": "40 Shrimp",
+          "price": 223.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9934568161570",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-06-03T05:00:00.000Z",
+      "price": 34.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50568228438306",
+          "label": "5 Shrimp",
+          "price": 34.95,
+          "available": false
+        },
+        {
+          "id": "50568228471074",
+          "label": "10 Shrimp",
+          "price": 62.95,
+          "available": false
+        },
+        {
+          "id": "51662833254690",
+          "label": "20 Shrimp",
+          "price": 118.95,
+          "available": false
+        },
+        {
+          "id": "51662833287458",
+          "label": "40 Shrimp",
+          "price": 223.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9934568161570",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 8.99,

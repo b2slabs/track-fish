@@ -22,7 +22,7 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Christmas Moss",
-      "lastCheckedAt": "2026-11-22T16:05:48.473Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "flip-aquatics:6663824605286",
@@ -121,6 +121,32 @@
       "storeSlug": "ck-fish-world"
     },
     {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45120312312098",
+          "label": "Golf Ball Size",
+          "price": 5.5,
+          "available": true
+        },
+        {
+          "id": "45120312344866",
+          "label": "3 x Golf Ball Size",
+          "price": 14.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:8266004431138",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-01-30T03:00:00.000Z",
       "price": 7,
       "currency": "USD",
@@ -205,6 +231,85 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-02-09T03:00:00.000Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45120312312098",
+          "label": "Golf Ball Size",
+          "price": 5.5,
+          "available": true
+        },
+        {
+          "id": "45120312344866",
+          "label": "3 x Golf Ball Size",
+          "price": 14.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:8266004431138",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-02-11T03:00:00.000Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45120312312098",
+          "label": "Golf Ball Size",
+          "price": 5.5,
+          "available": true
+        },
+        {
+          "id": "45120312344866",
+          "label": "3 x Golf Ball Size",
+          "price": 14.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:8266004431138",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-02-19T03:00:00.000Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45120312312098",
+          "label": "Golf Ball Size",
+          "price": 5.5,
+          "available": false
+        },
+        {
+          "id": "45120312344866",
+          "label": "3 x Golf Ball Size",
+          "price": 14.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:8266004431138",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-02-21T03:00:00.000Z",
       "price": 7,
       "currency": "USD",
@@ -245,6 +350,33 @@
       ],
       "listingId": "aquahuna:7127254696011",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-02-25T03:00:00.000Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45120312312098",
+          "label": "Golf Ball Size",
+          "price": 5.5,
+          "available": true
+        },
+        {
+          "id": "45120312344866",
+          "label": "3 x Golf Ball Size",
+          "price": 14.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:8266004431138",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-03-02T03:00:00.000Z",
@@ -434,6 +566,60 @@
       ],
       "listingId": "aquahuna:7127254696011",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-04-13T04:00:00.000Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45120312312098",
+          "label": "Golf Ball Size",
+          "price": 5.5,
+          "available": false
+        },
+        {
+          "id": "45120312344866",
+          "label": "3 x Golf Ball Size",
+          "price": 14.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:8266004431138",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-04-23T03:00:00.000Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45120312312098",
+          "label": "Golf Ball Size",
+          "price": 5.5,
+          "available": true
+        },
+        {
+          "id": "45120312344866",
+          "label": "3 x Golf Ball Size",
+          "price": 14.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:8266004431138",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-04-28T04:00:00.000Z",
@@ -793,6 +979,32 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-08-28T12:00:00.000Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45120312312098",
+          "label": "Golf Ball Size",
+          "price": 5.5,
+          "available": true
+        },
+        {
+          "id": "45120312344866",
+          "label": "3 x Golf Ball Size",
+          "price": 14.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:8266004431138",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-08-31T06:00:00.000Z",
       "price": 7,
       "currency": "USD",
@@ -833,6 +1045,86 @@
       ],
       "listingId": "aquahuna:7127254696011",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-09-03T04:00:00.000Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45120312312098",
+          "label": "Golf Ball Size",
+          "price": 5.5,
+          "available": true
+        },
+        {
+          "id": "45120312344866",
+          "label": "3 x Golf Ball Size",
+          "price": 14.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:8266004431138",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-09-07T05:00:00.000Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45120312312098",
+          "label": "Golf Ball Size",
+          "price": 5.5,
+          "available": false
+        },
+        {
+          "id": "45120312344866",
+          "label": "3 x Golf Ball Size",
+          "price": 14.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:8266004431138",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-09-10T05:00:00.000Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45120312312098",
+          "label": "Golf Ball Size",
+          "price": 5.5,
+          "available": true
+        },
+        {
+          "id": "45120312344866",
+          "label": "3 x Golf Ball Size",
+          "price": 14.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:8266004431138",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-09-20T05:00:00.000Z",
@@ -917,6 +1209,114 @@
       ],
       "listingId": "aquahuna:7127254696011",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-10-08T06:00:00.000Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45120312312098",
+          "label": "Golf Ball Size",
+          "price": 5.5,
+          "available": false
+        },
+        {
+          "id": "45120312344866",
+          "label": "3 x Golf Ball Size",
+          "price": 14.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:8266004431138",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-10-11T06:00:00.000Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45120312312098",
+          "label": "Golf Ball Size",
+          "price": 5.5,
+          "available": true
+        },
+        {
+          "id": "45120312344866",
+          "label": "3 x Golf Ball Size",
+          "price": 14.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:8266004431138",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-10-19T05:00:00.000Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45120312312098",
+          "label": "Golf Ball Size",
+          "price": 5.5,
+          "available": false
+        },
+        {
+          "id": "45120312344866",
+          "label": "3 x Golf Ball Size",
+          "price": 14.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:8266004431138",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-08T06:00:00.000Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45120312312098",
+          "label": "Golf Ball Size",
+          "price": 5.5,
+          "available": true
+        },
+        {
+          "id": "45120312344866",
+          "label": "3 x Golf Ball Size",
+          "price": 14.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:8266004431138",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-20T06:14:42.593Z",

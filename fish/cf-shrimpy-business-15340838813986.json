@@ -8,10 +8,48 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Firecracker Bundle",
-      "lastCheckedAt": "2026-11-22T16:05:48.473Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-10-16T04:00:00.000Z",
+      "price": 20.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67459540222242",
+          "label": "5 Shrimp",
+          "price": 20.95,
+          "available": true
+        },
+        {
+          "id": "67459540255010",
+          "label": "10 Shrimp",
+          "price": 37.95,
+          "available": true
+        },
+        {
+          "id": "67459540287778",
+          "label": "20 Shrimp",
+          "price": 70.95,
+          "available": true
+        },
+        {
+          "id": "67459540320546",
+          "label": "40 Shrimp",
+          "price": 133.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:15340838813986",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 20.95,

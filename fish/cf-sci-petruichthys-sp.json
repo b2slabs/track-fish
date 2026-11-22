@@ -22,7 +22,7 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Rosy Loach",
-      "lastCheckedAt": "2026-11-22T16:05:48.473Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "flip-aquatics:7721846112358",
@@ -54,6 +54,32 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 21,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49703482982690",
+          "label": "3 Fish",
+          "price": 21,
+          "available": false
+        },
+        {
+          "id": "49703483015458",
+          "label": "6 Fish",
+          "price": 36,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9659252310306",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-03-28T03:00:00.000Z",
       "price": 5,
@@ -115,6 +141,82 @@
       ],
       "listingId": "aquahuna:7634842812491",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-05-23T04:00:00.000Z",
+      "price": 21,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49703482982690",
+          "label": "3 Fish",
+          "price": 21,
+          "available": false
+        },
+        {
+          "id": "49703483015458",
+          "label": "6 Fish",
+          "price": 36,
+          "available": false
+        },
+        {
+          "id": "51662839447842",
+          "label": "12 Fish",
+          "price": 70.95,
+          "available": false
+        },
+        {
+          "id": "51662839480610",
+          "label": "24 Fish",
+          "price": 133.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9659252310306",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-06-03T05:00:00.000Z",
+      "price": 21,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49703482982690",
+          "label": "3 Fish",
+          "price": 21,
+          "available": false
+        },
+        {
+          "id": "49703483015458",
+          "label": "6 Fish",
+          "price": 37.95,
+          "available": false
+        },
+        {
+          "id": "51662839447842",
+          "label": "12 Fish",
+          "price": 70.95,
+          "available": false
+        },
+        {
+          "id": "51662839480610",
+          "label": "24 Fish",
+          "price": 133.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9659252310306",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-09-02T04:00:00.000Z",

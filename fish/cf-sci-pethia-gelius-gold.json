@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pethia-gelius:gold",
-  "commonName": "Golden Dwarf Barb",
+  "commonName": "Golden Dwarf Barb (Tank-Bred)",
   "scientificName": "Pethia gelius",
   "listings": [
     {
@@ -22,7 +22,7 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Golden Dwarf Barb (Tank-Bred)",
-      "lastCheckedAt": "2026-11-22T16:05:48.473Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "nu-aqua-shop:10006316613948",
@@ -40,6 +40,70 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 14.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49231987310882",
+          "label": "3 Fish",
+          "price": 14.95,
+          "available": false
+        },
+        {
+          "id": "49231987343650",
+          "label": "6 Fish",
+          "price": 26.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9512744321314",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-05-23T04:00:00.000Z",
+      "price": 14.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49231987310882",
+          "label": "3 Fish",
+          "price": 14.95,
+          "available": false
+        },
+        {
+          "id": "49231987343650",
+          "label": "6 Fish",
+          "price": 26.95,
+          "available": false
+        },
+        {
+          "id": "51662840332578",
+          "label": "12 Fish",
+          "price": 50.95,
+          "available": false
+        },
+        {
+          "id": "51662840365346",
+          "label": "24 Fish",
+          "price": 95.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9512744321314",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 19.99,

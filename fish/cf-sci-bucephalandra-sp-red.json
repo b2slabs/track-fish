@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:bucephalandra-sp:red",
-  "commonName": "Bucephalandra Red Mini",
+  "commonName": "Bucephalandra Red Mini (Farmed)",
   "scientificName": "Bucephalandra sp.",
   "listings": [
     {
@@ -8,7 +8,7 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Bucephalandra Red Mini (Farmed)",
-      "lastCheckedAt": "2026-11-22T16:05:48.473Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "glass-aqua:11277475527",
@@ -26,6 +26,26 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 22.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49974254240034",
+          "label": "Title",
+          "price": 22.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9742827651362",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 22.5,

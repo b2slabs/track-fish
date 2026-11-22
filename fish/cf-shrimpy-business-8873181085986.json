@@ -8,10 +8,36 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Salty Shrimp Bee Shrimp GH+",
-      "lastCheckedAt": "2026-11-22T16:05:48.473Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 28,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47462949224738",
+          "label": "110g",
+          "price": 28,
+          "available": false
+        },
+        {
+          "id": "47462949257506",
+          "label": "230g",
+          "price": 35,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:8873181085986",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 28,

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:azolla-caroliniana",
-  "commonName": "Azolla Caroliniana",
+  "commonName": "Mosquito Fern / Fairy Moss (Azolla caroliniana)",
   "scientificName": "Azolla caroliniana",
   "listings": [
     {
@@ -15,7 +15,7 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Mosquito Fern / Fairy Moss (Azolla caroliniana)",
-      "lastCheckedAt": "2026-11-22T16:05:48.473Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "flip-aquatics:8138518888550",
@@ -47,6 +47,70 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50018356756770",
+          "label": "1 Portion",
+          "price": 5.5,
+          "available": false
+        },
+        {
+          "id": "50018356789538",
+          "label": "3 Portions",
+          "price": 15.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9756925329698",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-05-23T04:00:00.000Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50018356756770",
+          "label": "1 Portion",
+          "price": 5.5,
+          "available": false
+        },
+        {
+          "id": "50018356789538",
+          "label": "3 Portions",
+          "price": 15.95,
+          "available": false
+        },
+        {
+          "id": "51662838432034",
+          "label": "6 Portion",
+          "price": 27.95,
+          "available": false
+        },
+        {
+          "id": "51662838464802",
+          "label": "12 Portion",
+          "price": 52.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9756925329698",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 4.99,

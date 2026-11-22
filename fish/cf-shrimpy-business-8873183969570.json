@@ -8,10 +8,92 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Salty Shrimp Shrimp Mineral GH/KH+",
-      "lastCheckedAt": "2026-11-22T16:05:48.473Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 28,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47462956106018",
+          "label": "100g",
+          "price": 28,
+          "available": false
+        },
+        {
+          "id": "47462956138786",
+          "label": "200g",
+          "price": 35,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:8873183969570",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-03-25T03:00:00.000Z",
+      "price": 35,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47462956106018",
+          "label": "100g",
+          "price": 28,
+          "available": false
+        },
+        {
+          "id": "47462956138786",
+          "label": "200g",
+          "price": 35,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:8873183969570",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-04-13T04:00:00.000Z",
+      "price": 28,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47462956106018",
+          "label": "100g",
+          "price": 28,
+          "available": false
+        },
+        {
+          "id": "47462956138786",
+          "label": "200g",
+          "price": 35,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:8873183969570",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 28,

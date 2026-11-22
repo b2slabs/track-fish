@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:buce-plant:2688418676817",
-  "commonName": "SL-Aqua Magic Powder",
+  "commonName": "SL-AQUA Magic Powder",
   "scientificName": null,
   "listings": [
     {
@@ -9,9 +9,36 @@
       "storeName": "Buce Plant",
       "commonName": "SL-Aqua Magic Powder",
       "lastCheckedAt": "2026-11-22T16:06:30.023Z"
+    },
+    {
+      "listingId": "shrimpy-business:6638357741653",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "SL-AQUA Magic Powder",
+      "lastCheckedAt": "2026-05-05T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 22.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39572933771349",
+          "label": "Title",
+          "price": 22.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6638357741653",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 15.99,

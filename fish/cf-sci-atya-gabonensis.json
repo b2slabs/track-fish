@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:atya-gabonensis",
-  "commonName": "Vampire Shrimp - L",
+  "commonName": "Vampire Shrimp (Atya gabonensis)",
   "scientificName": "Atya gabonensis",
   "listings": [
     {
@@ -15,7 +15,7 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Vampire Shrimp (Atya gabonensis)",
-      "lastCheckedAt": "2026-11-22T16:05:48.473Z"
+      "lastCheckedAt": "2026-07-28T03:00:00.000Z"
     },
     {
       "listingId": "monster-aquarium:6967147888849+7358950342865",
@@ -66,6 +66,68 @@
       ],
       "listingId": "monster-aquarium:6967147888849+7358950342865",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-05-06T04:00:00.000Z",
+      "price": 47.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39414268297301",
+          "label": "1 Shrimp",
+          "price": 47.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6590500929621",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-05-13T04:00:00.000Z",
+      "price": 47.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39414268297301",
+          "label": "1 Shrimp",
+          "price": 47.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6590500929621",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-05-17T04:00:00.000Z",
+      "price": 47.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39414268297301",
+          "label": "1 Shrimp",
+          "price": 47.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6590500929621",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",

@@ -16,9 +16,42 @@
       "storeName": "Aqua Imports",
       "commonName": "White Spotted Rabbit Snail (Tylomelania sp.)",
       "lastCheckedAt": "2026-11-22T16:00:03.419Z"
+    },
+    {
+      "listingId": "shrimpy-business:6575027454037",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "White Spotted Rabbit Snail",
+      "lastCheckedAt": "2026-06-26T04:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-05-06T04:00:00.000Z",
+      "price": 11.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39538355765333",
+          "label": "Imported",
+          "price": 11.95,
+          "available": false
+        },
+        {
+          "id": "39538355798101",
+          "label": "USA-Bred",
+          "price": 13.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6575027454037",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 15.99,

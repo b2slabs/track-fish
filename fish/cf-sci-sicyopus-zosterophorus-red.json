@@ -15,10 +15,857 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Red Belted Goby",
-      "lastCheckedAt": "2026-11-22T16:05:48.473Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 19.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 56.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-01-20T02:00:00.000Z",
+      "price": 19.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 19.95,
+          "available": false
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 56.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-02-25T03:00:00.000Z",
+      "price": 19.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 56.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-03-10T03:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": true
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 45.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-04-06T03:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": true
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 45.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-04-11T03:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": false
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 45.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-04-15T03:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": true
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 45.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-04-17T03:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": false
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 45.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-05-16T04:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": true
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 45.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-05-22T04:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": true
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 45.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-05-23T04:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": false
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 45.5,
+          "available": false
+        },
+        {
+          "id": "51662836728098",
+          "label": "6 Fish",
+          "price": 78.95,
+          "available": false
+        },
+        {
+          "id": "51662836760866",
+          "label": "12 Fish",
+          "price": 148.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-06-03T05:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": false
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 41.95,
+          "available": false
+        },
+        {
+          "id": "51662836728098",
+          "label": "6 Fish",
+          "price": 78.95,
+          "available": false
+        },
+        {
+          "id": "51662836760866",
+          "label": "12 Fish",
+          "price": 148.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-06-09T04:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": true
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 41.95,
+          "available": true
+        },
+        {
+          "id": "51662836728098",
+          "label": "6 Fish",
+          "price": 78.95,
+          "available": true
+        },
+        {
+          "id": "51662836760866",
+          "label": "12 Fish",
+          "price": 148.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-06-10T05:00:00.000Z",
+      "price": 41.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": false
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 41.95,
+          "available": true
+        },
+        {
+          "id": "51662836728098",
+          "label": "6 Fish",
+          "price": 78.95,
+          "available": true
+        },
+        {
+          "id": "51662836760866",
+          "label": "12 Fish",
+          "price": 148.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-06-11T05:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": false
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 41.95,
+          "available": false
+        },
+        {
+          "id": "51662836728098",
+          "label": "6 Fish",
+          "price": 78.95,
+          "available": false
+        },
+        {
+          "id": "51662836760866",
+          "label": "12 Fish",
+          "price": 148.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-06-19T05:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": true
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 41.95,
+          "available": true
+        },
+        {
+          "id": "51662836728098",
+          "label": "6 Fish",
+          "price": 78.95,
+          "available": true
+        },
+        {
+          "id": "51662836760866",
+          "label": "12 Fish",
+          "price": 148.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-08-08T02:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": true
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 41.95,
+          "available": true
+        },
+        {
+          "id": "51662836728098",
+          "label": "6 Fish",
+          "price": 78.95,
+          "available": true
+        },
+        {
+          "id": "51662836760866",
+          "label": "12 Fish",
+          "price": 148.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-08-09T02:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": true
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 41.95,
+          "available": true
+        },
+        {
+          "id": "51662836728098",
+          "label": "6 Fish",
+          "price": 78.95,
+          "available": false
+        },
+        {
+          "id": "51662836760866",
+          "label": "12 Fish",
+          "price": 148.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-08-20T02:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": false
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 41.95,
+          "available": false
+        },
+        {
+          "id": "51662836728098",
+          "label": "6 Fish",
+          "price": 78.95,
+          "available": false
+        },
+        {
+          "id": "51662836760866",
+          "label": "12 Fish",
+          "price": 148.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-08-28T12:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": true
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 41.95,
+          "available": true
+        },
+        {
+          "id": "51662836728098",
+          "label": "6 Fish",
+          "price": 78.95,
+          "available": true
+        },
+        {
+          "id": "51662836760866",
+          "label": "12 Fish",
+          "price": 148.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-09-14T05:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": true
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 41.95,
+          "available": true
+        },
+        {
+          "id": "51662836728098",
+          "label": "6 Fish",
+          "price": 78.95,
+          "available": true
+        },
+        {
+          "id": "51662836760866",
+          "label": "12 Fish",
+          "price": 148.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-09-25T05:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": true
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 41.95,
+          "available": true
+        },
+        {
+          "id": "51662836728098",
+          "label": "6 Fish",
+          "price": 78.95,
+          "available": true
+        },
+        {
+          "id": "51662836760866",
+          "label": "12 Fish",
+          "price": 148.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-10-18T05:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": true
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 41.95,
+          "available": true
+        },
+        {
+          "id": "51662836728098",
+          "label": "6 Fish",
+          "price": 78.95,
+          "available": true
+        },
+        {
+          "id": "51662836760866",
+          "label": "12 Fish",
+          "price": 148.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-10-20T05:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": false
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 41.95,
+          "available": false
+        },
+        {
+          "id": "51662836728098",
+          "label": "6 Fish",
+          "price": 78.95,
+          "available": false
+        },
+        {
+          "id": "51662836760866",
+          "label": "12 Fish",
+          "price": 148.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-10-31T06:00:00.000Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50283770839330",
+          "label": "1 Fish",
+          "price": 15.5,
+          "available": true
+        },
+        {
+          "id": "50283770872098",
+          "label": "3 Fish",
+          "price": 41.95,
+          "available": true
+        },
+        {
+          "id": "51662836728098",
+          "label": "6 Fish",
+          "price": 78.95,
+          "available": true
+        },
+        {
+          "id": "51662836760866",
+          "label": "12 Fish",
+          "price": 148.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9837744226594",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 9.99,
