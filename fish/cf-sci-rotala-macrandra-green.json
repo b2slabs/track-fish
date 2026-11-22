@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:rotala-macrandra:green",
-  "commonName": "Rotala Macrandra 'Green'",
+  "commonName": "Rotala Macrandra 'Green' UNS Tissue Culture",
   "scientificName": "Rotala macrandra",
   "listings": [
     {
@@ -16,9 +16,57 @@
       "storeName": "Buce Plant",
       "commonName": "Rotala Macrandra Green",
       "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+    },
+    {
+      "listingId": "buce-plant:8346119897288",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Rotala Macrandra 'Green' UNS Tissue Culture",
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-10-09T06:00:00.000Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45228816236744",
+          "label": "Title",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8346119897288",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-04T06:00:00.000Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45228816236744",
+          "label": "Title",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:8346119897288",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 11.99,

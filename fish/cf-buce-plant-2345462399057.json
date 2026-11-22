@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Seiryu Stone Accent Gravel",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-09-02T04:00:00.000Z"
     },
     {
       "listingId": "glass-aqua:7609453576278",
@@ -19,6 +19,68 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 14.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "21173606252625",
+          "label": "Title",
+          "price": 14.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:2345462399057",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-02-01T03:00:00.000Z",
+      "price": 14.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21173606252625",
+          "label": "Title",
+          "price": 14.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:2345462399057",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-02-26T03:00:00.000Z",
+      "price": 14.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "21173606252625",
+          "label": "Title",
+          "price": 14.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:2345462399057",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 14.5,

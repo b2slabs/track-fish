@@ -1,0 +1,57 @@
+{
+  "canonicalFishId": "cf:buce-plant:4532030275665",
+  "commonName": "Dragon Stone Showpiece (DSP2018)",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "buce-plant:4532030275665",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Dragon Stone Showpiece (DSP2018)",
+      "lastCheckedAt": "2026-05-04T04:00:00.000Z"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-03-19T03:00:00.000Z",
+      "price": 79.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31985306140753",
+          "label": "DSP2018",
+          "price": 79.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:4532030275665",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-03-26T03:00:00.000Z",
+      "price": 79.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31985306140753",
+          "label": "DSP2018",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:4532030275665",
+      "storeSlug": "buce-plant"
+    }
+  ]
+}

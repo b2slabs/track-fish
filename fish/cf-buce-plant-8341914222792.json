@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Jade Rhino Stone",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "glass-aqua:8034665267286",
@@ -19,6 +19,32 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-09-11T05:00:00.000Z",
+      "price": 47.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45210763395272",
+          "label": "10LB PACK",
+          "price": 47.99,
+          "available": true
+        },
+        {
+          "id": "45210762772680",
+          "label": "30LB PACK",
+          "price": 104.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8341914222792",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 47.99,

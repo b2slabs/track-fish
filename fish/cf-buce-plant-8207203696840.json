@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Cholla Driftwood Tree",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-02-11T03:00:00.000Z"
     },
     {
       "listingId": "glass-aqua:7551175393366",
@@ -19,6 +19,32 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44625269883080",
+          "label": "Small",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "44625269915848",
+          "label": "Medium",
+          "price": 25.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8207203696840",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 19.99,

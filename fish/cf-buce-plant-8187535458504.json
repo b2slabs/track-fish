@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:buce-plant:8187535458504",
-  "commonName": "UNS Mini Refugium Light - Magnetic",
+  "commonName": "UNS Mini Refugium Light - Magnetized",
   "scientificName": null,
   "listings": [
     {
@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "UNS Mini Refugium Light - Magnetized",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-01-20T02:00:00.000Z"
     },
     {
       "listingId": "glass-aqua:7526436012118",
@@ -19,6 +19,44 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44549328568520",
+          "label": "Magnetized Light",
+          "price": 69.99,
+          "available": true
+        },
+        {
+          "id": "44564615856328",
+          "label": "Magnetized Light + Clips",
+          "price": 81.99,
+          "available": true
+        },
+        {
+          "id": "44564618477768",
+          "label": "Clips Only",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "44564618510536",
+          "label": "Drill Bit",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8187535458504",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 7.99,

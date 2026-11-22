@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "River Driftwood",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "glass-aqua:8021629304918",
@@ -19,6 +19,56 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-09-24T05:00:00.000Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45212147417288",
+          "label": "Extra Small",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "45212142502088",
+          "label": "Small",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "45212142534856",
+          "label": "Medium",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "45212142567624",
+          "label": "Large",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "45212147450056",
+          "label": "Extra Large",
+          "price": 22.99,
+          "available": true
+        },
+        {
+          "id": "45212147482824",
+          "label": "2XL",
+          "price": 36.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8342603432136",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 6.99,

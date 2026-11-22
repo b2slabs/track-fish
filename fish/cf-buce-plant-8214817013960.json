@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:buce-plant:8214817013960",
-  "commonName": "Sicce UV-C Clarifier",
+  "commonName": "Sicce UV-C Clarifier (Pond)",
   "scientificName": null,
   "listings": [
     {
@@ -15,10 +15,48 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Sicce UV-C Clarifier (Pond)",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-03-23T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 149.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44655824568520",
+          "label": "Sicce UV-C Clarifier (Pond)",
+          "price": 179.99,
+          "available": true
+        },
+        {
+          "id": "44655824240840",
+          "label": "7W",
+          "price": 149.99,
+          "available": true
+        },
+        {
+          "id": "44655824273608",
+          "label": "9W",
+          "price": 159.99,
+          "available": true
+        },
+        {
+          "id": "44655824306376",
+          "label": "13W",
+          "price": 169.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8214817013960+8214838837448",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 179.99,

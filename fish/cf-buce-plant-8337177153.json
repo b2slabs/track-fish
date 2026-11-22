@@ -8,10 +8,36 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Bucephalandra Aurora",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-04-03T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "28009295489",
+          "label": "Plant (10+ Leaves)",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "28009295553",
+          "label": "Mini Clump",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8337177153",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 7.99,

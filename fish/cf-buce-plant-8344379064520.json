@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Rasamala Root",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "glass-aqua:10316756811862",
@@ -19,6 +19,83 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-09-24T05:00:00.000Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45221328093384",
+          "label": "XL",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "45221328126152",
+          "label": "2XL",
+          "price": 53.99,
+          "available": false
+        },
+        {
+          "id": "45221358010568",
+          "label": "3XL",
+          "price": 65.99,
+          "available": false
+        },
+        {
+          "id": "45221358043336",
+          "label": "JUMBO",
+          "price": 91.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8344379064520",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-09-26T05:00:00.000Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45221328093384",
+          "label": "XL",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "45221328126152",
+          "label": "2XL",
+          "price": 53.99,
+          "available": true
+        },
+        {
+          "id": "45221358010568",
+          "label": "3XL",
+          "price": 65.99,
+          "available": true
+        },
+        {
+          "id": "45221358043336",
+          "label": "JUMBO",
+          "price": 91.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:8344379064520",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 39.99,

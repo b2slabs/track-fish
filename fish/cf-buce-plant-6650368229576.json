@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Dymax eZ Filter",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "nu-aqua-shop:10111786910012",
@@ -19,6 +19,72 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 51.09,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39636491206856",
+          "label": "EF-20",
+          "price": 32.19,
+          "available": false
+        },
+        {
+          "id": "39636491239624",
+          "label": "EF-30",
+          "price": 44.79,
+          "available": false
+        },
+        {
+          "id": "39636491272392",
+          "label": "EF-40",
+          "price": 51.09,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:6650368229576",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-03-27T03:00:00.000Z",
+      "price": 32.19,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39636491206856",
+          "label": "EF-20",
+          "price": 32.19,
+          "available": false
+        },
+        {
+          "id": "39636491239624",
+          "label": "EF-30",
+          "price": 44.79,
+          "available": false
+        },
+        {
+          "id": "39636491272392",
+          "label": "EF-40",
+          "price": 51.09,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:6650368229576",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 32.19,

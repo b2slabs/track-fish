@@ -8,10 +8,51 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Extreme Holey Rock",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-09-11T05:00:00.000Z",
+      "price": 134.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45211584659656",
+          "label": "10LB PACK",
+          "price": 134.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8342413902024",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-09-22T05:00:00.000Z",
+      "price": 134.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45211584659656",
+          "label": "10LB PACK",
+          "price": 134.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:8342413902024",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 134.99,

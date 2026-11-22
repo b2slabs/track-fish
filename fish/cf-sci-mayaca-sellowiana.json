@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:mayaca-sellowiana",
-  "commonName": "Mayaca Sellowiana",
+  "commonName": "Mayaca Sellowiniana",
   "scientificName": "Mayaca sellowiana",
   "listings": [
     {
@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Mayaca Sellowiniana",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-03-18T03:00:00.000Z"
     },
     {
       "listingId": "glass-aqua:1329211441238",
@@ -19,6 +19,32 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "3736262279208",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12398512144465",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:436007567400",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 6.99,

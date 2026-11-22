@@ -8,10 +8,63 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "UNS Foresta Paludarium - Chamber Lid - Replacement",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-05-19T04:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43147015028936",
+          "label": "35E",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "43147015061704",
+          "label": "60E",
+          "price": 23.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:7691891540168",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-04-04T03:00:00.000Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43147015028936",
+          "label": "35E",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "43147015061704",
+          "label": "60E",
+          "price": 23.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:7691891540168",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 19.99,

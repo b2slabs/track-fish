@@ -8,10 +8,75 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Blistered Driftwood Sticks",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41764865573064",
+          "label": "Single",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "41764865605832",
+          "label": "5 Pack",
+          "price": 69.99,
+          "available": true
+        },
+        {
+          "id": "41764865638600",
+          "label": "10 Pack",
+          "price": 99.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:7300456284360",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-07-18T03:00:00.000Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41764865573064",
+          "label": "Single",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "41764865605832",
+          "label": "5 Pack",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "41764865638600",
+          "label": "10 Pack",
+          "price": 99.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:7300456284360",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 17.99,

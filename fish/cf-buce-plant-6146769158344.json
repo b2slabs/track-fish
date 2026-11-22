@@ -1,0 +1,57 @@
+{
+  "canonicalFishId": "cf:buce-plant:6146769158344",
+  "commonName": "Dragon Wood Showpiece (DW05)",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "buce-plant:6146769158344",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Dragon Wood Showpiece (DW05)",
+      "lastCheckedAt": "2026-04-29T04:00:00.000Z"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-03-24T03:00:00.000Z",
+      "price": 92.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37772174819528",
+          "label": "DW05",
+          "price": 92.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:6146769158344",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-03-30T03:00:00.000Z",
+      "price": 92.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "37772174819528",
+          "label": "DW05",
+          "price": 92.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:6146769158344",
+      "storeSlug": "buce-plant"
+    }
+  ]
+}

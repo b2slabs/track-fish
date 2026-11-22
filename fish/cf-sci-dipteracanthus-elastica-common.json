@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Dipteracanthus Elastica",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-04-03T03:00:00.000Z"
     },
     {
       "listingId": "glass-aqua:7569647009878",
@@ -19,6 +19,84 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44688878403784",
+          "label": "Pot",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "44688878436552",
+          "label": "Bunch",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8222599446728",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-02-24T03:00:00.000Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44688878403784",
+          "label": "Pot",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "44688878436552",
+          "label": "Bunch",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:8222599446728",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-02-26T03:00:00.000Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44688878403784",
+          "label": "Pot",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "44688878436552",
+          "label": "Bunch",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:8222599446728",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 8.99,

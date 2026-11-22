@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:cryptocoryne-aponogetifolia-common",
-  "commonName": "Cryptocoryne aponogetifolia",
+  "commonName": "Cryptocoryne Aponogetifolia",
   "scientificName": "Cryptocoryne aponogetifolia common",
   "listings": [
     {
@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Cryptocoryne Aponogetifolia",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "glass-aqua:7973918310486",
@@ -26,6 +26,47 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-07-29T03:00:00.000Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45147446378696",
+          "label": "Title",
+          "price": 15.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8332140249288",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-07-31T04:00:00.000Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45147446378696",
+          "label": "Title",
+          "price": 15.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:8332140249288",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 15.99,

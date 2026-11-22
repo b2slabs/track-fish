@@ -8,10 +8,62 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "UNS Hybrid Holding System",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 1799.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44850875531464",
+          "label": "Full Holding System",
+          "price": 2599.99,
+          "available": true
+        },
+        {
+          "id": "44850875564232",
+          "label": "Partial Holding System",
+          "price": 1799.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8250321240264",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-09-24T05:00:00.000Z",
+      "price": 1799.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44850875531464",
+          "label": "Full Holding System",
+          "price": 2599.99,
+          "available": false
+        },
+        {
+          "id": "44850875564232",
+          "label": "Partial Holding System",
+          "price": 1799.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:8250321240264",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 1799.99,
@@ -40,6 +92,32 @@
     },
     {
       "observedAt": "2026-11-21T01:29:25.528Z",
+      "price": 1799.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44850875531464",
+          "label": "Full Holding System",
+          "price": 2599.99,
+          "available": true
+        },
+        {
+          "id": "44850875564232",
+          "label": "Partial Holding System",
+          "price": 1799.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:8250321240264",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T07:00:00.000Z",
       "price": 1799.99,
       "currency": "USD",
       "available": true,

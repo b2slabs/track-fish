@@ -8,10 +8,76 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Driftwood Tree Branches",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "3837005824040",
+          "label": "Small (4-6\")",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "3837005856808",
+          "label": "Medium (7-12\")",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "3837005889576",
+          "label": "Large (12-18\")",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:466202886184",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-07-24T03:00:00.000Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "3837005824040",
+          "label": "Small (4-6\")",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "3837005856808",
+          "label": "Medium (7-12\")",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "3837005889576",
+          "label": "Large (12-18\")",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:466202886184",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 19.99,

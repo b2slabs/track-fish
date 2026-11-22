@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:buce-plant:8330019143880",
-  "commonName": "2HR Aquarist APT Balance",
+  "commonName": "2HR Aquarist - APT Balance",
   "scientificName": null,
   "listings": [
     {
@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "2HR Aquarist - APT Balance",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "glass-aqua:7950085193814",
@@ -19,6 +19,26 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-10-14T05:00:00.000Z",
+      "price": 27.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45138850611400",
+          "label": "Title",
+          "price": 27.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8330019143880",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 27.99,

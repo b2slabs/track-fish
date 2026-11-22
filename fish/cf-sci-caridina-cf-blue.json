@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Ocean Blue Shrimp",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "aquarium-fish:6686296539217+8829567303979",
@@ -19,6 +19,71 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-06-16T06:00:00.000Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45115665645768",
+          "label": "5 Shrimp",
+          "price": 21.99,
+          "available": true
+        },
+        {
+          "id": "45115665678536",
+          "label": "10 Shrimp",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "id": "45115665711304",
+          "label": "20 Shrimp",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8322216198344",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-08-25T02:00:00.000Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45115665645768",
+          "label": "5 Shrimp",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "45115665678536",
+          "label": "10 Shrimp",
+          "price": 41.99,
+          "available": false
+        },
+        {
+          "id": "45115665711304",
+          "label": "20 Shrimp",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:8322216198344",
+      "storeSlug": "buce-plant"
+    },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 9.99,
