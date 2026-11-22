@@ -22,6 +22,29 @@ const STOPWORDS = new Set([
   'multiples', 'live', 'rare',
 ]);
 
+/**
+ * Informal trade abbreviations of a genus name that Stores routinely use
+ * interchangeably with the full genus as a common-name word -- e.g.
+ * "Cory" for "Corydoras", "Pleco" for "Plecostomus", "Oto" for
+ * "Otocinclus" (see issue #72). Without normalizing these to one shared
+ * token, two Stores' otherwise near-identical common names for the same
+ * species ("Panda Corydoras" vs. "Panda Cory") lose enough token overlap
+ * to land below `AUTO_MERGE_THRESHOLD` purely because of which spelling
+ * each Store happened to pick, even though neither extracted a
+ * scientific name to resolve the difference deterministically instead.
+ * A curated list, in the same spirit as `variety.ts`'s and
+ * `scientific-name.ts`'s heuristics -- not exhaustive, extend as new
+ * real-world abbreviation pairs surface.
+ */
+const GENUS_SYNONYMS = new Map<string, string>([
+  ['cory', 'corydoras'],
+  ['corys', 'corydoras'],
+  ['pleco', 'plecostomus'],
+  ['plecos', 'plecostomus'],
+  ['oto', 'otocinclus'],
+  ['otos', 'otocinclus'],
+]);
+
 /** Lowercases, strips parenthetical asides and punctuation, and collapses whitespace. */
 export function normalizeCommonName(name: string): string {
   return name
@@ -32,11 +55,15 @@ export function normalizeCommonName(name: string): string {
     .replace(/\s+/g, ' ');
 }
 
-/** Normalized, stopword-filtered tokens of at least 3 characters. */
+/** Normalized, stopword-filtered tokens of at least 3 characters, with
+ * known genus abbreviations (see `GENUS_SYNONYMS`) folded onto their full
+ * genus form so two Stores' differing shorthand doesn't cost token
+ * overlap. */
 export function tokenize(name: string): string[] {
   return normalizeCommonName(name)
     .split(' ')
-    .filter((token) => token.length >= 3 && !STOPWORDS.has(token));
+    .filter((token) => token.length >= 3 && !STOPWORDS.has(token))
+    .map((token) => GENUS_SYNONYMS.get(token) ?? token);
 }
 
 function levenshtein(a: string, b: string): number {

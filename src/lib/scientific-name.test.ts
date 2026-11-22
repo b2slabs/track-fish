@@ -105,6 +105,72 @@ test('a genuinely lowercase stopword in the subspecies/variety slot is dropped, 
   );
 });
 
+test('issue #72: extracts a scientific name from a "Common Name | Scientific Name" pipe-delimited title (flip-aquatics format)', () => {
+  assert.equal(
+    extractScientificName({ commonName: 'Panda Cory Catfish | Corydoras panda', description: '' }),
+    'Corydoras panda'
+  );
+  // The species word is often itself title-cased by the Store -- unlike
+  // the parenthetical/labeled patterns, this is tolerated here because
+  // the segment is anchored end-to-end with no following prose to
+  // accidentally swallow.
+  assert.equal(
+    extractScientificName({ commonName: 'Longfin Panda Cory | Corydoras Panda', description: '' }),
+    'Corydoras panda'
+  );
+});
+
+test('issue #72: a pipe-delimited title whose second segment is just another common name (no real scientific name anywhere) still returns null', () => {
+  assert.equal(
+    extractScientificName({
+      commonName: 'Orange Venezuelan Corydoras | Venezuelan Cory',
+      description: 'Orange Venezuelan Corydoras are one of the most stunning cory species we keep.',
+    }),
+    null
+  );
+});
+
+test('issue #72: a pipe-delimited title does not false-positive on generic marketing copy or plant-propagation labels in the second segment', () => {
+  assert.equal(extractScientificName({ commonName: 'Flip Aquatics T-shirts | Color Options', description: '' }), null);
+  assert.equal(extractScientificName({ commonName: 'Rotala Bonsai | Tissue Culture', description: '' }), null);
+  assert.equal(extractScientificName({ commonName: 'Gift Card | Flip Aquatics', description: '' }), null);
+  assert.equal(
+    extractScientificName({ commonName: 'Blue Bolt Shrimp | Regular or Mostly Blue', description: '' }),
+    null
+  );
+  assert.equal(
+    extractScientificName({ commonName: 'Spotted Kuhli Loach | Reticulated Hillstream Loach', description: '' }),
+    null
+  );
+});
+
+test('issue #72: checks every pipe segment, not just the last, since a title can have further marketing copy trailing the scientific name', () => {
+  assert.equal(
+    extractScientificName({
+      commonName: 'Panda garra | Garra flavatra | Best Algae Eater for Nano Aquariums',
+      description: '',
+    }),
+    'Garra flavatra'
+  );
+});
+
+test('issue #72: a quoted strain/cultivar name after the species inside parentheses no longer breaks extraction', () => {
+  assert.equal(
+    extractScientificName({
+      commonName: 'Orange Venezuelan Cory Catfish (Corydoras aeneus "Venezuela"), Tank-Bred',
+      description: '',
+    }),
+    'Corydoras aeneus'
+  );
+  assert.equal(
+    extractScientificName({
+      commonName: 'Longfin Panda Cory Catfish (Corydoras panda "Longfin") - Tank-Bred!',
+      description: '',
+    }),
+    'Corydoras panda'
+  );
+});
+
 test('slugifies a scientific name for use as a Canonical Fish id suffix', () => {
   assert.equal(scientificNameSlug('Hyphessobrycon peugeoti'), 'hyphessobrycon-peugeoti');
   assert.equal(scientificNameSlug('Corydoras sp. black'), 'corydoras-sp-black');

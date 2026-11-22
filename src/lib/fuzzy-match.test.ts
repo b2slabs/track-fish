@@ -44,6 +44,25 @@ test('issue #16: a common name that still carries its scientific-name parentheti
   );
 });
 
+test('issue #72: a known genus abbreviation ("Cory" for "Corydoras") no longer costs enough token overlap to miss auto-merge', () => {
+  assert.ok(
+    commonNameSimilarity('Panda Corydoras (Tank-Bred)', 'Panda Cory') >= 0.85,
+    'expected >= 0.85 (AUTO_MERGE_THRESHOLD)'
+  );
+  assert.ok(
+    commonNameSimilarity('Longfin Panda Corydoras (Tank-Bred)', 'Longfin Panda Cory') >= 0.85,
+    'expected >= 0.85 (AUTO_MERGE_THRESHOLD)'
+  );
+  assert.ok(
+    commonNameSimilarity('Orange Venezuelan Corydoras (Tank-Bred)', 'Orange Venezuelan Cory') >= 0.85,
+    'expected >= 0.85 (AUTO_MERGE_THRESHOLD)'
+  );
+  assert.ok(
+    commonNameSimilarity('Orange Venezuelan Corydoras | Venezuelan Cory', 'Orange Venezuelan Cory') >= 0.85,
+    'expected >= 0.85 (AUTO_MERGE_THRESHOLD)'
+  );
+});
+
 test('partial wording overlap lands in a mid-range score', () => {
   const score = commonNameSimilarity('Blue Cobalt Discus', 'Blue Diamond Discus');
   assert.ok(score > 0.3 && score < 0.95, `expected mid-range, got ${score}`);

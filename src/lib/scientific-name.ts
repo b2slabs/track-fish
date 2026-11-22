@@ -32,6 +32,20 @@ const STOPWORDS = new Set([
   'types', 'default', 'title', 'option', 'one', 'live', 'arrival',
   'guarantee', 'shipping', 'sold', 'packs', 'multiples', 'rare', 'new',
   'from', 'origin',
+  // Added for issue #72's "Title | Second Segment" pipe-format matching
+  // (see PIPE_BINOMIAL below), which -- unlike the patterns above --
+  // allows a capitalized second word (many Stores title-case their own
+  // genuine scientific names, e.g. "Corydoras Panda"), so it leans more
+  // heavily on this stopword list to reject the second segment when it's
+  // actually another common name or unrelated marketing copy rather than
+  // a binomial. These are generic English nouns that showed up as a real
+  // false-positive risk in the dataset (store branding, plant-
+  // propagation labels, gift cards, generic gear copy) -- no genuine
+  // Latin species epithet is ever literally one of these words, so adding
+  // them here cannot reject a real binomial.
+  'cory', 'tissue', 'culture', 'fern', 'flip', 'aquatics', 'water',
+  'spangle', 'high', 'light', 'growth', 'food', 'nano', 'tanks', 'potted',
+  'plants', 'galaxy', 'glowlight',
 ]);
 
 // A binomial-looking fragment: a capitalized genus word, then either the
@@ -56,12 +70,54 @@ const STOPWORDS = new Set([
 // just a workaround.
 const BINOMIAL = /([A-Z][a-z]{2,})\s+(sp\.|[a-z]{2,})(?:\s+([a-z]{2,}))?/;
 
-const PARENTHETICAL_BINOMIAL = new RegExp(`\\(\\s*${BINOMIAL.source}\\s*\\)`);
+// A quoted strain/cultivar name trailing the species (and optional
+// subspecies) word(s) -- a common real convention for an undescribed or
+// informally-named strain, e.g. `Corydoras aeneus "Venezuela"` or
+// `Corydoras panda "Longfin"` (both real Aquatic Arts titles/
+// descriptions). Swallowed (not captured -- it never becomes part of the
+// normalized name) purely so its presence doesn't stop the enclosing
+// `\)` or end-of-segment from matching right after it; see issue #72,
+// where this quoted aside otherwise broke PARENTHETICAL_BINOMIAL's
+// required "...\s*\)" tail, producing a null extraction for a Listing
+// whose binomial was, in every way that matters, right there in the
+// title. Tolerates straight and curly quotes.
+const QUOTED_STRAIN = `(?:\\s*['"‘’“”][^'"‘’“”]*['"‘’“”])?`;
+
+const PARENTHETICAL_BINOMIAL = new RegExp(`\\(\\s*${BINOMIAL.source}${QUOTED_STRAIN}\\s*\\)`);
 // Only the label text itself ("scientific name:") is case-insensitive —
 // the binomial that follows it is matched by the case-sensitive BINOMIAL
 // pattern above, via `matchLabeledBinomial`.
 const LABEL_PREFIX = /scientific\s*name\s*[:\-]?\s*/i;
 const ANCHORED_BINOMIAL = new RegExp(`^${BINOMIAL.source}`);
+
+/**
+ * A "Genus species" binomial filling an entire pipe-delimited title
+ * segment, e.g. flip-aquatics' consistent "Common Name | Scientific Name"
+ * title format ("Panda Cory Catfish | Corydoras panda" -- see issue #72).
+ * Unlike `BINOMIAL` above, this is deliberately:
+ *
+ *   - Case-insensitive on every word. Many Stores title-case their own
+ *     genuine scientific name in this position ("Corydoras Panda",
+ *     "Poecilia Reticulatus") -- case is not a reliable signal here the
+ *     way it is for `matchLabeledBinomial`'s run-on-sentence problem,
+ *     because there is no following prose to accidentally swallow: this
+ *     pattern is anchored to the end of the segment (see below).
+ *   - Anchored start-to-end (`^...$`) against the trimmed segment, with
+ *     no subspecies/third-word slot. A real second pipe segment that
+ *     *isn't* a scientific name is almost always either more than two
+ *     words ("Reticulated Hillstream Loach", "Aquarium Beginner Kit") or
+ *     carries non-alphabetic characters -- full-segment anchoring to
+ *     exactly "word word[, optional quoted strain]" rejects those
+ *     structurally, without needing a denylist entry for every one of
+ *     them. What's left after that structural filter leans on the
+ *     (extended, see STOPWORDS above) stopword list to catch the
+ *     remaining two-word false positives ("Color Options", "Tissue
+ *     Culture", "Venezuelan Cory").
+ *   - A 3-letter-minimum second word (vs. BINOMIAL's 2), which
+ *     structurally rejects short connector words like "or"/"to" ("Blue
+ *     Bolt Shrimp | Regular or Mostly Blue") without a stopword entry.
+ */
+const PIPE_BINOMIAL = new RegExp(`^([A-Za-z]{3,})\\s+(sp\\.|[A-Za-z]{3,})${QUOTED_STRAIN}\\s*$`, 'i');
 
 function isPlausible(genus: string, species: string): boolean {
   const g = genus.toLowerCase();
@@ -96,8 +152,12 @@ function capitalize(word: string): string {
  *   1. A parenthetical binomial in the title (stores that include one
  *      almost always put it there intentionally, right next to the
  *      common name).
- *   2. An explicit "Scientific Name: ..." label in the description.
- *   3. A parenthetical binomial anywhere in the description, as a last
+ *   2. A "Common Name | Scientific Name" pipe-delimited title segment
+ *      (issue #72 -- see `PIPE_BINOMIAL`): also title-sourced and just as
+ *      intentional as #1, merely a different Store convention for the
+ *      same thing.
+ *   3. An explicit "Scientific Name: ..." label in the description.
+ *   4. A parenthetical binomial anywhere in the description, as a last
  *      resort (lower confidence — more prone to catching an unrelated
  *      aside rather than the product's own identity).
  */
@@ -107,12 +167,38 @@ export function extractScientificName(listing: { commonName: string; description
     return fromTitle;
   }
 
+  const fromPipe = matchPipeBinomial(listing.commonName);
+  if (fromPipe) {
+    return fromPipe;
+  }
+
   const fromLabel = matchLabeledBinomial(listing.description);
   if (fromLabel) {
     return fromLabel;
   }
 
   return matchBinomial(listing.description, PARENTHETICAL_BINOMIAL);
+}
+
+/**
+ * Splits `title` on `|` and matches each segment after the first, in
+ * order, in full against `PIPE_BINOMIAL` -- see that pattern's doc for
+ * why this is full-segment-anchored and case-insensitive. Returns the
+ * first segment that matches. Checking every later segment (not just the
+ * last) matters because a title can legitimately contain more than one
+ * pipe with further marketing copy trailing the scientific name itself,
+ * e.g. "Panda garra | Garra flavatra | Best Algae Eater for Nano
+ * Aquariums" -- the binomial is the middle segment, not the last.
+ */
+function matchPipeBinomial(title: string): string | null {
+  const segments = title.split('|').slice(1);
+  for (const segment of segments) {
+    const match = matchBinomial(segment.trim(), PIPE_BINOMIAL);
+    if (match) {
+      return match;
+    }
+  }
+  return null;
 }
 
 /**
