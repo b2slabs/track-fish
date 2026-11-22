@@ -94,6 +94,48 @@ const stores = [
     slug: 'dans-fish',
     domain: 'dansfish.com',
     platform: 'shopify'
+  },
+  {
+    // Issue #80: first non-Shopify platform onboarded -- confirmed
+    // WooCommerce (WordPress) via curl, not Shopify. Verified the public
+    // WooCommerce Store API (`/wp-json/wc/store/v1/products`) works and
+    // sampled the entire 3911-product catalog on 2026-11-22: 3691
+    // products (94%) are under the "LIVESTOCK" category, broken into
+    // per-family subcategories (South American/Lake Malawi/Tanganyika
+    // cichlids, tetras, livebearers, plecos, corydoras, loaches, etc.) --
+    // a genuine, large fish/livestock catalog, not just plants/
+    // equipment/merch (which also exist here, same as several Shopify
+    // Stores already onboarded, but are a small minority).
+    //
+    // Domain is the `www` subdomain directly: the bare domain 301-
+    // redirects to it, and the Store API additionally 403s every request
+    // under `wc/store/v1` (even a real browser's own `/cart` AJAX calls)
+    // unless it carries a same-origin `Referer` header -- see
+    // `WooCommerceStoreAdapter`'s doc comment. Confirmed this isn't a
+    // bot-detection/JS challenge (no cookies or challenge token needed,
+    // holds up across User-Agents, and every *other* wp-json namespace
+    // on this Store is unprotected) -- it's a WAF rule specific to this
+    // one path on this one Store.
+    name: 'The Wet Spot Tropical Fish',
+    slug: 'wet-spot-tropical-fish',
+    domain: 'www.wetspottropicalfish.com',
+    platform: 'woocommerce'
+  },
+  {
+    // Issue #80, alongside Wet Spot above: confirmed WooCommerce, public
+    // Store API works with no special headers needed. Sampled the
+    // entire 2424-product catalog on 2026-11-22: 1761 under "Freshwater
+    // Fish" and 222 under "Saltwater Fish" (plus herps, invertebrates,
+    // corals), well over half the catalog -- a genuine livestock
+    // wholesaler, not just plants/equipment/merch.
+    //
+    // Domain is the `www` subdomain directly: the bare domain 301-
+    // redirects to it over plain HTTP, so using `www` avoids that extra
+    // hop/scheme downgrade.
+    name: 'Aqua Imports',
+    slug: 'aqua-imports',
+    domain: 'www.aqua-imports.com',
+    platform: 'woocommerce'
   }
 ];
 

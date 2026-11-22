@@ -4,10 +4,12 @@ import zlib from 'zlib';
 import { computeChecksum } from './lib/checksum.js';
 import type { StoreAdapter } from './types/store-adapter.js';
 import { ShopifyStoreAdapter } from './adapters/shopify.js';
+import { WooCommerceStoreAdapter } from './adapters/woocommerce.js';
 import type { StoreConfig } from './process.js';
 
 const adapterMap: Record<string, StoreAdapter> = {
   shopify: new ShopifyStoreAdapter(),
+  woocommerce: new WooCommerceStoreAdapter(),
 };
 
 export interface ScrapeStoreResult {

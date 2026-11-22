@@ -1,4 +1,5 @@
 import { parseShopifyListings } from './lib/shopify-parser.js';
+import { parseWooCommerceListings } from './lib/woocommerce-parser.js';
 import { passesSafetyNetCheck } from './lib/safety-net.js';
 import {
   buildMatchContext,
@@ -40,6 +41,14 @@ export interface StoreConfig {
   currency?: string;
 }
 
+// Mirrors `scrape.ts`'s adapter-dispatch map: each configured Store's
+// `platform` picks which raw-snapshot shape to parse into ParsedListings,
+// the same way it picks which StoreAdapter scrapes it in the first place.
+const parserMap: Record<string, (raw: unknown, store: StoreConfig) => ParsedListing[]> = {
+  shopify: parseShopifyListings,
+  woocommerce: parseWooCommerceListings,
+};
+
 export interface ProcessStoreRunResult {
   storeSlug: string;
   accepted: boolean;
@@ -74,7 +83,11 @@ export function processStoreRun(params: {
   const { store, rawData, dataDir } = params;
   const now = (params.now ?? new Date()).toISOString();
 
-  const parsedListings = parseShopifyListings(rawData, store);
+  const parseListings = parserMap[store.platform];
+  if (!parseListings) {
+    throw new Error(`No listing parser found for platform: ${store.platform}`);
+  }
+  const parsedListings = parseListings(rawData, store);
   const index = readIndexFile(dataDir);
   const previousMeta = index.stores[store.slug];
   const previousListingCount = previousMeta?.lastSuccessfulListingCount;
