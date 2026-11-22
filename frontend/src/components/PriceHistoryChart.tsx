@@ -5,36 +5,43 @@ import { formatDateTime, formatPrice, normalizeVariantLabel } from '@/lib/format
 import type { HistoryEvent } from '@/types/data';
 
 /**
- * Keepa-style price history chart (issue #59) — replaces the min/max/average
- * range-bar design (issues #35/#42/#47/#53) entirely, not an addition
- * alongside it.
+ * Per-variant price history chart (issue #75) — replaces the median-per-Store
+ * step-line design (issue #59) entirely, not an addition alongside it.
  *
- * Each Store renders as ONE continuous step-line: flat between price
- * changes, stepping at the exact instant a change happened ("stepAfter",
- * the same step shape this file already used for the old single-variant
- * fallback line). The line's value at each observed instant is the
- * **median** price across that Store's currently-available, real-priced
- * variants at that instant — one representative number per Store per
- * timestamp, collapsing multiple variants/Listings the same way the
- * superseded `computeStoreBars` did, just with a different statistic.
+ * Issue #59 collapsed every currently-available variant within a Store into
+ * one median value per observed instant, which hid real information: e.g.
+ * Aquatic Arts' "School of 3/6/9/12" pack sizes each have their own price,
+ * and blending them into one number lost that. This version draws ONE
+ * continuous step-line per **variant** (identified by its Shopify variant
+ * id, scoped to the Store+Listing it belongs to) instead — a Store with N
+ * variants gets N lines, all sharing that Store's color (see
+ * `SERIES_COLOR_VARS`) and each told apart from its siblings by line style
+ * (`DASH_PATTERNS`), not color, since color here is store identity, not
+ * variant identity.
  *
- * The signature Keepa behavior this chart is built around: when a Store was
- * out of stock, NO point exists for that instant at all (not a point with
- * `available: false`, not a struck-through variant, not a dot) — so the
- * line genuinely stops and only resumes once the Store is back in stock.
- * That's a deliberate consequence of how `computeStoreInstants` builds each
- * Store's point list, not a separate "hide out of stock" step layered on
- * top (see that function's doc, and issue #59's scope note that this
- * supersedes issue #55's paused toggle — gap-on-out-of-stock is just how
- * this chart always behaves now).
+ * The other half of this issue: issue #59 inherited issue #53's "break the
+ * line when a Store's own silent gap is unusually large relative to its
+ * typical cadence" heuristic, and that issue's own implementation flagged it
+ * as a known limitation — bursty/irregular scrape timing (long overnight
+ * gaps between a cluster of heartbeats, for instance) could split a line
+ * even though nothing was ever actually out of stock. This version drops
+ * that heuristic completely: a variant's line breaks ONLY where there is
+ * hard evidence that specific variant was unavailable in between two
+ * observations (`available: false`, the `price === 0` sold-out placeholder,
+ * or the variant being entirely absent from a later observation of the same
+ * Listing it used to appear in — Shopify's product payload lists every
+ * currently-defined variant, so a previously-seen variant missing from a
+ * later scrape means it was removed/sold through, not "the scraper didn't
+ * mention it this time"). A silent gap with no such evidence — however
+ * long, however irregular — is always bridged. See `computeVariantLines`.
  */
 
 /**
  * Fixed-order categorical palette for per-Store identity (issue #23), reused
- * unchanged here as each Store's step-line color (issue #59 inherits this
- * straight from the superseded range-bar design, issue #35) — one shared,
- * already-validated 8-hue palette, never two independent color schemes
- * layered on the same chart.
+ * unchanged here as each Store's color across every one of its variant
+ * lines (issue #59/#75 inherit this straight from the superseded range-bar
+ * design, issue #35) — one shared, already-validated 8-hue palette, never
+ * two independent color schemes layered on the same chart.
  *
  * Hues, order, and hex steps come directly from this project's `dataviz`
  * skill's validated default 8-hue categorical palette (`references/palette.md`
@@ -79,245 +86,200 @@ function seriesColor(index: number): string {
 }
 
 /**
- * One real-priced, in-stock variant contributing to a `StorePoint` at one
- * instant — carried through to the tooltip so per-variant detail survives
- * collapsing variants into a single median (issue #35's "ideally still
- * lists each individual variant's price" criterion, still true here).
- * Every entry here is, by construction, in stock (see
- * `computeStoreInstants`) — unlike the superseded range-bar design, there's
- * no struck-through/unavailable entry to render, since an unavailable
- * variant never reaches this list at all.
+ * Secondary-encoding line styles for telling a Store's own variants apart
+ * (issue #75's acceptance criterion) — color is already spoken for by Store
+ * identity, so a Store's second, third, … variant line is distinguished by
+ * `strokeDasharray` instead. `undefined` (solid) is always slot 0, so the
+ * overwhelmingly common single-variant-per-Store case renders exactly the
+ * plain solid line issue #59 already drew — no visual regression there.
+ * Assigned by first-seen order of a variant id within its Store (mirrors
+ * `seriesColor`'s rule: identity-stable, never re-ranked by price), and
+ * cycles past the end of this list the same way colors cycle past 8 — the
+ * legend/tooltip's text label (Store name + variant label) is what actually
+ * disambiguates a high-cardinality Store, same "relief channel" the color
+ * palette's own doc comment relies on.
  */
-interface VariantPriceDetail {
-  id: string;
-  label: string;
-  price: number;
-  available: boolean;
-  /**
-   * `normalizeVariantLabel`'s `siblingCount` for THIS variant: the size of
-   * the variant list its own originating HistoryEvent (one Store, one
-   * Listing, one observedAt) actually carried — e.g. `1` for a Store whose
-   * Shopify product has exactly one variant, regardless of how many other
-   * variants end up pooled alongside it in the same `StorePoint.variants`
-   * (see `computeStoreInstants`'s doc on why the pooled list's own length
-   * is the wrong number to pass here: issue #56's "Title" tooltip leak).
-   */
-  siblingCount: number;
+const DASH_PATTERNS: (string | undefined)[] = [
+  undefined, // solid
+  '7 4', // dashed
+  '1.5 3', // dotted
+  '8 3 2 3', // dash-dot
+  '3 3', // fine dashed
+];
+
+function dashPattern(index: number): string | undefined {
+  return DASH_PATTERNS[index % DASH_PATTERNS.length];
 }
 
-/**
- * One Store's single representative price at one observed instant (issue
- * #59) — the median of that Store's currently-available, real-priced
- * variants, replacing the min/max/average range bar from issue #35. Trivial
- * for a single-variant Store (the median of one number is that number) and
- * meaningful for several — exactly the same median, just a different input
- * size, per the issue's "identical in kind" acceptance criterion.
- */
-interface StorePoint {
-  key: string;
-  storeSlug: string;
-  label: string;
-  color: string;
-  currency: string;
-  timestamp: number;
-  observedAt: string;
-  median: number;
-  /** In-stock, real-priced variants only, ascending by price — the tooltip's breakdown. */
-  variants: VariantPriceDetail[];
-  /** This Store's stable first-seen index across `listings` — see `seriesColor`. */
-  seriesIndex: number;
-}
-
-/** Per-Store display identity a point needs: legend/tooltip label, line color, currency. */
+/** Per-Store display identity a line needs: legend/tooltip label, color, currency, stagger basis. */
 interface StoreMeta {
   label: string;
   color: string;
   currency: string;
+  /** Stable first-seen index across `listings` — drives both `seriesColor` and the same-day stagger offset. */
   seriesIndex: number;
 }
 
-/** One (Store, timestamp) instant this Store was actually observed at — see `computeStoreInstants`. */
-interface StoreInstant {
+/** One real observation of one variant's line, in stepAfter order. */
+interface VariantPoint {
+  key: string;
   timestamp: number;
-  /** The rendered point at this instant, or `null` when the Store had zero currently-available, real-priced variants — i.e. out of stock. */
-  point: StorePoint | null;
-}
-
-function medianOf(sortedAscending: number[]): number {
-  const n = sortedAscending.length;
-  const mid = Math.floor(n / 2);
-  return n % 2 === 1 ? sortedAscending[mid] : (sortedAscending[mid - 1] + sortedAscending[mid]) / 2;
+  observedAt: string;
+  price: number;
 }
 
 /**
- * Groups every event into (storeSlug, timestamp) instants — the exact same
- * grouping key the superseded `computeStoreBars` used (issue #35) — then
- * classifies each instant as either a renderable `StorePoint` (the median
- * of that instant's currently-available, real-priced variants) or `null`
- * (no variant cleared that bar: the Store was out of stock at this
- * instant).
- *
- * A variant only counts when it is both `available` AND carries a real,
- * nonzero price — `price === 0` is this project's established sold-out
- * placeholder convention (issue #17), unchanged; `available: false` is the
- * ordinary "this exact variant is out of stock" signal most Stores actually
- * use (a nonzero last-known price kept around, per real `data`-branch
- * observations). Either one excludes a variant from the median, and an
- * instant left with none produces `null`, not a point.
- *
- * Returning every instant — including the `null` ones — per Store (not
- * just the renderable points) is what lets `computeStoreLines` tell a
- * genuine "this Store was out of stock here" gap apart from a merely long
- * gap between two otherwise-adjacent observations (see that function's
- * doc): the `null` instants are the former's hard evidence.
- *
- * Each pooled variant keeps its own originating HistoryEvent's variant
- * count as `siblingCount` (see `VariantPriceDetail`), NOT the size of the
- * pooled `group.variants` list being built here. Those two can differ
- * whenever more than one Listing/HistoryEvent lands in the same
- * (storeSlug, timestamp) bucket — e.g. a Store still carrying two separate
- * Shopify Listings for one Canonical Fish (issue #56) that both happened
- * to report at the same instant: each event's own variant array has
- * exactly one entry (Shopify's single-variant "Title" placeholder), but
- * the pooled bucket ends up with two. Using the pooled length as
- * `siblingCount` would make `normalizeVariantLabel` treat each as a
- * "real" multi-variant option (since the pooled count isn't 1) and leave
- * the literal "Title" placeholder unnormalized in the tooltip — the exact
- * leak issue #56 reported. The per-event count is what `normalizeVariantLabel`
- * was always meant to see: "how many variants did Shopify actually give
- * this one product".
+ * One variant's continuous price line (issue #75) — identified by the
+ * Shopify variant id it tracks within one Store's Listing. Carries its own
+ * Store's color (never a variant-specific hue; see `DASH_PATTERNS`'s doc)
+ * and its own dash style, split into `runs`: each run is one unbroken
+ * stretch of real observations, broken only on hard evidence of that exact
+ * variant being unavailable (see `computeVariantLines`).
  */
-function computeStoreInstants(
+interface VariantLine {
+  key: string;
+  storeSlug: string;
+  storeLabel: string;
+  variantLabel: string;
+  color: string;
+  dash?: string;
+  currency: string;
+  /** This line's Store's stable first-seen index — see `StoreMeta.seriesIndex`. */
+  seriesIndex: number;
+  runs: VariantPoint[][];
+}
+
+/**
+ * Groups every event by `listingId`, then — within each Listing — tracks
+ * every variant id that has ever appeared in one of its events as its own
+ * independent timeline, in first-appearance order (so a later-introduced
+ * pack size doesn't retroactively grow a leading "out of stock" stretch
+ * before it existed).
+ *
+ * For each timeline, an event is read one of three ways:
+ *   - the variant is present, `available`, and carries a real nonzero price
+ *     → a renderable point (`price === 0` is this project's established
+ *     sold-out placeholder convention, issue #17, unchanged).
+ *   - the variant is present but `available: false` or priced at the
+ *     placeholder → hard evidence this variant was out of stock at this
+ *     instant.
+ *   - the variant is entirely absent from this event's `variants` array,
+ *     despite having appeared in an earlier event for this same Listing →
+ *     also hard evidence (Shopify's product payload always lists every
+ *     variant currently defined on the product, so a variant that used to
+ *     be there and now isn't was removed/sold through, not merely
+ *     unreported).
+ *
+ * Only the second and third cases ever break a run — a long silent stretch
+ * with neither kind of evidence (e.g. scraper downtime, or just this
+ * Listing's own irregular/bursty polling cadence) is always bridged. This
+ * is the issue #75 fix: issue #59 (inheriting issue #53's heuristic) broke
+ * lines on unusually large silent gaps even with no evidence anything was
+ * ever out of stock, which is exactly the over-splitting this drops.
+ */
+function computeVariantLines(
   events: HistoryEvent[],
   storeMeta: Map<string, StoreMeta>,
-): Map<string, StoreInstant[]> {
-  const sorted = [...events].sort(
-    (a, b) => new Date(a.observedAt).getTime() - new Date(b.observedAt).getTime(),
-  );
+): VariantLine[] {
+  const sorted = [...events]
+    .filter((e) => storeMeta.has(e.storeSlug))
+    .sort((a, b) => new Date(a.observedAt).getTime() - new Date(b.observedAt).getTime());
 
-  interface Group {
-    storeSlug: string;
-    timestamp: number;
-    observedAt: string;
-    variants: VariantPriceDetail[];
-  }
-  const groups = new Map<string, Group>();
+  // First-seen dash-style index per (storeSlug, variantId), assigned in true
+  // chronological order across every Listing that Store carries — not per
+  // Listing — so a Store's variants keep a stable style regardless of which
+  // Listing group happens to be processed first below.
+  const dashIndexByStoreVariant = new Map<string, number>();
+  const dashCounterByStore = new Map<string, number>();
   for (const e of sorted) {
-    if (!storeMeta.has(e.storeSlug)) continue;
-    const timestamp = new Date(e.observedAt).getTime();
-    const key = `${e.storeSlug}::${timestamp}`;
-    let group = groups.get(key);
-    if (!group) {
-      group = { storeSlug: e.storeSlug, timestamp, observedAt: e.observedAt, variants: [] };
-      groups.set(key, group);
-    }
-    const eventSiblingCount = (e.variants ?? []).length;
     for (const v of e.variants ?? []) {
-      if (v.price === 0 || !v.available) continue; // sold-out placeholder or genuinely out of stock
-      group.variants.push({
-        id: v.id,
-        label: v.label,
-        price: v.price,
-        available: v.available,
-        siblingCount: eventSiblingCount,
-      });
+      const key = `${e.storeSlug}::${v.id}`;
+      if (dashIndexByStoreVariant.has(key)) continue;
+      const next = dashCounterByStore.get(e.storeSlug) ?? 0;
+      dashIndexByStoreVariant.set(key, next);
+      dashCounterByStore.set(e.storeSlug, next + 1);
     }
   }
 
-  const byStore = new Map<string, StoreInstant[]>();
-  for (const group of groups.values()) {
+  interface ListingGroup {
+    storeSlug: string;
+    events: HistoryEvent[];
+  }
+  const byListing = new Map<string, ListingGroup>();
+  for (const e of sorted) {
+    const group = byListing.get(e.listingId);
+    if (group) group.events.push(e);
+    else byListing.set(e.listingId, { storeSlug: e.storeSlug, events: [e] });
+  }
+
+  interface Accum {
+    variantId: string;
+    label: string;
+    siblingCount: number;
+    runs: VariantPoint[][];
+    sawGapEvidence: boolean;
+  }
+
+  const lines: VariantLine[] = [];
+  for (const [listingId, group] of byListing) {
     const meta = storeMeta.get(group.storeSlug)!;
-    let point: StorePoint | null = null;
-    if (group.variants.length > 0) {
-      const sortedVariants = [...group.variants].sort((a, b) => a.price - b.price);
-      point = {
-        key: `${group.storeSlug}::${group.timestamp}`,
-        storeSlug: group.storeSlug,
-        label: meta.label,
-        color: meta.color,
-        currency: meta.currency,
-        timestamp: group.timestamp,
-        observedAt: group.observedAt,
-        median: medianOf(sortedVariants.map((v) => v.price)),
-        variants: sortedVariants,
-        seriesIndex: meta.seriesIndex,
-      };
-    }
-    const instant: StoreInstant = { timestamp: group.timestamp, point };
-    const list = byStore.get(group.storeSlug);
-    if (list) list.push(instant);
-    else byStore.set(group.storeSlug, [instant]);
-  }
-  for (const list of byStore.values()) list.sort((a, b) => a.timestamp - b.timestamp);
-  return byStore;
-}
+    // Map preserves insertion order — first-seen order of a variant id
+    // within THIS Listing, which is what decides whether a silent leading
+    // stretch before it ever appeared counts as "out of stock" (it doesn't).
+    const accums = new Map<string, Accum>();
 
-/**
- * How much larger than a Store's own typical observation gap counts as "too
- * large to bridge" with a connecting line segment (issue #53's heuristic,
- * reused as-is) — a multiple of that Store's own median gap between
- * consecutive rendered points, not a fixed time span, because how often
- * *this* Store is actually observed is the only basis for calling one of
- * its own silent stretches anomalous rather than normal cadence.
- *
- * This only matters for a silent stretch with no hard evidence either way
- * (no event recorded at all, e.g. scraper downtime) — a stretch with an
- * explicit out-of-stock instant in it always breaks the line regardless of
- * how short it was (see `computeStoreLines`).
- */
-const GAP_BREAK_MULTIPLIER = 5;
+    for (const e of group.events) {
+      const eventVariantIds = new Set<string>();
+      const eventSiblingCount = (e.variants ?? []).length;
+      const timestamp = new Date(e.observedAt).getTime();
 
-interface StoreLine {
-  storeSlug: string;
-  color: string;
-  runs: StorePoint[][];
-}
+      for (const v of e.variants ?? []) {
+        eventVariantIds.add(v.id);
+        let acc = accums.get(v.id);
+        if (!acc) {
+          acc = { variantId: v.id, label: v.label, siblingCount: eventSiblingCount, runs: [], sawGapEvidence: false };
+          accums.set(v.id, acc);
+        }
+        acc.label = v.label;
+        acc.siblingCount = eventSiblingCount;
 
-/**
- * Splits each Store's own instants (already time-sorted by
- * `computeStoreInstants`) into runs that should each be drawn as one
- * connected step-line (issue #59) — breaking the run at a hard boundary
- * (any out-of-stock instant between two points — the genuine Keepa-style
- * gap this chart exists to draw) or a soft one (an unusually large silent
- * gap between two points with no evidence either way, issue #53's
- * heuristic, for stretches this Store simply wasn't observed at all).
- *
- * Deliberately does NOT fall back to the number of points for "is a gap
- * large": a Store observed only twice, ever, with an out-of-stock instant
- * between them, still breaks — hard evidence always wins over "not enough
- * data to call this unusual".
- */
-function computeStoreLines(byStoreInstants: Map<string, StoreInstant[]>): StoreLine[] {
-  const lines: StoreLine[] = [];
-  for (const [storeSlug, instants] of byStoreInstants) {
-    const points = instants.filter((i): i is StoreInstant & { point: StorePoint } => i.point !== null);
-    if (points.length === 0) {
-      lines.push({ storeSlug, color: '', runs: [] });
-      continue;
-    }
+        if (v.available && v.price !== 0) {
+          const point: VariantPoint = {
+            key: `${listingId}::${v.id}::${timestamp}`,
+            timestamp,
+            observedAt: e.observedAt,
+            price: v.price,
+          };
+          if (acc.runs.length === 0 || acc.sawGapEvidence) acc.runs.push([point]);
+          else acc.runs[acc.runs.length - 1].push(point);
+          acc.sawGapEvidence = false;
+        } else {
+          acc.sawGapEvidence = true;
+        }
+      }
 
-    const gaps = points.slice(1).map((p, i) => p.point.timestamp - points[i].point.timestamp);
-    const sortedGaps = [...gaps].sort((a, b) => a - b);
-    const medianGap = sortedGaps.length > 0 ? sortedGaps[Math.floor(sortedGaps.length / 2)] : 0;
-    const threshold = medianGap * GAP_BREAK_MULTIPLIER;
-
-    const runs: StorePoint[][] = [[points[0].point]];
-    let prevTimestamp = points[0].point.timestamp;
-    let sawOutOfStockSincePrevPoint = false;
-    for (const instant of instants) {
-      if (instant.timestamp <= prevTimestamp) continue;
-      if (instant.point) {
-        const gap = instant.timestamp - prevTimestamp;
-        const shouldBreak = sawOutOfStockSincePrevPoint || (medianGap > 0 && gap > threshold);
-        if (shouldBreak) runs.push([instant.point]);
-        else runs[runs.length - 1].push(instant.point);
-        prevTimestamp = instant.timestamp;
-        sawOutOfStockSincePrevPoint = false;
-      } else {
-        sawOutOfStockSincePrevPoint = true;
+      // Any variant that has already appeared at least once but is missing
+      // from THIS event is hard evidence too (see this function's doc).
+      for (const acc of accums.values()) {
+        if (!eventVariantIds.has(acc.variantId)) acc.sawGapEvidence = true;
       }
     }
-    lines.push({ storeSlug, color: points[0].point.color, runs });
+
+    for (const acc of accums.values()) {
+      if (acc.runs.length === 0) continue; // never had a real point to draw
+      const dashIdx = dashIndexByStoreVariant.get(`${group.storeSlug}::${acc.variantId}`) ?? 0;
+      lines.push({
+        key: `${listingId}::${acc.variantId}`,
+        storeSlug: group.storeSlug,
+        storeLabel: meta.label,
+        variantLabel: normalizeVariantLabel(acc.label, acc.siblingCount),
+        color: meta.color,
+        dash: dashPattern(dashIdx),
+        currency: meta.currency,
+        seriesIndex: meta.seriesIndex,
+        runs: acc.runs,
+      });
+    }
   }
   return lines;
 }
@@ -330,7 +292,7 @@ interface Domain {
 }
 
 /** Shared time+price domain every point is plotted against, padded like Recharts' own 'auto' Y domain. */
-function useLineDomain(lines: StoreLine[]): Domain | null {
+function useLineDomain(lines: VariantLine[]): Domain | null {
   return useMemo(() => {
     let minT = Infinity;
     let maxT = -Infinity;
@@ -343,8 +305,8 @@ function useLineDomain(lines: StoreLine[]): Domain | null {
           any = true;
           if (p.timestamp < minT) minT = p.timestamp;
           if (p.timestamp > maxT) maxT = p.timestamp;
-          if (p.median < minP) minP = p.median;
-          if (p.median > maxP) maxP = p.median;
+          if (p.price < minP) minP = p.price;
+          if (p.price > maxP) maxP = p.price;
         }
       }
     }
@@ -435,28 +397,84 @@ function usePlotRect(dataLength: number) {
   return { containerRef, rect };
 }
 
-/** Maps one point's (timestamp, median) to pixel coordinates inside `rect`. */
-function pointXY(rect: PlotRect, domain: Domain, point: StorePoint): { cx: number; cy: number } {
-  const cx = rect.left + ((point.timestamp - domain.minT) / (domain.maxT - domain.minT)) * rect.width;
-  const cy =
-    rect.top + (1 - (point.median - domain.minP) / (domain.maxP - domain.minP)) * rect.height;
+const DAY_MS = 24 * 60 * 60 * 1000;
+/** Smallest/largest per-step horizontal nudge a Store's stagger offset can use. */
+const MIN_STAGGER_SPACING_PX = 2;
+const MAX_STAGGER_SPACING_PX = 7;
+/**
+ * How much of one day's own pixel width the full staggered cluster (every
+ * Store's offset, end to end) may spread across, at most (issue #53,
+ * carried into the per-variant redesign per issue #75's "same-day bars/
+ * points stay staggered" criterion). `cx` is continuous time, so on a
+ * short/zoomed-in time range one day already spans many pixels and a
+ * generous stagger reads clearly as "a few Stores sharing a day"; on a long
+ * time range one day can collapse toward a single pixel, and the same
+ * fixed-pixel stagger would start to look like a run of separate days.
+ * Scaling the spacing to a fraction of the domain's own pixels-per-day —
+ * capped either way by `MIN/MAX_STAGGER_SPACING_PX` — keeps the cluster
+ * small relative to a day's own width at any zoom level.
+ */
+const MAX_CLUSTER_FRACTION_OF_DAY = 0.5;
+
+/**
+ * This Store's horizontal pixel nudge, stable for the life of the chart
+ * (depends only on `seriesIndex` and the overall domain/store count, never
+ * on which other Stores happen to share a particular day — issue #53).
+ * Offsets are centered on zero and evenly spaced by `seriesIndex`, so a
+ * cluster of Stores observed on the same day fans out symmetrically around
+ * that day's true x position instead of drifting the whole cluster to one
+ * side. A single-Store chart (`storeCount <= 1`) always gets zero offset —
+ * nothing to stagger against. Applied uniformly to every one of a Store's
+ * variant lines (issue #75): they move together as one cluster, so a
+ * Store's own variants stay comparable to each other while the whole
+ * cluster separates from another Store's.
+ */
+function staggerOffsetPx(rect: PlotRect, domain: Domain, seriesIndex: number, storeCount: number): number {
+  if (storeCount <= 1) return 0;
+  const span = domain.maxT - domain.minT || 1;
+  const pixelsPerDay = (rect.width * DAY_MS) / span;
+  const maxClusterWidth = pixelsPerDay * MAX_CLUSTER_FRACTION_OF_DAY;
+  const spacing = Math.min(
+    MAX_STAGGER_SPACING_PX,
+    Math.max(MIN_STAGGER_SPACING_PX, maxClusterWidth / Math.max(storeCount - 1, 1)),
+  );
+  return (seriesIndex - (storeCount - 1) / 2) * spacing;
+}
+
+/** Maps one point's (timestamp, price) to pixel coordinates inside `rect`, staggered by its line's Store. */
+function pointXY(
+  rect: PlotRect,
+  domain: Domain,
+  point: VariantPoint,
+  seriesIndex: number,
+  storeCount: number,
+): { cx: number; cy: number } {
+  const baseCx = rect.left + ((point.timestamp - domain.minT) / (domain.maxT - domain.minT)) * rect.width;
+  const cx = baseCx + staggerOffsetPx(rect, domain, seriesIndex, storeCount);
+  const cy = rect.top + (1 - (point.price - domain.minP) / (domain.maxP - domain.minP)) * rect.height;
   return { cx, cy };
 }
 
 /**
  * Builds one run's SVG path in "stepAfter" shape (the same step convention
- * this file already used for the superseded single-variant fallback line):
- * flat at a point's own price until the next point's timestamp, then a
- * vertical jump exactly at that timestamp. `H` (horizontal-to) then `V`
- * (vertical-to) per subsequent point does exactly that, since the path
- * cursor is left at the previous point's y after each `H`.
+ * this file already used before issue #75): flat at a point's own price
+ * until the next point's timestamp, then a vertical jump exactly at that
+ * timestamp. `H` (horizontal-to) then `V` (vertical-to) per subsequent point
+ * does exactly that, since the path cursor is left at the previous point's
+ * y after each `H`.
  */
-function stepPath(rect: PlotRect, domain: Domain, run: StorePoint[]): string {
+function stepPath(
+  rect: PlotRect,
+  domain: Domain,
+  run: VariantPoint[],
+  seriesIndex: number,
+  storeCount: number,
+): string {
   if (run.length === 0) return '';
-  const first = pointXY(rect, domain, run[0]);
+  const first = pointXY(rect, domain, run[0], seriesIndex, storeCount);
   let d = `M ${first.cx} ${first.cy}`;
   for (let i = 1; i < run.length; i++) {
-    const { cx, cy } = pointXY(rect, domain, run[i]);
+    const { cx, cy } = pointXY(rect, domain, run[i], seriesIndex, storeCount);
     d += ` H ${cx} V ${cy}`;
   }
   return d;
@@ -468,25 +486,50 @@ const POINT_RING_WIDTH = 1.5;
 const LINE_WIDTH = 2;
 
 /**
- * Draws every Store's step-line as an absolutely-positioned SVG overlay on
+ * A short line-style swatch (color + dash) used both in the legend and the
+ * tooltip header — the one visual token that actually shows a variant's
+ * dash style (a plain color square can't), so legend and tooltip always
+ * agree on what identifies a line.
+ */
+function LineSwatch({ color, dash }: { color: string; dash?: string }) {
+  return (
+    <svg width="16" height="10" viewBox="0 0 16 10" className="shrink-0" aria-hidden="true">
+      <line
+        x1="1"
+        y1="5"
+        x2="15"
+        y2="5"
+        stroke={color}
+        strokeWidth={2}
+        strokeDasharray={dash}
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+/**
+ * Draws every variant's step-line as an absolutely-positioned SVG overlay on
  * top of Recharts' axes/grid (see `usePlotRect` for why: full control over
  * the per-run step path and the genuine gap between runs, which a native
- * Recharts `<Line>` can't give us here — Stores are observed on
+ * Recharts `<Line>` can't give us here — Stores/variants are observed on
  * independent schedules, so a single shared x-axis dataset would force
- * spurious breaks into a Store's line at every *other* Store's observation
- * time, not just its own). A run of exactly one point (nothing to connect
- * it to, isolated on both sides by a gap) renders as a lone dot instead of
- * a zero-length path.
+ * spurious breaks into a line at every *other* line's observation time, not
+ * just its own). A run of exactly one point (nothing to connect it to,
+ * isolated on both sides by a gap) renders as a lone dot instead of a
+ * zero-length path.
  */
-function StepLinesOverlay({
+function LinesOverlay({
   lines,
   rect,
   domain,
+  storeCount,
   hoveredKey,
 }: {
-  lines: StoreLine[];
+  lines: VariantLine[];
   rect: PlotRect;
   domain: Domain;
+  storeCount: number;
   hoveredKey?: string;
 }) {
   return (
@@ -495,11 +538,11 @@ function StepLinesOverlay({
         line.runs.map((run, runIdx) => {
           if (run.length === 0) return null;
           if (run.length === 1) {
-            const { cx, cy } = pointXY(rect, domain, run[0]);
+            const { cx, cy } = pointXY(rect, domain, run[0], line.seriesIndex, storeCount);
             const isHovered = run[0].key === hoveredKey;
             return (
               <circle
-                key={`${line.storeSlug}-${runIdx}`}
+                key={`${line.key}-${runIdx}`}
                 cx={cx}
                 cy={cy}
                 r={isHovered ? POINT_RADIUS_HOVERED : POINT_RADIUS}
@@ -510,17 +553,18 @@ function StepLinesOverlay({
             );
           }
           return (
-            <g key={`${line.storeSlug}-${runIdx}`}>
+            <g key={`${line.key}-${runIdx}`}>
               <path
-                d={stepPath(rect, domain, run)}
+                d={stepPath(rect, domain, run, line.seriesIndex, storeCount)}
                 fill="none"
                 stroke={line.color}
                 strokeWidth={LINE_WIDTH}
+                strokeDasharray={line.dash}
                 strokeLinejoin="round"
                 strokeLinecap="round"
               />
               {run.map((p) => {
-                const { cx, cy } = pointXY(rect, domain, p);
+                const { cx, cy } = pointXY(rect, domain, p, line.seriesIndex, storeCount);
                 const isHovered = p.key === hoveredKey;
                 return (
                   <circle
@@ -543,7 +587,8 @@ function StepLinesOverlay({
 }
 
 interface PointHoverState {
-  point: StorePoint;
+  line: VariantLine;
+  point: VariantPoint;
   left: number;
   top: number;
 }
@@ -553,20 +598,18 @@ interface PointHoverState {
  * this normalized-distance cutoff, hovering empty chart space (including
  * anywhere inside a gap, where there's nothing to snap to) shows nothing
  * rather than always latching onto whatever point happens to be nearest,
- * however far away. Same validated cutoff issues #29/#47/#53 used for the
- * superseded per-variant-line and range-bar hover.
+ * however far away. Same validated cutoff issues #29/#47/#53/#59 used.
  */
 const MAX_HOVER_DIST_SQ = 0.0025;
 
 /**
- * Finds the point genuinely nearest the cursor across every Store's line,
+ * Finds the point genuinely nearest the cursor across every variant line,
  * normalizing both axes against the plot's own pixel size so time and price
- * contribute comparably (issue #29) — simpler than the range-bar version it
- * replaces (issue #35/#42) since a point has no span to hit-test against,
- * only its own (x, y).
+ * contribute comparably (issue #29).
  */
 function useNearestPointHover(
-  lines: StoreLine[],
+  lines: VariantLine[],
+  storeCount: number,
   containerRef: RefObject<HTMLDivElement | null>,
   rect: PlotRect | null,
   domain: Domain | null,
@@ -580,29 +623,31 @@ function useNearestPointHover(
     const mx = e.clientX - containerBox.left;
     const my = e.clientY - containerBox.top;
 
-    let bestPoint: StorePoint | null = null;
+    let bestLine: VariantLine | null = null;
+    let bestPoint: VariantPoint | null = null;
     let bestXY: { cx: number; cy: number } | null = null;
     let bestDist = Infinity;
     for (const line of lines) {
       for (const run of line.runs) {
         for (const p of run) {
-          const xy = pointXY(rect, domain, p);
+          const xy = pointXY(rect, domain, p, line.seriesIndex, storeCount);
           const dx = (xy.cx - mx) / rect.width;
           const dy = (xy.cy - my) / rect.height;
           const dist = dx * dx + dy * dy;
           if (dist < bestDist) {
             bestDist = dist;
+            bestLine = line;
             bestPoint = p;
             bestXY = xy;
           }
         }
       }
     }
-    if (!bestPoint || !bestXY || bestDist > MAX_HOVER_DIST_SQ) {
+    if (!bestLine || !bestPoint || !bestXY || bestDist > MAX_HOVER_DIST_SQ) {
       setHover(null);
       return;
     }
-    setHover({ point: bestPoint, left: bestXY.cx, top: bestXY.cy });
+    setHover({ line: bestLine, point: bestPoint, left: bestXY.cx, top: bestXY.cy });
   };
 
   return { hover, handleMove, handleLeave: () => setHover(null) };
@@ -610,20 +655,14 @@ function useNearestPointHover(
 
 /**
  * Floating tooltip for whatever point `useNearestPointHover` found nearest
- * the cursor: Store, observed date, the median price (the headline value)
- * and — issue #35's "ideally still lists each individual variant's price"
- * criterion, still honored — every variant that went into it. Unlike the
- * superseded range-bar tooltip, nothing here is ever struck through: every
- * variant in `point.variants` is in stock by construction (see
- * `computeStoreInstants`), since an out-of-stock variant never makes it
- * into a point at all. A single-variant point (nothing to take a median of)
- * shows just that one price with no "median" framing and omits the
- * per-variant list, since it would just repeat the same line.
+ * the cursor: Store (swatch matches the line's own color+dash), the
+ * variant's own normalized label, observed date, and its own price. Unlike
+ * the superseded median design there is nothing to break down further here
+ * — one point is already exactly one variant's own observation.
  */
 function PointHoverOverlay({ hover }: { hover: PointHoverState }) {
-  const { point, left, top } = hover;
+  const { line, point, left, top } = hover;
   const flipBelow = top < 96;
-  const isSingleVariant = point.variants.length <= 1;
   return (
     <div className="pointer-events-none absolute inset-0 z-10">
       <div
@@ -633,51 +672,36 @@ function PointHoverOverlay({ hover }: { hover: PointHoverState }) {
         style={{ left, top, minWidth: '11rem' }}
       >
         <p className="mb-1 flex items-center gap-1.5 font-medium">
-          <span
-            className="inline-block size-2.5 shrink-0 rounded-[2px]"
-            style={{ backgroundColor: point.color }}
-          />
-          {point.label}
+          <LineSwatch color={line.color} dash={line.dash} />
+          {line.storeLabel}
         </p>
+        <p className="text-xs text-muted-foreground">{line.variantLabel}</p>
         <p className="text-xs text-muted-foreground">{formatDateTime(point.observedAt)}</p>
-        {isSingleVariant ? (
-          <p className="mt-1 font-medium">{formatPrice(point.median, point.currency)}</p>
-        ) : (
-          <>
-            <p className="mt-1">
-              <span className="font-medium">{formatPrice(point.median, point.currency)}</span>{' '}
-              <span className="text-xs text-muted-foreground">median</span>
-            </p>
-            <ul className="mt-1.5 space-y-0.5 border-t pt-1.5 text-xs">
-              {point.variants.map((v) => (
-                <li key={v.id} className="flex items-center justify-between gap-3">
-                  <span className="text-muted-foreground">
-                    {normalizeVariantLabel(v.label, v.siblingCount)}
-                  </span>
-                  <span className="font-medium">{formatPrice(v.price, point.currency)}</span>
-                </li>
-              ))}
-            </ul>
-          </>
-        )}
+        <p className="mt-1 font-medium">{formatPrice(point.price, line.currency)}</p>
       </div>
     </div>
   );
 }
 
 /**
- * Shared chart chrome for every Keepa-style step-line chart (one Store or
+ * Shared chart chrome for every per-variant step-line chart (one line or
  * many): the Recharts axes/grid for scale and ticks, the step-line overlay
  * drawn on top of them, and the nearest-point hover tooltip. `axisCurrency`
- * formats the Y axis ticks; a Store's own point/tooltip always uses that
- * Store's own currency (see `StorePoint.currency`), never coerced to this
- * axis's.
+ * formats the Y axis ticks; a line's own point/tooltip always uses that
+ * line's own Store's currency, never coerced to this axis's.
  */
-function StepLineChart({ lines, axisCurrency }: { lines: StoreLine[]; axisCurrency: string }) {
+function StepLineChart({ lines, axisCurrency }: { lines: VariantLine[]; axisCurrency: string }) {
   const domain = useLineDomain(lines);
+  const storeCount = useMemo(() => new Set(lines.map((l) => l.storeSlug)).size, [lines]);
   const allPoints = useMemo(() => lines.flatMap((l) => l.runs.flat()), [lines]);
   const { containerRef, rect } = usePlotRect(allPoints.length);
-  const { hover, handleMove, handleLeave } = useNearestPointHover(lines, containerRef, rect, domain);
+  const { hover, handleMove, handleLeave } = useNearestPointHover(
+    lines,
+    storeCount,
+    containerRef,
+    rect,
+    domain,
+  );
 
   return (
     <div
@@ -713,7 +737,7 @@ function StepLineChart({ lines, axisCurrency }: { lines: StoreLine[]; axisCurren
             domain={domain ? [domain.minP, domain.maxP] : ['auto', 'auto']}
             className="text-xs"
           />
-          {/* Invisible line keyed on each point's median price — points are a custom
+          {/* Invisible line keyed on each point's price — points are a custom
               overlay, not a Recharts graphical child, and without any graphical item
               Recharts never generates Y-axis ticks at all (it only ticks an axis
               something is actually plotted against), leaving the Y axis blank even
@@ -721,7 +745,7 @@ function StepLineChart({ lines, axisCurrency }: { lines: StoreLine[]; axisCurren
               (`stroke="none"`, no dot, no active state) — it exists solely to give
               the Y axis a real series to tick against. */}
           <Line
-            dataKey="median"
+            dataKey="price"
             stroke="none"
             dot={false}
             activeDot={false}
@@ -730,7 +754,15 @@ function StepLineChart({ lines, axisCurrency }: { lines: StoreLine[]; axisCurren
           />
         </LineChart>
       </ResponsiveContainer>
-      {rect && domain && <StepLinesOverlay lines={lines} rect={rect} domain={domain} hoveredKey={hover?.point.key} />}
+      {rect && domain && (
+        <LinesOverlay
+          lines={lines}
+          rect={rect}
+          domain={domain}
+          storeCount={storeCount}
+          hoveredKey={hover?.point.key}
+        />
+      )}
       {hover && <PointHoverOverlay hover={hover} />}
     </div>
   );
@@ -738,7 +770,7 @@ function StepLineChart({ lines, axisCurrency }: { lines: StoreLine[]; axisCurren
 
 /**
  * One Store's Listing, as the chart needs to know it: which Store it
- * belongs to (for hue), its own currency (a Store's point is always
+ * belongs to (for hue), its own currency (a Store's line is always
  * formatted in its own currency, never coerced to another Store's), and its
  * display name for the legend.
  */
@@ -751,16 +783,16 @@ export interface ChartListing {
 }
 
 /**
- * Renders a Canonical Fish's price/availability chart as one Keepa-style
- * step-line per Store (issue #59) — one continuous line per Store, median
- * price at each observed instant, with a genuine gap wherever that Store
- * was out of stock. Handles every case uniformly: a single Listing with a
- * single variant, a single Listing with several variants, and several
- * Listings/Stores together — all the same median-and-gap step-line, just
- * with more or fewer Stores sharing the chart (the issue's "a
- * single-variant Store's line is identical in kind to a multi-variant
- * Store's line" criterion). A legend is only worth showing once there's
- * more than one Store to tell apart; a single Store needs no swatch.
+ * Renders a Canonical Fish's price/availability chart as one step-line per
+ * variant per Store (issue #75) — every variant keeps its own continuous
+ * price trend, with a genuine gap only where there's hard evidence that
+ * exact variant was out of stock. Handles every case uniformly: a single
+ * Listing with a single variant (one solid line, identical to issue #59's
+ * single-variant case — no regression), a single Listing with several
+ * variants (same color, each a different dash style), and several
+ * Listings/Stores together (each Store's own color, each of its variants
+ * its own dash, same-day clusters staggered apart). A legend is only worth
+ * showing once there's more than one line to tell apart.
  */
 function StoreLinesChart({ events, listings }: { events: HistoryEvent[]; listings: ChartListing[] }) {
   const storeMeta = useMemo(() => {
@@ -773,34 +805,62 @@ function StoreLinesChart({ events, listings }: { events: HistoryEvent[]; listing
     }
     return meta;
   }, [listings]);
-  const lines = useMemo(
-    () => computeStoreLines(computeStoreInstants(events, storeMeta)),
-    [events, storeMeta],
-  );
+  const lines = useMemo(() => computeVariantLines(events, storeMeta), [events, storeMeta]);
   const currencies = new Set(listings.map((l) => l.currency));
-  // The Y axis is one shared scale across every Store's line; when Stores
-  // price in different currencies, format ticks in the first Store's
-  // currency as a best-effort axis label and point readers to the tooltip
-  // (always formatted per-Store, in that Store's own currency) for the
-  // exact figure.
+  // The Y axis is one shared scale across every line; when Stores price in
+  // different currencies, format ticks in the first Store's currency as a
+  // best-effort axis label and point readers to the tooltip (always
+  // formatted per-line, in that line's own Store's currency) for the exact
+  // figure.
   const axisCurrency = listings[0]?.currency ?? 'USD';
-  const showLegend = storeMeta.size > 1;
+  const showLegend = lines.length > 1;
+
+  // Group lines by Store (in that Store's stable first-seen order) for the
+  // legend: a Store with exactly one line shows a plain swatch + its name
+  // (identical to issue #59's legend row); a Store with several shows its
+  // name once followed by one swatch+label row per variant, since those
+  // lines share a color and only their dash style/label tell them apart.
+  const byStore = useMemo(() => {
+    const groups = new Map<string, VariantLine[]>();
+    for (const line of lines) {
+      const list = groups.get(line.storeSlug);
+      if (list) list.push(line);
+      else groups.set(line.storeSlug, [line]);
+    }
+    return Array.from(storeMeta.entries())
+      .filter(([slug]) => groups.has(slug))
+      .map(([slug, meta]) => ({ slug, meta, lines: groups.get(slug)! }));
+  }, [lines, storeMeta]);
 
   return (
     <div className="w-full">
       <StepLineChart lines={lines} axisCurrency={axisCurrency} />
       {showLegend && (
-        <div className="mt-2 space-y-1 text-xs text-muted-foreground">
-          <div className="flex flex-wrap gap-x-4 gap-y-1.5">
-            {Array.from(storeMeta.entries()).map(([storeSlug, meta]) => (
-              <span key={storeSlug} className="inline-flex items-center gap-1.5">
-                <span
-                  className="inline-block size-2.5 shrink-0 rounded-[2px]"
-                  style={{ backgroundColor: meta.color }}
-                />
-                {meta.label}
-              </span>
-            ))}
+        <div className="mt-2 space-y-2 text-xs text-muted-foreground">
+          <div className="flex flex-wrap gap-x-5 gap-y-2">
+            {byStore.map(({ slug, meta, lines: storeLines }) =>
+              storeLines.length === 1 ? (
+                <span key={slug} className="inline-flex items-center gap-1.5">
+                  <span
+                    className="inline-block size-2.5 shrink-0 rounded-[2px]"
+                    style={{ backgroundColor: meta.color }}
+                  />
+                  {meta.label}
+                </span>
+              ) : (
+                <div key={slug} className="flex flex-col gap-1">
+                  <span className="font-medium text-foreground">{meta.label}</span>
+                  <div className="flex flex-wrap gap-x-4 gap-y-1 pl-0.5">
+                    {storeLines.map((line) => (
+                      <span key={line.key} className="inline-flex items-center gap-1.5">
+                        <LineSwatch color={line.color} dash={line.dash} />
+                        {line.variantLabel}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              ),
+            )}
           </div>
           {currencies.size > 1 && (
             <p>
@@ -816,9 +876,9 @@ function StoreLinesChart({ events, listings }: { events: HistoryEvent[]; listing
 
 /**
  * Renders a Canonical Fish's historical price/availability chart from its
- * history events — one Keepa-style step-line per Store carrying it (issue
- * #59), median price at each observed instant, with a genuine gap wherever
- * a Store was out of stock. `listings` must contain exactly the Listings
+ * history events — one step-line per variant per Store carrying it (issue
+ * #75), with a genuine gap only where there's hard evidence that exact
+ * variant was out of stock. `listings` must contain exactly the Listings
  * whose events appear in `events` (the Listings a Canonical Fish currently
  * has, from the index).
  */
