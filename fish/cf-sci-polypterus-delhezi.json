@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:polypterus-delhezi",
-  "commonName": "Delhezi Bichir (Polypterus delhezi)",
+  "commonName": "Delhezi Bichir",
   "scientificName": "Polypterus delhezi",
   "listings": [
     {
@@ -36,7 +36,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Delhezi Bichir",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "aqua-imports:41938",
@@ -47,6 +47,47 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-27T02:00:00.000Z",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47266230993088",
+          "label": "3.5-4 inch",
+          "price": 25,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8439021011136",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-04-23T03:00:00.000Z",
+      "price": 25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47266230993088",
+          "label": "3.5-4 inch",
+          "price": 25,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8439021011136",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 34.99,

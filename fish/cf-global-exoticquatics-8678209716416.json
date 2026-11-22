@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:global-exoticquatics:8678209716416",
-  "commonName": "Guianacara owroewefi",
+  "commonName": "Guianacara Owroewefi",
   "scientificName": null,
   "listings": [
     {
@@ -8,7 +8,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Guianacara Owroewefi",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "dans-fish:10127105524010",
@@ -26,6 +26,47 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-08-11T02:00:00.000Z",
+      "price": 10,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48782302511296",
+          "label": "1in",
+          "price": 10,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8678209716416",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-09-29T06:00:00.000Z",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48782302511296",
+          "label": "1-1.5in",
+          "price": 15,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8678209716416",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:57.334Z",
       "price": 15,

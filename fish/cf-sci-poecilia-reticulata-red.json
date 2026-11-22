@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:poecilia-reticulata:red",
-  "commonName": "Red Rosetail Guppy (Poecilia reticulata)",
+  "commonName": "Red Cobra Guppy",
   "scientificName": "Poecilia reticulata",
   "listings": [
     {
@@ -58,6 +58,13 @@
       "storeName": "Imperial Tropicals",
       "commonName": "Red Rosetail Guppy (Poecilia reticulata)",
       "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+    },
+    {
+      "listingId": "global-exoticquatics:8439022485696",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Red Cobra Guppy",
+      "lastCheckedAt": "2026-10-22T05:00:00.000Z"
     }
   ],
   "events": [
@@ -153,6 +160,26 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-01-27T02:00:00.000Z",
+      "price": 20,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47266233778368",
+          "label": "5 fish",
+          "price": 20,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8439022485696",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
       "observedAt": "2026-02-15T03:00:00.000Z",
       "price": 39.99,
       "currency": "USD",
@@ -172,6 +199,27 @@
       ],
       "listingId": "imperial-tropicals:10051959783731+10310104842547",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-02-16T03:00:00.000Z",
+      "price": 20,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47266233778368",
+          "label": "5 fish",
+          "price": 20,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8439022485696",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-02-19T03:00:00.000Z",

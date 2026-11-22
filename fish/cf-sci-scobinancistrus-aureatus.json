@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:scobinancistrus-aureatus",
-  "commonName": "L014 Goldie Pleco (Scobinancistrus aureatus)",
+  "commonName": "L014 Sunshine Pleco",
   "scientificName": "Scobinancistrus aureatus",
   "listings": [
     {
@@ -22,7 +22,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "L014 Sunshine Pleco",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "nu-aqua-shop:10006317826364",
@@ -54,6 +54,47 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-04-13T04:00:00.000Z",
+      "price": 75,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48145944838336",
+          "label": "1.5-2.5in",
+          "price": 75,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8547769483456",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-10-10T06:00:00.000Z",
+      "price": 75,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48145944838336",
+          "label": "1.5-2.5in",
+          "price": 75,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8547769483456",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 60,

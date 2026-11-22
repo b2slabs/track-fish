@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:geophagus-brasiliensis:pearl",
-  "commonName": "Pearl Eartheater (Geophagus brasiliensis)",
+  "commonName": "Pearl Eartheater",
   "scientificName": "Geophagus brasiliensis",
   "listings": [
     {
@@ -29,10 +29,30 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Pearl Eartheater",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-04-13T04:00:00.000Z",
+      "price": 45,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48146038653120",
+          "label": "5in+",
+          "price": 45,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8547781935296",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-04-16T03:00:00.000Z",
       "price": 12.99,
@@ -112,6 +132,27 @@
       ],
       "listingId": "aquatic-arts:14942174642543",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-05-14T04:00:00.000Z",
+      "price": 45,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48146038653120",
+          "label": "5in+",
+          "price": 45,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8547781935296",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-06-13T05:00:00.000Z",

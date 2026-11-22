@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:lepisosteus-platyrhincus",
-  "commonName": "Florida Gar (Lepisosteus platyrhinchus)",
+  "commonName": "Florida Gar",
   "scientificName": "Lepisosteus platyrhincus",
   "listings": [
     {
@@ -8,7 +8,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Florida Gar",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "monster-aquarium:6966801105105+6976201687249",
@@ -26,6 +26,26 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-08-08T02:00:00.000Z",
+      "price": 50,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48742793412800",
+          "label": "5in",
+          "price": 50,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8672794181824",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 999,

@@ -8,10 +8,64 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Albino Lwanda",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-08-09T02:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 40,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46427454210240",
+          "label": "Male (3 in+)",
+          "price": 60,
+          "available": true
+        },
+        {
+          "id": "46427454243008",
+          "label": "Female (2.75in+)",
+          "price": 40,
+          "available": true
+        },
+        {
+          "id": "46387123945664",
+          "label": "1M/6F",
+          "price": 260,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8241477484736",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-04-23T03:00:00.000Z",
+      "price": 60,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46427454210240",
+          "label": "Male (3 in+)",
+          "price": 60,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8241477484736",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:57.334Z",
       "price": 60,

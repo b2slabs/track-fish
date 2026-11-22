@@ -8,10 +8,106 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "BOD",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46430989516992",
+          "label": "Full Color Show Male",
+          "price": 60,
+          "available": true
+        },
+        {
+          "id": "46430989549760",
+          "label": "Female",
+          "price": 25,
+          "available": true
+        },
+        {
+          "id": "46387118637248",
+          "label": "1M/4F",
+          "price": 150,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8241476862144",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-01-31T03:00:00.000Z",
+      "price": 60,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46430989516992",
+          "label": "Full Color Show Male",
+          "price": 60,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8241476862144",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-09-28T05:00:00.000Z",
+      "price": 60,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46430989516992",
+          "label": "3-3.5in",
+          "price": 60,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8241476862144",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-03T07:00:00.000Z",
+      "price": 60,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46430989516992",
+          "label": "3-3.5in",
+          "price": 60,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8241476862144",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:57.334Z",
       "price": 60,

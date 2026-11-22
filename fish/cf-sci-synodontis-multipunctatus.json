@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:synodontis-multipunctatus",
-  "commonName": "Cuckoo Catfish (Synodontis multipunctatus)",
+  "commonName": "Synodontis Multipunctatus",
   "scientificName": "Synodontis multipunctatus",
   "listings": [
     {
@@ -29,7 +29,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Synodontis Multipunctatus",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:683774",
@@ -47,6 +47,69 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-03-13T03:00:00.000Z",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47784142143680",
+          "label": "1.5-2inch",
+          "price": 25,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8514229469376",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-08-25T02:00:00.000Z",
+      "price": 25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47784142143680",
+          "label": "1.5-2inch",
+          "price": 25,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8514229469376",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-09-04T05:00:00.000Z",
+      "price": 50,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47784142143680",
+          "label": "3.5-4in",
+          "price": 50,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8514229469376",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 19.99,

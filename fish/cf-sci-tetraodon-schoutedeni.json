@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:tetraodon-schoutedeni",
-  "commonName": "Spotted Congo Puffer (Tetraodon schoutedeni)",
+  "commonName": "Spotted Congo Puffer",
   "scientificName": "Tetraodon schoutedeni",
   "listings": [
     {
@@ -29,7 +29,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Spotted Congo Puffer",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "nu-aqua-shop:10226837422396",
@@ -121,6 +121,47 @@
       ],
       "listingId": "nationwide-aquatics-usa:8735507316889",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-10-02T06:00:00.000Z",
+      "price": 90,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46749532717248",
+          "label": "2 inch",
+          "price": 90,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8324068311232",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-06T07:00:00.000Z",
+      "price": 90,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46749532717248",
+          "label": "2 inch",
+          "price": 90,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8324068311232",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-14T07:00:00.000Z",

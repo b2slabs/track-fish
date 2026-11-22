@@ -1,0 +1,57 @@
+{
+  "canonicalFishId": "cf:global-exoticquatics:8448934772928",
+  "commonName": "Pink Peacock",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "global-exoticquatics:8448934772928",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Pink Peacock",
+      "lastCheckedAt": "2026-09-16T05:00:00.000Z"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-02-02T03:00:00.000Z",
+      "price": 50,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47290486325440",
+          "label": "3-4inch",
+          "price": 50,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8448934772928",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-04-23T03:00:00.000Z",
+      "price": 50,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47290486325440",
+          "label": "3-4inch",
+          "price": 50,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8448934772928",
+      "storeSlug": "global-exoticquatics"
+    }
+  ]
+}

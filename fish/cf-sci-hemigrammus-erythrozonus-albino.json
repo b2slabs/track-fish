@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hemigrammus-erythrozonus:albino",
-  "commonName": "Albino Glowlight Tetra (Hemigrammus erythrozonus)",
+  "commonName": "Albino Glowlight Tetra",
   "scientificName": "Hemigrammus erythrozonus",
   "listings": [
     {
@@ -15,7 +15,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Albino Glowlight Tetra",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-08-10T02:00:00.000Z"
     },
     {
       "listingId": "aqua-imports:140923",
@@ -26,6 +26,47 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 30,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46745011519680",
+          "label": "10 Fish",
+          "price": 30,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8322298839232",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-03-13T03:00:00.000Z",
+      "price": 30,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46745011519680",
+          "label": "10 Fish",
+          "price": 30,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8322298839232",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 9.99,

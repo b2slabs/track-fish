@@ -8,10 +8,132 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "OB Dolphin",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-02-05T03:00:00.000Z",
+      "price": 70,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47303039451328",
+          "label": "6-7 inch",
+          "price": 150,
+          "available": true
+        },
+        {
+          "id": "47303039615168",
+          "label": "3in",
+          "price": 70,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8452200431808",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-02-16T03:00:00.000Z",
+      "price": 70,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47303039451328",
+          "label": "6-7 inch",
+          "price": 150,
+          "available": false
+        },
+        {
+          "id": "47303039615168",
+          "label": "3in",
+          "price": 70,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8452200431808",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-03-02T03:00:00.000Z",
+      "price": 70,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47303039451328",
+          "label": "6-7 inch",
+          "price": 150,
+          "available": false
+        },
+        {
+          "id": "47303039615168",
+          "label": "3in",
+          "price": 70,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8452200431808",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-05-11T04:00:00.000Z",
+      "price": 80,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47303039615168",
+          "label": "3in",
+          "price": 80,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8452200431808",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-10-23T05:00:00.000Z",
+      "price": 60,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47303039615168",
+          "label": "3in",
+          "price": 60,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8452200431808",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:57.334Z",
       "price": 60,

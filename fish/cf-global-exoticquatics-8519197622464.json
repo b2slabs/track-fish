@@ -8,7 +8,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Red Turquoise Discus",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "imperial-tropicals:8398137786675",
@@ -19,6 +19,47 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-03-19T03:00:00.000Z",
+      "price": 50,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47804393095360",
+          "label": "4-4.5 inch",
+          "price": 50,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8519197622464",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-09-07T05:00:00.000Z",
+      "price": 50,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47804393095360",
+          "label": "4-4.5 inch",
+          "price": 50,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8519197622464",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 39.99,

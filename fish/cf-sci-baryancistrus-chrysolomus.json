@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:baryancistrus-chrysolomus",
-  "commonName": "L047 Mango / Magnum Pleco (Baryancistrus chrysolomus)",
+  "commonName": "L047 Mango Pleco",
   "scientificName": "Baryancistrus chrysolomus",
   "listings": [
     {
@@ -22,7 +22,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "L047 Mango Pleco",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "nu-aqua-shop:10006357999932",
@@ -40,6 +40,47 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-04-13T04:00:00.000Z",
+      "price": 50,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48146035146944",
+          "label": "2.5-3.5in",
+          "price": 50,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8547780690112",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-05-29T04:00:00.000Z",
+      "price": 50,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48146035146944",
+          "label": "2.5-3.5in",
+          "price": 50,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8547780690112",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 39.99,

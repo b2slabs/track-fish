@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:calophysus-macropterus",
-  "commonName": "Vulture Catfish (Calophysus macropterus)",
+  "commonName": "Vulture Catfish",
   "scientificName": "Calophysus macropterus",
   "listings": [
     {
@@ -15,7 +15,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Vulture Catfish",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "aquarium-fish:6963598426193",
@@ -33,6 +33,47 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-04-13T04:00:00.000Z",
+      "price": 45,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48145937334464",
+          "label": "4-5in",
+          "price": 45,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8547767910592",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-10-10T06:00:00.000Z",
+      "price": 70,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48145937334464",
+          "label": "7-8in",
+          "price": 70,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8547767910592",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 84.99,

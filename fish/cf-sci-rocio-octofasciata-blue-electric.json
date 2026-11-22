@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:rocio-octofasciata:blue-electric",
-  "commonName": "Electric Blue Jack Dempsey (Rocio octofasciata)",
+  "commonName": "Electric Blue Jack Dempsey",
   "scientificName": "Rocio octofasciata",
   "listings": [
     {
@@ -36,7 +36,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Electric Blue Jack Dempsey",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-10-01T06:00:00.000Z"
     },
     {
       "listingId": "aquatic-arts:3560009531478",
@@ -87,6 +87,69 @@
       ],
       "listingId": "ck-fish-world:8905555902679",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46529819050176",
+          "label": "2-3 inch",
+          "price": 25,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8273350820032",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-02-24T03:00:00.000Z",
+      "price": 25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46529819050176",
+          "label": "2-3 inch",
+          "price": 25,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8273350820032",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-09-28T05:00:00.000Z",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46529819050176",
+          "label": "1-1.5in",
+          "price": 15,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8273350820032",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",

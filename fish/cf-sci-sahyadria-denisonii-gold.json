@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:sahyadria-denisonii:gold",
-  "commonName": "Gold Roseline Shark (Sahyadria denisonii)",
+  "commonName": "Golden Roseline Shark",
   "scientificName": "Sahyadria denisonii",
   "listings": [
     {
@@ -15,7 +15,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Golden Roseline Shark",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-08-10T02:00:00.000Z"
     },
     {
       "listingId": "aqua-imports:96226",
@@ -45,6 +45,47 @@
       ],
       "listingId": "aquahuna:6829983137867",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46706386665664",
+          "label": "1.5 inch",
+          "price": 25,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8309396996288",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-01-24T02:00:00.000Z",
+      "price": 25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46706386665664",
+          "label": "1.5 inch",
+          "price": 25,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8309396996288",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-20T06:14:42.593Z",

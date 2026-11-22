@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:platydoras-armatulus",
-  "commonName": "Striped Raphael Catfish (Platydoras armatulus)",
+  "commonName": "Stripped Raphael Catfish",
   "scientificName": "Platydoras armatulus",
   "listings": [
     {
@@ -29,7 +29,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Stripped Raphael Catfish",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "nationwide-aquatics-usa:8802060599449",
@@ -59,6 +59,47 @@
       ],
       "listingId": "nationwide-aquatics-usa:8802060599449",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-08-11T02:00:00.000Z",
+      "price": 10,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48782207746240",
+          "label": "3-4 in",
+          "price": 10,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8678201524416",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-09-07T05:00:00.000Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48782207746240",
+          "label": "3-4 in",
+          "price": 10,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8678201524416",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",

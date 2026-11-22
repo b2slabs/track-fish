@@ -8,10 +8,51 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Royal Clown Knife",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-08-10T02:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 80,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46746657816768",
+          "label": "8 in",
+          "price": 80,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8322815754432",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-02-10T03:00:00.000Z",
+      "price": 80,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46746657816768",
+          "label": "8 in",
+          "price": 80,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8322815754432",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:57.334Z",
       "price": 20,

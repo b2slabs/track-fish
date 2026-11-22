@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pterophyllum-scalare:panda",
-  "commonName": "Panda Angelfish (Pterophyllum scalare)",
+  "commonName": "Panda Angelfish",
   "scientificName": "Pterophyllum scalare",
   "listings": [
     {
@@ -29,7 +29,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Panda Angelfish",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "dans-fish:10127098249514",
@@ -40,6 +40,47 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-02-27T03:00:00.000Z",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47592426209472",
+          "label": "2-3inch",
+          "price": 15,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8498823561408",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-06-18T05:00:00.000Z",
+      "price": 15,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47592426209472",
+          "label": "2-3inch",
+          "price": 15,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8498823561408",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 9.99,

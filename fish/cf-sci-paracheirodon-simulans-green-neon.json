@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:paracheirodon-simulans:green-neon",
-  "commonName": "Green Neon Tetra (School of 6)",
+  "commonName": "Green Neon Tetra",
   "scientificName": "Paracheirodon simulans",
   "listings": [
     {
@@ -64,7 +64,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Green Neon Tetra",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "nu-aqua-shop:10006316646716",
@@ -194,6 +194,26 @@
       ],
       "listingId": "aquarium-fish:9178623607083",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-01-27T02:00:00.000Z",
+      "price": 30,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47266228273344",
+          "label": "10 Fish",
+          "price": 30,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8439019995328",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-02-06T03:00:00.000Z",
@@ -874,6 +894,27 @@
       ],
       "listingId": "aquarium-fish:9178623607083",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-06-18T05:00:00.000Z",
+      "price": 30,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47266228273344",
+          "label": "10 Fish",
+          "price": 30,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8439019995328",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-06-20T04:00:00.000Z",

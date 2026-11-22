@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:aulonocara-sp:blue-neon",
-  "commonName": "Blue Neon Peacock (Aulonocara sp. \"Blue Neon\")",
+  "commonName": "Blue Neon Peacock",
   "scientificName": "Aulonocara sp.",
   "listings": [
     {
@@ -16,9 +16,36 @@
       "storeName": "Imperial Tropicals",
       "commonName": "BOGO Blue Neon Peacock (Aulonocara sp. \"Blue Neon\")",
       "lastCheckedAt": "2026-08-28T12:00:00.000Z"
+    },
+    {
+      "listingId": "global-exoticquatics:8251084832960",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Blue Neon Peacock",
+      "lastCheckedAt": "2026-06-06T04:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-03-27T03:00:00.000Z",
+      "price": 50,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46427772584128",
+          "label": "Full Color Show Male",
+          "price": 50,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8251084832960",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-06-13T05:00:00.000Z",
       "price": 19.99,

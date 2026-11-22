@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pseudoplatystoma-tigrinum",
-  "commonName": "Tigrinus Catfish (Brachyplatystoma tigrinum)",
+  "commonName": "Tigrinus Catfish",
   "scientificName": "Pseudoplatystoma tigrinum",
   "listings": [
     {
@@ -15,7 +15,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Tigrinus Catfish",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "aquarium-fish:6657982342",
@@ -33,6 +33,69 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-03-27T03:00:00.000Z",
+      "price": 220,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46444643811520",
+          "label": "4.5 in",
+          "price": 220,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8255960285376",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-05-21T04:00:00.000Z",
+      "price": 220,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46444643811520",
+          "label": "4.5 in",
+          "price": 220,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8255960285376",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-10-31T06:00:00.000Z",
+      "price": 450,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46444643811520",
+          "label": "7-8in",
+          "price": 450,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8255960285376",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 134.99,

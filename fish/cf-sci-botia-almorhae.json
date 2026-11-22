@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:botia-almorhae",
-  "commonName": "Yo Yo Loach (Group of 3)",
+  "commonName": "YoYo Loach",
   "scientificName": "Botia almorhae",
   "listings": [
     {
@@ -64,7 +64,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "YoYo Loach",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-08-10T02:00:00.000Z"
     },
     {
       "listingId": "aquarium-fish:6203114374+9179066433835",
@@ -169,6 +169,26 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 8,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46706199888064",
+          "label": "2.5-3 in",
+          "price": 8,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8309339128000",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
       "observedAt": "2026-01-10T02:00:00.000Z",
       "price": 22.49,
       "currency": "USD",
@@ -209,6 +229,27 @@
       ],
       "listingId": "aquarium-fish:9179066433835",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-02-07T03:00:00.000Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46706199888064",
+          "label": "2.5-3 in",
+          "price": 8,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8309339128000",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-03-14T03:00:00.000Z",

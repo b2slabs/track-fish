@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hemichromis-exsul",
-  "commonName": "Turkana Jewel Cichlid (Rubricatochromis exsul)",
+  "commonName": "Turkana Jewel Cichlid",
   "scientificName": "Hemichromis exsul",
   "listings": [
     {
@@ -15,7 +15,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Turkana Jewel Cichlid",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-08-10T02:00:00.000Z"
     },
     {
       "listingId": "imperial-tropicals:8398127169843",
@@ -40,6 +40,26 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 9,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46484870234304",
+          "label": "1 inch",
+          "price": 9,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8263775977664",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-03-06T03:00:00.000Z",
       "price": 12.99,
@@ -119,6 +139,27 @@
       ],
       "listingId": "aquatic-arts:4573424713814",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-04-23T03:00:00.000Z",
+      "price": 9,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46484870234304",
+          "label": "1 inch",
+          "price": 9,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8263775977664",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",

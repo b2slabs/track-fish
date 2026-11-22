@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:trichogaster-lalius",
-  "commonName": "Flame Dwarf Gourami | Trichogaster lalius",
+  "commonName": "Dwarf Gourami",
   "scientificName": "Trichogaster lalius",
   "listings": [
     {
@@ -29,7 +29,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Dwarf Gourami",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "aquatic-arts:14630268141935+4375750803542",
@@ -193,6 +193,59 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-08-11T02:00:00.000Z",
+      "price": 8,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48782153744576",
+          "label": "Red",
+          "price": 8,
+          "available": true
+        },
+        {
+          "id": "48782153777344",
+          "label": "Blue",
+          "price": 8,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8678194970816",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-08-21T02:00:00.000Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48782153744576",
+          "label": "Red",
+          "price": 8,
+          "available": false
+        },
+        {
+          "id": "48782153777344",
+          "label": "Blue",
+          "price": 8,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8678194970816",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
       "observedAt": "2026-09-24T05:00:00.000Z",
       "price": 10,
       "currency": "USD",
@@ -254,6 +307,33 @@
       ],
       "listingId": "aquahuna:7525932499019",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-09-28T05:00:00.000Z",
+      "price": 8,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48782153744576",
+          "label": "Red",
+          "price": 8,
+          "available": true
+        },
+        {
+          "id": "48782153777344",
+          "label": "Blue",
+          "price": 8,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8678194970816",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-10-03T05:00:00.000Z",

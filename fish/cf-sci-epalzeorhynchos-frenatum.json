@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:epalzeorhynchos-frenatum",
-  "commonName": "Rainbow Shark (Epalzeorhynchos frenatum)",
+  "commonName": "Rainbow Shark",
   "scientificName": "Epalzeorhynchos frenatum",
   "listings": [
     {
@@ -50,7 +50,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Rainbow Shark",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "aqua-imports:68545",
@@ -186,6 +186,26 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-03-13T03:00:00.000Z",
+      "price": 6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47784015265984",
+          "label": "1.5-2.5 in",
+          "price": 6,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8514128675008",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
       "observedAt": "2026-04-01T03:00:00.000Z",
       "price": 5,
       "currency": "USD",
@@ -226,6 +246,48 @@
       ],
       "listingId": "aquahuna:6852975362123",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-04-17T03:00:00.000Z",
+      "price": 6,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47784015265984",
+          "label": "1.5-2.5 in",
+          "price": 6,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8514128675008",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-08-11T02:00:00.000Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47784015265984",
+          "label": "1.5-2.5 in",
+          "price": 10,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8514128675008",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",

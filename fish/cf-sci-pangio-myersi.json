@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pangio-myersi",
-  "commonName": "Giant Kuhli Loach (Pangio myersi)",
+  "commonName": "Giant Kuhli Loach",
   "scientificName": "Pangio myersi",
   "listings": [
     {
@@ -15,7 +15,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Giant Kuhli Loach",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "nu-aqua-shop:10418991497532",
@@ -966,6 +966,47 @@
       ],
       "listingId": "aquatic-arts:14847509201263",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-08-11T02:00:00.000Z",
+      "price": 5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48782299496640",
+          "label": "2-3in",
+          "price": 5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8678209323200",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-09-22T05:00:00.000Z",
+      "price": 5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48782299496640",
+          "label": "2-3in",
+          "price": 5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8678209323200",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",

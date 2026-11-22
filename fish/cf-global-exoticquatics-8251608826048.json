@@ -1,0 +1,57 @@
+{
+  "canonicalFishId": "cf:global-exoticquatics:8251608826048",
+  "commonName": "Albino White Lips",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "global-exoticquatics:8251608826048",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Albino White Lips",
+      "lastCheckedAt": "2026-08-10T02:00:00.000Z"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 60,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46431008063680",
+          "label": "2 in",
+          "price": 60,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8251608826048",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-01-14T02:00:00.000Z",
+      "price": 60,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46431008063680",
+          "label": "2 in",
+          "price": 60,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8251608826048",
+      "storeSlug": "global-exoticquatics"
+    }
+  ]
+}

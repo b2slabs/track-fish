@@ -8,7 +8,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Orange Koi Angelfish",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "dans-fish:10127093727530",
@@ -19,6 +19,68 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-08-08T02:00:00.000Z",
+      "price": 10,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48742849413312",
+          "label": "Small",
+          "price": 10,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8672801292480",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-10-23T05:00:00.000Z",
+      "price": 20,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48742849413312",
+          "label": "Medium",
+          "price": 20,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8672801292480",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-15T07:00:00.000Z",
+      "price": 20,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48742849413312",
+          "label": "Medium",
+          "price": 20,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8672801292480",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:57.334Z",
       "price": 20,

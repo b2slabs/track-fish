@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:peckoltia-compta-note:leopard",
-  "commonName": "L134 Leopard Frog Pleco (Peckoltia compta)",
+  "commonName": "L134 Leopard Frog Pleco",
   "scientificName": "Peckoltia compta",
   "listings": [
     {
@@ -50,7 +50,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "L134 Leopard Frog Pleco",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "nu-aqua-shop:10006317859132",
@@ -116,6 +116,26 @@
       "storeSlug": "nationwide-aquatics-usa"
     },
     {
+      "observedAt": "2026-04-13T04:00:00.000Z",
+      "price": 80,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48145943199936",
+          "label": "2-3in",
+          "price": 80,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8547768991936",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
       "observedAt": "2026-08-25T02:00:00.000Z",
       "price": 50,
       "currency": "USD",
@@ -135,6 +155,27 @@
       ],
       "listingId": "nationwide-aquatics-usa:8679485931673",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-10-21T05:00:00.000Z",
+      "price": 80,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48145943199936",
+          "label": "2-3in",
+          "price": 80,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8547768991936",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",

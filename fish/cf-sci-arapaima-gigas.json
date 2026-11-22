@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:arapaima-gigas",
-  "commonName": "Arapaima (Arapaima gigas)",
+  "commonName": "Arapaima",
   "scientificName": "Arapaima gigas",
   "listings": [
     {
@@ -22,7 +22,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Arapaima",
-      "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "aqua-imports:186115",
@@ -30,9 +30,98 @@
       "storeName": "Aqua Imports",
       "commonName": "Arapaima (Arapaima gigas)",
       "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+    },
+    {
+      "listingId": "global-exoticquatics:8547765682368",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Arapaima",
+      "lastCheckedAt": "2026-04-15T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-03-31T03:00:00.000Z",
+      "price": 120,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48081854005440",
+          "label": "5in",
+          "price": 120,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8534339223744",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-04-13T04:00:00.000Z",
+      "price": 120,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48145930911936",
+          "label": "5 in",
+          "price": 120,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8547765682368",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-08-10T02:00:00.000Z",
+      "price": 150,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48081854005440",
+          "label": "7in",
+          "price": 150,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8534339223744",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-09-28T05:00:00.000Z",
+      "price": 150,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48081854005440",
+          "label": "7in",
+          "price": 150,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8534339223744",
+      "storeSlug": "global-exoticquatics"
+    },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 85,
