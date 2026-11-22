@@ -34,6 +34,17 @@ import type { HistoryEvent } from '@/types/data';
  * later scrape means it was removed/sold through, not "the scraper didn't
  * mention it this time"). A silent gap with no such evidence — however
  * long, however irregular — is always bridged. See `computeVariantLines`.
+ *
+ * Issue #81 removed the dense daily Heartbeat trail entirely (replaced by a
+ * single `lastCheckedAt` pointer per Listing — see
+ * `docs/adr/0005-heartbeat-events-replaced-by-lastcheckedat.md`), which
+ * otherwise would have left a currently-unchanged variant's line stopping
+ * dead at its last Change Event, looking abandoned rather than "still
+ * tracked, just unchanged." `computeVariantLines` now extends a variant's
+ * final run flat out to its Listing's own `lastCheckedAt` — the
+ * authoritative "confirmed observed through this date" signal — UNLESS the
+ * variant's own last known state is already a gap (unavailable/missing),
+ * in which case it stays ended exactly where the evidence says it should.
  */
 
 /**
@@ -176,10 +187,19 @@ interface VariantLine {
  * is the issue #75 fix: issue #59 (inheriting issue #53's heuristic) broke
  * lines on unusually large silent gaps even with no evidence anything was
  * ever out of stock, which is exactly the over-splitting this drops.
+ *
+ * Issue #81: once every variant's events are accounted for, a variant whose
+ * last known state is a real, in-stock observation (not a gap) gets one
+ * more synthetic point appended to its final run — same price, timestamp
+ * at its own Listing's `lastCheckedAt` — so the line visibly continues up
+ * to "now" instead of stopping dead at whatever Change Event happened to
+ * be most recent. A variant whose last known state is already a gap is left
+ * exactly as evidence says: ended there, no synthetic continuation.
  */
 function computeVariantLines(
   events: HistoryEvent[],
   storeMeta: Map<string, StoreMeta>,
+  lastCheckedAtByListing: Map<string, string>,
 ): VariantLine[] {
   const sorted = [...events]
     .filter((e) => storeMeta.has(e.storeSlug))
@@ -262,6 +282,28 @@ function computeVariantLines(
       // from THIS event is hard evidence too (see this function's doc).
       for (const acc of accums.values()) {
         if (!eventVariantIds.has(acc.variantId)) acc.sawGapEvidence = true;
+      }
+    }
+
+    // Issue #81: extend each variant's final run flat out to this Listing's
+    // own lastCheckedAt, as long as its last known state isn't already a
+    // gap (sawGapEvidence) -- see this function's doc. Done once per
+    // Listing (not per variant fetch) since every variant on one Listing
+    // shares the same lastCheckedAt.
+    const lastCheckedAt = lastCheckedAtByListing.get(listingId);
+    const lastCheckedTimestamp = lastCheckedAt ? new Date(lastCheckedAt).getTime() : undefined;
+    if (lastCheckedTimestamp != null) {
+      for (const acc of accums.values()) {
+        if (acc.sawGapEvidence || acc.runs.length === 0) continue;
+        const lastRun = acc.runs[acc.runs.length - 1];
+        const lastPoint = lastRun[lastRun.length - 1];
+        if (lastCheckedTimestamp <= lastPoint.timestamp) continue; // nothing to extend
+        lastRun.push({
+          key: `${listingId}::${acc.variantId}::lastChecked::${lastCheckedTimestamp}`,
+          timestamp: lastCheckedTimestamp,
+          observedAt: lastCheckedAt!,
+          price: lastPoint.price,
+        });
       }
     }
 
@@ -771,8 +813,10 @@ function StepLineChart({ lines, axisCurrency }: { lines: VariantLine[]; axisCurr
 /**
  * One Store's Listing, as the chart needs to know it: which Store it
  * belongs to (for hue), its own currency (a Store's line is always
- * formatted in its own currency, never coerced to another Store's), and its
- * display name for the legend.
+ * formatted in its own currency, never coerced to another Store's), its
+ * display name for the legend, and (issue #81) the authoritative date it
+ * was last confirmed observed — used to extend its variants' lines flat up
+ * to that date instead of stopping dead at the last Change Event.
  */
 export interface ChartListing {
   listingId: string;
@@ -780,6 +824,7 @@ export interface ChartListing {
   storeName: string;
   commonName: string;
   currency: string;
+  lastCheckedAt: string;
 }
 
 /**
@@ -805,7 +850,14 @@ function StoreLinesChart({ events, listings }: { events: HistoryEvent[]; listing
     }
     return meta;
   }, [listings]);
-  const lines = useMemo(() => computeVariantLines(events, storeMeta), [events, storeMeta]);
+  const lastCheckedAtByListing = useMemo(
+    () => new Map(listings.map((l) => [l.listingId, l.lastCheckedAt])),
+    [listings],
+  );
+  const lines = useMemo(
+    () => computeVariantLines(events, storeMeta, lastCheckedAtByListing),
+    [events, storeMeta, lastCheckedAtByListing],
+  );
   const currencies = new Set(listings.map((l) => l.currency));
   // The Y axis is one shared scale across every line; when Stores price in
   // different currencies, format ticks in the first Store's currency as a

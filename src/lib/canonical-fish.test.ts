@@ -232,7 +232,14 @@ function makeEvent(overrides: Partial<CanonicalFishHistoryEvent> = {}): Canonica
 }
 
 function makeListingInfo(overrides: Partial<CanonicalFishHistoryListing> = {}): CanonicalFishHistoryListing {
-  return { listingId: 'store-a:1', storeSlug: 'store-a', storeName: 'Store A', commonName: 'Fish', ...overrides };
+  return {
+    listingId: 'store-a:1',
+    storeSlug: 'store-a',
+    storeName: 'Store A',
+    commonName: 'Fish',
+    lastCheckedAt: '2026-01-01T00:00:00.000Z',
+    ...overrides,
+  };
 }
 
 test('removeListingFromHistory deletes the whole history when it was the only Listing', () => {
@@ -265,7 +272,7 @@ test('removeListingFromHistory keeps the history (minus that Listing) when other
 
 test('mergeListingIntoHistory on a repoint carries moved events over without duplicating or losing them', () => {
   const movedEvents = [makeEvent({ observedAt: '2026-01-01T00:00:00.000Z' })];
-  const newEvent = makeEvent({ observedAt: '2026-01-02T00:00:00.000Z', type: 'heartbeat' });
+  const newEvent = makeEvent({ observedAt: '2026-01-02T00:00:00.000Z', type: 'change' });
 
   const merged = mergeListingIntoHistory({
     existing: undefined,
@@ -279,6 +286,29 @@ test('mergeListingIntoHistory on a repoint carries moved events over without dup
   assert.equal(merged.events.length, 2);
   assert.equal(merged.scientificName, 'Genus speciesus');
   assert.equal(merged.listings.length, 1);
+});
+
+test('mergeListingIntoHistory with newEvent undefined (issue #81: observed unchanged) appends no event but still advances lastCheckedAt', () => {
+  const existing: CanonicalFishHistory = {
+    canonicalFishId: 'cf:sci:x',
+    commonName: 'Fish',
+    scientificName: 'Genus speciesus',
+    listings: [makeListingInfo({ lastCheckedAt: '2026-01-01T00:00:00.000Z' })],
+    events: [makeEvent({ observedAt: '2026-01-01T00:00:00.000Z' })],
+  };
+
+  const merged = mergeListingIntoHistory({
+    existing,
+    canonicalFishId: 'cf:sci:x',
+    listingInfo: makeListingInfo({ lastCheckedAt: '2026-01-05T00:00:00.000Z' }),
+    scientificName: 'Genus speciesus',
+    movedEvents: [],
+    newEvent: undefined,
+  });
+
+  assert.equal(merged.events.length, 1); // no new event appended
+  assert.equal(merged.listings.length, 1);
+  assert.equal(merged.listings[0].lastCheckedAt, '2026-01-05T00:00:00.000Z');
 });
 
 test('mergeListingIntoHistory combines two different Listings (two Stores) under one Canonical Fish', () => {
@@ -311,12 +341,18 @@ test('migrateLegacyHistory upgrades a pre-#3 single-Listing history file to the 
     listingId: 'aquatic-arts:1',
     storeSlug: 'aquatic-arts',
     commonName: 'Fish',
-    events: [{ type: 'change', observedAt: '2026-01-01T00:00:00.000Z', price: 1, currency: 'USD', available: true, variants: [] }],
+    events: [
+      { type: 'change', observedAt: '2026-01-01T00:00:00.000Z', price: 1, currency: 'USD', available: true, variants: [] },
+      { type: 'change', observedAt: '2026-01-03T00:00:00.000Z', price: 1, currency: 'USD', available: true, variants: [] },
+    ],
   };
   assert.equal(isLegacyHistory(legacy), true);
   const migrated = migrateLegacyHistory(legacy);
   assert.equal(migrated.listings.length, 1);
   assert.equal(migrated.listings[0].listingId, 'aquatic-arts:1');
+  // Backfilled from this Listing's own last event, since this pre-#3 shape
+  // never had a lastCheckedAt field at all (issue #81).
+  assert.equal(migrated.listings[0].lastCheckedAt, '2026-01-03T00:00:00.000Z');
   assert.equal(migrated.events[0].listingId, 'aquatic-arts:1');
   assert.equal(isLegacyHistory(migrated), false);
 });

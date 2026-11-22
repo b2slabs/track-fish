@@ -28,6 +28,6 @@ _Avoid_: Snapshot, raw record.
 A processed-layer record created only when a Listing's price or availability differs from its previously known state.
 _Avoid_: Update, delta, diff.
 
-**Heartbeat**:
-A periodic processed-layer record confirming a Listing was observed with no change since its last Change Event.
-_Avoid_: Ping, keep-alive, unchanged record.
+**lastCheckedAt**:
+A timestamp on a Listing's processed-layer metadata, updated in place on every Scrape Run that observes it — whether or not anything changed — confirming it was still observed as of that date. Replaces the old "Heartbeat" record-per-unchanged-observation model (see `docs/adr/0005-heartbeat-events-replaced-by-lastcheckedat.md`): it is a single pointer, not an append-only event.
+_Avoid_: Heartbeat, ping, keep-alive, unchanged record.

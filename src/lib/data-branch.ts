@@ -68,8 +68,9 @@ function tryGit(args: string): string | undefined {
 /**
  * Stages and commits every change in the `data` branch worktree and pushes
  * it to `origin`. Returns false (no-op) if there was nothing to commit —
- * this happens when a Scrape Run produces only Heartbeats for Listings
- * whose observation timestamps are, for whatever reason, already current.
+ * this happens when a Scrape Run's `now` is, for whatever reason, already
+ * current for every Listing (no `lastCheckedAt` advanced, no Change Event
+ * written).
  */
 export function commitAndPushDataBranch(worktreeDir: string, message: string): boolean {
   git('add -A', worktreeDir);

@@ -32,7 +32,7 @@ export interface Listing {
   lastObservedAt: string;
 }
 
-export type HistoryEventType = 'change' | 'heartbeat';
+export type HistoryEventType = 'change';
 
 export interface HistoryEvent {
   type: HistoryEventType;
@@ -59,6 +59,15 @@ export interface CanonicalFishHistoryListing {
   storeSlug: string;
   storeName: string;
   commonName: string;
+  /**
+   * ISO timestamp of the most recent Scrape Run that observed this
+   * Listing, updated in place on every observation whether or not
+   * anything changed (issue #81). The chart extends a variant's line flat
+   * from its last Change Event up to this date instead of needing a
+   * dense trail of Heartbeat events (or a cadence heuristic) to know how
+   * far it's safe to draw.
+   */
+  lastCheckedAt: string;
 }
 
 export interface CanonicalFishHistory {

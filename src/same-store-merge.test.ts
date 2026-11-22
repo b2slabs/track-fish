@@ -210,8 +210,8 @@ test('migrating real pre-fix data: two already-separate listingIds with their ow
       commonName: 'White Cloud Minnow (School of 6)',
       scientificName: 'Tanichthys albonubes',
       listings: [
-        { listingId: 'aquarium-fish:1', storeSlug: 'aquarium-fish', storeName: 'AquariumFish.com', commonName: 'White Cloud Minnow' },
-        { listingId: 'aquarium-fish:2', storeSlug: 'aquarium-fish', storeName: 'AquariumFish.com', commonName: 'White Cloud Minnow (School of 6)' },
+        { listingId: 'aquarium-fish:1', storeSlug: 'aquarium-fish', storeName: 'AquariumFish.com', commonName: 'White Cloud Minnow', lastCheckedAt: now },
+        { listingId: 'aquarium-fish:2', storeSlug: 'aquarium-fish', storeName: 'AquariumFish.com', commonName: 'White Cloud Minnow (School of 6)', lastCheckedAt: now },
       ],
       events: [
         {

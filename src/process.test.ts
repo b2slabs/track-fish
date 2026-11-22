@@ -45,7 +45,7 @@ test('first run: every Listing is a Change Event tagged first-observed, index.js
     assert.equal(result.accepted, true);
     assert.equal(result.listingCount, 4);
     assert.equal(result.changeCount, 4);
-    assert.equal(result.heartbeatCount, 0);
+    assert.equal(result.unchangedCount, 0);
 
     const index = readIndexFile(dataDir);
     assert.equal(index.listings.length, 4);
@@ -59,16 +59,20 @@ test('first run: every Listing is a Change Event tagged first-observed, index.js
     assert.equal(history.events.length, 1);
     assert.equal(history.events[0].type, 'change');
     assert.deepEqual(history.events[0].changedFields, ['first-observed']);
+    assert.equal(
+      history.listings.find((l) => l.listingId === guppy.listingId)?.lastCheckedAt,
+      '2026-11-18T00:00:00.000Z'
+    );
   });
 });
 
-test('second run with no real-world change: every Listing emits a Heartbeat, firstObservedAt is preserved', () => {
+test('second run with no real-world change: no new events, lastCheckedAt advances, firstObservedAt is preserved', () => {
   withTempDataDir((dataDir) => {
     processStoreRun({ store, rawData: cloneRaw(), dataDir, now: new Date('2026-11-18T00:00:00.000Z') });
     const second = processStoreRun({ store, rawData: cloneRaw(), dataDir, now: new Date('2026-11-19T00:00:00.000Z') });
 
     assert.equal(second.changeCount, 0);
-    assert.equal(second.heartbeatCount, 4);
+    assert.equal(second.unchangedCount, 4);
 
     const index = readIndexFile(dataDir);
     const guppy = index.listings.find((l) => l.productIdentifier === '15109197660527')!;
@@ -76,12 +80,17 @@ test('second run with no real-world change: every Listing emits a Heartbeat, fir
     assert.equal(guppy.lastObservedAt, '2026-11-19T00:00:00.000Z');
 
     const history = readHistoryFile(dataDir, guppy.canonicalFishId)!;
-    assert.equal(history.events.length, 2);
-    assert.equal(history.events[1].type, 'heartbeat');
+    // No Heartbeat event was appended -- still just the one first-observed
+    // Change Event -- but lastCheckedAt on the Listing metadata advanced.
+    assert.equal(history.events.length, 1);
+    assert.equal(
+      history.listings.find((l) => l.listingId === guppy.listingId)?.lastCheckedAt,
+      '2026-11-19T00:00:00.000Z'
+    );
   });
 });
 
-test('second run with a real price change and a restock: those Listings get Change Events, the rest get Heartbeats', () => {
+test('second run with a real price change and a restock: those Listings get Change Events, the rest just advance lastCheckedAt', () => {
   withTempDataDir((dataDir) => {
     processStoreRun({ store, rawData: cloneRaw(), dataDir, now: new Date('2026-11-18T00:00:00.000Z') });
 
@@ -94,7 +103,7 @@ test('second run with a real price change and a restock: those Listings get Chan
     const second = processStoreRun({ store, rawData: changedRaw, dataDir, now: new Date('2026-11-19T00:00:00.000Z') });
 
     assert.equal(second.changeCount, 2);
-    assert.equal(second.heartbeatCount, 2);
+    assert.equal(second.unchangedCount, 2);
 
     // "Peugeot Tetra (Hyphessobrycon peugeoti)" has an extractable
     // scientific name, so its Canonical Fish id is derived from that
@@ -114,11 +123,13 @@ test('second run with a real price change and a restock: those Listings get Chan
     assert.deepEqual(loachHistory.events[1].changedFields, ['available', 'variants']);
     assert.equal(loachHistory.events[1].available, true);
 
-    // Unaffected listings got Heartbeats, not Change Events.
+    // Unaffected listings got no new event at all -- just an advanced
+    // lastCheckedAt on their history-file Listing metadata.
     // "Blue Tail Goodeid" carries a detected "blue" variety (issue #34),
     // so its id is suffixed accordingly.
     const goodeidHistory = readHistoryFile(dataDir, 'cf:sci:ataeniobius-toweri:blue') as CanonicalFishHistory;
-    assert.equal(goodeidHistory.events[1].type, 'heartbeat');
+    assert.equal(goodeidHistory.events.length, 1);
+    assert.equal(goodeidHistory.listings[0].lastCheckedAt, '2026-11-19T00:00:00.000Z');
   });
 });
 
