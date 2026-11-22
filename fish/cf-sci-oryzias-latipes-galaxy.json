@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:oryzias-latipes:galaxy",
-  "commonName": "Galaxy Medaka Ricefish (Oryzias latipes “galaxy”)",
+  "commonName": "Galaxy Medaka Rice Fish",
   "scientificName": "Oryzias latipes",
   "listings": [
     {
@@ -15,7 +15,7 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Galaxy Medaka Rice Fish",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "monster-aquarium:7257892847825",
@@ -33,6 +33,32 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-10T07:00:00.000Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51058019237974",
+          "label": "6 Fish",
+          "price": 26.99,
+          "available": true
+        },
+        {
+          "id": "51058019270742",
+          "label": "12 Fish",
+          "price": 50.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:10405737594966",
+      "storeSlug": "glass-aqua"
+    },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 4,

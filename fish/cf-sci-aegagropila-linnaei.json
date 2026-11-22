@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:aegagropila-linnaei",
-  "commonName": "Marimo Moss Ball (Aegagropila linnaei)",
+  "commonName": "Marimo Moss Ball",
   "scientificName": "Aegagropila linnaei",
   "listings": [
     {
@@ -29,10 +29,42 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Marimo Moss Ball",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-09-02T04:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "4652497535008",
+          "label": "SINGLE",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "4652743098400",
+          "label": "3-PACK",
+          "price": 36.99,
+          "available": false
+        },
+        {
+          "id": "5371503607840",
+          "label": "5-PACK",
+          "price": 57.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:362898063392",
+      "storeSlug": "glass-aqua"
+    },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 14.99,

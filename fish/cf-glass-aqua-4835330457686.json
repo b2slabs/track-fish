@@ -8,7 +8,7 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Hikari Micro Pellets",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "nu-aqua-shop:10006316941628",
@@ -26,6 +26,26 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-04-03T03:00:00.000Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33108301709398",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:4835330457686",
+      "storeSlug": "glass-aqua"
+    },
     {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 7.99,

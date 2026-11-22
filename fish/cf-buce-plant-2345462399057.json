@@ -15,7 +15,7 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Seiryu Stone Accent Gravel",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-09-10T05:00:00.000Z"
     }
   ],
   "events": [
@@ -40,6 +40,26 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42549473738838",
+          "label": "Title",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:7609453576278",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-02-01T03:00:00.000Z",
       "price": 14.5,
       "currency": "USD",
@@ -61,6 +81,27 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-02-01T03:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42549473738838",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7609453576278",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-02-26T03:00:00.000Z",
       "price": 14.5,
       "currency": "USD",
@@ -80,6 +121,27 @@
       ],
       "listingId": "buce-plant:2345462399057",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-02-26T03:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42549473738838",
+          "label": "Title",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7609453576278",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",

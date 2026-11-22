@@ -8,10 +8,42 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "UNS Prism Glass Lid",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-02-05T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41994515218518",
+          "label": "20TM",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "41994515251286",
+          "label": "25TM",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "41994515284054",
+          "label": "30TM",
+          "price": 21.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:7472258416726",
+      "storeSlug": "glass-aqua"
+    },
     {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 19.99,

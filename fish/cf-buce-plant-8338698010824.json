@@ -15,7 +15,7 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Bucephalandra Alamanda",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
@@ -40,6 +40,26 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-09-03T04:00:00.000Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45607668711510",
+          "label": "Title",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:8008023801942",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-11-03T07:00:00.000Z",
       "price": 10.99,
       "currency": "USD",
@@ -61,6 +81,27 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-03T07:00:00.000Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45607668711510",
+          "label": "Title",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:8008023801942",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-11-12T07:00:00.000Z",
       "price": 10.99,
       "currency": "USD",
@@ -80,6 +121,27 @@
       ],
       "listingId": "buce-plant:8338698010824",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-12T07:00:00.000Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45607668711510",
+          "label": "Title",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:8008023801942",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",

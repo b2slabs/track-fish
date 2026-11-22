@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:buce-plant:8181540159688",
-  "commonName": "Chihiros WRGB Vivid 3 LED Light",
+  "commonName": "Chihiros LED Light - WRGB Vivid 3",
   "scientificName": null,
   "listings": [
     {
@@ -9,9 +9,68 @@
       "storeName": "Buce Plant",
       "commonName": "Chihiros WRGB Vivid 3 LED Light",
       "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+    },
+    {
+      "listingId": "glass-aqua:7520994721878",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Chihiros LED Light - WRGB Vivid 3",
+      "lastCheckedAt": "2026-02-09T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 659.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43561918201942",
+          "label": "Black",
+          "price": 659.99,
+          "available": true
+        },
+        {
+          "id": "43561918234710",
+          "label": "White",
+          "price": 699.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:7520994721878",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-01-17T02:00:00.000Z",
+      "price": 659.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43561918201942",
+          "label": "Black",
+          "price": 659.99,
+          "available": true
+        },
+        {
+          "id": "43561918234710",
+          "label": "White",
+          "price": 699.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:7520994721878",
+      "storeSlug": "glass-aqua"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 699.99,

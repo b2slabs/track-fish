@@ -8,10 +8,51 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Quick Scape 176",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-09-01T05:00:00.000Z",
+      "price": 89.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45679772467286",
+          "label": "Title",
+          "price": 89.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:8018771607638",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-09-23T05:00:00.000Z",
+      "price": 89.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45679772467286",
+          "label": "Title",
+          "price": 89.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:8018771607638",
+      "storeSlug": "glass-aqua"
+    },
     {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 89.99,

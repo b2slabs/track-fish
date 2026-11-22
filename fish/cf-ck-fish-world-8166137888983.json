@@ -22,7 +22,7 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Hikari Micro Wafers",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "nu-aqua-shop:15445005926716",
@@ -33,6 +33,26 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-04-03T03:00:00.000Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "5437843865632",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:464557965344",
+      "storeSlug": "glass-aqua"
+    },
     {
       "observedAt": "2026-11-20T06:14:42.801Z",
       "price": 3.98,

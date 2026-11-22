@@ -15,10 +15,125 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Black Lava Rock Cave",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-09-11T05:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39781062803542",
+          "label": "Small",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "39781062836310",
+          "label": "Medium",
+          "price": 21.99,
+          "available": true
+        },
+        {
+          "id": "39781062869078",
+          "label": "Large",
+          "price": 27.99,
+          "available": true
+        },
+        {
+          "id": "45728170999894",
+          "label": "XL",
+          "price": 34.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:6732712312918",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-09-16T05:00:00.000Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39781062803542",
+          "label": "Small",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "39781062836310",
+          "label": "Medium",
+          "price": 23.99,
+          "available": true
+        },
+        {
+          "id": "39781062869078",
+          "label": "Large",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "45728170999894",
+          "label": "XL",
+          "price": 36.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "glass-aqua:6732712312918",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-10-27T05:00:00.000Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39781062803542",
+          "label": "Small",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "39781062836310",
+          "label": "Medium",
+          "price": 23.99,
+          "available": true
+        },
+        {
+          "id": "39781062869078",
+          "label": "Large",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "45728170999894",
+          "label": "XL",
+          "price": 36.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:6732712312918",
+      "storeSlug": "glass-aqua"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 15.99,

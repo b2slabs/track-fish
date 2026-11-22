@@ -15,10 +15,48 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Sand Stone",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-08-22T02:00:00.000Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39781060706390",
+          "label": "5LB",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "39781060739158",
+          "label": "10LB",
+          "price": 44.99,
+          "available": true
+        },
+        {
+          "id": "39781060771926",
+          "label": "20LB",
+          "price": 79.99,
+          "available": true
+        },
+        {
+          "id": "45589375352918",
+          "label": "30LB",
+          "price": 104.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:6732711395414",
+      "storeSlug": "glass-aqua"
+    },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 24.99,

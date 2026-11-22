@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:buce-plant:8194627043528",
-  "commonName": "VCA Flow Kit for UNS Reef System",
+  "commonName": "UNS Reef System x VCA Flow Kit",
   "scientificName": null,
   "listings": [
     {
@@ -15,7 +15,7 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "UNS Reef System x VCA Flow Kit",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-04-03T03:00:00.000Z"
     }
   ],
   "events": [
@@ -38,6 +38,68 @@
       ],
       "listingId": "buce-plant:8194627043528",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42222494908502",
+          "label": "Title",
+          "price": 59.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:7532884230230",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-02-26T03:00:00.000Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42222494908502",
+          "label": "Title",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7532884230230",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-02-27T03:00:00.000Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42222494908502",
+          "label": "Title",
+          "price": 59.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7532884230230",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:neocaridina-davidi:blue",
-  "commonName": "Blue Velvet Shrimp",
+  "commonName": "Blue Dream Shrimp",
   "scientificName": "Neocaridina davidi",
   "listings": [
     {
@@ -22,7 +22,7 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Blue Dream Shrimp",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "shrimpy-business:2591869010005+9918709530914",
@@ -194,6 +194,32 @@
       "storeSlug": "flip-aquatics"
     },
     {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43387444068438",
+          "label": "10 Pack",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "43387444101206",
+          "label": "20 Pack",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:7657243115606",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-02-05T03:00:00.000Z",
       "price": 29.99,
       "currency": "USD",
@@ -335,6 +361,60 @@
       ],
       "listingId": "flip-aquatics:11067729732",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-04-14T03:00:00.000Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43387444068438",
+          "label": "10 Pack",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "43387444101206",
+          "label": "20 Pack",
+          "price": 78.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7657243115606",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-04-15T03:00:00.000Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43387444068438",
+          "label": "10 Pack",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "43387444101206",
+          "label": "20 Pack",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7657243115606",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-05-08T03:00:00.000Z",
@@ -593,6 +673,111 @@
       "storeSlug": "flip-aquatics"
     },
     {
+      "observedAt": "2026-08-25T02:00:00.000Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43387444068438",
+          "label": "10 Pack",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "43387444101206",
+          "label": "20 Pack",
+          "price": 78.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:7657243115606",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-08-27T10:00:00.000Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43387444068438",
+          "label": "10 Pack",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "43387444101206",
+          "label": "20 Pack",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:7657243115606",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-08-28T12:00:00.000Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43387444068438",
+          "label": "10 Pack",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "43387444101206",
+          "label": "20 Pack",
+          "price": 78.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:7657243115606",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-09-03T04:00:00.000Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43387444068438",
+          "label": "10 Pack",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "43387444101206",
+          "label": "20 Pack",
+          "price": 78.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7657243115606",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-09-04T05:00:00.000Z",
       "price": 29.99,
       "currency": "USD",
@@ -618,6 +803,87 @@
       ],
       "listingId": "flip-aquatics:11067729732",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-09-10T05:00:00.000Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43387444068438",
+          "label": "10 Pack",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "43387444101206",
+          "label": "20 Pack",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7657243115606",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-09-15T05:00:00.000Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43387444068438",
+          "label": "10 Pack",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "43387444101206",
+          "label": "20 Pack",
+          "price": 78.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7657243115606",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-09-23T05:00:00.000Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43387444068438",
+          "label": "10 Pack",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "43387444101206",
+          "label": "20 Pack",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7657243115606",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-09-24T05:00:00.000Z",
@@ -695,6 +961,60 @@
       ],
       "listingId": "flip-aquatics:11067729732",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-10-29T06:00:00.000Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43387444068438",
+          "label": "10 Pack",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "43387444101206",
+          "label": "20 Pack",
+          "price": 78.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7657243115606",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-05T07:00:00.000Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43387444068438",
+          "label": "10 Pack",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "43387444101206",
+          "label": "20 Pack",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7657243115606",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",

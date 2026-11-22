@@ -15,7 +15,7 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Chihiros Fish Food Feeder",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
@@ -46,6 +46,32 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-01-23T02:00:00.000Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43835951218774",
+          "label": "Small",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "43835951251542",
+          "label": "Large",
+          "price": 21.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:7765748351062",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-05-18T04:00:00.000Z",
       "price": 21.99,
       "currency": "USD",
@@ -71,6 +97,33 @@
       ],
       "listingId": "buce-plant:8270869463240",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-05-18T04:00:00.000Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43835951218774",
+          "label": "Small",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "43835951251542",
+          "label": "Large",
+          "price": 21.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7765748351062",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-07-28T03:00:00.000Z",
@@ -101,6 +154,34 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-07-28T03:00:00.000Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43835951218774",
+          "label": "Small",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "43835951251542",
+          "label": "Large",
+          "price": 21.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7765748351062",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-08-22T02:00:00.000Z",
       "price": 21.99,
       "currency": "USD",
@@ -127,6 +208,34 @@
       ],
       "listingId": "buce-plant:8270869463240",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-08-22T02:00:00.000Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43835951218774",
+          "label": "Small",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "43835951251542",
+          "label": "Large",
+          "price": 21.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7765748351062",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-08-25T02:00:00.000Z",
@@ -157,6 +266,34 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-08-25T02:00:00.000Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43835951218774",
+          "label": "Small",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "43835951251542",
+          "label": "Large",
+          "price": 21.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7765748351062",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-09-04T05:00:00.000Z",
       "price": 17.99,
       "currency": "USD",
@@ -182,6 +319,33 @@
       ],
       "listingId": "buce-plant:8270869463240",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-09-05T04:00:00.000Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43835951218774",
+          "label": "Small",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "43835951251542",
+          "label": "Large",
+          "price": 21.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7765748351062",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",

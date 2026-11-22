@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:rotala-macrandra:green",
-  "commonName": "Rotala Macrandra 'Green' UNS Tissue Culture",
+  "commonName": "Rotala Macrandra 'Green'",
   "scientificName": "Rotala macrandra",
   "listings": [
     {
@@ -8,7 +8,7 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Rotala Macrandra 'Green'",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "buce-plant:1317160157265+8346119897288",
@@ -47,6 +47,26 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-10-09T06:00:00.000Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50593800519766",
+          "label": "Title",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:10333049520214",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-11-04T06:00:00.000Z",
       "price": 11.99,
       "currency": "USD",
@@ -66,6 +86,27 @@
       ],
       "listingId": "buce-plant:8346119897288",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-04T06:00:00.000Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50593800519766",
+          "label": "Title",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:10333049520214",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",

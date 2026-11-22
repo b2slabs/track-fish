@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10355395723580",
-  "commonName": "Anubias barteri ‘Coin Leaf’",
+  "commonName": "Anubias Barteri 'Round Leaf'",
   "scientificName": null,
   "listings": [
     {
@@ -23,9 +23,36 @@
       "storeName": "Aqua Imports",
       "commonName": "Anubias barteri ‘Coin Leaf’",
       "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+    },
+    {
+      "listingId": "glass-aqua:7573012512854",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Anubias Barteri 'Round Leaf'",
+      "lastCheckedAt": "2026-07-21T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42383140323414",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:7573012512854",
+      "storeSlug": "glass-aqua"
+    },
     {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 14.99,

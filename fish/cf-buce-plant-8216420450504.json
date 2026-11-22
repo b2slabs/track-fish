@@ -15,7 +15,7 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Mopani Wood",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
@@ -82,6 +82,74 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42369577156694",
+          "label": "Small / Single",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "42460171403350",
+          "label": "Small / 3 Pack",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "42460171436118",
+          "label": "Small / 5 Pack",
+          "price": 47.99,
+          "available": false
+        },
+        {
+          "id": "42369577189462",
+          "label": "Medium / Single",
+          "price": 21.99,
+          "available": true
+        },
+        {
+          "id": "42460171468886",
+          "label": "Medium / 3 Pack",
+          "price": 55.99,
+          "available": true
+        },
+        {
+          "id": "42460171501654",
+          "label": "Medium / 5 Pack",
+          "price": 81.99,
+          "available": true
+        },
+        {
+          "id": "42369577222230",
+          "label": "Large / Single",
+          "price": 64.99,
+          "available": true
+        },
+        {
+          "id": "42460171534422",
+          "label": "Large / 3 Pack",
+          "price": 159.99,
+          "available": true
+        },
+        {
+          "id": "42460171567190",
+          "label": "Large / 5 Pack",
+          "price": 324.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:7569588846678",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-02-18T03:00:00.000Z",
       "price": 64.99,
       "currency": "USD",
@@ -143,6 +211,75 @@
       ],
       "listingId": "buce-plant:8216420450504",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-02-18T03:00:00.000Z",
+      "price": 64.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42369577156694",
+          "label": "Small / Single",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "42460171403350",
+          "label": "Small / 3 Pack",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "42460171436118",
+          "label": "Small / 5 Pack",
+          "price": 47.99,
+          "available": false
+        },
+        {
+          "id": "42369577189462",
+          "label": "Medium / Single",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "42460171468886",
+          "label": "Medium / 3 Pack",
+          "price": 55.99,
+          "available": false
+        },
+        {
+          "id": "42460171501654",
+          "label": "Medium / 5 Pack",
+          "price": 81.99,
+          "available": false
+        },
+        {
+          "id": "42369577222230",
+          "label": "Large / Single",
+          "price": 64.99,
+          "available": true
+        },
+        {
+          "id": "42460171534422",
+          "label": "Large / 3 Pack",
+          "price": 159.99,
+          "available": true
+        },
+        {
+          "id": "42460171567190",
+          "label": "Large / 5 Pack",
+          "price": 324.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7569588846678",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-05-22T04:00:00.000Z",
@@ -208,6 +345,75 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-05-22T04:00:00.000Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42369577156694",
+          "label": "Small / Single",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "42460171403350",
+          "label": "Small / 3 Pack",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "id": "42460171436118",
+          "label": "Small / 5 Pack",
+          "price": 47.99,
+          "available": true
+        },
+        {
+          "id": "42369577189462",
+          "label": "Medium / Single",
+          "price": 21.99,
+          "available": true
+        },
+        {
+          "id": "42460171468886",
+          "label": "Medium / 3 Pack",
+          "price": 55.99,
+          "available": true
+        },
+        {
+          "id": "42460171501654",
+          "label": "Medium / 5 Pack",
+          "price": 81.99,
+          "available": true
+        },
+        {
+          "id": "42369577222230",
+          "label": "Large / Single",
+          "price": 64.99,
+          "available": true
+        },
+        {
+          "id": "42460171534422",
+          "label": "Large / 3 Pack",
+          "price": 159.99,
+          "available": true
+        },
+        {
+          "id": "42460171567190",
+          "label": "Large / 5 Pack",
+          "price": 324.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7569588846678",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-06-04T05:00:00.000Z",
       "price": 12.99,
       "currency": "USD",
@@ -268,6 +474,74 @@
       ],
       "listingId": "buce-plant:8216420450504",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-06-04T05:00:00.000Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42369577156694",
+          "label": "Small / Single",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "42460171403350",
+          "label": "Small / 3 Pack",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "id": "42460171436118",
+          "label": "Small / 5 Pack",
+          "price": 47.99,
+          "available": true
+        },
+        {
+          "id": "42369577189462",
+          "label": "Medium / Single",
+          "price": 21.99,
+          "available": true
+        },
+        {
+          "id": "42460171468886",
+          "label": "Medium / 3 Pack",
+          "price": 55.99,
+          "available": true
+        },
+        {
+          "id": "42460171501654",
+          "label": "Medium / 5 Pack",
+          "price": 81.99,
+          "available": true
+        },
+        {
+          "id": "42369577222230",
+          "label": "Large / Single",
+          "price": 64.99,
+          "available": false
+        },
+        {
+          "id": "42460171534422",
+          "label": "Large / 3 Pack",
+          "price": 159.99,
+          "available": false
+        },
+        {
+          "id": "42460171567190",
+          "label": "Large / 5 Pack",
+          "price": 324.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:7569588846678",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-06-12T05:00:00.000Z",
@@ -332,6 +606,74 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-06-12T05:00:00.000Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42369577156694",
+          "label": "Small / Single",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "42460171403350",
+          "label": "Small / 3 Pack",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "id": "42460171436118",
+          "label": "Small / 5 Pack",
+          "price": 47.99,
+          "available": true
+        },
+        {
+          "id": "42369577189462",
+          "label": "Medium / Single",
+          "price": 21.99,
+          "available": true
+        },
+        {
+          "id": "42460171468886",
+          "label": "Medium / 3 Pack",
+          "price": 55.99,
+          "available": false
+        },
+        {
+          "id": "42460171501654",
+          "label": "Medium / 5 Pack",
+          "price": 81.99,
+          "available": false
+        },
+        {
+          "id": "42369577222230",
+          "label": "Large / Single",
+          "price": 64.99,
+          "available": false
+        },
+        {
+          "id": "42460171534422",
+          "label": "Large / 3 Pack",
+          "price": 159.99,
+          "available": false
+        },
+        {
+          "id": "42460171567190",
+          "label": "Large / 5 Pack",
+          "price": 324.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:7569588846678",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-06-18T05:00:00.000Z",
       "price": 12.99,
       "currency": "USD",
@@ -392,6 +734,74 @@
       ],
       "listingId": "buce-plant:8216420450504",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-06-18T05:00:00.000Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42369577156694",
+          "label": "Small / Single",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "42460171403350",
+          "label": "Small / 3 Pack",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "id": "42460171436118",
+          "label": "Small / 5 Pack",
+          "price": 47.99,
+          "available": true
+        },
+        {
+          "id": "42369577189462",
+          "label": "Medium / Single",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "42460171468886",
+          "label": "Medium / 3 Pack",
+          "price": 55.99,
+          "available": false
+        },
+        {
+          "id": "42460171501654",
+          "label": "Medium / 5 Pack",
+          "price": 81.99,
+          "available": false
+        },
+        {
+          "id": "42369577222230",
+          "label": "Large / Single",
+          "price": 64.99,
+          "available": false
+        },
+        {
+          "id": "42460171534422",
+          "label": "Large / 3 Pack",
+          "price": 159.99,
+          "available": false
+        },
+        {
+          "id": "42460171567190",
+          "label": "Large / 5 Pack",
+          "price": 324.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:7569588846678",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-07-01T05:00:00.000Z",
@@ -582,6 +992,74 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-08-25T02:00:00.000Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42369577156694",
+          "label": "Small / Single",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "42460171403350",
+          "label": "Small / 3 Pack",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "id": "42460171436118",
+          "label": "Small / 5 Pack",
+          "price": 47.99,
+          "available": true
+        },
+        {
+          "id": "42369577189462",
+          "label": "Medium / Single",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "42460171468886",
+          "label": "Medium / 3 Pack",
+          "price": 55.99,
+          "available": false
+        },
+        {
+          "id": "42460171501654",
+          "label": "Medium / 5 Pack",
+          "price": 81.99,
+          "available": false
+        },
+        {
+          "id": "42369577222230",
+          "label": "Large / Single",
+          "price": 64.99,
+          "available": true
+        },
+        {
+          "id": "42460171534422",
+          "label": "Large / 3 Pack",
+          "price": 159.99,
+          "available": true
+        },
+        {
+          "id": "42460171567190",
+          "label": "Large / 5 Pack",
+          "price": 324.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:7569588846678",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-10-24T05:00:00.000Z",
       "price": 12.99,
       "currency": "USD",
@@ -642,6 +1120,74 @@
       ],
       "listingId": "buce-plant:8216420450504",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-10-24T05:00:00.000Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42369577156694",
+          "label": "Small / Single",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "42460171403350",
+          "label": "Small / 3 Pack",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "id": "42460171436118",
+          "label": "Small / 5 Pack",
+          "price": 47.99,
+          "available": true
+        },
+        {
+          "id": "42369577189462",
+          "label": "Medium / Single",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "42460171468886",
+          "label": "Medium / 3 Pack",
+          "price": 55.99,
+          "available": false
+        },
+        {
+          "id": "42460171501654",
+          "label": "Medium / 5 Pack",
+          "price": 81.99,
+          "available": false
+        },
+        {
+          "id": "42369577222230",
+          "label": "Large / Single",
+          "price": 64.99,
+          "available": true
+        },
+        {
+          "id": "42460171534422",
+          "label": "Large / 3 Pack",
+          "price": 159.99,
+          "available": false
+        },
+        {
+          "id": "42460171567190",
+          "label": "Large / 5 Pack",
+          "price": 324.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:7569588846678",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-09T07:00:00.000Z",
@@ -706,6 +1252,74 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-09T07:00:00.000Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42369577156694",
+          "label": "Small / Single",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "42460171403350",
+          "label": "Small / 3 Pack",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "id": "42460171436118",
+          "label": "Small / 5 Pack",
+          "price": 47.99,
+          "available": true
+        },
+        {
+          "id": "42369577189462",
+          "label": "Medium / Single",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "42460171468886",
+          "label": "Medium / 3 Pack",
+          "price": 55.99,
+          "available": false
+        },
+        {
+          "id": "42460171501654",
+          "label": "Medium / 5 Pack",
+          "price": 81.99,
+          "available": false
+        },
+        {
+          "id": "42369577222230",
+          "label": "Large / Single",
+          "price": 64.99,
+          "available": false
+        },
+        {
+          "id": "42460171534422",
+          "label": "Large / 3 Pack",
+          "price": 159.99,
+          "available": false
+        },
+        {
+          "id": "42460171567190",
+          "label": "Large / 5 Pack",
+          "price": 324.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:7569588846678",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-11-14T07:00:00.000Z",
       "price": 12.99,
       "currency": "USD",
@@ -766,6 +1380,74 @@
       ],
       "listingId": "buce-plant:8216420450504",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-14T07:00:00.000Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42369577156694",
+          "label": "Small / Single",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "42460171403350",
+          "label": "Small / 3 Pack",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "id": "42460171436118",
+          "label": "Small / 5 Pack",
+          "price": 47.99,
+          "available": true
+        },
+        {
+          "id": "42369577189462",
+          "label": "Medium / Single",
+          "price": 21.99,
+          "available": true
+        },
+        {
+          "id": "42460171468886",
+          "label": "Medium / 3 Pack",
+          "price": 55.99,
+          "available": true
+        },
+        {
+          "id": "42460171501654",
+          "label": "Medium / 5 Pack",
+          "price": 81.99,
+          "available": true
+        },
+        {
+          "id": "42369577222230",
+          "label": "Large / Single",
+          "price": 64.99,
+          "available": true
+        },
+        {
+          "id": "42460171534422",
+          "label": "Large / 3 Pack",
+          "price": 159.99,
+          "available": true
+        },
+        {
+          "id": "42460171567190",
+          "label": "Large / 5 Pack",
+          "price": 324.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:7569588846678",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",

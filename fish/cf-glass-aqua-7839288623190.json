@@ -8,10 +8,36 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Algae Eater & Bottom Feeder Food - Ultra Fresh Shrimp & Vegetable Pie",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-04-04T03:00:00.000Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44343816847446",
+          "label": "Tropical Shrimp Pie - Protein (Bottom Feeders)",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "44343816880214",
+          "label": "Vegetable Shrimp Pie - Plant (Algae Eaters)",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:7839288623190",
+      "storeSlug": "glass-aqua"
+    },
     {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 9.99,

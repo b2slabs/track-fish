@@ -8,10 +8,574 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Cube Tank Starter Kit With Rock",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-03-26T03:00:00.000Z",
+      "price": 126.3,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 126.3,
+          "available": true
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 148.15,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-04-03T03:00:00.000Z",
+      "price": 126.3,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 126.3,
+          "available": true
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 148.15,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-04-09T03:00:00.000Z",
+      "price": 125.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 125.99,
+          "available": true
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 147.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-04-11T03:00:00.000Z",
+      "price": 125.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 125.99,
+          "available": true
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 147.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-04-12T03:00:00.000Z",
+      "price": 125.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 125.99,
+          "available": true
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 147.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-04-18T03:00:00.000Z",
+      "price": 125.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 125.99,
+          "available": false
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 147.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-05-05T03:00:00.000Z",
+      "price": 125.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 125.99,
+          "available": true
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 147.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-05-21T04:00:00.000Z",
+      "price": 147.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 125.99,
+          "available": false
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 147.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-05-22T04:00:00.000Z",
+      "price": 125.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 125.99,
+          "available": true
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 147.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-05-23T04:00:00.000Z",
+      "price": 147.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 125.99,
+          "available": false
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 147.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-05-25T05:00:00.000Z",
+      "price": 125.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 125.99,
+          "available": false
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 147.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-06-10T05:00:00.000Z",
+      "price": 125.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 125.99,
+          "available": true
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 147.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-07-14T03:00:00.000Z",
+      "price": 125.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 125.99,
+          "available": false
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 147.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-07-29T03:00:00.000Z",
+      "price": 129.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 129.99,
+          "available": true
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 152.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-09-22T05:00:00.000Z",
+      "price": 129.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 129.99,
+          "available": true
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 152.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-10-01T06:00:00.000Z",
+      "price": 129.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 129.99,
+          "available": true
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 155.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-10-16T04:00:00.000Z",
+      "price": 132.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 132.99,
+          "available": true
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 155.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-10-27T05:00:00.000Z",
+      "price": 132.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 132.99,
+          "available": false
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 155.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-10-31T06:00:00.000Z",
+      "price": 117.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 117.99,
+          "available": true
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 141.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-11T07:00:00.000Z",
+      "price": 117.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 117.99,
+          "available": false
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 141.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-12T07:00:00.000Z",
+      "price": 117.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738863111",
+          "label": "2.1 Gallon Kit",
+          "price": 117.99,
+          "available": true
+        },
+        {
+          "id": "52738863175",
+          "label": "4.1 Gallon Kit",
+          "price": 141.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277470279",
+      "storeSlug": "glass-aqua"
+    },
     {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 117.99,
