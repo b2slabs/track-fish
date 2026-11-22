@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:riccardia-chamedryfolia",
-  "commonName": "Mini Pellia",
+  "commonName": "Mini Pelia",
   "scientificName": "Riccardia chamedryfolia",
   "listings": [
     {
@@ -23,6 +23,13 @@
       "storeName": "Buce Plant",
       "commonName": "Mini Pellia on Stainless Steel Mesh",
       "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+    },
+    {
+      "listingId": "aquatics-for-fun:8412177662144",
+      "storeSlug": "aquatics-for-fun",
+      "storeName": "AquaticsForFun",
+      "commonName": "Mini Pelia",
+      "lastCheckedAt": "2026-01-23T02:00:00.000Z"
     }
   ],
   "events": [
@@ -45,6 +52,47 @@
       ],
       "listingId": "daku-aquatics:8741028233434",
       "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 13,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47173023563968",
+          "label": "Title",
+          "price": 13,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatics-for-fun:8412177662144",
+      "storeSlug": "aquatics-for-fun"
+    },
+    {
+      "observedAt": "2026-01-13T02:00:00.000Z",
+      "price": 13,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47173023563968",
+          "label": "Title",
+          "price": 13,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatics-for-fun:8412177662144",
+      "storeSlug": "aquatics-for-fun"
     },
     {
       "observedAt": "2026-02-20T03:00:00.000Z",

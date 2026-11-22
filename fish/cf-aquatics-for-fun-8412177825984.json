@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:aquatics-for-fun:8412177825984",
-  "commonName": "Fissidens fontanus Moss",
+  "commonName": "Fissiden Fontanus Moss",
   "scientificName": null,
   "listings": [
     {
@@ -8,7 +8,7 @@
       "storeSlug": "aquatics-for-fun",
       "storeName": "AquaticsForFun",
       "commonName": "Fissiden Fontanus Moss",
-      "lastCheckedAt": "2026-11-22T16:59:09.821Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "aqua-imports:104902",
@@ -19,6 +19,47 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 10,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47173023662272",
+          "label": "Title",
+          "price": 10,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatics-for-fun:8412177825984",
+      "storeSlug": "aquatics-for-fun"
+    },
+    {
+      "observedAt": "2026-08-01T04:00:00.000Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47173023662272",
+          "label": "Title",
+          "price": 10,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatics-for-fun:8412177825984",
+      "storeSlug": "aquatics-for-fun"
+    },
     {
       "observedAt": "2026-11-20T06:27:59.484Z",
       "price": 10,
