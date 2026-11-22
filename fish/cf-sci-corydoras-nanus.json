@@ -7,15 +7,13 @@
       "listingId": "aquatic-arts:6719888719958",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Little Cory Catfish (Corydoras nanus)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Little Cory Catfish (Corydoras nanus)"
     },
     {
       "listingId": "aquarium-fish:6319058246",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Nanus Cory",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Nanus Cory"
     }
   ],
   "events": [
@@ -74,6 +72,58 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "aquarium-fish:6319058246",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39749115019350",
+          "label": "School of 3",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "39749115052118",
+          "label": "School of 6",
+          "price": 38.99,
+          "available": false
+        },
+        {
+          "id": "39749115084886",
+          "label": "School of 9",
+          "price": 56.29,
+          "available": false
+        },
+        {
+          "id": "39749115117654",
+          "label": "School of 12",
+          "price": 71.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6719888719958",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20008219398",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "aquarium-fish:6319058246",
       "storeSlug": "aquarium-fish"
     }

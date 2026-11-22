@@ -7,15 +7,13 @@
       "listingId": "shrimpy-business:4532602208341",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Shadow Mosura Shrimp",
-      "lastCheckedAt": "2026-11-22T06:57:34.146Z"
+      "commonName": "Shadow Mosura Shrimp"
     },
     {
       "listingId": "nu-aqua-shop:15470333952316",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Shadow Mosura Shrimp",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Shadow Mosura Shrimp"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:15470333952316",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 55,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31782389776469",
+          "label": "5 Shrimp",
+          "price": 55,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:4532602208341",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 13.25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "68091235303740",
+          "label": "Title",
+          "price": 13.25,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "nu-aqua-shop:15470333952316",
       "storeSlug": "nu-aqua-shop"
     }

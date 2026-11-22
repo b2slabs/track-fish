@@ -1,35 +1,37 @@
 {
   "canonicalFishId": "cf:sci:ludwigia-palustris:red",
-  "commonName": "Ludwigia Palustris Super Red",
+  "commonName": "Ludwigia palustris ‘Red’ (Ludwigia palustris)",
   "scientificName": "Ludwigia palustris",
   "listings": [
     {
       "listingId": "aquatic-arts:14686569759087",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Ludwigia palustris 'Super Red' (Ludwigia palustris 'Super Red')- Tissue Culture",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Ludwigia palustris 'Super Red' (Ludwigia palustris 'Super Red')- Tissue Culture"
     },
     {
       "listingId": "aquarium-fish:10106330415403",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Ludwigia palustris 'Super Red' - Tissue Culture",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Ludwigia palustris 'Super Red' - Tissue Culture"
     },
     {
       "listingId": "buce-plant:7254421995720",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Ludwigia Palustris Super Red",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Ludwigia Palustris Super Red"
     },
     {
       "listingId": "glass-aqua:3526957957206",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Ludwigia Palustris Super Red",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Ludwigia Palustris Super Red"
+    },
+    {
+      "listingId": "aqua-imports:60084+78084",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Ludwigia palustris ‘Red’ (Ludwigia palustris)"
     }
   ],
   "events": [
@@ -132,6 +134,100 @@
       ],
       "listingId": "glass-aqua:3526957957206",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51814224658799",
+          "label": "1 Tissue Culture",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14686569759087",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 15.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51386930168107",
+          "label": "Each",
+          "price": 15.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10106330415403",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41597873684680",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7254421995720",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "28070530089046",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:3526957957206",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "78084",
+          "label": "Default",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "60084",
+          "label": "Default",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60084+78084",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

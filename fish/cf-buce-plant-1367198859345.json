@@ -7,15 +7,13 @@
       "listingId": "buce-plant:1367198859345",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Echinodorus Red Devil",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Echinodorus Red Devil"
     },
     {
       "listingId": "glass-aqua:4885061075030",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Echinodorus Red Devil",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Echinodorus Red Devil"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:4885061075030",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12525551878225",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:1367198859345",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "33234663145558",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:4885061075030",
       "storeSlug": "glass-aqua"
     }

@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:imperial-tropicals:8303242838323",
-  "commonName": "Cryptocoryne Beckettii Petchii",
+  "commonName": "Cryptocoryne beckettii ‘Petchii’",
   "scientificName": null,
   "listings": [
     {
       "listingId": "imperial-tropicals:8303242838323",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Cryptocoryne beckettii 'Petchii'",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Cryptocoryne beckettii 'Petchii'"
     },
     {
       "listingId": "glass-aqua:11277471175",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Cryptocoryne Beckettii Petchii",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Cryptocoryne Beckettii Petchii"
+    },
+    {
+      "listingId": "aqua-imports:59942",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Cryptocoryne beckettii ‘Petchii’"
     }
   ],
   "events": [
@@ -64,6 +68,66 @@
       ],
       "listingId": "glass-aqua:11277471175",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45224036794675",
+          "label": "1 Medium Plant",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8303242838323",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44623664840790",
+          "label": "UNS Tissue Culture",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "44623664873558",
+          "label": "Potted",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277471175",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "59942",
+          "label": "Default",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:59942",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:aquatic-arts:6776464965718",
-  "commonName": "Shrimp Envy - Lil Stix 10 Pack",
+  "commonName": "Shrimp Envy Lil’ Stix",
   "scientificName": null,
   "listings": [
     {
       "listingId": "aquatic-arts:6776464965718",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Shrimp Envy - Lil Stix 10 Pack",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Shrimp Envy - Lil Stix 10 Pack"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:617071",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Shrimp Envy Lil’ Stix"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquatic-arts:6776464965718",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39921323016278",
+          "label": "Shrimp Envy Lil Stix Treat 10 pack",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6776464965718",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "617071",
+          "label": "Default",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:617071",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

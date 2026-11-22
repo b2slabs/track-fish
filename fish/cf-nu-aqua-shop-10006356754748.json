@@ -1,14 +1,13 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10006356754748",
-  "commonName": "Dwarf Red Hummingbird Tetra",
+  "commonName": "Dwarf Red Hummingbird Tetra (Odontocharacidium cf. aphanes)",
   "scientificName": null,
   "listings": [
     {
       "listingId": "nu-aqua-shop:10006356754748",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Dwarf Red Hummingbird Tetra",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Dwarf Red Hummingbird Tetra"
     },
     {
       "listingId": "dans-fish:10127192654122",
@@ -16,6 +15,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Dwarf Red Hummingbird Tetra",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:157709",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Dwarf Red Hummingbird Tetra (Odontocharacidium cf. aphanes)"
     }
   ],
   "events": [
@@ -58,6 +63,43 @@
       ],
       "listingId": "dans-fish:10127192654122",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 12.87,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627665719612",
+          "label": "Title",
+          "price": 12.87,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006356754748",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "157709",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:157709",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

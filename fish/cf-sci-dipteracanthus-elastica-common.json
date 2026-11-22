@@ -7,15 +7,13 @@
       "listingId": "buce-plant:8222599446728",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Dipteracanthus Elastica",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Dipteracanthus Elastica"
     },
     {
       "listingId": "glass-aqua:7569647009878",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Dipteracanthus Elastica",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Dipteracanthus Elastica"
     }
   ],
   "events": [
@@ -68,6 +66,52 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:7569647009878",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44688878403784",
+          "label": "Pot",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "44688878436552",
+          "label": "Bunch",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8222599446728",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42395603402838",
+          "label": "Potted",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "42395603435606",
+          "label": "Bunch",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:7569647009878",
       "storeSlug": "glass-aqua"
     }

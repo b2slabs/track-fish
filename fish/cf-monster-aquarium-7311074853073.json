@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:monster-aquarium:7311074853073",
-  "commonName": "Indo Pacific Tarpon (Megalops Cyprinoides)",
-  "scientificName": null,
+  "commonName": "Indo-Pacific Tarpon (Megalops cyprinoides)",
+  "scientificName": "Megalops cyprinoides",
   "listings": [
     {
       "listingId": "monster-aquarium:7311074853073",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Indo Pacific Tarpon (Megalops Cyprinoides)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Indo Pacific Tarpon (Megalops Cyprinoides)"
+    },
+    {
+      "listingId": "aqua-imports:37502",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Indo-Pacific Tarpon (Megalops cyprinoides)"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "monster-aquarium:7311074853073",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 60,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41803499700433",
+          "label": "5-6”",
+          "price": 60,
+          "available": true
+        },
+        {
+          "id": "41803501371601",
+          "label": "7-8\"",
+          "price": 71.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7311074853073",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "37502",
+          "label": "Default",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:37502",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:etroplus-suratensis:green",
-  "commonName": "Green Chromide",
+  "commonName": "Green Chromide (Etroplus suratensis)",
   "scientificName": "Etroplus suratensis",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398034272563",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Green Chromide",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Green Chromide"
+    },
+    {
+      "listingId": "aqua-imports:43965",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Green Chromide (Etroplus suratensis)"
     }
   ],
   "events": [
@@ -61,6 +66,73 @@
       ],
       "listingId": "imperial-tropicals:8398034272563",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51114609770803",
+          "label": "1-2\" Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "51114609803571",
+          "label": "2-3\" Unsexed",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "51114609836339",
+          "label": "3-4\" Unsexed",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "51114609869107",
+          "label": "4-5\" Unsexed",
+          "price": 54.99,
+          "available": false
+        },
+        {
+          "id": "45611894669619",
+          "label": "5-6” Unsexed",
+          "price": 64.99,
+          "available": false
+        },
+        {
+          "id": "45611894702387",
+          "label": "7-8” Unsexed",
+          "price": 74.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398034272563",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43965",
+          "label": "Default",
+          "price": 16.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:43965",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

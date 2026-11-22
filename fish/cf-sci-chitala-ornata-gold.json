@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:chitala-ornata:gold",
-  "commonName": "Gold Clown Knife (Chitala ornata)",
+  "commonName": "Gold Clown Knifefish (Chitala ornata)",
   "scientificName": "Chitala ornata",
   "listings": [
     {
       "listingId": "monster-aquarium:7663464382673",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Gold Clown Knife (Chitala ornata)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Gold Clown Knife (Chitala ornata)"
+    },
+    {
+      "listingId": "aqua-imports:40049",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Gold Clown Knifefish (Chitala ornata)"
     }
   ],
   "events": [
@@ -85,6 +90,49 @@
       ],
       "listingId": "monster-aquarium:7663464382673",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 40,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42837142831313",
+          "label": "3-4\"",
+          "price": 25,
+          "available": false
+        },
+        {
+          "id": "43260046049489",
+          "label": "5-6”",
+          "price": 40,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7663464382673",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40049",
+          "label": "Default",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:40049",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

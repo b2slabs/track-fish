@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:brochis-splendens",
-  "commonName": "Hog Nose Brochis",
+  "commonName": "Emerald Brochis (Brochis splendens)",
   "scientificName": "Brochis splendens",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398132740403",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Hog Nose Brochis",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Hog Nose Brochis"
+    },
+    {
+      "listingId": "aqua-imports:38738+46214",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Emerald Brochis (Brochis splendens)"
     }
   ],
   "events": [
@@ -37,6 +42,55 @@
       ],
       "listingId": "imperial-tropicals:8398132740403",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 79.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612178407731",
+          "label": "(3 Pack) 3-4\" Unsexed",
+          "price": 79.99,
+          "available": false
+        },
+        {
+          "id": "49754978025779",
+          "label": "(6 Pack) 3-4\" Unsexed",
+          "price": 144.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398132740403",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46214",
+          "label": "Default",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "38738",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38738+46214",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

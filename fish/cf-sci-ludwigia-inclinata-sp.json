@@ -7,15 +7,13 @@
       "listingId": "glass-aqua:1329350639702",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Ludwigia Crystal",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Ludwigia Crystal"
     },
     {
       "listingId": "buce-plant:1376927055953+463948578856",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Ludwigia Crystal",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Ludwigia Crystal"
     }
   ],
   "events": [
@@ -122,6 +120,58 @@
       ],
       "listingId": "buce-plant:1376927055953+463948578856",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12575423496273",
+          "label": "Ludwigia Crystal Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "3825135583272",
+          "label": "Lead Bunch",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "12398342471761",
+          "label": "3 Bunches + 1 Free",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:1376927055953+463948578856",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50580604813398",
+          "label": "Bunch",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "50580604846166",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:1329350639702",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

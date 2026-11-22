@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:cromileptes-altivelis",
-  "commonName": "Panther Grouper",
+  "commonName": "Panther Grouper (Chromileptes altivelis)",
   "scientificName": "Cromileptes altivelis",
   "listings": [
     {
       "listingId": "aquarium-fish:7904246662",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Panther Grouper",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Panther Grouper"
+    },
+    {
+      "listingId": "aqua-imports:108649",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Panther Grouper (Chromileptes altivelis)"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "aquarium-fish:7904246662",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 61.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21319677870161",
+          "label": "Small (2-3'')",
+          "price": 61.99,
+          "available": false
+        },
+        {
+          "id": "42440738252",
+          "label": "Medium( 3-4\")",
+          "price": 77.29,
+          "available": false
+        },
+        {
+          "id": "32789563015249",
+          "label": "Large",
+          "price": 122.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:7904246662",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "108649",
+          "label": "Default",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:108649",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

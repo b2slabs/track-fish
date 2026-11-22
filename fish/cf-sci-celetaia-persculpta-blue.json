@@ -7,15 +7,13 @@
       "listingId": "imperial-tropicals:8398181990707",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Blue Turbo Snail (Celetaia persculpta)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Blue Turbo Snail (Celetaia persculpta)"
     },
     {
       "listingId": "nu-aqua-shop:10006314516796",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Blue 'Turbo' Snail",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Blue 'Turbo' Snail"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:10006314516796",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612298240307",
+          "label": "1-2\" Unsexed",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398181990707",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627486052668",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006314516796",
       "storeSlug": "nu-aqua-shop"
     }

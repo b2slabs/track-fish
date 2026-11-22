@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:cryptocoryne-willisii-common",
-  "commonName": "Cryptocoryne Willisii",
+  "commonName": "Cryptocoryne willisii",
   "scientificName": "Cryptocoryne willisii common",
   "listings": [
     {
       "listingId": "buce-plant:10475044429",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Cryptocoryne Willisii",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Cryptocoryne Willisii"
     },
     {
       "listingId": "glass-aqua:11277471431",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Cryptocoryne Willisii",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Cryptocoryne Willisii"
+    },
+    {
+      "listingId": "aqua-imports:78091",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Cryptocoryne willisii"
     }
   ],
   "events": [
@@ -64,6 +68,66 @@
       ],
       "listingId": "glass-aqua:11277471431",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40658088205",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10475044429",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12711312490582",
+          "label": "Potted",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "52738872903",
+          "label": "UNS Tissue Culture",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277471431",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "78091",
+          "label": "Default",
+          "price": 7.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:78091",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

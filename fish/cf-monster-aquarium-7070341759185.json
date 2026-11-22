@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:monster-aquarium:7070341759185",
-  "commonName": "Marbled albino Lungfish (Protopterus Aethiopicus)",
-  "scientificName": null,
+  "commonName": "Albino Marbled Lungfish (Protopterus aethiopicus)",
+  "scientificName": "Protopterus aethiopicus",
   "listings": [
     {
       "listingId": "monster-aquarium:7070341759185",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Marbled albino Lungfish (Protopterus Aethiopicus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Marbled albino Lungfish (Protopterus Aethiopicus)"
+    },
+    {
+      "listingId": "aqua-imports:45512",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Albino Marbled Lungfish (Protopterus aethiopicus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "monster-aquarium:7070341759185",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 799,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41127916044497",
+          "label": "7-8”",
+          "price": 799,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7070341759185",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 669.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45512",
+          "label": "Default",
+          "price": 669.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:45512",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:aquarium-fish:44082855961",
-  "commonName": "Long Tentacle Purple Anemone",
-  "scientificName": null,
+  "commonName": "Purple Long Tentacle Anemone (Macrodactyla doreensis)",
+  "scientificName": "Macrodactyla doreensis",
   "listings": [
     {
       "listingId": "aquarium-fish:44082855961",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Long Tentacle Purple Anemone",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Long Tentacle Purple Anemone"
+    },
+    {
+      "listingId": "aqua-imports:154594",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Purple Long Tentacle Anemone (Macrodactyla doreensis)"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "aquarium-fish:44082855961",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 105.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39844733222993",
+          "label": "Small",
+          "price": 105.29,
+          "available": false
+        },
+        {
+          "id": "39844733255761",
+          "label": "Medium",
+          "price": 139.29,
+          "available": false
+        },
+        {
+          "id": "39844733288529",
+          "label": "Large",
+          "price": 164.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:44082855961",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "154594",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:154594",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

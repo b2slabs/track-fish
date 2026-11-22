@@ -7,15 +7,13 @@
       "listingId": "imperial-tropicals:8398147813683",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Perlmutt",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Perlmutt"
     },
     {
       "listingId": "aquarium-fish:10123815747883+791796285559",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Hongi Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Hongi Cichlid"
     }
   ],
   "events": [
@@ -128,6 +126,58 @@
       ],
       "listingId": "aquarium-fish:10123815747883+791796285559",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51420637757739",
+          "label": "Medium (2\")",
+          "price": 18.99,
+          "available": true
+        },
+        {
+          "id": "51420637790507",
+          "label": "Large (3\")",
+          "price": 29.49,
+          "available": false
+        },
+        {
+          "id": "51420637823275",
+          "label": "X-Large (4\")",
+          "price": 46.99,
+          "available": false
+        },
+        {
+          "id": "8730255261815",
+          "label": "Medium",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10123815747883+791796285559",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612211700019",
+          "label": "1-2” Unsexed German",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398147813683",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

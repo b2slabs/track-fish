@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:crenicichla-johanna:red",
-  "commonName": "Red Johanna Pike Cichlid",
+  "commonName": "Red Fin Johanna Pike Cichlid (Lugubria johanna)",
   "scientificName": "Crenicichla johanna",
   "listings": [
     {
       "listingId": "aquarium-fish:9357553271083",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Red Johanna Pike Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Red Johanna Pike Cichlid"
+    },
+    {
+      "listingId": "aqua-imports:40646",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red Fin Johanna Pike Cichlid (Lugubria johanna)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:9357553271083",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 134.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48807897563435",
+          "label": "Title",
+          "price": 134.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9357553271083",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40646",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:40646",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

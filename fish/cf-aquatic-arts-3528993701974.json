@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:aquatic-arts:3528993701974",
-  "commonName": "Cryptocoryne Pontederiifolia",
+  "commonName": "Cryptocoryne pontederiifolia",
   "scientificName": "Cryptocoryne pontederiifolia",
   "listings": [
     {
       "listingId": "aquatic-arts:3528993701974",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Cryptocoryne pontederiifolia",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Cryptocoryne pontederiifolia"
     },
     {
       "listingId": "glass-aqua:4838024675414",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Cryptocoryne Pontederiifolia",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Cryptocoryne Pontederiifolia"
     },
     {
       "listingId": "buce-plant:10552939277",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Cryptocoryne Pontederiifolia",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Cryptocoryne Pontederiifolia"
+    },
+    {
+      "listingId": "aqua-imports:114205",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Cryptocoryne pontederiifolia"
     }
   ],
   "events": [
@@ -97,6 +100,89 @@
       ],
       "listingId": "glass-aqua:4838024675414",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "28078075379798",
+          "label": "1 Plant",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "28078075412566",
+          "label": "2 Plants",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "28078075445334",
+          "label": "3 Plants",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:3528993701974",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41283269645",
+          "label": "Small Pot",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10552939277",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33116782264406",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:4838024675414",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "114205",
+          "label": "Default",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:114205",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,35 +1,37 @@
 {
   "canonicalFishId": "cf:sci:dawkinsia-rohani",
-  "commonName": "Rohan's Tear-Spot Barb (Dawkinsia rohani)",
+  "commonName": "Rohan’s Tearspot Barb (Dawkinsia rohani)",
   "scientificName": "Dawkinsia rohani",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398063698227",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Rohan's Tear-Spot Barb (Dawkinsia rohani)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Rohan's Tear-Spot Barb (Dawkinsia rohani)"
     },
     {
       "listingId": "aquarium-fish:790518562935",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Teardrop Barb",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Teardrop Barb"
     },
     {
       "listingId": "aquahuna:7014232555595",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Rohani Barb",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Rohani Barb"
     },
     {
       "listingId": "aquatic-arts:8754278138135",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Rohani Barb (Dawkinsia Rohani), Tank-Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Rohani Barb (Dawkinsia Rohani), Tank-Bred"
+    },
+    {
+      "listingId": "aqua-imports:89614",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Rohan’s Tearspot Barb (Dawkinsia rohani)"
     }
   ],
   "events": [
@@ -144,6 +146,106 @@
       ],
       "listingId": "imperial-tropicals:8398063698227",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46975634014487",
+          "label": "School of 3",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "46975634047255",
+          "label": "School of 6",
+          "price": 36.99,
+          "available": false
+        },
+        {
+          "id": "46975634080023",
+          "label": "School of 9",
+          "price": 35.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:8754278138135",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 15,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40536822612043",
+          "label": "Title",
+          "price": 15,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7014232555595",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "8723785220215",
+          "label": "Title",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:790518562935",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612008571187",
+          "label": "4-5\" Unsexed",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398063698227",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "89614",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:89614",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

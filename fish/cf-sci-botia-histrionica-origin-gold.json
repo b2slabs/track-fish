@@ -7,15 +7,13 @@
       "listingId": "monster-aquarium:7264212910289",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Golden Zebra Loach (Botia histrionica)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Golden Zebra Loach (Botia histrionica)"
     },
     {
       "listingId": "aquarium-fish:4782696595537",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Gold Zebra Loach",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Gold Zebra Loach"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "aquarium-fish:4782696595537",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41596073803985",
+          "label": "1.5-2.5”",
+          "price": 10,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7264212910289",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32891151876177",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "aquarium-fish:4782696595537",
       "storeSlug": "aquarium-fish"
     }

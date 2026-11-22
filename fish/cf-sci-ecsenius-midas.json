@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:ecsenius-midas",
-  "commonName": "Midas Blenny",
+  "commonName": "Midas Blenny (Ecsenius midas)",
   "scientificName": "Ecsenius midas",
   "listings": [
     {
       "listingId": "aquarium-fish:789553315959",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Midas Blenny",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Midas Blenny"
+    },
+    {
+      "listingId": "aqua-imports:37113",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Midas Blenny (Ecsenius midas)"
     }
   ],
   "events": [
@@ -64,6 +69,49 @@
       ],
       "listingId": "aquarium-fish:789553315959",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 77.17,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "8719452274807",
+          "label": "Small (2\")",
+          "price": 77.17,
+          "available": true
+        },
+        {
+          "id": "8719441068151",
+          "label": "Medium (2-3\")",
+          "price": 115.85,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:789553315959",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37113",
+          "label": "Default",
+          "price": 69.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:37113",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

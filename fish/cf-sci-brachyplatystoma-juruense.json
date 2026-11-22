@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:brachyplatystoma-juruense",
-  "commonName": "False Tigrinis Catfish",
+  "commonName": "Flash Juruense Catfish (Brachyplatystoma juruense)",
   "scientificName": "Brachyplatystoma juruense",
   "listings": [
     {
       "listingId": "monster-aquarium:7739653980369",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Juruense Catfish  ( Brachyplatystoma juruense )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Juruense Catfish  ( Brachyplatystoma juruense )"
     },
     {
       "listingId": "aquarium-fish:6658015878",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "False Tigrinis Catfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "False Tigrinis Catfish"
+    },
+    {
+      "listingId": "aqua-imports:37722+38842",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Flash Juruense Catfish (Brachyplatystoma juruense)"
     }
   ],
   "events": [
@@ -145,6 +149,72 @@
       ],
       "listingId": "aquarium-fish:6658015878",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43082777919697",
+          "label": "2.5-3.5”",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "43082777952465",
+          "label": "6-7”",
+          "price": 268.88,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7739653980369",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 129.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21040836742",
+          "label": "Title",
+          "price": 129.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6658015878",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38842",
+          "label": "Default",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "37722",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:37722+38842",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

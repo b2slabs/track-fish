@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:abramites-hypselonotus",
-  "commonName": "High-Back Headstander",
+  "commonName": "Marbled / Abramites Headstander (Abramites hypselonotus)",
   "scientificName": "Abramites hypselonotus",
   "listings": [
     {
       "listingId": "aquarium-fish:785466359927",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Striped Abramite Headstander",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Striped Abramite Headstander"
     },
     {
       "listingId": "imperial-tropicals:8398133199155",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "High-Back Headstander",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "High-Back Headstander"
+    },
+    {
+      "listingId": "aqua-imports:45552",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Marbled / Abramites Headstander (Abramites hypselonotus)"
     }
   ],
   "events": [
@@ -58,6 +62,60 @@
       ],
       "listingId": "imperial-tropicals:8398133199155",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "8691056771191",
+          "label": "Title",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:785466359927",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612179292467",
+          "label": "2-3\" Unsexed",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398133199155",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45552",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:45552",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

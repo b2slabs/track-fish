@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:dianema-urostriatum",
-  "commonName": "Flagtail Porthole Catfish",
+  "commonName": "Flagtail Porthole Catfish (Dianema urostriatum)",
   "scientificName": "Dianema urostriatum",
   "listings": [
     {
       "listingId": "monster-aquarium:7316716028113",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Flagtail catfish (Dianema urostriatum)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Flagtail catfish (Dianema urostriatum)"
     },
     {
       "listingId": "aquarium-fish:2979374956625",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Flagtail Porthole Catfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Flagtail Porthole Catfish"
+    },
+    {
+      "listingId": "aqua-imports:71386",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Flagtail Porthole Catfish (Dianema urostriatum)"
     }
   ],
   "events": [
@@ -58,6 +62,60 @@
       ],
       "listingId": "aquarium-fish:2979374956625",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41820140142801",
+          "label": "4-5”",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7316716028113",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "23024779198545",
+          "label": "Title",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:2979374956625",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "71386",
+          "label": "Default",
+          "price": 16.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:71386",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

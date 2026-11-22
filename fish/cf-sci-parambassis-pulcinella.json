@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:parambassis-pulcinella",
-  "commonName": "Giant Humphead Glass Fish",
+  "commonName": "Humphead Glassfish (Parambassis pulcinella)",
   "scientificName": "Parambassis pulcinella",
   "listings": [
     {
       "listingId": "aquarium-fish:2343284768849",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Giant Humphead Glass Fish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Giant Humphead Glass Fish"
+    },
+    {
+      "listingId": "aqua-imports:37730",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Humphead Glassfish (Parambassis pulcinella)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:2343284768849",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 32.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "22505625714769",
+          "label": "Title",
+          "price": 32.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:2343284768849",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "37730",
+          "label": "Default",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:37730",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

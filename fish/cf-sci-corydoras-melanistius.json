@@ -1,14 +1,25 @@
 {
   "canonicalFishId": "cf:sci:corydoras-melanistius",
-  "commonName": "Melanistius Cory",
+  "commonName": "Melanistius Cory (Hoplisoma melanistium)",
   "scientificName": "Corydoras melanistius",
   "listings": [
     {
       "listingId": "aquarium-fish:4546502033489",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Melanistius Cory",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Melanistius Cory"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:682615",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Corydoras melanistius"
+    },
+    {
+      "listingId": "aqua-imports:178054",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Melanistius Cory (Hoplisoma melanistium)"
     }
   ],
   "events": [
@@ -31,6 +42,63 @@
       ],
       "listingId": "aquarium-fish:4546502033489",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32027881963601",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4546502033489",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "682615",
+          "label": "Default",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:682615",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "178054",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:178054",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

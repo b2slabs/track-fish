@@ -7,15 +7,13 @@
       "listingId": "aquarium-fish:9967336063275",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Dragon's Tongue (Flame)",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Dragon's Tongue (Flame)"
     },
     {
       "listingId": "buce-plant:10014289741",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Hemigraphis Repanda / Dragon's Tongue",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Hemigraphis Repanda / Dragon's Tongue"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "buce-plant:10014289741",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50503111442731",
+          "label": "Title",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9967336063275",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37579936013",
+          "label": "Pot",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "buce-plant:10014289741",
       "storeSlug": "buce-plant"
     }

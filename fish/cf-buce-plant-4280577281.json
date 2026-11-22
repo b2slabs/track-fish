@@ -7,15 +7,13 @@
       "listingId": "buce-plant:4280577281",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Bucephalandra Hades",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Bucephalandra Hades"
     },
     {
       "listingId": "glass-aqua:8011400511574",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Bucephalandra Hades",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Bucephalandra Hades"
     }
   ],
   "events": [
@@ -62,6 +60,46 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:8011400511574",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12262737025",
+          "label": "Plant (10+ Leaves)",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "17367425217",
+          "label": "Mini Clump (3-5 Plants)",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:4280577281",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45654244261974",
+          "label": "Title",
+          "price": 13.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:8011400511574",
       "storeSlug": "glass-aqua"
     }

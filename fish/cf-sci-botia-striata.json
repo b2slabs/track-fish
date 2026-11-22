@@ -1,35 +1,31 @@
 {
   "canonicalFishId": "cf:sci:botia-striata",
-  "commonName": "Zebra Loach",
+  "commonName": "Zebra/Striata Botia (Botia striata)",
   "scientificName": "Botia striata",
   "listings": [
     {
       "listingId": "aquahuna:7386416906315",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Striata Loach / Zebra Loach",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Striata Loach / Zebra Loach"
     },
     {
       "listingId": "aquatic-arts:9258347725079",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Zebra Loach (Botia striata)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Zebra Loach (Botia striata)"
     },
     {
       "listingId": "aquarium-fish:6203121926",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Zebra Loach",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Zebra Loach"
     },
     {
       "listingId": "nu-aqua-shop:10116988174652",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Zebra Loach",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Zebra Loach"
     },
     {
       "listingId": "ck-fish-world:8150015377623",
@@ -44,6 +40,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Zebra Loach",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:37732",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Zebra/Striata Botia (Botia striata)"
     }
   ],
   "events": [
@@ -252,6 +254,106 @@
       ],
       "listingId": "dans-fish:10127101755690",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 34.39,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48601225232663",
+          "label": "3 Small Fish",
+          "price": 34.39,
+          "available": false
+        },
+        {
+          "id": "48601225265431",
+          "label": "6 Small Fish",
+          "price": 65.99,
+          "available": false
+        },
+        {
+          "id": "48601225298199",
+          "label": "9 Small Fish",
+          "price": 91.79,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:9258347725079",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 9,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41542571393099",
+          "label": "Title",
+          "price": 9,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7386416906315",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19642821126",
+          "label": "Title",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6203121926",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 13.26,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51972380328252",
+          "label": "Title",
+          "price": 13.26,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10116988174652",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37732",
+          "label": "Default",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:37732",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

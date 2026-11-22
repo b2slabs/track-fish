@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:cryptocoryne-walkeri-common",
-  "commonName": "Cryptocoryne Walkeri",
+  "commonName": "Cryptocoryne walkeri",
   "scientificName": "Cryptocoryne walkeri common",
   "listings": [
     {
       "listingId": "buce-plant:9540467213",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Cryptocoryne Walkeri",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Cryptocoryne Walkeri"
     },
     {
       "listingId": "glass-aqua:11277468615",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Cryptocoryne Walkeri",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Cryptocoryne Walkeri"
+    },
+    {
+      "listingId": "aqua-imports:59961",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Cryptocoryne walkeri"
     }
   ],
   "events": [
@@ -76,6 +80,78 @@
       ],
       "listingId": "glass-aqua:11277468615",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "35337824781",
+          "label": "Pot",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12423099547729",
+          "label": "3 Pot Package",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "12423099580497",
+          "label": "5 Pot Package",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:9540467213",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738854919",
+          "label": "UNS Tissue Culture",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "12711382777942",
+          "label": "Potted",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277468615",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "59961",
+          "label": "Default",
+          "price": 7.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:59961",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

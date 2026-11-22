@@ -7,36 +7,31 @@
       "listingId": "aquarium-fish:10105516163371",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Ammannia sp 'Bonsai' - Tissue Culture",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Ammannia sp 'Bonsai' - Tissue Culture"
     },
     {
       "listingId": "glass-aqua:490067591200",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Rotala Indica",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Rotala Indica"
     },
     {
       "listingId": "nu-aqua-shop:10006313009468",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Rotala Indica",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Rotala Indica"
     },
     {
       "listingId": "shrimpy-business:9488862675234",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Rotala Indica",
-      "lastCheckedAt": "2026-11-22T06:57:34.146Z"
+      "commonName": "Rotala Indica"
     },
     {
       "listingId": "buce-plant:9027034765+9404127245",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Rotala Indica",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Rotala Indica"
     }
   ],
   "events": [
@@ -197,6 +192,103 @@
       ],
       "listingId": "buce-plant:9027034765+9404127245",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 8.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49165755253026",
+          "label": "Title",
+          "price": 8.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9488862675234",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51386932134187",
+          "label": "Each",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10105516163371",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31517455693",
+          "label": "Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "31517277389",
+          "label": "5 Bunches",
+          "price": 25.99,
+          "available": true
+        },
+        {
+          "id": "34485273997",
+          "label": "Bunch",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:9027034765+9404127245",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12344495931478",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:490067591200",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51627484086588",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006313009468",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

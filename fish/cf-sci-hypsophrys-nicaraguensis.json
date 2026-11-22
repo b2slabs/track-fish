@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:hypsophrys-nicaraguensis",
-  "commonName": "Nicaraguan Cichlid",
+  "commonName": "Nicaraguan Cichlid (Hypsophrys nicaraguense)",
   "scientificName": "Hypsophrys nicaraguensis",
   "listings": [
     {
       "listingId": "imperial-tropicals:8397982204211",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Nicaraguan Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Nicaraguan Cichlid"
+    },
+    {
+      "listingId": "aqua-imports:43277",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Nicaraguan Cichlid (Hypsophrys nicaraguense)"
     }
   ],
   "events": [
@@ -49,6 +54,61 @@
       ],
       "listingId": "imperial-tropicals:8397982204211",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611741249843",
+          "label": "1-2\" Unsexed",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "45611741282611",
+          "label": "2-3” Unsexed",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "45611741315379",
+          "label": "3-4” Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "53260169806131",
+          "label": "4-5” Unsexed",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397982204211",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43277",
+          "label": "Default",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:43277",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -7,8 +7,13 @@
       "listingId": "monster-aquarium:7541526298833",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Brown Ghost Knifefish (Apteronotus leptorhynchus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Brown Ghost Knifefish (Apteronotus leptorhynchus)"
+    },
+    {
+      "listingId": "aqua-imports:42091",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Brown Ghost Knifefish (Apteronotus leptorhynchus)"
     }
   ],
   "events": [
@@ -51,6 +56,43 @@
       ],
       "listingId": "monster-aquarium:7541526298833",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42429809983697",
+          "label": "4-5\"",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7541526298833",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42091",
+          "label": "Default",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:42091",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,42 +1,43 @@
 {
   "canonicalFishId": "cf:sci:cryptocoryne-wendtii-origin:red",
-  "commonName": "Cryptocoryne Red Wendtii",
+  "commonName": "Cryptocoryne wendtii ‘Red’",
   "scientificName": null,
   "listings": [
     {
       "listingId": "aquatic-arts:4758220800086",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Red Cryptocoryne wendtii",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Red Cryptocoryne wendtii"
     },
     {
       "listingId": "aquarium-fish:6260793990",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Cryptocoryne Wendtii Red",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Cryptocoryne Wendtii Red"
     },
     {
       "listingId": "imperial-tropicals:8398083227955",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Cryptocoryne wendtii \"Red\"",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Cryptocoryne wendtii \"Red\""
     },
     {
       "listingId": "daku-aquatics:8741034066138",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
-      "commonName": "Cryptocoryne Wendtii Red",
-      "lastCheckedAt": "2026-11-22T06:58:04.282Z"
+      "commonName": "Cryptocoryne Wendtii Red"
     },
     {
       "listingId": "nu-aqua-shop:10006315335996",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Cryptocoryne Red Wendtii",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Cryptocoryne Red Wendtii"
+    },
+    {
+      "listingId": "aqua-imports:59963",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Cryptocoryne wendtii ‘Red’"
     }
   ],
   "events": [
@@ -202,6 +203,135 @@
       ],
       "listingId": "nu-aqua-shop:10006315335996",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 7.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48601033146647",
+          "label": "1 Bare Root Plant",
+          "price": 5.24,
+          "available": false
+        },
+        {
+          "id": "48601039962391",
+          "label": "2 Bare Root Plants",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "48601039995159",
+          "label": "3 Bare Root Plants",
+          "price": 12.74,
+          "available": false
+        },
+        {
+          "id": "48638220763415",
+          "label": "1 Potted Plant",
+          "price": 7.49,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4758220800086",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19810287750",
+          "label": "Title",
+          "price": 5.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6260793990",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612064342323",
+          "label": "1 Plant",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "53130938253619",
+          "label": "1 Potted Plant",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398083227955",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:25.196Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043839234266",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741034066138",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627487199548",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006315335996",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "59963",
+          "label": "Default",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:59963",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

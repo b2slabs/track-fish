@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:imperial-tropicals:10461660545331",
-  "commonName": "L004 Angelicus Pleco (Hypancistrus sp. (L004))",
+  "commonName": "L004 Angelicus Pleco (Hypancistrus sp. L004)",
   "scientificName": null,
   "listings": [
     {
       "listingId": "imperial-tropicals:10461660545331",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "L004 Angelicus Pleco (Hypancistrus sp. (L004))",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "L004 Angelicus Pleco (Hypancistrus sp. (L004))"
+    },
+    {
+      "listingId": "aqua-imports:80093",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "L004 Angelicus Pleco (Hypancistrus sp. L004)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "imperial-tropicals:10461660545331",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "54087750123827",
+          "label": "3-4\" Unsexed Rio Tocantins",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:10461660545331",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "80093",
+          "label": "Default",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:80093",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

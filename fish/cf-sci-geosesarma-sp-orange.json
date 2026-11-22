@@ -7,8 +7,13 @@
       "listingId": "aquatic-arts:6552063344726",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Orange Eye Vampire Crab (Geosesarma sp.)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Orange Eye Vampire Crab (Geosesarma sp.)"
+    },
+    {
+      "listingId": "aqua-imports:136327",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Orange Eye Vampire Crab (Geosesarma sp.)"
     }
   ],
   "events": [
@@ -55,6 +60,67 @@
       ],
       "listingId": "aquatic-arts:6552063344726",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51742112416111",
+          "label": "1 Male / Female Pair",
+          "price": 38.99,
+          "available": false
+        },
+        {
+          "id": "39296000983126",
+          "label": "1 Male Crab",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "48664995135767",
+          "label": "3 Male Crabs",
+          "price": 28.99,
+          "available": false
+        },
+        {
+          "id": "39296001015894",
+          "label": "1 Female Crab",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "39296001048662",
+          "label": "1 B-Grade Crab",
+          "price": 15.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6552063344726",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "136327",
+          "label": "Default",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:136327",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

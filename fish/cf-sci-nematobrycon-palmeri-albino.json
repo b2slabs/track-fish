@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:nematobrycon-palmeri:albino",
-  "commonName": "Albino Emperor Tetra (Nematobrycon palmeri var. \"Albino\") - Tank-Bred!",
+  "commonName": "Albino Emperor Tetra (Nematobrycon palmeri)",
   "scientificName": "Nematobrycon palmeri",
   "listings": [
     {
       "listingId": "aquatic-arts:151236378636",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Albino Emperor Tetra (Nematobrycon palmeri var. \"Albino\") - Tank-Bred!",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Albino Emperor Tetra (Nematobrycon palmeri var. \"Albino\") - Tank-Bred!"
+    },
+    {
+      "listingId": "aqua-imports:190359",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Albino Emperor Tetra (Nematobrycon palmeri)"
     }
   ],
   "events": [
@@ -49,6 +54,61 @@
       ],
       "listingId": "aquatic-arts:151236378636",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "1577593339916",
+          "label": "School of 3",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "1577593372684",
+          "label": "School of 6",
+          "price": 20.99,
+          "available": false
+        },
+        {
+          "id": "1577593405452",
+          "label": "School of 9",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "1577593438220",
+          "label": "School of 12",
+          "price": 37.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:151236378636",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "190359",
+          "label": "Default",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:190359",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

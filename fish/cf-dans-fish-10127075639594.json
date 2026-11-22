@@ -1,7 +1,7 @@
 {
   "canonicalFishId": "cf:dans-fish:10127075639594",
-  "commonName": "Neon Green Kubotai Rasbora",
-  "scientificName": null,
+  "commonName": "Neon Green / Kubotai Rasbora (Microdevario kubotai)",
+  "scientificName": "Microdevario kubotai",
   "listings": [
     {
       "listingId": "dans-fish:10127075639594",
@@ -9,6 +9,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Neon Green Kubotai Rasbora",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:40233",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Neon Green / Kubotai Rasbora (Microdevario kubotai)"
     }
   ],
   "events": [
@@ -31,6 +37,26 @@
       ],
       "listingId": "dans-fish:10127075639594",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40233",
+          "label": "Default",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:40233",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

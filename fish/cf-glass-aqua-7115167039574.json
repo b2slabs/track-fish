@@ -7,15 +7,13 @@
       "listingId": "glass-aqua:7115167039574",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Chihiros Z Light Tiny",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Chihiros Z Light Tiny"
     },
     {
       "listingId": "nu-aqua-shop:10111766855996",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Chihiros Z Light - Tiny",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Chihiros Z Light - Tiny"
     }
   ],
   "events": [
@@ -62,6 +60,46 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:10111766855996",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 54.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41081037062230",
+          "label": "Normal Edition",
+          "price": 54.99,
+          "available": false
+        },
+        {
+          "id": "41081037094998",
+          "label": "Diving Edition",
+          "price": 54.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:7115167039574",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 54.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51957596455228",
+          "label": "Title",
+          "price": 54.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "nu-aqua-shop:10111766855996",
       "storeSlug": "nu-aqua-shop"
     }

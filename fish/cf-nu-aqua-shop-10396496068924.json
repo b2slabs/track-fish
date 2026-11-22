@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10396496068924",
-  "commonName": "African Red Eye Tetra - L",
-  "scientificName": null,
+  "commonName": "African Red Eye Tetra (Arnoldichthys spilopterus)",
+  "scientificName": "Arnoldichthys spilopterus",
   "listings": [
     {
       "listingId": "nu-aqua-shop:10396496068924",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "African Red Eye Tetra - L",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "African Red Eye Tetra - L"
+    },
+    {
+      "listingId": "aqua-imports:41952",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "African Red Eye Tetra (Arnoldichthys spilopterus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nu-aqua-shop:10396496068924",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53097271394620",
+          "label": "Title",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10396496068924",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41952",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:41952",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

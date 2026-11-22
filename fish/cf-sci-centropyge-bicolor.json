@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:centropyge-bicolor",
-  "commonName": "Bicolor Angelfish",
+  "commonName": "Bicolor Angelfish (Centropyge bicolor)",
   "scientificName": "Centropyge bicolor",
   "listings": [
     {
       "listingId": "aquarium-fish:10028394152235",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Bicolor Angelfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Bicolor Angelfish"
+    },
+    {
+      "listingId": "aqua-imports:110855",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Bicolor Angelfish (Centropyge bicolor)"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "aquarium-fish:10028394152235",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 43.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50977959543083",
+          "label": "Small (1.5-2\")",
+          "price": 43.29,
+          "available": true
+        },
+        {
+          "id": "50977959608619",
+          "label": "Medium (2-3\")",
+          "price": 51.99,
+          "available": true
+        },
+        {
+          "id": "50977959674155",
+          "label": "Large (3-4\")",
+          "price": 63.79,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10028394152235",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "110855",
+          "label": "Default",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:110855",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

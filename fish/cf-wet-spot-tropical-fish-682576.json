@@ -1,0 +1,61 @@
+{
+  "canonicalFishId": "cf:wet-spot-tropical-fish:682576",
+  "commonName": "Guapore Cory (Gastrodermus guapore)",
+  "scientificName": "Gastrodermus guapore",
+  "listings": [
+    {
+      "listingId": "wet-spot-tropical-fish:682576",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Corydoras guapore"
+    },
+    {
+      "listingId": "aqua-imports:41366",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Guapore Cory (Gastrodermus guapore)"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "682576",
+          "label": "Default",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:682576",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41366",
+          "label": "Default",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:41366",
+      "storeSlug": "aqua-imports"
+    }
+  ]
+}

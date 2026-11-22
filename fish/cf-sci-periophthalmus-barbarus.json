@@ -1,21 +1,19 @@
 {
   "canonicalFishId": "cf:sci:periophthalmus-barbarus",
-  "commonName": "Mudskipper African",
+  "commonName": "Atlantic Mudskipper (Periophthalmus barbarus)",
   "scientificName": "Periophthalmus barbarus",
   "listings": [
     {
       "listingId": "monster-aquarium:7316719894737",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "MudSkipper (Periophthalmus barbarus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "MudSkipper (Periophthalmus barbarus)"
     },
     {
       "listingId": "aquarium-fish:6096743814",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Mudskipper African",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Mudskipper African"
     },
     {
       "listingId": "ck-fish-world:8849637277911",
@@ -23,6 +21,12 @@
       "storeName": "CK Fish World",
       "commonName": "Mudskipper",
       "lastCheckedAt": "2026-02-16T03:00:00.000Z"
+    },
+    {
+      "listingId": "aqua-imports:48364",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Atlantic Mudskipper (Periophthalmus barbarus)"
     }
   ],
   "events": [
@@ -112,6 +116,66 @@
       ],
       "listingId": "aquarium-fish:6096743814",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41820159705297",
+          "label": "1.5-2”",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "42091004756177",
+          "label": "2.5\"-3.5\"",
+          "price": 15.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7316719894737",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19294092550",
+          "label": "Medium",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6096743814",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48364",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:48364",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

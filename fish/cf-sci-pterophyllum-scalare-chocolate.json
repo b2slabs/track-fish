@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:pterophyllum-scalare:chocolate",
-  "commonName": "Smokey Chocolate Veil Angelfish (Pterophyllum scalare) – Tank Bred",
+  "commonName": "Chocolate Smokey Angelfish (Pterophyllum scalare)",
   "scientificName": "Pterophyllum scalare",
   "listings": [
     {
       "listingId": "aquatic-arts:14687621841263",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Smokey Chocolate Veil Angelfish (Pterophyllum scalare) – Tank Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Smokey Chocolate Veil Angelfish (Pterophyllum scalare) – Tank Bred"
+    },
+    {
+      "listingId": "aqua-imports:164136",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Chocolate Smokey Angelfish (Pterophyllum scalare)"
     }
   ],
   "events": [
@@ -63,6 +68,49 @@
       ],
       "listingId": "aquatic-arts:14687621841263",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51818190897519",
+          "label": "1 Fish",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "51818190930287",
+          "label": "3 Fish",
+          "price": 51.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14687621841263",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "164136",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:164136",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

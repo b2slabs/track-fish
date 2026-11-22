@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:pterophyllum-scalare:veiltail",
-  "commonName": "Veiltail Smokey Pinoy Angelfish",
+  "commonName": "Veiltail Angelfish (Pterophyllum scalare)",
   "scientificName": "Pterophyllum scalare",
   "listings": [
     {
       "listingId": "aquarium-fish:5993627846",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Veil Tail Angelfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Veil Tail Angelfish"
     },
     {
       "listingId": "imperial-tropicals:8397983711539+8547955179827",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Veiltail Smokey Pinoy Angelfish",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Veiltail Smokey Pinoy Angelfish"
+    },
+    {
+      "listingId": "aqua-imports:116271",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Veiltail Angelfish (Pterophyllum scalare)"
     }
   ],
   "events": [
@@ -218,6 +222,132 @@
       ],
       "listingId": "imperial-tropicals:8397983711539+8547955179827",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 25.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "18968669126",
+          "label": "Medium",
+          "price": 25.49,
+          "available": true
+        },
+        {
+          "id": "8657526030455",
+          "label": "Jumbo",
+          "price": 58.79,
+          "available": false
+        },
+        {
+          "id": "49066594697515",
+          "label": "Small",
+          "price": 17.59,
+          "available": false
+        },
+        {
+          "id": "49066601382187",
+          "label": "Large",
+          "price": 33.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:5993627846",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46470195642675",
+          "label": "1-2” Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "49592269996339",
+          "label": "(3 Pack) 1-2” Unsexed",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "46470195708211",
+          "label": "2-3\" Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "49592332910899",
+          "label": "(3 Pack) 2-3\" Unsexed",
+          "price": 67.99,
+          "available": false
+        },
+        {
+          "id": "46470195740979",
+          "label": "3-4” Unsexed",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "49592350671155",
+          "label": "(3 Pack) 3-4” Unsexed",
+          "price": 74.99,
+          "available": false
+        },
+        {
+          "id": "50559468568883",
+          "label": "4-5\" Unsexed",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "45611744133427",
+          "label": "1-2\" Unsexed",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "45611744166195",
+          "label": "2-3\" Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "45611744198963",
+          "label": "3-4\" Unsexed",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397983711539+8547955179827",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "116271",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:116271",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

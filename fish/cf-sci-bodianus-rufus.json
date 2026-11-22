@@ -7,8 +7,7 @@
       "listingId": "aquarium-fish:9258825420",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Spanish Hogfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Spanish Hogfish"
     }
   ],
   "events": [
@@ -35,6 +34,29 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "aquarium-fish:9258825420",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 96.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "186194231321",
+          "label": "Small (1-2.5\")",
+          "price": 72.79,
+          "available": false
+        },
+        {
+          "id": "32066391500",
+          "label": "Medium (2.5-4\")",
+          "price": 96.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "aquarium-fish:9258825420",
       "storeSlug": "aquarium-fish"
     }

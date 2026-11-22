@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:lamprologus-ocellatus:gold",
-  "commonName": "Gold Ocellatus",
+  "commonName": "Gold Ocellatus Cichlid (Lamprologus ocellatus “gold”)",
   "scientificName": "Lamprologus ocellatus",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398082179379",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Gold Ocellatus",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Gold Ocellatus"
+    },
+    {
+      "listingId": "aqua-imports:69254",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Gold Ocellatus Cichlid (Lamprologus ocellatus “gold”)"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "imperial-tropicals:8398082179379",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48393903702323",
+          "label": "0.5-1\"\" Unsexed",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "45612061163827",
+          "label": "(5 Pack) 0.5-1\" Unsexed",
+          "price": 109.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398082179379",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "69254",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:69254",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

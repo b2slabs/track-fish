@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:amblyeleotris-guttata:orange",
-  "commonName": "Orange Spot Watchman Goby",
+  "commonName": "Orange Spotted Shrimp Goby (Amblyeleotris guttata)",
   "scientificName": "Amblyeleotris guttata",
   "listings": [
     {
       "listingId": "aquarium-fish:11210381964",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Orange Spot Watchman Goby",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Orange Spot Watchman Goby"
+    },
+    {
+      "listingId": "aqua-imports:108664",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Orange Spotted Shrimp Goby (Amblyeleotris guttata)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:11210381964",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 42.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51341731234091",
+          "label": "Small (1.5-3\")",
+          "price": 42.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:11210381964",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "108664",
+          "label": "Default",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:108664",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

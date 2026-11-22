@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:cichla-temensis",
-  "commonName": "Temensis Peacock Bass",
+  "commonName": "Temensis Peacock Bass (Cichla temensis)",
   "scientificName": "Cichla temensis",
   "listings": [
     {
       "listingId": "monster-aquarium:7241458057425",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Temensis Peacock Bass (Cichla temensis)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Temensis Peacock Bass (Cichla temensis)"
     },
     {
       "listingId": "global-exoticquatics:8663030005952",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Temensis Peacock Bass",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "Temensis Peacock Bass"
+    },
+    {
+      "listingId": "aqua-imports:37858+42963",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Temensis Peacock Bass (Cichla temensis)"
     }
   ],
   "events": [
@@ -64,6 +68,72 @@
       ],
       "listingId": "global-exoticquatics:8663030005952",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42696026226897",
+          "label": "3-4”",
+          "price": 49.99,
+          "available": true
+        },
+        {
+          "id": "41537328775377",
+          "label": "8-9”",
+          "price": 219.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7241458057425",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 30,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48698443923648",
+          "label": "3-3.5in",
+          "price": 30,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8663030005952",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42963",
+          "label": "Default",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "37858",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:37858+42963",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,13 @@
 {
   "canonicalFishId": "cf:sci:badis-badis",
-  "commonName": "Badis badis",
+  "commonName": "Badis sp.",
   "scientificName": "Badis badis",
   "listings": [
     {
       "listingId": "aquarium-fish:6574416198",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Badis Badis",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Badis Badis"
     },
     {
       "listingId": "dans-fish:10127101264170",
@@ -16,6 +15,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Badis badis",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:685637+685639+685650",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Badis sp."
     }
   ],
   "events": [
@@ -58,6 +63,55 @@
       ],
       "listingId": "dans-fish:10127101264170",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20799245766",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6574416198",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "685637",
+          "label": "Default",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "685639",
+          "label": "Default",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "685650",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:685637+685639+685650",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

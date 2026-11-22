@@ -7,15 +7,13 @@
       "listingId": "aquahuna:948334362667",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Chocolate Shrimp",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Chocolate Shrimp"
     },
     {
       "listingId": "buce-plant:9228810125",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Chocolate Shrimp (Black Rose)",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Chocolate Shrimp (Black Rose)"
     }
   ],
   "events": [
@@ -62,6 +60,46 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "buce-plant:9228810125",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 3.13,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15746603253803",
+          "label": "Title",
+          "price": 3.13,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:948334362667",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33318177997",
+          "label": "10 Shrimp",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "33318178125",
+          "label": "20 Shrimp",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "buce-plant:9228810125",
       "storeSlug": "buce-plant"
     }

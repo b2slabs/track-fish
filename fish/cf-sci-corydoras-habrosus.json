@@ -1,42 +1,43 @@
 {
   "canonicalFishId": "cf:sci:corydoras-habrosus",
-  "commonName": "Salt and Pepper Pygmy Cory",
+  "commonName": "Corydoras habrosus",
   "scientificName": "Corydoras habrosus",
   "listings": [
     {
       "listingId": "aquatic-arts:4752234054",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Salt and Pepper Pygmy Cory Catfish (Corydoras habrosus)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Salt and Pepper Pygmy Cory Catfish (Corydoras habrosus)"
     },
     {
       "listingId": "monster-aquarium:7119034384593",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Habrosus Cory (Corydoras habrosus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Habrosus Cory (Corydoras habrosus)"
     },
     {
       "listingId": "aquarium-fish:6319103750",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Pygmy Salt and Pepper Cory",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Pygmy Salt and Pepper Cory"
     },
     {
       "listingId": "nu-aqua-shop:10006319595836",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Salt and Pepper Pygmy Cory",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Salt and Pepper Pygmy Cory"
     },
     {
       "listingId": "flip-aquatics:3522575564902",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Habrosus Corydoras",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Habrosus Corydoras"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:682579",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Corydoras habrosus"
     }
   ],
   "events": [
@@ -157,6 +158,129 @@
       ],
       "listingId": "nu-aqua-shop:10006319595836",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15531631238",
+          "label": "School of 3",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "15531631302",
+          "label": "School of 6",
+          "price": 99.49,
+          "available": false
+        },
+        {
+          "id": "30964035148",
+          "label": "School of 9",
+          "price": 139.99,
+          "available": false
+        },
+        {
+          "id": "19439147745366",
+          "label": "School of 12",
+          "price": 168.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4752234054",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41251981263057",
+          "label": ".5-.75”",
+          "price": 3.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7119034384593",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31441338957926",
+          "label": "Imported / 1 Fish",
+          "price": 15.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:3522575564902",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20008288006",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6319103750",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627492770108",
+          "label": "Title",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006319595836",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "682579",
+          "label": "Default",
+          "price": 5.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:682579",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

@@ -7,15 +7,13 @@
       "listingId": "monster-aquarium:7100353773777",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Red Neon Stiphodon Goby (Stiphodon sp.)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Red Neon Stiphodon Goby (Stiphodon sp.)"
     },
     {
       "listingId": "aquarium-fish:6879793938513",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Neon Red Stiphodon Goby",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Neon Red Stiphodon Goby"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "aquarium-fish:6879793938513",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41206052389073",
+          "label": "1.5-2\"",
+          "price": 10,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7100353773777",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39901899948113",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "aquarium-fish:6879793938513",
       "storeSlug": "aquarium-fish"
     }

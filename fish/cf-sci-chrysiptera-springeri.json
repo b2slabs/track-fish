@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:chrysiptera-springeri",
-  "commonName": "Springeri Damselfish",
+  "commonName": "Springeri Damsel",
   "scientificName": "Chrysiptera springeri",
   "listings": [
     {
       "listingId": "aquarium-fish:9974032335147",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Springeri Damselfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Springeri Damselfish"
+    },
+    {
+      "listingId": "aqua-imports:89338",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Springeri Damsel"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:9974032335147",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 21.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50527822676267",
+          "label": "Small (0.5-1\")",
+          "price": 21.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9974032335147",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "89338",
+          "label": "Default",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:89338",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

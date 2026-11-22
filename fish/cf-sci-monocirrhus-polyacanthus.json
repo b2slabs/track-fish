@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:monocirrhus-polyacanthus",
-  "commonName": "Amazon True Leaf Fish",
+  "commonName": "Amazon Leaf Fish (Monocirrhus polyacanthus)",
   "scientificName": "Monocirrhus polyacanthus",
   "listings": [
     {
       "listingId": "aquarium-fish:3037605265489",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Amazon True Leaf Fish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Amazon True Leaf Fish"
+    },
+    {
+      "listingId": "aqua-imports:37678",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Amazon Leaf Fish (Monocirrhus polyacanthus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:3037605265489",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "23336713977937",
+          "label": "Title",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:3037605265489",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 25.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37678",
+          "label": "Default",
+          "price": 25.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:37678",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

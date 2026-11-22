@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:15398719848764",
-  "commonName": "Heterochromis Multidens 2-2.5\"",
+  "commonName": "Heterochromis multidens",
   "scientificName": null,
   "listings": [
     {
       "listingId": "nu-aqua-shop:15398719848764",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Heterochromis Multidens 2-2.5\"",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Heterochromis Multidens 2-2.5\""
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:680841",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Heterochromis multidens"
     }
   ],
   "events": [
@@ -52,6 +57,43 @@
       ],
       "listingId": "nu-aqua-shop:15398719848764",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "67607581163836",
+          "label": "Title",
+          "price": 21.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:15398719848764",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "680841",
+          "label": "Default",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:680841",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

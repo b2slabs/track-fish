@@ -1,7 +1,7 @@
 {
   "canonicalFishId": "cf:dans-fish:10127111455018",
-  "commonName": "False Julii Cory",
-  "scientificName": null,
+  "commonName": "False Julii Cory (Hoplisoma trilineatus)",
+  "scientificName": "Hoplisoma trilineatus",
   "listings": [
     {
       "listingId": "dans-fish:10127111455018",
@@ -9,6 +9,12 @@
       "storeName": "Dan's Fish",
       "commonName": "False Julii Cory",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:42104",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "False Julii Cory (Hoplisoma trilineatus)"
     }
   ],
   "events": [
@@ -31,6 +37,26 @@
       ],
       "listingId": "dans-fish:10127111455018",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42104",
+          "label": "Default",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:42104",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

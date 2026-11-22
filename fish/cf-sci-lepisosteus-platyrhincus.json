@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:lepisosteus-platyrhincus",
-  "commonName": "Florida Gar",
+  "commonName": "Florida Gar (Lepisosteus platyrhinchus)",
   "scientificName": "Lepisosteus platyrhincus",
   "listings": [
     {
       "listingId": "global-exoticquatics:8672794181824",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Florida Gar",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "Florida Gar"
     },
     {
       "listingId": "monster-aquarium:6966801105105+6976201687249",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Florida Gar (Lepisosteus platyrhincus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Florida Gar (Lepisosteus platyrhincus)"
+    },
+    {
+      "listingId": "aqua-imports:57889",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Florida Gar (Lepisosteus platyrhinchus)"
     }
   ],
   "events": [
@@ -116,6 +120,72 @@
       ],
       "listingId": "monster-aquarium:6966801105105+6976201687249",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40869773770961",
+          "label": "8-9\"",
+          "price": 999,
+          "available": false
+        },
+        {
+          "id": "42243352625361",
+          "label": "4-5”",
+          "price": 40,
+          "available": false
+        },
+        {
+          "id": "40847475671249",
+          "label": "6.5-7.5\"",
+          "price": 60.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6966801105105+6976201687249",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 50,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48742793412800",
+          "label": "5in",
+          "price": 50,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8672794181824",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "57889",
+          "label": "Default",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:57889",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

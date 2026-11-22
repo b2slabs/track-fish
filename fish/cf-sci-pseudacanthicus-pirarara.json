@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:pseudacanthicus-pirarara",
-  "commonName": "L025 Scarlet Cactus Pleco",
+  "commonName": "L025 Scarlet Cactus Pleco (Pseudacanthicus pirarara)",
   "scientificName": "Pseudacanthicus pirarara",
   "listings": [
     {
       "listingId": "aquahuna:6902192275531",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "L025 Scarlet Cactus Pleco (1.0-1.5\")",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "L025 Scarlet Cactus Pleco (1.0-1.5\")"
     },
     {
       "listingId": "nationwide-aquatics-usa:8651966021785",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "L025 Scarlet Cactus Pleco (Pseudacanthicus pirarara)",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "L025 Scarlet Cactus Pleco (Pseudacanthicus pirarara)"
     },
     {
       "listingId": "imperial-tropicals:8398157021491",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "L025 Scarlet Cactus Pleco",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "L025 Scarlet Cactus Pleco"
+    },
+    {
+      "listingId": "aqua-imports:37563+46605",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "L025 Scarlet Cactus Pleco (Pseudacanthicus pirarara)"
     }
   ],
   "events": [
@@ -117,6 +120,95 @@
       ],
       "listingId": "imperial-tropicals:8398157021491",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 69,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40179083313227",
+          "label": "Title",
+          "price": 69,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6902192275531",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 400,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46177183727769",
+          "label": "Title",
+          "price": 400,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8651966021785",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 169.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50355830784307",
+          "label": "3-4\" Unsexed Xingu",
+          "price": 169.99,
+          "available": false
+        },
+        {
+          "id": "50355831341363",
+          "label": "4-5\" Unsexed Xingu",
+          "price": 179.99,
+          "available": false
+        },
+        {
+          "id": "51837423026483",
+          "label": "9-10\" Unsexed",
+          "price": 549.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398157021491",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46605",
+          "label": "Default",
+          "price": 399.99,
+          "available": false
+        },
+        {
+          "id": "37563",
+          "label": "Default",
+          "price": 99.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:37563+46605",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

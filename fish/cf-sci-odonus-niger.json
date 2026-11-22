@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:odonus-niger",
-  "commonName": "Niger Triggerfish",
+  "commonName": "Niger Triggerfish (Odonus niger)",
   "scientificName": "Odonus niger",
   "listings": [
     {
       "listingId": "aquarium-fish:10028990497067",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Niger Triggerfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Niger Triggerfish"
+    },
+    {
+      "listingId": "aqua-imports:107121",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Niger Triggerfish (Odonus niger)"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "aquarium-fish:10028990497067",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 129.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50985254584619",
+          "label": "Small (1-2\")",
+          "price": 48.79,
+          "available": false
+        },
+        {
+          "id": "50985254650155",
+          "label": "Medium (2-3\")",
+          "price": 77.79,
+          "available": false
+        },
+        {
+          "id": "50985254715691",
+          "label": "Large (3-5\")",
+          "price": 129.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10028990497067",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "107121",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:107121",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

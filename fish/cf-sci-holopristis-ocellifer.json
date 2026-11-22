@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:holopristis-ocellifer",
-  "commonName": "Head and Tail Light Tetra (Holopristis ocellifer)",
+  "commonName": "Head and Tail Light Tetra (Hemigrammus ocellifer)",
   "scientificName": "Holopristis ocellifer",
   "listings": [
     {
       "listingId": "imperial-tropicals:8397985939763",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Head and Tail Light Tetra (Holopristis ocellifer)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Head and Tail Light Tetra (Holopristis ocellifer)"
     },
     {
       "listingId": "aquarium-fish:4866041670",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Head and Tail Lite Tetra",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Head and Tail Lite Tetra"
+    },
+    {
+      "listingId": "aqua-imports:188063",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Head and Tail Light Tetra (Hemigrammus ocellifer)"
     }
   ],
   "events": [
@@ -64,6 +68,66 @@
       ],
       "listingId": "imperial-tropicals:8397985939763",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15951362054",
+          "label": "Title",
+          "price": 2.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4866041670",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611748393267",
+          "label": "(3 Pack) 0.5-1\" Unsexed",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "45611748426035",
+          "label": "(10 Pack) 0.5-1\" Unsexed",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397985939763",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "188063",
+          "label": "Default",
+          "price": 3.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:188063",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

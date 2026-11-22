@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:pseudanthias-pleurotaenia",
-  "commonName": "Squareback Anthias",
+  "commonName": "Squareback Anthias (Pseudanthias pleurotaenia)",
   "scientificName": "Pseudanthias pleurotaenia",
   "listings": [
     {
       "listingId": "aquarium-fish:7808044486",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Squareback Anthias",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Squareback Anthias"
+    },
+    {
+      "listingId": "aqua-imports:119979",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Squareback Anthias (Pseudanthias pleurotaenia)"
     }
   ],
   "events": [
@@ -49,6 +54,61 @@
       ],
       "listingId": "aquarium-fish:7808044486",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 132.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "25262392518",
+          "label": "Male / Small (1-2\")",
+          "price": 136.99,
+          "available": true
+        },
+        {
+          "id": "12415880724550",
+          "label": "Male / Medium (2-3\")",
+          "price": 156.29,
+          "available": true
+        },
+        {
+          "id": "51481281233195",
+          "label": "Female / Small (1-2\")",
+          "price": 124.29,
+          "available": false
+        },
+        {
+          "id": "51481281265963",
+          "label": "Female / Medium (2-3\")",
+          "price": 132.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:7808044486",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 74.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "119979",
+          "label": "Default",
+          "price": 74.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:119979",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

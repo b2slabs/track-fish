@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:echinodorus-cordifolius:marble",
-  "commonName": "Marble Queen Sword",
+  "commonName": "Marble Queen Sword (Echinodorus cordifolius)",
   "scientificName": "Echinodorus cordifolius",
   "listings": [
     {
       "listingId": "aquatic-arts:4758357049430",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Marble Queen Radican Sword (Echinodorus cordifolius \"Marble Queen\"), bare root",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Marble Queen Radican Sword (Echinodorus cordifolius \"Marble Queen\"), bare root"
     },
     {
       "listingId": "imperial-tropicals:10310753321267",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Marble Queen Sword (Echinodorus cordifolius \"Marble Queen\")",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Marble Queen Sword (Echinodorus cordifolius \"Marble Queen\")"
     },
     {
       "listingId": "nu-aqua-shop:10299598864700",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Marble Queen Sword",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Marble Queen Sword"
+    },
+    {
+      "listingId": "aqua-imports:59988",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Marble Queen Sword (Echinodorus cordifolius)"
     }
   ],
   "events": [
@@ -85,6 +88,77 @@
       ],
       "listingId": "nu-aqua-shop:10299598864700",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32777165799510",
+          "label": "1 Plant",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4758357049430",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53660666691891",
+          "label": "1 Potted Plant",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:10310753321267",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52740101898556",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10299598864700",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "59988",
+          "label": "Default",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:59988",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

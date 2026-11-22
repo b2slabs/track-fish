@@ -7,15 +7,13 @@
       "listingId": "flip-aquatics:6692631642214",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Taiwan Moss",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Taiwan Moss"
     },
     {
       "listingId": "aquatics-for-fun:8412178088128",
       "storeSlug": "aquatics-for-fun",
       "storeName": "AquaticsForFun",
-      "commonName": "Taiwan Moss",
-      "lastCheckedAt": "2026-11-22T06:58:28.421Z"
+      "commonName": "Taiwan Moss"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "aquatics-for-fun:8412178088128",
+      "storeSlug": "aquatics-for-fun"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550738268262",
+          "label": "Cup Portion",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692631642214",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.070Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47173023957184",
+          "label": "Title",
+          "price": 10,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "aquatics-for-fun:8412178088128",
       "storeSlug": "aquatics-for-fun"
     }

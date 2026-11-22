@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:trachelyopterus-fisheri",
-  "commonName": "Fisher's Wood Cat",
+  "commonName": "Fisher’s Wood Catfish (Trachelyopterus fisheri)",
   "scientificName": "Trachelyopterus fisheri",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398031192371",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Fisher's Wood Cat",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Fisher's Wood Cat"
+    },
+    {
+      "listingId": "aqua-imports:64530",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Fisher’s Wood Catfish (Trachelyopterus fisheri)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "imperial-tropicals:8398031192371",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611872223539",
+          "label": "4\" Unsexed",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398031192371",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "64530",
+          "label": "Default",
+          "price": 17.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:64530",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

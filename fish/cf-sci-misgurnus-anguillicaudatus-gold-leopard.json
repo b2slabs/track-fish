@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:misgurnus-anguillicaudatus:gold-leopard",
-  "commonName": "Gold Leopard Dojo Loach (Misgurnus anguillicaudatus) – Tank-Bred",
+  "commonName": "Gold Leopard Dojo Loach (Misgurnus anguillicaudatus)",
   "scientificName": "Misgurnus anguillicaudatus",
   "listings": [
     {
       "listingId": "aquatic-arts:14913967096175",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Gold Leopard Dojo Loach (Misgurnus anguillicaudatus) – Tank-Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Gold Leopard Dojo Loach (Misgurnus anguillicaudatus) – Tank-Bred"
+    },
+    {
+      "listingId": "aqua-imports:190494",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Gold Leopard Dojo Loach (Misgurnus anguillicaudatus)"
     }
   ],
   "events": [
@@ -383,6 +388,49 @@
       ],
       "listingId": "aquatic-arts:14913967096175",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52767802098031",
+          "label": "1 Fish",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "52767802130799",
+          "label": "3 Fish",
+          "price": 155.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14913967096175",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "190494",
+          "label": "Default",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:190494",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

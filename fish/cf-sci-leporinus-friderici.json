@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:leporinus-friderici",
-  "commonName": "Three Spot Leporinus",
+  "commonName": "Three Spot Leporinus (Leporinus friderici)",
   "scientificName": "Leporinus friderici",
   "listings": [
     {
       "listingId": "aquarium-fish:1378507325510",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Three Spot Leporinus",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Three Spot Leporinus"
+    },
+    {
+      "listingId": "aqua-imports:39163",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Three Spot Leporinus (Leporinus friderici)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:1378507325510",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 41.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12419158278214",
+          "label": "Title",
+          "price": 41.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1378507325510",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39163",
+          "label": "Default",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:39163",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

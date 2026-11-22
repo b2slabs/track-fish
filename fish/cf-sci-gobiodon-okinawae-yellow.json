@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:gobiodon-okinawae:yellow",
-  "commonName": "Yellow Clown Goby",
+  "commonName": "Yellow Clown Goby (Gobiodon okinawae)",
   "scientificName": "Gobiodon okinawae",
   "listings": [
     {
       "listingId": "aquarium-fish:11210304268",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Yellow Clown Goby",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Yellow Clown Goby"
+    },
+    {
+      "listingId": "aqua-imports:108720",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Yellow Clown Goby (Gobiodon okinawae)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:11210304268",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42438340556",
+          "label": "Small (.5-1.5\")",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:11210304268",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "108720",
+          "label": "Default",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:108720",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

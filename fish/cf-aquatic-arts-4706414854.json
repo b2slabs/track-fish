@@ -7,15 +7,19 @@
       "listingId": "aquatic-arts:4706414854",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Seachem Equilibrium",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Seachem Equilibrium"
     },
     {
       "listingId": "nu-aqua-shop:10452925088060",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Seachem Equilibrium",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Seachem Equilibrium"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:607930",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Seachem Equilibrium"
     }
   ],
   "events": [
@@ -70,6 +74,72 @@
       ],
       "listingId": "nu-aqua-shop:10452925088060",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39344272801878",
+          "label": "300 gram",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "44181885288727",
+          "label": "Choose a Size",
+          "price": 15.72,
+          "available": false
+        },
+        {
+          "id": "39344272834646",
+          "label": "600 gram",
+          "price": 15.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4706414854",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 9.58,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53986032484668",
+          "label": "Title",
+          "price": 9.58,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10452925088060",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "607930",
+          "label": "Default",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:607930",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

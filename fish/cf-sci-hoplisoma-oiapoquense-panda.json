@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:hoplisoma-oiapoquense:panda",
-  "commonName": "Flag Tail Panda Corydoras",
+  "commonName": "Flag Tailed Panda Cory (Hoplisoma oiapoquense)",
   "scientificName": "Hoplisoma oiapoquense",
   "listings": [
     {
       "listingId": "shrimpy-business:9740640452898",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Flag Tail Panda Corydoras",
-      "lastCheckedAt": "2026-11-22T06:57:34.146Z"
+      "commonName": "Flag Tail Panda Corydoras"
+    },
+    {
+      "listingId": "aqua-imports:176654",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Flag Tailed Panda Cory (Hoplisoma oiapoquense)"
     }
   ],
   "events": [
@@ -49,6 +54,61 @@
       ],
       "listingId": "shrimpy-business:9740640452898",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 27.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49969013391650",
+          "label": "1 Fish",
+          "price": 27.95,
+          "available": false
+        },
+        {
+          "id": "49969013424418",
+          "label": "3 Fish",
+          "price": 75.95,
+          "available": false
+        },
+        {
+          "id": "51662838726946",
+          "label": "6 Fish",
+          "price": 142.95,
+          "available": false
+        },
+        {
+          "id": "51662838759714",
+          "label": "12 Fish",
+          "price": 267.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9740640452898",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "176654",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:176654",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

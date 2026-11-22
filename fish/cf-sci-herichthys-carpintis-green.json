@@ -7,15 +7,19 @@
       "listingId": "imperial-tropicals:8398015332659",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Green Texas Cichlid (Herichthys carpintis)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Green Texas Cichlid (Herichthys carpintis)"
     },
     {
       "listingId": "monster-aquarium:7039193022673+7203179692241",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Green Texas Cichlid (Herichthys carpintis)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Green Texas Cichlid (Herichthys carpintis)"
+    },
+    {
+      "listingId": "aqua-imports:150080",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Green Texas Cichlid (Herichthys carpintis)"
     }
   ],
   "events": [
@@ -188,6 +192,126 @@
       ],
       "listingId": "monster-aquarium:7039193022673+7203179692241",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 80,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41841352736977",
+          "label": "1.5-2\"",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "41459261964497",
+          "label": "2-3\"",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "42242609381585",
+          "label": "5\"-6\"",
+          "price": 149.99,
+          "available": false
+        },
+        {
+          "id": "41055625707729",
+          "label": "3\"",
+          "price": 25.99,
+          "available": false
+        },
+        {
+          "id": "41566733893841",
+          "label": "5\"",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "43312485204177",
+          "label": "6-7”",
+          "price": 80,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7039193022673+7203179692241",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611820548403",
+          "label": "1-2\" Unsexed",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "45611820581171",
+          "label": "2-3” Unsexed",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "67912778481971",
+          "label": "(5 Pack) 2-3” Unsexed",
+          "price": 54.99,
+          "available": true
+        },
+        {
+          "id": "45611820613939",
+          "label": "3-4” Unsexed",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "45611820646707",
+          "label": "4-5\" Unsexed",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "49932414910771",
+          "label": "5-6\" Unsexed",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "45611820679475",
+          "label": "6-7” Unsexed",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398015332659",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "150080",
+          "label": "Default",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:150080",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

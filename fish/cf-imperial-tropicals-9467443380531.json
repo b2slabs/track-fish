@@ -7,8 +7,13 @@
       "listingId": "imperial-tropicals:9467443380531",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Geophagus altifrons",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Geophagus altifrons"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:681955+681957+681959+681961",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Geophagus altifrons"
     }
   ],
   "events": [
@@ -37,6 +42,67 @@
       ],
       "listingId": "imperial-tropicals:9467443380531",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50159604990259",
+          "label": "2-3\" Unsexed Xingu",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "50159946039603",
+          "label": "3-4\" Unsexed Xingu",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9467443380531",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "681955",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "681957",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "681959",
+          "label": "Default",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "681961",
+          "label": "Default",
+          "price": 54.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:681955+681957+681959+681961",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

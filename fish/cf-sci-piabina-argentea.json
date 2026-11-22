@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:piabina-argentea",
-  "commonName": "Zig Zag Tetra",
+  "commonName": "Zig Zag Tetra (Hyphessobrycon hexastichos)",
   "scientificName": "Piabina argentea",
   "listings": [
     {
       "listingId": "aquatic-arts:14698640245103",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Zig Zag Tetra (Piabina argentea) – Tank-Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Zig Zag Tetra (Piabina argentea) – Tank-Bred"
     },
     {
       "listingId": "nu-aqua-shop:10430341447996",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Zig Zag Tetra",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Zig Zag Tetra"
+    },
+    {
+      "listingId": "aqua-imports:124190",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Zig Zag Tetra (Hyphessobrycon hexastichos)"
     }
   ],
   "events": [
@@ -90,6 +94,66 @@
       ],
       "listingId": "nu-aqua-shop:10430341447996",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 130.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51879953105263",
+          "label": "3 Fish",
+          "price": 130.99,
+          "available": false
+        },
+        {
+          "id": "51879953138031",
+          "label": "6 FIsh",
+          "price": 232.32,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14698640245103",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 23.85,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53358853062972",
+          "label": "Title",
+          "price": 23.85,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10430341447996",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "124190",
+          "label": "Default",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:124190",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

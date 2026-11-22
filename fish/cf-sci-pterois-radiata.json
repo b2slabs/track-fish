@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:pterois-radiata",
-  "commonName": "Radiata Lionfish",
+  "commonName": "Radiata Lionfish (Pterois radiata)",
   "scientificName": "Pterois radiata",
   "listings": [
     {
       "listingId": "aquarium-fish:10033846157611",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Radiata Lionfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Radiata Lionfish"
+    },
+    {
+      "listingId": "aqua-imports:108723",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Radiata Lionfish (Pterois radiata)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:10033846157611",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 182.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51053247332651",
+          "label": "Medium (3-4\")",
+          "price": 182.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10033846157611",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "108723",
+          "label": "Default",
+          "price": 99.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:108723",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

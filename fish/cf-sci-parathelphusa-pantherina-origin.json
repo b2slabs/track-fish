@@ -1,35 +1,37 @@
 {
   "canonicalFishId": "cf:sci:parathelphusa-pantherina-origin",
-  "commonName": "Panther Crab",
+  "commonName": "Panther Crab (Parathelphusa pantherina)",
   "scientificName": "Parathelphusa pantherina origin",
   "listings": [
     {
       "listingId": "aquarium-fish:208964616217",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Panther Crab",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Panther Crab"
     },
     {
       "listingId": "ck-fish-world:8150004039895",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Panther Crab",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Panther Crab"
     },
     {
       "listingId": "aquatic-arts:4707444870",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Panther Crab (Parathelphusa pantherina)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Panther Crab (Parathelphusa pantherina)"
     },
     {
       "listingId": "monster-aquarium:7219979944145",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Panther Crab (Parathelphusa pantherina)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Panther Crab (Parathelphusa pantherina)"
+    },
+    {
+      "listingId": "aqua-imports:91830",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Panther Crab (Parathelphusa pantherina)"
     }
   ],
   "events": [
@@ -150,6 +152,106 @@
       ],
       "listingId": "aquarium-fish:208964616217",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15389721734",
+          "label": "1 Crab",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "43320842380",
+          "label": "1 B-Grade Crab",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4707444870",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41496259920081",
+          "label": "1-1.5”",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7219979944145",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 13.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45697061355735",
+          "label": "1",
+          "price": 13.98,
+          "available": true
+        },
+        {
+          "id": "45697061388503",
+          "label": "3",
+          "price": 38.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150004039895",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "1609111928857",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:208964616217",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "91830",
+          "label": "Default",
+          "price": 16.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:91830",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

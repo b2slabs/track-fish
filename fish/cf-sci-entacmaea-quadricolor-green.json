@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:entacmaea-quadricolor:green",
-  "commonName": "Green Bulb Anemone",
+  "commonName": "Green Bubble Tip Anemone (Entacmaea quadricolor)",
   "scientificName": "Entacmaea quadricolor",
   "listings": [
     {
       "listingId": "aquarium-fish:10102686384427",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Green Bulb Anemone",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Green Bulb Anemone"
+    },
+    {
+      "listingId": "aqua-imports:134626",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Green Bubble Tip Anemone (Entacmaea quadricolor)"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "aquarium-fish:10102686384427",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 47.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51354233962795",
+          "label": "Small (2-3\")",
+          "price": 47.79,
+          "available": true
+        },
+        {
+          "id": "51354233995563",
+          "label": "Medium (3-4\")",
+          "price": 58.29,
+          "available": true
+        },
+        {
+          "id": "51354234028331",
+          "label": "Large (4-5\")",
+          "price": 71.79,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10102686384427",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "134626",
+          "label": "Default",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:134626",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

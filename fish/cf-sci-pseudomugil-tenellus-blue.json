@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:pseudomugil-tenellus:blue",
-  "commonName": "Blue Eye Tenellus Rainbow",
+  "commonName": "Tenellus Blue Eyed Rainbow (Pseudomugil tenellus)",
   "scientificName": "Pseudomugil tenellus",
   "listings": [
     {
       "listingId": "aquarium-fish:6007232518",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Blue Eye Tenellus Rainbow",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Blue Eye Tenellus Rainbow"
+    },
+    {
+      "listingId": "aqua-imports:60487",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Tenellus Blue Eyed Rainbow (Pseudomugil tenellus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:6007232518",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19019007622",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6007232518",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "60487",
+          "label": "Default",
+          "price": 7.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60487",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

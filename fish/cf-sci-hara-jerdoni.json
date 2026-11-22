@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:hara-jerdoni",
-  "commonName": "Stone Catfish",
+  "commonName": "Asian Stone Catfish (Hara jerdoni)",
   "scientificName": "Hara jerdoni",
   "listings": [
     {
       "listingId": "aquatic-arts:4741388550",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Asian Stone Mini Catfish AKA Anchor Catfish (Hara jerdoni)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Asian Stone Mini Catfish AKA Anchor Catfish (Hara jerdoni)"
     },
     {
       "listingId": "aquarium-fish:132166221849",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Stone Catfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Stone Catfish"
+    },
+    {
+      "listingId": "aqua-imports:45739",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Asian Stone Catfish (Hara jerdoni)"
     }
   ],
   "events": [
@@ -76,6 +80,78 @@
       ],
       "listingId": "aquarium-fish:132166221849",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15503934790",
+          "label": "School of 3",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "15503934918",
+          "label": "School of 6",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "39319630905430",
+          "label": "School of 9",
+          "price": 47.99,
+          "available": true
+        },
+        {
+          "id": "39319630970966",
+          "label": "School of 12",
+          "price": 58.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4741388550",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "1199880732697",
+          "label": "Title",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:132166221849",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45739",
+          "label": "Default",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:45739",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

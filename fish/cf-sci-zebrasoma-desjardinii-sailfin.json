@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:zebrasoma-desjardinii:sailfin",
-  "commonName": "Desjardini Sailfin Tang",
+  "commonName": "Desjardin Sailfin Tang (Zebrasoma desjardini)",
   "scientificName": "Zebrasoma desjardinii",
   "listings": [
     {
       "listingId": "aquarium-fish:7917221446",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Desjardini Sailfin Tang",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Desjardini Sailfin Tang"
+    },
+    {
+      "listingId": "aqua-imports:108630",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Desjardin Sailfin Tang (Zebrasoma desjardini)"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "aquarium-fish:7917221446",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 108.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267654824017",
+          "label": "Small (1.5-2.5\")",
+          "price": 108.29,
+          "available": true
+        },
+        {
+          "id": "32267654791249",
+          "label": "Medium (2.5-3.5\")",
+          "price": 162.29,
+          "available": true
+        },
+        {
+          "id": "32267654856785",
+          "label": "Large (3.5-4.5\")",
+          "price": 216.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:7917221446",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 119.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "108630",
+          "label": "Default",
+          "price": 119.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:108630",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

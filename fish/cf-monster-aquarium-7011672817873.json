@@ -7,15 +7,25 @@
       "listingId": "monster-aquarium:7011672817873",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Retroculus lapidifer",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Retroculus lapidifer"
     },
     {
       "listingId": "imperial-tropicals:8398009041203",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Retroculus lapidifer",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Retroculus lapidifer"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:682250+682253",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Retroculus lapidifer"
+    },
+    {
+      "listingId": "aqua-imports:37486",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Retroculus lapidifer"
     }
   ],
   "events": [
@@ -70,6 +80,98 @@
       ],
       "listingId": "imperial-tropicals:8398009041203",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40994509357265",
+          "label": "4-5\"",
+          "price": 55,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7011672817873",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 89.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51420949479731",
+          "label": "2-3\" Unsexed Rio Tocantins",
+          "price": 74.99,
+          "available": false
+        },
+        {
+          "id": "45611807179059",
+          "label": "3-4” Unsexed Rio Tocantins",
+          "price": 89.99,
+          "available": true
+        },
+        {
+          "id": "51420949512499",
+          "label": "4-5” Unsexed Rio Tocantins",
+          "price": 124.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398009041203",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "682250",
+          "label": "Default",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "682253",
+          "label": "Default",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:682250+682253",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "37486",
+          "label": "Default",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:37486",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

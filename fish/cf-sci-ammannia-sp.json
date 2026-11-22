@@ -7,15 +7,13 @@
       "listingId": "glass-aqua:6795305451606",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Ammannia Sulawesi",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Ammannia Sulawesi"
     },
     {
       "listingId": "buce-plant:7169579745480+7408241475784",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Ammannia Sp. Sulawesi",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Ammannia Sp. Sulawesi"
     }
   ],
   "events": [
@@ -104,6 +102,46 @@
       ],
       "listingId": "buce-plant:7169579745480+7408241475784",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42162477269192",
+          "label": "Ammannia Sp. Sulawesi",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "41309844832456",
+          "label": "Ammannia Towuti UNS Tissue Culture",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7169579745480+7408241475784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40016736583766",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6795305451606",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

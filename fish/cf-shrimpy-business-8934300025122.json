@@ -7,15 +7,13 @@
       "listingId": "shrimpy-business:8934300025122",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "GlasGarten - Bacter AE (35g)",
-      "lastCheckedAt": "2026-11-22T06:57:34.146Z"
+      "commonName": "GlasGarten - Bacter AE (35g)"
     },
     {
       "listingId": "nu-aqua-shop:10399094636860",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "GlasGarten Bacter AE",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "GlasGarten Bacter AE"
     }
   ],
   "events": [
@@ -68,6 +66,52 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:10399094636860",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 17.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47691404771618",
+          "label": "Title",
+          "price": 17.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:8934300025122",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 17.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53106790826300",
+          "label": "35g",
+          "price": 17.79,
+          "available": true
+        },
+        {
+          "id": "53106790859068",
+          "label": "70g",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "53106790891836",
+          "label": "140g",
+          "price": 34.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "nu-aqua-shop:10399094636860",
       "storeSlug": "nu-aqua-shop"
     }

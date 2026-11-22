@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:acanthurus-guttatus:mustard",
-  "commonName": "Mustard Tang",
+  "commonName": "Mustard Tang (Acanthurus guttatus)",
   "scientificName": "Acanthurus guttatus",
   "listings": [
     {
       "listingId": "aquarium-fish:9006742924",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Mustard Tang",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Mustard Tang"
+    },
+    {
+      "listingId": "aqua-imports:156744",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Mustard Tang (Acanthurus guttatus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:9006742924",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 631.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32267649056849",
+          "label": "Large (3-5\")",
+          "price": 631.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9006742924",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 199.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "156744",
+          "label": "Default",
+          "price": 199.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:156744",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:julidochromis-marlieri",
-  "commonName": "Julidochromis Marlieri",
+  "commonName": "Julidochromis marlieri",
   "scientificName": "Julidochromis marlieri",
   "listings": [
     {
       "listingId": "aquarium-fish:5841743430",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Julidochromis Marlieri Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Julidochromis Marlieri Cichlid"
     },
     {
       "listingId": "imperial-tropicals:8397966115123",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Julidochromis marlieri",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Julidochromis marlieri"
     },
     {
       "listingId": "nu-aqua-shop:10099841171772",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Julidochromis Marlieri",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Julidochromis Marlieri"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:680421",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Julidochromis marlieri"
     }
   ],
   "events": [
@@ -91,6 +94,83 @@
       ],
       "listingId": "nu-aqua-shop:10099841171772",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "18478502022",
+          "label": "Title",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:5841743430",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611697570099",
+          "label": "1-2\" Unsexed",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "45611697602867",
+          "label": "2-3\" Unsexed",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397966115123",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 18.39,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51919175057724",
+          "label": "Title",
+          "price": 18.39,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10099841171772",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "680421",
+          "label": "Default",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:680421",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

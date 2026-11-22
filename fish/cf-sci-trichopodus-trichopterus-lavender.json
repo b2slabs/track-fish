@@ -7,15 +7,13 @@
       "listingId": "aquatic-arts:14754283913583",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Lavender Gourami (Trichopodus trichopterus) Tank Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Lavender Gourami (Trichopodus trichopterus) Tank Bred"
     },
     {
       "listingId": "flip-aquatics:7488407896166",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Lavender Gourami",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Lavender Gourami"
     }
   ],
   "events": [
@@ -88,6 +86,46 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "flip-aquatics:7488407896166",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52089269780847",
+          "label": "1 Fish",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "52089269813615",
+          "label": "3 Fish",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14754283913583",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 12.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42298427342950",
+          "label": "Imported / 1 Fish",
+          "price": 12.49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "flip-aquatics:7488407896166",
       "storeSlug": "flip-aquatics"
     }

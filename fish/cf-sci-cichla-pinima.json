@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:cichla-pinima",
-  "commonName": "Pinima peacock bass ( Cichla Pinima )",
+  "commonName": "Pinima Peacock Bass (Cichla pinima)",
   "scientificName": "Cichla pinima",
   "listings": [
     {
       "listingId": "monster-aquarium:7468746997969",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Pinima peacock bass ( Cichla Pinima )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Pinima peacock bass ( Cichla Pinima )"
+    },
+    {
+      "listingId": "aqua-imports:118216",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Pinima Peacock Bass (Cichla pinima)"
     }
   ],
   "events": [
@@ -51,6 +56,43 @@
       ],
       "listingId": "monster-aquarium:7468746997969",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 28,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42236375597265",
+          "label": "3”",
+          "price": 28,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7468746997969",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "118216",
+          "label": "Default",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:118216",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

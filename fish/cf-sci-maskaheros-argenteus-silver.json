@@ -7,15 +7,19 @@
       "listingId": "monster-aquarium:7202858139857",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Silver Cichlid ( Vieja Argenteus )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Silver Cichlid ( Vieja Argenteus )"
     },
     {
       "listingId": "imperial-tropicals:8398105379123",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Silver Cichlid (Maskaheros argenteus)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Silver Cichlid (Maskaheros argenteus)"
+    },
+    {
+      "listingId": "aqua-imports:43961",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Silver Cichlid (Maskaheros argenteus)"
     }
   ],
   "events": [
@@ -58,6 +62,60 @@
       ],
       "listingId": "imperial-tropicals:8398105379123",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41458617385169",
+          "label": "3\"",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7202858139857",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612115591475",
+          "label": "2-3\" Unsexed",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398105379123",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43961",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:43961",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:acanthurus-pyroferus:yellow",
-  "commonName": "Philippine Yellow Tang",
+  "commonName": "Yellow Mimic Tang (Acanthurus pyroferus)",
   "scientificName": "Acanthurus pyroferus",
   "listings": [
     {
       "listingId": "aquarium-fish:11163774988",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Philippine Yellow Tang",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Philippine Yellow Tang"
+    },
+    {
+      "listingId": "aqua-imports:147789",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Yellow Mimic Tang (Acanthurus pyroferus)"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "aquarium-fish:11163774988",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 121.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51331214704939",
+          "label": "Small (1.5-2.5\")",
+          "price": 121.59,
+          "available": true
+        },
+        {
+          "id": "40231659274321",
+          "label": "Medium (2.5-3.5\")",
+          "price": 150.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:11163774988",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 79.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "147789",
+          "label": "Default",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:147789",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

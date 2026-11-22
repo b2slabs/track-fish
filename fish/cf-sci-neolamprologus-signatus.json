@@ -7,8 +7,13 @@
       "listingId": "imperial-tropicals:8398094074163",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Neolamprologus signatus",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Neolamprologus signatus"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:680582",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Neolamprologus signatus"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "imperial-tropicals:8398094074163",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48394166239539",
+          "label": "1-2\" Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "45612090818867",
+          "label": "(5 Pack) 1-2\" Unsexed",
+          "price": 89.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398094074163",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "680582",
+          "label": "Default",
+          "price": 23.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:680582",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

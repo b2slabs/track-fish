@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:polypterus-senegalus:platinum",
-  "commonName": "Platinum Senegal Bichir (Polypterus senegalus platinum)",
+  "commonName": "Platinum Senegal Bichir (Polypterus senegalus ‘platinum’)",
   "scientificName": "Polypterus senegalus",
   "listings": [
     {
       "listingId": "monster-aquarium:6966792487121",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Platinum Senegal Bichir (Polypterus senegalus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Platinum Senegal Bichir (Polypterus senegalus)"
     },
     {
       "listingId": "nationwide-aquatics-usa:8774390022297+8774395592857",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Platinum Senegal Bichir (Polypterus senegalus platinum)",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "Platinum Senegal Bichir (Polypterus senegalus platinum)"
+    },
+    {
+      "listingId": "aqua-imports:38612",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Platinum Senegal Bichir (Polypterus senegalus ‘platinum’)"
     }
   ],
   "events": [
@@ -104,6 +108,66 @@
       ],
       "listingId": "nationwide-aquatics-usa:8774390022297+8774395592857",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 100,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40847457878225",
+          "label": "6\"",
+          "price": 100,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6966792487121",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 50,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47888412377241",
+          "label": "Platinum Senegal Bichir (Polypterus senegalus platinum) 3 pack",
+          "price": 120,
+          "available": true
+        },
+        {
+          "id": "47888372072601",
+          "label": "Platinum Senegal Bichir (Polypterus senegalus platinum)",
+          "price": 50,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8774390022297+8774395592857",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 249.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "38612",
+          "label": "Default",
+          "price": 249.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38612",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

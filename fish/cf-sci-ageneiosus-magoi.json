@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:ageneiosus-magoi",
-  "commonName": "Dolphin Catfish",
+  "commonName": "Orinoco Dolphin Cat (Ageneiosus magoi)",
   "scientificName": "Ageneiosus magoi",
   "listings": [
     {
       "listingId": "aquarium-fish:8807716061483",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Dolphin Catfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Dolphin Catfish"
+    },
+    {
+      "listingId": "aqua-imports:71117",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Orinoco Dolphin Cat (Ageneiosus magoi)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:8807716061483",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47232851509547",
+          "label": "Title",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8807716061483",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "71117",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:71117",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

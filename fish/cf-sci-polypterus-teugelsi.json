@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:polypterus-teugelsi",
-  "commonName": "Teugelsi Bichir",
+  "commonName": "Teugelsi Bichir (Polypterus teugelsi)",
   "scientificName": "Polypterus teugelsi",
   "listings": [
     {
       "listingId": "monster-aquarium:7208994078929",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Teugelsi Polypterus Bichir (Polypterus teugelsi)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Teugelsi Polypterus Bichir (Polypterus teugelsi)"
     },
     {
       "listingId": "aquarium-fish:6590318608465",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Teugelsi Bichir",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Teugelsi Bichir"
     },
     {
       "listingId": "imperial-tropicals:8398136246579",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Teugelsi Bichir",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Teugelsi Bichir"
+    },
+    {
+      "listingId": "aqua-imports:39706",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Teugelsi Bichir (Polypterus teugelsi)"
     }
   ],
   "events": [
@@ -85,6 +88,77 @@
       ],
       "listingId": "imperial-tropicals:8398136246579",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 249,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41472673448145",
+          "label": "12-14”",
+          "price": 249,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7208994078929",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39398296879185",
+          "label": "Title",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6590318608465",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612186272051",
+          "label": "3-4” Unsexed",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398136246579",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39706",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:39706",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

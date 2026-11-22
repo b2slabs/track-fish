@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:glass-aqua:11277465543",
-  "commonName": "Ludwigia Glandulosa",
+  "commonName": "Ludwigia glandulosa",
   "scientificName": null,
   "listings": [
     {
       "listingId": "glass-aqua:11277465543",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Ludwigia Glandulosa",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Ludwigia Glandulosa"
+    },
+    {
+      "listingId": "aqua-imports:60101",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Ludwigia glandulosa"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "glass-aqua:11277465543",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50580364951638",
+          "label": "Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "50580364984406",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277465543",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "60101",
+          "label": "Default",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60101",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

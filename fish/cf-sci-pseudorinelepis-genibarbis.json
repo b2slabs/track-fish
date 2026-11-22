@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:pseudorinelepis-genibarbis",
-  "commonName": "Pinecone Pleco",
+  "commonName": "Spotted Pinecone Pleco (Pseudorinelepis genibarbis)",
   "scientificName": "Pseudorinelepis genibarbis",
   "listings": [
     {
       "listingId": "aquarium-fish:116530053145",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Pineapple Pleco",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Pineapple Pleco"
     },
     {
       "listingId": "imperial-tropicals:8398141817139",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Pinecone Pleco",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Pinecone Pleco"
     },
     {
       "listingId": "aquatic-arts:14795445338479",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "L056 Chubby Pleco L056 (Pseudorinelepis genibarbis)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "L056 Chubby Pleco L056 (Pseudorinelepis genibarbis)"
+    },
+    {
+      "listingId": "aqua-imports:97224",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Spotted Pinecone Pleco (Pseudorinelepis genibarbis)"
     }
   ],
   "events": [
@@ -129,6 +132,89 @@
       ],
       "listingId": "imperial-tropicals:8398141817139",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52245069824367",
+          "label": "1 Pleco",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "52245069857135",
+          "label": "2 Plecos",
+          "price": 62.98,
+          "available": false
+        },
+        {
+          "id": "52245069889903",
+          "label": "3 Plecos",
+          "price": 89.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14795445338479",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 119.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "1065162276889",
+          "label": "Title",
+          "price": 119.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:116530053145",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612204425523",
+          "label": "4\" Unsexed",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398141817139",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "97224",
+          "label": "Default",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:97224",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

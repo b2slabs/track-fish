@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:daku-aquatics:8741041537242",
-  "commonName": "Red Pearl Sword",
+  "commonName": "Red Pearl Sword (Echinodorus sp. Red Pearl)",
   "scientificName": null,
   "listings": [
     {
       "listingId": "daku-aquatics:8741041537242",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
-      "commonName": "Red Pearl Sword",
-      "lastCheckedAt": "2026-11-22T06:58:04.282Z"
+      "commonName": "Red Pearl Sword"
+    },
+    {
+      "listingId": "aqua-imports:92664",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red Pearl Sword (Echinodorus sp. Red Pearl)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "daku-aquatics:8741041537242",
       "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:25.196Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043853619418",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741041537242",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "92664",
+          "label": "Default",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:92664",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

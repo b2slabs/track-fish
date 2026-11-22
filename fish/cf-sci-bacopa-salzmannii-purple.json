@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:bacopa-salzmannii:purple",
-  "commonName": "Bacopa Salzmannii Purple",
+  "commonName": "Purple Bacopa (Bacopa salzmannii ‘Purple’)",
   "scientificName": "Bacopa salzmannii",
   "listings": [
     {
       "listingId": "glass-aqua:6979335225430",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Bacopa Salzmannii Purple",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Bacopa Salzmannii Purple"
     },
     {
       "listingId": "buce-plant:435834781736+7607389814984",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Bacopa Salzmannii Purple",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Bacopa Salzmannii Purple"
+    },
+    {
+      "listingId": "aqua-imports:179985",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Purple Bacopa (Bacopa salzmannii ‘Purple’)"
     }
   ],
   "events": [
@@ -116,6 +120,78 @@
       ],
       "listingId": "buce-plant:435834781736+7607389814984",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "3734953328680",
+          "label": "Bacopa Salzmannii Purple",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "42904129601736",
+          "label": "Bacopa Salzmannii Purple Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:435834781736+7607389814984",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42092394414166",
+          "label": "Bunch",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "42092394381398",
+          "label": "UNS Tissue Culture",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "42092395855958",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6979335225430",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "179985",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:179985",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

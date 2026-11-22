@@ -1,35 +1,31 @@
 {
   "canonicalFishId": "cf:sci:corydoras-hastatus",
-  "commonName": "Corydoras hastatus",
+  "commonName": "Tail Spot Pygmy Cory (Gastrodermus hastatus)",
   "scientificName": "Corydoras hastatus",
   "listings": [
     {
       "listingId": "aquatic-arts:9453548830999",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Tail Spot Pygmy Cory (Corydoras hastatus) - Tank Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Tail Spot Pygmy Cory (Corydoras hastatus) - Tank Bred"
     },
     {
       "listingId": "nu-aqua-shop:10006360686908",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Tail Spot Pygmy Cory",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Tail Spot Pygmy Cory"
     },
     {
       "listingId": "nationwide-aquatics-usa:8503919640729",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Tail Spot Pygmy Cory (Gastrodermus hastatus)",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "Tail Spot Pygmy Cory (Gastrodermus hastatus)"
     },
     {
       "listingId": "aquarium-fish:4676233199697",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Cory Hastatus",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Cory Hastatus"
     },
     {
       "listingId": "dans-fish:10127107195178",
@@ -37,6 +33,18 @@
       "storeName": "Dan's Fish",
       "commonName": "Corydoras hastatus",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:682585+695400",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Corydoras hastatus"
+    },
+    {
+      "listingId": "aqua-imports:39543",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Tail Spot Pygmy Cory (Gastrodermus hastatus)"
     }
   ],
   "events": [
@@ -190,6 +198,138 @@
       ],
       "listingId": "dans-fish:10127107195178",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 65.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49059632709911",
+          "label": "School of 3",
+          "price": 65.99,
+          "available": true
+        },
+        {
+          "id": "49059632742679",
+          "label": "School of 6",
+          "price": 102.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:9453548830999",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 15,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45636772069529",
+          "label": "Title",
+          "price": 15,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8503919640729",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32563044548689",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4676233199697",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51633980506428",
+          "label": "Single",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "51633980440892",
+          "label": "Group of 3",
+          "price": 53.97,
+          "available": false
+        },
+        {
+          "id": "51633980473660",
+          "label": "Group of 6",
+          "price": 101.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006360686908",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "695400",
+          "label": "Default",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "682585",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:682585+695400",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39543",
+          "label": "Default",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:39543",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

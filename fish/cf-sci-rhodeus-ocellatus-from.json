@@ -7,15 +7,13 @@
       "listingId": "aquahuna:4545379926091",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Rosy Bitterling",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Rosy Bitterling"
     },
     {
       "listingId": "aquatic-arts:1939492143190",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Rosy Bitterling (Rhodeus ocellatus ocellatus)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Rosy Bitterling (Rhodeus ocellatus ocellatus)"
     }
   ],
   "events": [
@@ -228,6 +226,58 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "aquahuna:4545379926091",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 33.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19464988196950",
+          "label": "School of 3",
+          "price": 33.99,
+          "available": false
+        },
+        {
+          "id": "19464988229718",
+          "label": "School of 6",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "19464988262486",
+          "label": "School of 9",
+          "price": 108.99,
+          "available": false
+        },
+        {
+          "id": "19464988295254",
+          "label": "School of 12",
+          "price": 136.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1939492143190",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32178831130699",
+          "label": "Title",
+          "price": 10,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "aquahuna:4545379926091",
       "storeSlug": "aquahuna"
     }

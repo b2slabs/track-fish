@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:paracentropogon-zonatus:red",
-  "commonName": "Red Pygmy Waspfish",
+  "commonName": "Red Rooster Pygmy Waspfish (Paracentropogon zonatus)",
   "scientificName": "Paracentropogon zonatus",
   "listings": [
     {
       "listingId": "aquarium-fish:10116458774827",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Red Pygmy Waspfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Red Pygmy Waspfish"
+    },
+    {
+      "listingId": "aqua-imports:126171",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red Rooster Pygmy Waspfish (Paracentropogon zonatus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:10116458774827",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 145.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51399956627755",
+          "label": "Small (0.75-1.5\")",
+          "price": 145.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10116458774827",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "126171",
+          "label": "Default",
+          "price": 99.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:126171",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

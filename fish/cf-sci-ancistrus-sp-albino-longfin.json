@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:ancistrus-sp:albino-longfin",
-  "commonName": "L-144 Bushynose Albino Longfin Pleco",
+  "commonName": "Longfin Albino Bristlenose Pleco (Ancistrus sp.)",
   "scientificName": "Ancistrus sp.",
   "listings": [
     {
       "listingId": "monster-aquarium:7346866192593",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "One pair Long Fin Albino Bristlenose pleco (Ancistrus sp.)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "One pair Long Fin Albino Bristlenose pleco (Ancistrus sp.)"
     },
     {
       "listingId": "aquarium-fish:6652830278",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "L-144 Bushynose Albino Longfin Pleco",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "L-144 Bushynose Albino Longfin Pleco"
+    },
+    {
+      "listingId": "aqua-imports:61817",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Longfin Albino Bristlenose Pleco (Ancistrus sp.)"
     }
   ],
   "events": [
@@ -78,6 +82,60 @@
       ],
       "listingId": "aquarium-fish:6652830278",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 139.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41914272645329",
+          "label": "3.5-4.5\"",
+          "price": 139.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7346866192593",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32267405033553",
+          "label": "Small",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6652830278",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "61817",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:61817",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

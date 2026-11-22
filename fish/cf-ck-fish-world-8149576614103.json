@@ -7,15 +7,13 @@
       "listingId": "ck-fish-world:8149576614103",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Seachem Stability",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Seachem Stability"
     },
     {
       "listingId": "glass-aqua:11346862855",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Seachem Stability",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Seachem Stability"
     }
   ],
   "events": [
@@ -68,6 +66,52 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:11346862855",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 7.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44096668369111",
+          "label": "3.4 oz",
+          "price": 7.98,
+          "available": true
+        },
+        {
+          "id": "44096668401879",
+          "label": "8.5 oz",
+          "price": 12.98,
+          "available": true
+        },
+        {
+          "id": "44096668434647",
+          "label": "16.9 oz",
+          "price": 19.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8149576614103",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 14.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53236306375",
+          "label": "Title",
+          "price": 14.49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:11346862855",
       "storeSlug": "glass-aqua"
     }

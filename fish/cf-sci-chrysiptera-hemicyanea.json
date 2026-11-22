@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:chrysiptera-hemicyanea",
-  "commonName": "Azure Damselfish",
+  "commonName": "Kupang Damsel (Chrysiptera hemicyanea)",
   "scientificName": "Chrysiptera hemicyanea",
   "listings": [
     {
       "listingId": "aquarium-fish:9974031253803",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Azure Damselfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Azure Damselfish"
+    },
+    {
+      "listingId": "aqua-imports:113056",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Kupang Damsel (Chrysiptera hemicyanea)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:9974031253803",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50527821398315",
+          "label": "Small (1-1.5\")",
+          "price": 15.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9974031253803",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "113056",
+          "label": "Default",
+          "price": 22.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:113056",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

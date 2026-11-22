@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:leporinus-fasciatus",
-  "commonName": "Striped Leporinus (Brevidens striatus)",
+  "commonName": "Banded Leporinus (Leporinus affinis)",
   "scientificName": "Leporinus fasciatus",
   "listings": [
     {
       "listingId": "monster-aquarium:7094102655185",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Banded Leporinus (Leporinus fasciatus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Banded Leporinus (Leporinus fasciatus)"
     },
     {
       "listingId": "aquarium-fish:4489272164433",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Striped Leporinus",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Striped Leporinus"
     },
     {
       "listingId": "imperial-tropicals:10163273400627",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Striped Leporinus (Brevidens striatus)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Striped Leporinus (Brevidens striatus)"
+    },
+    {
+      "listingId": "aqua-imports:221572",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Banded Leporinus (Leporinus affinis)"
     }
   ],
   "events": [
@@ -91,6 +94,83 @@
       ],
       "listingId": "imperial-tropicals:10163273400627",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41192867627217",
+          "label": "2\"-2.5\"",
+          "price": 8,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7094102655185",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31816025538641",
+          "label": "Medium",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "31816025571409",
+          "label": "Large",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4489272164433",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53300003668275",
+          "label": "2-3\" Unsexed",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:10163273400627",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "221572",
+          "label": "Default",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:221572",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

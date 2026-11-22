@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:echidna-nebulosa",
-  "commonName": "Snowflake Moray Eel",
+  "commonName": "Snowflake Moray Eel (Echidna nebulosa)",
   "scientificName": "Echidna nebulosa",
   "listings": [
     {
       "listingId": "aquarium-fish:9974120644907",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Snowflake Moray Eel",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Snowflake Moray Eel"
+    },
+    {
+      "listingId": "aqua-imports:89354",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Snowflake Moray Eel (Echidna nebulosa)"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "aquarium-fish:9974120644907",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 96.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50528190136619",
+          "label": "Small (4-6\")",
+          "price": 36.79,
+          "available": false
+        },
+        {
+          "id": "51313611473195",
+          "label": "Medium (6-9\")",
+          "price": 59.79,
+          "available": false
+        },
+        {
+          "id": "50528190267691",
+          "label": "Large (9\"+)",
+          "price": 96.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9974120644907",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "89354",
+          "label": "Default",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:89354",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

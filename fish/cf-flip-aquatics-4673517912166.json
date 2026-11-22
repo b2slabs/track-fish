@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:flip-aquatics:4673517912166",
-  "commonName": "Red Flame Sword",
-  "scientificName": null,
+  "commonName": "Red Flame Sword (Echinodorus sp. ‘Red Flame’)",
+  "scientificName": "Echinodorus sp.",
   "listings": [
     {
       "listingId": "flip-aquatics:4673517912166",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Red Flame Sword",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Red Flame Sword"
     },
     {
       "listingId": "daku-aquatics:8741035278554",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
-      "commonName": "Red Flame Sword",
-      "lastCheckedAt": "2026-11-22T06:58:04.282Z"
+      "commonName": "Red Flame Sword"
     },
     {
       "listingId": "nu-aqua-shop:10006319071548",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Red Flame Sword",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Red Flame Sword"
+    },
+    {
+      "listingId": "aqua-imports:59993",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red Flame Sword (Echinodorus sp. ‘Red Flame’)"
     }
   ],
   "events": [
@@ -85,6 +88,77 @@
       ],
       "listingId": "nu-aqua-shop:10006319071548",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31494955303014",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:4673517912166",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:25.196Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043841495258",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741035278554",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51627492081980",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006319071548",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "59993",
+          "label": "Default",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:59993",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

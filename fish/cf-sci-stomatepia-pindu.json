@@ -1,14 +1,25 @@
 {
   "canonicalFishId": "cf:sci:stomatepia-pindu",
-  "commonName": "Stomatepia pindu",
+  "commonName": "Pindu Cichlid (Stomatepia pindu)",
   "scientificName": "Stomatepia pindu",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398059798835",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Stomatepia pindu",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Stomatepia pindu"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:681068",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Stomatepia pindu"
+    },
+    {
+      "listingId": "aqua-imports:190209",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Pindu Cichlid (Stomatepia pindu)"
     }
   ],
   "events": [
@@ -49,6 +60,81 @@
       ],
       "listingId": "imperial-tropicals:8398059798835",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51145134801203",
+          "label": "1-2\" Unsexed",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "50752158171443",
+          "label": "2-3” Unsexed",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "45611996610867",
+          "label": "3-4” Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "45611996643635",
+          "label": "5-6\" Unsexed",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398059798835",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "681068",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:681068",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "190209",
+          "label": "Default",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:190209",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

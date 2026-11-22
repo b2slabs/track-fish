@@ -1,14 +1,13 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10006320218428",
-  "commonName": "Tucano Tetra",
-  "scientificName": null,
+  "commonName": "Tucano Tetra (Tucanoichthys tucano)",
+  "scientificName": "Tucanoichthys tucano",
   "listings": [
     {
       "listingId": "nu-aqua-shop:10006320218428",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Tucano Tetra",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Tucano Tetra"
     },
     {
       "listingId": "dans-fish:10127130493226",
@@ -16,6 +15,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Tucano Tetra",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:82380",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Tucano Tetra (Tucanoichthys tucano)"
     }
   ],
   "events": [
@@ -70,6 +75,55 @@
       ],
       "listingId": "dans-fish:10127130493226",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 15.36,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51718532858172",
+          "label": "Single",
+          "price": 15.36,
+          "available": true
+        },
+        {
+          "id": "51718532890940",
+          "label": "Group of 3",
+          "price": 41.47,
+          "available": true
+        },
+        {
+          "id": "51718532923708",
+          "label": "Group of 6",
+          "price": 78.34,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006320218428",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "82380",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:82380",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

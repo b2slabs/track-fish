@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:acanthurus-lineatus",
-  "commonName": "Clown Tang",
+  "commonName": "Clown Tang (Acanthurus lineatus)",
   "scientificName": "Acanthurus lineatus",
   "listings": [
     {
       "listingId": "aquarium-fish:11163815308",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Clown Tang",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Clown Tang"
+    },
+    {
+      "listingId": "aqua-imports:103852",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Clown Tang (Acanthurus lineatus)"
     }
   ],
   "events": [
@@ -76,6 +81,55 @@
       ],
       "listingId": "aquarium-fish:11163815308",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 55.07,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42167638284",
+          "label": "Small (1.5-2.5\")",
+          "price": 55.07,
+          "available": true
+        },
+        {
+          "id": "12825448218694",
+          "label": "Medium (2.5-3.5\")",
+          "price": 82.7,
+          "available": true
+        },
+        {
+          "id": "12502965354566",
+          "label": "Large (3.5-5\")",
+          "price": 92.05,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:11163815308",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 119.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "103852",
+          "label": "Default",
+          "price": 119.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:103852",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

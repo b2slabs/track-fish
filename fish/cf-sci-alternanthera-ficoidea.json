@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:alternanthera-ficoidea",
-  "commonName": "Cherry Hedge aquarium plant",
+  "commonName": "Cherry Hedge (Alternanthera ficoidea ‘Cherry Stem’)",
   "scientificName": "Alternanthera ficoidea",
   "listings": [
     {
       "listingId": "aquarium-fish:9936034824491",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Cherry Hedge aquarium plant",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Cherry Hedge aquarium plant"
+    },
+    {
+      "listingId": "aqua-imports:60024",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Cherry Hedge (Alternanthera ficoidea ‘Cherry Stem’)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:9936034824491",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 7.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50395493892395",
+          "label": "Title",
+          "price": 7.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9936034824491",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "60024",
+          "label": "Default",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60024",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -7,8 +7,13 @@
       "listingId": "imperial-tropicals:8303250440499",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Cribroheros longimanus",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Cribroheros longimanus"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:681205",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Cribroheros longimanus"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "imperial-tropicals:8303250440499",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45224052883763",
+          "label": "1-2\" Unsexed",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "45224052916531",
+          "label": "2-3\" unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "47657906241843",
+          "label": "3-4” males",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8303250440499",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "681205",
+          "label": "Default",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:681205",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

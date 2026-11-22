@@ -7,15 +7,13 @@
       "listingId": "buce-plant:4504725028945",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Aquario Neo CO2 Extended Special Diffuser",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Aquario Neo CO2 Extended Special Diffuser"
     },
     {
       "listingId": "glass-aqua:4567950393430",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Aquario Neo CO2 Diffuser - Extended Special",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Aquario Neo CO2 Diffuser - Extended Special"
     }
   ],
   "events": [
@@ -86,6 +84,70 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:4567950393430",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31873517682769",
+          "label": "Small",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "31873517715537",
+          "label": "Medium",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "31873517748305",
+          "label": "Large",
+          "price": 17.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:4504725028945",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39374711521366",
+          "label": "Tiny",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "31990380691542",
+          "label": "Small",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "31990380724310",
+          "label": "Medium",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "31990380757078",
+          "label": "Large",
+          "price": 17.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:4567950393430",
       "storeSlug": "glass-aqua"
     }

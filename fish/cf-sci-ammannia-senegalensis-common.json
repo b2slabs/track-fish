@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:ammannia-senegalensis-common",
-  "commonName": "Ammania Senegalensis",
+  "commonName": "Ammannia senegalensis",
   "scientificName": "Ammannia senegalensis common",
   "listings": [
     {
       "listingId": "buce-plant:9404121485",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Ammania Senegalensis",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Ammania Senegalensis"
     },
     {
       "listingId": "glass-aqua:490067886112",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Ammania Senegalensis",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Ammania Senegalensis"
+    },
+    {
+      "listingId": "aqua-imports:60029",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Ammannia senegalensis"
     }
   ],
   "events": [
@@ -64,6 +68,66 @@
       ],
       "listingId": "glass-aqua:490067886112",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "34485168717",
+          "label": "Lead Bunch",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "12390925172817",
+          "label": "3 Bunches + 1 Free",
+          "price": 23.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:9404121485",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "5745133781024",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:490067886112",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "60029",
+          "label": "Default",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60029",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

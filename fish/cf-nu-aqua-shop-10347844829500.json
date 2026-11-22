@@ -7,8 +7,13 @@
       "listingId": "nu-aqua-shop:10347844829500",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Sera Pleco Chips",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Sera Pleco Chips"
+    },
+    {
+      "listingId": "aqua-imports:41622",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Sera Pleco Chips"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "nu-aqua-shop:10347844829500",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52926334927164",
+          "label": "13.4oz",
+          "price": 38.99,
+          "available": true
+        },
+        {
+          "id": "52926334959932",
+          "label": "1.2oz",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10347844829500",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 8.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41622",
+          "label": "Default",
+          "price": 8.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:41622",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

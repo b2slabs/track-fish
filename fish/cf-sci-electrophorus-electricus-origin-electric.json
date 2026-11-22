@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:electrophorus-electricus-origin:electric",
-  "commonName": "Electric Eel",
+  "commonName": "Electric Eel (Electrophorus varii)",
   "scientificName": "Electrophorus electricus",
   "listings": [
     {
       "listingId": "monster-aquarium:7086027931857",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Electric Eel (Electrophorus electricus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Electric Eel (Electrophorus electricus)"
     },
     {
       "listingId": "aquarium-fish:6658924806",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Electric Eel",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Electric Eel"
+    },
+    {
+      "listingId": "aqua-imports:40110",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Electric Eel (Electrophorus varii)"
     }
   ],
   "events": [
@@ -97,6 +101,78 @@
       ],
       "listingId": "aquarium-fish:6658924806",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 35,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41302706553041",
+          "label": "3-4”",
+          "price": 35,
+          "available": false
+        },
+        {
+          "id": "41303034069201",
+          "label": "5-6”",
+          "price": 62.99,
+          "available": false
+        },
+        {
+          "id": "41172622409937",
+          "label": "7-8”",
+          "price": 95,
+          "available": false
+        },
+        {
+          "id": "41172601864401",
+          "label": "11-12”",
+          "price": 200,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7086027931857",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 217.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "21042602502",
+          "label": "Title",
+          "price": 217.49,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6658924806",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 89.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40110",
+          "label": "Default",
+          "price": 89.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:40110",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

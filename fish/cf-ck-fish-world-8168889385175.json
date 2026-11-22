@@ -7,15 +7,13 @@
       "listingId": "ck-fish-world:8168889385175",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Fritz MetroCleanse",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Fritz MetroCleanse"
     },
     {
       "listingId": "nu-aqua-shop:10111753847100",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Fritz MetroCleanse",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Fritz MetroCleanse"
     }
   ],
   "events": [
@@ -68,6 +66,52 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:10111753847100",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 9.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44152663769303",
+          "label": "10 pack",
+          "price": 9.98,
+          "available": true
+        },
+        {
+          "id": "44152663802071",
+          "label": "20 pack",
+          "price": 15.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8168889385175",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52414335025468",
+          "label": "10ct",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "52414335058236",
+          "label": "20ct",
+          "price": 12.79,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "nu-aqua-shop:10111753847100",
       "storeSlug": "nu-aqua-shop"
     }

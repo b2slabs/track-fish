@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:imperial-tropicals:8398184284467",
-  "commonName": "Three Spot Headstander",
-  "scientificName": null,
+  "commonName": "Threespot Headstander (Pseudanos trimaculatus)",
+  "scientificName": "Pseudanos trimaculatus",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398184284467",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Three Spot Headstander",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Three Spot Headstander"
+    },
+    {
+      "listingId": "aqua-imports:113417",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Threespot Headstander (Pseudanos trimaculatus)"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "imperial-tropicals:8398184284467",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612301418803",
+          "label": "2-3\" Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "48388827709747",
+          "label": "3-4\" Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "50202476446003",
+          "label": "(5 Pack) 3-4\" Unsexed",
+          "price": 89.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398184284467",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "113417",
+          "label": "Default",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:113417",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

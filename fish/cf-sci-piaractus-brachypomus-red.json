@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:piaractus-brachypomus:red",
-  "commonName": "Red Bellied Pacu",
+  "commonName": "Red Belly Pacu (Piaractus brachypomum)",
   "scientificName": "Piaractus brachypomus",
   "listings": [
     {
       "listingId": "imperial-tropicals:8397997769011",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Red Bellied Pacu",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Red Bellied Pacu"
     },
     {
       "listingId": "monster-aquarium:7030053273809",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Red Belly Pacu (Piaractus brachypomus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Red Belly Pacu (Piaractus brachypomus)"
     },
     {
       "listingId": "aquarium-fish:1378303410246",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Red Belly Pacu",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Red Belly Pacu"
+    },
+    {
+      "listingId": "aqua-imports:61631",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red Belly Pacu (Piaractus brachypomum)"
     }
   ],
   "events": [
@@ -91,6 +94,83 @@
       ],
       "listingId": "imperial-tropicals:8397997769011",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41562875986129",
+          "label": "1\"",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "41034955227345",
+          "label": "1.8-2.5”",
+          "price": 18,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7030053273809",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12418577432646",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1378303410246",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611779359027",
+          "label": "1\" Unsexed",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397997769011",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "61631",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:61631",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

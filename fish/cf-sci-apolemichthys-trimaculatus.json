@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:apolemichthys-trimaculatus",
-  "commonName": "Flagfin Angelfish",
+  "commonName": "Flagfin Angelfish (Apolemichthys trimaculatus)",
   "scientificName": "Apolemichthys trimaculatus",
   "listings": [
     {
       "listingId": "aquarium-fish:8843631308",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Flagfin Angelfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Flagfin Angelfish"
+    },
+    {
+      "listingId": "aqua-imports:156563",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Flagfin Angelfish (Apolemichthys trimaculatus)"
     }
   ],
   "events": [
@@ -88,6 +93,61 @@
       ],
       "listingId": "aquarium-fish:8843631308",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 79.89,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51381398470955",
+          "label": "Tiny (1-2.5\")",
+          "price": 56.94,
+          "available": false
+        },
+        {
+          "id": "12175427338310",
+          "label": "Small (1-2.5\")",
+          "price": 79.89,
+          "available": true
+        },
+        {
+          "id": "30518200972",
+          "label": "Medium (3.5-4.5\")",
+          "price": 124.09,
+          "available": true
+        },
+        {
+          "id": "12175434645574",
+          "label": "Large (4.5-6\")",
+          "price": 175.94,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8843631308",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 149.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "156563",
+          "label": "Default",
+          "price": 149.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:156563",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

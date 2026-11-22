@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:nationwide-aquatics-usa:8805290344601",
-  "commonName": "Polyterus teugelsi",
+  "commonName": "Polypterus teugelsi",
   "scientificName": null,
   "listings": [
     {
       "listingId": "nationwide-aquatics-usa:8805290344601",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Polyterus teugelsi",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "Polyterus teugelsi"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:687835",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Polypterus teugelsi"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nationwide-aquatics-usa:8805290344601",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48306468847769",
+          "label": "Title",
+          "price": 40,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8805290344601",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "687835",
+          "label": "Default",
+          "price": 59.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:687835",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

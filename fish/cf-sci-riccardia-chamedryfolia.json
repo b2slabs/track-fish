@@ -7,22 +7,19 @@
       "listingId": "daku-aquatics:8741028233434",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
-      "commonName": "Coral Moss \"Mini Pellia\"",
-      "lastCheckedAt": "2026-11-22T06:58:04.282Z"
+      "commonName": "Coral Moss \"Mini Pellia\""
     },
     {
       "listingId": "glass-aqua:1394150539350",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Mini Pellia",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Mini Pellia"
     },
     {
       "listingId": "buce-plant:1381585715281+8076934185160",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Mini Pellia on Stainless Steel Mesh",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Mini Pellia on Stainless Steel Mesh"
     }
   ],
   "events": [
@@ -219,6 +216,84 @@
       ],
       "listingId": "buce-plant:1381585715281+8076934185160",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:25.196Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043827208410",
+          "label": "Title",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741028233434",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44161558413512",
+          "label": "Mini Pellia on Stainless Steel Mesh - Small",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "12614202753105",
+          "label": "1 Pack",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "12614202785873",
+          "label": "3 Pack",
+          "price": 46.99,
+          "available": false
+        },
+        {
+          "id": "12614202818641",
+          "label": "5 Pack",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:1381585715281+8076934185160",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12793685049430",
+          "label": "Title",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:1394150539350",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

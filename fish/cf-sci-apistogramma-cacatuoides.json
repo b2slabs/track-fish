@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:apistogramma-cacatuoides",
-  "commonName": "Apisto Cacatuoides",
+  "commonName": "Cockatoo Dwarf Cichlid (Apistogramma cacatuoides)",
   "scientificName": "Apistogramma cacatuoides",
   "listings": [
     {
       "listingId": "aquatic-arts:4027692318806",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Cockatoo Dwarf Cichlid (Apistogramma cacatuoides) - Tank Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Cockatoo Dwarf Cichlid (Apistogramma cacatuoides) - Tank Bred"
     },
     {
       "listingId": "aquarium-fish:10130825216299+11250792332",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Apisto Cacatuoides",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Apisto Cacatuoides"
+    },
+    {
+      "listingId": "aqua-imports:38028",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Cockatoo Dwarf Cichlid (Apistogramma cacatuoides)"
     }
   ],
   "events": [
@@ -170,6 +174,132 @@
       ],
       "listingId": "aquarium-fish:10130825216299+11250792332",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53494213673327",
+          "label": "1 Male (USA Bred)",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "53494213706095",
+          "label": "1 Female (USA Bred)",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "53494213738863",
+          "label": "1 Pair ( 1 Male + 1 Female ) USA Bred",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "52381282566511",
+          "label": "1 Juvenile (unsexed)Locally Bred",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "52381282599279",
+          "label": "3 Juvenile (unsexed( Locally Bred",
+          "price": 52.99,
+          "available": false
+        },
+        {
+          "id": "52381282632047",
+          "label": "1 Juvenile (unsexed) Tank Bred",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "52381282664815",
+          "label": "3 Juvenile (unsexed) Tank Bred",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "39892973781078",
+          "label": "1 Male Tank Bred",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "39892976500822",
+          "label": "1 Female Tank Bred",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "39892974862422",
+          "label": "3 Males Tank Bred",
+          "price": 52.99,
+          "available": false
+        },
+        {
+          "id": "39892976992342",
+          "label": "3 Females Tank Bred",
+          "price": 52.99,
+          "available": false
+        },
+        {
+          "id": "39892971225174",
+          "label": "1 Male/Female Pair Tank Bred",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4027692318806",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441057431851",
+          "label": "Apisto Cacatuoides (School of 4)",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "51437836828971",
+          "label": "Apisto Cacatuoides",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130825216299+11250792332",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38028",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38028",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,35 +1,37 @@
 {
   "canonicalFishId": "cf:sci:bunocephalus-coracoideus-origin",
-  "commonName": "Banjo Catfish",
+  "commonName": "Banjo Catfish (Bunocephalus coracoideus)",
   "scientificName": "Bunocephalus coracoideus origin",
   "listings": [
     {
       "listingId": "aquarium-fish:1378526789702",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Banjo Catfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Banjo Catfish"
     },
     {
       "listingId": "nu-aqua-shop:10412143608124",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Banjo Catfish",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Banjo Catfish"
     },
     {
       "listingId": "aquatic-arts:4741063878",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Banjo Catfish (Bunocephalus coracoideus)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Banjo Catfish (Bunocephalus coracoideus)"
     },
     {
       "listingId": "imperial-tropicals:8398122385715",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Banjo Catfish (Bunocephalus coracoideus)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Banjo Catfish (Bunocephalus coracoideus)"
+    },
+    {
+      "listingId": "aqua-imports:83847",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Banjo Catfish (Bunocephalus coracoideus)"
     }
   ],
   "events": [
@@ -136,6 +138,118 @@
       ],
       "listingId": "nu-aqua-shop:10412143608124",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15503385542",
+          "label": "1 Fish",
+          "price": 22.99,
+          "available": false
+        },
+        {
+          "id": "12409679609942",
+          "label": "3 Fish",
+          "price": 55.99,
+          "available": false
+        },
+        {
+          "id": "12409679642710",
+          "label": "6 Fish",
+          "price": 110.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4741063878",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 10.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12419199107142",
+          "label": "Title",
+          "price": 10.79,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1378526789702",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612158550323",
+          "label": "2-3\" Unsexed",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "45612158583091",
+          "label": "(5 Pack) 2-3\" Unsexed",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "51452420686131",
+          "label": "(10 Pack) 2-3\" Unsexed",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398122385715",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53151764283708",
+          "label": "Title",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10412143608124",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "83847",
+          "label": "Default",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:83847",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

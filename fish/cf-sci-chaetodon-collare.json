@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:chaetodon-collare",
-  "commonName": "Pakistan Butterflyfish",
+  "commonName": "Pakistan Butterfly (Chaetodon collare)",
   "scientificName": "Chaetodon collare",
   "listings": [
     {
       "listingId": "aquarium-fish:9972668530987",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Pakistan Butterflyfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Pakistan Butterflyfish"
+    },
+    {
+      "listingId": "aqua-imports:107129",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Pakistan Butterfly (Chaetodon collare)"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "aquarium-fish:9972668530987",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 109.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50521363513643",
+          "label": "Small (1.5-2.5\")",
+          "price": 109.79,
+          "available": true
+        },
+        {
+          "id": "50521363579179",
+          "label": "Medium (2.5-3.5\")",
+          "price": 157.79,
+          "available": true
+        },
+        {
+          "id": "50521364627755",
+          "label": "Large (3.5-5\")",
+          "price": 218.79,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9972668530987",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "107129",
+          "label": "Default",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:107129",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

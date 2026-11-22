@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:ancistrus-sp:longfin-white",
-  "commonName": "Long Fin Snow White Bristlenose Pleco (Ancistrus sp.)",
+  "commonName": "Longfin Snow White Bristlenose Pleco (Ancistrus sp.)",
   "scientificName": "Ancistrus sp.",
   "listings": [
     {
       "listingId": "monster-aquarium:6993470587089",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Long Fin Snow White Bristlenose Pleco (Ancistrus sp.)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Long Fin Snow White Bristlenose Pleco (Ancistrus sp.)"
+    },
+    {
+      "listingId": "aqua-imports:187343",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Longfin Snow White Bristlenose Pleco (Ancistrus sp.)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "monster-aquarium:6993470587089",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 111,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40916028719313",
+          "label": "1.5\"",
+          "price": 111,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6993470587089",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 249.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "187343",
+          "label": "Default",
+          "price": 249.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:187343",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

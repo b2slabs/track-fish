@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:trachelyichthys-exilis",
-  "commonName": "Pygmy Driftwood Cat",
+  "commonName": "Pygmy Driftwood Catfish (Trachelyichthys exilis)",
   "scientificName": "Trachelyichthys exilis",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398132347187",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Pygmy Driftwood Cat",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Pygmy Driftwood Cat"
+    },
+    {
+      "listingId": "aqua-imports:55423",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Pygmy Driftwood Catfish (Trachelyichthys exilis)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "imperial-tropicals:8398132347187",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612177883443",
+          "label": "2.5-3” Unsexed",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398132347187",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "55423",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:55423",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

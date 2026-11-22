@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10440365474108",
-  "commonName": "Aurora Tetra",
-  "scientificName": null,
+  "commonName": "Aurora Tetra (Moenkhausia aurora)",
+  "scientificName": "Moenkhausia aurora",
   "listings": [
     {
       "listingId": "nu-aqua-shop:10440365474108",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Aurora Tetra",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Aurora Tetra"
+    },
+    {
+      "listingId": "aqua-imports:190501",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Aurora Tetra (Moenkhausia aurora)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nu-aqua-shop:10440365474108",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 10.47,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53940673708348",
+          "label": "Title",
+          "price": 10.47,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10440365474108",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "190501",
+          "label": "Default",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:190501",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

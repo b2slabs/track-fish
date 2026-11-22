@@ -1,14 +1,25 @@
 {
   "canonicalFishId": "cf:sci:apistogramma-piaroa",
-  "commonName": "Apistogramma piaroa",
+  "commonName": "Apistogramma cf. piaroa",
   "scientificName": "Apistogramma piaroa",
   "listings": [
     {
       "listingId": "imperial-tropicals:8303246311731",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Apistogramma piaroa",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Apistogramma piaroa"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:681743",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Apistogramma piaroa"
+    },
+    {
+      "listingId": "aqua-imports:173811",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Apistogramma cf. piaroa"
     }
   ],
   "events": [
@@ -31,6 +42,63 @@
       ],
       "listingId": "imperial-tropicals:8303246311731",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45224045707571",
+          "label": "2-3\" PAIR (1 Male, 1 Femae)",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8303246311731",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "681743",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:681743",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "173811",
+          "label": "Default",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:173811",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

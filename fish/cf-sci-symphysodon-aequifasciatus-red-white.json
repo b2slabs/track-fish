@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:symphysodon-aequifasciatus:red-white",
-  "commonName": "Red white Discus (Symphysodon aequifasciatus)",
+  "commonName": "Red White Discus (Symphysodon discus)",
   "scientificName": "Symphysodon aequifasciatus",
   "listings": [
     {
       "listingId": "monster-aquarium:7241814507729",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Red white Discus (Symphysodon aequifasciatus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Red white Discus (Symphysodon aequifasciatus)"
+    },
+    {
+      "listingId": "aqua-imports:64170",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red White Discus (Symphysodon discus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "monster-aquarium:7241814507729",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 74.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41538434793681",
+          "label": "4-4.5”",
+          "price": 74.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7241814507729",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "64170",
+          "label": "Default",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:64170",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

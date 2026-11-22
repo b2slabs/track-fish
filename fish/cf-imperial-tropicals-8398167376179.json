@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:imperial-tropicals:8398167376179",
-  "commonName": "Vesuvius Sword",
-  "scientificName": null,
+  "commonName": "Vesuvius Sword (Echinodorus angustifolia ‘Vesuvius’)",
+  "scientificName": "Echinodorus angustifolia",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398167376179",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Vesuvius Sword",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Vesuvius Sword"
     },
     {
       "listingId": "nu-aqua-shop:10383530721596",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Vesuvius Sword",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Vesuvius Sword"
+    },
+    {
+      "listingId": "aqua-imports:60021",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Vesuvius Sword (Echinodorus angustifolia ‘Vesuvius’)"
     }
   ],
   "events": [
@@ -58,6 +62,60 @@
       ],
       "listingId": "nu-aqua-shop:10383530721596",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612273860915",
+          "label": "1 Potted Plant",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398167376179",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53052078457148",
+          "label": "Title",
+          "price": 3.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10383530721596",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "60021",
+          "label": "Default",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60021",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:global-exoticquatics:8263779320000",
-  "commonName": "Gold Red Spot Severum",
+  "commonName": "Red Spot Gold Severum (Heros cf. efasciatus)",
   "scientificName": null,
   "listings": [
     {
       "listingId": "global-exoticquatics:8263779320000",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Gold Red Spot Severum",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "Gold Red Spot Severum"
+    },
+    {
+      "listingId": "aqua-imports:41107",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red Spot Gold Severum (Heros cf. efasciatus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "global-exoticquatics:8263779320000",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46484890583232",
+          "label": "2.5-3in",
+          "price": 25,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8263779320000",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 54.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41107",
+          "label": "Default",
+          "price": 54.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:41107",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

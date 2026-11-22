@@ -7,8 +7,13 @@
       "listingId": "nu-aqua-shop:10006315925820",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Fancy Twist Sword",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Fancy Twist Sword"
+    },
+    {
+      "listingId": "aqua-imports:114202",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Fancy Twist Sword"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nu-aqua-shop:10006315925820",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627488018748",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006315925820",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 12.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "114202",
+          "label": "Default",
+          "price": 12.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:114202",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

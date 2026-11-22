@@ -1,14 +1,13 @@
 {
   "canonicalFishId": "cf:sci:bagrichthys-macracanthus:black",
-  "commonName": "Black Lancer Catfish",
+  "commonName": "Black Lancer Catfish (Bagrichthys macracanthus)",
   "scientificName": "Bagrichthys macracanthus",
   "listings": [
     {
       "listingId": "aquatic-arts:4805554667606",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Black Lancer Catfish (Bagrichthys macracanthus)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Black Lancer Catfish (Bagrichthys macracanthus)"
     },
     {
       "listingId": "dans-fish:10127183118634",
@@ -16,6 +15,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Black Lancer Catfish",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:45568",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Black Lancer Catfish (Bagrichthys macracanthus)"
     }
   ],
   "events": [
@@ -58,6 +63,43 @@
       ],
       "listingId": "dans-fish:10127183118634",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32998378897494",
+          "label": "1 Fish",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4805554667606",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45568",
+          "label": "Default",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:45568",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -7,22 +7,25 @@
       "listingId": "aquarium-fish:6260636998",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Frazeri Anubias",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Frazeri Anubias"
     },
     {
       "listingId": "daku-aquatics:8741031641306",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
-      "commonName": "Anubias Frazeri",
-      "lastCheckedAt": "2026-11-22T06:58:04.282Z"
+      "commonName": "Anubias Frazeri"
     },
     {
       "listingId": "nu-aqua-shop:10006313238844",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Anubias Frazeri",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Anubias Frazeri"
+    },
+    {
+      "listingId": "aqua-imports:59901",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Anubias Frazeri"
     }
   ],
   "events": [
@@ -97,6 +100,89 @@
       ],
       "listingId": "nu-aqua-shop:10006313238844",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19809937926",
+          "label": "Medium (4\")",
+          "price": 7.59,
+          "available": true
+        },
+        {
+          "id": "8665360466039",
+          "label": "Large (6-8\")",
+          "price": 12.79,
+          "available": false
+        },
+        {
+          "id": "12644374282310",
+          "label": "Small (2\")",
+          "price": 6.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6260636998",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:25.196Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043833172186",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741031641306",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51627484447036",
+          "label": "Title",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006313238844",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "59901",
+          "label": "Default",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:59901",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

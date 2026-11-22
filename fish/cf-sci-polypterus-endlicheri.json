@@ -1,42 +1,43 @@
 {
   "canonicalFishId": "cf:sci:polypterus-endlicheri",
-  "commonName": "Endlicheri Bichir",
+  "commonName": "Endlicheri Bichir (Polypterus endlicheri)",
   "scientificName": "Polypterus endlicheri",
   "listings": [
     {
       "listingId": "nationwide-aquatics-usa:8767071191193",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "(Polypterus endlicheri)",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "(Polypterus endlicheri)"
     },
     {
       "listingId": "aquatic-arts:9449813934359",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Saddled Bichir (polypterus endlicheri)  - Tank-Bred!",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Saddled Bichir (polypterus endlicheri)  - Tank-Bred!"
     },
     {
       "listingId": "aquahuna:7014232490059",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Saddled Bichir",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Saddled Bichir"
     },
     {
       "listingId": "aquarium-fish:6973822992465",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Endlicheri Bichir",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Endlicheri Bichir"
     },
     {
       "listingId": "global-exoticquatics:8439020912832",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Endlicheri Bichir",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "Endlicheri Bichir"
+    },
+    {
+      "listingId": "aqua-imports:103663+129583+39524+92207",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Endlicheri Bichir (Polypterus endlicheri)"
     }
   ],
   "events": [
@@ -201,6 +202,129 @@
       ],
       "listingId": "global-exoticquatics:8439020912832",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49047122542871",
+          "label": "1 Juvenile",
+          "price": 16.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:9449813934359",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40536821727307",
+          "label": "Title",
+          "price": 15,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7014232490059",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 135,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47863993106585",
+          "label": "Title",
+          "price": 135,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8767071191193",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40089777930321",
+          "label": "Title",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6973822992465",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 15,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47266230239424",
+          "label": "2.5-3.5 inch",
+          "price": 15,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8439020912832",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "129583",
+          "label": "Default",
+          "price": 399.99,
+          "available": false
+        },
+        {
+          "id": "103663",
+          "label": "Default",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "92207",
+          "label": "Default",
+          "price": 124.99,
+          "available": false
+        },
+        {
+          "id": "39524",
+          "label": "Default",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:103663+129583+39524+92207",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

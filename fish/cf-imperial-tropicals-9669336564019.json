@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:imperial-tropicals:9669336564019",
-  "commonName": "Striped Borneo Sucker Loach",
+  "commonName": "Striped Borneo Sucker Loach (Gastromyzon cf. zebrinus)",
   "scientificName": null,
   "listings": [
     {
       "listingId": "imperial-tropicals:9669336564019",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Striped Borneo Sucker Loach",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Striped Borneo Sucker Loach"
+    },
+    {
+      "listingId": "aqua-imports:43986+52980",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Striped Borneo Sucker Loach (Gastromyzon cf. zebrinus)"
     }
   ],
   "events": [
@@ -43,6 +48,61 @@
       ],
       "listingId": "imperial-tropicals:9669336564019",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51199644205363",
+          "label": "1-2\" Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "68000033210675",
+          "label": "2-3\" Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "68000033571123",
+          "label": "3-4\" Unsexed",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9669336564019",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52980",
+          "label": "Default",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "43986",
+          "label": "Default",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:43986+52980",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:melanotaenia-parkinsoni-origin",
-  "commonName": "Parkinsoni Rainbowfish",
+  "commonName": "Parkinsoni Rainbowfish (Melanotaenia parkinsoni)",
   "scientificName": "Melanotaenia parkinsoni origin",
   "listings": [
     {
       "listingId": "aquarium-fish:9215860965675",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Parkisoni Rainbowfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Parkisoni Rainbowfish"
     },
     {
       "listingId": "imperial-tropicals:8397976830259",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Parkinsoni Rainbowfish",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Parkinsoni Rainbowfish"
+    },
+    {
+      "listingId": "aqua-imports:162088+182681",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Parkinsoni Rainbowfish (Melanotaenia parkinsoni)"
     }
   ],
   "events": [
@@ -94,6 +98,102 @@
       ],
       "listingId": "imperial-tropicals:8397976830259",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48501775958315",
+          "label": "Title",
+          "price": 16.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9215860965675",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611726340403",
+          "label": "2-3” Female",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "45611726307635",
+          "label": "2-3” Male",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "48395112448307",
+          "label": "2-3\" Pair (1 Male, 1 Female)",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "id": "45611726373171",
+          "label": "2-3\" Trio (1 Male, 2 Female)",
+          "price": 44.99,
+          "available": true
+        },
+        {
+          "id": "52852210041139",
+          "label": "3-4” Female",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "52852209582387",
+          "label": "3-4” Male",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "52852212728115",
+          "label": "3-4\" Pair (1 Male, 1 Female)",
+          "price": 42.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397976830259",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "182681",
+          "label": "Default",
+          "price": 18.99,
+          "available": true
+        },
+        {
+          "id": "162088",
+          "label": "Default",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:162088+182681",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

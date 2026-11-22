@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:botia-dario",
-  "commonName": "Queen Loach",
+  "commonName": "Queen Botia (Botia dario)",
   "scientificName": "Botia dario",
   "listings": [
     {
       "listingId": "aquarium-fish:6203106374",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Queen Loach",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Queen Loach"
+    },
+    {
+      "listingId": "aqua-imports:89811",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Queen Botia (Botia dario)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:6203106374",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19642787334",
+          "label": "Title",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6203106374",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "89811",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:89811",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,21 +1,19 @@
 {
   "canonicalFishId": "cf:sci:corydoras-elegans-origin",
-  "commonName": "Elegant Cory",
+  "commonName": "Corydoras elegans",
   "scientificName": "Corydoras elegans origin",
   "listings": [
     {
       "listingId": "aquarium-fish:6319199878",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Elegans Cory",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Elegans Cory"
     },
     {
       "listingId": "nu-aqua-shop:10006356853052",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Elegans Cory",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Elegans Cory"
     },
     {
       "listingId": "dans-fish:10127114141994",
@@ -23,6 +21,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Elegant Cory",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:682548+682550",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Corydoras elegans"
     }
   ],
   "events": [
@@ -85,6 +89,66 @@
       ],
       "listingId": "dans-fish:10127114141994",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20008537414",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6319199878",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51627665817916",
+          "label": "Title",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006356853052",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "682548",
+          "label": "Default",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "682550",
+          "label": "Default",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:682548+682550",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

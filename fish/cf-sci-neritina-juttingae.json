@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:neritina-juttingae",
-  "commonName": "King Koopa Nerite Snail",
+  "commonName": "King Koopa Nerite Snail (Neritina juttingae)",
   "scientificName": "Neritina juttingae",
   "listings": [
     {
       "listingId": "aquatic-arts:4495282536534",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "King Koopa Nerite Snail (Neritina juttingae)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "King Koopa Nerite Snail (Neritina juttingae)"
     },
     {
       "listingId": "shrimpy-business:6598549700693",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "King Koopa Nerite Snail",
-      "lastCheckedAt": "2026-11-22T06:57:34.146Z"
+      "commonName": "King Koopa Nerite Snail"
     },
     {
       "listingId": "aquahuna:7339146608715",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Assorted King Koopa Nerite Snail",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Assorted King Koopa Nerite Snail"
+    },
+    {
+      "listingId": "aqua-imports:104689",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "King Koopa Nerite Snail (Neritina juttingae)"
     }
   ],
   "events": [
@@ -445,6 +448,143 @@
       ],
       "listingId": "shrimpy-business:6598549700693",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31736018993238",
+          "label": "1 Snail",
+          "price": 3.99,
+          "available": false
+        },
+        {
+          "id": "31736019058774",
+          "label": "3 Snails",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "31736019091542",
+          "label": "5 Snails",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "31736019124310",
+          "label": "10 Snails",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "31736019157078",
+          "label": "20 Snails",
+          "price": 56.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4495282536534",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 3,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41392130785355",
+          "label": "Title",
+          "price": 3,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7339146608715",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 6.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39445126512725",
+          "label": "1 Snail / Regular",
+          "price": 6.95,
+          "available": true
+        },
+        {
+          "id": "39445126545493",
+          "label": "3 Snails / Regular",
+          "price": 18.77,
+          "available": true
+        },
+        {
+          "id": "51662848819490",
+          "label": "6 Snail / Regular",
+          "price": 35.45,
+          "available": true
+        },
+        {
+          "id": "51662848852258",
+          "label": "12 Snail / Regular",
+          "price": 66.72,
+          "available": true
+        },
+        {
+          "id": "67839303385378",
+          "label": "1 Snail / B-Grade",
+          "price": 5.45,
+          "available": false
+        },
+        {
+          "id": "67839303418146",
+          "label": "3 Snails / B-Grade",
+          "price": 14.72,
+          "available": false
+        },
+        {
+          "id": "67839303450914",
+          "label": "6 Snail / B-Grade",
+          "price": 27.8,
+          "available": false
+        },
+        {
+          "id": "67839303483682",
+          "label": "12 Snail / B-Grade",
+          "price": 52.32,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6598549700693",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "104689",
+          "label": "Default",
+          "price": 3.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:104689",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

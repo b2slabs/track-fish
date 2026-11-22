@@ -7,8 +7,13 @@
       "listingId": "ck-fish-world:8168888729815",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Seachem MetroPlex 5g",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Seachem MetroPlex 5g"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:607881",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Seachem MetroPlex 5g"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "ck-fish-world:8168888729815",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 9.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44152661901527",
+          "label": "Title",
+          "price": 9.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8168888729815",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "607881",
+          "label": "Default",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:607881",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

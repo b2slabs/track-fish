@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10300092055868",
-  "commonName": "Half-Banded Spiny Eel",
-  "scientificName": null,
+  "commonName": "Half Banded Spiny Eel (Macrognathus circumcinctus)",
+  "scientificName": "Macrognathus circumcinctus",
   "listings": [
     {
       "listingId": "nu-aqua-shop:10300092055868",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Half-Banded Spiny Eel",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Half-Banded Spiny Eel"
+    },
+    {
+      "listingId": "aqua-imports:70211",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Half Banded Spiny Eel (Macrognathus circumcinctus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nu-aqua-shop:10300092055868",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52741963120956",
+          "label": "Title",
+          "price": 22.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10300092055868",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "70211",
+          "label": "Default",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:70211",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

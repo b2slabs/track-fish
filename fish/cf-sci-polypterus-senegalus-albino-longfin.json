@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:polypterus-senegalus:albino-longfin",
-  "commonName": "Albino Longfin Senegal Bichir (Polypterus senegalus) 5\"-6\"",
+  "commonName": "Albino Longfin Senegal Bichir (Polypterus senegalus)",
   "scientificName": "Polypterus senegalus",
   "listings": [
     {
       "listingId": "monster-aquarium:7510124167377",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Longfin Albino Polypterus Bichir (Polypterus senegalus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Longfin Albino Polypterus Bichir (Polypterus senegalus)"
     },
     {
       "listingId": "nationwide-aquatics-usa:15482293223577+15484027732121",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Albino Longfin Senegal Bichir (Polypterus senegalus) 5\"-6\"",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "Albino Longfin Senegal Bichir (Polypterus senegalus) 5\"-6\""
+    },
+    {
+      "listingId": "aqua-imports:64407",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Albino Longfin Senegal Bichir (Polypterus senegalus)"
     }
   ],
   "events": [
@@ -124,6 +128,66 @@
       ],
       "listingId": "nationwide-aquatics-usa:15482293223577+15484027732121",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 64.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42358466085073",
+          "label": "6-7”",
+          "price": 64.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7510124167377",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 80,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67943337459865",
+          "label": "Albino Longfin Senegal Bichir (Polypterus senegalus) 5\"-6\"",
+          "price": 85,
+          "available": true
+        },
+        {
+          "id": "67948884295833",
+          "label": "Albino Longfin Senegal Bichir (Polypterus senegalus) 4\"-5\"",
+          "price": 80,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:15482293223577+15484027732121",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "64407",
+          "label": "Default",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:64407",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

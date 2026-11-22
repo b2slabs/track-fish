@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:echinodorus-sp:chocolate-marble",
-  "commonName": "Chocolate Marble Sword Plant (Echinodorus sp. ‘Chocolate Marble’) – Bareroot or Potted",
+  "commonName": "Chocolate Marble Sword (Echinodorus sp. ‘Chocolate Marble’)",
   "scientificName": "Echinodorus sp.",
   "listings": [
     {
       "listingId": "aquatic-arts:14759089996143",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Chocolate Marble Sword Plant (Echinodorus sp. ‘Chocolate Marble’) – Bareroot or Potted",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Chocolate Marble Sword Plant (Echinodorus sp. ‘Chocolate Marble’) – Bareroot or Potted"
+    },
+    {
+      "listingId": "aqua-imports:182614",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Chocolate Marble Sword (Echinodorus sp. ‘Chocolate Marble’)"
     }
   ],
   "events": [
@@ -499,6 +504,49 @@
       ],
       "listingId": "aquatic-arts:14759089996143",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52102469058927",
+          "label": "1 Bareroot Plants",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "52102469124463",
+          "label": "1 Potted Plants",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14759089996143",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "182614",
+          "label": "Default",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:182614",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

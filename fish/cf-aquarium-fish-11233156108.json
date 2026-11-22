@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:aquarium-fish:11233156108",
-  "commonName": "Guineafowl Puffer",
-  "scientificName": null,
+  "commonName": "Guineafowl Puffer (Arothron meleagris)",
+  "scientificName": "Arothron meleagris",
   "listings": [
     {
       "listingId": "aquarium-fish:11233156108",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Guineafowl Puffer",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Guineafowl Puffer"
+    },
+    {
+      "listingId": "aqua-imports:86299",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Guineafowl Puffer (Arothron meleagris)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:11233156108",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 770.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42500460492",
+          "label": "Title",
+          "price": 770.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:11233156108",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 499.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "86299",
+          "label": "Default",
+          "price": 499.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:86299",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

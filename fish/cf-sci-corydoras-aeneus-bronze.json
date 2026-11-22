@@ -1,21 +1,19 @@
 {
   "canonicalFishId": "cf:sci:corydoras-aeneus:bronze",
-  "commonName": "Bronze Cory",
+  "commonName": "Bronze Cory (Osteogaster aeneus)",
   "scientificName": "Corydoras aeneus",
   "listings": [
     {
       "listingId": "shrimpy-business:9512733409570",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Bronze Corydoras (Tank-Bred)",
-      "lastCheckedAt": "2026-11-22T06:57:34.146Z"
+      "commonName": "Bronze Corydoras (Tank-Bred)"
     },
     {
       "listingId": "aquarium-fish:10130818007339+4564530495569",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Bronze Cory",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Bronze Cory"
     },
     {
       "listingId": "dans-fish:10127076426026",
@@ -23,6 +21,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Bronze Cory",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:52337",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Bronze Cory (Osteogaster aeneus)"
     }
   ],
   "events": [
@@ -149,6 +153,84 @@
       ],
       "listingId": "dans-fish:10127076426026",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 10.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49231959589154",
+          "label": "2 Fish",
+          "price": 10.5,
+          "available": true
+        },
+        {
+          "id": "49231959621922",
+          "label": "4 Fish",
+          "price": 18.95,
+          "available": true
+        },
+        {
+          "id": "51662840430882",
+          "label": "8 Fish",
+          "price": 35.95,
+          "available": true
+        },
+        {
+          "id": "51662840463650",
+          "label": "16 Fish",
+          "price": 66.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9512733409570",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 5.89,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441023844651",
+          "label": "Bronze Cory (Gang of 3)",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "51428216471851",
+          "label": "Bronze Cory",
+          "price": 5.89,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130818007339+4564530495569",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 4.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52337",
+          "label": "Default",
+          "price": 4.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:52337",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

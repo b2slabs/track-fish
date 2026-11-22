@@ -7,8 +7,7 @@
       "listingId": "nu-aqua-shop:10006361014588",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Weitzmani Cory",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Weitzmani Cory"
     },
     {
       "listingId": "dans-fish:10127195734314",
@@ -16,6 +15,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Corydoras weitzmani",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:682735+682738",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Corydoras weitzmani"
     }
   ],
   "events": [
@@ -58,6 +63,49 @@
       ],
       "listingId": "dans-fish:10127195734314",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 32.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627673125180",
+          "label": "Title",
+          "price": 32.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006361014588",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "682735",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "682738",
+          "label": "Default",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:682735+682738",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

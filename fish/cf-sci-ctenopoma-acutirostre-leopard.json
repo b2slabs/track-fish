@@ -1,35 +1,37 @@
 {
   "canonicalFishId": "cf:sci:ctenopoma-acutirostre:leopard",
-  "commonName": "Leopard Bushfish",
+  "commonName": "Leopard Ctenopoma (Ctenopoma acutirostre)",
   "scientificName": "Ctenopoma acutirostre",
   "listings": [
     {
       "listingId": "aquahuna:6657138688075",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Leopard Ctenopoma",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Leopard Ctenopoma"
     },
     {
       "listingId": "aquarium-fish:6096765062",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Leopard Leaf Fish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Leopard Leaf Fish"
     },
     {
       "listingId": "imperial-tropicals:8398130544947",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Leopard Bushfish",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Leopard Bushfish"
     },
     {
       "listingId": "monster-aquarium:7194371064017",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Leopard Bushfish (Ctenopoma acutirostre)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Leopard Bushfish (Ctenopoma acutirostre)"
+    },
+    {
+      "listingId": "aqua-imports:81575",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Leopard Ctenopoma (Ctenopoma acutirostre)"
     }
   ],
   "events": [
@@ -145,6 +147,106 @@
       ],
       "listingId": "aquarium-fish:6096765062",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41598447091921",
+          "label": "1-1.5\"",
+          "price": 8,
+          "available": false
+        },
+        {
+          "id": "41823799148753",
+          "label": "2-3\"",
+          "price": 18,
+          "available": false
+        },
+        {
+          "id": "41432477925585",
+          "label": "3-3.5”",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7194371064017",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39619667918923",
+          "label": "Title",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6657138688075",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 19.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19294157574",
+          "label": "Title",
+          "price": 19.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6096765062",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612175622451",
+          "label": "1-2\" Unsexed",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398130544947",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "81575",
+          "label": "Default",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:81575",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

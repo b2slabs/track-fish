@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:symphysodon-discus:blue",
-  "commonName": "Blue Face Heckel Discus \"Nhamunda\" (Symphysodon discus)",
+  "commonName": "Cobalt Blue Discus (Symphysodon discus)",
   "scientificName": "Symphysodon discus",
   "listings": [
     {
       "listingId": "aquarium-fish:7985269866795",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Blue Heckel Discus",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Blue Heckel Discus"
     },
     {
       "listingId": "imperial-tropicals:9467372208435",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Blue Face Heckel Discus \"Nhamunda\" (Symphysodon discus)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Blue Face Heckel Discus \"Nhamunda\" (Symphysodon discus)"
     },
     {
       "listingId": "nationwide-aquatics-usa:15526876938393+8932537073817",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Nhamunda blue face heckels (Symphysodon discus) XL",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "Nhamunda blue face heckels (Symphysodon discus) XL"
+    },
+    {
+      "listingId": "aqua-imports:107913+42155+52331+70067",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Cobalt Blue Discus (Symphysodon discus)"
     }
   ],
   "events": [
@@ -137,6 +140,107 @@
       ],
       "listingId": "nationwide-aquatics-usa:15526876938393+8932537073817",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 200,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "68116281753753",
+          "label": "Nhamunda blue face heckels (Symphysodon discus) XL 3 pack",
+          "price": 525,
+          "available": true
+        },
+        {
+          "id": "48929012973721",
+          "label": "Nhamunda blue face heckels (Symphysodon discus) XL",
+          "price": 200,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:15526876938393+8932537073817",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 159.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43719700250923",
+          "label": "Title",
+          "price": 159.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:7985269866795",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 269.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50159211577651",
+          "label": "5-6\" Unsexed",
+          "price": 269.99,
+          "available": false
+        },
+        {
+          "id": "50650364018995",
+          "label": "6-7\" Unsexed",
+          "price": 289.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9467372208435",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 149.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "107913",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        },
+        {
+          "id": "70067",
+          "label": "Default",
+          "price": 199.99,
+          "available": false
+        },
+        {
+          "id": "52331",
+          "label": "Default",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "42155",
+          "label": "Default",
+          "price": 149.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:107913+42155+52331+70067",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:trichogaster-labiosa:red",
-  "commonName": "Red Robin Gourami (Trichogaster labiosa) - Tank Bred",
+  "commonName": "Red Thicklip Gourami (Trichogaster labiosa)",
   "scientificName": "Trichogaster labiosa",
   "listings": [
     {
       "listingId": "aquatic-arts:14795447533935",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Red Robin Gourami (Trichogaster labiosa) - Tank Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Red Robin Gourami (Trichogaster labiosa) - Tank Bred"
+    },
+    {
+      "listingId": "aqua-imports:63188",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red Thicklip Gourami (Trichogaster labiosa)"
     }
   ],
   "events": [
@@ -1281,6 +1286,55 @@
       ],
       "listingId": "aquatic-arts:14795447533935",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52245080637807",
+          "label": "1 Fish",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "52245080670575",
+          "label": "3 Fish",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "52245080703343",
+          "label": "6 Fish",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14795447533935",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "63188",
+          "label": "Default",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:63188",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

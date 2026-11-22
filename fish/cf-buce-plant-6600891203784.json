@@ -7,15 +7,13 @@
       "listingId": "buce-plant:6600891203784",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "UNS Magnetic Tool Bar",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "UNS Magnetic Tool Bar"
     },
     {
       "listingId": "glass-aqua:6554872840278",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "UNS Magnetic Tool Bar",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "UNS Magnetic Tool Bar"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:6554872840278",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39479299145928",
+          "label": "Title",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:6600891203784",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39309689487446",
+          "label": "Title",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:6554872840278",
       "storeSlug": "glass-aqua"
     }

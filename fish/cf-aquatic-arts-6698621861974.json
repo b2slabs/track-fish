@@ -1,14 +1,25 @@
 {
   "canonicalFishId": "cf:aquatic-arts:6698621861974",
-  "commonName": "Repashy Bottom Scratcher",
+  "commonName": "Repashy Bottom Scratcher 3oz",
   "scientificName": null,
   "listings": [
     {
       "listingId": "aquatic-arts:6698621861974",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Repashy Bottom Scratcher",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Repashy Bottom Scratcher"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:688166",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Repashy Bottom Scratcher"
+    },
+    {
+      "listingId": "aqua-imports:178030",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Repashy Bottom Scratcher 3oz"
     }
   ],
   "events": [
@@ -37,6 +48,69 @@
       ],
       "listingId": "aquatic-arts:6698621861974",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39690209263702",
+          "label": "3oz",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "39690209296470",
+          "label": "6oz",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6698621861974",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "688166",
+          "label": "Default",
+          "price": 15.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:688166",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "178030",
+          "label": "Default",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:178030",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

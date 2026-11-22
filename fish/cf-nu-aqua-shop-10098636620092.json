@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10098636620092",
-  "commonName": "Nanochromis Nudiceps",
+  "commonName": "Nanochromis nudiceps",
   "scientificName": null,
   "listings": [
     {
       "listingId": "nu-aqua-shop:10098636620092",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Nanochromis Nudiceps",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Nanochromis Nudiceps"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:680861",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Nanochromis nudiceps"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nu-aqua-shop:10098636620092",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 29.97,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51915850875196",
+          "label": "Title",
+          "price": 29.97,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10098636620092",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "680861",
+          "label": "Default",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:680861",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

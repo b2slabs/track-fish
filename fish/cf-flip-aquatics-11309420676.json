@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:flip-aquatics:11309420676",
-  "commonName": "Trident Java Fern",
+  "commonName": "Java Fern ‘Trident’ (Microsorum pteropus var. ‘Trident’)",
   "scientificName": null,
   "listings": [
     {
       "listingId": "flip-aquatics:11309420676",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Trident Java Fern",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Trident Java Fern"
+    },
+    {
+      "listingId": "aqua-imports:60017",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Java Fern ‘Trident’ (Microsorum pteropus var. ‘Trident’)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "flip-aquatics:11309420676",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43969129988",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:11309420676",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "60017",
+          "label": "Default",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60017",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

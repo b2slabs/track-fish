@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:panaque-armbrusteri:gold",
-  "commonName": "L027 Golden Line Royal Pleco \"Rio Jamanxim\"",
+  "commonName": "L027c Thunder Line / Gold Line Royal Pleco (Panaque armbrusteri)",
   "scientificName": "Panaque armbrusteri",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398008877363",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "L027 Golden Line Royal Pleco \"Rio Jamanxim\"",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "L027 Golden Line Royal Pleco \"Rio Jamanxim\""
+    },
+    {
+      "listingId": "aqua-imports:37124",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "L027c Thunder Line / Gold Line Royal Pleco (Panaque armbrusteri)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "imperial-tropicals:8398008877363",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 219.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611807015219",
+          "label": "7\"+ Unsexed",
+          "price": 219.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398008877363",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 74.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "37124",
+          "label": "Default",
+          "price": 74.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:37124",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

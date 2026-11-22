@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:pterophyllum-scalare:albino",
-  "commonName": "Albino Angelfish",
+  "commonName": "Albino Angelfish (Pterophyllum scalare)",
   "scientificName": "Pterophyllum scalare",
   "listings": [
     {
       "listingId": "monster-aquarium:6970076102865+7002088440017",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Albino Angel (Pterophyllum scalare)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Albino Angel (Pterophyllum scalare)"
     },
     {
       "listingId": "aquarium-fish:10130834489643+5993642566",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Albino Angelfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Albino Angelfish"
     },
     {
       "listingId": "aquatic-arts:6766007353430+9026600075543",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Albino Angelfish (Pterophyllum scalare), Tank Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Albino Angelfish (Pterophyllum scalare), Tank Bred"
+    },
+    {
+      "listingId": "aqua-imports:146663+161470+69249",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Albino Angelfish (Pterophyllum scalare)"
     }
   ],
   "events": [
@@ -319,6 +322,155 @@
       ],
       "listingId": "aquatic-arts:6766007353430+9026600075543",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47906131214615",
+          "label": "1 Fish",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "47906131247383",
+          "label": "Group of 3",
+          "price": 28.99,
+          "available": false
+        },
+        {
+          "id": "39877263654998",
+          "label": "1 Fish",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "39877263687766",
+          "label": "Group of 3",
+          "price": 42.99,
+          "available": false
+        },
+        {
+          "id": "39877263720534",
+          "label": "Group of 6",
+          "price": 79.99,
+          "available": false
+        },
+        {
+          "id": "39877263753302",
+          "label": "Group of 9",
+          "price": 114.99,
+          "available": false
+        },
+        {
+          "id": "39877263786070",
+          "label": "Group of 12",
+          "price": 149.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6766007353430+9026600075543",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 13.09,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40950448521425",
+          "label": "1.5-2”",
+          "price": 13.09,
+          "available": false
+        },
+        {
+          "id": "41422758183121",
+          "label": "2-3\"",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "41190996574417",
+          "label": "3-4\"",
+          "price": 55,
+          "available": false
+        },
+        {
+          "id": "40853895315665",
+          "label": "1.5-2”",
+          "price": 45,
+          "available": false
+        },
+        {
+          "id": "41732077191377",
+          "label": "2.5-3\"",
+          "price": 58,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6970076102865+7002088440017",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51441104847147",
+          "label": "Albino Angelfish (School of 3)",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "51437866909995",
+          "label": "Albino Angelfish",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130834489643+5993642566",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "161470",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "146663",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "69249",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:146663+161470+69249",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

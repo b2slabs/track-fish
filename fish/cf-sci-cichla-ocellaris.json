@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:cichla-ocellaris",
-  "commonName": "Butterfly Peacock Bass",
+  "commonName": "Ocellaris Peacock Bass (Cichla ocellaris)",
   "scientificName": "Cichla ocellaris",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398054064435",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Butterfly Peacock Bass",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Butterfly Peacock Bass"
     },
     {
       "listingId": "monster-aquarium:7047128318161",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Wild Ocellaris Peacock Bass (Cichla ocellaris)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Wild Ocellaris Peacock Bass (Cichla ocellaris)"
     },
     {
       "listingId": "aquarium-fish:6659046918",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Peacock Bass Ocellaris",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Peacock Bass Ocellaris"
+    },
+    {
+      "listingId": "aqua-imports:49186",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Ocellaris Peacock Bass (Cichla ocellaris)"
     }
   ],
   "events": [
@@ -127,6 +130,119 @@
       ],
       "listingId": "imperial-tropicals:8398054064435",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 28,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41068630311121",
+          "label": "3\"",
+          "price": 28,
+          "available": false
+        },
+        {
+          "id": "42251651580113",
+          "label": "6-7”",
+          "price": 84.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7047128318161",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "21042859974",
+          "label": "Title",
+          "price": 28.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6659046918",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52945562894643",
+          "label": "1-2\" Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "52945562927411",
+          "label": "2-3\" Unsexed",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "45611980456243",
+          "label": "3-4\" Unsexed",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "45611980489011",
+          "label": "4-5\" Unsexed",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "46470364725555",
+          "label": "5-6\" Unsexed",
+          "price": 79.99,
+          "available": false
+        },
+        {
+          "id": "45611980521779",
+          "label": "6-7\" Unsexed",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "46470364758323",
+          "label": "7-8' Unsexed",
+          "price": 99.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398054064435",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49186",
+          "label": "Default",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:49186",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

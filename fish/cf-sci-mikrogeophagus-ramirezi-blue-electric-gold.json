@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:mikrogeophagus-ramirezi:blue-electric-gold",
-  "commonName": "Gold Face Electric Blue Ram Cichlid (Mikrogeophagus ramirezi \"Gold Face Electric Blue\") -  Tank-Bred!",
+  "commonName": "Gold Head Electric Blue Ram (Mikrogeophagus ramirezi)",
   "scientificName": "Mikrogeophagus ramirezi",
   "listings": [
     {
       "listingId": "aquatic-arts:4027703427158",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Gold Face Electric Blue Ram Cichlid (Mikrogeophagus ramirezi \"Gold Face Electric Blue\") -  Tank-Bred!",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Gold Face Electric Blue Ram Cichlid (Mikrogeophagus ramirezi \"Gold Face Electric Blue\") -  Tank-Bred!"
+    },
+    {
+      "listingId": "aqua-imports:64522",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Gold Head Electric Blue Ram (Mikrogeophagus ramirezi)"
     }
   ],
   "events": [
@@ -116,6 +121,49 @@
       ],
       "listingId": "aquatic-arts:4027703427158",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 25.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "29832550449238",
+          "label": "1 Fish",
+          "price": 25.49,
+          "available": false
+        },
+        {
+          "id": "29832550482006",
+          "label": "Group of 3",
+          "price": 72.24,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4027703427158",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "64522",
+          "label": "Default",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:64522",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:echinodorus-osiris",
-  "commonName": "Echinodorus Osiris UNS Tissue Culture",
+  "commonName": "Melon Sword Plant (Echinodorus osiris)",
   "scientificName": "Echinodorus osiris",
   "listings": [
     {
       "listingId": "aquatic-arts:4735540422",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Melon Sword (Echinodorus osiris) - Bare Root",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Melon Sword (Echinodorus osiris) - Bare Root"
     },
     {
       "listingId": "buce-plant:7678288199880",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Echinodorus Osiris UNS Tissue Culture",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Echinodorus Osiris UNS Tissue Culture"
+    },
+    {
+      "listingId": "aqua-imports:190180",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Melon Sword Plant (Echinodorus osiris)"
     }
   ],
   "events": [
@@ -236,6 +240,72 @@
       ],
       "listingId": "buce-plant:7678288199880",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15492961286",
+          "label": "1 Plant",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "30432370316",
+          "label": "2 Plants",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "30432370380",
+          "label": "3 Plants",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4735540422",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43090257871048",
+          "label": "Title",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7678288199880",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "190180",
+          "label": "Default",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:190180",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

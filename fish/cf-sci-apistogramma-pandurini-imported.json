@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:apistogramma-pandurini-imported",
-  "commonName": "Apistogramma Panduro-PAIR",
+  "commonName": "Apistogramma panduro",
   "scientificName": "Apistogramma pandurini imported",
   "listings": [
     {
       "listingId": "aquahuna:2180214358059",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Apistogramma Pandurini",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Apistogramma Pandurini"
     },
     {
       "listingId": "monster-aquarium:6996779696337",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Apistogramma Panduro",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Apistogramma Panduro"
     },
     {
       "listingId": "nu-aqua-shop:10006354264380",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Apistogramma Panduro-PAIR",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Apistogramma Panduro-PAIR"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:681732+681734",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Apistogramma panduro"
     }
   ],
   "events": [
@@ -85,6 +88,83 @@
       ],
       "listingId": "nu-aqua-shop:10006354264380",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925194879185",
+          "label": "4-4.5cm",
+          "price": 25,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6996779696337",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 23,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "20610370076715",
+          "label": "Title",
+          "price": 23,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:2180214358059",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 35.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627658707260",
+          "label": "Title",
+          "price": 35.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006354264380",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 48.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "681734",
+          "label": "Default",
+          "price": 48.99,
+          "available": true
+        },
+        {
+          "id": "681732",
+          "label": "Default",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:681732+681734",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

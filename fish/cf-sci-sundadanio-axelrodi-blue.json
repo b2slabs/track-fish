@@ -1,35 +1,31 @@
 {
   "canonicalFishId": "cf:sci:sundadanio-axelrodi:blue",
-  "commonName": "Blue Axelrodi Rasbora",
+  "commonName": "Blue Axelrodi Rasbora (Sundadanio axelrodi ‘blue’)",
   "scientificName": "Sundadanio axelrodi",
   "listings": [
     {
       "listingId": "flip-aquatics:4952614666342",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Blue Axelrodi Rasbora | Sundadanio axelrodi",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Blue Axelrodi Rasbora | Sundadanio axelrodi"
     },
     {
       "listingId": "nu-aqua-shop:10006355149116",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Blue Axelrodi Rasbora",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Blue Axelrodi Rasbora"
     },
     {
       "listingId": "aquatic-arts:1371330281558",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Blue Axelrodi Rasbora (Sundadanio axelrodi \"Blue\")",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Blue Axelrodi Rasbora (Sundadanio axelrodi \"Blue\")"
     },
     {
       "listingId": "aquarium-fish:10130832720171+6082712134",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Blue Axelrodi Rasbora",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Blue Axelrodi Rasbora"
     },
     {
       "listingId": "dans-fish:10127119745322",
@@ -37,6 +33,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Blue Axelrodi Rasbora",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:43866",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Blue Axelrodi Rasbora (Sundadanio axelrodi ‘blue’)"
     }
   ],
   "events": [
@@ -357,6 +359,118 @@
       ],
       "listingId": "dans-fish:10127119745322",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12676412342358",
+          "label": "School of 3",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "12676412375126",
+          "label": "School of 6",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "12676412407894",
+          "label": "School of 9",
+          "price": 47.99,
+          "available": false
+        },
+        {
+          "id": "12676412440662",
+          "label": "School of 12",
+          "price": 57.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1371330281558",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32145075929190",
+          "label": "Imported / 1 Fish",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:4952614666342",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 6.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51441096720683",
+          "label": "Blue Axelrodi Rasbora (School of 5)",
+          "price": 26.99,
+          "available": false
+        },
+        {
+          "id": "51428260118827",
+          "label": "Blue Axelrodi Rasbora",
+          "price": 6.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130832720171+6082712134",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 4.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627662541116",
+          "label": "Title",
+          "price": 4.49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006355149116",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 5.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43866",
+          "label": "Default",
+          "price": 5.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:43866",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

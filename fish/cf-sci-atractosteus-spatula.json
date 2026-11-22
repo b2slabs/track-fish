@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:atractosteus-spatula",
-  "commonName": "Alligator Gar (Atractosteus spatula)",
+  "commonName": "Alligator Gar (Atracosteus spatula)",
   "scientificName": "Atractosteus spatula",
   "listings": [
     {
       "listingId": "monster-aquarium:6992242311377",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Alligator Gar (Atractosteus spatula)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Alligator Gar (Atractosteus spatula)"
+    },
+    {
+      "listingId": "aqua-imports:181766",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Alligator Gar (Atracosteus spatula)"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "monster-aquarium:6992242311377",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 55,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40912169795793",
+          "label": "5-6”",
+          "price": 55,
+          "available": true
+        },
+        {
+          "id": "41198991671505",
+          "label": "7-8\"",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6992242311377",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "181766",
+          "label": "Default",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:181766",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

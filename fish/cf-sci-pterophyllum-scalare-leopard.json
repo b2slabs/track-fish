@@ -7,15 +7,13 @@
       "listingId": "aquatic-arts:4958761680982",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Leopard Angelfish (Pterophyllum scalare), TANK-BRED!",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Leopard Angelfish (Pterophyllum scalare), TANK-BRED!"
     },
     {
       "listingId": "aquahuna:1833598320683",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Leopard Angelfish",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Leopard Angelfish"
     }
   ],
   "events": [
@@ -80,6 +78,64 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "aquahuna:1833598320683",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33353049145430",
+          "label": "1 Fish",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "33353049178198",
+          "label": "Group of 3",
+          "price": 33.29,
+          "available": false
+        },
+        {
+          "id": "33353049210966",
+          "label": "Group of 6",
+          "price": 61.99,
+          "available": false
+        },
+        {
+          "id": "33353049243734",
+          "label": "Group of 9",
+          "price": 86.59,
+          "available": false
+        },
+        {
+          "id": "33353049276502",
+          "label": "Group of 12",
+          "price": 105.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4958761680982",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "16744110653483",
+          "label": "Title",
+          "price": 8,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "aquahuna:1833598320683",
       "storeSlug": "aquahuna"
     }

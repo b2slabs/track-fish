@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:pseudoplatystoma-fasciatum:tiger",
-  "commonName": "Tiger Shovelnose Catfish",
+  "commonName": "Tiger Shovelnose Catfish (Pseudoplatystoma fasciatum)",
   "scientificName": "Pseudoplatystoma fasciatum",
   "listings": [
     {
       "listingId": "aquarium-fish:11251209420",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Tiger Shovelnose Catfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Tiger Shovelnose Catfish"
     },
     {
       "listingId": "global-exoticquatics:8256106889408",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Tiger Shovelnose Catfish",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "Tiger Shovelnose Catfish"
     },
     {
       "listingId": "monster-aquarium:6988421595345+7273907159249+7360249856209+7479314055377",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Tiger Shovelnose Catfish (Pseudoplatystoma fasciatum)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Tiger Shovelnose Catfish (Pseudoplatystoma fasciatum)"
+    },
+    {
+      "listingId": "aqua-imports:42646+88302",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Tiger Shovelnose Catfish (Pseudoplatystoma fasciatum)"
     }
   ],
   "events": [
@@ -233,6 +236,119 @@
       ],
       "listingId": "monster-aquarium:6988421595345+7273907159249+7360249856209+7479314055377",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 60,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42263161635025",
+          "label": "6-7\"",
+          "price": 120,
+          "available": false
+        },
+        {
+          "id": "41956907942097",
+          "label": "6-7”",
+          "price": 4999.99,
+          "available": false
+        },
+        {
+          "id": "42305569128657",
+          "label": "2.5-3”",
+          "price": 37.99,
+          "available": false
+        },
+        {
+          "id": "41618111299793",
+          "label": "4-5\"",
+          "price": 60,
+          "available": true
+        },
+        {
+          "id": "40903307788497",
+          "label": "6-7”",
+          "price": 260,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6988421595345+7273907159249+7360249856209+7479314055377",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 31.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42554321164",
+          "label": "Small",
+          "price": 31.49,
+          "available": false
+        },
+        {
+          "id": "31723803181137",
+          "label": "Medium",
+          "price": 37.79,
+          "available": false
+        },
+        {
+          "id": "8121001410679",
+          "label": "Large",
+          "price": 52.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:11251209420",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 20,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46445242548416",
+          "label": "3.5 in",
+          "price": 20,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8256106889408",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "88302",
+          "label": "Default",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "42646",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:42646+88302",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

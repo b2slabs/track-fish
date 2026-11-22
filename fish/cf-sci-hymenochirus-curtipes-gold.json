@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:hymenochirus-curtipes:gold",
-  "commonName": "Golden Dwarf African Frog (Hymenochirus curtipes), Tank-Bred",
+  "commonName": "Gold African Dwarf Frog (Hymenochirus curtipes ‘gold’)",
   "scientificName": "Hymenochirus curtipes",
   "listings": [
     {
       "listingId": "aquatic-arts:6808069603414",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Golden Dwarf African Frog (Hymenochirus curtipes), Tank-Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Golden Dwarf African Frog (Hymenochirus curtipes), Tank-Bred"
+    },
+    {
+      "listingId": "aqua-imports:94358",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Gold African Dwarf Frog (Hymenochirus curtipes ‘gold’)"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "aquatic-arts:6808069603414",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40056072863830",
+          "label": "1 Frog",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "40056072896598",
+          "label": "3 Frogs",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "40056072929366",
+          "label": "6 Frogs",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6808069603414",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "94358",
+          "label": "Default",
+          "price": 5.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:94358",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

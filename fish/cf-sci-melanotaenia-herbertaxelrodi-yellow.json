@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:melanotaenia-herbertaxelrodi:yellow",
-  "commonName": "Yellow Axelrodi Rainbowfish",
+  "commonName": "Yellow Rainbow (Melanotaenia herbertaxelrodi)",
   "scientificName": "Melanotaenia herbertaxelrodi",
   "listings": [
     {
       "listingId": "aquarium-fish:6007417222",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Yellow Axelrodi Rainbowfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Yellow Axelrodi Rainbowfish"
+    },
+    {
+      "listingId": "aqua-imports:115601",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Yellow Rainbow (Melanotaenia herbertaxelrodi)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:6007417222",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 16.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19019396102",
+          "label": "Title",
+          "price": 16.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6007417222",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "115601",
+          "label": "Default",
+          "price": 17.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:115601",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

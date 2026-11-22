@@ -7,15 +7,13 @@
       "listingId": "glass-aqua:4458558750806",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Anubias Heterophylla",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Anubias Heterophylla"
     },
     {
       "listingId": "buce-plant:10011899149",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Anubias Heterophylla",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Anubias Heterophylla"
     }
   ],
   "events": [
@@ -82,6 +80,64 @@
       ],
       "listingId": "buce-plant:10011899149",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37563162957",
+          "label": "Pot",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "12332464963665",
+          "label": "1 Pot - Extra Large Plant",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "12409850789969",
+          "label": "3 Pots",
+          "price": 23.99,
+          "available": true
+        },
+        {
+          "id": "12409850921041",
+          "label": "5 Pots",
+          "price": 34.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10011899149",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43416311693398",
+          "label": "Potted",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "43416311726166",
+          "label": "UNS Tissue Culture",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:4458558750806",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

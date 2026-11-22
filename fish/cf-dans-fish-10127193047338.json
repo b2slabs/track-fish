@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:dans-fish:10127193047338",
-  "commonName": "Apistogrammoides pucallpensis",
+  "commonName": "Apistogrammoides pucallpaensis",
   "scientificName": null,
   "listings": [
     {
@@ -9,6 +9,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Apistogrammoides pucallpensis",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:681773",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Apistogrammoides pucallpaensis"
     }
   ],
   "events": [
@@ -43,6 +49,26 @@
       ],
       "listingId": "dans-fish:10127193047338",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 10.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "681773",
+          "label": "Default",
+          "price": 10.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:681773",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

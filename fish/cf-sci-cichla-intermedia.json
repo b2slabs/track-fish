@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:cichla-intermedia",
-  "commonName": "Royal Peacock Bass",
+  "commonName": "Intermedia Peacock Bass (Cichla intermedia)",
   "scientificName": "Cichla intermedia",
   "listings": [
     {
       "listingId": "monster-aquarium:7131851096273",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Intermedia Peacock Bass (Cichla intermedia)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Intermedia Peacock Bass (Cichla intermedia)"
     },
     {
       "listingId": "imperial-tropicals:8398086242611",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Royal Peacock Bass",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Royal Peacock Bass"
+    },
+    {
+      "listingId": "aqua-imports:39048+39348",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Intermedia Peacock Bass (Cichla intermedia)"
     }
   ],
   "events": [
@@ -64,6 +68,72 @@
       ],
       "listingId": "imperial-tropicals:8398086242611",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42166401171665",
+          "label": "3”",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "41284845502673",
+          "label": "6-7\"",
+          "price": 85,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7131851096273",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612070437171",
+          "label": "3-4\" Unsexed",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398086242611",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39348",
+          "label": "Default",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "39048",
+          "label": "Default",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:39048+39348",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

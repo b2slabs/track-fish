@@ -1,14 +1,25 @@
 {
   "canonicalFishId": "cf:aquahuna:4724454162507",
-  "commonName": "Aeneus Cory",
-  "scientificName": null,
+  "commonName": "Wild Aeneus Cory (Osteogaster aeneus)",
+  "scientificName": "Osteogaster aeneus",
   "listings": [
     {
       "listingId": "aquahuna:4724454162507",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Aeneus Cory",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Aeneus Cory"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:682489+682493+682496",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Corydoras aeneus"
+    },
+    {
+      "listingId": "aqua-imports:74785",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Wild Aeneus Cory (Osteogaster aeneus)"
     }
   ],
   "events": [
@@ -31,6 +42,75 @@
       ],
       "listingId": "aquahuna:4724454162507",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 4,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "33029918326859",
+          "label": "Title",
+          "price": 4,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4724454162507",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "682489",
+          "label": "Default",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "682493",
+          "label": "Default",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "682496",
+          "label": "Default",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:682489+682493+682496",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "74785",
+          "label": "Default",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:74785",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

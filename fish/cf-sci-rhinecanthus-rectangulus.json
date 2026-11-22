@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:rhinecanthus-rectangulus",
-  "commonName": "Rectangulus Triggerfish",
+  "commonName": "Rectangle Triggerfish (Rhinecanthus rectangulus)",
   "scientificName": "Rhinecanthus rectangulus",
   "listings": [
     {
       "listingId": "aquarium-fish:10072948015403",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Rectangulus Triggerfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Rectangulus Triggerfish"
+    },
+    {
+      "listingId": "aqua-imports:108640",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Rectangle Triggerfish (Rhinecanthus rectangulus)"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "aquarium-fish:10072948015403",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 41.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51231798100267",
+          "label": "Small (1-2\")",
+          "price": 41.59,
+          "available": true
+        },
+        {
+          "id": "51231798165803",
+          "label": "Medium (2-3\")",
+          "price": 58.79,
+          "available": true
+        },
+        {
+          "id": "51231798231339",
+          "label": "Large (3-5\")",
+          "price": 88.79,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10072948015403",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 54.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "108640",
+          "label": "Default",
+          "price": 54.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:108640",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

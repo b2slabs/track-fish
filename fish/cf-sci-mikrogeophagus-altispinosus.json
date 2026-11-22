@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:mikrogeophagus-altispinosus",
-  "commonName": "Bolivian Ram",
+  "commonName": "Bolivian Ram (Mikrogeophagus altispinosus)",
   "scientificName": "Mikrogeophagus altispinosus",
   "listings": [
     {
       "listingId": "aquatic-arts:1364304298070",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Bolivian Ram Dwarf Cichlid (Mikrogeophagus altispinosus), Tank-Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Bolivian Ram Dwarf Cichlid (Mikrogeophagus altispinosus), Tank-Bred"
     },
     {
       "listingId": "aquarium-fish:10130834850091+5924231110",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Bolivian Ram",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Bolivian Ram"
+    },
+    {
+      "listingId": "aqua-imports:38691",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Bolivian Ram (Mikrogeophagus altispinosus)"
     }
   ],
   "events": [
@@ -134,6 +138,96 @@
       ],
       "listingId": "aquarium-fish:10130834850091+5924231110",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12468929462358",
+          "label": "1 Juvenile",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "12468929495126",
+          "label": "Group of 3 Juveniles",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "12468929527894",
+          "label": "Group of 6 Juveniles",
+          "price": 65.99,
+          "available": false
+        },
+        {
+          "id": "33272521457750",
+          "label": "1 Adult",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "33272521850966",
+          "label": "Group of 3 Adults",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33272531386454",
+          "label": "Group of 6 Adults",
+          "price": 58.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1364304298070",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 10.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441105600811",
+          "label": "Bolivian Ram (Group of 3)",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "51428319789355",
+          "label": "Bolivian Ram",
+          "price": 10.49,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130834850091+5924231110",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "38691",
+          "label": "Default",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38691",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

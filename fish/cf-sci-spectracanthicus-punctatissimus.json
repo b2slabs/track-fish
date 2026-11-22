@@ -7,15 +7,13 @@
       "listingId": "monster-aquarium:7085039517905",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "L030 Peppermint Pleco (Spectracanthicus punctatissimus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "L030 Peppermint Pleco (Spectracanthicus punctatissimus)"
     },
     {
       "listingId": "imperial-tropicals:9494719201587",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "L031 Peppermint Pleco",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "L031 Peppermint Pleco"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "imperial-tropicals:9494719201587",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 30,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41168516415697",
+          "label": "3-4\"",
+          "price": 30,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7085039517905",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50276489789747",
+          "label": "2-3\" Unsexed",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "imperial-tropicals:9494719201587",
       "storeSlug": "imperial-tropicals"
     }

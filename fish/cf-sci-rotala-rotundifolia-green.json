@@ -7,22 +7,19 @@
       "listingId": "aquarium-fish:10106497728811",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Rotala rotundifolia 'Green' - Tissue Culture",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Rotala rotundifolia 'Green' - Tissue Culture"
     },
     {
       "listingId": "buce-plant:4698708017233+7464899838152",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Rotala Indica Green",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Rotala Indica Green"
     },
     {
       "listingId": "aquatic-arts:6668860424278",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Rotala 'Green' (Rotala rotundifolia 'Green') Tissue Culture",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Rotala 'Green' (Rotala rotundifolia 'Green') Tissue Culture"
     }
   ],
   "events": [
@@ -129,6 +126,63 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "buce-plant:4698708017233+7464899838152",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39615928172630",
+          "label": "1 Tissue Culture Cup",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6668860424278",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 11.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51386928070955",
+          "label": "Each",
+          "price": 11.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10106497728811",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42404711104712",
+          "label": "Rotala Indica Green",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "32652297633873",
+          "label": "Rotala Green Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "buce-plant:4698708017233+7464899838152",
       "storeSlug": "buce-plant"
     }

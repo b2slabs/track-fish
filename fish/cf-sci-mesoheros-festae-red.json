@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:mesoheros-festae:red",
-  "commonName": "Red Terror",
+  "commonName": "True Red Terror (Mesoheros festae)",
   "scientificName": "Mesoheros festae",
   "listings": [
     {
       "listingId": "aquarium-fish:5951244358",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "True Red Terror",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "True Red Terror"
     },
     {
       "listingId": "imperial-tropicals:8398107410739",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Red Terror",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Red Terror"
     },
     {
       "listingId": "monster-aquarium:7082712957137",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Red Terror (mesoheros festae)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Red Terror (mesoheros festae)"
+    },
+    {
+      "listingId": "aqua-imports:147766+38444",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "True Red Terror (Mesoheros festae)"
     }
   ],
   "events": [
@@ -109,6 +112,107 @@
       ],
       "listingId": "imperial-tropicals:8398107410739",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41162482221265",
+          "label": "2-2.5\"",
+          "price": 25.99,
+          "available": false
+        },
+        {
+          "id": "42230030139601",
+          "label": "2.5-3\"",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "41614224031953",
+          "label": "5.5-6”",
+          "price": 95,
+          "available": false
+        },
+        {
+          "id": "41820160655569",
+          "label": "9-10\"",
+          "price": 399.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7082712957137",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 39.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "18822635974",
+          "label": "Title",
+          "price": 39.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:5951244358",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612119556403",
+          "label": "1-2\" Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "45612119523635",
+          "label": "2-3” Unsexed",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398107410739",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 119.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "147766",
+          "label": "Default",
+          "price": 119.99,
+          "available": true
+        },
+        {
+          "id": "38444",
+          "label": "Default",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:147766+38444",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

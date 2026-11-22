@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:brochis-pantanalensis",
-  "commonName": "C005 Pantanal Cory (Tank-Bred)",
+  "commonName": "C005 Pantanalensis Cory (Brochis pantanalensis)",
   "scientificName": "Brochis pantanalensis",
   "listings": [
     {
       "listingId": "shrimpy-business:9551574008098",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "C005 Pantanal Cory (Tank-Bred)",
-      "lastCheckedAt": "2026-11-22T06:57:34.146Z"
+      "commonName": "C005 Pantanal Cory (Tank-Bred)"
+    },
+    {
+      "listingId": "aqua-imports:186010+69259",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "C005 Pantanalensis Cory (Brochis pantanalensis)"
     }
   ],
   "events": [
@@ -49,6 +54,67 @@
       ],
       "listingId": "shrimpy-business:9551574008098",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 49.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49360087286050",
+          "label": "1 Fish",
+          "price": 49.5,
+          "available": false
+        },
+        {
+          "id": "49360087318818",
+          "label": "3 Fish",
+          "price": 133.95,
+          "available": false
+        },
+        {
+          "id": "51662839513378",
+          "label": "6 Fish",
+          "price": 251.95,
+          "available": false
+        },
+        {
+          "id": "51662839546146",
+          "label": "12 Fish",
+          "price": 474.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9551574008098",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 109.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "186010",
+          "label": "Default",
+          "price": 109.99,
+          "available": true
+        },
+        {
+          "id": "69259",
+          "label": "Default",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:186010+69259",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

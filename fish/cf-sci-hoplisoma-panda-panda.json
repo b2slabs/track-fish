@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:hoplisoma-panda:panda",
-  "commonName": "Panda Hoplisoma (Hoplisoma panda)",
+  "commonName": "Panda Cory (Hoplisoma panda)",
   "scientificName": "Hoplisoma panda",
   "listings": [
     {
       "listingId": "imperial-tropicals:8397983547699",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Panda Hoplisoma (Hoplisoma panda)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Panda Hoplisoma (Hoplisoma panda)"
+    },
+    {
+      "listingId": "aqua-imports:103189+42678",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Panda Cory (Hoplisoma panda)"
     }
   ],
   "events": [
@@ -49,6 +54,67 @@
       ],
       "listingId": "imperial-tropicals:8397983547699",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611743936819",
+          "label": "(3 Pack) 0.5-1\" Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "45611743969587",
+          "label": "(6 Pack) 0.5-1” Unsexed",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "51119453864243",
+          "label": "(3 Pack) 1-2\" Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "51119453897011",
+          "label": "(6 Pack) 1-2\" Unsexed",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397983547699",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "103189",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "42678",
+          "label": "Default",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:103189+42678",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

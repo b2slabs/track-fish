@@ -7,15 +7,13 @@
       "listingId": "aquahuna:6585200771147",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Medaka Koi Ricefish",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Medaka Koi Ricefish"
     },
     {
       "listingId": "daku-aquatics:8741036130522",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
-      "commonName": "Koi Medaka Ricefish",
-      "lastCheckedAt": "2026-11-22T06:58:04.282Z"
+      "commonName": "Koi Medaka Ricefish"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "daku-aquatics:8741036130522",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 12,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39421377773643",
+          "label": "Title",
+          "price": 12,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6585200771147",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:25.196Z",
+      "price": 60,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043843559642",
+          "label": "5 Pack (mixed sex)",
+          "price": 60,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "daku-aquatics:8741036130522",
       "storeSlug": "daku-aquatics"
     }

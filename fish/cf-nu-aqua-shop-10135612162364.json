@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10135612162364",
-  "commonName": "Reticulated Siamese Algae Eater",
-  "scientificName": null,
+  "commonName": "Reticulated Siamese Algae Eater (Crossocheilus reticulatus)",
+  "scientificName": "Crossocheilus reticulatus",
   "listings": [
     {
       "listingId": "nu-aqua-shop:10135612162364",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Reticulated Siamese Algae Eater",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Reticulated Siamese Algae Eater"
+    },
+    {
+      "listingId": "aqua-imports:45889",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Reticulated Siamese Algae Eater (Crossocheilus reticulatus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nu-aqua-shop:10135612162364",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52055894720828",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10135612162364",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45889",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:45889",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,21 +1,19 @@
 {
   "canonicalFishId": "cf:sci:astyanax-mexicanus",
-  "commonName": "Blind Cave Tetra",
+  "commonName": "Blind Cave Tetra (Astyanax mexicanus)",
   "scientificName": "Astyanax mexicanus",
   "listings": [
     {
       "listingId": "aquarium-fish:1328767172678",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Blind Cave Tetra",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Blind Cave Tetra"
     },
     {
       "listingId": "aquahuna:7399264190539",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Blind Cave Tetra",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Blind Cave Tetra"
     },
     {
       "listingId": "ck-fish-world:8730763985111",
@@ -23,6 +21,12 @@
       "storeName": "CK Fish World",
       "commonName": "Blind Cave Tetra",
       "lastCheckedAt": "2026-02-07T03:00:00.000Z"
+    },
+    {
+      "listingId": "aqua-imports:118270",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Blind Cave Tetra (Astyanax mexicanus)"
     }
   ],
   "events": [
@@ -123,6 +127,66 @@
       ],
       "listingId": "aquarium-fish:1328767172678",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 6,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41590348972107",
+          "label": "Title",
+          "price": 6,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7399264190539",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 5.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51428227350827",
+          "label": "Each",
+          "price": 5.29,
+          "available": false
+        },
+        {
+          "id": "51428227383595",
+          "label": "School of 3",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1328767172678",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "118270",
+          "label": "Default",
+          "price": 3.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:118270",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

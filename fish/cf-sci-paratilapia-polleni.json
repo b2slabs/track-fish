@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:paratilapia-polleni",
-  "commonName": "Polleni Cichlid",
+  "commonName": "Starry Night Cichlid (Paratilapia polleni)",
   "scientificName": "Paratilapia polleni",
   "listings": [
     {
       "listingId": "aquarium-fish:5837187974",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Polleni Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Polleni Cichlid"
+    },
+    {
+      "listingId": "aqua-imports:44146",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Starry Night Cichlid (Paratilapia polleni)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:5837187974",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32340248461393",
+          "label": "Title",
+          "price": 26.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:5837187974",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44146",
+          "label": "Default",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:44146",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

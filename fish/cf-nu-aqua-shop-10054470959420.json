@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10054470959420",
-  "commonName": "Threadfin Goby",
-  "scientificName": null,
+  "commonName": "Threadfin Goby (Sicyopterus longifilis)",
+  "scientificName": "Sicyopterus longifilis",
   "listings": [
     {
       "listingId": "nu-aqua-shop:10054470959420",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Threadfin Goby",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Threadfin Goby"
+    },
+    {
+      "listingId": "aqua-imports:161812",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Threadfin Goby (Sicyopterus longifilis)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nu-aqua-shop:10054470959420",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51762233770300",
+          "label": "Title",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10054470959420",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 17.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "161812",
+          "label": "Default",
+          "price": 17.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:161812",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

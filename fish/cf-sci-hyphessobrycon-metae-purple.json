@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:hyphessobrycon-metae:purple",
-  "commonName": "Purple Tetra",
+  "commonName": "Purple Rio Meta Tetra (Hyphessobrycon metae)",
   "scientificName": "Hyphessobrycon metae",
   "listings": [
     {
       "listingId": "aquarium-fish:1378137145414",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Purple Tetra",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Purple Tetra"
+    },
+    {
+      "listingId": "aqua-imports:179966",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Purple Rio Meta Tetra (Hyphessobrycon metae)"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "aquarium-fish:1378137145414",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51428226990379",
+          "label": "Each",
+          "price": 2.99,
+          "available": false
+        },
+        {
+          "id": "51428227023147",
+          "label": "School of 6",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1378137145414",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "179966",
+          "label": "Default",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:179966",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

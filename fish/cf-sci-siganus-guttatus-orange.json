@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:siganus-guttatus:orange",
-  "commonName": "Orange Spotted Rabbitfish",
+  "commonName": "Orange Spotted Rabbitfish (Siganus guttatus)",
   "scientificName": "Siganus guttatus",
   "listings": [
     {
       "listingId": "aquarium-fish:4400250224721",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Orange Spotted Rabbitfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Orange Spotted Rabbitfish"
+    },
+    {
+      "listingId": "aqua-imports:153727",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Orange Spotted Rabbitfish (Siganus guttatus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:4400250224721",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 91.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32789537685585",
+          "label": "Small/Medium (1.75-2.5\")",
+          "price": 91.79,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4400250224721",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "153727",
+          "label": "Default",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:153727",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10284271010108",
-  "commonName": "Wild Type Green Swordtail",
-  "scientificName": null,
+  "commonName": "Wild Type Green Swordtail (Xiphophorus hellerii)",
+  "scientificName": "Xiphophorus hellerii",
   "listings": [
     {
       "listingId": "nu-aqua-shop:10284271010108",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Wild Type Green Swordtail",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Wild Type Green Swordtail"
+    },
+    {
+      "listingId": "aqua-imports:119081",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Wild Type Green Swordtail (Xiphophorus hellerii)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nu-aqua-shop:10284271010108",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52697854837052",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10284271010108",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "119081",
+          "label": "Default",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:119081",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

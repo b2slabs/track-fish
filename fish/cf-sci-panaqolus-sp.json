@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:panaqolus-sp",
-  "commonName": "L351 Sachamama Pleco",
+  "commonName": "L351 Sachamama Pleco (Panaqolus sp. ‘L351’)",
   "scientificName": "Panaqolus sp.",
   "listings": [
     {
       "listingId": "aquarium-fish:6653141062",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "L-204 Emperor Pleco",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "L-204 Emperor Pleco"
     },
     {
       "listingId": "imperial-tropicals:8398132511027",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "L351 Sachamama Pleco",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "L351 Sachamama Pleco"
+    },
+    {
+      "listingId": "aqua-imports:40597",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "L351 Sachamama Pleco (Panaqolus sp. ‘L351’)"
     }
   ],
   "events": [
@@ -58,6 +62,60 @@
       ],
       "listingId": "imperial-tropicals:8398132511027",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32267404476497",
+          "label": "Medium (3\")",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6653141062",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612178178355",
+          "label": "2-3\" Unsexed",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398132511027",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 79.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40597",
+          "label": "Default",
+          "price": 79.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:40597",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

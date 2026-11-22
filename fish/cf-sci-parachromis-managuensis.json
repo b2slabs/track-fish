@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:parachromis-managuensis",
-  "commonName": "Jaguar Cichlid",
+  "commonName": "Jaguar Cichlid (Parachromis managuensis)",
   "scientificName": "Parachromis managuensis",
   "listings": [
     {
       "listingId": "aquarium-fish:5952153158",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Jaguar Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Jaguar Cichlid"
     },
     {
       "listingId": "imperial-tropicals:8398013235507",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Jaguar Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Jaguar Cichlid"
     },
     {
       "listingId": "monster-aquarium:7325266116817+7626208379089",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Jaguar Cichlid ( Herichthys Managuensis )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Jaguar Cichlid ( Herichthys Managuensis )"
+    },
+    {
+      "listingId": "aqua-imports:44108",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Jaguar Cichlid (Parachromis managuensis)"
     }
   ],
   "events": [
@@ -338,6 +341,137 @@
       ],
       "listingId": "monster-aquarium:7325266116817+7626208379089",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42678289924305",
+          "label": "2\"",
+          "price": 12,
+          "available": false
+        },
+        {
+          "id": "41842074026193",
+          "label": "2-2.5”",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "42645250769105",
+          "label": "5\"",
+          "price": 48.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7325266116817+7626208379089",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "8690851283063",
+          "label": "Small (1\")",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "32267413160017",
+          "label": "Medium (2\")",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "8690851119223",
+          "label": "Large (3\")",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:5952153158",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611815633203",
+          "label": "1-2” Unsexed",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "47071596937523",
+          "label": "2-3” Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45611815665971",
+          "label": "3-4” Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "46625664074035",
+          "label": "4-5\" Unsexed",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "67978208805171",
+          "label": "5-6\" Female",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "67978196025651",
+          "label": "5-6\" Male",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "67978208018739",
+          "label": "6-7\" Male",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398013235507",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44108",
+          "label": "Default",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:44108",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

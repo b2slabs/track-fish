@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:geophagus-steindachneri:red",
-  "commonName": "Red Hump Geophagus Cichlid",
+  "commonName": "Red Hump Eartheater (Geophagus steindachneri)",
   "scientificName": "Geophagus steindachneri",
   "listings": [
     {
       "listingId": "aquarium-fish:5950471942",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Red Hump Geophagus Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Red Hump Geophagus Cichlid"
+    },
+    {
+      "listingId": "aqua-imports:41973",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red Hump Eartheater (Geophagus steindachneri)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:5950471942",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "18819635526",
+          "label": "Title",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:5950471942",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41973",
+          "label": "Default",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:41973",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

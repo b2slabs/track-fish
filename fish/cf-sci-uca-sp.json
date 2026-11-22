@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:uca-sp",
-  "commonName": "Fiddler Crab",
+  "commonName": "Indian Fiddler Crab (Uca sp.)",
   "scientificName": "Uca sp",
   "listings": [
     {
       "listingId": "aquahuna:4597509816395",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Fiddler Crab",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Fiddler Crab"
+    },
+    {
+      "listingId": "aqua-imports:90980",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Indian Fiddler Crab (Uca sp.)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquahuna:4597509816395",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 2.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32420642652235",
+          "label": "Title",
+          "price": 2.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4597509816395",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "90980",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:90980",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

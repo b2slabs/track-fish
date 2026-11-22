@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:devario-auropurpureus",
-  "commonName": "Lake Inlee Danio",
+  "commonName": "Lake Inle Danio (Inlecypris auropurpurea)",
   "scientificName": "Devario auropurpureus",
   "listings": [
     {
       "listingId": "aquahuna:1817887244331",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Lake Inlee Danio",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Lake Inlee Danio"
+    },
+    {
+      "listingId": "aqua-imports:190214",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Lake Inle Danio (Inlecypris auropurpurea)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquahuna:1817887244331",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 4.67,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "16472215453739",
+          "label": "Title",
+          "price": 4.67,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1817887244331",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "190214",
+          "label": "Default",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:190214",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

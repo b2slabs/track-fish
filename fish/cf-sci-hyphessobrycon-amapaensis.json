@@ -1,35 +1,31 @@
 {
   "canonicalFishId": "cf:sci:hyphessobrycon-amapaensis",
-  "commonName": "Amapa Tetra",
+  "commonName": "Amapa Tetra (Hyphessobrycon amapaensis)",
   "scientificName": "Hyphessobrycon amapaensis",
   "listings": [
     {
       "listingId": "aquatic-arts:14896622829935",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Amapa Tetra (Hyphessobrycon amapaensis) – Brazil",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Amapa Tetra (Hyphessobrycon amapaensis) – Brazil"
     },
     {
       "listingId": "shrimpy-business:9516476203298",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Amapa Tetra",
-      "lastCheckedAt": "2026-11-22T06:57:34.146Z"
+      "commonName": "Amapa Tetra"
     },
     {
       "listingId": "nu-aqua-shop:10016447201596",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Amapa Tetra",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Amapa Tetra"
     },
     {
       "listingId": "aquarium-fish:8289586774315",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Redline Tetra",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Redline Tetra"
     },
     {
       "listingId": "dans-fish:10127112438058",
@@ -37,6 +33,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Amapa Tetra",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:179970",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Amapa Tetra (Hyphessobrycon amapaensis)"
     }
   ],
   "events": [
@@ -405,6 +407,118 @@
       ],
       "listingId": "dans-fish:10127112438058",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 22.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52691297599855",
+          "label": "School of 3",
+          "price": 22.49,
+          "available": false
+        },
+        {
+          "id": "52691297632623",
+          "label": "School of 6",
+          "price": 42.49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14896622829935",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 45.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49245322051874",
+          "label": "3 Fish",
+          "price": 45.5,
+          "available": false
+        },
+        {
+          "id": "49245322084642",
+          "label": "6 Fish",
+          "price": 81.95,
+          "available": false
+        },
+        {
+          "id": "51662839644450",
+          "label": "12 Fish",
+          "price": 154.95,
+          "available": false
+        },
+        {
+          "id": "51662839677218",
+          "label": "24 Fish",
+          "price": 290.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9516476203298",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45130297639211",
+          "label": "Title",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8289586774315",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51657604956476",
+          "label": "Title",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10016447201596",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "179970",
+          "label": "Default",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:179970",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

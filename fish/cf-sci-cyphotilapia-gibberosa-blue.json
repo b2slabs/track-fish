@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:cyphotilapia-gibberosa:blue",
-  "commonName": "Blue Zaire Moba Frontosa (Cyphotilapia gibberosa)",
+  "commonName": "Zaire Blue Moba Frontosa (Cyphotilapia gibberosa)",
   "scientificName": "Cyphotilapia gibberosa",
   "listings": [
     {
       "listingId": "aquarium-fish:208526114841",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Frontosa Blue Zaire",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Frontosa Blue Zaire"
     },
     {
       "listingId": "imperial-tropicals:8398094532915",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Blue Zaire Moba Frontosa (Cyphotilapia gibberosa)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Blue Zaire Moba Frontosa (Cyphotilapia gibberosa)"
+    },
+    {
+      "listingId": "aqua-imports:137611",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Zaire Blue Moba Frontosa (Cyphotilapia gibberosa)"
     }
   ],
   "events": [
@@ -64,6 +68,66 @@
       ],
       "listingId": "imperial-tropicals:8398094532915",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40195214704721",
+          "label": "Small (1\")",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "40195214737489",
+          "label": "Medium (2\")",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:208526114841",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 129.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612091506995",
+          "label": "2-3” Unsexed",
+          "price": 129.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398094532915",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "137611",
+          "label": "Default",
+          "price": 99.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:137611",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:anableps-anableps",
-  "commonName": "Four Eyed Anablep",
+  "commonName": "Four Eyed Fish (Anableps anableps)",
   "scientificName": "Anableps anableps",
   "listings": [
     {
       "listingId": "aquarium-fish:1336823447622",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Four Eyed Anablep",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Four Eyed Anablep"
+    },
+    {
+      "listingId": "aqua-imports:85770",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Four Eyed Fish (Anableps anableps)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:1336823447622",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12183791829062",
+          "label": "Title",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1336823447622",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 89.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "85770",
+          "label": "Default",
+          "price": 89.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:85770",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

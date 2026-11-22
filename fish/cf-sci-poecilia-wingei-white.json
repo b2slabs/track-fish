@@ -7,15 +7,13 @@
       "listingId": "aquahuna:6747013513291",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "White Peacock Endler Pair",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "White Peacock Endler Pair"
     },
     {
       "listingId": "flip-aquatics:6895128707174",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "White Peacock Endler",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "White Peacock Endler"
     }
   ],
   "events": [
@@ -68,6 +66,52 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "flip-aquatics:6895128707174",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 7,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39815559151691",
+          "label": "Title",
+          "price": 7,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6747013513291",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40300153602150",
+          "label": "Imported / Male",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "40300153634918",
+          "label": "Imported / Female",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "40300153667686",
+          "label": "Imported / Pair (M/F)",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "flip-aquatics:6895128707174",
       "storeSlug": "flip-aquatics"
     }

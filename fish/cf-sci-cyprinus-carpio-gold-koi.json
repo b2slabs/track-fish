@@ -7,15 +7,13 @@
       "listingId": "aquahuna:1726883921963",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Gold Ogon Koi 3\"",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Gold Ogon Koi 3\""
     },
     {
       "listingId": "aquarium-fish:6551454278",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Gold Yamabuki Ogon Koi",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Gold Yamabuki Ogon Koi"
     }
   ],
   "events": [
@@ -62,6 +60,46 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "aquarium-fish:6551454278",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 9,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15793466900523",
+          "label": "Title",
+          "price": 9,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1726883921963",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45093886951723",
+          "label": "Medium",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "45093888491819",
+          "label": "Large",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "aquarium-fish:6551454278",
       "storeSlug": "aquarium-fish"
     }

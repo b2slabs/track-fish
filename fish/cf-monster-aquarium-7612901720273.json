@@ -7,15 +7,13 @@
       "listingId": "monster-aquarium:7612901720273",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Ultra Fresh GOLDFISH premium pellet",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Ultra Fresh GOLDFISH premium pellet"
     },
     {
       "listingId": "buce-plant:8308321943752",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Ultra Fresh Goldfish Premium Pellet",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Ultra Fresh Goldfish Premium Pellet"
     }
   ],
   "events": [
@@ -88,6 +86,46 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "buce-plant:8308321943752",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 12.89,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42626716860625",
+          "label": "330ml / 122g",
+          "price": 12.89,
+          "available": true
+        },
+        {
+          "id": "42626716827857",
+          "label": "1150ml / 425g",
+          "price": 22.49,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7612901720273",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 12.97,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45041769513160",
+          "label": "Title",
+          "price": 12.97,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "buce-plant:8308321943752",
       "storeSlug": "buce-plant"
     }

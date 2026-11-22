@@ -7,8 +7,7 @@
       "listingId": "aquarium-fish:6658722886",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Red Tail Catfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Red Tail Catfish"
     }
   ],
   "events": [
@@ -35,6 +34,29 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "aquarium-fish:6658722886",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 36.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44242664259883",
+          "label": "Small",
+          "price": 36.29,
+          "available": true
+        },
+        {
+          "id": "44242664292651",
+          "label": "Medium",
+          "price": 45.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "aquarium-fish:6658722886",
       "storeSlug": "aquarium-fish"
     }

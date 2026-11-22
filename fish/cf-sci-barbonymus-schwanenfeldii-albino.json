@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:barbonymus-schwanenfeldii:albino",
-  "commonName": "Albino Tinfoil Barb",
+  "commonName": "Albino Tinfoil Barb (Barbonymus schwanefeldii)",
   "scientificName": "Barbonymus schwanenfeldii",
   "listings": [
     {
       "listingId": "ck-fish-world:8951540580567",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Albino Tinfoil Barb",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Albino Tinfoil Barb"
     },
     {
       "listingId": "monster-aquarium:7061231927505+7087481585873+7273906471121",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Albino Tinfoil Barb (Barbonymus schwanenfeldii)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Albino Tinfoil Barb (Barbonymus schwanenfeldii)"
+    },
+    {
+      "listingId": "aqua-imports:64152",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Albino Tinfoil Barb (Barbonymus schwanefeldii)"
     }
   ],
   "events": [
@@ -198,6 +202,96 @@
       ],
       "listingId": "monster-aquarium:7061231927505+7087481585873+7273906471121",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41803494359249",
+          "label": "3.5-4”",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "42262667854033",
+          "label": "6-7\"",
+          "price": 79.99,
+          "available": true
+        },
+        {
+          "id": "41928007975121",
+          "label": "2”-3”",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "41175496098001",
+          "label": "3.5-4”",
+          "price": 25,
+          "available": false
+        },
+        {
+          "id": "41107738656977",
+          "label": "2.5-3”",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "41630630117585",
+          "label": "3-4”",
+          "price": 94.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7061231927505+7087481585873+7273906471121",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 26.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46455276339415",
+          "label": "3",
+          "price": 26.98,
+          "available": true
+        },
+        {
+          "id": "46455276372183",
+          "label": "5",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8951540580567",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "64152",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:64152",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

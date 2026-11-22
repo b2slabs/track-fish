@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:echinodorus-uruguayensis",
-  "commonName": "Echinodorus Uruguayensis Variegated",
+  "commonName": "Uruguayensis Sword (Echinodorus uruguayensis)",
   "scientificName": "Echinodorus uruguayensis",
   "listings": [
     {
       "listingId": "buce-plant:7253645066440",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Echinodorus Uruguayensis Variegated",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Echinodorus Uruguayensis Variegated"
+    },
+    {
+      "listingId": "aqua-imports:161818",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Uruguayensis Sword (Echinodorus uruguayensis)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "buce-plant:7253645066440",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41595502297288",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7253645066440",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "161818",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:161818",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:faunus-ater:blue",
-  "commonName": "Blue Rabbit Snails",
+  "commonName": "Blue Rabbit Snail (Tylomelania sp.)",
   "scientificName": "Faunus ater",
   "listings": [
     {
       "listingId": "flip-aquatics:11313679172",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Blue Rabbit Snails",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Blue Rabbit Snails"
+    },
+    {
+      "listingId": "aqua-imports:101004",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Blue Rabbit Snail (Tylomelania sp.)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "flip-aquatics:11313679172",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39440108519526",
+          "label": "Imported / 1 Snail",
+          "price": 17.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:11313679172",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "101004",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:101004",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

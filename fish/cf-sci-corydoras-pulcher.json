@@ -1,14 +1,25 @@
 {
   "canonicalFishId": "cf:sci:corydoras-pulcher",
-  "commonName": "Pulcher Cory (Corydoras pulcher)",
+  "commonName": "Pulcher Cory (Brochis pulcher)",
   "scientificName": "Corydoras pulcher",
   "listings": [
     {
       "listingId": "monster-aquarium:7492376723665",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Pulcher Cory (Corydoras pulcher)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Pulcher Cory (Corydoras pulcher)"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:682662",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Corydoras pulcher"
+    },
+    {
+      "listingId": "aqua-imports:71423",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Pulcher Cory (Brochis pulcher)"
     }
   ],
   "events": [
@@ -51,6 +62,63 @@
       ],
       "listingId": "monster-aquarium:7492376723665",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 27.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42295641440465",
+          "label": "2-3”",
+          "price": 27.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7492376723665",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 42.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "682662",
+          "label": "Default",
+          "price": 42.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:682662",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "71423",
+          "label": "Default",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:71423",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

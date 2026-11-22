@@ -7,8 +7,7 @@
       "listingId": "buce-plant:1326036123729",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "SL-Aqua Milione",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "SL-Aqua Milione"
     }
   ],
   "events": [
@@ -35,6 +34,29 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "buce-plant:1326036123729",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12225128267857",
+          "label": "70g",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "32414496522321",
+          "label": "200g",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "buce-plant:1326036123729",
       "storeSlug": "buce-plant"
     }

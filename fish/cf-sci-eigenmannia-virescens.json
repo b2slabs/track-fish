@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:eigenmannia-virescens",
-  "commonName": "Glass Knifefish",
+  "commonName": "Glass Knifefish (Eigenmannia virescens)",
   "scientificName": "Eigenmannia virescens",
   "listings": [
     {
       "listingId": "aquarium-fish:6657648646",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Glass Knifefish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Glass Knifefish"
     },
     {
       "listingId": "monster-aquarium:7265171407057+7617118240977",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Glass Knife Fish (Eigenmannia virescens)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Glass Knife Fish (Eigenmannia virescens)"
+    },
+    {
+      "listingId": "aqua-imports:92263",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Glass Knifefish (Eigenmannia virescens)"
     }
   ],
   "events": [
@@ -124,6 +128,66 @@
       ],
       "listingId": "monster-aquarium:7265171407057+7617118240977",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42646108078289",
+          "label": "4-5\"",
+          "price": 15,
+          "available": false
+        },
+        {
+          "id": "41598445682897",
+          "label": "3.5-5\"",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7265171407057+7617118240977",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21040147462",
+          "label": "Title",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6657648646",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "92263",
+          "label": "Default",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:92263",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

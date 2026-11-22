@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:imperial-tropicals:8398049968435",
-  "commonName": "Silver Garra",
+  "commonName": "Silver Garra (Garra cf. gotyla)",
   "scientificName": null,
   "listings": [
     {
       "listingId": "imperial-tropicals:8398049968435",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Silver Garra",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Silver Garra"
+    },
+    {
+      "listingId": "aqua-imports:190521",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Silver Garra (Garra cf. gotyla)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "imperial-tropicals:8398049968435",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611965546803",
+          "label": "3\" Unsexed",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398049968435",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "190521",
+          "label": "Default",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:190521",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

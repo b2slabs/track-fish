@@ -1,42 +1,43 @@
 {
   "canonicalFishId": "cf:sci:nesaea-pedicellata:gold",
-  "commonName": "Nesaea Pedicellata ‘Golden’",
+  "commonName": "Gold Nesaea (Nesaea Pedicellata ‘Golden’)",
   "scientificName": "Nesaea pedicellata",
   "listings": [
     {
       "listingId": "flip-aquatics:6692638064742",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Nesaea Pedicellata 'Golden'",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Nesaea Pedicellata 'Golden'"
     },
     {
       "listingId": "glass-aqua:3526824263766",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Nesaea Pedicellata Golden",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Nesaea Pedicellata Golden"
     },
     {
       "listingId": "nu-aqua-shop:10230745956668",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Nesaea Pedicellata ‘Golden’",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Nesaea Pedicellata ‘Golden’"
     },
     {
       "listingId": "buce-plant:1569220296785+8213689598152",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Nesaea Pedicellata Golden",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Nesaea Pedicellata Golden"
     },
     {
       "listingId": "aquatic-arts:1387606278230",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Golden Nesaea (Nesaea pedicellata \"Golden\"), Bunch w/Lead",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Golden Nesaea (Nesaea pedicellata \"Golden\"), Bunch w/Lead"
+    },
+    {
+      "listingId": "aqua-imports:60071",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Gold Nesaea (Nesaea Pedicellata ‘Golden’)"
     }
   ],
   "events": [
@@ -203,6 +204,129 @@
       ],
       "listingId": "buce-plant:1569220296785+8213689598152",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12773938561110",
+          "label": "1 Bunch",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1387606278230",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39550753374310",
+          "label": "Bunched",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692638064742",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44650756964552",
+          "label": "Nesaea Pedicellata 'Golden' Aquatic Farmer Tissue Culture",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "15446300164177",
+          "label": "Lead Bunch",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "15446300196945",
+          "label": "3 Bunches + 1 Free",
+          "price": 23.97,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:1569220296785+8213689598152",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42370992603222",
+          "label": "Bunch",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "42370992635990",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:3526824263766",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52460378161468",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10230745956668",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "60071",
+          "label": "Default",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60071",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

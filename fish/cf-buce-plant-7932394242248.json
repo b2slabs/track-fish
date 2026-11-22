@@ -7,15 +7,13 @@
       "listingId": "buce-plant:7932394242248",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Hygger - Silent Magnetic Wavemaker",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Hygger - Silent Magnetic Wavemaker"
     },
     {
       "listingId": "glass-aqua:7283547078742",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Hygger Silent Magnetic Wavemaker",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Hygger Silent Magnetic Wavemaker"
     }
   ],
   "events": [
@@ -68,6 +66,52 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:7283547078742",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43742680907976",
+          "label": "B2B-HG951-14W",
+          "price": 69.99,
+          "available": true
+        },
+        {
+          "id": "43742680940744",
+          "label": "BUS-HG951-20W",
+          "price": 99.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7932394242248",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41440418922582",
+          "label": "14W [B2B-HG951]",
+          "price": 69.99,
+          "available": true
+        },
+        {
+          "id": "41440418955350",
+          "label": "20W [BUS-HG951]",
+          "price": 99.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:7283547078742",
       "storeSlug": "glass-aqua"
     }

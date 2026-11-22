@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:ck-fish-world:8168888860887",
-  "commonName": "Seachem Kanaplex - 5G",
+  "commonName": "Seachem KanaPlex 5g",
   "scientificName": null,
   "listings": [
     {
       "listingId": "ck-fish-world:8168888860887",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Seachem KanaPlex 5g",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Seachem KanaPlex 5g"
     },
     {
       "listingId": "nu-aqua-shop:10249203712316",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Seachem Kanaplex - 5G",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Seachem Kanaplex - 5G"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:607885",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Seachem KanaPlex 5g"
     }
   ],
   "events": [
@@ -58,6 +62,60 @@
       ],
       "listingId": "nu-aqua-shop:10249203712316",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 9.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44152662327511",
+          "label": "Title",
+          "price": 9.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8168888860887",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52539479195964",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10249203712316",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "607885",
+          "label": "Default",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:607885",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:brachydanio-rerio:longfin",
-  "commonName": "Longfin Zebra Danio | Brachydanio Rerio",
+  "commonName": "Longfin Zebra Danio (Brachydanio rerio)",
   "scientificName": "Brachydanio rerio",
   "listings": [
     {
       "listingId": "flip-aquatics:7038833721446",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Longfin Zebra Danio | Brachydanio Rerio",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Longfin Zebra Danio | Brachydanio Rerio"
+    },
+    {
+      "listingId": "aqua-imports:58443",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Longfin Zebra Danio (Brachydanio rerio)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "flip-aquatics:7038833721446",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40837574688870",
+          "label": "Imported / 1 Fish",
+          "price": 5.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:7038833721446",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "58443",
+          "label": "Default",
+          "price": 2.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:58443",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

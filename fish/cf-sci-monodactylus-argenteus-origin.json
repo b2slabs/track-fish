@@ -7,22 +7,19 @@
       "listingId": "aquarium-fish:6574214790",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Mono Argentus",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Mono Argentus"
     },
     {
       "listingId": "ck-fish-world:8150013542615",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Mono Argentus",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Mono Argentus"
     },
     {
       "listingId": "monster-aquarium:6974859837649",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Mono Argentus ( Monodactylus argenteus )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Mono Argentus ( Monodactylus argenteus )"
     }
   ],
   "events": [
@@ -103,6 +100,57 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "aquarium-fish:6574214790",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 20,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40865448198353",
+          "label": "1.5-2”",
+          "price": 20,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6974859837649",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44098346778839",
+          "label": "Title",
+          "price": 19.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150013542615",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "20798667462",
+          "label": "Title",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "aquarium-fish:6574214790",
       "storeSlug": "aquarium-fish"
     }

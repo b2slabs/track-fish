@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:desmopuntius-rhomboocellatus",
-  "commonName": "Snakeskin Barb",
+  "commonName": "Snakeskin / Rhombo Barb (Desmopuntius rhomboocellatus)",
   "scientificName": "Desmopuntius rhomboocellatus",
   "listings": [
     {
       "listingId": "aquarium-fish:6812111437905",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Snakeskin Barb",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Snakeskin Barb"
     },
     {
       "listingId": "imperial-tropicals:8398118846771",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Snakeskin Barb",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Snakeskin Barb"
     },
     {
       "listingId": "nu-aqua-shop:10006319890748",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Snakeskin Barb",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Snakeskin Barb"
+    },
+    {
+      "listingId": "aqua-imports:43973",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Snakeskin / Rhombo Barb (Desmopuntius rhomboocellatus)"
     }
   ],
   "events": [
@@ -85,6 +88,77 @@
       ],
       "listingId": "nu-aqua-shop:10006319890748",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39788251349073",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6812111437905",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612145541427",
+          "label": "(10 Pack) 1-2\" Unsexed",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398118846771",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 5.97,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627493228860",
+          "label": "Title",
+          "price": 5.97,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006319890748",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43973",
+          "label": "Default",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:43973",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

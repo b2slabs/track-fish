@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:glass-aqua:4505295454294",
-  "commonName": "Cryptocoryne Hudoroi",
+  "commonName": "Cryptocoryne hudoroi",
   "scientificName": null,
   "listings": [
     {
       "listingId": "glass-aqua:4505295454294",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Cryptocoryne Hudoroi",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Cryptocoryne Hudoroi"
+    },
+    {
+      "listingId": "aqua-imports:59939",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Cryptocoryne hudoroi"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "glass-aqua:4505295454294",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39926301655126",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:4505295454294",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "59939",
+          "label": "Default",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:59939",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

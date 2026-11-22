@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:arothron-nigropunctatus",
-  "commonName": "Dogface Puffer",
+  "commonName": "Dogface Puffer (Arothron nigropunctatus)",
   "scientificName": "Arothron nigropunctatus",
   "listings": [
     {
       "listingId": "aquarium-fish:9978093961515",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Dogface Puffer",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Dogface Puffer"
+    },
+    {
+      "listingId": "aqua-imports:108683",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Dogface Puffer (Arothron nigropunctatus)"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "aquarium-fish:9978093961515",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 80.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50540751683883",
+          "label": "Small (1.5-3\")",
+          "price": 80.99,
+          "available": true
+        },
+        {
+          "id": "50540751716651",
+          "label": "Medium (3-5\")",
+          "price": 115.79,
+          "available": true
+        },
+        {
+          "id": "50540751782187",
+          "label": "Large (5-7\")",
+          "price": 173.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9978093961515",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "108683",
+          "label": "Default",
+          "price": 99.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:108683",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

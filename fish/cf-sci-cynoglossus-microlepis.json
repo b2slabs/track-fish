@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:cynoglossus-microlepis",
-  "commonName": "Tongue Sole ( Cynoglossus microlepis )",
+  "commonName": "Asian Freshwater Tonguefish (Cynoglossus microlepis)",
   "scientificName": "Cynoglossus microlepis",
   "listings": [
     {
       "listingId": "monster-aquarium:7693850411217",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Tongue Sole ( Cynoglossus microlepis )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Tongue Sole ( Cynoglossus microlepis )"
+    },
+    {
+      "listingId": "aqua-imports:73420",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Asian Freshwater Tonguefish (Cynoglossus microlepis)"
     }
   ],
   "events": [
@@ -72,6 +77,43 @@
       ],
       "listingId": "monster-aquarium:7693850411217",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 39,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42946192638161",
+          "label": "4-5”",
+          "price": 39,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7693850411217",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "73420",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:73420",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

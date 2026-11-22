@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:geophagus-cf",
-  "commonName": "Geophagus cf. brachybranchus",
+  "commonName": "Geophagus brachybranchus",
   "scientificName": "Geophagus cf",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398118322483",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Geophagus cf. brachybranchus",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Geophagus cf. brachybranchus"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:681971",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Geophagus brachybranchus"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "imperial-tropicals:8398118322483",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612144623923",
+          "label": "4-5” Unsexed",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398118322483",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "681971",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:681971",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

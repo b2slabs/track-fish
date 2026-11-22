@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:global-exoticquatics:10232989941952",
-  "commonName": "Albino Red Pacu",
-  "scientificName": null,
+  "commonName": "Albino Red Pacu (Piaractus brachypomum ‘albino’)",
+  "scientificName": "Piaractus brachypomum",
   "listings": [
     {
       "listingId": "global-exoticquatics:10232989941952",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Albino Red Pacu",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "Albino Red Pacu"
+    },
+    {
+      "listingId": "aqua-imports:42389",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Albino Red Pacu (Piaractus brachypomum ‘albino’)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "global-exoticquatics:10232989941952",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 80,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50356112097472",
+          "label": "8in",
+          "price": 80,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:10232989941952",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42389",
+          "label": "Default",
+          "price": 22.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:42389",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

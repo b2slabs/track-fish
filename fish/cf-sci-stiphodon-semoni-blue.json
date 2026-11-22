@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:stiphodon-semoni:blue",
-  "commonName": "Cobalt Blue Dwarf Goby | Stiphodon semoni",
+  "commonName": "Cobalt Blue Stiphodon Goby (Stiphodon semoni)",
   "scientificName": "Stiphodon semoni",
   "listings": [
     {
       "listingId": "aquatic-arts:3955804143702",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Cobalt Blue Dwarf Goby (Stiphodon semoni)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Cobalt Blue Dwarf Goby (Stiphodon semoni)"
     },
     {
       "listingId": "flip-aquatics:6853271027814",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Cobalt Blue Dwarf Goby | Stiphodon semoni",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Cobalt Blue Dwarf Goby | Stiphodon semoni"
+    },
+    {
+      "listingId": "aqua-imports:38013",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Cobalt Blue Stiphodon Goby (Stiphodon semoni)"
     }
   ],
   "events": [
@@ -70,6 +74,72 @@
       ],
       "listingId": "flip-aquatics:6853271027814",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29515434721366",
+          "label": "1 Fish",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "29515434754134",
+          "label": "Group of 3",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "29515434786902",
+          "label": "Group of 6",
+          "price": 46.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:3955804143702",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 17.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40059662499942",
+          "label": "Imported / 1 Fish",
+          "price": 17.49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6853271027814",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "38013",
+          "label": "Default",
+          "price": 13.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38013",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:nationwide-aquatics-usa:8818976751769",
-  "commonName": "morse code tetra (hemmigrammus sp.)",
+  "commonName": "Morse Code Tetra (Hemigrammus sp. Morse Code)",
   "scientificName": null,
   "listings": [
     {
       "listingId": "nationwide-aquatics-usa:8818976751769",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "morse code tetra (hemmigrammus sp.)",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "morse code tetra (hemmigrammus sp.)"
+    },
+    {
+      "listingId": "aqua-imports:112345",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Morse Code Tetra (Hemigrammus sp. Morse Code)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nationwide-aquatics-usa:8818976751769",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 10,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48352420954265",
+          "label": "Title",
+          "price": 10,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8818976751769",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "112345",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:112345",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

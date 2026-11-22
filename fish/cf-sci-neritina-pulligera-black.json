@@ -7,29 +7,31 @@
       "listingId": "aquatic-arts:4842616390",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Black Racer AKA Military Nerite Snails (Neritina pulligera)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Black Racer AKA Military Nerite Snails (Neritina pulligera)"
     },
     {
       "listingId": "aquahuna:7500886278219",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Black Racer Nerite Snail",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Black Racer Nerite Snail"
     },
     {
       "listingId": "flip-aquatics:7064018813030",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "3 Black Military Helmet Nerite Snails",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "3 Black Military Helmet Nerite Snails"
     },
     {
       "listingId": "imperial-tropicals:10477793018163",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Black Racer Nerite Snail (Neritina pulligera)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Black Racer Nerite Snail (Neritina pulligera)"
+    },
+    {
+      "listingId": "aqua-imports:98586",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Black Racer Nerite Snail (Neritina pulligera)"
     }
   ],
   "events": [
@@ -334,6 +336,130 @@
       ],
       "listingId": "imperial-tropicals:10477793018163",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15862931782",
+          "label": "1 Snail",
+          "price": 3.99,
+          "available": false
+        },
+        {
+          "id": "43320461772",
+          "label": "3 Snails",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "43320461836",
+          "label": "5 Snails",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "43320461964",
+          "label": "10 Snails",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4842616390",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 3,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41949338959947",
+          "label": "Title",
+          "price": 3,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7500886278219",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40933811126374",
+          "label": "3 Pack",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:7064018813030",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 1.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "54128859808051",
+          "label": "B-Grade 0.5-1\" Unsexed",
+          "price": 1.99,
+          "available": true
+        },
+        {
+          "id": "54128834937139",
+          "label": "(3 Pack) 0.5-1\" Unsexed",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "54128843620659",
+          "label": "(6 Pack) 0.5-1\" Unsexed",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "54128852205875",
+          "label": "(10 Pack) 0.5-1\" Unsexed",
+          "price": 23.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:10477793018163",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 3.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "98586",
+          "label": "Default",
+          "price": 3.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:98586",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:semaprochilodus-taeniurus",
-  "commonName": "Flagtail Prochilodus",
+  "commonName": "Flagtail Prochilodus (Semaprochilodus taeniurus)",
   "scientificName": "Semaprochilodus taeniurus",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398087127347",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Flagtail Prochilodus",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Flagtail Prochilodus"
+    },
+    {
+      "listingId": "aqua-imports:38425",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Flagtail Prochilodus (Semaprochilodus taeniurus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "imperial-tropicals:8398087127347",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612071977267",
+          "label": "4-5”  Unsexed",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398087127347",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38425",
+          "label": "Default",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38425",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

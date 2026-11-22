@@ -7,8 +7,13 @@
       "listingId": "aquarium-fish:7807012550",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Regal Angelfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Regal Angelfish"
+    },
+    {
+      "listingId": "aqua-imports:85287",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Regal Angelfish"
     }
   ],
   "events": [
@@ -49,6 +54,61 @@
       ],
       "listingId": "aquarium-fish:7807012550",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 302.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "25254937606",
+          "label": "Red Sea / Medium (3-4\")",
+          "price": 364.79,
+          "available": false
+        },
+        {
+          "id": "761683279897",
+          "label": "Red Sea / Large (4-5\")",
+          "price": 425.29,
+          "available": true
+        },
+        {
+          "id": "51338716184875",
+          "label": "Indo-Pacific / Medium (3-4\")",
+          "price": 302.99,
+          "available": true
+        },
+        {
+          "id": "51338716217643",
+          "label": "Indo-Pacific / Large (4-5\")",
+          "price": 324.49,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:7807012550",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 199.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "85287",
+          "label": "Default",
+          "price": 199.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:85287",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

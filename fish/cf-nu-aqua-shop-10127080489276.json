@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10127080489276",
-  "commonName": "Trigonostigma Truncata",
+  "commonName": "Trigonostigma truncata",
   "scientificName": null,
   "listings": [
     {
       "listingId": "nu-aqua-shop:10127080489276",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Trigonostigma Truncata",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Trigonostigma Truncata"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:685420",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Trigonostigma truncata"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nu-aqua-shop:10127080489276",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52016254648636",
+          "label": "Title",
+          "price": 5.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10127080489276",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "685420",
+          "label": "Default",
+          "price": 2.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:685420",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

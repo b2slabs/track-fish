@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:corydoras-robustus",
-  "commonName": "Robustus Cory (Corydoras robustus )",
+  "commonName": "Corydoras robustus",
   "scientificName": "Corydoras robustus",
   "listings": [
     {
       "listingId": "monster-aquarium:7231073485009",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Robustus Cory (Corydoras robustus )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Robustus Cory (Corydoras robustus )"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:682687",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Corydoras robustus"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "monster-aquarium:7231073485009",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41517150601425",
+          "label": "2.5-3”",
+          "price": 49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7231073485009",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "682687",
+          "label": "Default",
+          "price": 59.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:682687",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

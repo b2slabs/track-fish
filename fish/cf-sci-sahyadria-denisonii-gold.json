@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:sahyadria-denisonii:gold",
-  "commonName": "Golden Roseline Shark",
+  "commonName": "Gold Roseline Shark (Sahyadria denisonii)",
   "scientificName": "Sahyadria denisonii",
   "listings": [
     {
       "listingId": "aquahuna:6829983137867",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Gold Roseline Shark",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Gold Roseline Shark"
     },
     {
       "listingId": "global-exoticquatics:8309396996288",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Golden Roseline Shark",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "Golden Roseline Shark"
+    },
+    {
+      "listingId": "aqua-imports:96226",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Gold Roseline Shark (Sahyadria denisonii)"
     }
   ],
   "events": [
@@ -84,6 +88,66 @@
       ],
       "listingId": "global-exoticquatics:8309396996288",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 20,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40011175886923",
+          "label": "Title",
+          "price": 20,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6829983137867",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46706386665664",
+          "label": "2-2.5 inch",
+          "price": 50,
+          "available": true
+        },
+        {
+          "id": "50787876765888",
+          "label": "1-1.5in",
+          "price": 25,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8309396996288",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "96226",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:96226",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

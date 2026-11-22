@@ -7,29 +7,25 @@
       "listingId": "monster-aquarium:6970124271825",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Gold Laser Cory (Corydoras sp. CW010)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Gold Laser Cory (Corydoras sp. CW010)"
     },
     {
       "listingId": "aquahuna:4720258809931",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Gold Laser Cory",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Gold Laser Cory"
     },
     {
       "listingId": "ck-fish-world:8150020358359",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Gold Laser Cory",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Gold Laser Cory"
     },
     {
       "listingId": "shrimpy-business:6751643926613",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Gold Laser Corydoras (Tank-Bred)",
-      "lastCheckedAt": "2026-11-22T06:57:34.146Z"
+      "commonName": "Gold Laser Corydoras (Tank-Bred)"
     }
   ],
   "events": [
@@ -201,6 +197,110 @@
       ],
       "listingId": "aquahuna:4720258809931",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41513894904017",
+          "label": "1-1.25”",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "40854023143633",
+          "label": "1.5-2”",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6970124271825",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 13.9,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "33015200710731",
+          "label": "Title",
+          "price": 13.9,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4720258809931",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 21.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336094343383",
+          "label": "1",
+          "price": 21.98,
+          "available": true
+        },
+        {
+          "id": "45336094376151",
+          "label": "3",
+          "price": 64.98,
+          "available": true
+        },
+        {
+          "id": "45336094408919",
+          "label": "5",
+          "price": 99.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150020358359",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 24.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40041168044117",
+          "label": "1 Fish",
+          "price": 24.95,
+          "available": false
+        },
+        {
+          "id": "40041168076885",
+          "label": "3 Fish",
+          "price": 67.95,
+          "available": false
+        },
+        {
+          "id": "51662845411618",
+          "label": "6 Fish",
+          "price": 126.95,
+          "available": false
+        },
+        {
+          "id": "51662845444386",
+          "label": "12 Fish",
+          "price": 239.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6751643926613",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10430471274812",
-  "commonName": "Orange Zebra Otocinclus",
-  "scientificName": null,
+  "commonName": "Orange Zebra Oto (Hypoptopoma sp. ‘Peru Orange’)",
+  "scientificName": "Hypoptopoma sp.",
   "listings": [
     {
       "listingId": "nu-aqua-shop:10430471274812",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Orange Zebra Otocinclus",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Orange Zebra Otocinclus"
+    },
+    {
+      "listingId": "aqua-imports:38975",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Orange Zebra Oto (Hypoptopoma sp. ‘Peru Orange’)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nu-aqua-shop:10430471274812",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53359130181948",
+          "label": "Title",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10430471274812",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "38975",
+          "label": "Default",
+          "price": 21.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38975",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

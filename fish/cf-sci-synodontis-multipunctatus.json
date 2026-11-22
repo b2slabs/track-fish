@@ -1,35 +1,43 @@
 {
   "canonicalFishId": "cf:sci:synodontis-multipunctatus",
-  "commonName": "Synodontis Multipunctatus",
+  "commonName": "Cuckoo Catfish (Synodontis multipunctatus)",
   "scientificName": "Synodontis multipunctatus",
   "listings": [
     {
       "listingId": "imperial-tropicals:8397975290163",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Cuckoo Catfish (Synodontis multipunctatus)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Cuckoo Catfish (Synodontis multipunctatus)"
     },
     {
       "listingId": "aquatic-arts:4735155273814",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Cuckoo Catfish (Synodontis multipunctata), Tank-Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Cuckoo Catfish (Synodontis multipunctata), Tank-Bred"
     },
     {
       "listingId": "aquarium-fish:6120846726",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Synodontis Multipunctatus",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Synodontis Multipunctatus"
     },
     {
       "listingId": "global-exoticquatics:8514229469376",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Synodontis Multipunctatus",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "Synodontis Multipunctatus"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:683774",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Synodontis multipunctatus"
+    },
+    {
+      "listingId": "aqua-imports:38684",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Cuckoo Catfish (Synodontis multipunctatus)"
     }
   ],
   "events": [
@@ -154,6 +162,156 @@
       ],
       "listingId": "global-exoticquatics:8514229469376",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32645992513622",
+          "label": "1 Fish",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "32645992546390",
+          "label": "Group of 3",
+          "price": 53.99,
+          "available": false
+        },
+        {
+          "id": "32645992579158",
+          "label": "Group of 6",
+          "price": 97.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4735155273814",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 32.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19376307206",
+          "label": "Medium",
+          "price": 32.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6120846726",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53980253192499",
+          "label": "0.5-1” Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "53980254732595",
+          "label": "(5 Pack) 0.5-1” Unsexed",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "45611723522355",
+          "label": "1-2” Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "45611723555123",
+          "label": "(5 Pack) 1-2” Unsexed",
+          "price": 114.99,
+          "available": false
+        },
+        {
+          "id": "45611723620659",
+          "label": "2-3” Unsexed",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "51624067432755",
+          "label": "3-4” Unsexed",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8397975290163",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 50,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47784142143680",
+          "label": "3.5-4in",
+          "price": 50,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8514229469376",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "683774",
+          "label": "Default",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:683774",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38684",
+          "label": "Default",
+          "price": 22.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38684",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -7,8 +7,13 @@
       "listingId": "monster-aquarium:7086098481361",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "L455 Tiger Chaetostoma Pleco (Chaetostoma sp. L455)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "L455 Tiger Chaetostoma Pleco (Chaetostoma sp. L455)"
+    },
+    {
+      "listingId": "aqua-imports:44784",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "L455 Tiger Chaetostoma Pleco (Chaetostoma sp. L455)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "monster-aquarium:7086098481361",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 29.08,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41172886094033",
+          "label": "2.5-3”",
+          "price": 29.08,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7086098481361",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44784",
+          "label": "Default",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:44784",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

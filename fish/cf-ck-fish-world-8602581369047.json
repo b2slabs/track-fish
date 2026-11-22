@@ -7,22 +7,19 @@
       "listingId": "ck-fish-world:8602581369047",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Black Lava Rock",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Black Lava Rock"
     },
     {
       "listingId": "buce-plant:10887082381",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Black Lava Rock",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Black Lava Rock"
     },
     {
       "listingId": "glass-aqua:1365154955350",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Black Lava Rock",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Black Lava Rock"
     }
   ],
   "events": [
@@ -127,6 +124,69 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:1365154955350",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45347175530711",
+          "label": "5",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45347175563479",
+          "label": "10",
+          "price": 38.98,
+          "available": true
+        },
+        {
+          "id": "45347175596247",
+          "label": "20",
+          "price": 77.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8602581369047",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46109077837",
+          "label": "Title",
+          "price": 44.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10887082381",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12471710449750",
+          "label": "Title",
+          "price": 44.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:1365154955350",
       "storeSlug": "glass-aqua"
     }

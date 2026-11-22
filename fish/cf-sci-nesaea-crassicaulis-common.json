@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:nesaea-crassicaulis-common",
-  "commonName": "Nesaea Crassicaulis",
+  "commonName": "Nesaea crassicaulis",
   "scientificName": "Nesaea crassicaulis common",
   "listings": [
     {
       "listingId": "buce-plant:3216740352081",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Nesaea Crassicaulis",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Nesaea Crassicaulis"
     },
     {
       "listingId": "glass-aqua:3991112253526",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Nesaea Crassicaulis",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Nesaea Crassicaulis"
+    },
+    {
+      "listingId": "aqua-imports:60108",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Nesaea crassicaulis"
     }
   ],
   "events": [
@@ -58,6 +62,60 @@
       ],
       "listingId": "glass-aqua:3991112253526",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "23978152722513",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:3216740352081",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29666903752790",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:3991112253526",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "60108",
+          "label": "Default",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60108",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

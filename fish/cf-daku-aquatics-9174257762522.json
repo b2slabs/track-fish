@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:daku-aquatics:9174257762522",
-  "commonName": "Cryptocoryne Wendtii ‘Florida Sunset’",
+  "commonName": "Cryptocoryne wendtii ‘Florida Sunset’",
   "scientificName": null,
   "listings": [
     {
       "listingId": "daku-aquatics:9174257762522",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
-      "commonName": "Cryptocoryne Wendtii ‘Florida Sunset’",
-      "lastCheckedAt": "2026-11-22T06:58:04.282Z"
+      "commonName": "Cryptocoryne Wendtii ‘Florida Sunset’"
+    },
+    {
+      "listingId": "aqua-imports:190178",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Cryptocoryne wendtii ‘Florida Sunset’"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "daku-aquatics:9174257762522",
       "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:25.196Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47614110990554",
+          "label": "Title",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:9174257762522",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "190178",
+          "label": "Default",
+          "price": 13.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:190178",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

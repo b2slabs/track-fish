@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:aphyosemion-australe:gold",
-  "commonName": "Gold Lyretail Panchax (Tank Bred)",
+  "commonName": "Gold Lyretail Killifish (Aphyosemion australe)",
   "scientificName": "Aphyosemion australe",
   "listings": [
     {
       "listingId": "shrimpy-business:9659297169698",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Gold Lyretail Panchax (Tank Bred)",
-      "lastCheckedAt": "2026-11-22T06:57:34.146Z"
+      "commonName": "Gold Lyretail Panchax (Tank Bred)"
+    },
+    {
+      "listingId": "aqua-imports:214596",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Gold Lyretail Killifish (Aphyosemion australe)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "shrimpy-business:9659297169698",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 27.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49703610974498",
+          "label": "1 Fish",
+          "price": 27.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9659297169698",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "214596",
+          "label": "Default",
+          "price": 16.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:214596",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

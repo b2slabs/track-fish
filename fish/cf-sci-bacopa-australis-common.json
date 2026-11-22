@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:bacopa-australis-common",
-  "commonName": "Bacopa Australis",
+  "commonName": "Bacopa australis",
   "scientificName": "Bacopa australis common",
   "listings": [
     {
       "listingId": "buce-plant:472320245800",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Bacopa Australis",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Bacopa Australis"
     },
     {
       "listingId": "glass-aqua:1346977300566",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Bacopa Australis",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Bacopa Australis"
+    },
+    {
+      "listingId": "aqua-imports:60046",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Bacopa australis"
     }
   ],
   "events": [
@@ -96,6 +100,72 @@
       ],
       "listingId": "buce-plant:472320245800",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "3863028498472",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12396984664145",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:472320245800",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12388430544982",
+          "label": "Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12712433811542",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:1346977300566",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "60046",
+          "label": "Default",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60046",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

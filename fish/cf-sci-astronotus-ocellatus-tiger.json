@@ -1,35 +1,37 @@
 {
   "canonicalFishId": "cf:sci:astronotus-ocellatus:tiger",
-  "commonName": "Tiger Oscar",
+  "commonName": "Nemo Tiger Oscar (Astronotus ocellatus)",
   "scientificName": "Astronotus ocellatus",
   "listings": [
     {
       "listingId": "monster-aquarium:7167883739345",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Short Body Tiger Oscar (Astronotus ocellatus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Short Body Tiger Oscar (Astronotus ocellatus)"
     },
     {
       "listingId": "aquarium-fish:5951733062",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Tiger Oscar",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Tiger Oscar"
     },
     {
       "listingId": "imperial-tropicals:8398037483827",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Tiger Oscar",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Tiger Oscar"
     },
     {
       "listingId": "aquatic-arts:4508614099030",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Tiger Oscar (Astronotus ocellatus), Tank-Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Tiger Oscar (Astronotus ocellatus), Tank-Bred"
+    },
+    {
+      "listingId": "aqua-imports:130298",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Nemo Tiger Oscar (Astronotus ocellatus)"
     }
   ],
   "events": [
@@ -148,6 +150,130 @@
       ],
       "listingId": "imperial-tropicals:8398037483827",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31776753680470",
+          "label": "1 Juvenile",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "31776753713238",
+          "label": "Group of 3 Juveniles",
+          "price": 27.99,
+          "available": false
+        },
+        {
+          "id": "31776753746006",
+          "label": "Group of 6 Juveniles",
+          "price": 52.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4508614099030",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 65,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41374535844049",
+          "label": "5-6”",
+          "price": 65,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7167883739345",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 15.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44878033289515",
+          "label": "Small (1.5-2\")",
+          "price": 15.29,
+          "available": true
+        },
+        {
+          "id": "44878033322283",
+          "label": "Medium (2-3\")",
+          "price": 23.79,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:5951733062",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611911119155",
+          "label": "1-2” Unsexed",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "45611911151923",
+          "label": "2-3” Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "49593160958259",
+          "label": "3-4” Unsexed",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "45611911184691",
+          "label": "4-5” Unsexed",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398037483827",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "130298",
+          "label": "Default",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:130298",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

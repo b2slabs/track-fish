@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:antennarius-sp:yellow",
-  "commonName": "Yellow Anglerfish",
+  "commonName": "Yellow Angelfish (Centropyge heraldi)",
   "scientificName": "Antennarius sp.",
   "listings": [
     {
       "listingId": "aquarium-fish:10113931968811",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Yellow Anglerfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Yellow Anglerfish"
+    },
+    {
+      "listingId": "aqua-imports:110848",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Yellow Angelfish (Centropyge heraldi)"
     }
   ],
   "events": [
@@ -76,6 +81,55 @@
       ],
       "listingId": "aquarium-fish:10113931968811",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 231.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51391590433067",
+          "label": "Small (1-2\")",
+          "price": 231.29,
+          "available": false
+        },
+        {
+          "id": "51391596298539",
+          "label": "Medium (2-3.5\")",
+          "price": 243.29,
+          "available": false
+        },
+        {
+          "id": "51391596331307",
+          "label": "Large (3.5-5\")",
+          "price": 394.79,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10113931968811",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "110848",
+          "label": "Default",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:110848",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

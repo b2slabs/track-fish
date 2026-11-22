@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:rasbora-kalochroma-origin",
-  "commonName": "Clown Rasbora",
+  "commonName": "Clown Rasbora (Rasbora kalochroma)",
   "scientificName": "Rasbora kalochroma origin",
   "listings": [
     {
       "listingId": "aquarium-fish:1592248762438",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Clown Rasbora",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Clown Rasbora"
     },
     {
       "listingId": "imperial-tropicals:8398138278195",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Clown Rasbora",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Clown Rasbora"
     },
     {
       "listingId": "monster-aquarium:7325267460305",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Clown Rasbora ( Rasbora kalochroma )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Clown Rasbora ( Rasbora kalochroma )"
+    },
+    {
+      "listingId": "aqua-imports:101086",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Clown Rasbora (Rasbora kalochroma)"
     }
   ],
   "events": [
@@ -105,6 +108,77 @@
       ],
       "listingId": "imperial-tropicals:8398138278195",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41842076680401",
+          "label": ".5\"",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7325267460305",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "14404668194886",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1592248762438",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612191121715",
+          "label": "2\" Unsexed",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398138278195",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "101086",
+          "label": "Default",
+          "price": 7.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:101086",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

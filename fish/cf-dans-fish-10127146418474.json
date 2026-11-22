@@ -1,7 +1,7 @@
 {
   "canonicalFishId": "cf:dans-fish:10127146418474",
-  "commonName": "Mikolji's Oscar",
-  "scientificName": null,
+  "commonName": "Mikolji Oscar (Astronotus mikolji)",
+  "scientificName": "Astronotus mikolji",
   "listings": [
     {
       "listingId": "dans-fish:10127146418474",
@@ -9,6 +9,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Mikolji's Oscar",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:126176",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Mikolji Oscar (Astronotus mikolji)"
     }
   ],
   "events": [
@@ -31,6 +37,26 @@
       ],
       "listingId": "dans-fish:10127146418474",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 79.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "126176",
+          "label": "Default",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:126176",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

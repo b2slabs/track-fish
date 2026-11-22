@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:cherax-holthuisi",
-  "commonName": "Apricot Crayfish (Cherax holthuisi var. “Apricot”), Tank-Bred!",
+  "commonName": "Papuan Apricot Crayfish (Cherax holthuisi)",
   "scientificName": "Cherax holthuisi",
   "listings": [
     {
       "listingId": "aquatic-arts:71915438092",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Apricot Crayfish (Cherax holthuisi var. “Apricot”), Tank-Bred!",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Apricot Crayfish (Cherax holthuisi var. “Apricot”), Tank-Bred!"
+    },
+    {
+      "listingId": "aqua-imports:59713",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Papuan Apricot Crayfish (Cherax holthuisi)"
     }
   ],
   "events": [
@@ -49,6 +54,61 @@
       ],
       "listingId": "aquatic-arts:71915438092",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "624165289996",
+          "label": "1 Male Young Adult",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "624165322764",
+          "label": "1 Female Young Adult",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "624165355532",
+          "label": "1 Male/Female Young Adult Pair",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "624165388300",
+          "label": "1 B-Grade Young Adult",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:71915438092",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "59713",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:59713",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

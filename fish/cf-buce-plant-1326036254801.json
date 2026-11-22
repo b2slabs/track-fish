@@ -7,15 +7,13 @@
       "listingId": "buce-plant:1326036254801",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "SL-Aqua Bio Protector Z1",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "SL-Aqua Bio Protector Z1"
     },
     {
       "listingId": "glass-aqua:4625469046870",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "SL Aqua Z1 Bio Protector",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "SL Aqua Z1 Bio Protector"
     }
   ],
   "events": [
@@ -68,6 +66,52 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:4625469046870",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12225133609041",
+          "label": "10g",
+          "price": 23.99,
+          "available": true
+        },
+        {
+          "id": "41802972266696",
+          "label": "100g",
+          "price": 74.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:1326036254801",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39967951749206",
+          "label": "10G",
+          "price": 23.99,
+          "available": true
+        },
+        {
+          "id": "39967951781974",
+          "label": "100G",
+          "price": 74.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:4625469046870",
       "storeSlug": "glass-aqua"
     }

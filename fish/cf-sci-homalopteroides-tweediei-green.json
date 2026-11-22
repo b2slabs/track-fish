@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:homalopteroides-tweediei:green",
-  "commonName": "Green Lizard Loach",
+  "commonName": "Green Lizard Loach (Homalopteroides cf. smithi)",
   "scientificName": "Homalopteroides tweediei",
   "listings": [
     {
       "listingId": "aquatic-arts:3592048902230",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Alligator AKA Green Lizard Hillstream Loach (Homalopteroides tweediei)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Alligator AKA Green Lizard Hillstream Loach (Homalopteroides tweediei)"
     },
     {
       "listingId": "aquarium-fish:4547818618961",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Green Lizard Loach",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Green Lizard Loach"
+    },
+    {
+      "listingId": "aqua-imports:126254",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Green Lizard Loach (Homalopteroides cf. smithi)"
     }
   ],
   "events": [
@@ -143,6 +147,66 @@
       ],
       "listingId": "aquarium-fish:4547818618961",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 27.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "28330424270934",
+          "label": "Group of 3",
+          "price": 27.99,
+          "available": false
+        },
+        {
+          "id": "28330424303702",
+          "label": "Group of 6",
+          "price": 47.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:3592048902230",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32032583450705",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4547818618961",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "126254",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:126254",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

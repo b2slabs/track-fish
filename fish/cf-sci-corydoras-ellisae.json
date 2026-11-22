@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:corydoras-ellisae",
-  "commonName": "Corydoras ellisae",
+  "commonName": "Ellis Cory (Corydoras ellisae)",
   "scientificName": "Corydoras ellisae",
   "listings": [
     {
       "listingId": "aquahuna:6980950261835",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Corydoras ellisae",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Corydoras ellisae"
+    },
+    {
+      "listingId": "aqua-imports:131602",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Ellis Cory (Corydoras ellisae)"
     }
   ],
   "events": [
@@ -156,6 +161,43 @@
       ],
       "listingId": "aquahuna:6980950261835",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40447938134091",
+          "label": "Title",
+          "price": 8,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6980950261835",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "131602",
+          "label": "Default",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:131602",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

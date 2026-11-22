@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:halichoeres-melanurus",
-  "commonName": "Melanurus Wrasse",
+  "commonName": "Melanurus Wrasse (Halichoeres melanurus)",
   "scientificName": "Halichoeres melanurus",
   "listings": [
     {
       "listingId": "aquarium-fish:11164802636",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Melanurus Wrasse",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Melanurus Wrasse"
+    },
+    {
+      "listingId": "aqua-imports:169081",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Melanurus Wrasse (Halichoeres melanurus)"
     }
   ],
   "events": [
@@ -64,6 +69,49 @@
       ],
       "listingId": "aquarium-fish:11164802636",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 59.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "186031112217",
+          "label": "Medium (1.5-2.5\")",
+          "price": 59.79,
+          "available": true
+        },
+        {
+          "id": "42170238220",
+          "label": "Large (2.5-3.5\")",
+          "price": 72.79,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:11164802636",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 89.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "169081",
+          "label": "Default",
+          "price": 89.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:169081",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

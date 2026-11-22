@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:xiphophorus-helleri",
-  "commonName": "Berlin Swordtail | Xiphophorus helleri",
+  "commonName": "Assorted Swordtail (Xiphophorus helleri)",
   "scientificName": "Xiphophorus helleri",
   "listings": [
     {
       "listingId": "shrimpy-business:9794075328802",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Grade A Kohaku Lyretail Swordtail",
-      "lastCheckedAt": "2026-11-22T06:57:34.146Z"
+      "commonName": "Grade A Kohaku Lyretail Swordtail"
     },
     {
       "listingId": "aquahuna:7147532812363",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Assorted Double Swordtail",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Assorted Double Swordtail"
     },
     {
       "listingId": "flip-aquatics:6818523414630+7089737334886",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Berlin Swordtail | Xiphophorus helleri",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Berlin Swordtail | Xiphophorus helleri"
+    },
+    {
+      "listingId": "aqua-imports:116706+164154+57417",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Assorted Swordtail (Xiphophorus helleri)"
     }
   ],
   "events": [
@@ -325,6 +328,101 @@
       ],
       "listingId": "flip-aquatics:6818523414630+7089737334886",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 6.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40830360748107",
+          "label": "Title",
+          "price": 6.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7147532812363",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 39.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50132720320802",
+          "label": "1 Male",
+          "price": 39.5,
+          "available": false
+        },
+        {
+          "id": "50132720353570",
+          "label": "1 Female",
+          "price": 39.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9794075328802",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41007642411110",
+          "label": "Imported / 1 Fish",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "39914648404070",
+          "label": "Imported / 1 Fish",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6818523414630+7089737334886",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "164154",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "116706",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        },
+        {
+          "id": "57417",
+          "label": "Default",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:116706+164154+57417",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

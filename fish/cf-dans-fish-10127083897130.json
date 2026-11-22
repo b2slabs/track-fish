@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:dans-fish:10127083897130",
-  "commonName": "True Siamese Algae Eater",
+  "commonName": "True Siamese Algae Eater (Crossocheilus cf. siamensis)",
   "scientificName": null,
   "listings": [
     {
@@ -9,6 +9,12 @@
       "storeName": "Dan's Fish",
       "commonName": "True Siamese Algae Eater",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:43427",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "True Siamese Algae Eater (Crossocheilus cf. siamensis)"
     }
   ],
   "events": [
@@ -31,6 +37,26 @@
       ],
       "listingId": "dans-fish:10127083897130",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43427",
+          "label": "Default",
+          "price": 3.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:43427",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -7,15 +7,13 @@
       "listingId": "aquatic-arts:4752151814",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Pacific Signifier Blue Eye Rainbowfish (Pseudomugil signifer) - Tank-Bred!",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Pacific Signifier Blue Eye Rainbowfish (Pseudomugil signifer) - Tank-Bred!"
     },
     {
       "listingId": "shrimpy-business:9841023844642",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Pacific Signifier Blue Eye Rainbowfish (Tank-Bred)",
-      "lastCheckedAt": "2026-11-22T06:57:34.146Z"
+      "commonName": "Pacific Signifier Blue Eye Rainbowfish (Tank-Bred)"
     }
   ],
   "events": [
@@ -92,6 +90,76 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "shrimpy-business:9841023844642",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15531394310",
+          "label": "School of 3",
+          "price": 21.99,
+          "available": true
+        },
+        {
+          "id": "15531394374",
+          "label": "School of 6",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "id": "12202491445334",
+          "label": "School of 9",
+          "price": 64.99,
+          "available": true
+        },
+        {
+          "id": "15531394438",
+          "label": "School of 12",
+          "price": 99.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4752151814",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 13.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50297663619362",
+          "label": "2 Fish",
+          "price": 13.95,
+          "available": false
+        },
+        {
+          "id": "50297663652130",
+          "label": "4 Fish",
+          "price": 24.95,
+          "available": false
+        },
+        {
+          "id": "51662835319074",
+          "label": "8 Fish",
+          "price": 46.95,
+          "available": false
+        },
+        {
+          "id": "51662835351842",
+          "label": "16 Fish",
+          "price": 88.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "shrimpy-business:9841023844642",
       "storeSlug": "shrimpy-business"
     }

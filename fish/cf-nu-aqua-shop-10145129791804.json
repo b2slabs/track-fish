@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10145129791804",
-  "commonName": "Banded Darter Characin",
+  "commonName": "Banded Darter Characin (Characidium cf. fasciatum)",
   "scientificName": null,
   "listings": [
     {
       "listingId": "nu-aqua-shop:10145129791804",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Banded Darter Characin",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Banded Darter Characin"
+    },
+    {
+      "listingId": "aqua-imports:40248",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Banded Darter Characin (Characidium cf. fasciatum)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nu-aqua-shop:10145129791804",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52107512381756",
+          "label": "Title",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10145129791804",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40248",
+          "label": "Default",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:40248",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

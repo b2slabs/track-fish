@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:scleromystax-barbatus-origin",
-  "commonName": "Barbatus Cory",
+  "commonName": "Barbatus Cory (Scleromstax barbatus)",
   "scientificName": "Scleromystax barbatus origin",
   "listings": [
     {
       "listingId": "aquarium-fish:10420732657963",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Barbatus Cory",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Barbatus Cory"
     },
     {
       "listingId": "aquahuna:7894971187275",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Barbatus Cory",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Barbatus Cory"
+    },
+    {
+      "listingId": "aqua-imports:75041",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Barbatus Cory (Scleromstax barbatus)"
     }
   ],
   "events": [
@@ -141,6 +145,60 @@
       ],
       "listingId": "aquarium-fish:10420732657963",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 15,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42704958390347",
+          "label": "Title",
+          "price": 15,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7894971187275",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53752940888363",
+          "label": "Title",
+          "price": 26.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10420732657963",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "75041",
+          "label": "Default",
+          "price": 16.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:75041",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

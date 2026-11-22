@@ -7,15 +7,13 @@
       "listingId": "buce-plant:8344379064520",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Rasamala Root",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Rasamala Root"
     },
     {
       "listingId": "glass-aqua:10316756811862",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Rasamala Root",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Rasamala Root"
     }
   ],
   "events": [
@@ -92,6 +90,76 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:10316756811862",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45221328093384",
+          "label": "XL",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "45221328126152",
+          "label": "2XL",
+          "price": 53.99,
+          "available": true
+        },
+        {
+          "id": "45221358010568",
+          "label": "3XL",
+          "price": 65.99,
+          "available": true
+        },
+        {
+          "id": "45221358043336",
+          "label": "JUMBO",
+          "price": 91.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8344379064520",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50532723785814",
+          "label": "XL",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "50532723818582",
+          "label": "2X",
+          "price": 53.99,
+          "available": true
+        },
+        {
+          "id": "50532723851350",
+          "label": "3X",
+          "price": 65.99,
+          "available": true
+        },
+        {
+          "id": "50532723884118",
+          "label": "Jumbo",
+          "price": 91.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:10316756811862",
       "storeSlug": "glass-aqua"
     }

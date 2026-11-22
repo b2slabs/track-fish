@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:rotala-macandra-shipping",
-  "commonName": "Rotala Macrandra",
+  "commonName": "Rotala macrandra",
   "scientificName": "Rotala macandra shipping",
   "listings": [
     {
       "listingId": "aquarium-fish:4603451801681",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Rotala macranda",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Rotala macranda"
     },
     {
       "listingId": "buce-plant:7468946686152",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Rotala Macrandra",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Rotala Macrandra"
+    },
+    {
+      "listingId": "aqua-imports:60130",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Rotala macrandra"
     }
   ],
   "events": [
@@ -58,6 +62,60 @@
       ],
       "listingId": "buce-plant:7468946686152",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32262113099857",
+          "label": "Title",
+          "price": 7.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4603451801681",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42418681086152",
+          "label": "Title",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7468946686152",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "60130",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60130",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

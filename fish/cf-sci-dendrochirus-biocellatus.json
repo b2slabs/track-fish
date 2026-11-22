@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:dendrochirus-biocellatus",
-  "commonName": "Fu Manchu Lionfish",
+  "commonName": "Fu Manchu/Twinspot Lionfish (Dendrochirus biocellatus)",
   "scientificName": "Dendrochirus biocellatus",
   "listings": [
     {
       "listingId": "aquarium-fish:9978056900907",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Fu Manchu Lionfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Fu Manchu Lionfish"
+    },
+    {
+      "listingId": "aqua-imports:155622",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Fu Manchu/Twinspot Lionfish (Dendrochirus biocellatus)"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "aquarium-fish:9978056900907",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 77.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51385092636971",
+          "label": "Small (1-2\")",
+          "price": 77.79,
+          "available": false
+        },
+        {
+          "id": "50540595806507",
+          "label": "Medium (2-3\")",
+          "price": 95.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9978056900907",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "155622",
+          "label": "Default",
+          "price": 99.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:155622",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

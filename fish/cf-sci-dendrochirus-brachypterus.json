@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:dendrochirus-brachypterus",
-  "commonName": "Dwarf Fuzzy Lionfish",
+  "commonName": "Fuzzy Dwarf Lionfish (Dendrochirus brachypterus)",
   "scientificName": "Dendrochirus brachypterus",
   "listings": [
     {
       "listingId": "aquarium-fish:7915232070",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Dwarf Fuzzy Lionfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Dwarf Fuzzy Lionfish"
+    },
+    {
+      "listingId": "aqua-imports:119977",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Fuzzy Dwarf Lionfish (Dendrochirus brachypterus)"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "aquarium-fish:7915232070",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 72.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51385095782699",
+          "label": "Small (1-2\")",
+          "price": 72.79,
+          "available": false
+        },
+        {
+          "id": "21347892002897",
+          "label": "Medium (2-3\")",
+          "price": 109.79,
+          "available": false
+        },
+        {
+          "id": "51329242628395",
+          "label": "Large (3-4\")",
+          "price": 145.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:7915232070",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "119977",
+          "label": "Default",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:119977",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

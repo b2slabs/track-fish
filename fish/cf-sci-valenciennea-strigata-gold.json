@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:valenciennea-strigata:gold",
-  "commonName": "Gold Head Sleeper Goby",
+  "commonName": "Golden Head Sleeper Goby (Valenciennea strigata)",
   "scientificName": "Valenciennea strigata",
   "listings": [
     {
       "listingId": "aquarium-fish:6999204626513",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Gold Head Sleeper Goby",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Gold Head Sleeper Goby"
+    },
+    {
+      "listingId": "aqua-imports:108661",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Golden Head Sleeper Goby (Valenciennea strigata)"
     }
   ],
   "events": [
@@ -76,6 +81,55 @@
       ],
       "listingId": "aquarium-fish:6999204626513",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 37.05,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40154490765393",
+          "label": "Small (1-2.5\")",
+          "price": 37.05,
+          "available": true
+        },
+        {
+          "id": "40154490241105",
+          "label": "Medium (2.5-3.5\")",
+          "price": 53.54,
+          "available": true
+        },
+        {
+          "id": "40154500235345",
+          "label": "Large (3.5-5\")",
+          "price": 66.12,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6999204626513",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "108661",
+          "label": "Default",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:108661",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

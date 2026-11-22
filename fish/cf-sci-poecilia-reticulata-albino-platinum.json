@@ -1,21 +1,19 @@
 {
   "canonicalFishId": "cf:sci:poecilia-reticulata:albino-platinum",
-  "commonName": "Albino Full Platinum Guppy",
+  "commonName": "Albino Full Platinum Guppies",
   "scientificName": "Poecilia reticulata",
   "listings": [
     {
       "listingId": "aquatic-arts:1376867516502",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Full Platinum Albino Guppy, (Poecilia reticulata var. \"Full Platinum Albino\") - Tank-Bred!",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Full Platinum Albino Guppy, (Poecilia reticulata var. \"Full Platinum Albino\") - Tank-Bred!"
     },
     {
       "listingId": "monster-aquarium:7241734815953+7241734881489",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Albino platinum guppy (male) (Poecilia reticulata)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Albino platinum guppy (male) (Poecilia reticulata)"
     },
     {
       "listingId": "dans-fish:10127104704810",
@@ -23,6 +21,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Albino Full Platinum Guppy",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "buce-plant:7447977754824",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Albino Full Platinum Guppies"
     }
   ],
   "events": [
@@ -129,6 +133,38 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43637665497288",
+          "label": "Single Male",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "43637665530056",
+          "label": "Single Female",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "43637665562824",
+          "label": "Pair",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:7447977754824",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-21T20:07:35.821Z",
       "price": 12,
       "currency": "USD",
@@ -185,6 +221,117 @@
       ],
       "listingId": "dans-fish:10127104704810",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12730825474134",
+          "label": "1 Male/Female Pair",
+          "price": 14.98,
+          "available": false
+        },
+        {
+          "id": "12730825506902",
+          "label": "3 Male/Female Pairs",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "12730825539670",
+          "label": "1 Male",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "12730825572438",
+          "label": "2 Males",
+          "price": 17.79,
+          "available": false
+        },
+        {
+          "id": "12730825605206",
+          "label": "3 Males",
+          "price": 33.99,
+          "available": false
+        },
+        {
+          "id": "12730825670742",
+          "label": "1 Female",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "12730825703510",
+          "label": "2 Females",
+          "price": 11.78,
+          "available": false
+        },
+        {
+          "id": "12730825736278",
+          "label": "3 Females",
+          "price": 21.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1376867516502",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41538072576209",
+          "label": "1-1.5\"",
+          "price": 12,
+          "available": false
+        },
+        {
+          "id": "41538072477905",
+          "label": "1-1.5\"",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7241734815953+7241734881489",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43637665497288",
+          "label": "Single Male",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "43637665530056",
+          "label": "Single Female",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "43637665562824",
+          "label": "Pair",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7447977754824",
+      "storeSlug": "buce-plant"
     }
   ]
 }

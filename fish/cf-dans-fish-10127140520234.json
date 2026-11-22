@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:dans-fish:10127140520234",
-  "commonName": "L097 Polka Dot Cactus Pleco",
+  "commonName": "L097 Polka Dot Cactus Pleco (Pseudacanthicus sp. L097)",
   "scientificName": null,
   "listings": [
     {
@@ -9,6 +9,12 @@
       "storeName": "Dan's Fish",
       "commonName": "L097 Polka Dot Cactus Pleco",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:66241",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "L097 Polka Dot Cactus Pleco (Pseudacanthicus sp. L097)"
     }
   ],
   "events": [
@@ -31,6 +37,26 @@
       ],
       "listingId": "dans-fish:10127140520234",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 124.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "66241",
+          "label": "Default",
+          "price": 124.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:66241",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,35 +1,37 @@
 {
   "canonicalFishId": "cf:sci:gymnothorax-fimbriatus-origin:tiger",
-  "commonName": "Tiger Moray Eel",
+  "commonName": "Tiger Moray Eel (Gymnothorax polyuranodon)",
   "scientificName": "Gymnothorax polyuranodon",
   "listings": [
     {
       "listingId": "monster-aquarium:6972165357777",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Tiger Moray Eel (Gymnothorax Polyuranodon)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Tiger Moray Eel (Gymnothorax Polyuranodon)"
     },
     {
       "listingId": "aquarium-fish:9974121070891",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Tiger Moray Eel",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Tiger Moray Eel"
     },
     {
       "listingId": "global-exoticquatics:8241441308864",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Tiger Moray Eel",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "Tiger Moray Eel"
     },
     {
       "listingId": "nationwide-aquatics-usa:15482234470553+15484032614553",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Tiger Moray Eel (Gymnothorax polyuranodon)  15\"",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "Tiger Moray Eel (Gymnothorax polyuranodon)  15\""
+    },
+    {
+      "listingId": "aqua-imports:38614",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Tiger Moray Eel (Gymnothorax polyuranodon)"
     }
   ],
   "events": [
@@ -170,6 +172,112 @@
       ],
       "listingId": "nationwide-aquatics-usa:15482234470553+15484032614553",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 70,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41001045065937",
+          "label": "7\"-9\"",
+          "price": 70,
+          "available": true
+        },
+        {
+          "id": "40858678886609",
+          "label": "10-14”",
+          "price": 149.99,
+          "available": false
+        },
+        {
+          "id": "41450917757137",
+          "label": "20-24”",
+          "price": 300,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6972165357777",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 65,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67948891504793",
+          "label": "Tiger Moray Eel (Gymnothorax polyuranodon)  15\"",
+          "price": 130,
+          "available": true
+        },
+        {
+          "id": "67943182368921",
+          "label": "Tiger Moray Eel (Gymnothorax polyuranodon) 8\"-12\"",
+          "price": 65,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:15482234470553+15484032614553",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 95.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50528191676715",
+          "label": "Medium/Large (8-16\")",
+          "price": 95.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9974121070891",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 80,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46745975193792",
+          "label": "8+ inch",
+          "price": 80,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8241441308864",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 149.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "38614",
+          "label": "Default",
+          "price": 149.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38614",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

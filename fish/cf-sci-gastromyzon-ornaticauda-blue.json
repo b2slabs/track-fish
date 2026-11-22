@@ -1,14 +1,13 @@
 {
   "canonicalFishId": "cf:sci:gastromyzon-ornaticauda:blue",
-  "commonName": "SK03 Blue Tail Hillstream Laoch (Gastromyzon ornaticauda)",
+  "commonName": "NK01 Blue Tail Borneo Sucker Loach (Gastromyzon ornaticauda)",
   "scientificName": "Gastromyzon ornaticauda",
   "listings": [
     {
       "listingId": "aquatic-arts:14619617100143",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Blue Tail Borneo Loach (Gastromyzon ornaticauda)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Blue Tail Borneo Loach (Gastromyzon ornaticauda)"
     },
     {
       "listingId": "dans-fish:10127134392618",
@@ -16,6 +15,12 @@
       "storeName": "Dan's Fish",
       "commonName": "SK03 Blue Tail Hillstream Laoch (Gastromyzon ornaticauda)",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:190517",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "NK01 Blue Tail Borneo Sucker Loach (Gastromyzon ornaticauda)"
     }
   ],
   "events": [
@@ -64,6 +69,49 @@
       ],
       "listingId": "dans-fish:10127134392618",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 32.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51642344112495",
+          "label": "3 Fish",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "51642344145263",
+          "label": "6 Fish",
+          "price": 61.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14619617100143",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "190517",
+          "label": "Default",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:190517",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

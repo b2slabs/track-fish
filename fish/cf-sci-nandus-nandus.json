@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:nandus-nandus",
-  "commonName": "Asian Leaf Fish",
+  "commonName": "Nandus Leaf Fish (Nandus nandus)",
   "scientificName": "Nandus nandus",
   "listings": [
     {
       "listingId": "aquarium-fish:4590646263889",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Asian Leaf Fish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Asian Leaf Fish"
+    },
+    {
+      "listingId": "aqua-imports:38509",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Nandus Leaf Fish (Nandus nandus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:4590646263889",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 20.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32203152982097",
+          "label": "Title",
+          "price": 20.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4590646263889",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "38509",
+          "label": "Default",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38509",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

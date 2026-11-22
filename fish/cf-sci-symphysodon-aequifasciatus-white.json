@@ -7,15 +7,13 @@
       "listingId": "monster-aquarium:7032808997073",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Snow White Discus (Symphysodon aequifasciatus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Snow White Discus (Symphysodon aequifasciatus)"
     },
     {
       "listingId": "aquarium-fish:186444709913",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Snow White Discus",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Snow White Discus"
     }
   ],
   "events": [
@@ -68,6 +66,52 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "aquarium-fish:186444709913",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 54.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42424236343505",
+          "label": "5\"",
+          "price": 77.99,
+          "available": false
+        },
+        {
+          "id": "41041245143249",
+          "label": "4\"",
+          "price": 65,
+          "available": false
+        },
+        {
+          "id": "42510670954705",
+          "label": "3”",
+          "price": 54.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7032808997073",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 82.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "1520226304025",
+          "label": "Title",
+          "price": 82.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "aquarium-fish:186444709913",
       "storeSlug": "aquarium-fish"
     }

@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:dekeyseria-picta",
-  "commonName": "L052 Butterfly Pleco (Dekeyseria picta)",
+  "commonName": "L052 Atabapo Butterfly Pleco (Dekeyseria picta)",
   "scientificName": "Dekeyseria picta",
   "listings": [
     {
       "listingId": "monster-aquarium:6974870257873",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "L52 Splendid Butterfly Pleco (Dekeyseria picta)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "L52 Splendid Butterfly Pleco (Dekeyseria picta)"
     },
     {
       "listingId": "imperial-tropicals:8398002815283",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "L052 Butterfly Pleco (Dekeyseria picta)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "L052 Butterfly Pleco (Dekeyseria picta)"
     },
     {
       "listingId": "aquarium-fish:6652925894",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "L-52 Butterfly Pleco",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "L-52 Butterfly Pleco"
+    },
+    {
+      "listingId": "aqua-imports:62433",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "L052 Atabapo Butterfly Pleco (Dekeyseria picta)"
     }
   ],
   "events": [
@@ -103,6 +106,95 @@
       ],
       "listingId": "imperial-tropicals:8398002815283",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 16.69,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40865494335697",
+          "label": "3-4\"",
+          "price": 16.69,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6974870257873",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47232213188907",
+          "label": "Medium (3\")",
+          "price": 28.99,
+          "available": false
+        },
+        {
+          "id": "32267404836945",
+          "label": "Large",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6652925894",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611794006323",
+          "label": "1-2\" Unsexed Rio Atabapo",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "46470413091123",
+          "label": "3-4” Unsexed Rio Atabapo",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "51359456002355",
+          "label": "4-5” Unsexed Rio Atabapo",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398002815283",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "62433",
+          "label": "Default",
+          "price": 34.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:62433",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

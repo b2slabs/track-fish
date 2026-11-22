@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:protomyzon-pachychilus:gold-panda",
-  "commonName": "Gold Line Panda Loach (Protomyzon pachychilus \"Gold Line\")",
+  "commonName": "Gold Line Panda Loach (Yaoshania cf. pachychilus)",
   "scientificName": "Protomyzon pachychilus",
   "listings": [
     {
       "listingId": "aquatic-arts:15017608380783",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Gold Line Panda Loach (Protomyzon pachychilus \"Gold Line\")",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Gold Line Panda Loach (Protomyzon pachychilus \"Gold Line\")"
+    },
+    {
+      "listingId": "aqua-imports:41323",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Gold Line Panda Loach (Yaoshania cf. pachychilus)"
     }
   ],
   "events": [
@@ -63,6 +68,49 @@
       ],
       "listingId": "aquatic-arts:15017608380783",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 61.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53191927005551",
+          "label": "School of 3",
+          "price": 61.99,
+          "available": false
+        },
+        {
+          "id": "53191927038319",
+          "label": "School of 6",
+          "price": 112.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:15017608380783",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41323",
+          "label": "Default",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:41323",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

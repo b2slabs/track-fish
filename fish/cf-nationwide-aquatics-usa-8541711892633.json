@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:nationwide-aquatics-usa:8541711892633",
-  "commonName": "Mesoheros festae WC LG",
+  "commonName": "Mesoheros festae",
   "scientificName": null,
   "listings": [
     {
       "listingId": "nationwide-aquatics-usa:8541711892633",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Mesoheros festae WC LG",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "Mesoheros festae WC LG"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:682182+682187+682189+682192",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Mesoheros festae"
     }
   ],
   "events": [
@@ -31,6 +36,61 @@
       ],
       "listingId": "nationwide-aquatics-usa:8541711892633",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 90,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45775099429017",
+          "label": "Title",
+          "price": 90,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8541711892633",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "682182",
+          "label": "Default",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "682187",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "682189",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "682192",
+          "label": "Default",
+          "price": 32.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:682182+682187+682189+682192",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

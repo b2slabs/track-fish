@@ -7,15 +7,13 @@
       "listingId": "aquarium-fish:209117216793",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Red Lipstick Goby",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Red Lipstick Goby"
     },
     {
       "listingId": "nu-aqua-shop:10042915848508",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Red Lipstick Goby",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Red Lipstick Goby"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:10042915848508",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "1610041065497",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:209117216793",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51737351553340",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "nu-aqua-shop:10042915848508",
       "storeSlug": "nu-aqua-shop"
     }

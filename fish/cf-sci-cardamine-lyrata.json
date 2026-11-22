@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:cardamine-lyrata",
-  "commonName": "Cardamine Lyrata Vietnam UNS Tissue Culture",
+  "commonName": "Cardamine (Cardamine lyrata)",
   "scientificName": "Cardamine lyrata",
   "listings": [
     {
       "listingId": "buce-plant:9369748941",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Cardamine Lyrata Vietnam UNS Tissue Culture",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Cardamine Lyrata Vietnam UNS Tissue Culture"
+    },
+    {
+      "listingId": "aqua-imports:60050",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Cardamine (Cardamine lyrata)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "buce-plant:9369748941",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "34296743309",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:9369748941",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "60050",
+          "label": "Default",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60050",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:shrimpy-business:8906678665506",
-  "commonName": "Purple Vampire Crabs",
+  "commonName": "Purple Vampire Crab (Geosesarma cf. dennerle)",
   "scientificName": null,
   "listings": [
     {
       "listingId": "shrimpy-business:8906678665506",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Purple Vampire Crabs",
-      "lastCheckedAt": "2026-11-22T06:57:34.146Z"
+      "commonName": "Purple Vampire Crabs"
+    },
+    {
+      "listingId": "aqua-imports:43992",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Purple Vampire Crab (Geosesarma cf. dennerle)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "shrimpy-business:8906678665506",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 19.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47593653436706",
+          "label": "Title",
+          "price": 19.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:8906678665506",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43992",
+          "label": "Default",
+          "price": 16.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:43992",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

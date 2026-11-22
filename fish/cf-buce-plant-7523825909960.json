@@ -7,15 +7,13 @@
       "listingId": "nu-aqua-shop:10006320546108",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "UNS Controsand-Bora",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "UNS Controsand-Bora"
     },
     {
       "listingId": "buce-plant:7523825909960+7600786997448",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "UNS Controsand - Bora",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "UNS Controsand - Bora"
     }
   ],
   "events": [
@@ -134,6 +132,64 @@
       ],
       "listingId": "buce-plant:7523825909960+7600786997448",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42885157781704",
+          "label": "3L",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "42885157814472",
+          "label": "8L",
+          "price": 49.99,
+          "available": true
+        },
+        {
+          "id": "42592762626248",
+          "label": "3L",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "42592762659016",
+          "label": "8L",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7523825909960+7600786997448",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718536266044",
+          "label": "3L",
+          "price": 22.99,
+          "available": false
+        },
+        {
+          "id": "51718536298812",
+          "label": "8L",
+          "price": 37.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006320546108",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:dawkinsia-arulius",
-  "commonName": "Arulius Barb",
+  "commonName": "Arulius Barb (Dawkinsia cf. tambraparniei)",
   "scientificName": "Dawkinsia arulius",
   "listings": [
     {
       "listingId": "aquarium-fish:6593618313297",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Arulius Barb",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Arulius Barb"
+    },
+    {
+      "listingId": "aqua-imports:56333",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Arulius Barb (Dawkinsia cf. tambraparniei)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:6593618313297",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39410703761489",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6593618313297",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "56333",
+          "label": "Default",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:56333",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

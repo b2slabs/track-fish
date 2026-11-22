@@ -1,14 +1,13 @@
 {
   "canonicalFishId": "cf:sci:amblygobius-phalaena:dragon",
-  "commonName": "Dragon Goby",
+  "commonName": "Dragon Goby (Gobioides brousonnetti)",
   "scientificName": "Amblygobius phalaena",
   "listings": [
     {
       "listingId": "aquarium-fish:11210365132",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Dragon Goby",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Dragon Goby"
     },
     {
       "listingId": "ck-fish-world:8920535990487",
@@ -16,6 +15,12 @@
       "storeName": "CK Fish World",
       "commonName": "Dragon Goby",
       "lastCheckedAt": "2026-02-07T03:00:00.000Z"
+    },
+    {
+      "listingId": "aqua-imports:119550",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Dragon Goby (Gobioides brousonnetti)"
     }
   ],
   "events": [
@@ -64,6 +69,49 @@
       ],
       "listingId": "aquarium-fish:11210365132",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 54.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267641028689",
+          "label": "Medium (1.5-2.5\")",
+          "price": 54.59,
+          "available": true
+        },
+        {
+          "id": "32267641061457",
+          "label": "X-Large (3.5-4\")",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:11210365132",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "119550",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:119550",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

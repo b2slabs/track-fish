@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:imperial-tropicals:8962803106099",
-  "commonName": "Red Tiger Oscar - 3”",
-  "scientificName": null,
+  "commonName": "Red Tiger Oscar (Astronotus ocellatus)",
+  "scientificName": "Astronotus ocellatus",
   "listings": [
     {
       "listingId": "imperial-tropicals:8962803106099",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Red Tiger Oscar",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Red Tiger Oscar"
     },
     {
       "listingId": "nu-aqua-shop:10135631102268",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Red Tiger Oscar - 3”",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Red Tiger Oscar - 3”"
+    },
+    {
+      "listingId": "aqua-imports:68004",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red Tiger Oscar (Astronotus ocellatus)"
     }
   ],
   "events": [
@@ -76,6 +80,78 @@
       ],
       "listingId": "nu-aqua-shop:10135631102268",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48271582462259",
+          "label": "1-2” Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "48271574073651",
+          "label": "2-3” Unsexed",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "48142499938611",
+          "label": "3-4\" Unsexed",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "49592029708595",
+          "label": "4-5\" Unsexed",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8962803106099",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52056000168252",
+          "label": "Title",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10135631102268",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "68004",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:68004",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

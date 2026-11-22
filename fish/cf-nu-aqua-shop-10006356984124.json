@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10006356984124",
-  "commonName": "Flameback Bleeding Heart Tetra",
-  "scientificName": null,
+  "commonName": "Flameback Bleeding Heart Tetra (Hyphessobrycon pyrrhonotus)",
+  "scientificName": "Hyphessobrycon pyrrhonotus",
   "listings": [
     {
       "listingId": "nu-aqua-shop:10006356984124",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Flameback Bleeding Heart Tetra",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Flameback Bleeding Heart Tetra"
+    },
+    {
+      "listingId": "aqua-imports:71391",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Flameback Bleeding Heart Tetra (Hyphessobrycon pyrrhonotus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nu-aqua-shop:10006356984124",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627665948988",
+          "label": "Title",
+          "price": 15.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006356984124",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "71391",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:71391",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

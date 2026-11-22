@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:cryptocoryne-aponogetifolia-common",
-  "commonName": "Cryptocoryne Aponogetifolia",
+  "commonName": "Cryptocoryne aponogetifolia",
   "scientificName": "Cryptocoryne aponogetifolia common",
   "listings": [
     {
       "listingId": "buce-plant:8332140249288",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Cryptocoryne Aponogetifolia",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Cryptocoryne Aponogetifolia"
     },
     {
       "listingId": "glass-aqua:7973918310486",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Cryptocoryne Aponogetifolia",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Cryptocoryne Aponogetifolia"
+    },
+    {
+      "listingId": "aqua-imports:149509",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Cryptocoryne aponogetifolia"
     }
   ],
   "events": [
@@ -58,6 +62,60 @@
       ],
       "listingId": "glass-aqua:7973918310486",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45147446378696",
+          "label": "Title",
+          "price": 15.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8332140249288",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45442301231190",
+          "label": "Title",
+          "price": 16.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:7973918310486",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "149509",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:149509",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

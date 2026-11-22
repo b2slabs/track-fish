@@ -1,35 +1,37 @@
 {
   "canonicalFishId": "cf:sci:panaque-cochliodon:blue",
-  "commonName": "Blue Eye Panaque (Panaque cochliodon)",
+  "commonName": "Blue Eyed Pleco (Panaque cochliodon)",
   "scientificName": "Panaque cochliodon",
   "listings": [
     {
       "listingId": "monster-aquarium:6966850552017",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Blue eyed royal pleco (Panaque cochliodon)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Blue eyed royal pleco (Panaque cochliodon)"
     },
     {
       "listingId": "nationwide-aquatics-usa:8768128909465",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Blue Eyed Pleco (Panaque cochliodon)",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "Blue Eyed Pleco (Panaque cochliodon)"
     },
     {
       "listingId": "aquarium-fish:223101321241",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Blue Eyed Pleco",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Blue Eyed Pleco"
     },
     {
       "listingId": "imperial-tropicals:8398098891059",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Blue Eye Panaque (Panaque cochliodon)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Blue Eye Panaque (Panaque cochliodon)"
+    },
+    {
+      "listingId": "aqua-imports:37506",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Blue Eyed Pleco (Panaque cochliodon)"
     }
   ],
   "events": [
@@ -124,6 +126,106 @@
       ],
       "listingId": "imperial-tropicals:8398098891059",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 299,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40847660810449",
+          "label": "6-7”",
+          "price": 299,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6966850552017",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 435,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47867148173465",
+          "label": "Title",
+          "price": 435,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8768128909465",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 399.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "1708408209433",
+          "label": "Extra Large 8\"",
+          "price": 399.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:223101321241",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 399.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612098552115",
+          "label": "5-6\" Unsexed",
+          "price": 374.99,
+          "available": false
+        },
+        {
+          "id": "45612098584883",
+          "label": "6-7\" Unsexed",
+          "price": 399.99,
+          "available": true
+        },
+        {
+          "id": "52632138481971",
+          "label": "7-8\" Unsexed",
+          "price": 449.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398098891059",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 299.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37506",
+          "label": "Default",
+          "price": 299.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:37506",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

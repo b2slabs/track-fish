@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:ctenochaetus-flavicauda:white",
-  "commonName": "White Tail Kole Tang",
+  "commonName": "White Tail Bristletooth Tang (Ctenochaetus flavicauda)",
   "scientificName": "Ctenochaetus flavicauda",
   "listings": [
     {
       "listingId": "aquarium-fish:11163585356",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "White Tail Kole Tang",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "White Tail Kole Tang"
+    },
+    {
+      "listingId": "aqua-imports:151454",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "White Tail Bristletooth Tang (Ctenochaetus flavicauda)"
     }
   ],
   "events": [
@@ -49,6 +54,61 @@
       ],
       "listingId": "aquarium-fish:11163585356",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 270.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51337160458539",
+          "label": "Small (1-2.5\")",
+          "price": 270.29,
+          "available": true
+        },
+        {
+          "id": "42166753612",
+          "label": "Medium (2.5-3.5\")",
+          "price": 291.99,
+          "available": true
+        },
+        {
+          "id": "51337202860331",
+          "label": "Large (3.5-4.5\")",
+          "price": 324.49,
+          "available": true
+        },
+        {
+          "id": "51337245851947",
+          "label": "X-Large (4.5-6\")",
+          "price": 378.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:11163585356",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 249.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "151454",
+          "label": "Default",
+          "price": 249.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:151454",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

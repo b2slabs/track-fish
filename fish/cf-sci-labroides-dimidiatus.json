@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:labroides-dimidiatus",
-  "commonName": "Cleaner Wrasse",
+  "commonName": "Bluestreak Cleaner Wrasse (Labroides dimidiatus)",
   "scientificName": "Labroides dimidiatus",
   "listings": [
     {
       "listingId": "aquarium-fish:10034457608491+10095723151659",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Cleaner Wrasse",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Cleaner Wrasse"
+    },
+    {
+      "listingId": "aqua-imports:108694",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Bluestreak Cleaner Wrasse (Labroides dimidiatus)"
     }
   ],
   "events": [
@@ -101,6 +106,61 @@
       ],
       "listingId": "aquarium-fish:10034457608491+10095723151659",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 32.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51331548610859",
+          "label": "Medium (1-2\")",
+          "price": 32.59,
+          "available": true
+        },
+        {
+          "id": "51331555492139",
+          "label": "Large (2-3\")",
+          "price": 43.29,
+          "available": true
+        },
+        {
+          "id": "51057329242411",
+          "label": "Medium (1-2\")",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "51057329275179",
+          "label": "Large (2-3\")",
+          "price": 48.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10034457608491+10095723151659",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "108694",
+          "label": "Default",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:108694",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

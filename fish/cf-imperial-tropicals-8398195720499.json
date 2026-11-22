@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:imperial-tropicals:8398195720499",
-  "commonName": "Marbled Bichir",
-  "scientificName": null,
+  "commonName": "Marbled Bichir (Polypterus polli)",
+  "scientificName": "Polypterus polli",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398195720499",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Marbled Bichir",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Marbled Bichir"
+    },
+    {
+      "listingId": "aqua-imports:39516",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Marbled Bichir (Polypterus polli)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "imperial-tropicals:8398195720499",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612323242291",
+          "label": "5-6” Unsexed",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398195720499",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39516",
+          "label": "Default",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:39516",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

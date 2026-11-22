@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:megalodoras-uranoscopus",
-  "commonName": "Irwini Giant Talking Catfish",
+  "commonName": "Giant Talking Catfish (Megalodoras uranoscopus)",
   "scientificName": "Megalodoras uranoscopus",
   "listings": [
     {
       "listingId": "aquarium-fish:6831695265873",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Irwini Giant Talking Catfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Irwini Giant Talking Catfish"
+    },
+    {
+      "listingId": "aqua-imports:38517",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Giant Talking Catfish (Megalodoras uranoscopus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:6831695265873",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39824751853649",
+          "label": "Title",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6831695265873",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "38517",
+          "label": "Default",
+          "price": 39.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38517",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -7,15 +7,13 @@
       "listingId": "buce-plant:2991291072593",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Echinodorus Red Wild Grass",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Echinodorus Red Wild Grass"
     },
     {
       "listingId": "glass-aqua:4885051441238",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Echinodorus Red Wild Grass",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Echinodorus Red Wild Grass"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:4885051441238",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "23072332087377",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:2991291072593",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33234645549142",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:4885051441238",
       "storeSlug": "glass-aqua"
     }

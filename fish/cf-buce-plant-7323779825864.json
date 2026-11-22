@@ -7,15 +7,13 @@
       "listingId": "buce-plant:7323779825864",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Philodendron Pink Princess",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Philodendron Pink Princess"
     },
     {
       "listingId": "glass-aqua:6730311729238",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Philodendron Pink Princess",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Philodendron Pink Princess"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:6730311729238",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 149.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41842332631240",
+          "label": "Title",
+          "price": 149.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7323779825864",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 125.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39777408057430",
+          "label": "Title",
+          "price": 125.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:6730311729238",
       "storeSlug": "glass-aqua"
     }

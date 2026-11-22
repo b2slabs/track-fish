@@ -1,14 +1,25 @@
 {
   "canonicalFishId": "cf:imperial-tropicals:8787458130227",
-  "commonName": "Apistogramma cacatuoides",
-  "scientificName": null,
+  "commonName": "Wild Apistogramma cacatuoides (Apistogramma cacatuiodes)",
+  "scientificName": "Apistogramma cacatuiodes",
   "listings": [
     {
       "listingId": "imperial-tropicals:8787458130227",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Apistogramma cacatuoides",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Apistogramma cacatuoides"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:681654+681656+681660+681664+688738",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Apistogramma cacatuoides"
+    },
+    {
+      "listingId": "aqua-imports:41191",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Wild Apistogramma cacatuoides (Apistogramma cacatuiodes)"
     }
   ],
   "events": [
@@ -55,6 +66,111 @@
       ],
       "listingId": "imperial-tropicals:8787458130227",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47310195949875",
+          "label": "Captive bred Peruvian x Triple Red 1-2” Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "47309690339635",
+          "label": "Captive bred Peruvian x Triple Red 1-2\" Male",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "47309690306867",
+          "label": "Captive bred Peruvian x Triple Red 1-2\" Attempted Pair (1 Male, 1 Female)",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "49482060333363",
+          "label": "Wild-Caught Peruvian 1-2” Unsexed",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "49482079469875",
+          "label": "Wild-Caught Peruvian Attempted Pair (1 Male, 1 Female) 1-2” Unsexed",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8787458130227",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "681656",
+          "label": "Default",
+          "price": 18.99,
+          "available": true
+        },
+        {
+          "id": "681660",
+          "label": "Default",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "681654",
+          "label": "Default",
+          "price": 53.99,
+          "available": false
+        },
+        {
+          "id": "681664",
+          "label": "Default",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "688738",
+          "label": "Default",
+          "price": 53.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:681654+681656+681660+681664+688738",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41191",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:41191",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

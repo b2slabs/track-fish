@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:monster-aquarium:7077491278033",
-  "commonName": "Clown Spotted Leporinus ( Nijsseni )",
-  "scientificName": null,
+  "commonName": "Clown Spotted Leporinus (Leporinus klausewitzi)",
+  "scientificName": "Leporinus klausewitzi",
   "listings": [
     {
       "listingId": "monster-aquarium:7077491278033",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Clown Spotted Leporinus ( Nijsseni )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Clown Spotted Leporinus ( Nijsseni )"
+    },
+    {
+      "listingId": "aqua-imports:41296",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Clown Spotted Leporinus (Leporinus klausewitzi)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "monster-aquarium:7077491278033",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 16,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41146321043665",
+          "label": "2\"-2.5\"",
+          "price": 16,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7077491278033",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41296",
+          "label": "Default",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:41296",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

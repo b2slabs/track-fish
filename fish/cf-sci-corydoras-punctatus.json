@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:corydoras-punctatus",
-  "commonName": "Punctatus Cory",
+  "commonName": "Corydoras punctatus",
   "scientificName": "Corydoras punctatus",
   "listings": [
     {
       "listingId": "flip-aquatics:7218776342630",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Spotted Cory | Corydoras punctatus 'Nanay'",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Spotted Cory | Corydoras punctatus 'Nanay'"
     },
     {
       "listingId": "aquarium-fish:6319128198",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Punctatus Cory",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Punctatus Cory"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:682664+682666",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Corydoras punctatus"
     }
   ],
   "events": [
@@ -58,6 +62,66 @@
       ],
       "listingId": "aquarium-fish:6319128198",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41337059606630",
+          "label": "Imported / 1 Fish",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:7218776342630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 12.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20008332614",
+          "label": "Title",
+          "price": 12.79,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6319128198",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "682664",
+          "label": "Default",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "682666",
+          "label": "Default",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:682664+682666",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

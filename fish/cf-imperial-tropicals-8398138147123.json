@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:imperial-tropicals:8398138147123",
-  "commonName": "Red Eye Puffer",
-  "scientificName": null,
+  "commonName": "Red Eye Puffer (Carinotetraodon lorteti)",
+  "scientificName": "Carinotetraodon lorteti",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398138147123",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Red Eye Puffer",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Red Eye Puffer"
+    },
+    {
+      "listingId": "aqua-imports:38627",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red Eye Puffer (Carinotetraodon lorteti)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "imperial-tropicals:8398138147123",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612190957875",
+          "label": "1-2” Unsexed",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398138147123",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38627",
+          "label": "Default",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38627",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

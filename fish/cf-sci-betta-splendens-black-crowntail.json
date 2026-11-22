@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:betta-splendens:black-crowntail",
-  "commonName": "Black Orchid Crowntail Male Betta (Betta splendens) - Tank Bred",
+  "commonName": "Crowntail Black Orchid Betta (Betta splendens)",
   "scientificName": "Betta splendens",
   "listings": [
     {
       "listingId": "aquatic-arts:14626192949615+4041100689494",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Black Orchid Crowntail Male Betta (Betta splendens) - Tank Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Black Orchid Crowntail Male Betta (Betta splendens) - Tank Bred"
+    },
+    {
+      "listingId": "aqua-imports:95489",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Crowntail Black Orchid Betta (Betta splendens)"
     }
   ],
   "events": [
@@ -77,6 +82,49 @@
       ],
       "listingId": "aquatic-arts:14626192949615+4041100689494",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51652212031855",
+          "label": "1 Male",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "29895437975638",
+          "label": "1 MALE",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14626192949615+4041100689494",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "95489",
+          "label": "Default",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:95489",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

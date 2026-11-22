@@ -1,35 +1,31 @@
 {
   "canonicalFishId": "cf:sci:dario-sp:black-tiger",
-  "commonName": "Black Tiger Dario",
+  "commonName": "Black Tiger Badis (Dario sp. ‘Myanmar’)",
   "scientificName": "Dario sp.",
   "listings": [
     {
       "listingId": "aquahuna:6691445604427",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Black Tiger Dario / Badis",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Black Tiger Dario / Badis"
     },
     {
       "listingId": "aquarium-fish:4547809935441",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Black Tiger Dario",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Black Tiger Dario"
     },
     {
       "listingId": "aquatic-arts:11738387084",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Black Tiger Badis (Dario sp. 'Myanmar')",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Black Tiger Badis (Dario sp. 'Myanmar')"
     },
     {
       "listingId": "nu-aqua-shop:10006313894204",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Black Tiger Badis",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Black Tiger Badis"
     },
     {
       "listingId": "dans-fish:10127108112682",
@@ -37,6 +33,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Black Tiger Dario",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:73419",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Black Tiger Badis (Dario sp. ‘Myanmar’)"
     }
   ],
   "events": [
@@ -240,6 +242,118 @@
       ],
       "listingId": "dans-fish:10127108112682",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47143768268",
+          "label": "Group of 3",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "47143563276",
+          "label": "Group of 6",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "47143781900",
+          "label": "Group of 9",
+          "price": 71.99,
+          "available": false
+        },
+        {
+          "id": "47143563340",
+          "label": "Group of 12",
+          "price": 92.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11738387084",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 6,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39698109661259",
+          "label": "Title",
+          "price": 6,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6691445604427",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51437508985131",
+          "label": "Each",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "51437509017899",
+          "label": "School of 4",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4547809935441",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 10.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627485331772",
+          "label": "Title",
+          "price": 10.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006313894204",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "73419",
+          "label": "Default",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:73419",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

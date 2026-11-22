@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:balistoides-conspicillum",
-  "commonName": "Clown Triggerfish",
+  "commonName": "Clown Triggerfish (Balistoides conspicillum)",
   "scientificName": "Balistoides conspicillum",
   "listings": [
     {
       "listingId": "aquarium-fish:10034469306667",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Clown Triggerfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Clown Triggerfish"
+    },
+    {
+      "listingId": "aqua-imports:110846",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Clown Triggerfish (Balistoides conspicillum)"
     }
   ],
   "events": [
@@ -55,6 +60,67 @@
       ],
       "listingId": "aquarium-fish:10034469306667",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 494.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51057384292651",
+          "label": "Small (1-1.5\")",
+          "price": 194.99,
+          "available": false
+        },
+        {
+          "id": "51057384325419",
+          "label": "Small/Medium (1.5-2\")",
+          "price": 231.79,
+          "available": false
+        },
+        {
+          "id": "51057384358187",
+          "label": "Medium (2-2.75\")",
+          "price": 292.29,
+          "available": false
+        },
+        {
+          "id": "51057384390955",
+          "label": "Medium/Large (2.75-3.5\")",
+          "price": 391.59,
+          "available": false
+        },
+        {
+          "id": "51057384423723",
+          "label": "Large (3.5-5\")",
+          "price": 494.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10034469306667",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 139.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "110846",
+          "label": "Default",
+          "price": 139.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:110846",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

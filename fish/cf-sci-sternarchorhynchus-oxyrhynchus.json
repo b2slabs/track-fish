@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:sternarchorhynchus-oxyrhynchus",
-  "commonName": "Elephant Nose Knifefish",
+  "commonName": "Elephant Nose Knifefish (Sternarchorhynchus oxyrhynchus)",
   "scientificName": "Sternarchorhynchus oxyrhynchus",
   "listings": [
     {
       "listingId": "aquarium-fish:6586974306385",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Elephant Nose Knifefish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Elephant Nose Knifefish"
+    },
+    {
+      "listingId": "aqua-imports:44813",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Elephant Nose Knifefish (Sternarchorhynchus oxyrhynchus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:6586974306385",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39390154129489",
+          "label": "Title",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6586974306385",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44813",
+          "label": "Default",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:44813",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

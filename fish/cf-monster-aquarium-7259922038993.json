@@ -7,15 +7,13 @@
       "listingId": "monster-aquarium:7259922038993",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Red Hump Eartheater  (Geophagus Steindachneri )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Red Hump Eartheater  (Geophagus Steindachneri )"
     },
     {
       "listingId": "global-exoticquatics:8435192463552",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Red Hump Eartheater",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "Red Hump Eartheater"
     }
   ],
   "events": [
@@ -62,6 +60,46 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "global-exoticquatics:8435192463552",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41586388631761",
+          "label": "2-2.5”",
+          "price": 10,
+          "available": false
+        },
+        {
+          "id": "41586390827217",
+          "label": "3-4”",
+          "price": 20,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7259922038993",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47252110115008",
+          "label": "2  inch",
+          "price": 15,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "global-exoticquatics:8435192463552",
       "storeSlug": "global-exoticquatics"
     }

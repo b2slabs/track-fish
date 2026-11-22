@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:chiapaheros-grammodes",
-  "commonName": "Sieve Cichlid",
+  "commonName": "Grammodes Cichlid (Chiapaheros grammodes)",
   "scientificName": "Chiapaheros grammodes",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398062289203",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Sieve Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Sieve Cichlid"
+    },
+    {
+      "listingId": "aqua-imports:93033",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Grammodes Cichlid (Chiapaheros grammodes)"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "imperial-tropicals:8398062289203",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612004213043",
+          "label": "2-3\" Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "47436774506803",
+          "label": "2-3\" Unsexed (5 Pack)",
+          "price": 50.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398062289203",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 27.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "93033",
+          "label": "Default",
+          "price": 27.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:93033",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

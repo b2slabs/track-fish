@@ -7,15 +7,13 @@
       "listingId": "daku-aquatics:9243566735578",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
-      "commonName": "Lagenandra Keralensis",
-      "lastCheckedAt": "2026-11-22T06:58:04.282Z"
+      "commonName": "Lagenandra Keralensis"
     },
     {
       "listingId": "glass-aqua:3559915421782",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Lagenandra Keralensis",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Lagenandra Keralensis"
     }
   ],
   "events": [
@@ -62,6 +60,46 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:3559915421782",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:25.196Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47822124089562",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:9243566735578",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42188498534486",
+          "label": "Potted",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "42188498567254",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:3559915421782",
       "storeSlug": "glass-aqua"
     }

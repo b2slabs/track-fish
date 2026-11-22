@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:aquarium-fish:9972386890027",
-  "commonName": "Smith's Blenny",
-  "scientificName": null,
+  "commonName": "Smith’s Blenny (Meiacanthus smithi)",
+  "scientificName": "Meiacanthus smithi",
   "listings": [
     {
       "listingId": "aquarium-fish:9972386890027",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Smith's Blenny",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Smith's Blenny"
+    },
+    {
+      "listingId": "aqua-imports:190346",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Smith’s Blenny (Meiacanthus smithi)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:9972386890027",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 51.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50520078418219",
+          "label": "Title",
+          "price": 51.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9972386890027",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "190346",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:190346",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

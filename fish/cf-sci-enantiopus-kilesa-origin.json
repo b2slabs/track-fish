@@ -7,15 +7,13 @@
       "listingId": "aquarium-fish:4538983776337",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Xenotilapia Kilesa",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Xenotilapia Kilesa"
     },
     {
       "listingId": "imperial-tropicals:9462473359667",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Xenotilapia sp. \"Kilesa\"",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Xenotilapia sp. \"Kilesa\""
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "imperial-tropicals:9462473359667",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39310454358097",
+          "label": "Title",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4538983776337",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50132478951731",
+          "label": "1-2\" Unsexed F1",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "imperial-tropicals:9462473359667",
       "storeSlug": "imperial-tropicals"
     }

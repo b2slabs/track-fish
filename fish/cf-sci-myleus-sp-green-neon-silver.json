@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:myleus-sp:green-neon-silver",
-  "commonName": "Neon Green Silver Dollar(Myleus sp. ‘green’)",
+  "commonName": "Neon Green Silver Dollar (Myleus sp. ‘green’)",
   "scientificName": "Myleus sp.",
   "listings": [
     {
       "listingId": "monster-aquarium:7028761460945",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Neon Green Silver Dollar(Myleus sp. ‘green’)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Neon Green Silver Dollar(Myleus sp. ‘green’)"
+    },
+    {
+      "listingId": "aqua-imports:38775",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Neon Green Silver Dollar (Myleus sp. ‘green’)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "monster-aquarium:7028761460945",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41032138948817",
+          "label": "1-1.5”",
+          "price": 55,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7028761460945",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 64.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38775",
+          "label": "Default",
+          "price": 64.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38775",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

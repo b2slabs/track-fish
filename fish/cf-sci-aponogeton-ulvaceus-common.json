@@ -1,35 +1,37 @@
 {
   "canonicalFishId": "cf:sci:aponogeton-ulvaceus-common",
-  "commonName": "Aponogeton Ulvaceus",
+  "commonName": "Aponogeton ulvaceus",
   "scientificName": "Aponogeton ulvaceus common",
   "listings": [
     {
       "listingId": "buce-plant:7591097303240",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Aponogeton Ulvaceus",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Aponogeton Ulvaceus"
     },
     {
       "listingId": "glass-aqua:7636535607382",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Aponogeton Ulvaceus",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Aponogeton Ulvaceus"
     },
     {
       "listingId": "imperial-tropicals:8303242248499",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Aponogeton ulvaceus",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Aponogeton ulvaceus"
     },
     {
       "listingId": "nu-aqua-shop:10019650830652",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Aponogeton Ulvaceus",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Aponogeton Ulvaceus"
+    },
+    {
+      "listingId": "aqua-imports:59921",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Aponogeton ulvaceus"
     }
   ],
   "events": [
@@ -118,6 +120,100 @@
       ],
       "listingId": "nu-aqua-shop:10019650830652",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45224036073779",
+          "label": "1 Small Plant",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8303242248499",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42854357008584",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7591097303240",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45398919053398",
+          "label": "Sprouted Bulb",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "45398919086166",
+          "label": "Bulb",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:7636535607382",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51672273387836",
+          "label": "Title",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10019650830652",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "59921",
+          "label": "Default",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:59921",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

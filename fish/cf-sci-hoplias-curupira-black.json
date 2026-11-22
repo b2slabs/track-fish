@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:hoplias-curupira:black",
-  "commonName": "Black Wolf fish (Hoplias curupira)",
+  "commonName": "Black Wolf Fish (Hoplias curupira)",
   "scientificName": "Hoplias curupira",
   "listings": [
     {
       "listingId": "monster-aquarium:6996774191313",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Black Wolf fish (Hoplias curupira)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Black Wolf fish (Hoplias curupira)"
+    },
+    {
+      "listingId": "aqua-imports:38171",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Black Wolf Fish (Hoplias curupira)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "monster-aquarium:6996774191313",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 79.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925183148241",
+          "label": "3.5-4.5\"",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6996774191313",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 79.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38171",
+          "label": "Default",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38171",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -7,22 +7,25 @@
       "listingId": "aquarium-fish:6120853126",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Synodontis Schoutendeni Catfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Synodontis Schoutendeni Catfish"
     },
     {
       "listingId": "imperial-tropicals:8398131298611",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Synodontis schoutedeni",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Synodontis schoutedeni"
     },
     {
       "listingId": "nationwide-aquatics-usa:8743975649433+8743977353369",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Synodontis schoutedeni",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "Synodontis schoutedeni"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:683809",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Synodontis schoutedeni"
     }
   ],
   "events": [
@@ -131,6 +134,83 @@
       ],
       "listingId": "nationwide-aquatics-usa:8743975649433+8743977353369",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 30,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47384487952537",
+          "label": "Synodontis schoutedeni 5 pack",
+          "price": 125,
+          "available": true
+        },
+        {
+          "id": "47384484053145",
+          "label": "Synodontis schoutedeni",
+          "price": 30,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8743975649433+8743977353369",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 44.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19376373382",
+          "label": "Medium",
+          "price": 44.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6120853126",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612176408883",
+          "label": "3\" Unsexed",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398131298611",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "683809",
+          "label": "Default",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:683809",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

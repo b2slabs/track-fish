@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:monster-aquarium:7093602975953",
-  "commonName": "Tiger Shovelnose x Redtail Catfish Hybrid (Phractocephalus hemioliopterus X Pseudoplatystoma fasciatum)",
+  "commonName": "Redtail X Tiger Shovelnose Hybrid Catfish (Phractocephalus hemioliopterus X Pseudoplatystoma fasciatum)",
   "scientificName": null,
   "listings": [
     {
       "listingId": "monster-aquarium:7093602975953",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Tiger Shovelnose x Redtail Catfish Hybrid (Phractocephalus hemioliopterus X Pseudoplatystoma fasciatum)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Tiger Shovelnose x Redtail Catfish Hybrid (Phractocephalus hemioliopterus X Pseudoplatystoma fasciatum)"
+    },
+    {
+      "listingId": "aqua-imports:49189",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Redtail X Tiger Shovelnose Hybrid Catfish (Phractocephalus hemioliopterus X Pseudoplatystoma fasciatum)"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "monster-aquarium:7093602975953",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41190993952977",
+          "label": "2\"",
+          "price": 25,
+          "available": false
+        },
+        {
+          "id": "42431194038481",
+          "label": "4-5”",
+          "price": 35.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7093602975953",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49189",
+          "label": "Default",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:49189",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

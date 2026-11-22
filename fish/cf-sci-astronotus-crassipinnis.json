@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:astronotus-crassipinnis",
-  "commonName": "Bumblebee Oscar",
+  "commonName": "Bumblebee Oscar (Astronotus crassipinnis)",
   "scientificName": "Astronotus crassipinnis",
   "listings": [
     {
       "listingId": "monster-aquarium:6972695970001",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Bumble Bee Oscar(Astronotus crassipinnis)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Bumble Bee Oscar(Astronotus crassipinnis)"
     },
     {
       "listingId": "imperial-tropicals:9748071809331",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Bumblebee Oscar",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Bumblebee Oscar"
+    },
+    {
+      "listingId": "aqua-imports:104386+83733",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Bumblebee Oscar (Astronotus crassipinnis)"
     }
   ],
   "events": [
@@ -58,6 +62,66 @@
       ],
       "listingId": "imperial-tropicals:9748071809331",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 68.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40860591915217",
+          "label": "4-5”",
+          "price": 68.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6972695970001",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51543786422579",
+          "label": "2-3\" Unsexed Araguaia",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9748071809331",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "104386",
+          "label": "Default",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "83733",
+          "label": "Default",
+          "price": 64.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:104386+83733",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

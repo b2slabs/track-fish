@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:global-exoticquatics:8672798081216",
-  "commonName": "Orinoco Peacock Bass",
-  "scientificName": null,
+  "commonName": "Orinoco Peacock Bass (Cichla orinocensis)",
+  "scientificName": "Cichla orinocensis",
   "listings": [
     {
       "listingId": "global-exoticquatics:8672798081216",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Orinoco Peacock Bass",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "Orinoco Peacock Bass"
+    },
+    {
+      "listingId": "aqua-imports:38315",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Orinoco Peacock Bass (Cichla orinocensis)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "global-exoticquatics:8672798081216",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48742837125312",
+          "label": "2-3in",
+          "price": 25,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8672798081216",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38315",
+          "label": "Default",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38315",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

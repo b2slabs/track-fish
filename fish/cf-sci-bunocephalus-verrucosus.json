@@ -7,8 +7,13 @@
       "listingId": "imperial-tropicals:10150329254195",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Humpback Banjo Catfish (Bunocephalus verrucosus)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Humpback Banjo Catfish (Bunocephalus verrucosus)"
+    },
+    {
+      "listingId": "aqua-imports:88709",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Humpback Banjo Catfish (Bunocephalus verrucosus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "imperial-tropicals:10150329254195",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53246321951027",
+          "label": "3-4\" Unsexed",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:10150329254195",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "88709",
+          "label": "Default",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:88709",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

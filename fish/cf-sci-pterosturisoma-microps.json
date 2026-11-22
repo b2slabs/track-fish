@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:pterosturisoma-microps",
-  "commonName": "Long-tailed Sturisoma",
+  "commonName": "High Dorsal Loricaria (Pterosturisoma microps)",
   "scientificName": "Pterosturisoma microps",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398151156019",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Long-tailed Sturisoma",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Long-tailed Sturisoma"
+    },
+    {
+      "listingId": "aqua-imports:73791",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "High Dorsal Loricaria (Pterosturisoma microps)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "imperial-tropicals:8398151156019",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612229558579",
+          "label": "4-6\" Unsexed",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398151156019",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 79.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "73791",
+          "label": "Default",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:73791",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

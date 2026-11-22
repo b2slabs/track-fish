@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:geosesarma-rouxi",
-  "commonName": "Rainbow Vampire Crab (Geosesarma rouxi \"Red Legged\")",
+  "commonName": "Rainbow Vampire Crab (Geosesarma cf. riani)",
   "scientificName": "Geosesarma rouxi",
   "listings": [
     {
       "listingId": "aquatic-arts:4847792914518",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Rainbow Vampire Crab (Geosesarma rouxi \"Red Legged\")",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Rainbow Vampire Crab (Geosesarma rouxi \"Red Legged\")"
+    },
+    {
+      "listingId": "aqua-imports:67421",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Rainbow Vampire Crab (Geosesarma cf. riani)"
     }
   ],
   "events": [
@@ -55,6 +60,67 @@
       ],
       "listingId": "aquatic-arts:4847792914518",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33152613318742",
+          "label": "1 Male Crab",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "47461212881175",
+          "label": "3 Male Crabs",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "33152613351510",
+          "label": "1 Female Crab",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "51742103765359",
+          "label": "1 Male / Female Pair",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33152613482582",
+          "label": "1 B-Grade Crab",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4847792914518",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67421",
+          "label": "Default",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:67421",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,42 +1,43 @@
 {
   "canonicalFishId": "cf:sci:danio-rerio",
-  "commonName": "Zebra Danio",
+  "commonName": "Zebra Danio (Brachydanio rerio)",
   "scientificName": "Danio rerio",
   "listings": [
     {
       "listingId": "nu-aqua-shop:10006361571644",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Zebra Danio",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Zebra Danio"
     },
     {
       "listingId": "aquahuna:1866128752683",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Zebra Danio",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Zebra Danio"
     },
     {
       "listingId": "ck-fish-world:8149572681943",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Zebra Danio",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Zebra Danio"
     },
     {
       "listingId": "aquarium-fish:6019765638+9179073904939",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Zebra Danio",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Zebra Danio"
     },
     {
       "listingId": "flip-aquatics:8152575705190",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Zebra Danio | Danio Rerio",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Zebra Danio | Danio Rerio"
+    },
+    {
+      "listingId": "aqua-imports:101005+128350",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Zebra Danio (Brachydanio rerio)"
     }
   ],
   "events": [
@@ -197,6 +198,135 @@
       ],
       "listingId": "aquarium-fish:6019765638+9179073904939",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 2,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "17144820531243",
+          "label": "Title",
+          "price": 2,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1866128752683",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 9.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336207720663",
+          "label": "3",
+          "price": 9.98,
+          "available": true
+        },
+        {
+          "id": "45336207753431",
+          "label": "5",
+          "price": 14.98,
+          "available": true
+        },
+        {
+          "id": "45336207786199",
+          "label": "10",
+          "price": 19.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8149572681943",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46580305723494",
+          "label": "Imported / 1 Fish",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:8152575705190",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48414322524459",
+          "label": "Zebra Danio (School of 8)",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "51437577011499",
+          "label": "Zebra Danio",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6019765638+9179073904939",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627673682236",
+          "label": "Title",
+          "price": 2.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006361571644",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 2.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "128350",
+          "label": "Default",
+          "price": 3.49,
+          "available": false
+        },
+        {
+          "id": "101005",
+          "label": "Default",
+          "price": 2.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:101005+128350",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

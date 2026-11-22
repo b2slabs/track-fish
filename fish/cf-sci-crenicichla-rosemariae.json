@@ -7,15 +7,13 @@
       "listingId": "monster-aquarium:7049602105553",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Rosemariae Pike (Crenicichla rosemariae)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Rosemariae Pike (Crenicichla rosemariae)"
     },
     {
       "listingId": "imperial-tropicals:8398152499507",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Pike Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Pike Cichlid"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "imperial-tropicals:8398152499507",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 599,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41074997625041",
+          "label": "8-10\"",
+          "price": 599,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7049602105553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 599.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612247122227",
+          "label": "10-12\" Unsexed",
+          "price": 599.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "imperial-tropicals:8398152499507",
       "storeSlug": "imperial-tropicals"
     }

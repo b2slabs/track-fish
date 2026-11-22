@@ -1,14 +1,25 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10432617546044",
-  "commonName": "Sodalis Cory - L",
-  "scientificName": null,
+  "commonName": "Sodalis Cory (Brochis sodalis)",
+  "scientificName": "Brochis sodalis",
   "listings": [
     {
       "listingId": "nu-aqua-shop:10432617546044",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Sodalis Cory - L",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Sodalis Cory - L"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:682713",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Corydoras sodalis"
+    },
+    {
+      "listingId": "aqua-imports:52440",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Sodalis Cory (Brochis sodalis)"
     }
   ],
   "events": [
@@ -31,6 +42,63 @@
       ],
       "listingId": "nu-aqua-shop:10432617546044",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 10.32,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53519787917628",
+          "label": "Title",
+          "price": 10.32,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10432617546044",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "682713",
+          "label": "Default",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:682713",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52440",
+          "label": "Default",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:52440",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:protopterus-dolloi:albino",
-  "commonName": "Albino Spotted Lungfish (Protopterus dolloi)",
+  "commonName": "Albino Spotted African Lungfish (Protopterus dolloi)",
   "scientificName": "Protopterus dolloi",
   "listings": [
     {
       "listingId": "nationwide-aquatics-usa:8738684731545",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Albino Spotted Lungfish (Protopterus dolloi)",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "Albino Spotted Lungfish (Protopterus dolloi)"
+    },
+    {
+      "listingId": "aqua-imports:139095",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Albino Spotted African Lungfish (Protopterus dolloi)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nationwide-aquatics-usa:8738684731545",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 475,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47216947560601",
+          "label": "Title",
+          "price": 475,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8738684731545",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 1499.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "139095",
+          "label": "Default",
+          "price": 1499.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:139095",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

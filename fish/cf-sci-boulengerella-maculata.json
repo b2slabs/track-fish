@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:boulengerella-maculata",
-  "commonName": "Marbled Gar",
+  "commonName": "Mottled Pike Characin (Boulengerella lucius)",
   "scientificName": "Boulengerella maculata",
   "listings": [
     {
       "listingId": "monster-aquarium:7163518222545",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Spotted Pike Characin (Boulengerella maculata)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Spotted Pike Characin (Boulengerella maculata)"
     },
     {
       "listingId": "aquarium-fish:6658638534",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Marbled Gar",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Marbled Gar"
+    },
+    {
+      "listingId": "aqua-imports:95691",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Mottled Pike Characin (Boulengerella lucius)"
     }
   ],
   "events": [
@@ -64,6 +68,66 @@
       ],
       "listingId": "aquarium-fish:6658638534",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41365395439825",
+          "label": "5-6”",
+          "price": 40,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7163518222545",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39584328056913",
+          "label": "Medium",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "39584326418513",
+          "label": "Large",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6658638534",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "95691",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:95691",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

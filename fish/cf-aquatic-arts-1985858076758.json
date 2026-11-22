@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:aquatic-arts:1985858076758",
-  "commonName": "Red Rubin Sword",
+  "commonName": "Red Rubin Sword (Echinodorus sp. Red Rubin)",
   "scientificName": null,
   "listings": [
     {
       "listingId": "aquatic-arts:1985858076758",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Red Rubin Sword",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Red Rubin Sword"
     },
     {
       "listingId": "flip-aquatics:4673522827366",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Red Rubin Sword",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Red Rubin Sword"
     },
     {
       "listingId": "imperial-tropicals:8398041252147",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Red Rubin Sword",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Red Rubin Sword"
+    },
+    {
+      "listingId": "aqua-imports:59995",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red Rubin Sword (Echinodorus sp. Red Rubin)"
     }
   ],
   "events": [
@@ -97,6 +100,89 @@
       ],
       "listingId": "imperial-tropicals:8398041252147",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19648332791894",
+          "label": "1 Plant",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "19648332824662",
+          "label": "2 Plants",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "19648332857430",
+          "label": "3 Plants",
+          "price": 17.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1985858076758",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31494983614566",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:4673522827366",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611931074867",
+          "label": "1 Potted Plant",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398041252147",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "59995",
+          "label": "Default",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:59995",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

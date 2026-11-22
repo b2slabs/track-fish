@@ -1,14 +1,13 @@
 {
   "canonicalFishId": "cf:sci:paracheirodon-innesi:albino-neon",
-  "commonName": "Albino Neon Tetra",
+  "commonName": "Albino Neon Tetra (Paracheirodon innesi)",
   "scientificName": "Paracheirodon innesi",
   "listings": [
     {
       "listingId": "aquahuna:6670549778507",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Albino Neon Tetra",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Albino Neon Tetra"
     },
     {
       "listingId": "ck-fish-world:8149530738903",
@@ -16,6 +15,12 @@
       "storeName": "CK Fish World",
       "commonName": "Albino Neon Tetra",
       "lastCheckedAt": "2026-08-03T04:00:00.000Z"
+    },
+    {
+      "listingId": "aqua-imports:144986",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Albino Neon Tetra (Paracheirodon innesi)"
     }
   ],
   "events": [
@@ -70,6 +75,43 @@
       ],
       "listingId": "aquahuna:6670549778507",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 3.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39647742525515",
+          "label": "Title",
+          "price": 3.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6670549778507",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "144986",
+          "label": "Default",
+          "price": 2.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:144986",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

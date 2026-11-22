@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:aquarium-fish:98194980889",
-  "commonName": "Red Cabomba",
-  "scientificName": null,
+  "commonName": "Red Cabomba (Cabomba piauhyensis)",
+  "scientificName": "Cabomba piauhyensis",
   "listings": [
     {
       "listingId": "aquarium-fish:98194980889",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Red Cabomba",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Red Cabomba"
+    },
+    {
+      "listingId": "aqua-imports:223289",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red Cabomba (Cabomba piauhyensis)"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "aquarium-fish:98194980889",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 9.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "899240198169",
+          "label": "6\"",
+          "price": 9.29,
+          "available": true
+        },
+        {
+          "id": "899240263705",
+          "label": "12\"",
+          "price": 18.29,
+          "available": false
+        },
+        {
+          "id": "899240296473",
+          "label": "24\"",
+          "price": 24.79,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:98194980889",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "223289",
+          "label": "Default",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:223289",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

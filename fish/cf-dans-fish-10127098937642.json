@@ -1,7 +1,7 @@
 {
   "canonicalFishId": "cf:dans-fish:10127098937642",
-  "commonName": "Black Stripe Dwarf Cichlid",
-  "scientificName": null,
+  "commonName": "Black Stripe Dwarf Cichlid (Taeniacara candidi)",
+  "scientificName": "Taeniacara candidi",
   "listings": [
     {
       "listingId": "dans-fish:10127098937642",
@@ -9,6 +9,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Black Stripe Dwarf Cichlid",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:133144",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Black Stripe Dwarf Cichlid (Taeniacara candidi)"
     }
   ],
   "events": [
@@ -43,6 +49,26 @@
       ],
       "listingId": "dans-fish:10127098937642",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "133144",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:133144",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

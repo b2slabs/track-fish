@@ -7,15 +7,13 @@
       "listingId": "buce-plant:8308196049096",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Star Wood",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Star Wood"
     },
     {
       "listingId": "glass-aqua:7838187552854",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Star Wood",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Star Wood"
     }
   ],
   "events": [
@@ -80,6 +78,64 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:7838187552854",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45041168941256",
+          "label": "Small",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "45041168974024",
+          "label": "Medium",
+          "price": 43.99,
+          "available": true
+        },
+        {
+          "id": "45041169006792",
+          "label": "Large",
+          "price": 67.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8308196049096",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44278042165334",
+          "label": "Small",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "44278042198102",
+          "label": "Medium",
+          "price": 43.99,
+          "available": true
+        },
+        {
+          "id": "44278042230870",
+          "label": "Large",
+          "price": 67.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:7838187552854",
       "storeSlug": "glass-aqua"
     }

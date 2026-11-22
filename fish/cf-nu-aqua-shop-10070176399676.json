@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10070176399676",
-  "commonName": "Axelrodi Cory",
+  "commonName": "Corydoras axelrodi",
   "scientificName": null,
   "listings": [
     {
       "listingId": "nu-aqua-shop:10070176399676",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Axelrodi Cory",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Axelrodi Cory"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:682451+682518+729721",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Corydoras axelrodi"
     }
   ],
   "events": [
@@ -31,6 +36,55 @@
       ],
       "listingId": "nu-aqua-shop:10070176399676",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51814268731708",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10070176399676",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "682451",
+          "label": "Default",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "682518",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "729721",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:682451+682518+729721",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

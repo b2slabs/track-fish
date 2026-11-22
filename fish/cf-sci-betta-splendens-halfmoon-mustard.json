@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:betta-splendens:halfmoon-mustard",
-  "commonName": "Halfmoon Mustard Gas Male Betta (Betta splendens) - Tank Bred",
+  "commonName": "Mustard Gas Halfmoon Betta Male (Betta splendens)",
   "scientificName": "Betta splendens",
   "listings": [
     {
       "listingId": "aquatic-arts:14626742894959+4041259548758",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Halfmoon Mustard Gas Male Betta (Betta splendens) - Tank Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Halfmoon Mustard Gas Male Betta (Betta splendens) - Tank Bred"
+    },
+    {
+      "listingId": "aqua-imports:49417",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Mustard Gas Halfmoon Betta Male (Betta splendens)"
     }
   ],
   "events": [
@@ -77,6 +82,49 @@
       ],
       "listingId": "aquatic-arts:14626742894959+4041259548758",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51654800441711",
+          "label": "Halfmoon Mustard Gas Male Betta (Betta splendens) - Tank Bred",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "29896402960470",
+          "label": "1 MALE",
+          "price": 22.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14626742894959+4041259548758",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 20.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49417",
+          "label": "Default",
+          "price": 20.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:49417",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

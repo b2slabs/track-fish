@@ -1,14 +1,13 @@
 {
   "canonicalFishId": "cf:sci:acantopsis-dialuzona",
-  "commonName": "Horseface Loach",
+  "commonName": "Horseface Loach (Acantopsis cf. dialuzona)",
   "scientificName": "Acantopsis dialuzona",
   "listings": [
     {
       "listingId": "aquarium-fish:4782694498385",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Horseface Loach",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Horseface Loach"
     },
     {
       "listingId": "dans-fish:10127111717162",
@@ -16,6 +15,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Horseface Loach",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:98736",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Horseface Loach (Acantopsis cf. dialuzona)"
     }
   ],
   "events": [
@@ -58,6 +63,43 @@
       ],
       "listingId": "dans-fish:10127111717162",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 5.89,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32891144110161",
+          "label": "Title",
+          "price": 5.89,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4782694498385",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "98736",
+          "label": "Default",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:98736",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

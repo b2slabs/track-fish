@@ -1,35 +1,37 @@
 {
   "canonicalFishId": "cf:sci:poecilia-wingei:black",
-  "commonName": "Black Bar Endler's Livebearer PAIR",
+  "commonName": "Black Flame Endler’s Livebearer (Poecilia wingei)",
   "scientificName": "Poecilia wingei",
   "listings": [
     {
       "listingId": "aquatic-arts:10925938828",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Black Bar Endler’s Livebearer (Poecilia wingei), Tank-Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Black Bar Endler’s Livebearer (Poecilia wingei), Tank-Bred"
     },
     {
       "listingId": "flip-aquatics:6869047640166",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Black Bar Endler",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Black Bar Endler"
     },
     {
       "listingId": "aquarium-fish:8014240153899",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Black Bar Endler",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Black Bar Endler"
     },
     {
       "listingId": "nu-aqua-shop:10292930642236",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Black Bar Endler's Livebearer PAIR",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Black Bar Endler's Livebearer PAIR"
+    },
+    {
+      "listingId": "aqua-imports:190355",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Black Flame Endler’s Livebearer (Poecilia wingei)"
     }
   ],
   "events": [
@@ -148,6 +150,130 @@
       ],
       "listingId": "nu-aqua-shop:10292930642236",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40815791372",
+          "label": "1 Male",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "40815791436",
+          "label": "1 Female",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "40815791500",
+          "label": "3 Males",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "40815791564",
+          "label": "3 Females",
+          "price": 22.99,
+          "available": false
+        },
+        {
+          "id": "40815791628",
+          "label": "1 Pair (Male/Female)",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:10925938828",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40179836452966",
+          "label": "Imported / Male",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "40179836485734",
+          "label": "Imported / Female",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "40179836518502",
+          "label": "Imported / Pair (M/F)",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6869047640166",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 3.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44083434422571",
+          "label": "Title",
+          "price": 3.79,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8014240153899",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52722439487804",
+          "label": "Title",
+          "price": 16.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10292930642236",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "190355",
+          "label": "Default",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:190355",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

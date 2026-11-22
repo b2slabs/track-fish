@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:gastrodermus-elegans",
-  "commonName": "Elegant Gastrodermus (Gastrodermus elegans)",
+  "commonName": "Elegant Cory (Gastrodermus elegans)",
   "scientificName": "Gastrodermus elegans",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398115176755",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Elegant Gastrodermus (Gastrodermus elegans)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Elegant Gastrodermus (Gastrodermus elegans)"
+    },
+    {
+      "listingId": "aqua-imports:49882",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Elegant Cory (Gastrodermus elegans)"
     }
   ],
   "events": [
@@ -63,6 +68,49 @@
       ],
       "listingId": "imperial-tropicals:8398115176755",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53517454082355",
+          "label": "(3 Pack) 1-2\" Unsexed Amazon River",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "49571786391859",
+          "label": "(6 Pack) 1-2\" Unsexed Amazon River",
+          "price": 34.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398115176755",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49882",
+          "label": "Default",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:49882",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

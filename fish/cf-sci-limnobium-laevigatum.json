@@ -1,35 +1,37 @@
 {
   "canonicalFishId": "cf:sci:limnobium-laevigatum",
-  "commonName": "Amazon Frogbit",
+  "commonName": "Amazon Frogbit (Limnobium laevigatum)",
   "scientificName": "Limnobium laevigatum",
   "listings": [
     {
       "listingId": "flip-aquatics:7421983588454",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Amazon Frogbit",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Amazon Frogbit"
     },
     {
       "listingId": "daku-aquatics:8741026463962",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
-      "commonName": "Frogbit",
-      "lastCheckedAt": "2026-11-22T06:58:04.282Z"
+      "commonName": "Frogbit"
     },
     {
       "listingId": "nu-aqua-shop:10063998714172",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Amazon Frogbit",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Amazon Frogbit"
     },
     {
       "listingId": "aquatic-arts:4758284501078+6799257731158",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Amazon Frogbit AKA Spongeplant (Limnobium laevigatum)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Amazon Frogbit AKA Spongeplant (Limnobium laevigatum)"
+    },
+    {
+      "listingId": "aqua-imports:160337",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Amazon Frogbit (Limnobium laevigatum)"
     }
   ],
   "events": [
@@ -248,6 +250,118 @@
       ],
       "listingId": "aquatic-arts:4758284501078+6799257731158",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40029946478678",
+          "label": "3 Pods",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "40029946511446",
+          "label": "6 Pods",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "40029946544214",
+          "label": "9 Pods",
+          "price": 33.99,
+          "available": true
+        },
+        {
+          "id": "32777004810326",
+          "label": "3 Pods",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "32777004843094",
+          "label": "6 Pods",
+          "price": 27.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4758284501078+6799257731158",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42055501938790",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:7421983588454",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:25.196Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043823571162",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741026463962",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51794078335292",
+          "label": "Title",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10063998714172",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "160337",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:160337",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

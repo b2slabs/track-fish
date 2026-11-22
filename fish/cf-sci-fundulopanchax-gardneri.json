@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:fundulopanchax-gardneri",
-  "commonName": "Gardneri Killifish",
+  "commonName": "Gardneri Killifish (Fundulopanchax gardneri)",
   "scientificName": "Fundulopanchax gardneri",
   "listings": [
     {
       "listingId": "aquarium-fish:6548624006",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Gardneri Killifish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Gardneri Killifish"
     },
     {
       "listingId": "imperial-tropicals:8398108819763",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Gardneri Killifish",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Gardneri Killifish"
     },
     {
       "listingId": "nu-aqua-shop:10278871761212",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Gardneri Killifish",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Gardneri Killifish"
+    },
+    {
+      "listingId": "aqua-imports:85048",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Gardneri Killifish (Fundulopanchax gardneri)"
     }
   ],
   "events": [
@@ -103,6 +106,95 @@
       ],
       "listingId": "nu-aqua-shop:10278871761212",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "20732034630",
+          "label": "Title",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6548624006",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612126699827",
+          "label": "0.5-1\" Unsexed",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "50480807641395",
+          "label": "1-2\" Unsexed",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "45612126732595",
+          "label": "1-2\" Pair (1 Male, 1 Female)",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398108819763",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52660832600380",
+          "label": "Male",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "52660832633148",
+          "label": "Pair",
+          "price": 38.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10278871761212",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "85048",
+          "label": "Default",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:85048",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

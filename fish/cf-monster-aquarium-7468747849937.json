@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:monster-aquarium:7468747849937",
-  "commonName": "Armoured Sea Catfish ( Hemiarius Stormii )",
-  "scientificName": null,
+  "commonName": "Armored Sea Catfish (Hemiarius stormii)",
+  "scientificName": "Hemiarius stormii",
   "listings": [
     {
       "listingId": "monster-aquarium:7468747849937",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Armoured Sea Catfish ( Hemiarius Stormii )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Armoured Sea Catfish ( Hemiarius Stormii )"
+    },
+    {
+      "listingId": "aqua-imports:190495",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Armored Sea Catfish (Hemiarius stormii)"
     }
   ],
   "events": [
@@ -114,6 +119,43 @@
       ],
       "listingId": "monster-aquarium:7468747849937",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42236377694417",
+          "label": "3-4”",
+          "price": 40,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7468747849937",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "190495",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:190495",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

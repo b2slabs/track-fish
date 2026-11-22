@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:gastrodermus-pygmaeus",
-  "commonName": "Pygmy Gastrodermus (Gastrodermus pygmaeus)",
+  "commonName": "True Pygmy Cory (Gastrodermus pygmaeus)",
   "scientificName": "Gastrodermus pygmaeus",
   "listings": [
     {
       "listingId": "nationwide-aquatics-usa:8820133560473",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Pygmy corydoras ( Gastrodermus pygmaeus )",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "Pygmy corydoras ( Gastrodermus pygmaeus )"
     },
     {
       "listingId": "imperial-tropicals:8398099251507",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Pygmy Gastrodermus (Gastrodermus pygmaeus)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Pygmy Gastrodermus (Gastrodermus pygmaeus)"
+    },
+    {
+      "listingId": "aqua-imports:39754+58192",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "True Pygmy Cory (Gastrodermus pygmaeus)"
     }
   ],
   "events": [
@@ -64,6 +68,72 @@
       ],
       "listingId": "imperial-tropicals:8398099251507",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 4,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48353993916569",
+          "label": "Title",
+          "price": 4,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8820133560473",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612099141939",
+          "label": "(3 Pack) 0.25-0.5\" Unsexed Amazon River",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "45612099174707",
+          "label": "(10 Pack) 0.25-0.5\" Unsexed Amazon River",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398099251507",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "58192",
+          "label": "Default",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "39754",
+          "label": "Default",
+          "price": 3.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:39754+58192",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

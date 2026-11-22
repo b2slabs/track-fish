@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:hymenocera-elegans",
-  "commonName": "Harlequin Shrimp",
+  "commonName": "Harlequin Shrimp (Hymenocera picta)",
   "scientificName": "Hymenocera elegans",
   "listings": [
     {
       "listingId": "aquarium-fish:9293822796",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Harlequin Shrimp",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Harlequin Shrimp"
+    },
+    {
+      "listingId": "aqua-imports:93399",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Harlequin Shrimp (Hymenocera picta)"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "aquarium-fish:9293822796",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 73.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31235588522065",
+          "label": "Each / Medium (0.5-0.75\")",
+          "price": 73.99,
+          "available": true
+        },
+        {
+          "id": "32154531404",
+          "label": "Each / Large (0.75-1\")",
+          "price": 85.49,
+          "available": true
+        },
+        {
+          "id": "51422092624171",
+          "label": "Pair / Medium (0.5-0.75\")",
+          "price": 149.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9293822796",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "93399",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:93399",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

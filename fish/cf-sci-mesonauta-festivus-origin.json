@@ -7,22 +7,19 @@
       "listingId": "aquarium-fish:5951838662",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Festivus Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Festivus Cichlid"
     },
     {
       "listingId": "monster-aquarium:7057207066833",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Festivus Cichlid (Mesonauta festivus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Festivus Cichlid (Mesonauta festivus)"
     },
     {
       "listingId": "nationwide-aquatics-usa:8818964463769",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Festivum Cichlid (Mesonauta mirificus)",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "Festivum Cichlid (Mesonauta mirificus)"
     }
   ],
   "events": [
@@ -83,6 +80,57 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "aquarium-fish:5951838662",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41099297456337",
+          "label": "2-2.5\"",
+          "price": 25,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7057207066833",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48352404013209",
+          "label": "Title",
+          "price": 15,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8818964463769",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "18825595910",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "aquarium-fish:5951838662",
       "storeSlug": "aquarium-fish"
     }

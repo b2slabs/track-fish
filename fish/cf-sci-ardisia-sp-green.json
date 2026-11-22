@@ -7,15 +7,13 @@
       "listingId": "buce-plant:4711738277969",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Ardisia Sp Green",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Ardisia Sp Green"
     },
     {
       "listingId": "glass-aqua:4928718897238",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Ardisia Sp Green",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Ardisia Sp Green"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:4928718897238",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 52.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32698683818065",
+          "label": "Title",
+          "price": 52.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:4711738277969",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 25.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "33297773658198",
+          "label": "Title",
+          "price": 25.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:4928718897238",
       "storeSlug": "glass-aqua"
     }

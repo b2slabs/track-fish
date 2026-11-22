@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:buce-plant:9362928525",
-  "commonName": "Echinodorus Ozelot",
+  "commonName": "Echinodorus x ‘Ozelot’  (maculatus  x barthii)",
   "scientificName": null,
   "listings": [
     {
       "listingId": "buce-plant:9362928525",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Echinodorus Ozelot",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Echinodorus Ozelot"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:708414",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Echinodorus x ‘Ozelot’  (maculatus  x barthii)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "buce-plant:9362928525",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "34230859213",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:9362928525",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "708414",
+          "label": "Default",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:708414",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

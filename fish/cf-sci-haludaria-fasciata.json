@@ -7,15 +7,13 @@
       "listingId": "monster-aquarium:7492099997905",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Melon Barb (Haludaria fasciata)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Melon Barb (Haludaria fasciata)"
     },
     {
       "listingId": "nu-aqua-shop:10006318121276",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Melon Barb",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Melon Barb"
     }
   ],
   "events": [
@@ -76,6 +74,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:10006318121276",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 7,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42294771351761",
+          "label": "2”",
+          "price": 7,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7492099997905",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627490902332",
+          "label": "Title",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006318121276",
       "storeSlug": "nu-aqua-shop"
     }

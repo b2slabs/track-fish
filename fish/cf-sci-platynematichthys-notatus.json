@@ -7,8 +7,13 @@
       "listingId": "monster-aquarium:7037570973905",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Lince Catfish (Platynematichthys notatus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Lince Catfish (Platynematichthys notatus)"
+    },
+    {
+      "listingId": "aqua-imports:40559",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Lince Catfish (Platynematichthys notatus)"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "monster-aquarium:7037570973905",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 499,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41052810674385",
+          "label": "6-7”",
+          "price": 499,
+          "available": false
+        },
+        {
+          "id": "41632404340945",
+          "label": "14-16”",
+          "price": 999.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7037570973905",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 1099.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40559",
+          "label": "Default",
+          "price": 1099.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:40559",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,35 +1,37 @@
 {
   "canonicalFishId": "cf:sci:riccia-fluitans",
-  "commonName": "Riccia Fluitans Tissue Culture",
+  "commonName": "Crystalwort (Riccia Fluitans)",
   "scientificName": "Riccia fluitans",
   "listings": [
     {
       "listingId": "aquarium-fish:10106479739179",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Riccia fluitans - Tissue Culture",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Riccia fluitans - Tissue Culture"
     },
     {
       "listingId": "glass-aqua:4805754519638",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Riccia Fluitans Tissue Culture",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Riccia Fluitans Tissue Culture"
     },
     {
       "listingId": "aquatic-arts:11580204556+8683052172",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Crystalwort (Riccia fluitans), portion",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Crystalwort (Riccia fluitans), portion"
     },
     {
       "listingId": "buce-plant:10992465997+4649367273553+477455450152",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Riccia Fluitans UNS Tissue Culture",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Riccia Fluitans UNS Tissue Culture"
+    },
+    {
+      "listingId": "aqua-imports:60142",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Crystalwort (Riccia Fluitans)"
     }
   ],
   "events": [
@@ -242,6 +244,124 @@
       ],
       "listingId": "buce-plant:10992465997+4649367273553+477455450152",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "33402178961494",
+          "label": "Small Portion Cup",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "32150381396054",
+          "label": "1 Tissue Culture",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:11580204556+8683052172",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 11.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51386928136491",
+          "label": "Each",
+          "price": 11.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10106479739179",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32449576370257",
+          "label": "Riccia Fluitans UNS Tissue Culture",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "3880436039720",
+          "label": "Riccia Fluitans Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "32445826138193",
+          "label": "Riccia Fluitans Tissue Culture - Small Cup",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10992465997+4649367273553+477455450152",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42114437087318",
+          "label": "UNS Tissue Culture - Small",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "42114437054550",
+          "label": "UNS Tissue Culture - Regular",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "42114437120086",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:4805754519638",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "60142",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60142",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:vesicularia-ferriei",
-  "commonName": "Weeping Moss Dome",
+  "commonName": "Weeping Moss (Vesicularia ferriei)",
   "scientificName": "Vesicularia ferriei",
   "listings": [
     {
       "listingId": "glass-aqua:10412190040150",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Weeping Moss Dome",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Weeping Moss Dome"
     },
     {
       "listingId": "buce-plant:8354318483656",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Weeping Moss Dome",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Weeping Moss Dome"
     },
     {
       "listingId": "imperial-tropicals:10021326094643",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Weeping Moss (Vesicularia ferriei 'Weeping Moss')",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Weeping Moss (Vesicularia ferriei 'Weeping Moss')"
+    },
+    {
+      "listingId": "aqua-imports:85637",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Weeping Moss (Vesicularia ferriei)"
     }
   ],
   "events": [
@@ -189,6 +192,77 @@
       ],
       "listingId": "buce-plant:8354318483656",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52825506545971",
+          "label": "3\" x 3\" Mat",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:10021326094643",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45255178944712",
+          "label": "Title",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8354318483656",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51096945623126",
+          "label": "Title",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:10412190040150",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "85637",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:85637",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

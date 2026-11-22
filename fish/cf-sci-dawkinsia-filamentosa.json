@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:dawkinsia-filamentosa",
-  "commonName": "Filamentosa Barb",
+  "commonName": "Filamentosa Barb (Dawkinsia filamentosa)",
   "scientificName": "Dawkinsia filamentosa",
   "listings": [
     {
       "listingId": "monster-aquarium:7246641791185",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Filament Barb (Dawkinsia filamentosa)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Filament Barb (Dawkinsia filamentosa)"
     },
     {
       "listingId": "aquarium-fish:790518431863",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Filamentosa Barb",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Filamentosa Barb"
+    },
+    {
+      "listingId": "aqua-imports:51343",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Filamentosa Barb (Dawkinsia filamentosa)"
     }
   ],
   "events": [
@@ -58,6 +62,60 @@
       ],
       "listingId": "aquarium-fish:790518431863",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 7,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41550140506321",
+          "label": "2-3\"",
+          "price": 7,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7246641791185",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "8723782205559",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:790518431863",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51343",
+          "label": "Default",
+          "price": 16.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:51343",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

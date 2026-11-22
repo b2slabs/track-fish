@@ -7,15 +7,13 @@
       "listingId": "monster-aquarium:7007730237649",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Tiger Parrot (Amphilophus citrinellus x Paraneetroplus synspilus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Tiger Parrot (Amphilophus citrinellus x Paraneetroplus synspilus)"
     },
     {
       "listingId": "global-exoticquatics:10249362833600",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Tiger Parrot",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "Tiger Parrot"
     }
   ],
   "events": [
@@ -62,6 +60,46 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "global-exoticquatics:10249362833600",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 65,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40978854543569",
+          "label": "4-5” Red",
+          "price": 65,
+          "available": true
+        },
+        {
+          "id": "40978856771793",
+          "label": "4-5” Yellow",
+          "price": 65,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7007730237649",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 70,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50403980017856",
+          "label": "4-5in",
+          "price": 70,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "global-exoticquatics:10249362833600",
       "storeSlug": "global-exoticquatics"
     }

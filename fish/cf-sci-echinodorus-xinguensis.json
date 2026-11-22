@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:echinodorus-xinguensis",
-  "commonName": "Echinodorus Xinguensis",
+  "commonName": "Xingu Dwarf Amazon Sword (Echinodorus xinguensis)",
   "scientificName": "Echinodorus xinguensis",
   "listings": [
     {
       "listingId": "buce-plant:9362833229",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Echinodorus Xinguensis",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Echinodorus Xinguensis"
+    },
+    {
+      "listingId": "aqua-imports:71071",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Xingu Dwarf Amazon Sword (Echinodorus xinguensis)"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "buce-plant:9362833229",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "34229274701",
+          "label": "Pot",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12425253617745",
+          "label": "3 Pot Package",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "12425253650513",
+          "label": "5 Pot Package",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:9362833229",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "71071",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:71071",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:zebrasoma-xanthurum:purple",
-  "commonName": "Purple Tang",
+  "commonName": "Purple Tang (Zebrasoma xanthurum)",
   "scientificName": "Zebrasoma xanthurum",
   "listings": [
     {
       "listingId": "aquarium-fish:10072833818923",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Purple Tang",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Purple Tang"
+    },
+    {
+      "listingId": "aqua-imports:85108",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Purple Tang (Zebrasoma xanthurum)"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "aquarium-fish:10072833818923",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 313.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51231166333227",
+          "label": "Small/Medium (2-3.5\")",
+          "price": 313.59,
+          "available": true
+        },
+        {
+          "id": "51231166431531",
+          "label": "Large (3.5-5\")",
+          "price": 421.79,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10072833818923",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 299.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "85108",
+          "label": "Default",
+          "price": 299.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:85108",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

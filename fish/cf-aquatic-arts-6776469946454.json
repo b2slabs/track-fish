@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:aquatic-arts:6776469946454",
-  "commonName": "Monti-Clay by Shrimp Envy",
+  "commonName": "Shrimp Envy Monti Clay",
   "scientificName": null,
   "listings": [
     {
       "listingId": "aquatic-arts:6776469946454",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Shrimp Envy - Monti Clay",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Shrimp Envy - Monti Clay"
     },
     {
       "listingId": "flip-aquatics:7658059137126",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Monti-Clay by Shrimp Envy",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Monti-Clay by Shrimp Envy"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:617072",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Shrimp Envy Monti Clay"
     }
   ],
   "events": [
@@ -64,6 +68,66 @@
       ],
       "listingId": "flip-aquatics:7658059137126",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39921341300822",
+          "label": "Shrimp Envy Monti Clay",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6776469946454",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42801667473510",
+          "label": "50g",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "42801684480102",
+          "label": "100g",
+          "price": 17.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:7658059137126",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "617072",
+          "label": "Default",
+          "price": 16.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:617072",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

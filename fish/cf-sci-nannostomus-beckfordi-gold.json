@@ -1,14 +1,13 @@
 {
   "canonicalFishId": "cf:sci:nannostomus-beckfordi:gold",
-  "commonName": "Golden Pencilfish | Nannostomus beckfordi",
+  "commonName": "Gold Beckford’s Pencilfish (Nannostomus beckfordi)",
   "scientificName": "Nannostomus beckfordi",
   "listings": [
     {
       "listingId": "flip-aquatics:7063994237030",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Golden Pencilfish | Nannostomus beckfordi",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Golden Pencilfish | Nannostomus beckfordi"
     },
     {
       "listingId": "aquatic-arts:14925882032495",
@@ -16,6 +15,12 @@
       "storeName": "Aquatic Arts",
       "commonName": "Golden Pencilfish (Nannostomus beckfordi)",
       "lastCheckedAt": "2026-04-10T03:00:00.000Z"
+    },
+    {
+      "listingId": "aqua-imports:85363",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Gold Beckford’s Pencilfish (Nannostomus beckfordi)"
     }
   ],
   "events": [
@@ -76,6 +81,43 @@
       ],
       "listingId": "flip-aquatics:7063994237030",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 8.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40933712625766",
+          "label": "Imported / 1 Fish",
+          "price": 8.49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:7063994237030",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 4.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "85363",
+          "label": "Default",
+          "price": 4.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:85363",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

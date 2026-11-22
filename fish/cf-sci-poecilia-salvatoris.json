@@ -1,28 +1,25 @@
 {
   "canonicalFishId": "cf:sci:poecilia-salvatoris",
-  "commonName": "Liberty Molly",
+  "commonName": "Liberty Molly (Poecilia salvatoris)",
   "scientificName": "Poecilia salvatoris",
   "listings": [
     {
       "listingId": "aquatic-arts:14727665221999",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Liberty Molly (Poecilia salvatoris) – Locally Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Liberty Molly (Poecilia salvatoris) – Locally Bred"
     },
     {
       "listingId": "nu-aqua-shop:10019622748476",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Liberty Molly",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Liberty Molly"
     },
     {
       "listingId": "flip-aquatics:6945170784358",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Liberty Molly | Poecilia salvatoris",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Liberty Molly | Poecilia salvatoris"
     },
     {
       "listingId": "dans-fish:10127116239146",
@@ -30,6 +27,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Liberty Molly",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:149898",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Liberty Molly (Poecilia salvatoris)"
     }
   ],
   "events": [
@@ -522,6 +525,119 @@
       ],
       "listingId": "dans-fish:10127116239146",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52416419889519",
+          "label": "1 Fish (Unsexed)",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "52416419922287",
+          "label": "3 Fish (Unsexed)",
+          "price": 31.99,
+          "available": false
+        },
+        {
+          "id": "52416419955055",
+          "label": "5 Fish (Unsexed)",
+          "price": 51.99,
+          "available": false
+        },
+        {
+          "id": "52024753619311",
+          "label": "1 Male",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "52024753652079",
+          "label": "1 Female",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "52024753684847",
+          "label": "1 Pair ( 1 Male + 1 Female)",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14727665221999",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 17.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40470315040870",
+          "label": "Imported / Male",
+          "price": 17.49,
+          "available": false
+        },
+        {
+          "id": "41411863969894",
+          "label": "Imported / Female",
+          "price": 17.49,
+          "available": false
+        },
+        {
+          "id": "41411864002662",
+          "label": "Imported / Pair (M/F)",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6945170784358",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51672129765692",
+          "label": "Title",
+          "price": 3.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10019622748476",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "149898",
+          "label": "Default",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:149898",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -7,15 +7,13 @@
       "listingId": "aquahuna:1866140450859",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Silver Flying Fox",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Silver Flying Fox"
     },
     {
       "listingId": "imperial-tropicals:10356179403059",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Silver Flying Fox (Crossocheilus reticulatus)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Silver Flying Fox (Crossocheilus reticulatus)"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "imperial-tropicals:10356179403059",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 3.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "17145211027499",
+          "label": "Title",
+          "price": 3.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1866140450859",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53767157711155",
+          "label": "1-2\" Unsexed",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "imperial-tropicals:10356179403059",
       "storeSlug": "imperial-tropicals"
     }

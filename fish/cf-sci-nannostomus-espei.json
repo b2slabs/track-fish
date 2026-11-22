@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:nannostomus-espei",
-  "commonName": "Espei Pencilfish",
+  "commonName": "Barred Pencilfish (Nannostomus espei)",
   "scientificName": "Nannostomus espei",
   "listings": [
     {
       "listingId": "imperial-tropicals:9629992190259",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Barred Pencilfish (Nannostomus espei)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Barred Pencilfish (Nannostomus espei)"
     },
     {
       "listingId": "aquarium-fish:785464524919",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Espei Pencilfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Espei Pencilfish"
     },
     {
       "listingId": "nu-aqua-shop:10006356918588",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Espei Pencilfish",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Espei Pencilfish"
+    },
+    {
+      "listingId": "aqua-imports:177727",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Barred Pencilfish (Nannostomus espei)"
     }
   ],
   "events": [
@@ -91,6 +94,83 @@
       ],
       "listingId": "nu-aqua-shop:10006356918588",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 21.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "8691041108087",
+          "label": "Title",
+          "price": 21.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:785464524919",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51011882877235",
+          "label": "0.5-1\" Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "51011882910003",
+          "label": "(6 Pack) 0.5-1\" Unsexed",
+          "price": 134.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9629992190259",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627665883452",
+          "label": "Title",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006356918588",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "177727",
+          "label": "Default",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:177727",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,35 +1,37 @@
 {
   "canonicalFishId": "cf:sci:aponogeton-crispus-family",
-  "commonName": "Aponogeton Crispus",
+  "commonName": "Aponogeton crispus",
   "scientificName": "Aponogeton crispus family",
   "listings": [
     {
       "listingId": "flip-aquatics:8138522886246",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Aponogeton Crispus",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Aponogeton Crispus"
     },
     {
       "listingId": "daku-aquatics:8741041799386",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
-      "commonName": "Aponogeton Crispus",
-      "lastCheckedAt": "2026-11-22T06:58:04.282Z"
+      "commonName": "Aponogeton Crispus"
     },
     {
       "listingId": "buce-plant:1328313565265",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Aponogeton Crispus",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Aponogeton Crispus"
     },
     {
       "listingId": "glass-aqua:6629622120534",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Aponogeton Crispus",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Aponogeton Crispus"
+    },
+    {
+      "listingId": "aqua-imports:59928",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Aponogeton crispus"
     }
   ],
   "events": [
@@ -112,6 +114,94 @@
       ],
       "listingId": "glass-aqua:6629622120534",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46539632246886",
+          "label": "Potted / Loose",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:8138522886246",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:25.196Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043853881562",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741041799386",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12232804827217",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:1328313565265",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39538437718102",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6629622120534",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 6.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "59928",
+          "label": "Default",
+          "price": 6.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:59928",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

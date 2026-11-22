@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:rotala-ramosior",
-  "commonName": "Rotala Florida Sunset",
+  "commonName": "Rotala Florida (Rotala ramosior ‘Florida’)",
   "scientificName": "Rotala ramosior",
   "listings": [
     {
       "listingId": "glass-aqua:6738760499286",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Rotala Florida Sunset",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Rotala Florida Sunset"
     },
     {
       "listingId": "buce-plant:7284601290952+7522440609992",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Rotala Florida Sunset",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Rotala Florida Sunset"
+    },
+    {
+      "listingId": "aqua-imports:186946",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Rotala Florida (Rotala ramosior ‘Florida’)"
     }
   ],
   "events": [
@@ -116,6 +120,78 @@
       ],
       "listingId": "buce-plant:7284601290952+7522440609992",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42589297443016",
+          "label": "Rotala Sunset Tissue Culture",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "41707067769032",
+          "label": "Rotala Florida Sunset",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7284601290952+7522440609992",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40207478128726",
+          "label": "Bunch",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "40207478194262",
+          "label": "UNS Tissue Culture",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "42456095948886",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6738760499286",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "186946",
+          "label": "Default",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:186946",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

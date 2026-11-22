@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:chitala-blanci",
-  "commonName": "Royal Clown Knifefish",
+  "commonName": "Royal Clown Knifefish (Chitala blanci)",
   "scientificName": "Chitala blanci",
   "listings": [
     {
       "listingId": "monster-aquarium:6984822685905",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Royal Knife (Chitala blanci)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Royal Knife (Chitala blanci)"
     },
     {
       "listingId": "aquarium-fish:8295680377131",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Royal Clown Knifefish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Royal Clown Knifefish"
+    },
+    {
+      "listingId": "aqua-imports:38932",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Royal Clown Knifefish (Chitala blanci)"
     }
   ],
   "events": [
@@ -64,6 +68,66 @@
       ],
       "listingId": "aquarium-fish:8295680377131",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 89.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40893411492049",
+          "label": "7-8”",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "41890812985553",
+          "label": "10-12”",
+          "price": 119.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6984822685905",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 89.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45153915076907",
+          "label": "Title",
+          "price": 89.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8295680377131",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38932",
+          "label": "Default",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38932",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

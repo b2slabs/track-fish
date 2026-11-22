@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:stigmatogobius-sadanundio",
-  "commonName": "Fan Dance Goby",
+  "commonName": "Knight Goby (Stigmatogobius sadanundio)",
   "scientificName": "Stigmatogobius sadanundio",
   "listings": [
     {
       "listingId": "monster-aquarium:7139543056593",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Knight Goby (Stigmatogobius sadanundio)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Knight Goby (Stigmatogobius sadanundio)"
     },
     {
       "listingId": "aquarium-fish:6652541382",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Fan Dance Goby",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Fan Dance Goby"
     },
     {
       "listingId": "flip-aquatics:7056452485222",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Knight Goby | Stigmatogobius sadanundio",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Knight Goby | Stigmatogobius sadanundio"
+    },
+    {
+      "listingId": "aqua-imports:61693",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Knight Goby (Stigmatogobius sadanundio)"
     }
   ],
   "events": [
@@ -106,6 +109,77 @@
       ],
       "listingId": "aquarium-fish:6652541382",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 12.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41300912701649",
+          "label": "2”",
+          "price": 12.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7139543056593",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40903710539878",
+          "label": "Imported / 1 Fish",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:7056452485222",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 15.44,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "21030749894",
+          "label": "Title",
+          "price": 15.44,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6652541382",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "61693",
+          "label": "Default",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:61693",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

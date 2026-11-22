@@ -7,15 +7,13 @@
       "listingId": "buce-plant:8339001278664",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Bucephalandra Dark Phantom",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Bucephalandra Dark Phantom"
     },
     {
       "listingId": "glass-aqua:8011399626838",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Bucephalandra Dark Phantom",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Bucephalandra Dark Phantom"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:8011399626838",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45201123639496",
+          "label": "Title",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8339001278664",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45654238036054",
+          "label": "Title",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:8011399626838",
       "storeSlug": "glass-aqua"
     }

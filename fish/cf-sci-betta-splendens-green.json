@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:betta-splendens:green",
-  "commonName": "Green Samurai Plakat Betta PAIR",
+  "commonName": "Green Alien Betta (Betta sp. hybrid)",
   "scientificName": "Betta splendens",
   "listings": [
     {
       "listingId": "aquahuna:7192590876747",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Alien Green Betta",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Alien Green Betta"
     },
     {
       "listingId": "nu-aqua-shop:10019843014972",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Green Samurai Plakat Betta PAIR",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Green Samurai Plakat Betta PAIR"
+    },
+    {
+      "listingId": "aqua-imports:95569",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Green Alien Betta (Betta sp. hybrid)"
     }
   ],
   "events": [
@@ -99,6 +103,60 @@
       ],
       "listingId": "nu-aqua-shop:10019843014972",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40968303902795",
+          "label": "Title",
+          "price": 25,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7192590876747",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 77.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51672930189628",
+          "label": "Title",
+          "price": 77.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10019843014972",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "95569",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:95569",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

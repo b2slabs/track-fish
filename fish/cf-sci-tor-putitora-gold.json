@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:tor-putitora:gold",
-  "commonName": "Golden Mahseer (Tor Putitora)",
+  "commonName": "Golden Mahseer (Tor putitora)",
   "scientificName": "Tor putitora",
   "listings": [
     {
       "listingId": "monster-aquarium:7229641883857",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Golden Mahseer (Tor Putitora)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Golden Mahseer (Tor Putitora)"
+    },
+    {
+      "listingId": "aqua-imports:172694",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Golden Mahseer (Tor putitora)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "monster-aquarium:7229641883857",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 70,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41513891823825",
+          "label": "4-5\"",
+          "price": 70,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7229641883857",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "172694",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:172694",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

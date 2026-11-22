@@ -7,15 +7,13 @@
       "listingId": "buce-plant:7671639310536",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Cueva Stone",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Cueva Stone"
     },
     {
       "listingId": "glass-aqua:7445031026774",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Cueva Stone",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Cueva Stone"
     }
   ],
   "events": [
@@ -80,6 +78,64 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:7445031026774",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43067976122568",
+          "label": "10LB",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "43067976155336",
+          "label": "20LB",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "43067976188104",
+          "label": "30LB",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7671639310536",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41921095401558",
+          "label": "10LB",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "41921095434326",
+          "label": "20LB",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "41921130528854",
+          "label": "30LB",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:7445031026774",
       "storeSlug": "glass-aqua"
     }

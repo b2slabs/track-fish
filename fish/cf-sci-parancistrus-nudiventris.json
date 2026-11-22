@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:parancistrus-nudiventris",
-  "commonName": "Peppermint Pleco (L030 / L031) (Parancistrus nudiventris)  – Brazil",
+  "commonName": "L031 Peppermint Pleco (Parancistrus nudiventris)",
   "scientificName": "Parancistrus nudiventris",
   "listings": [
     {
       "listingId": "aquatic-arts:14896620142959",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Peppermint Pleco (L030 / L031) (Parancistrus nudiventris)  – Brazil",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Peppermint Pleco (L030 / L031) (Parancistrus nudiventris)  – Brazil"
+    },
+    {
+      "listingId": "aqua-imports:39792",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "L031 Peppermint Pleco (Parancistrus nudiventris)"
     }
   ],
   "events": [
@@ -72,6 +77,43 @@
       ],
       "listingId": "aquatic-arts:14896620142959",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 57.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52691293864303",
+          "label": "1 Fish",
+          "price": 57.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14896620142959",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39792",
+          "label": "Default",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:39792",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

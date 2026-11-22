@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:nandopsis-tetracanthus",
-  "commonName": "Cuban Cichlid",
+  "commonName": "Cuban Cichlid (Nandopsis tetracanthus)",
   "scientificName": "Nandopsis tetracanthus",
   "listings": [
     {
       "listingId": "monster-aquarium:7188006600913",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Cuban Cichlid ( Nandopsis Tetracanthus )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Cuban Cichlid ( Nandopsis Tetracanthus )"
     },
     {
       "listingId": "imperial-tropicals:8398051082547",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Cuban Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Cuban Cichlid"
     },
     {
       "listingId": "global-exoticquatics:8678209847488",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Cuban Cichlid",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "Cuban Cichlid"
+    },
+    {
+      "listingId": "aqua-imports:42241",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Cuban Cichlid (Nandopsis tetracanthus)"
     }
   ],
   "events": [
@@ -115,6 +118,107 @@
       ],
       "listingId": "global-exoticquatics:8678209847488",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 74.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41416457584849",
+          "label": "5-6”",
+          "price": 74.99,
+          "available": false
+        },
+        {
+          "id": "42088489746641",
+          "label": "8-9”",
+          "price": 180,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7188006600913",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611967709491",
+          "label": "1-2” Unsexed",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "45611967807795",
+          "label": "2-3” Unsexed",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "45611967742259",
+          "label": "3-4” Unsexed",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "45611967775027",
+          "label": "4-5” Unsexed",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "47858780995891",
+          "label": "5-6” Male",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398051082547",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48782303232192",
+          "label": "1-1.5in",
+          "price": 15,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8678209847488",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42241",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:42241",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

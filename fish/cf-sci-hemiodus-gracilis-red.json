@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:hemiodus-gracilis:red",
-  "commonName": "Red Tail Hemiodus",
+  "commonName": "Red Tail Hemiodus (Hemiodus gracilis)",
   "scientificName": "Hemiodus gracilis",
   "listings": [
     {
       "listingId": "aquarium-fish:8955128578347",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Hemiodus Red Tail",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Hemiodus Red Tail"
     },
     {
       "listingId": "nu-aqua-shop:10006359867708",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Red Tail Hemiodus",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Red Tail Hemiodus"
+    },
+    {
+      "listingId": "aqua-imports:46755",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red Tail Hemiodus (Hemiodus gracilis)"
     }
   ],
   "events": [
@@ -70,6 +74,72 @@
       ],
       "listingId": "nu-aqua-shop:10006359867708",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47718919864619",
+          "label": "Title",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8955128578347",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 10.46,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51684212867388",
+          "label": "Single",
+          "price": 10.46,
+          "available": false
+        },
+        {
+          "id": "51634100797756",
+          "label": "Group of 3",
+          "price": 28.24,
+          "available": false
+        },
+        {
+          "id": "51634100830524",
+          "label": "Group of 6",
+          "price": 53.35,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006359867708",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46755",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:46755",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

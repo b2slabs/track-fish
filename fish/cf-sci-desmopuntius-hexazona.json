@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:desmopuntius-hexazona",
-  "commonName": "Six-Banded Barb",
+  "commonName": "Six Banded Barb (Desmopuntius hexazona)",
   "scientificName": "Desmopuntius hexazona",
   "listings": [
     {
       "listingId": "nu-aqua-shop:10006319825212",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Six-Banded Barb",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Six-Banded Barb"
     },
     {
       "listingId": "imperial-tropicals:8398104559923",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Six Banded Barb",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Six Banded Barb"
+    },
+    {
+      "listingId": "aqua-imports:163371",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Six Banded Barb (Desmopuntius hexazona)"
     }
   ],
   "events": [
@@ -64,6 +68,66 @@
       ],
       "listingId": "nu-aqua-shop:10006319825212",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612113461555",
+          "label": "1\" Unsexed",
+          "price": 2.99,
+          "available": false
+        },
+        {
+          "id": "45612113494323",
+          "label": "(10) 1\" Unsexed",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398104559923",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 8.37,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627493097788",
+          "label": "Title",
+          "price": 8.37,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006319825212",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "163371",
+          "label": "Default",
+          "price": 7.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:163371",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

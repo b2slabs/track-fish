@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:chilatherina-bleheri",
-  "commonName": "Bleher's Rainbowfish (Chilatherina bleheri)",
+  "commonName": "Blehri Rainbow (Chilatherina bleheri)",
   "scientificName": "Chilatherina bleheri",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398017560883",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Bleher's Rainbowfish (Chilatherina bleheri)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Bleher's Rainbowfish (Chilatherina bleheri)"
     },
     {
       "listingId": "aquarium-fish:8397730611499",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Bleheri Rainbowfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Bleheri Rainbowfish"
+    },
+    {
+      "listingId": "aqua-imports:190207",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Blehri Rainbow (Chilatherina bleheri)"
     }
   ],
   "events": [
@@ -94,6 +98,96 @@
       ],
       "listingId": "imperial-tropicals:8398017560883",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45525206270251",
+          "label": "Title",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8397730611499",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611825037619",
+          "label": "2-3\" Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45611825103155",
+          "label": "2-3\" Female",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "45611825070387",
+          "label": "2-3\" Male",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "48906424385843",
+          "label": "2-3\" Pair (1 Male, 1 Female)",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "45611825168691",
+          "label": "3-4\" Female",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "45611825135923",
+          "label": "3-4\" Male",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "45611825201459",
+          "label": "3-4\" Trio (1 Male, 2 Female)",
+          "price": 51.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398017560883",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "190207",
+          "label": "Default",
+          "price": 17.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:190207",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

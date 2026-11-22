@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:koumansetta-hectori",
-  "commonName": "Hector's Goby",
+  "commonName": "Hector’s Goby (Koumansetta hectori)",
   "scientificName": "Koumansetta hectori",
   "listings": [
     {
       "listingId": "aquarium-fish:9977045188907",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Hector's Goby",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Hector's Goby"
+    },
+    {
+      "listingId": "aqua-imports:136120",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Hector’s Goby (Koumansetta hectori)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:9977045188907",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 30.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50537108799787",
+          "label": "Small/Medium (1-2\")",
+          "price": 30.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9977045188907",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "136120",
+          "label": "Default",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:136120",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

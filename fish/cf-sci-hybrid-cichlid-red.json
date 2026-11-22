@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:hybrid-cichlid:red",
-  "commonName": "Blood Red Parrot Cichlid",
+  "commonName": "Blood Red Parrot Cichlid (Amphilophus sp. hybrid)",
   "scientificName": "Hybrid cichlid",
   "listings": [
     {
       "listingId": "aquarium-fish:5951345798",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Blood Red Parrot Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Blood Red Parrot Cichlid"
+    },
+    {
+      "listingId": "aqua-imports:150877",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Blood Red Parrot Cichlid (Amphilophus sp. hybrid)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:5951345798",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 27.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "18823298502",
+          "label": "Title",
+          "price": 27.79,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:5951345798",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "150877",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:150877",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

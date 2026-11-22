@@ -1,35 +1,37 @@
 {
   "canonicalFishId": "cf:sci:mastacembelus-armatus-origin",
-  "commonName": "Tire Track Eel",
+  "commonName": "Tiretrack Eel (Mastacembelus armatus)",
   "scientificName": "Mastacembelus armatus origin",
   "listings": [
     {
       "listingId": "aquarium-fish:6189915846",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Tire Track Eel",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Tire Track Eel"
     },
     {
       "listingId": "global-exoticquatics:8675717480640",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Tire Track Eel",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "Tire Track Eel"
     },
     {
       "listingId": "nationwide-aquatics-usa:8799637897369",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Tire Track eel (mastacembelus armatus)",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "Tire Track eel (mastacembelus armatus)"
     },
     {
       "listingId": "monster-aquarium:6974858985681",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Tire Track Eel (Mastacembelus armatus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Tire Track Eel (Mastacembelus armatus)"
+    },
+    {
+      "listingId": "aqua-imports:64144",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Tiretrack Eel (Mastacembelus armatus)"
     }
   ],
   "events": [
@@ -118,6 +120,100 @@
       ],
       "listingId": "global-exoticquatics:8675717480640",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 25.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40865445839057",
+          "label": "7-8”",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "42912422101201",
+          "label": "4\"-5\"",
+          "price": 25.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6974858985681",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48287411863705",
+          "label": "Title",
+          "price": 40,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8799637897369",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19603532358",
+          "label": "Title",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6189915846",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 20,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48757170045120",
+          "label": "4-5 inch",
+          "price": 20,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8675717480640",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 25.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "64144",
+          "label": "Default",
+          "price": 25.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:64144",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

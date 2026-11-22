@@ -7,15 +7,13 @@
       "listingId": "ck-fish-world:9245934878935",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "UNS Grey Flattener",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "UNS Grey Flattener"
     },
     {
       "listingId": "buce-plant:4379510767697",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "UNS Grey Flattener",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "UNS Grey Flattener"
     }
   ],
   "events": [
@@ -76,6 +74,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "buce-plant:4379510767697",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 17.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48517275222231",
+          "label": "Title",
+          "price": 17.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:9245934878935",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31298633334865",
+          "label": "Title",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "buce-plant:4379510767697",
       "storeSlug": "buce-plant"
     }

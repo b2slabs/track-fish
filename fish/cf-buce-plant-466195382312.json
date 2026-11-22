@@ -7,15 +7,13 @@
       "listingId": "buce-plant:466195382312",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Icelandic Lava Stone",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Icelandic Lava Stone"
     },
     {
       "listingId": "glass-aqua:1338574504022",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Icelandic Lava Stone",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Icelandic Lava Stone"
     }
   ],
   "events": [
@@ -91,6 +89,82 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "glass-aqua:1338574504022",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42816435192008",
+          "label": "4LB Pack",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "42816435224776",
+          "label": "7LB Pack",
+          "price": 30.99,
+          "available": true
+        },
+        {
+          "id": "42816435257544",
+          "label": "13LB Pack",
+          "price": 57.99,
+          "available": true
+        },
+        {
+          "id": "42816435290312",
+          "label": "21LB Pack",
+          "price": 92.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:466195382312",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40256957874262",
+          "label": "4LB",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "40256957907030",
+          "label": "7LB",
+          "price": 30.99,
+          "available": true
+        },
+        {
+          "id": "40256957939798",
+          "label": "13LB",
+          "price": 57.99,
+          "available": true
+        },
+        {
+          "id": "40256957972566",
+          "label": "21LB",
+          "price": 92.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
       ],
       "listingId": "glass-aqua:1338574504022",
       "storeSlug": "glass-aqua"

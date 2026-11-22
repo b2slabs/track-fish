@@ -1,7 +1,7 @@
 {
   "canonicalFishId": "cf:dans-fish:10127092547882",
-  "commonName": "CW009 Green Laser Cory",
-  "scientificName": null,
+  "commonName": "CW009 Green Laser Cory (Osteogaster sp. “green laser”)",
+  "scientificName": "Osteogaster sp.",
   "listings": [
     {
       "listingId": "dans-fish:10127092547882",
@@ -9,6 +9,12 @@
       "storeName": "Dan's Fish",
       "commonName": "CW009 Green Laser Cory",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:40098",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "CW009 Green Laser Cory (Osteogaster sp. “green laser”)"
     }
   ],
   "events": [
@@ -31,6 +37,26 @@
       ],
       "listingId": "dans-fish:10127092547882",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 36.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40098",
+          "label": "Default",
+          "price": 36.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:40098",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

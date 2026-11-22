@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:crenicichla-zebrina",
-  "commonName": "Zebra Pike Cichlid",
+  "commonName": "Percna Pike Cichlid (Lugubria percna)",
   "scientificName": "Crenicichla zebrina",
   "listings": [
     {
       "listingId": "monster-aquarium:6967213949137",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Zebrina Pike Fish (Crenicichla zebrina)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Zebrina Pike Fish (Crenicichla zebrina)"
     },
     {
       "listingId": "aquarium-fish:223105187865",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Zebrina Pike Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Zebrina Pike Cichlid"
     },
     {
       "listingId": "imperial-tropicals:8547955015987",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Zebra Pike Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Zebra Pike Cichlid"
+    },
+    {
+      "listingId": "aqua-imports:37739+71760",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Percna Pike Cichlid (Lugubria percna)"
     }
   ],
   "events": [
@@ -133,6 +136,131 @@
       ],
       "listingId": "imperial-tropicals:8547955015987",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 119.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41934250705105",
+          "label": "3.5”",
+          "price": 119.99,
+          "available": false
+        },
+        {
+          "id": "41387984715985",
+          "label": "7-8”",
+          "price": 295,
+          "available": false
+        },
+        {
+          "id": "40848409428177",
+          "label": "8-10\"",
+          "price": 349,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6967213949137",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 159.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "1708456214553",
+          "label": "Title",
+          "price": 159.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:223105187865",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 149.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53042031296819",
+          "label": "2-3\" Unsexed",
+          "price": 149.99,
+          "available": false
+        },
+        {
+          "id": "53042031329587",
+          "label": "3-4\" Unsexed",
+          "price": 199.99,
+          "available": false
+        },
+        {
+          "id": "49712103096627",
+          "label": "4-5\" Unsexed",
+          "price": 249.99,
+          "available": false
+        },
+        {
+          "id": "51337602302259",
+          "label": "5-6\" Unsexed",
+          "price": 299.99,
+          "available": false
+        },
+        {
+          "id": "51337603285299",
+          "label": "6-7\" Unsexed",
+          "price": 399.99,
+          "available": false
+        },
+        {
+          "id": "51337603383603",
+          "label": "7-8\" Unsexed",
+          "price": 449.99,
+          "available": false
+        },
+        {
+          "id": "46470194692403",
+          "label": "11-12\" Unsexed",
+          "price": 499.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8547955015987",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 129.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "71760",
+          "label": "Default",
+          "price": 349.99,
+          "available": false
+        },
+        {
+          "id": "37739",
+          "label": "Default",
+          "price": 129.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:37739+71760",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

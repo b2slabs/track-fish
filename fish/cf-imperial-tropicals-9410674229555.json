@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:imperial-tropicals:9410674229555",
-  "commonName": "Jewel Spotted Doradid",
-  "scientificName": null,
+  "commonName": "Jewel Spotted Doradid (Wertheimeria maculata)",
+  "scientificName": "Wertheimeria maculata",
   "listings": [
     {
       "listingId": "imperial-tropicals:9410674229555",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Jewel Spotted Doradid",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Jewel Spotted Doradid"
+    },
+    {
+      "listingId": "aqua-imports:83671",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Jewel Spotted Doradid (Wertheimeria maculata)"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "imperial-tropicals:9410674229555",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 249.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49882939949363",
+          "label": "2-3\" Unsexed",
+          "price": 199.99,
+          "available": false
+        },
+        {
+          "id": "53320734671155",
+          "label": "3-4\" Unsexed",
+          "price": 224.99,
+          "available": false
+        },
+        {
+          "id": "53320737915187",
+          "label": "4-5\" Unsexed",
+          "price": 249.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9410674229555",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 199.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "83671",
+          "label": "Default",
+          "price": 199.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:83671",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

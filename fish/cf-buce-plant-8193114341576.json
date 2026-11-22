@@ -7,15 +7,13 @@
       "listingId": "buce-plant:8193114341576",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "UNS Bonsai 019",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "UNS Bonsai 019"
     },
     {
       "listingId": "glass-aqua:7529561522262",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "UNS Bonsai 019",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "UNS Bonsai 019"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:7529561522262",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 45.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44572146729160",
+          "label": "Title",
+          "price": 45.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8193114341576",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 45.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42213939052630",
+          "label": "D019-M",
+          "price": 45.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:7529561522262",
       "storeSlug": "glass-aqua"
     }

@@ -7,8 +7,13 @@
       "listingId": "nationwide-aquatics-usa:15432305049753",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Polypterus retropinnis",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "Polypterus retropinnis"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:687779",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Polypterus retropinnis"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nationwide-aquatics-usa:15432305049753",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 70,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67727688597657",
+          "label": "Title",
+          "price": 70,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:15432305049753",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "687779",
+          "label": "Default",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:687779",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

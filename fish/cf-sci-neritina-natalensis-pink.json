@@ -1,21 +1,19 @@
 {
   "canonicalFishId": "cf:sci:neritina-natalensis:pink",
-  "commonName": "Pink Lady Nerite Snail, (3 pack)",
+  "commonName": "Pink Lady Nerite Snail (Clithon sowerbyanum)",
   "scientificName": "Clithon sowerbyanum",
   "listings": [
     {
       "listingId": "aquatic-arts:8893411229975",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Pink Lady Nerite Snail - (Clithon sowerianum- \"Pink Lady\")",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Pink Lady Nerite Snail - (Clithon sowerianum- \"Pink Lady\")"
     },
     {
       "listingId": "nu-aqua-shop:10006318907708",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Pink Lady Nerite Snail",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Pink Lady Nerite Snail"
     },
     {
       "listingId": "dans-fish:10127104147754",
@@ -23,6 +21,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Pink Lady Nerite Snail, (3 pack)",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:187265",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Pink Lady Nerite Snail (Clithon sowerbyanum)"
     }
   ],
   "events": [
@@ -180,6 +184,78 @@
       ],
       "listingId": "dans-fish:10127104147754",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47395523330327",
+          "label": "1 Snail",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "47395523363095",
+          "label": "3 Snails",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "47395523395863",
+          "label": "5 Snails",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "47395523428631",
+          "label": "10 Snails",
+          "price": 37.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:8893411229975",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 2.18,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627491885372",
+          "label": "Title",
+          "price": 2.18,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006318907708",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "187265",
+          "label": "Default",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:187265",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

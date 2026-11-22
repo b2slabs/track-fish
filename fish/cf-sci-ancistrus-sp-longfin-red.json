@@ -1,21 +1,19 @@
 {
   "canonicalFishId": "cf:sci:ancistrus-sp:longfin-red",
-  "commonName": "Long Fin Super Red Bushynose Pleco",
+  "commonName": "Longfin Super Red Bristlenose Pleco (Ancistrus sp.)",
   "scientificName": "Ancistrus sp.",
   "listings": [
     {
       "listingId": "aquarium-fish:4512709836881",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Super Red L-144 Bushynose Pleco Long-fin",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Super Red L-144 Bushynose Pleco Long-fin"
     },
     {
       "listingId": "aquatic-arts:4189539729494",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Longfin Super Red Bristlenose Pleco (Ancistrus sp. \"Super Red\"), Tank-Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Longfin Super Red Bristlenose Pleco (Ancistrus sp. \"Super Red\"), Tank-Bred"
     },
     {
       "listingId": "dans-fish:10127085044010",
@@ -23,6 +21,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Long Fin Super Red Bushynose Pleco",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:98029",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Longfin Super Red Bristlenose Pleco (Ancistrus sp.)"
     }
   ],
   "events": [
@@ -91,6 +95,66 @@
       ],
       "listingId": "dans-fish:10127085044010",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 32.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "30493614211158",
+          "label": "1 Juvenile",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "30493614243926",
+          "label": "Group of 3 Juveniles",
+          "price": 92.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4189539729494",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31909196955729",
+          "label": "Small (1\")",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4512709836881",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "98029",
+          "label": "Default",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:98029",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

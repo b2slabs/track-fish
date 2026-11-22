@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:oryzias-latipes:platinum",
-  "commonName": "Platinum Japanese Ricefish",
+  "commonName": "Platinum Medaka Ricefish (Oryzias latipes ‘platinum’)",
   "scientificName": "Oryzias latipes",
   "listings": [
     {
       "listingId": "ck-fish-world:8150020784343",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Platinum Japanese Ricefish",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Platinum Japanese Ricefish"
+    },
+    {
+      "listingId": "aqua-imports:169544",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Platinum Medaka Ricefish (Oryzias latipes ‘platinum’)"
     }
   ],
   "events": [
@@ -75,6 +80,55 @@
       ],
       "listingId": "ck-fish-world:8150020784343",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 21.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336185045207",
+          "label": "3",
+          "price": 21.98,
+          "available": true
+        },
+        {
+          "id": "45336185077975",
+          "label": "5",
+          "price": 34.98,
+          "available": true
+        },
+        {
+          "id": "45336185110743",
+          "label": "10",
+          "price": 59.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150020784343",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "169544",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:169544",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

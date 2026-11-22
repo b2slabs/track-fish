@@ -7,8 +7,13 @@
       "listingId": "nationwide-aquatics-usa:8924473262233",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Hyphessobrycon negodagua",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "Hyphessobrycon negodagua"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:684271",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Hyphessobrycon negodagua"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nationwide-aquatics-usa:8924473262233",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 20,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48912332652697",
+          "label": "Title",
+          "price": 20,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8924473262233",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "684271",
+          "label": "Default",
+          "price": 26.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:684271",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

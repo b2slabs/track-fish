@@ -7,15 +7,13 @@
       "listingId": "buce-plant:8228834312392",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "UNS Pro Inline CO2 Diffuser",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "UNS Pro Inline CO2 Diffuser"
     },
     {
       "listingId": "glass-aqua:7519628918870",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "UNS Pro Inline CO2 Diffuser",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "UNS Pro Inline CO2 Diffuser"
     }
   ],
   "events": [
@@ -80,6 +78,64 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:7519628918870",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 31.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44719523430600",
+          "label": "12mm (1/2in)",
+          "price": 31.99,
+          "available": true
+        },
+        {
+          "id": "44719523463368",
+          "label": "16mm (5/8in)",
+          "price": 37.99,
+          "available": true
+        },
+        {
+          "id": "44719523496136",
+          "label": "20mm (1in)",
+          "price": 44.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8228834312392",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 31.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42159347957846",
+          "label": "12mm (1/2\")",
+          "price": 31.99,
+          "available": true
+        },
+        {
+          "id": "42159347990614",
+          "label": "16mm (5/8\")",
+          "price": 37.99,
+          "available": true
+        },
+        {
+          "id": "42159348023382",
+          "label": "20mm (1\")",
+          "price": 44.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:7519628918870",
       "storeSlug": "glass-aqua"
     }

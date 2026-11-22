@@ -7,15 +7,13 @@
       "listingId": "ck-fish-world:8150006890711",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Gold Dust Molly",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Gold Dust Molly"
     },
     {
       "listingId": "imperial-tropicals:8398184644915",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Gold Dust Molly (Poecilia sphenops)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Gold Dust Molly (Poecilia sphenops)"
     }
   ],
   "events": [
@@ -106,6 +104,58 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "imperial-tropicals:8398184644915",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336090116311",
+          "label": "3",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45336090149079",
+          "label": "5",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45704795979991",
+          "label": "10",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150006890711",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612301844787",
+          "label": "1-2\" Unsexed",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "45612301877555",
+          "label": "(10 Pack) 1-2\" Unsexed",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "imperial-tropicals:8398184644915",
       "storeSlug": "imperial-tropicals"
     }

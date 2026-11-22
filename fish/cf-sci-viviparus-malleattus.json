@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:viviparus-malleattus",
-  "commonName": "Chinese Trapdoor Snail (Size L)",
+  "commonName": "Japanese Trapdoor Snail (Viviparus malleattus)",
   "scientificName": "Viviparus malleattus",
   "listings": [
     {
       "listingId": "aquahuna:1774215069739",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Chinese Trapdoor Snail (Size L)",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Chinese Trapdoor Snail (Size L)"
+    },
+    {
+      "listingId": "aqua-imports:63010",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Japanese Trapdoor Snail (Viviparus malleattus)"
     }
   ],
   "events": [
@@ -135,6 +140,43 @@
       ],
       "listingId": "aquahuna:1774215069739",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 3.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "16053437038635",
+          "label": "Title",
+          "price": 3.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1774215069739",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "63010",
+          "label": "Default",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:63010",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

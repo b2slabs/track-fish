@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:symphysodon-aequifasciatus:tiger",
-  "commonName": "Tiger Turquoise Discus (Symphysodon aequifasciatus)",
+  "commonName": "Tiger Turquoise Discus (Symphysodon discus)",
   "scientificName": "Symphysodon aequifasciatus",
   "listings": [
     {
       "listingId": "monster-aquarium:7097593430225",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Tiger Turquoise Discus (Symphysodon aequifasciatus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Tiger Turquoise Discus (Symphysodon aequifasciatus)"
+    },
+    {
+      "listingId": "aqua-imports:131615",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Tiger Turquoise Discus (Symphysodon discus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "monster-aquarium:7097593430225",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 88,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41800702066897",
+          "label": "4-5”",
+          "price": 88,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7097593430225",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "131615",
+          "label": "Default",
+          "price": 99.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:131615",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

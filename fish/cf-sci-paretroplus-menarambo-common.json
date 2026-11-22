@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:paretroplus-menarambo-common",
-  "commonName": "Pinstripe Damba Cichlid",
+  "commonName": "Pinstripe Damba Cichlid (Paretroplus menarambo)",
   "scientificName": "Paretroplus menarambo common",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398158496051",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Pinstripe Damba Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Pinstripe Damba Cichlid"
     },
     {
       "listingId": "monster-aquarium:7341137592529",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Pinstripe Damba Cichlid (Paretroplus menarambo)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Pinstripe Damba Cichlid (Paretroplus menarambo)"
+    },
+    {
+      "listingId": "aqua-imports:68679",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Pinstripe Damba Cichlid (Paretroplus menarambo)"
     }
   ],
   "events": [
@@ -172,6 +176,66 @@
       ],
       "listingId": "imperial-tropicals:8398158496051",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 129,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42479449800913",
+          "label": "3.5-4”",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "41893549736145",
+          "label": "5-6\"",
+          "price": 129,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7341137592529",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612257214771",
+          "label": "4-5\" Unsexed",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398158496051",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "68679",
+          "label": "Default",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:68679",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

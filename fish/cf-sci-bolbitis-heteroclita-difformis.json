@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:bolbitis-heteroclita-difformis",
-  "commonName": "Bolbitis Heteroclita Difformis",
+  "commonName": "Mini Bolbitis heteroclita ‘difformis’",
   "scientificName": "Bolbitis heteroclita difformis",
   "listings": [
     {
       "listingId": "flip-aquatics:6692632297574",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Bolbitis Heteroclita Difformis",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Bolbitis Heteroclita Difformis"
     },
     {
       "listingId": "shrimpy-business:6721949925461",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Bolbitis Heteroclita Difformis",
-      "lastCheckedAt": "2026-11-22T06:57:34.146Z"
+      "commonName": "Bolbitis Heteroclita Difformis"
     },
     {
       "listingId": "aquatic-arts:14630053544303+4568205066326",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Baby Leaf Bolbitis (Bolbitis heteroclita difformis)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Baby Leaf Bolbitis (Bolbitis heteroclita difformis)"
+    },
+    {
+      "listingId": "aqua-imports:71613",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Mini Bolbitis heteroclita ‘difformis’"
     }
   ],
   "events": [
@@ -167,6 +170,101 @@
       ],
       "listingId": "aquatic-arts:14630053544303+4568205066326",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51667199918447",
+          "label": "Mini Bolbitis (Baby Leaf) on 2\" Driftwood (Bolbitis heteroclita difformis)",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "31978171859030",
+          "label": "1 Bunch",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "31978171891798",
+          "label": "2 Bunches",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "31978171924566",
+          "label": "3 Bunches",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "51667208700271",
+          "label": "1 Potted",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14630053544303+4568205066326",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 13.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39936041877589",
+          "label": "Title",
+          "price": 13.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6721949925461",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550739906662",
+          "label": "Potted / Loose",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632297574",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "71613",
+          "label": "Default",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:71613",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

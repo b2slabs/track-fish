@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:cambarellus-diminutus:blue",
-  "commonName": "Blue Mini Least Crayfish | Cambarellus diminutus",
+  "commonName": "Blue Dwarf Crayfish (Cambarellus diminutus ‘blue’)",
   "scientificName": "Cambarellus diminutus",
   "listings": [
     {
       "listingId": "flip-aquatics:6882016690278",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Blue Mini Least Crayfish | Cambarellus diminutus",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Blue Mini Least Crayfish | Cambarellus diminutus"
+    },
+    {
+      "listingId": "aqua-imports:64363",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Blue Dwarf Crayfish (Cambarellus diminutus ‘blue’)"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "flip-aquatics:6882016690278",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40256661520486",
+          "label": "Single / Imported",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "40592505798758",
+          "label": "5 Pack / Imported",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6882016690278",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "64363",
+          "label": "Default",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:64363",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:pao-baileyi-origin",
-  "commonName": "Hairy Puffer",
+  "commonName": "Hairy Puffer (Pao baileyi)",
   "scientificName": "Pao baileyi origin",
   "listings": [
     {
       "listingId": "aquarium-fish:9988036264235",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Hairy Puffer",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Hairy Puffer"
     },
     {
       "listingId": "monster-aquarium:7203179790545",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Hairy Puffer (Tetraodon baileyi)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Hairy Puffer (Tetraodon baileyi)"
+    },
+    {
+      "listingId": "aqua-imports:43200",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Hairy Puffer (Pao baileyi)"
     }
   ],
   "events": [
@@ -58,6 +62,60 @@
       ],
       "listingId": "aquarium-fish:9988036264235",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 129.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41459262423249",
+          "label": "4”",
+          "price": 129.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7203179790545",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 129.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50583725769003",
+          "label": "Large (4\")",
+          "price": 129.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9988036264235",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43200",
+          "label": "Default",
+          "price": 99.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:43200",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

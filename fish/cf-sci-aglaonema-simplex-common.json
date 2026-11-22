@@ -7,15 +7,13 @@
       "listingId": "buce-plant:8322728689864",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Aglaonema Simplex",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Aglaonema Simplex"
     },
     {
       "listingId": "glass-aqua:6983806484566",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Aglaonema Simplex",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Aglaonema Simplex"
     }
   ],
   "events": [
@@ -62,6 +60,46 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:6983806484566",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45117442162888",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8322728689864",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44947374309462",
+          "label": "Potted",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "44947374276694",
+          "label": "UNS Tissue Culture",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:6983806484566",
       "storeSlug": "glass-aqua"
     }

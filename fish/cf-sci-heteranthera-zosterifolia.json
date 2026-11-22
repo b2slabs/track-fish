@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:heteranthera-zosterifolia",
-  "commonName": "Heteranthera Zosterifolia",
+  "commonName": "Stargrass (Heteranthera zosterifolia)",
   "scientificName": "Heteranthera zosterifolia",
   "listings": [
     {
       "listingId": "aquarium-fish:10105563250987",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Heteranthera zosterifolia - Tissue Culture",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Heteranthera zosterifolia - Tissue Culture"
     },
     {
       "listingId": "glass-aqua:1920746487894",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Heteranthera Zosterifolia",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Heteranthera Zosterifolia"
     },
     {
       "listingId": "buce-plant:1317161500753+9540653965",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Heteranthera Zosterifolia",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Heteranthera Zosterifolia"
+    },
+    {
+      "listingId": "aqua-imports:60138",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Stargrass (Heteranthera zosterifolia)"
     }
   ],
   "events": [
@@ -137,6 +140,89 @@
       ],
       "listingId": "buce-plant:1317161500753+9540653965",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 11.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51386931544363",
+          "label": "Each",
+          "price": 11.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10105563250987",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12190433935441",
+          "label": "1 Cup",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "35339487373",
+          "label": "Lead Bunch",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:1317161500753+9540653965",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43751425507414",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "43751425540182",
+          "label": "Bunch",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:1920746487894",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "60138",
+          "label": "Default",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60138",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

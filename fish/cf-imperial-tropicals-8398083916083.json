@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:imperial-tropicals:8398083916083",
-  "commonName": "Corkscrew Val",
+  "commonName": "Corkscrew Val (Vallisneria “corkscrew”)",
   "scientificName": null,
   "listings": [
     {
       "listingId": "imperial-tropicals:8398083916083",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Corkscrew Val",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Corkscrew Val"
+    },
+    {
+      "listingId": "aqua-imports:59933",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Corkscrew Val (Vallisneria “corkscrew”)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "imperial-tropicals:8398083916083",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612065390899",
+          "label": "1 Plant",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398083916083",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 4.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "59933",
+          "label": "Default",
+          "price": 4.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:59933",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

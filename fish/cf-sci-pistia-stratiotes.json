@@ -1,35 +1,37 @@
 {
   "canonicalFishId": "cf:sci:pistia-stratiotes",
-  "commonName": "Dwarf Water Lettuce",
+  "commonName": "Water Lettuce (Pistia stratiotes)",
   "scientificName": "Pistia stratiotes",
   "listings": [
     {
       "listingId": "flip-aquatics:6664255111270",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Dwarf Water Lettuce",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Dwarf Water Lettuce"
     },
     {
       "listingId": "buce-plant:9541168717",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Pistia Stratiotes/ Water Lettuce",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Pistia Stratiotes/ Water Lettuce"
     },
     {
       "listingId": "nu-aqua-shop:10110476878140",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Dwarf Water Lettuce",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Dwarf Water Lettuce"
     },
     {
       "listingId": "aquatic-arts:6562138226774+6562407678038+6562409152598",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Rosette Water Lettuce (Pistia stratiotes)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Rosette Water Lettuce (Pistia stratiotes)"
+    },
+    {
+      "listingId": "aqua-imports:60167",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Water Lettuce (Pistia stratiotes)"
     }
   ],
   "events": [
@@ -196,6 +198,112 @@
       ],
       "listingId": "aquatic-arts:6562138226774+6562407678038+6562409152598",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39333222776918",
+          "label": "1 Regular Plant",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "39332538613846",
+          "label": "1 Regular Plant",
+          "price": 3.99,
+          "available": false
+        },
+        {
+          "id": "39332634493014",
+          "label": "1 Jumbo Plant",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "39333228838998",
+          "label": "1 Regular Plant",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:6562138226774+6562407678038+6562409152598",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39498757308518",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6664255111270",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "35342895629",
+          "label": "Floating",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:9541168717",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51952827203900",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10110476878140",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "60167",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60167",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

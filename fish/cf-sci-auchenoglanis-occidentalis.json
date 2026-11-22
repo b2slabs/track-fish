@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:auchenoglanis-occidentalis",
-  "commonName": "Giraffe Nose Catfish ( Auchenoglanis occidentalis )",
+  "commonName": "Giraffe Catfish (Auchenoglanis occidentalis)",
   "scientificName": "Auchenoglanis occidentalis",
   "listings": [
     {
       "listingId": "monster-aquarium:6988421431505",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Giraffe Nose Catfish ( Auchenoglanis occidentalis )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Giraffe Nose Catfish ( Auchenoglanis occidentalis )"
+    },
+    {
+      "listingId": "aqua-imports:41064",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Giraffe Catfish (Auchenoglanis occidentalis)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "monster-aquarium:6988421431505",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 45,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40903307526353",
+          "label": "4\"-5”",
+          "price": 45,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6988421431505",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41064",
+          "label": "Default",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:41064",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

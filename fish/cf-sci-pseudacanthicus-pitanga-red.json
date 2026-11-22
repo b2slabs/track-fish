@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:pseudacanthicus-pitanga:red",
-  "commonName": "L024 Red Fin Cactus Pleco",
+  "commonName": "L024 ‘Super Red’ Redfin Cactus Pleco (Pseudacanthicus pitanga ‘super red’)",
   "scientificName": "Pseudacanthicus pitanga",
   "listings": [
     {
       "listingId": "monster-aquarium:7049600925905",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "L24 Red Fin Catus Pleco (Pseudacanthicus pitanga)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "L24 Red Fin Catus Pleco (Pseudacanthicus pitanga)"
     },
     {
       "listingId": "imperial-tropicals:8398156890419",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "L024 Red Fin Cactus Pleco",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "L024 Red Fin Cactus Pleco"
+    },
+    {
+      "listingId": "aqua-imports:71818",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "L024 ‘Super Red’ Redfin Cactus Pleco (Pseudacanthicus pitanga ‘super red’)"
     }
   ],
   "events": [
@@ -76,6 +80,78 @@
       ],
       "listingId": "imperial-tropicals:8398156890419",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 45,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41074994806993",
+          "label": "4-5cm",
+          "price": 45,
+          "available": true
+        },
+        {
+          "id": "42145905180881",
+          "label": "6-7”",
+          "price": 154.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7049600925905",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 249.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612253643059",
+          "label": "5-6\" Unsexed",
+          "price": 249.99,
+          "available": false
+        },
+        {
+          "id": "51837574119731",
+          "label": "6-7\" Unsexed",
+          "price": 299.99,
+          "available": false
+        },
+        {
+          "id": "51837574840627",
+          "label": "7-8\" Unsexed",
+          "price": 349.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398156890419",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 349.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "71818",
+          "label": "Default",
+          "price": 349.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:71818",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

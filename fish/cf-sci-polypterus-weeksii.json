@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:polypterus-weeksii",
-  "commonName": "Weeksii Bichir (Polypterus weeksii) 13.5\"",
+  "commonName": "Weeksii Bichir (Polypterus weeksii)",
   "scientificName": "Polypterus weeksii",
   "listings": [
     {
       "listingId": "nationwide-aquatics-usa:8763728953497",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Weeksii Bichir (Polypterus weeksii) 13.5\"",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "Weeksii Bichir (Polypterus weeksii) 13.5\""
+    },
+    {
+      "listingId": "aqua-imports:39520",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Weeksii Bichir (Polypterus weeksii)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nationwide-aquatics-usa:8763728953497",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 155,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47847739981977",
+          "label": "Title",
+          "price": 155,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8763728953497",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39520",
+          "label": "Default",
+          "price": 99.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:39520",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

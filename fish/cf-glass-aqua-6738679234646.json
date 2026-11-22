@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:glass-aqua:6738679234646",
-  "commonName": "Bucephalandra Mini Coin",
+  "commonName": "Bucephalandra ‘Mini Coin’",
   "scientificName": null,
   "listings": [
     {
       "listingId": "glass-aqua:6738679234646",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Bucephalandra Mini Coin",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Bucephalandra Mini Coin"
+    },
+    {
+      "listingId": "aqua-imports:121624",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Bucephalandra ‘Mini Coin’"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "glass-aqua:6738679234646",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44616328183894",
+          "label": "Potted",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "44616328216662",
+          "label": "Loose (Bare Root - Small)",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6738679234646",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "121624",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:121624",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

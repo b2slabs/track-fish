@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:aquarium-fish:9293822924",
-  "commonName": "Sexy Shrimp",
-  "scientificName": null,
+  "commonName": "Sexy Shrimp (Thor amboinensis)",
+  "scientificName": "Thor amboinensis",
   "listings": [
     {
       "listingId": "aquarium-fish:9293822924",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Sexy Shrimp",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Sexy Shrimp"
+    },
+    {
+      "listingId": "aqua-imports:169166",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Sexy Shrimp (Thor amboinensis)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:9293822924",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 20.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51380504265003",
+          "label": "Medium (0.25-0.75\")",
+          "price": 20.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9293822924",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "169166",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:169166",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

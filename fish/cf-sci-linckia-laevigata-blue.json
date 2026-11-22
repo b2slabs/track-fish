@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:linckia-laevigata:blue",
-  "commonName": "Blue Linckia Starfish",
+  "commonName": "Blue Linckia Starfish (Linckia laevigata)",
   "scientificName": "Linckia laevigata",
   "listings": [
     {
       "listingId": "aquarium-fish:9293823052",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Blue Linckia Starfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Blue Linckia Starfish"
+    },
+    {
+      "listingId": "aqua-imports:169119",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Blue Linckia Starfish (Linckia laevigata)"
     }
   ],
   "events": [
@@ -64,6 +69,49 @@
       ],
       "listingId": "aquarium-fish:9293823052",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 31.27,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267643617361",
+          "label": "Medium (4-5\")",
+          "price": 31.27,
+          "available": true
+        },
+        {
+          "id": "51422134010155",
+          "label": "Large (5-8\")",
+          "price": 38.24,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9293823052",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "169119",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:169119",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:apistogramma-cacatuoides:red",
-  "commonName": "Apistogramma Cacatuoides Double Red",
+  "commonName": "Super Red Cockatoo Dwarf Cichlid (Apistogramma cacatuoides)",
   "scientificName": "Apistogramma cacatuoides",
   "listings": [
     {
       "listingId": "aquatic-arts:1321469116502",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Triple Red Cockatoo Dwarf Cichlid (Apistogramma cacatuoides), Tank-Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Triple Red Cockatoo Dwarf Cichlid (Apistogramma cacatuoides), Tank-Bred"
     },
     {
       "listingId": "monster-aquarium:7079787299025",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Apistogramma Cacatuoides \"Double Red” Pair( 1 M 1 F)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Apistogramma Cacatuoides \"Double Red” Pair( 1 M 1 F)"
     },
     {
       "listingId": "aquahuna:2179580231723+6579903266891",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Apistogramma Cacatuoides Double Red",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Apistogramma Cacatuoides Double Red"
+    },
+    {
+      "listingId": "aqua-imports:76012",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Super Red Cockatoo Dwarf Cichlid (Apistogramma cacatuoides)"
     }
   ],
   "events": [
@@ -173,6 +176,125 @@
       ],
       "listingId": "aquahuna:2179580231723+6579903266891",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 26.39,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12202508648534",
+          "label": "1 Male/Female Pair",
+          "price": 53.99,
+          "available": false
+        },
+        {
+          "id": "12202508681302",
+          "label": "1 Male",
+          "price": 31.99,
+          "available": false
+        },
+        {
+          "id": "12202508714070",
+          "label": "3 Males",
+          "price": 91.99,
+          "available": false
+        },
+        {
+          "id": "12202508746838",
+          "label": "1 Female",
+          "price": 26.39,
+          "available": true
+        },
+        {
+          "id": "12202508779606",
+          "label": "3 Females",
+          "price": 74.69,
+          "available": true
+        },
+        {
+          "id": "53085050306927",
+          "label": "1 Male (USA Bred)",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "53085050339695",
+          "label": "1 Female (USA Bred)",
+          "price": 45.99,
+          "available": false
+        },
+        {
+          "id": "53085050372463",
+          "label": "1 Pair ( 1 Male + 1 Female) (USA Bred)",
+          "price": 94.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1321469116502",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 35,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41152071991505",
+          "label": "4.5-5 cm",
+          "price": 35,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7079787299025",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 20,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39405013434443",
+          "label": "Apistogramma Cacatuoides Super Red (male)",
+          "price": 20,
+          "available": false
+        },
+        {
+          "id": "20608259489835",
+          "label": "Apistogramma Cacatuoides Double Red",
+          "price": 20,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:2179580231723+6579903266891",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "76012",
+          "label": "Default",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:76012",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

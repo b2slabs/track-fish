@@ -7,15 +7,13 @@
       "listingId": "shrimpy-business:8821395685666",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Shrimp Lollies",
-      "lastCheckedAt": "2026-11-22T06:57:34.146Z"
+      "commonName": "Shrimp Lollies"
     },
     {
       "listingId": "flip-aquatics:1354083008614",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Shrimp Lollies - 4 in 1",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Shrimp Lollies - 4 in 1"
     }
   ],
   "events": [
@@ -80,6 +78,64 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "flip-aquatics:1354083008614",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47274364502306",
+          "label": "Algae",
+          "price": 15.5,
+          "available": false
+        },
+        {
+          "id": "47274364535074",
+          "label": "Artemia",
+          "price": 15.5,
+          "available": false
+        },
+        {
+          "id": "47274364567842",
+          "label": "Morgina",
+          "price": 15.5,
+          "available": false
+        },
+        {
+          "id": "47274364600610",
+          "label": "Walnut",
+          "price": 15.5,
+          "available": false
+        },
+        {
+          "id": "47274364633378",
+          "label": "4 in 1",
+          "price": 15.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:8821395685666",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12433481629798",
+          "label": "Title",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "flip-aquatics:1354083008614",
       "storeSlug": "flip-aquatics"
     }

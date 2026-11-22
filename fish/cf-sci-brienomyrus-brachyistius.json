@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:brienomyrus-brachyistius",
-  "commonName": "Baby Whale Fish",
+  "commonName": "Baby Whale (Brienomyrus brachyistius)",
   "scientificName": "Brienomyrus brachyistius",
   "listings": [
     {
       "listingId": "monster-aquarium:7335922368721",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "African baby whale fish ( Brienomyrus brachyistius )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "African baby whale fish ( Brienomyrus brachyistius )"
     },
     {
       "listingId": "aquarium-fish:6096735558",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Baby Whale Fish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Baby Whale Fish"
+    },
+    {
+      "listingId": "aqua-imports:176119",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Baby Whale (Brienomyrus brachyistius)"
     }
   ],
   "events": [
@@ -78,6 +82,60 @@
       ],
       "listingId": "aquarium-fish:6096735558",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41878152380625",
+          "label": "3”",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7335922368721",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39310482833489",
+          "label": "Title",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6096735558",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "176119",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:176119",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

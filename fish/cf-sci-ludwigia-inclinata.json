@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:ludwigia-inclinata",
-  "commonName": "Ludwigia Inclinata",
+  "commonName": "Ludwigia inclinata",
   "scientificName": "Ludwigia inclinata",
   "listings": [
     {
       "listingId": "glass-aqua:434996674592",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Ludwigia Inclinata",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Ludwigia Inclinata"
     },
     {
       "listingId": "aquarium-fish:10106320617771+10106333823275",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Ludwigia inclinata 'Cuba' - Tissue Culture",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Ludwigia inclinata 'Cuba' - Tissue Culture"
     },
     {
       "listingId": "buce-plant:436007370792+9364108301",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Ludwigia Inclinata",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Ludwigia Inclinata"
+    },
+    {
+      "listingId": "aqua-imports:114197+60082",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Ludwigia inclinata"
     }
   ],
   "events": [
@@ -201,6 +204,107 @@
       ],
       "listingId": "buce-plant:436007370792+9364108301",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 12.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51386930233643",
+          "label": "Each",
+          "price": 12.79,
+          "available": false
+        },
+        {
+          "id": "51386930135339",
+          "label": "Each",
+          "price": 15.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10106320617771+10106333823275",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "3736255856680",
+          "label": "Lead Bunch",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "12398342766673",
+          "label": "3 Bunches + 1 Free",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "34247062413",
+          "label": "Bunch",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12396589121617",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.97,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:436007370792+9364108301",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "5278579851296",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:434996674592",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "114197",
+          "label": "Default",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "60082",
+          "label": "Default",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:114197+60082",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

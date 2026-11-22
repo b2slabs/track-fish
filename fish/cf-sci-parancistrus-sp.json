@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:parancistrus-sp",
-  "commonName": "LDA46 Chubby Pleco (Parancistrus sp.)",
+  "commonName": "LDA046 Wormline Chubby Pleco (Parancistrus sp. “Wormline”)",
   "scientificName": "Parancistrus sp.",
   "listings": [
     {
       "listingId": "monster-aquarium:7074863513809",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "LDA46 Chubby Pleco (Parancistrus sp.)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "LDA46 Chubby Pleco (Parancistrus sp.)"
+    },
+    {
+      "listingId": "aqua-imports:121193",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "LDA046 Wormline Chubby Pleco (Parancistrus sp. “Wormline”)"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "monster-aquarium:7074863513809",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 35,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41141078851793",
+          "label": "3-4\"",
+          "price": 35,
+          "available": false
+        },
+        {
+          "id": "41381173985489",
+          "label": "5-6\"",
+          "price": 134.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7074863513809",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "121193",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:121193",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

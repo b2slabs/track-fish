@@ -7,8 +7,7 @@
       "listingId": "aquahuna:7041625915467",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Dwarf Hairgrass - Potted Plant",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Dwarf Hairgrass - Potted Plant"
     }
   ],
   "events": [
@@ -798,6 +797,27 @@
           "label": "Title",
           "price": 7,
           "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "aquahuna:7041625915467",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 7,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40605812293707",
+          "label": "Title",
+          "price": 7,
+          "available": false
         }
       ],
       "type": "change",

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:monster-aquarium:7257890652369",
-  "commonName": "Vieja Bifasciata ( Paraneetroplus Bifasciatus )",
+  "commonName": "Vieja bifasciata",
   "scientificName": null,
   "listings": [
     {
       "listingId": "monster-aquarium:7257890652369",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Vieja Bifasciata ( Paraneetroplus Bifasciatus )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Vieja Bifasciata ( Paraneetroplus Bifasciatus )"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:681391",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Vieja bifasciata"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "monster-aquarium:7257890652369",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 20.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41578084434129",
+          "label": "2”",
+          "price": 20.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7257890652369",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "681391",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:681391",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

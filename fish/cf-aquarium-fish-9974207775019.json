@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:aquarium-fish:9974207775019",
-  "commonName": "Tassle Filefish",
-  "scientificName": null,
+  "commonName": "Tassle Filefish (Chaetodermis penicilligerus)",
+  "scientificName": "Chaetodermis penicilligerus",
   "listings": [
     {
       "listingId": "aquarium-fish:9974207775019",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Tassle Filefish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Tassle Filefish"
+    },
+    {
+      "listingId": "aqua-imports:98786",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Tassle Filefish (Chaetodermis penicilligerus)"
     }
   ],
   "events": [
@@ -55,6 +60,67 @@
       ],
       "listingId": "aquarium-fish:9974207775019",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 202.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50528532234539",
+          "label": "S",
+          "price": 154.49,
+          "available": false
+        },
+        {
+          "id": "50528532267307",
+          "label": "SM",
+          "price": 175.99,
+          "available": false
+        },
+        {
+          "id": "50528532300075",
+          "label": "M",
+          "price": 202.79,
+          "available": true
+        },
+        {
+          "id": "50528532365611",
+          "label": "L",
+          "price": 269.79,
+          "available": false
+        },
+        {
+          "id": "50528532398379",
+          "label": "XL",
+          "price": 303.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9974207775019",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "98786",
+          "label": "Default",
+          "price": 99.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:98786",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

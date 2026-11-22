@@ -7,15 +7,13 @@
       "listingId": "ck-fish-world:8168889286871",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Fritz PraziCleanse",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Fritz PraziCleanse"
     },
     {
       "listingId": "nu-aqua-shop:10006316220732",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Fritz Prazicleanse",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Fritz Prazicleanse"
     }
   ],
   "events": [
@@ -68,6 +66,52 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:10006316220732",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 17.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44152663376087",
+          "label": "10 pack",
+          "price": 17.98,
+          "available": true
+        },
+        {
+          "id": "44152663408855",
+          "label": "20 pack",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8168889286871",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 14.22,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67826291671356",
+          "label": "10ct",
+          "price": 14.22,
+          "available": true
+        },
+        {
+          "id": "67826291704124",
+          "label": "20ct",
+          "price": 24.14,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006316220732",
       "storeSlug": "nu-aqua-shop"
     }

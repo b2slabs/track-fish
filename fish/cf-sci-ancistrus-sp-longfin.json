@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:ancistrus-sp:longfin",
-  "commonName": "L-144 Bushynose Long Fin Pleco",
+  "commonName": "Longfin Bristlenose Pleco (Ancistrus sp.)",
   "scientificName": "Ancistrus sp.",
   "listings": [
     {
       "listingId": "aquahuna:4112863920171",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Longfin Bushy Nose Pleco 2\"",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Longfin Bushy Nose Pleco 2\""
     },
     {
       "listingId": "aquarium-fish:222960517145",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "L-144 Bushynose Long Fin Pleco",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "L-144 Bushynose Long Fin Pleco"
+    },
+    {
+      "listingId": "aqua-imports:61847",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Longfin Bristlenose Pleco (Ancistrus sp.)"
     }
   ],
   "events": [
@@ -70,6 +74,72 @@
       ],
       "listingId": "aquarium-fish:222960517145",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 12.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "30182199263275",
+          "label": "Title",
+          "price": 12.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4112863920171",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32267397136465",
+          "label": "Small (1\")",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "32267397169233",
+          "label": "Medium (2\")",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "32267397202001",
+          "label": "Large (3-4\")",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:222960517145",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "61847",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:61847",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

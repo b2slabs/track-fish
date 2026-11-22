@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:rhinecanthus-aculeatus",
-  "commonName": "Humu Triggerfish",
+  "commonName": "Picasso Triggerfish (Rhinecanthus aculeatus)",
   "scientificName": "Rhinecanthus aculeatus",
   "listings": [
     {
       "listingId": "aquarium-fish:10072942084395",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Humu Triggerfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Humu Triggerfish"
+    },
+    {
+      "listingId": "aqua-imports:89347",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Picasso Triggerfish (Rhinecanthus aculeatus)"
     }
   ],
   "events": [
@@ -76,6 +81,55 @@
       ],
       "listingId": "aquarium-fish:10072942084395",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 43.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51231773458731",
+          "label": "Small (1-2\")",
+          "price": 43.79,
+          "available": true
+        },
+        {
+          "id": "51231773524267",
+          "label": "Medium (2-3\")",
+          "price": 64.29,
+          "available": true
+        },
+        {
+          "id": "51231773589803",
+          "label": "Large (3-5\")",
+          "price": 118.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10072942084395",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "89347",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:89347",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

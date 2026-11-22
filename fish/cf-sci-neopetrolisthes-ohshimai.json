@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:neopetrolisthes-ohshimai",
-  "commonName": "Anemone Crab",
+  "commonName": "Porcelain Anemone Crab (Neopetrolisthes ohshimai)",
   "scientificName": "Neopetrolisthes ohshimai",
   "listings": [
     {
       "listingId": "aquarium-fish:9293822092",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Anemone Crab",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Anemone Crab"
+    },
+    {
+      "listingId": "aqua-imports:143290",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Porcelain Anemone Crab (Neopetrolisthes ohshimai)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:9293822092",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267644207185",
+          "label": "Medium (0.5-1\")",
+          "price": 28.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9293822092",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "143290",
+          "label": "Default",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:143290",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

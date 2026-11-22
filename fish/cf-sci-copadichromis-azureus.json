@@ -7,8 +7,13 @@
       "listingId": "imperial-tropicals:8303243034931",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Copadichromis azureus",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Copadichromis azureus"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:679642",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Copadichromis azureus"
     }
   ],
   "events": [
@@ -73,6 +78,85 @@
       ],
       "listingId": "imperial-tropicals:8303243034931",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45224036925747",
+          "label": "1-2” Unsexed",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "52392042692915",
+          "label": "(5 Pack) 1-2” Unsexed",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "45224036958515",
+          "label": "2-3\" Unsexed",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "45224037024051",
+          "label": "3-4\" Female",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "45224036991283",
+          "label": "3-4” Male",
+          "price": 49.99,
+          "available": true
+        },
+        {
+          "id": "45224037089587",
+          "label": "3-4\" Breeder Pack (1 Male, 3 Female)",
+          "price": 99.99,
+          "available": true
+        },
+        {
+          "id": "45224037155123",
+          "label": "4-5\" Male",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "id": "45224037187891",
+          "label": "5-6\" Male",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8303243034931",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "679642",
+          "label": "Default",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:679642",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

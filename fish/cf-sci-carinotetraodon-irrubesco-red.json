@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:carinotetraodon-irrubesco:red",
-  "commonName": "Red Eye Red Tailed Puffer",
+  "commonName": "Red Eye Red Tailed Puffer (Carinotetraodon irrubesco)",
   "scientificName": "Carinotetraodon irrubesco",
   "listings": [
     {
       "listingId": "monster-aquarium:7580261712081",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Red-tailed red eye puffer (Carinotetraodon irrubesco)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Red-tailed red eye puffer (Carinotetraodon irrubesco)"
     },
     {
       "listingId": "nu-aqua-shop:10377547481404",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Red Eye Red Tailed Puffer",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Red Eye Red Tailed Puffer"
+    },
+    {
+      "listingId": "aqua-imports:92392",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red Eye Red Tailed Puffer (Carinotetraodon irrubesco)"
     }
   ],
   "events": [
@@ -139,6 +143,66 @@
       ],
       "listingId": "nu-aqua-shop:10377547481404",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42523965227217",
+          "label": "2”",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "43241012625617",
+          "label": "4-5”",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7580261712081",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53027019391292",
+          "label": "Title",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10377547481404",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "92392",
+          "label": "Default",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:92392",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

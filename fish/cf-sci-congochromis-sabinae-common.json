@@ -7,15 +7,19 @@
       "listingId": "imperial-tropicals:8303247753523",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Congochromis sabinae",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Congochromis sabinae"
     },
     {
       "listingId": "nationwide-aquatics-usa:15474218533017",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Congochromis sabinae \nWc",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "Congochromis sabinae \nWc"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:680755",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Congochromis sabinae"
     }
   ],
   "events": [
@@ -58,6 +62,60 @@
       ],
       "listingId": "imperial-tropicals:8303247753523",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 20,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67918042071193",
+          "label": "Title",
+          "price": 20,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:15474218533017",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45224047935795",
+          "label": "2\" Female",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8303247753523",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "680755",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:680755",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

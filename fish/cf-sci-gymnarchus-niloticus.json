@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:gymnarchus-niloticus",
-  "commonName": "Aba Aba Knife (Gymnarchus niloticus)",
+  "commonName": "Aba Aba Knifefish (Gymnarchus niloticus)",
   "scientificName": "Gymnarchus niloticus",
   "listings": [
     {
       "listingId": "monster-aquarium:7231084298449",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Aba Aba Knife (Gymnarchus niloticus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Aba Aba Knife (Gymnarchus niloticus)"
+    },
+    {
+      "listingId": "aqua-imports:38091",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Aba Aba Knifefish (Gymnarchus niloticus)"
     }
   ],
   "events": [
@@ -49,6 +54,61 @@
       ],
       "listingId": "monster-aquarium:7231084298449",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 45,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43021371211985",
+          "label": "2-3”",
+          "price": 45,
+          "available": false
+        },
+        {
+          "id": "41517196312785",
+          "label": "6-7”",
+          "price": 149.99,
+          "available": false
+        },
+        {
+          "id": "41636183605457",
+          "label": "8-9”",
+          "price": 171.99,
+          "available": false
+        },
+        {
+          "id": "42044979839185",
+          "label": "10-12”",
+          "price": 199.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7231084298449",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 299.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38091",
+          "label": "Default",
+          "price": 299.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38091",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

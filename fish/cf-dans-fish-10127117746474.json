@@ -1,7 +1,7 @@
 {
   "canonicalFishId": "cf:dans-fish:10127117746474",
-  "commonName": "Demon Eye Hillstream Loach",
-  "scientificName": null,
+  "commonName": "Demon Eye Hillstream Loach (Erromyzon compactus)",
+  "scientificName": "Erromyzon compactus",
   "listings": [
     {
       "listingId": "dans-fish:10127117746474",
@@ -9,6 +9,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Demon Eye Hillstream Loach",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:221445",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Demon Eye Hillstream Loach (Erromyzon compactus)"
     }
   ],
   "events": [
@@ -31,6 +37,26 @@
       ],
       "listingId": "dans-fish:10127117746474",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "221445",
+          "label": "Default",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:221445",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

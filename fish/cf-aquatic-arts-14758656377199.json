@@ -7,15 +7,13 @@
       "listingId": "shrimpy-business:9722486522146",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Imperial Lapis Tetra (Tank-Bred)",
-      "lastCheckedAt": "2026-11-22T06:57:34.146Z"
+      "commonName": "Imperial Lapis Tetra (Tank-Bred)"
     },
     {
       "listingId": "nu-aqua-shop:10165554807100",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Imperial Lapis Tetra",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Imperial Lapis Tetra"
     }
   ],
   "events": [
@@ -74,6 +72,58 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:10165554807100",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 26,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49897533047074",
+          "label": "2 Fish",
+          "price": 26,
+          "available": false
+        },
+        {
+          "id": "49897533079842",
+          "label": "4 Fish",
+          "price": 46.95,
+          "available": false
+        },
+        {
+          "id": "51662838858018",
+          "label": "8 Fish",
+          "price": 87.95,
+          "available": false
+        },
+        {
+          "id": "51662838890786",
+          "label": "16 Fish",
+          "price": 165.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9722486522146",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52192339722556",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "nu-aqua-shop:10165554807100",
       "storeSlug": "nu-aqua-shop"
     }

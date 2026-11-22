@@ -1,14 +1,25 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10266090635580",
-  "commonName": "Nothobranchius Rubripinnis Male",
+  "commonName": "Nothobranchius rubripinnis – PAIR",
   "scientificName": null,
   "listings": [
     {
       "listingId": "nu-aqua-shop:10266090635580",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Nothobranchius Rubripinnis Male",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Nothobranchius Rubripinnis Male"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:687065",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Nothobranchius rubripinnis"
+    },
+    {
+      "listingId": "aqua-imports:147787",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Nothobranchius rubripinnis – PAIR"
     }
   ],
   "events": [
@@ -31,6 +42,63 @@
       ],
       "listingId": "nu-aqua-shop:10266090635580",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52596311523644",
+          "label": "Title",
+          "price": 23.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10266090635580",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "687065",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:687065",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "147787",
+          "label": "Default",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:147787",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

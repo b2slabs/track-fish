@@ -7,8 +7,13 @@
       "listingId": "monster-aquarium:7714485666001",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "CW051 New Panda Cory (Hoplisoma sp. “CW051”)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "CW051 New Panda Cory (Hoplisoma sp. “CW051”)"
+    },
+    {
+      "listingId": "aqua-imports:134958",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "CW051 New Panda Cory (Hoplisoma sp. “CW051”)"
     }
   ],
   "events": [
@@ -240,6 +245,43 @@
       ],
       "listingId": "monster-aquarium:7714485666001",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 35,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43015326564561",
+          "label": "1.5-1.75”",
+          "price": 35,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7714485666001",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "134958",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:134958",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

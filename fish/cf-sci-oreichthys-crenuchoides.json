@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:oreichthys-crenuchoides",
-  "commonName": "Drape Fin Barb | Oreichthys Crenuchoides",
+  "commonName": "Drape Fin Barb (Oreichthys crenuchoides)",
   "scientificName": "Oreichthys crenuchoides",
   "listings": [
     {
       "listingId": "flip-aquatics:6849673822310",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Drape Fin Barb | Oreichthys Crenuchoides",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Drape Fin Barb | Oreichthys Crenuchoides"
+    },
+    {
+      "listingId": "aqua-imports:56895",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Drape Fin Barb (Oreichthys crenuchoides)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "flip-aquatics:6849673822310",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40046741422182",
+          "label": "Imported / 1 Fish",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6849673822310",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "56895",
+          "label": "Default",
+          "price": 7.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:56895",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

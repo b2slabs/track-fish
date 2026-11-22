@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:nannostomus-unifasciatus",
-  "commonName": "Zipper Pencilfish",
+  "commonName": "One Line Pencilfish (Nannostomus unifasciatus)",
   "scientificName": "Nannostomus unifasciatus",
   "listings": [
     {
       "listingId": "aquarium-fish:8155825635627",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Zipper Pencilfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Zipper Pencilfish"
+    },
+    {
+      "listingId": "aqua-imports:110464",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "One Line Pencilfish (Nannostomus unifasciatus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:8155825635627",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44642916565291",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8155825635627",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "110464",
+          "label": "Default",
+          "price": 2.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:110464",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

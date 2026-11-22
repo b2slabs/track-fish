@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:dans-fish:10127100674346",
-  "commonName": "CW217 Rio Tomo Concolor Cory",
+  "commonName": "CW217 Rio Tomo Concolor Cory (Hoplisoma concolor Rio Tomo CW217)",
   "scientificName": null,
   "listings": [
     {
@@ -9,6 +9,12 @@
       "storeName": "Dan's Fish",
       "commonName": "CW217 Rio Tomo Concolor Cory",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:189151",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "CW217 Rio Tomo Concolor Cory (Hoplisoma concolor Rio Tomo CW217)"
     }
   ],
   "events": [
@@ -31,6 +37,26 @@
       ],
       "listingId": "dans-fish:10127100674346",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "189151",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:189151",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

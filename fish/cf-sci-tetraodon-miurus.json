@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:tetraodon-miurus",
-  "commonName": "Potato Pufferfish (Tetraodon miurus)",
+  "commonName": "Congo Puffer (Tetraodon miurus)",
   "scientificName": "Tetraodon miurus",
   "listings": [
     {
       "listingId": "imperial-tropicals:9828280041779",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Potato Pufferfish (Tetraodon miurus)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Potato Pufferfish (Tetraodon miurus)"
     },
     {
       "listingId": "monster-aquarium:7352452612305",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Miurus Puffer (Tetraodon miurus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Miurus Puffer (Tetraodon miurus)"
     },
     {
       "listingId": "aquarium-fish:6096451654",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Miurus Puffer",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Miurus Puffer"
+    },
+    {
+      "listingId": "aqua-imports:39541",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Congo Puffer (Tetraodon miurus)"
     }
   ],
   "events": [
@@ -111,6 +114,83 @@
       ],
       "listingId": "imperial-tropicals:9828280041779",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 64.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41935668609233",
+          "label": "3-4”",
+          "price": 64.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7352452612305",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 189.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19293221062",
+          "label": "Medium",
+          "price": 189.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6096451654",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 74.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51878853804339",
+          "label": "1-2\" Unsexed Brown",
+          "price": 74.99,
+          "available": false
+        },
+        {
+          "id": "51878853837107",
+          "label": "1-2\" Unsexed Red",
+          "price": 94.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9828280041779",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39541",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:39541",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

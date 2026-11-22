@@ -7,15 +7,13 @@
       "listingId": "buce-plant:8232579563720",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Chihiros Doctor 5",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Chihiros Doctor 5"
     },
     {
       "listingId": "glass-aqua:7615338119254",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Chihiros Doctor 5",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Chihiros Doctor 5"
     }
   ],
   "events": [
@@ -68,6 +66,52 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:7615338119254",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 55.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44733289758920",
+          "label": "Doctor 5",
+          "price": 139.99,
+          "available": false
+        },
+        {
+          "id": "44733289791688",
+          "label": "Replacement Reactor ONLY",
+          "price": 55.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8232579563720",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 55.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42576304898134",
+          "label": "Doctor 5",
+          "price": 139.99,
+          "available": false
+        },
+        {
+          "id": "42576304930902",
+          "label": "Replacement Reactor",
+          "price": 55.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:7615338119254",
       "storeSlug": "glass-aqua"
     }

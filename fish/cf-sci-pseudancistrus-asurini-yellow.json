@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:pseudancistrus-asurini:yellow",
-  "commonName": "L067 Yellow Seam Pleco",
+  "commonName": "L067 Yellow Seam Pleco (Pseudancistrus asurini)",
   "scientificName": "Pseudancistrus asurini",
   "listings": [
     {
       "listingId": "monster-aquarium:7223680106705",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "L067 Yellow Edged Pleco (Pseudancistrus asurini)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "L067 Yellow Edged Pleco (Pseudancistrus asurini)"
     },
     {
       "listingId": "imperial-tropicals:8398155907379",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "L067 Yellow Seam Pleco",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "L067 Yellow Seam Pleco"
+    },
+    {
+      "listingId": "aqua-imports:39794",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "L067 Yellow Seam Pleco (Pseudancistrus asurini)"
     }
   ],
   "events": [
@@ -64,6 +68,66 @@
       ],
       "listingId": "imperial-tropicals:8398155907379",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41532484255953",
+          "label": "2.5-3\"",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "41503186157777",
+          "label": "4-4.5”",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7223680106705",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612252430643",
+          "label": "4-5\" Unsexed",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398155907379",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39794",
+          "label": "Default",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:39794",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:nothobranchius-rachovii",
-  "commonName": "Redtail Notho Killifish (Pair)",
+  "commonName": "Rachovi Killifish (Nothobranchius rachovii)",
   "scientificName": "Nothobranchius rachovii",
   "listings": [
     {
@@ -9,6 +9,12 @@
       "storeName": "CK Fish World",
       "commonName": "Redtail Notho Killifish (Pair)",
       "lastCheckedAt": "2026-02-07T03:00:00.000Z"
+    },
+    {
+      "listingId": "aqua-imports:154867",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Rachovi Killifish (Nothobranchius rachovii)"
     }
   ],
   "events": [
@@ -31,6 +37,26 @@
       ],
       "listingId": "ck-fish-world:9071500361943",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "154867",
+          "label": "Default",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:154867",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

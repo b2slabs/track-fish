@@ -1,7 +1,7 @@
 {
   "canonicalFishId": "cf:dans-fish:10127131017514",
-  "commonName": "Longfin Albino Cory Aeneus",
-  "scientificName": null,
+  "commonName": "Longfin Albino Aeneus Cory (Osteogaster aeneus)",
+  "scientificName": "Osteogaster aeneus",
   "listings": [
     {
       "listingId": "dans-fish:10127131017514",
@@ -9,6 +9,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Longfin Albino Cory Aeneus",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:141605",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Longfin Albino Aeneus Cory (Osteogaster aeneus)"
     }
   ],
   "events": [
@@ -31,6 +37,26 @@
       ],
       "listingId": "dans-fish:10127131017514",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "141605",
+          "label": "Default",
+          "price": 7.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:141605",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

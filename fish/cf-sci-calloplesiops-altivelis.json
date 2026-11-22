@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:calloplesiops-altivelis",
-  "commonName": "Marine Betta Grouper",
+  "commonName": "Marine Betta (Calloplesiops altivelis)",
   "scientificName": "Calloplesiops altivelis",
   "listings": [
     {
       "listingId": "aquarium-fish:9977059311915",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Marine Betta Grouper",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Marine Betta Grouper"
+    },
+    {
+      "listingId": "aqua-imports:98788",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Marine Betta (Calloplesiops altivelis)"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "aquarium-fish:9977059311915",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 200.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51342176682283",
+          "label": "Medium (2-3\")",
+          "price": 200.79,
+          "available": true
+        },
+        {
+          "id": "50537150447915",
+          "label": "Large (3-4\")",
+          "price": 218.79,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9977059311915",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 129.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "98788",
+          "label": "Default",
+          "price": 129.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:98788",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

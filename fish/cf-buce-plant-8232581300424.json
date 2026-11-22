@@ -7,15 +7,13 @@
       "listingId": "buce-plant:8232581300424",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Chihiros Universal RGB Nano LED Light",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Chihiros Universal RGB Nano LED Light"
     },
     {
       "listingId": "glass-aqua:7672177459286",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Chihiros Nano LED Light - Universal RGB",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Chihiros Nano LED Light - Universal RGB"
     }
   ],
   "events": [
@@ -68,6 +66,52 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:7672177459286",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 97.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44733293363400",
+          "label": "RGB Nano 20",
+          "price": 97.99,
+          "available": true
+        },
+        {
+          "id": "44733293396168",
+          "label": "RGB Nano 30",
+          "price": 111.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:8232581300424",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 97.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43450629718102",
+          "label": "NANO 20",
+          "price": 97.99,
+          "available": true
+        },
+        {
+          "id": "43450629750870",
+          "label": "NANO 30",
+          "price": 111.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:7672177459286",
       "storeSlug": "glass-aqua"
     }

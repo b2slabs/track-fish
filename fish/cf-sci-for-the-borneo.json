@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:for-the-borneo",
-  "commonName": "Borneo Sucker Loach",
+  "commonName": "Borneo Sucker Loach (Gastromyzon ctenocephalus)",
   "scientificName": "For the borneo",
   "listings": [
     {
       "listingId": "flip-aquatics:6849671692390",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Borneo Sucker Loach",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Borneo Sucker Loach"
     },
     {
       "listingId": "imperial-tropicals:8398138605875",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Borneo Sucker Loach",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Borneo Sucker Loach"
+    },
+    {
+      "listingId": "aqua-imports:220512",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Borneo Sucker Loach (Gastromyzon ctenocephalus)"
     }
   ],
   "events": [
@@ -172,6 +176,84 @@
       ],
       "listingId": "imperial-tropicals:8398138605875",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40046674051174",
+          "label": "Imported / 1 Fish",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6849671692390",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67838564434227",
+          "label": "0.5-1” Unsexed",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "67838568366387",
+          "label": "(10 Pack) 0.5-1” Unsexed",
+          "price": 53.99,
+          "available": false
+        },
+        {
+          "id": "45612191711539",
+          "label": "1-2” Unsexed",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "67838531469619",
+          "label": "(10 Pack) 1-2” Unsexed",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "67838569709875",
+          "label": "2-3” Unsexed",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398138605875",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "220512",
+          "label": "Default",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:220512",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

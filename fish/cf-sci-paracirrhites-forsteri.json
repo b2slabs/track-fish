@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:paracirrhites-forsteri",
-  "commonName": "Freckled Hawkfish",
+  "commonName": "Freckle Face Hawkfish (Paracirrhites forsteri)",
   "scientificName": "Paracirrhites forsteri",
   "listings": [
     {
       "listingId": "aquarium-fish:11210656524",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Freckled Hawkfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Freckled Hawkfish"
+    },
+    {
+      "listingId": "aqua-imports:108667",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Freckle Face Hawkfish (Paracirrhites forsteri)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:11210656524",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 82.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267640602705",
+          "label": "Medium (2-3\")",
+          "price": 82.49,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:11210656524",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "108667",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:108667",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

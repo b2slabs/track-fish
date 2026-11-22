@@ -7,15 +7,13 @@
       "listingId": "buce-plant:7523826073800",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "UNS Controsand - Monterey",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "UNS Controsand - Monterey"
     },
     {
       "listingId": "nu-aqua-shop:10237104619836",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "UNS Controsand Monterey",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "UNS Controsand Monterey"
     }
   ],
   "events": [
@@ -68,6 +66,52 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:10237104619836",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42592762855624",
+          "label": "3L",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "42592762888392",
+          "label": "8L",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7523826073800",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52482747662652",
+          "label": "3L",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "52482747695420",
+          "label": "8L",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "nu-aqua-shop:10237104619836",
       "storeSlug": "nu-aqua-shop"
     }

@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:crenicichla-compressiceps-common",
-  "commonName": "Compressiceps Dwarf Pike Cichlid-L",
+  "commonName": "Compressiceps Dwarf Pike Cichlid (Wallaciia compressiceps)",
   "scientificName": "Crenicichla compressiceps common",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398152401203",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Compressiceps Dwarf Pike Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Compressiceps Dwarf Pike Cichlid"
     },
     {
       "listingId": "nu-aqua-shop:10450456969532",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Compressiceps Dwarf Pike Cichlid-L",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Compressiceps Dwarf Pike Cichlid-L"
+    },
+    {
+      "listingId": "aqua-imports:42357",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Compressiceps Dwarf Pike Cichlid (Wallaciia compressiceps)"
     }
   ],
   "events": [
@@ -58,6 +62,60 @@
       ],
       "listingId": "nu-aqua-shop:10450456969532",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612247023923",
+          "label": "2-3” Unsexed",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398152401203",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 33.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53976503484732",
+          "label": "Title",
+          "price": 33.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10450456969532",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42357",
+          "label": "Default",
+          "price": 22.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:42357",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

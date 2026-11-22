@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:flip-aquatics:7012977705062",
-  "commonName": "White Spotted Rabbit Snail",
-  "scientificName": null,
+  "commonName": "White Spotted Rabbit Snail (Tylomelania sp.)",
+  "scientificName": "Tylomelania sp.",
   "listings": [
     {
       "listingId": "flip-aquatics:7012977705062",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "White Spotted Rabbit Snail",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "White Spotted Rabbit Snail"
+    },
+    {
+      "listingId": "aqua-imports:82571",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "White Spotted Rabbit Snail (Tylomelania sp.)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "flip-aquatics:7012977705062",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40762428358758",
+          "label": "Imported / 1 Snail",
+          "price": 15.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:7012977705062",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "82571",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:82571",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

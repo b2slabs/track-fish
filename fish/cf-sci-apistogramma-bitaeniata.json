@@ -1,28 +1,37 @@
 {
   "canonicalFishId": "cf:sci:apistogramma-bitaeniata",
-  "commonName": "Apistogramma Bitaeniata",
+  "commonName": "Banded Apisto (Apistogramma bitaeniata)",
   "scientificName": "Apistogramma bitaeniata",
   "listings": [
     {
       "listingId": "aquatic-arts:14713325453679",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Two-Striped Dwarf Cichlid (Apistogramma bitaeniata) – Tank-Bred",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Two-Striped Dwarf Cichlid (Apistogramma bitaeniata) – Tank-Bred"
     },
     {
       "listingId": "imperial-tropicals:8303248408883",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Apistogramma bitaeniata",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Apistogramma bitaeniata"
     },
     {
       "listingId": "nu-aqua-shop:10006354166076",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Apistogramma Bitaeniata",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Apistogramma Bitaeniata"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:681628+681630+681632+681634+681637+766908",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Apistogramma bitaeniata"
+    },
+    {
+      "listingId": "aqua-imports:42118",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Banded Apisto (Apistogramma bitaeniata)"
     }
   ],
   "events": [
@@ -326,6 +335,139 @@
       ],
       "listingId": "nu-aqua-shop:10006354166076",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 37.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51976248000879",
+          "label": "1 Male",
+          "price": 37.99,
+          "available": false
+        },
+        {
+          "id": "51976248033647",
+          "label": "1 Female",
+          "price": 45.99,
+          "available": false
+        },
+        {
+          "id": "51976248066415",
+          "label": "1 Pair",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14713325453679",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45224048820531",
+          "label": "1-2\" ATTEMPTED PAIR (1 Male, 1 Female)",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8303248408883",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627658608956",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006354166076",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "681628",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "681630",
+          "label": "Default",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "681632",
+          "label": "Default",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "681634",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "681637",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "766908",
+          "label": "Default",
+          "price": 42.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:681628+681630+681632+681634+681637+766908",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42118",
+          "label": "Default",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:42118",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

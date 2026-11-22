@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10006313107772",
-  "commonName": "Alternathera Reineckii",
+  "commonName": "Alternanthera reineckii",
   "scientificName": null,
   "listings": [
     {
       "listingId": "nu-aqua-shop:10006313107772",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Alternathera Reineckii",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Alternathera Reineckii"
     },
     {
       "listingId": "glass-aqua:11277475207",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Alternanthera Reineckii",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Alternanthera Reineckii"
+    },
+    {
+      "listingId": "aqua-imports:60025",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Alternanthera reineckii"
     }
   ],
   "events": [
@@ -148,6 +152,60 @@
       ],
       "listingId": "glass-aqua:11277475207",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738892359",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11277475207",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 6.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627484283196",
+          "label": "Title",
+          "price": 6.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006313107772",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "60025",
+          "label": "Default",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60025",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

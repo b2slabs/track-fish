@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:iguanodectes-geisleri-common:red",
-  "commonName": "Red Line Lizard Tetra",
+  "commonName": "Red Line Lizard Tetra (Iguanodectes geisleri)",
   "scientificName": "Iguanodectes geisleri",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398101971251",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Red Line Lizard Tetra",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Red Line Lizard Tetra"
     },
     {
       "listingId": "nu-aqua-shop:15421025485116",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Red Line Lizard Tetra",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Red Line Lizard Tetra"
+    },
+    {
+      "listingId": "aqua-imports:39617",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red Line Lizard Tetra (Iguanodectes geisleri)"
     }
   ],
   "events": [
@@ -58,6 +62,60 @@
       ],
       "listingId": "nu-aqua-shop:15421025485116",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612106711347",
+          "label": "2\" Unsexed",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398101971251",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "67718370623804",
+          "label": "Title",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:15421025485116",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39617",
+          "label": "Default",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:39617",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

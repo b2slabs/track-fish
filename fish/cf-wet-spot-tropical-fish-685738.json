@@ -1,0 +1,61 @@
+{
+  "canonicalFishId": "cf:wet-spot-tropical-fish:685738",
+  "commonName": "Betta persephone",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "wet-spot-tropical-fish:685738",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Betta persephone"
+    },
+    {
+      "listingId": "aqua-imports:179452",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Betta persephone"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "685738",
+          "label": "Default",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:685738",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "179452",
+          "label": "Default",
+          "price": 99.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:179452",
+      "storeSlug": "aqua-imports"
+    }
+  ]
+}

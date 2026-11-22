@@ -7,8 +7,13 @@
       "listingId": "imperial-tropicals:8303245590835",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Buccochromis nototaenia",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Buccochromis nototaenia"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:679602",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Buccochromis nototaenia"
     }
   ],
   "events": [
@@ -79,6 +84,91 @@
       ],
       "listingId": "imperial-tropicals:8303245590835",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45224044069171",
+          "label": "1-2\" Unsexed",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "45224044101939",
+          "label": "2-3\" Unsexed",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "50892139626803",
+          "label": "3-4\" Female",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "45224044134707",
+          "label": "3-4\" Male",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "50892146868531",
+          "label": "4-5\" Female",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "50892140609843",
+          "label": "4-5\" Male",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "50892174786867",
+          "label": "4-5\" Breeder Pack (1 Male, 3 Female)",
+          "price": 184.99,
+          "available": false
+        },
+        {
+          "id": "50114681078067",
+          "label": "1-2\" Unsexed F1",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "51036643426611",
+          "label": "2-3\" Unsexed F1",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8303245590835",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "679602",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:679602",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

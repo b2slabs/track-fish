@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:pao-suvattii-origin",
-  "commonName": "Pignose Puffer",
+  "commonName": "Pignose Puffer (Pao suvattii)",
   "scientificName": "Pao suvattii origin",
   "listings": [
     {
       "listingId": "aquarium-fish:8096621003051",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Pignose Puffer",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Pignose Puffer"
     },
     {
       "listingId": "monster-aquarium:7168544637137",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Pignose Puffer (Tetraodon suvattii)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Pignose Puffer (Tetraodon suvattii)"
+    },
+    {
+      "listingId": "aqua-imports:39632",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Pignose Puffer (Pao suvattii)"
     }
   ],
   "events": [
@@ -58,6 +62,60 @@
       ],
       "listingId": "aquarium-fish:8096621003051",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 88.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41376737657041",
+          "label": "5-6”",
+          "price": 88.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7168544637137",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 119.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44393464955179",
+          "label": "Large (4\")",
+          "price": 119.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8096621003051",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 89.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39632",
+          "label": "Default",
+          "price": 89.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:39632",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

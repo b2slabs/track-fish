@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:balistapus-undulatus",
-  "commonName": "Undulatus Triggerfish",
+  "commonName": "Undulated Triggerfish (Balistapus undulatus)",
   "scientificName": "Balistapus undulatus",
   "listings": [
     {
       "listingId": "aquarium-fish:9006744140",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Undulatus Triggerfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Undulatus Triggerfish"
+    },
+    {
+      "listingId": "aqua-imports:89350",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Undulated Triggerfish (Balistapus undulatus)"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "aquarium-fish:9006744140",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 81.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32267648860241",
+          "label": "Medium (2-3\")",
+          "price": 81.49,
+          "available": false
+        },
+        {
+          "id": "32267648893009",
+          "label": "Large (3-4\")",
+          "price": 112.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9006744140",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 79.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "89350",
+          "label": "Default",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:89350",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,21 +1,19 @@
 {
   "canonicalFishId": "cf:sci:phenacogrammus-interruptus:albino",
-  "commonName": "Albino Congo Tetra",
+  "commonName": "Albino Congo Tetra (Phenacogrammus interruptus)",
   "scientificName": "Phenacogrammus interruptus",
   "listings": [
     {
       "listingId": "monster-aquarium:6966778036433",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Albino Congo Tetra (Phenacogrammus interruptus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Albino Congo Tetra (Phenacogrammus interruptus)"
     },
     {
       "listingId": "global-exoticquatics:8514128052416",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Albino Congo Tetra",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "Albino Congo Tetra"
     },
     {
       "listingId": "ck-fish-world:8760608194775",
@@ -30,6 +28,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Albino Congo Tetra",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:102341",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Albino Congo Tetra (Phenacogrammus interruptus)"
     }
   ],
   "events": [
@@ -136,6 +140,60 @@
       ],
       "listingId": "dans-fish:10127095628074",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 9,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40847416000721",
+          "label": "1-1.5\"",
+          "price": 9,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6966778036433",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 45,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47784004354240",
+          "label": "5 pack",
+          "price": 45,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8514128052416",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "102341",
+          "label": "Default",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:102341",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

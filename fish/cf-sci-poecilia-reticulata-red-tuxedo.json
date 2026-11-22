@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:poecilia-reticulata:red-tuxedo",
-  "commonName": "Super Red Tuxedo Guppy (male) (Poecilia reticulata)",
+  "commonName": "Red Tuxedo Guppy (Poecilia reticulata)",
   "scientificName": "Poecilia reticulata",
   "listings": [
     {
       "listingId": "monster-aquarium:7033539231953+7033539264721",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Super Red Tuxedo Guppy (male) (Poecilia reticulata)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Super Red Tuxedo Guppy (male) (Poecilia reticulata)"
+    },
+    {
+      "listingId": "aqua-imports:131401",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red Tuxedo Guppy (Poecilia reticulata)"
     }
   ],
   "events": [
@@ -77,6 +82,49 @@
       ],
       "listingId": "monster-aquarium:7033539231953+7033539264721",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41043463635153",
+          "label": "1-1.5\"",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "41043463602385",
+          "label": "1-1.5\"",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7033539231953+7033539264721",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "131401",
+          "label": "Default",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:131401",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

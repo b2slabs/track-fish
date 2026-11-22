@@ -7,15 +7,13 @@
       "listingId": "imperial-tropicals:8398091419955",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Golden Topminnow (Fundulus chrysotus)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Golden Topminnow (Fundulus chrysotus)"
     },
     {
       "listingId": "nu-aqua-shop:10141975183676",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Golden Topminnow",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Golden Topminnow"
     }
   ],
   "events": [
@@ -74,6 +72,58 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:10141975183676",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53246320181555",
+          "label": "1-2\" Unsexed",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "45612081447219",
+          "label": "2-3\" Unsexed",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "45612081479987",
+          "label": "(5 Pack) 2-3” Unsexed",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "53890306670899",
+          "label": "2-3\" Male",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398091419955",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 15.75,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52088010899772",
+          "label": "Title",
+          "price": 15.75,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "nu-aqua-shop:10141975183676",
       "storeSlug": "nu-aqua-shop"
     }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:platax-pinnatus",
-  "commonName": "Pinnatus Batfish",
+  "commonName": "Pinnatus Batfish (Platax pinnatus)",
   "scientificName": "Platax pinnatus",
   "listings": [
     {
       "listingId": "aquarium-fish:8843634700",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Pinnatus Batfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Pinnatus Batfish"
+    },
+    {
+      "listingId": "aqua-imports:147120",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Pinnatus Batfish (Platax pinnatus)"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "aquarium-fish:8843634700",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 252.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "30518227148",
+          "label": "Small (1\")",
+          "price": 252.29,
+          "available": false
+        },
+        {
+          "id": "32789554954321",
+          "label": "Medium (2-3\")",
+          "price": 302.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8843634700",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 119.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "147120",
+          "label": "Default",
+          "price": 119.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:147120",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:brachydanio-kyathit:orange",
-  "commonName": "Striped Kyathit AKA Orange Finned Danio (Brachydanio kyathit), Tank-Bred!",
+  "commonName": "Kyathit / Orange Fin Danio (Brachydanio kyathit)",
   "scientificName": "Brachydanio kyathit",
   "listings": [
     {
       "listingId": "aquatic-arts:4741561606",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Striped Kyathit AKA Orange Finned Danio (Brachydanio kyathit), Tank-Bred!",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Striped Kyathit AKA Orange Finned Danio (Brachydanio kyathit), Tank-Bred!"
+    },
+    {
+      "listingId": "aqua-imports:61675",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Kyathit / Orange Fin Danio (Brachydanio kyathit)"
     }
   ],
   "events": [
@@ -49,6 +54,61 @@
       ],
       "listingId": "aquatic-arts:4741561606",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "28021313011798",
+          "label": "School of 3",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "28021316649046",
+          "label": "School of 6",
+          "price": 23.99,
+          "available": false
+        },
+        {
+          "id": "15504252550",
+          "label": "School of 9",
+          "price": 33.99,
+          "available": false
+        },
+        {
+          "id": "15504252614",
+          "label": "School of 12",
+          "price": 40.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4741561606",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "61675",
+          "label": "Default",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:61675",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

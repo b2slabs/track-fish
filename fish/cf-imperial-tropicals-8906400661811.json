@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:imperial-tropicals:8906400661811",
-  "commonName": "Green Line Lizard Tetra",
-  "scientificName": null,
+  "commonName": "Green Line Lizard Tetra (Iguanodectes spilurus)",
+  "scientificName": "Iguanodectes spilurus",
   "listings": [
     {
       "listingId": "imperial-tropicals:8906400661811",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Green Line Lizard Tetra",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Green Line Lizard Tetra"
+    },
+    {
+      "listingId": "aqua-imports:129518",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Green Line Lizard Tetra (Iguanodectes spilurus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "imperial-tropicals:8906400661811",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47802413678899",
+          "label": "(3 Pack) 2-3\" Unsexed",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8906400661811",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "129518",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:129518",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

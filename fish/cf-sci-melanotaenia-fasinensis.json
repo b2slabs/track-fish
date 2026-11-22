@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:melanotaenia-fasinensis",
-  "commonName": "Fasinensis Rainbow ( Melanotaenia Fasinensis )",
+  "commonName": "Fasin Creek Rainbowfish (Melanotaenia fasinensis) – Wild",
   "scientificName": "Melanotaenia fasinensis",
   "listings": [
     {
       "listingId": "monster-aquarium:7468746866897",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Fasinensis Rainbow ( Melanotaenia Fasinensis )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Fasinensis Rainbow ( Melanotaenia Fasinensis )"
+    },
+    {
+      "listingId": "aqua-imports:159631",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Fasin Creek Rainbowfish (Melanotaenia fasinensis) – Wild"
     }
   ],
   "events": [
@@ -51,6 +56,43 @@
       ],
       "listingId": "monster-aquarium:7468746866897",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42236374974673",
+          "label": "3”-4”",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7468746866897",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "159631",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:159631",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

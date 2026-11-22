@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:megalechis-thoracata",
-  "commonName": "Tail Bar Hoplo Catfish",
+  "commonName": "Spotted Hoplo Catfish (Megalechis thoracata)",
   "scientificName": "Megalechis thoracata",
   "listings": [
     {
       "listingId": "imperial-tropicals:9734494716211",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Tail Bar Hoplo Catfish",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Tail Bar Hoplo Catfish"
     },
     {
       "listingId": "aquarium-fish:6657956230",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Hoplo Catfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Hoplo Catfish"
+    },
+    {
+      "listingId": "aqua-imports:165847",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Spotted Hoplo Catfish (Megalechis thoracata)"
     }
   ],
   "events": [
@@ -58,6 +62,60 @@
       ],
       "listingId": "imperial-tropicals:9734494716211",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21040734726",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6657956230",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51462918046003",
+          "label": "2-3\" Unsexed",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9734494716211",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "165847",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:165847",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

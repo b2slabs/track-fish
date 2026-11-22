@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:cryptocentrus-cinctus:yellow",
-  "commonName": "Yellow Watchman Goby",
+  "commonName": "Yellow Watchman Goby (Cryptocentrus cinctus)",
   "scientificName": "Cryptocentrus cinctus",
   "listings": [
     {
       "listingId": "aquarium-fish:10033817223467",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Yellow Watchman Goby",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Yellow Watchman Goby"
+    },
+    {
+      "listingId": "aqua-imports:108686",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Yellow Watchman Goby (Cryptocentrus cinctus)"
     }
   ],
   "events": [
@@ -64,6 +69,49 @@
       ],
       "listingId": "aquarium-fish:10033817223467",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 31.7,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51052763152683",
+          "label": "Medium (1.5-2.5'')",
+          "price": 31.7,
+          "available": false
+        },
+        {
+          "id": "51342136475947",
+          "label": "Large (2.5-3.5\")",
+          "price": 40.2,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10033817223467",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "108686",
+          "label": "Default",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:108686",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

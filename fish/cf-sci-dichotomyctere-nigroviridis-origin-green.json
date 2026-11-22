@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:dichotomyctere-nigroviridis-origin:green",
-  "commonName": "Green Spotted Puffer",
+  "commonName": "Green Spotted Puffer (Tetraodon nigroviridis)",
   "scientificName": "Dichotomyctere nigroviridis",
   "listings": [
     {
       "listingId": "monster-aquarium:7030052683985",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Green Spotted Puffer (Dichotomyctere nigroviridis)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Green Spotted Puffer (Dichotomyctere nigroviridis)"
     },
     {
       "listingId": "ck-fish-world:8150025470167",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Green Spotted Puffer",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Green Spotted Puffer"
     },
     {
       "listingId": "aquarium-fish:6574312710",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Green Spotted Puffer",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Green Spotted Puffer"
+    },
+    {
+      "listingId": "aqua-imports:159541",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Green Spotted Puffer (Tetraodon nigroviridis)"
     }
   ],
   "events": [
@@ -132,6 +135,83 @@
       ],
       "listingId": "aquarium-fish:6574312710",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 15,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41034952212689",
+          "label": "1.5-2”",
+          "price": 15,
+          "available": false
+        },
+        {
+          "id": "41630618452177",
+          "label": "5-6\"",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7030052683985",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 9.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44098399437015",
+          "label": "Title",
+          "price": 9.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150025470167",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 8.24,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "20798963334",
+          "label": "Title",
+          "price": 8.24,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6574312710",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "159541",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:159541",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

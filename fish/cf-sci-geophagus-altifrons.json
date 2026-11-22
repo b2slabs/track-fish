@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:geophagus-altifrons",
-  "commonName": "Altifrons Cichlid",
+  "commonName": "Xingu Altifrons Eartheater (Geophagus altifrons ‘Rio Xingu’)",
   "scientificName": "Geophagus altifrons",
   "listings": [
     {
       "listingId": "aquarium-fish:5950483590",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Altifrons Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Altifrons Cichlid"
     },
     {
       "listingId": "monster-aquarium:7241459302609",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Altifrons Alenquer Geophagus (Geophagus altifrons “Alenquer”)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Altifrons Alenquer Geophagus (Geophagus altifrons “Alenquer”)"
+    },
+    {
+      "listingId": "aqua-imports:121204+82146",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Xingu Altifrons Eartheater (Geophagus altifrons ‘Rio Xingu’)"
     }
   ],
   "events": [
@@ -58,6 +62,66 @@
       ],
       "listingId": "aquarium-fish:5950483590",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 84.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41537330381009",
+          "label": "6-7”",
+          "price": 84.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7241459302609",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "18819677574",
+          "label": "Title",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:5950483590",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 37.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "121204",
+          "label": "Default",
+          "price": 37.99,
+          "available": false
+        },
+        {
+          "id": "82146",
+          "label": "Default",
+          "price": 37.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:121204+82146",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

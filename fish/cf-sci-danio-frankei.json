@@ -1,0 +1,41 @@
+{
+  "canonicalFishId": "cf:sci:danio-frankei",
+  "commonName": "Danio frankei",
+  "scientificName": "Danio frankei",
+  "listings": [
+    {
+      "listingId": "wet-spot-tropical-fish:685297+685299",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Danio frankei"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "685299",
+          "label": "Default",
+          "price": 2.99,
+          "available": true
+        },
+        {
+          "id": "685297",
+          "label": "Default",
+          "price": 3.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:685297+685299",
+      "storeSlug": "wet-spot-tropical-fish"
+    }
+  ]
+}

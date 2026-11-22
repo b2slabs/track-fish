@@ -7,8 +7,7 @@
       "listingId": "monster-aquarium:6970175783121",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "CrayFish (Cambarus sp)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "CrayFish (Cambarus sp)"
     }
   ],
   "events": [
@@ -41,6 +40,35 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "monster-aquarium:6970175783121",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40854077309137",
+          "label": "Electric Blue 2-3\"",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "40854077341905",
+          "label": "Orange 2-3\"",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "40854077374673",
+          "label": "White 2-3\"",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "monster-aquarium:6970175783121",
       "storeSlug": "monster-aquarium"
     }

@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:hemiancistrus-snethlageae-common",
-  "commonName": "L141 Ghost Pleco",
+  "commonName": "L141 Ghost Pleco (Ancistomus snethlageae)",
   "scientificName": "Hemiancistrus snethlageae common",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398157185331",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "L141 Ghost Pleco",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "L141 Ghost Pleco"
     },
     {
       "listingId": "monster-aquarium:7736676352209",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "L141 Ghost pleco ( hemiancistrus snethlageae )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "L141 Ghost pleco ( hemiancistrus snethlageae )"
+    },
+    {
+      "listingId": "aqua-imports:39749",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "L141 Ghost Pleco (Ancistomus snethlageae)"
     }
   ],
   "events": [
@@ -99,6 +103,60 @@
       ],
       "listingId": "imperial-tropicals:8398157185331",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 48,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43076619370705",
+          "label": "4”",
+          "price": 48,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7736676352209",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612253937971",
+          "label": "4-5\" Unsexed",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398157185331",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39749",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:39749",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

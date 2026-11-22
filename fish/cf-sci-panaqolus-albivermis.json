@@ -1,35 +1,31 @@
 {
   "canonicalFishId": "cf:sci:panaqolus-albivermis",
-  "commonName": "L204 Flash Pleco",
+  "commonName": "L204 Flash / Emperor Pleco (Panaqolus albivermis)",
   "scientificName": "Panaqolus albivermis",
   "listings": [
     {
       "listingId": "aquatic-arts:8812977062167",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "L204 Flash / Emperor Pleco (Panaqolus albivermis)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "L204 Flash / Emperor Pleco (Panaqolus albivermis)"
     },
     {
       "listingId": "monster-aquarium:7008103366865",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "L204 Flash Pleco (Panaqolus albivermis)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "L204 Flash Pleco (Panaqolus albivermis)"
     },
     {
       "listingId": "aquahuna:6893466583115",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "L204 Flash Pleco (1.0-1.5\")",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "L204 Flash Pleco (1.0-1.5\")"
     },
     {
       "listingId": "imperial-tropicals:8398121500979",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "L204 Flash Pleco",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "L204 Flash Pleco"
     },
     {
       "listingId": "dans-fish:10127131509034",
@@ -37,6 +33,12 @@
       "storeName": "Dan's Fish",
       "commonName": "L204 Flash Pleco",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:41194",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "L204 Flash / Emperor Pleco (Panaqolus albivermis)"
     }
   ],
   "events": [
@@ -165,6 +167,100 @@
       ],
       "listingId": "dans-fish:10127131509034",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 63.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47191096230167",
+          "label": "1 Juvenile",
+          "price": 63.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:8812977062167",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40979999129809",
+          "label": "1.5-2\"",
+          "price": 25,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7008103366865",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40155648786507",
+          "label": "Title",
+          "price": 49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6893466583115",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52801121091891",
+          "label": "2-3\" Unsexed",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "45612156584243",
+          "label": "3-4\" Unsexed",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398121500979",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41194",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:41194",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

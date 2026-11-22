@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:geophagus-brasiliensis",
-  "commonName": "Geophagus Brasiliensis - 2-3\"",
+  "commonName": "Geophagus brasiliensis",
   "scientificName": "Geophagus brasiliensis",
   "listings": [
     {
       "listingId": "nu-aqua-shop:10006316319036",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Geophagus Brasiliensis - 2-3\"",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Geophagus Brasiliensis - 2-3\""
     },
     {
       "listingId": "aquarium-fish:8238755676459",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Geophagus Braziliansis",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Geophagus Braziliansis"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:681973",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Geophagus brasiliensis"
     }
   ],
   "events": [
@@ -76,6 +80,78 @@
       ],
       "listingId": "nu-aqua-shop:10006316319036",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 5.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44954449969451",
+          "label": "Small (1.5\")",
+          "price": 5.29,
+          "available": false
+        },
+        {
+          "id": "44954450002219",
+          "label": "Medium (2\")",
+          "price": 16.29,
+          "available": false
+        },
+        {
+          "id": "44954450034987",
+          "label": "Large (3\")",
+          "price": 26.99,
+          "available": false
+        },
+        {
+          "id": "44954450067755",
+          "label": "Jumbo (4-5\")",
+          "price": 52.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8238755676459",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627488510268",
+          "label": "Title",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006316319036",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "681973",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:681973",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

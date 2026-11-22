@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:melanotaenia-parva",
-  "commonName": "Lake Kurumoi Rainbow",
+  "commonName": "Lake Kurumoi Rainbow (Melanotaenia parva)",
   "scientificName": "Melanotaenia parva",
   "listings": [
     {
       "listingId": "aquatic-arts:4880132702294",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Lake Kurumoi Sunset Dwarf Rainbowfish (Melanotaenia parva), Tank-Bred!",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Lake Kurumoi Sunset Dwarf Rainbowfish (Melanotaenia parva), Tank-Bred!"
     },
     {
       "listingId": "aquahuna:6863416295499",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Lake Kurumoi Rainbow",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Lake Kurumoi Rainbow"
+    },
+    {
+      "listingId": "aqua-imports:43975",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Lake Kurumoi Rainbow (Melanotaenia parva)"
     }
   ],
   "events": [
@@ -146,6 +150,84 @@
       ],
       "listingId": "aquahuna:6863416295499",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 58.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33225558098006",
+          "label": "School of 3 Medium Fish",
+          "price": 58.99,
+          "available": false
+        },
+        {
+          "id": "33225558130774",
+          "label": "School of 6 Medium Fish",
+          "price": 111.99,
+          "available": false
+        },
+        {
+          "id": "33225558196310",
+          "label": "School of 12 Medium Fish",
+          "price": 199.99,
+          "available": false
+        },
+        {
+          "id": "39282292293718",
+          "label": "School of 3 Large Fish",
+          "price": 74.99,
+          "available": false
+        },
+        {
+          "id": "39282293080150",
+          "label": "School of 6 Large Fish",
+          "price": 137.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4880132702294",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 12.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40090000851019",
+          "label": "Title",
+          "price": 12.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6863416295499",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43975",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:43975",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

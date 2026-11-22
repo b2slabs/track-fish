@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:aquatic-arts:14708043972975",
-  "commonName": "Golden Melon Sword Plant (echinodorous Osiris)",
-  "scientificName": null,
+  "commonName": "Golden Melon Sword Plant (Echinodorous osiris)",
+  "scientificName": "Echinodorous osiris",
   "listings": [
     {
       "listingId": "aquatic-arts:14708043972975",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Golden Melon Sword Plant (echinodorous Osiris)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Golden Melon Sword Plant (echinodorous Osiris)"
+    },
+    {
+      "listingId": "aqua-imports:190352",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Golden Melon Sword Plant (Echinodorous osiris)"
     }
   ],
   "events": [
@@ -253,6 +258,49 @@
       ],
       "listingId": "aquatic-arts:14708043972975",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51943475937647",
+          "label": "1 Bare root plant",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "51943475970415",
+          "label": "1 Potted Plant",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14708043972975",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "190352",
+          "label": "Default",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:190352",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

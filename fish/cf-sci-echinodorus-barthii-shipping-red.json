@@ -7,22 +7,19 @@
       "listingId": "flip-aquatics:4673519386726",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Red Melon Sword",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Red Melon Sword"
     },
     {
       "listingId": "aquarium-fish:6260571334",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Red Melon Sword",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Red Melon Sword"
     },
     {
       "listingId": "nu-aqua-shop:10006359769404",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Red Melon Sword",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Red Melon Sword"
     }
   ],
   "events": [
@@ -89,6 +86,63 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:10006359769404",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31494964674662",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:4673519386726",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 8.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19809724934",
+          "label": "Medium (6\")",
+          "price": 8.29,
+          "available": true
+        },
+        {
+          "id": "12960272220230",
+          "label": "Large (12\")",
+          "price": 15.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6260571334",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627671879996",
+          "label": "Title",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006359769404",
       "storeSlug": "nu-aqua-shop"
     }

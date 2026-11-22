@@ -1,21 +1,19 @@
 {
   "canonicalFishId": "cf:imperial-tropicals:9576609546547",
-  "commonName": "Fire Ant Tetra",
-  "scientificName": null,
+  "commonName": "Fire Ant Tetra (Hyphessobrycon myrmex)",
+  "scientificName": "Hyphessobrycon myrmex",
   "listings": [
     {
       "listingId": "imperial-tropicals:9576609546547",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Fire Ant Tetra",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Fire Ant Tetra"
     },
     {
       "listingId": "nu-aqua-shop:10135622746428",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Fire Ant Tetra",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Fire Ant Tetra"
     },
     {
       "listingId": "dans-fish:10127090811178",
@@ -23,6 +21,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Fire Ant Tetra",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:190350",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Fire Ant Tetra (Hyphessobrycon myrmex)"
     }
   ],
   "events": [
@@ -103,6 +107,78 @@
       ],
       "listingId": "dans-fish:10127090811178",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50727245611315",
+          "label": "0.5-1\" Unsexed",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "50727245644083",
+          "label": "(10 Pack) 0.5-1\" Unsexed",
+          "price": 134.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9576609546547",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52055969661244",
+          "label": "Single",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "52055969694012",
+          "label": "Group of 3",
+          "price": 47.98,
+          "available": true
+        },
+        {
+          "id": "52055969726780",
+          "label": "Group of 6",
+          "price": 95.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10135622746428",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "190350",
+          "label": "Default",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:190350",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:gobiodon-atrangulatus:green",
-  "commonName": "Green Clown Goby",
+  "commonName": "Green Clown Goby (Gobiodon histrio)",
   "scientificName": "Gobiodon atrangulatus",
   "listings": [
     {
       "listingId": "aquarium-fish:7902601030",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Green Clown Goby",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Green Clown Goby"
+    },
+    {
+      "listingId": "aqua-imports:147162",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Green Clown Goby (Gobiodon histrio)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:7902601030",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 38.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "25689379206",
+          "label": "Title",
+          "price": 38.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:7902601030",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "147162",
+          "label": "Default",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:147162",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

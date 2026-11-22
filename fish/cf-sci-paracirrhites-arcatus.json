@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:paracirrhites-arcatus",
-  "commonName": "Arc Eye Hawkfish",
+  "commonName": "Arc Eye Hawkfish (Paracirrhites arcatus)",
   "scientificName": "Paracirrhites arcatus",
   "listings": [
     {
       "listingId": "aquarium-fish:9977794527531",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Arc Eye Hawkfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Arc Eye Hawkfish"
+    },
+    {
+      "listingId": "aqua-imports:108659",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Arc Eye Hawkfish (Paracirrhites arcatus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:9977794527531",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 43.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50539854397739",
+          "label": "Medium (1.5-2.5\")",
+          "price": 43.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9977794527531",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "108659",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:108659",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

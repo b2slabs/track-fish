@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:hemichromis-elongatus",
-  "commonName": "Spot Jewel",
+  "commonName": "Five Star General Cichlid (Hemichromis elongatus)",
   "scientificName": "Hemichromis elongatus",
   "listings": [
     {
       "listingId": "aquahuna:1724481503275",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Spot Jewel",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Spot Jewel"
+    },
+    {
+      "listingId": "aqua-imports:170811",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Five Star General Cichlid (Hemichromis elongatus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquahuna:1724481503275",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15774644240427",
+          "label": "Title",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1724481503275",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "170811",
+          "label": "Default",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:170811",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

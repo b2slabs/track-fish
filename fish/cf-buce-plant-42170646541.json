@@ -7,8 +7,7 @@
       "listingId": "buce-plant:42170646541",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Uniheat 72+ Hour Shipping Warmer",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Uniheat 72+ Hour Shipping Warmer"
     }
   ],
   "events": [
@@ -47,6 +46,41 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "buce-plant:42170646541",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 3.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "22134640738385",
+          "label": "Activated 72Hr Pack",
+          "price": 3.5,
+          "available": true
+        },
+        {
+          "id": "32710153044049",
+          "label": "10 Packs (unopened)",
+          "price": 29,
+          "available": false
+        },
+        {
+          "id": "355146596365",
+          "label": "20 Packs (unopened)",
+          "price": 55,
+          "available": false
+        },
+        {
+          "id": "355146629133",
+          "label": "50 Packs (unopened)",
+          "price": 149,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "buce-plant:42170646541",
       "storeSlug": "buce-plant"
     }

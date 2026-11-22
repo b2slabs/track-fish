@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:potamogeton-gayi-common",
-  "commonName": "Potamogeton Gayi (Pondweed)",
+  "commonName": "Potamogeton gayi",
   "scientificName": "Potamogeton gayi common",
   "listings": [
     {
       "listingId": "buce-plant:436010876968",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Potamogeton Gayi",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Potamogeton Gayi"
     },
     {
       "listingId": "glass-aqua:1313447739478",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Potamogeton Gayi",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Potamogeton Gayi"
     },
     {
       "listingId": "nu-aqua-shop:10266769228092",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Potamogeton Gayi (Pondweed)",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Potamogeton Gayi (Pondweed)"
+    },
+    {
+      "listingId": "aqua-imports:60113",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Potamogeton gayi"
     }
   ],
   "events": [
@@ -112,6 +115,83 @@
       ],
       "listingId": "nu-aqua-shop:10266769228092",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "3736292425768",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12398805876817",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:436010876968",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12175797616726",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:1313447739478",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52599405936956",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10266769228092",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "60113",
+          "label": "Default",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60113",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

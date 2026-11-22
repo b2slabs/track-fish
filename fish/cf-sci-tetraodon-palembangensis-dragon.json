@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:tetraodon-palembangensis:dragon",
-  "commonName": "Humpback Dragon puffer (Tetraodon palembangensis)",
+  "commonName": "Humpback / Dragon Puffer (Pao palembangensis)",
   "scientificName": "Tetraodon palembangensis",
   "listings": [
     {
       "listingId": "aquatic-arts:4375635034198",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Humpback Dragon AKA Band Puffer (Tetraodon palembangensis)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Humpback Dragon AKA Band Puffer (Tetraodon palembangensis)"
     },
     {
       "listingId": "monster-aquarium:7381633401041",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Humpback Dragon puffer (Tetraodon palembangensis)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Humpback Dragon puffer (Tetraodon palembangensis)"
+    },
+    {
+      "listingId": "aqua-imports:38460",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Humpback / Dragon Puffer (Pao palembangensis)"
     }
   ],
   "events": [
@@ -159,6 +163,78 @@
       ],
       "listingId": "monster-aquarium:7381633401041",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31281338187862",
+          "label": "1 Medium Fish",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "31281338220630",
+          "label": "2 Medium Fish",
+          "price": 84.99,
+          "available": false
+        },
+        {
+          "id": "31281338253398",
+          "label": "3 Medium Fish",
+          "price": 124.99,
+          "available": false
+        },
+        {
+          "id": "33225554821206",
+          "label": "1 Jumbo Fish",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4375635034198",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 64.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42022277120209",
+          "label": "3-4”",
+          "price": 64.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7381633401041",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38460",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38460",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

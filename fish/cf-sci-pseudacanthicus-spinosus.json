@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:pseudacanthicus-spinosus",
-  "commonName": "L096 / L160 Spiny Monster Pleco (Pseudacanthicus spinosus)",
+  "commonName": "L160 Spiny Monster Pleco (Pseudacanthicus spinosus)",
   "scientificName": "Pseudacanthicus spinosus",
   "listings": [
     {
       "listingId": "monster-aquarium:7548873179345",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "L096 / L160 Spiny Monster Pleco (Pseudacanthicus spinosus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "L096 / L160 Spiny Monster Pleco (Pseudacanthicus spinosus)"
+    },
+    {
+      "listingId": "aqua-imports:37586",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "L160 Spiny Monster Pleco (Pseudacanthicus spinosus)"
     }
   ],
   "events": [
@@ -51,6 +56,43 @@
       ],
       "listingId": "monster-aquarium:7548873179345",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 58.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42444923764945",
+          "label": "1.5-2”",
+          "price": 58.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7548873179345",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "37586",
+          "label": "Default",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:37586",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

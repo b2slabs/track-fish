@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:hydrolycus-scomberoides",
-  "commonName": "Saber Tooth Tetra Payara",
+  "commonName": "Sabertooth Barracuda / Payara (Hydrolycus scomberoides)",
   "scientificName": "Hydrolycus scomberoides",
   "listings": [
     {
       "listingId": "monster-aquarium:6967215161553",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Vampire Tetra ( Hydrolycus scomberoides )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Vampire Tetra ( Hydrolycus scomberoides )"
     },
     {
       "listingId": "aquarium-fish:6656480134",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Saber Tooth Tetra Payara",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Saber Tooth Tetra Payara"
+    },
+    {
+      "listingId": "aqua-imports:38834",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Sabertooth Barracuda / Payara (Hydrolycus scomberoides)"
     }
   ],
   "events": [
@@ -64,6 +68,66 @@
       ],
       "listingId": "aquarium-fish:6656480134",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 45,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40848410968273",
+          "label": "3.5-4”",
+          "price": 45,
+          "available": false
+        },
+        {
+          "id": "41395910836433",
+          "label": "6-7\"",
+          "price": 109.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6967215161553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 75.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32267400675409",
+          "label": "Small",
+          "price": 75.79,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6656480134",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38834",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38834",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

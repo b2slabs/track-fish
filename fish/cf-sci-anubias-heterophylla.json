@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:anubias-heterophylla",
-  "commonName": "Anubias Lanceolata",
+  "commonName": "Anubias Lanceolata (Anubias heterophylla ‘Lanceolata’)",
   "scientificName": "Anubias heterophylla",
   "listings": [
     {
       "listingId": "aquatic-arts:4383440732246+4756820918358",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Anubias Lanceolata",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Anubias Lanceolata"
     },
     {
       "listingId": "buce-plant:1380088283217+3192627134545+7720155807944+8844061261",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Anubias Lanceolata",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Anubias Lanceolata"
+    },
+    {
+      "listingId": "aqua-imports:59917",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Anubias Lanceolata (Anubias heterophylla ‘Lanceolata’)"
     }
   ],
   "events": [
@@ -282,6 +286,108 @@
       ],
       "listingId": "buce-plant:1380088283217+3192627134545+7720155807944+8844061261",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31322532184150",
+          "label": "1 Plant",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "31322532216918",
+          "label": "2 Plants",
+          "price": 22.99,
+          "available": true
+        },
+        {
+          "id": "31322532249686",
+          "label": "3 Plants",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "id": "32772195909718",
+          "label": "Anubias Congensis (Anubias heterophylla), bare root",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4383440732246+4756820918358",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43246083080392",
+          "label": "Anubias Heterophylla Supernova",
+          "price": 26.99,
+          "available": true
+        },
+        {
+          "id": "23885124763729",
+          "label": "Anubias Heterophylla UNS Tissue Culture",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "12596206174289",
+          "label": "Mother Pot",
+          "price": 23.99,
+          "available": false
+        },
+        {
+          "id": "30381399373",
+          "label": "Pot",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "12409856196689",
+          "label": "3 Pot Package",
+          "price": 23.99,
+          "available": false
+        },
+        {
+          "id": "12409859407953",
+          "label": "5 Pot Package",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:1380088283217+3192627134545+7720155807944+8844061261",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "59917",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:59917",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

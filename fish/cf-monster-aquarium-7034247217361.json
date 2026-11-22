@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:monster-aquarium:7034247217361",
-  "commonName": "Teugelsi Distichodus",
+  "commonName": "Distichodus teugelsi",
   "scientificName": null,
   "listings": [
     {
       "listingId": "monster-aquarium:7034247217361",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Teugelsi Distichodus",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Teugelsi Distichodus"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:684878",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Distichodus teugelsi"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "monster-aquarium:7034247217361",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 18,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41044600389841",
+          "label": "2\"",
+          "price": 18,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7034247217361",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "684878",
+          "label": "Default",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:684878",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

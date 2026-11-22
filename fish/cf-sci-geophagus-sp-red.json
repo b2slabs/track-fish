@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:geophagus-sp:red",
-  "commonName": "Red Head Tapajos Cichlid",
+  "commonName": "Wild Red Head Tapajos Eartheater (Geophagus sp. ‘Red Head Tapajos’)",
   "scientificName": "Geophagus sp.",
   "listings": [
     {
       "listingId": "aquarium-fish:5926940102",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Red Head Tapajos Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Red Head Tapajos Cichlid"
     },
     {
       "listingId": "aquahuna:4388855971915+6826794221643+7678610767947",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Red Head Tapajo - 1.5\"",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Red Head Tapajo - 1.5\""
+    },
+    {
+      "listingId": "aqua-imports:103882",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Wild Red Head Tapajos Eartheater (Geophagus sp. ‘Red Head Tapajos’)"
     }
   ],
   "events": [
@@ -213,6 +217,72 @@
       ],
       "listingId": "aquahuna:4388855971915+6826794221643+7678610767947",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 14.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42350019412043",
+          "label": "Red Head Tapajo - 2.0\"",
+          "price": 17.5,
+          "available": false
+        },
+        {
+          "id": "39998998970443",
+          "label": "Red Head Tapajo - 2.5\"",
+          "price": 22,
+          "available": false
+        },
+        {
+          "id": "31442116182091",
+          "label": "Red Head Tapajo - 1.5\"",
+          "price": 14.5,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4388855971915+6826794221643+7678610767947",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "18734039430",
+          "label": "Title",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:5926940102",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "103882",
+          "label": "Default",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:103882",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

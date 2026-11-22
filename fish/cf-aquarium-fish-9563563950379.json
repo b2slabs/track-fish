@@ -7,22 +7,19 @@
       "listingId": "aquarium-fish:9563563950379",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Mini Aquarium Heater",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Mini Aquarium Heater"
     },
     {
       "listingId": "buce-plant:7496136458440",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Micro Aquarium Heater",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Micro Aquarium Heater"
     },
     {
       "listingId": "glass-aqua:6843959574614",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Micro Aquarium Heater",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Micro Aquarium Heater"
     }
   ],
   "events": [
@@ -95,6 +92,69 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:6843959574614",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50485057093931",
+          "label": "10 watt (HG031-10W)",
+          "price": 16.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9563563950379",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42504177025224",
+          "label": "10W",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "42504177057992",
+          "label": "20W",
+          "price": 21.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7496136458440",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40159870746710",
+          "label": "10W",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "40159870779478",
+          "label": "20W",
+          "price": 21.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:6843959574614",
       "storeSlug": "glass-aqua"
     }

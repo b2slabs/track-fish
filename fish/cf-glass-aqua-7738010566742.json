@@ -7,15 +7,13 @@
       "listingId": "glass-aqua:7738010566742",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Bucephalandra Brownie Jade",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Bucephalandra Brownie Jade"
     },
     {
       "listingId": "buce-plant:412532080680",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Bucephalandra Brownie Jade Pot",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Bucephalandra Brownie Jade Pot"
     }
   ],
   "events": [
@@ -64,6 +62,46 @@
       ],
       "listingId": "buce-plant:412532080680",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "3625583738920",
+          "label": "Title",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:412532080680",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44616327331926",
+          "label": "Potted",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "44616327364694",
+          "label": "Loose (Bare Root - Small)",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:7738010566742",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

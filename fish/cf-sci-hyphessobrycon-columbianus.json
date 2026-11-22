@@ -7,15 +7,13 @@
       "listingId": "ck-fish-world:8149571567831",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Colombian Tetra",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Colombian Tetra"
     },
     {
       "listingId": "nu-aqua-shop:10006315041084",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Colombian Tetra",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Colombian Tetra"
     }
   ],
   "events": [
@@ -100,6 +98,52 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:10006315041084",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 16.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336051089623",
+          "label": "3",
+          "price": 16.98,
+          "available": true
+        },
+        {
+          "id": "45336051122391",
+          "label": "5",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45336051155159",
+          "label": "10",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8149571567831",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627486839100",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006315041084",
       "storeSlug": "nu-aqua-shop"
     }

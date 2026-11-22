@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:rhinogobius-candidianus",
-  "commonName": "Candidus Goby",
+  "commonName": "Candidus Goby (Rhinogobius candidianus)",
   "scientificName": "Rhinogobius candidianus",
   "listings": [
     {
       "listingId": "aquahuna:7685056692299",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Candidus Goby",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Candidus Goby"
+    },
+    {
+      "listingId": "aqua-imports:133135",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Candidus Goby (Rhinogobius candidianus)"
     }
   ],
   "events": [
@@ -93,6 +98,43 @@
       ],
       "listingId": "aquahuna:7685056692299",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 20,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42374008078411",
+          "label": "Title",
+          "price": 20,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7685056692299",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "133135",
+          "label": "Default",
+          "price": 22.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:133135",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

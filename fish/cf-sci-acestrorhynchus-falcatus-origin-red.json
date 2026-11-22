@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:acestrorhynchus-falcatus-origin:red",
-  "commonName": "Red tail Barracuda",
+  "commonName": "Red Tail Barracuda (Acestrorhynchus falcatus)",
   "scientificName": "Acestrorhynchus falcatus",
   "listings": [
     {
       "listingId": "monster-aquarium:6967214440657",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Red Tail Barracuda (Acestrorhynchus falcatus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Red Tail Barracuda (Acestrorhynchus falcatus)"
     },
     {
       "listingId": "aquarium-fish:6656421254",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Red tail Barracuda",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Red tail Barracuda"
+    },
+    {
+      "listingId": "aqua-imports:40211",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red Tail Barracuda (Acestrorhynchus falcatus)"
     }
   ],
   "events": [
@@ -70,6 +74,72 @@
       ],
       "listingId": "aquarium-fish:6656421254",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 27.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41436563210449",
+          "label": "2-3\"",
+          "price": 27.99,
+          "available": false
+        },
+        {
+          "id": "40848409919697",
+          "label": "4-5”",
+          "price": 65,
+          "available": false
+        },
+        {
+          "id": "41387985371345",
+          "label": "6-7”",
+          "price": 80,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6967214440657",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21038275782",
+          "label": "Title",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6656421254",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40211",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:40211",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

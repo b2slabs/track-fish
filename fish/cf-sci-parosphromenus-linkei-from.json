@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:parosphromenus-linkei-from",
-  "commonName": "Moonspot Licorice Gourami",
+  "commonName": "Moonspot Licorice Gourami (Parosphromenus linkei)",
   "scientificName": "Parosphromenus linkei from",
   "listings": [
     {
       "listingId": "aquahuna:7222646276171",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Moonspot Licorice Gourami",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Moonspot Licorice Gourami"
     },
     {
       "listingId": "nu-aqua-shop:10006358589756",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Moonspot Licorice Gourami",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Moonspot Licorice Gourami"
+    },
+    {
+      "listingId": "aqua-imports:46602",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Moonspot Licorice Gourami (Parosphromenus linkei)"
     }
   ],
   "events": [
@@ -78,6 +82,60 @@
       ],
       "listingId": "nu-aqua-shop:10006358589756",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 6,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41043386925131",
+          "label": "Title",
+          "price": 6,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7222646276171",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627668177212",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006358589756",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46602",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:46602",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

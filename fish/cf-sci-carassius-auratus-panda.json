@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:carassius-auratus:panda",
-  "commonName": "Panda Oranda Goldfish",
+  "commonName": "Panda Oranda Goldfish (Carassius auratus)",
   "scientificName": "Carassius auratus",
   "listings": [
     {
       "listingId": "aquarium-fish:1403918614598+1426636341318",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Panda Oranda Goldfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Panda Oranda Goldfish"
+    },
+    {
+      "listingId": "aqua-imports:153730",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Panda Oranda Goldfish (Carassius auratus)"
     }
   ],
   "events": [
@@ -128,6 +133,61 @@
       ],
       "listingId": "aquarium-fish:1403918614598+1426636341318",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 21.24,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12652689293382",
+          "label": "Medium (2\")",
+          "price": 21.24,
+          "available": true
+        },
+        {
+          "id": "12652689358918",
+          "label": "Large (3\")",
+          "price": 28.04,
+          "available": false
+        },
+        {
+          "id": "12545642496070",
+          "label": "Medium (2\")",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "12545642528838",
+          "label": "Large (4\")",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1403918614598+1426636341318",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 149.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "153730",
+          "label": "Default",
+          "price": 149.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:153730",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -7,22 +7,25 @@
       "listingId": "ck-fish-world:8166137757911",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Hikari Mini Algae Wafers",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Hikari Mini Algae Wafers"
     },
     {
       "listingId": "glass-aqua:11353746631",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Hikari Mini Algae Wafers",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Hikari Mini Algae Wafers"
     },
     {
       "listingId": "nu-aqua-shop:10006316974396",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Hikari Mini Algae Wafers",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Hikari Mini Algae Wafers"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:617018",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Hikari Mini Algae Wafers"
     }
   ],
   "events": [
@@ -97,6 +100,89 @@
       ],
       "listingId": "nu-aqua-shop:10006316974396",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 4.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44146631344343",
+          "label": "0.77 oz",
+          "price": 4.98,
+          "available": true
+        },
+        {
+          "id": "44146631377111",
+          "label": "3.0 oz",
+          "price": 9.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8166137757911",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53287212295",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11353746631",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51718475022652",
+          "label": "0.77oz",
+          "price": 3.99,
+          "available": false
+        },
+        {
+          "id": "51718475055420",
+          "label": "3.0oz",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006316974396",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "617018",
+          "label": "Default",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:617018",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

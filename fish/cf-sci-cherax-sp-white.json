@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:cherax-sp:white",
-  "commonName": "White Crayfish",
+  "commonName": "White Crayfish (Procambarus alleni)",
   "scientificName": "Cherax sp.",
   "listings": [
     {
       "listingId": "ck-fish-world:8951534354647",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "White Crayfish",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "White Crayfish"
+    },
+    {
+      "listingId": "aqua-imports:63024",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "White Crayfish (Procambarus alleni)"
     }
   ],
   "events": [
@@ -51,6 +56,43 @@
       ],
       "listingId": "ck-fish-world:8951534354647",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 14.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46455261462743",
+          "label": "Title",
+          "price": 14.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8951534354647",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "63024",
+          "label": "Default",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:63024",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

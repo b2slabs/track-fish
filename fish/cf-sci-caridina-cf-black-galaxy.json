@@ -7,15 +7,13 @@
       "listingId": "monster-aquarium:7693850902737",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Black Galaxy Shrimp (Caridina cf. cantonensis)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Black Galaxy Shrimp (Caridina cf. cantonensis)"
     },
     {
       "listingId": "aquarium-fish:8042409492779",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Black Galaxy Shrimp Grade A-S",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Black Galaxy Shrimp Grade A-S"
     }
   ],
   "events": [
@@ -97,6 +95,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "aquarium-fish:8042409492779",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42946197061841",
+          "label": ".5\"",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7693850902737",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 31.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44178261803307",
+          "label": "Title",
+          "price": 31.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "aquarium-fish:8042409492779",
       "storeSlug": "aquarium-fish"
     }

@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:celestichthys-choprae",
-  "commonName": "Glowlight Danio",
+  "commonName": "Glowlight Danio (Celestichthys choprae)",
   "scientificName": "Celestichthys choprae",
   "listings": [
     {
       "listingId": "flip-aquatics:6581361442918",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Glowlight Danio | Celestichthys Choprae",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Glowlight Danio | Celestichthys Choprae"
     },
     {
       "listingId": "imperial-tropicals:8398118945075",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Glowlight Danio",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Glowlight Danio"
     },
     {
       "listingId": "aquatic-arts:4421902532694",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Glowlight Danio (Celestichthys choprae), Tank-Bred!",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Glowlight Danio (Celestichthys choprae), Tank-Bred!"
+    },
+    {
+      "listingId": "aqua-imports:39005",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Glowlight Danio (Celestichthys choprae)"
     }
   ],
   "events": [
@@ -103,6 +106,95 @@
       ],
       "listingId": "imperial-tropicals:8398118945075",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31471691006038",
+          "label": "School of 3",
+          "price": 18.99,
+          "available": true
+        },
+        {
+          "id": "31471691071574",
+          "label": "School of 6",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "id": "31471691169878",
+          "label": "School of 9",
+          "price": 45.99,
+          "available": true
+        },
+        {
+          "id": "31471691235414",
+          "label": "School of 12",
+          "price": 58.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4421902532694",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39334883393638",
+          "label": "Imported / 1 Fish",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6581361442918",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612145639731",
+          "label": "(2 Pack) 0.75\" Unsexed",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398118945075",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39005",
+          "label": "Default",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:39005",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

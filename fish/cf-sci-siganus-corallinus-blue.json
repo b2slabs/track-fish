@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:siganus-corallinus:blue",
-  "commonName": "Blue Spotted Rabbitfish",
+  "commonName": "Blue Spotted Rabbitfish (Siganus corallinus)",
   "scientificName": "Siganus corallinus",
   "listings": [
     {
       "listingId": "aquarium-fish:9258823948",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Blue Spotted Rabbitfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Blue Spotted Rabbitfish"
+    },
+    {
+      "listingId": "aqua-imports:136133",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Blue Spotted Rabbitfish (Siganus corallinus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:9258823948",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 275.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32066389964",
+          "label": "Medium (2-3\")",
+          "price": 275.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9258823948",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "136133",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:136133",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

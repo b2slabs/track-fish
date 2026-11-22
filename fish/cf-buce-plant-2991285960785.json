@@ -7,15 +7,13 @@
       "listingId": "buce-plant:2991285960785",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Echinodorus Chocolate Marble",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Echinodorus Chocolate Marble"
     },
     {
       "listingId": "glass-aqua:3571147767894",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Echinodorus Chocolate Marble",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Echinodorus Chocolate Marble"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:3571147767894",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "23072324681809",
+          "label": "Title",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:2991285960785",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "28243966951510",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:3571147767894",
       "storeSlug": "glass-aqua"
     }

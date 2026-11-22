@@ -7,15 +7,13 @@
       "listingId": "aquarium-fish:11376551436",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Goonch Catfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Goonch Catfish"
     },
     {
       "listingId": "monster-aquarium:7339799970001+7486913642705",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Goonch Catfish (Bagarius Rutilus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Goonch Catfish (Bagarius Rutilus)"
     }
   ],
   "events": [
@@ -674,6 +672,76 @@
       ],
       "listingId": "monster-aquarium:7339799970001+7486913642705",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 188.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42282943283409",
+          "label": "2-3”",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "42430688854225",
+          "label": "7-8”",
+          "price": 188,
+          "available": false
+        },
+        {
+          "id": "42262666379473",
+          "label": "3-4”",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "41890806989009",
+          "label": "5-6”",
+          "price": 100,
+          "available": false
+        },
+        {
+          "id": "41890807021777",
+          "label": "7-8”",
+          "price": 188.99,
+          "available": true
+        },
+        {
+          "id": "41890807054545",
+          "label": "9-10”",
+          "price": 239.99,
+          "available": false
+        },
+        {
+          "id": "42144742211793",
+          "label": "12-13”",
+          "price": 299.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7339799970001+7486913642705",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 199.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43013630604",
+          "label": "Title",
+          "price": 199.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:11376551436",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

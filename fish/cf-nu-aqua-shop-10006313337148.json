@@ -1,49 +1,49 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10006313337148",
-  "commonName": "Anubias Nana ‘Petite’",
+  "commonName": "Anubias nana ‘Petite’",
   "scientificName": "Anubias nana petite",
   "listings": [
     {
       "listingId": "nu-aqua-shop:10006313337148",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Anubias Nana ‘Petite’",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Anubias Nana ‘Petite’"
     },
     {
       "listingId": "shrimpy-business:4791597006933",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Anubias Nana Petite",
-      "lastCheckedAt": "2026-11-22T06:57:34.146Z"
+      "commonName": "Anubias Nana Petite"
     },
     {
       "listingId": "flip-aquatics:11309592068",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Anubias Nana \"Petite\"",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Anubias Nana \"Petite\""
     },
     {
       "listingId": "aquarium-fish:9945189876011",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Anubias Nana Petite",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Anubias Nana Petite"
     },
     {
       "listingId": "daku-aquatics:8741026070746",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
-      "commonName": "Anubias Nana Petite",
-      "lastCheckedAt": "2026-11-22T06:58:04.282Z"
+      "commonName": "Anubias Nana Petite"
     },
     {
       "listingId": "glass-aqua:11279073223",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Anubias Nana Petite",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Anubias Nana Petite"
+    },
+    {
+      "listingId": "aqua-imports:59992",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Anubias nana ‘Petite’"
     }
   ],
   "events": [
@@ -327,6 +327,128 @@
       ],
       "listingId": "glass-aqua:11279073223",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 14.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32826246692949",
+          "label": "Title",
+          "price": 14.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:4791597006933",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090481655910",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:11309592068",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50428009218347",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:25.196Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043823243482",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741026070746",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52750737927",
+          "label": "Title",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:11279073223",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627484545340",
+          "label": "Title",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006313337148",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "59992",
+          "label": "Default",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:59992",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

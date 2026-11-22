@@ -7,15 +7,19 @@
       "listingId": "ck-fish-world:8168891187415",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Seachem Flourish Iron",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Seachem Flourish Iron"
     },
     {
       "listingId": "nu-aqua-shop:15496136786236",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Seachem Flourish Iron",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Seachem Flourish Iron"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:607908",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Seachem Flourish Iron"
     }
   ],
   "events": [
@@ -96,6 +100,72 @@
       ],
       "listingId": "nu-aqua-shop:15496136786236",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 9.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44152666980567",
+          "label": "8.5 oz",
+          "price": 9.98,
+          "available": true
+        },
+        {
+          "id": "44152667013335",
+          "label": "16.9 oz",
+          "price": 14.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8168891187415",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 4.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "68191335088444",
+          "label": "50ml",
+          "price": 4.49,
+          "available": true
+        },
+        {
+          "id": "68191335121212",
+          "label": "250ml",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:15496136786236",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "607908",
+          "label": "Default",
+          "price": 5.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:607908",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

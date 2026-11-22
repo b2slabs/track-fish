@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:arothron-hispidus",
-  "commonName": "Stars and Stripes Puffer",
+  "commonName": "Brackish Stars and Stripes Puffer (Arothron hispidus)",
   "scientificName": "Arothron hispidus",
   "listings": [
     {
       "listingId": "aquarium-fish:4485315002449",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Stars and Stripes Puffer",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Stars and Stripes Puffer"
+    },
+    {
+      "listingId": "aqua-imports:64538",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Brackish Stars and Stripes Puffer (Arothron hispidus)"
     }
   ],
   "events": [
@@ -43,6 +48,55 @@
       ],
       "listingId": "aquarium-fish:4485315002449",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 72.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40202988650577",
+          "label": "Small",
+          "price": 72.29,
+          "available": false
+        },
+        {
+          "id": "40202988683345",
+          "label": "Medium",
+          "price": 140.79,
+          "available": false
+        },
+        {
+          "id": "40202988716113",
+          "label": "Large",
+          "price": 246.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4485315002449",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "64538",
+          "label": "Default",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:64538",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

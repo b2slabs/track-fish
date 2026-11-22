@@ -7,36 +7,31 @@
       "listingId": "flip-aquatics:7721869574246",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Adolfoi Cory | Corydoras adolfoi",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Adolfoi Cory | Corydoras adolfoi"
     },
     {
       "listingId": "aquahuna:6788247355467",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Adolfo's Cory",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Adolfo's Cory"
     },
     {
       "listingId": "ck-fish-world:8251136999639",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Adolfo’s Cory",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Adolfo’s Cory"
     },
     {
       "listingId": "aquarium-fish:779110023287",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Cory Adolfoi",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Cory Adolfoi"
     },
     {
       "listingId": "nu-aqua-shop:10006353903932",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Adolfoi Cory",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Adolfoi Cory"
     },
     {
       "listingId": "dans-fish:10127115452714",
@@ -44,6 +39,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Corydoras adolfoi",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:682486",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Corydoras adolfoi"
     }
   ],
   "events": [
@@ -210,6 +211,123 @@
       ],
       "listingId": "dans-fish:10127115452714",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 11,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39901729030219",
+          "label": "Title",
+          "price": 11,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6788247355467",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 16.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336029167831",
+          "label": "1",
+          "price": 16.98,
+          "available": true
+        },
+        {
+          "id": "45336029200599",
+          "label": "3",
+          "price": 47.98,
+          "available": true
+        },
+        {
+          "id": "45336029233367",
+          "label": "5",
+          "price": 74.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8251136999639",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43064972640358",
+          "label": "Imported / 1 Fish",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:7721869574246",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "8669783654519",
+          "label": "Title",
+          "price": 28.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:779110023287",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627658346812",
+          "label": "Title",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006353903932",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "682486",
+          "label": "Default",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:682486",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

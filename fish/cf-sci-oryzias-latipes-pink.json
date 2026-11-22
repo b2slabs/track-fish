@@ -7,22 +7,19 @@
       "listingId": "aquarium-fish:4182317695057",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Pink Medaka Ricefish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Pink Medaka Ricefish"
     },
     {
       "listingId": "buce-plant:7171610247368",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Oryzias Sp Pink Medaka Rice Fish",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Oryzias Sp Pink Medaka Rice Fish"
     },
     {
       "listingId": "monster-aquarium:7464582578385",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Medaka Pink rice fish (Oryzias Latipes)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Medaka Pink rice fish (Oryzias Latipes)"
     }
   ],
   "events": [
@@ -109,6 +106,63 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "buce-plant:7171610247368",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 6,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42221122814161",
+          "label": ".5\"",
+          "price": 6,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7464582578385",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "30299285028945",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4182317695057",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41317996331208",
+          "label": "6 Pack",
+          "price": 23.99,
+          "available": false
+        },
+        {
+          "id": "41317996363976",
+          "label": "12 Pack",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "buce-plant:7171610247368",
       "storeSlug": "buce-plant"
     }

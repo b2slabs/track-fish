@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:daku-aquatics:8741025906906",
-  "commonName": "Pogostemon Stellatus 'Octopus'",
+  "commonName": "Pogostemon stellatus ‘Octopus’",
   "scientificName": null,
   "listings": [
     {
       "listingId": "daku-aquatics:8741025906906",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
-      "commonName": "Pogostemon Stellatus Octopus",
-      "lastCheckedAt": "2026-11-22T06:58:04.282Z"
+      "commonName": "Pogostemon Stellatus Octopus"
     },
     {
       "listingId": "glass-aqua:4315112800342",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Pogostemon Stellatus 'Octopus'",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Pogostemon Stellatus 'Octopus'"
+    },
+    {
+      "listingId": "aqua-imports:60112",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Pogostemon stellatus ‘Octopus’"
     }
   ],
   "events": [
@@ -79,6 +83,60 @@
       ],
       "listingId": "daku-aquatics:8741025906906",
       "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:25.196Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043823046874",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741025906906",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31030378004566",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:4315112800342",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "60112",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60112",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

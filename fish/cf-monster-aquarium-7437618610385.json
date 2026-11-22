@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:monster-aquarium:7437618610385",
-  "commonName": "Fogo Peacock Bass",
-  "scientificName": null,
+  "commonName": "Fogo Peacock Bass (Cichla marinae)",
+  "scientificName": "Cichla marinae",
   "listings": [
     {
       "listingId": "monster-aquarium:7437618610385",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Fogo peacock bass ( Cichla Marinae )",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Fogo peacock bass ( Cichla Marinae )"
     },
     {
       "listingId": "global-exoticquatics:8241434689728",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Fogo Peacock Bass",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "Fogo Peacock Bass"
+    },
+    {
+      "listingId": "aqua-imports:165845",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Fogo Peacock Bass (Cichla marinae)"
     }
   ],
   "events": [
@@ -347,6 +351,66 @@
       ],
       "listingId": "global-exoticquatics:8241434689728",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 150,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42386009620689",
+          "label": "6-7”",
+          "price": 150,
+          "available": true
+        },
+        {
+          "id": "43166787305681",
+          "label": "8.5-9.5”",
+          "price": 228,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7437618610385",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 120,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46386916196544",
+          "label": "5-6in",
+          "price": 120,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8241434689728",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "165845",
+          "label": "Default",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:165845",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

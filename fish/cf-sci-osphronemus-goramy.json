@@ -7,15 +7,13 @@
       "listingId": "aquarium-fish:776994717815",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Giant Gourami",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Giant Gourami"
     },
     {
       "listingId": "monster-aquarium:6975144493265",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Giant Gourami (Osphronemus goramy)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Giant Gourami (Osphronemus goramy)"
     }
   ],
   "events": [
@@ -62,6 +60,46 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "aquarium-fish:776994717815",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 28,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40867482763473",
+          "label": "6-7\"",
+          "price": 60,
+          "available": false
+        },
+        {
+          "id": "41034958110929",
+          "label": "3-4\"",
+          "price": 28,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6975144493265",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "8657938448503",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "aquarium-fish:776994717815",
       "storeSlug": "aquarium-fish"
     }

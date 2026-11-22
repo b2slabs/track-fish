@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:centropyge-argi",
-  "commonName": "Pygmy Angelfish",
+  "commonName": "Pygmy Cherub Angel (Centropyge argi)",
   "scientificName": "Centropyge argi",
   "listings": [
     {
       "listingId": "aquarium-fish:71569014809",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Pygmy Angelfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Pygmy Angelfish"
+    },
+    {
+      "listingId": "aqua-imports:141186",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Pygmy Cherub Angel (Centropyge argi)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:71569014809",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 58.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "21910992289873",
+          "label": "Title",
+          "price": 58.79,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:71569014809",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "141186",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:141186",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

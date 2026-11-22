@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:panaqolus-albomaculatus-common:mustard",
-  "commonName": "LDA031 Mustard Spot Pleco",
+  "commonName": "LDA031 Mustard Spot Pleco (Panaqolus albomaculatus)",
   "scientificName": "Panaqulos albomaculatus",
   "listings": [
     {
       "listingId": "aquarium-fish:2477096697937",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "LDA-31 Mustard Spotted Pleco",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "LDA-31 Mustard Spotted Pleco"
     },
     {
       "listingId": "imperial-tropicals:8398112129331",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "LDA031 Mustard Spot Pleco",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "LDA031 Mustard Spot Pleco"
+    },
+    {
+      "listingId": "aqua-imports:44758",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "LDA031 Mustard Spot Pleco (Panaqolus albomaculatus)"
     }
   ],
   "events": [
@@ -58,6 +62,60 @@
       ],
       "listingId": "imperial-tropicals:8398112129331",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21904474210385",
+          "label": "Title",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:2477096697937",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612133122355",
+          "label": "3-4\" Unsexed",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398112129331",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44758",
+          "label": "Default",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:44758",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

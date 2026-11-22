@@ -7,8 +7,13 @@
       "listingId": "monster-aquarium:7266079998161",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Freshwater Frogfish (Antennarius biocellatus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Freshwater Frogfish (Antennarius biocellatus)"
+    },
+    {
+      "listingId": "aqua-imports:64320",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Freshwater Frogfish (Antennarius biocellatus)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "monster-aquarium:7266079998161",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 154.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41601348305105",
+          "label": "3”",
+          "price": 154.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7266079998161",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 329.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "64320",
+          "label": "Default",
+          "price": 329.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:64320",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

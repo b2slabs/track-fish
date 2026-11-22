@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:glossolepis-incisus:red",
-  "commonName": "Red Rainbowfish",
+  "commonName": "New Guinea Red Rainbow (Glossolepis incisus)",
   "scientificName": "Glossolepis incisus",
   "listings": [
     {
       "listingId": "monster-aquarium:7220229701841",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Red Rainbow ( Glossolepis incisus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Red Rainbow ( Glossolepis incisus)"
     },
     {
       "listingId": "aquahuna:1780789313579",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Red Rainbow Fish",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Red Rainbow Fish"
     },
     {
       "listingId": "aquarium-fish:6007383430",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Red Rainbowfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Red Rainbowfish"
+    },
+    {
+      "listingId": "aqua-imports:38735",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "New Guinea Red Rainbow (Glossolepis incisus)"
     }
   ],
   "events": [
@@ -91,6 +94,83 @@
       ],
       "listingId": "aquarium-fish:6007383430",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 18,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41496780538065",
+          "label": "2.5”",
+          "price": 18,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7220229701841",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "16074367172651",
+          "label": "Title",
+          "price": 10,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1780789313579",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 14.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32538714243153",
+          "label": "Medium",
+          "price": 14.79,
+          "available": true
+        },
+        {
+          "id": "32538714275921",
+          "label": "Large",
+          "price": 23.49,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6007383430",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38735",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38735",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:tahuantinsuyoa-macantzatza",
-  "commonName": "Inka Stone Fish",
+  "commonName": "Inca Stone Fish (Tahuantinsuyoa Macantzatza)",
   "scientificName": "Tahuantinsuyoa macantzatza",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398112653619",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Inka Stone Fish",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Inka Stone Fish"
+    },
+    {
+      "listingId": "aqua-imports:40153",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Inca Stone Fish (Tahuantinsuyoa Macantzatza)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "imperial-tropicals:8398112653619",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612133646643",
+          "label": "1” Unsexed",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398112653619",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40153",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:40153",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:pterygoplichthys-scrophus-common",
-  "commonName": "Rhino Pleco",
+  "commonName": "Rhino Pleco (Pterygoplichthys scrophus)",
   "scientificName": "Pterygoplichthys scrophus common",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398002422067",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Rhino Pleco",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Rhino Pleco"
     },
     {
       "listingId": "aquarium-fish:6655604102",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Rhino Pleco",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Rhino Pleco"
+    },
+    {
+      "listingId": "aqua-imports:63179",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Rhino Pleco (Pterygoplichthys scrophus)"
     }
   ],
   "events": [
@@ -76,6 +80,78 @@
       ],
       "listingId": "imperial-tropicals:8398002422067",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21036968582",
+          "label": "Title",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6655604102",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611792335155",
+          "label": "4-5” Unsexed",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "45611792367923",
+          "label": "5-6” Unsexed",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "45611792400691",
+          "label": "8-9” Unsexed",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "45611792433459",
+          "label": "10-11\" Unsexed",
+          "price": 119.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398002422067",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "63179",
+          "label": "Default",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:63179",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

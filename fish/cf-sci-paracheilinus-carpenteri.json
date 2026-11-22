@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:paracheilinus-carpenteri",
-  "commonName": "Carpenter's Flasher Wrasse",
+  "commonName": "Carpenter’s Flasher Wrasse (Paracheilinus carpenteri)",
   "scientificName": "Paracheilinus carpenteri",
   "listings": [
     {
       "listingId": "aquarium-fish:10046932484395",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Carpenter's Flasher Wrasse",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Carpenter's Flasher Wrasse"
+    },
+    {
+      "listingId": "aqua-imports:113006",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Carpenter’s Flasher Wrasse (Paracheilinus carpenteri)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:10046932484395",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 50.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51126231040299",
+          "label": "Medium (2.5-3\")",
+          "price": 50.79,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10046932484395",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "113006",
+          "label": "Default",
+          "price": 44.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:113006",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

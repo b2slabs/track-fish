@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:platydoras-armatulus",
-  "commonName": "Raphael Catfish Striped",
+  "commonName": "Striped Raphael Catfish (Platydoras armatulus)",
   "scientificName": "Platydoras armatulus",
   "listings": [
     {
       "listingId": "aquatic-arts:4741284069462",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Striped Raphael AKA Talking Catfish (Platydoras armatulus), Captive-Bred!",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Striped Raphael AKA Talking Catfish (Platydoras armatulus), Captive-Bred!"
     },
     {
       "listingId": "aquarium-fish:4533626011729",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Raphael Catfish Striped",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Raphael Catfish Striped"
+    },
+    {
+      "listingId": "aqua-imports:51876",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Striped Raphael Catfish (Platydoras armatulus)"
     }
   ],
   "events": [
@@ -70,6 +74,72 @@
       ],
       "listingId": "aquarium-fish:4533626011729",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32679812825174",
+          "label": "1 Fish",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "32679812857942",
+          "label": "Group of 3",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "32679812890710",
+          "label": "Group of 6",
+          "price": 46.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4741284069462",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 18.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31991242817617",
+          "label": "Title",
+          "price": 18.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4533626011729",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51876",
+          "label": "Default",
+          "price": 5.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:51876",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

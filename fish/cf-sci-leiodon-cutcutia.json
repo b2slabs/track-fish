@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:leiodon-cutcutia",
-  "commonName": "Ocellated Puffer",
+  "commonName": "Ocellated Puffer (Leiodon cutcutia)",
   "scientificName": "Leiodon cutcutia",
   "listings": [
     {
       "listingId": "aquarium-fish:1376590299206",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Ocellated Puffer",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Ocellated Puffer"
+    },
+    {
+      "listingId": "aqua-imports:190203",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Ocellated Puffer (Leiodon cutcutia)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:1376590299206",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 45.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12406819029062",
+          "label": "Medium",
+          "price": 45.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1376590299206",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "190203",
+          "label": "Default",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:190203",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

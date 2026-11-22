@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:monster-aquarium:7241462710481",
-  "commonName": "Longfin banded hill trout (opsariichthys evolans)",
-  "scientificName": null,
+  "commonName": "Longfin Banded Hill Trout (Opsariichthys evolans)",
+  "scientificName": "Opsariichthys evolans",
   "listings": [
     {
       "listingId": "monster-aquarium:7241462710481",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Longfin banded hill trout (opsariichthys evolans)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Longfin banded hill trout (opsariichthys evolans)"
+    },
+    {
+      "listingId": "aqua-imports:38146",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Longfin Banded Hill Trout (Opsariichthys evolans)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "monster-aquarium:7241462710481",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41537337458897",
+          "label": "3.5-4”",
+          "price": 16.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7241462710481",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38146",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38146",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

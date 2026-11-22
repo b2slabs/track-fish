@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:sorubim-lima-common",
-  "commonName": "Lima Shovelnose Catfish",
+  "commonName": "Lima Shovelnose Catfish (Sorubim lima)",
   "scientificName": "Sorubim lima common",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398125498675",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Lima Shovelnose Catfish",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Lima Shovelnose Catfish"
     },
     {
       "listingId": "aquarium-fish:781866500215",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Lima Shovelnose Catfish",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Lima Shovelnose Catfish"
+    },
+    {
+      "listingId": "aqua-imports:43096",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Lima Shovelnose Catfish (Sorubim lima)"
     }
   ],
   "events": [
@@ -64,6 +68,66 @@
       ],
       "listingId": "imperial-tropicals:8398125498675",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 33.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "8682651484279",
+          "label": "Medium",
+          "price": 48.59,
+          "available": false
+        },
+        {
+          "id": "22578426871889",
+          "label": "Small",
+          "price": 33.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:781866500215",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612162842931",
+          "label": "5-6” Unsexed",
+          "price": 26.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398125498675",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43096",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:43096",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

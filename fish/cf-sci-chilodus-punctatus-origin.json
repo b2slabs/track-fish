@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:chilodus-punctatus-origin",
-  "commonName": "Spotted Headstander",
+  "commonName": "Spotted Headstander (Chilodus gracilis)",
   "scientificName": "Chilodus punctatus origin",
   "listings": [
     {
       "listingId": "aquarium-fish:6656755654",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Spotted Headstander",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Spotted Headstander"
     },
     {
       "listingId": "aquahuna:6728438251595",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Spotted Headstander",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Spotted Headstander"
     },
     {
       "listingId": "imperial-tropicals:8398124712243",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Spotted Headstander",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Spotted Headstander"
+    },
+    {
+      "listingId": "aqua-imports:69116",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Spotted Headstander (Chilodus gracilis)"
     }
   ],
   "events": [
@@ -85,6 +88,77 @@
       ],
       "listingId": "imperial-tropicals:8398124712243",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 7,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39778417606731",
+          "label": "Title",
+          "price": 7,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6728438251595",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21038809670",
+          "label": "Title",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6656755654",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612161761587",
+          "label": "2-3\" Unsexed",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398124712243",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "69116",
+          "label": "Default",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:69116",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:nationwide-aquatics-usa:15482164347033",
-  "commonName": "Hyphessobrycon eilyos 5 pack",
+  "commonName": "Hyphessobrycon eilyos",
   "scientificName": null,
   "listings": [
     {
       "listingId": "nationwide-aquatics-usa:15482164347033",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Hyphessobrycon eilyos 5 pack",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "Hyphessobrycon eilyos 5 pack"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:684402",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Hyphessobrycon eilyos"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "nationwide-aquatics-usa:15482164347033",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 90,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67942888177817",
+          "label": "Title",
+          "price": 90,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:15482164347033",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "684402",
+          "label": "Default",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:684402",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

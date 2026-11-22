@@ -7,15 +7,13 @@
       "listingId": "ck-fish-world:8625820074199",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Fritz Clarifier",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Fritz Clarifier"
     },
     {
       "listingId": "glass-aqua:6615128342614",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Fritz Clarifier",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Fritz Clarifier"
     }
   ],
   "events": [
@@ -115,6 +113,46 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:6615128342614",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 11.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45398493397207",
+          "label": "8 oz",
+          "price": 7.98,
+          "available": false
+        },
+        {
+          "id": "45398493429975",
+          "label": "16 oz",
+          "price": 11.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8625820074199",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39501341589590",
+          "label": "Title",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:6615128342614",
       "storeSlug": "glass-aqua"
     }

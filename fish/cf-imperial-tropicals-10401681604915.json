@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:imperial-tropicals:10401681604915",
-  "commonName": "Bucephalandra sp. Velvet",
+  "commonName": "Bucephalandra ‘Velvet’",
   "scientificName": null,
   "listings": [
     {
       "listingId": "imperial-tropicals:10401681604915",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Bucephalandra sp. Velvet",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Bucephalandra sp. Velvet"
+    },
+    {
+      "listingId": "aqua-imports:121605",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Bucephalandra ‘Velvet’"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "imperial-tropicals:10401681604915",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53910300885299",
+          "label": "1 Plant",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:10401681604915",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "121605",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:121605",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:monster-aquarium:7056532504785",
-  "commonName": "CW028 Super Schwartzi Cory",
-  "scientificName": null,
+  "commonName": "CW028 Super Schwartzi Cory (Hoplisoma sp. ‘cw028’)",
+  "scientificName": "Hoplisoma sp.",
   "listings": [
     {
       "listingId": "monster-aquarium:7056532504785",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "CW028 Super Schwartzi Cory",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "CW028 Super Schwartzi Cory"
+    },
+    {
+      "listingId": "aqua-imports:64542",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "CW028 Super Schwartzi Cory (Hoplisoma sp. ‘cw028’)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "monster-aquarium:7056532504785",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 22,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41097779052753",
+          "label": "2-2.5”",
+          "price": 22,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7056532504785",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "64542",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:64542",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

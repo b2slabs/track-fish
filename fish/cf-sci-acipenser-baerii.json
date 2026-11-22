@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:acipenser-baerii",
-  "commonName": "Siberian Sturgeon",
+  "commonName": "Siberian Sturgeon (Acipenser baerii)",
   "scientificName": "Acipenser baerii",
   "listings": [
     {
       "listingId": "aquarium-fish:9836596887851",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Siberian Sturgeon",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Siberian Sturgeon"
+    },
+    {
+      "listingId": "aqua-imports:137446",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Siberian Sturgeon (Acipenser baerii)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "aquarium-fish:9836596887851",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 216.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50067129303339",
+          "label": "Title",
+          "price": 216.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9836596887851",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 249.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "137446",
+          "label": "Default",
+          "price": 249.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:137446",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

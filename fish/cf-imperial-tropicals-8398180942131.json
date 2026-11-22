@@ -7,15 +7,13 @@
       "listingId": "imperial-tropicals:8398180942131",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Nova Blue Longnose",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Nova Blue Longnose"
     },
     {
       "listingId": "global-exoticquatics:8552159183040",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Nova Blue Longnose",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "Nova Blue Longnose"
     }
   ],
   "events": [
@@ -62,6 +60,46 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "global-exoticquatics:8552159183040",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48867025584435",
+          "label": "4-5” Male",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "48867024699699",
+          "label": "5-6” Male",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398180942131",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 80,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48162619785408",
+          "label": "5-6in",
+          "price": 80,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "global-exoticquatics:8552159183040",
       "storeSlug": "global-exoticquatics"
     }

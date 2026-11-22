@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:pseudacanthicus-sp:red",
-  "commonName": "L273 Red Titanic Pleco",
+  "commonName": "L273 Red Titanic Pleco (Pseudacanthicus sp. L273)",
   "scientificName": "Pseudacanthicus sp.",
   "listings": [
     {
       "listingId": "monster-aquarium:6967206478033",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "L273 Red Titanic Pleco (Pseudacanthicus sp.)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "L273 Red Titanic Pleco (Pseudacanthicus sp.)"
     },
     {
       "listingId": "nationwide-aquatics-usa:8584442642585",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "L273 Red Titanic Pleco (Pseudacanthicus Sp)",
-      "lastCheckedAt": "2026-11-22T06:57:32.685Z"
+      "commonName": "L273 Red Titanic Pleco (Pseudacanthicus Sp)"
     },
     {
       "listingId": "global-exoticquatics:10232988270784",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "L273 Red Titanic Pleco",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "L273 Red Titanic Pleco"
+    },
+    {
+      "listingId": "aqua-imports:37598",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "L273 Red Titanic Pleco (Pseudacanthicus sp. L273)"
     }
   ],
   "events": [
@@ -103,6 +106,95 @@
       ],
       "listingId": "global-exoticquatics:10232988270784",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 450,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41074990743761",
+          "label": "3.3.5”",
+          "price": 199.99,
+          "available": false
+        },
+        {
+          "id": "41168513335505",
+          "label": "5-6\"",
+          "price": 335,
+          "available": false
+        },
+        {
+          "id": "41168513368273",
+          "label": "6-7\"",
+          "price": 450,
+          "available": true
+        },
+        {
+          "id": "40848379805905",
+          "label": "8-9”",
+          "price": 555,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6967206478033",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 275,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45931301011609",
+          "label": "Title",
+          "price": 275,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8584442642585",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 300,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50356101218496",
+          "label": "7-8in",
+          "price": 300,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:10232988270784",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 119.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "37598",
+          "label": "Default",
+          "price": 119.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:37598",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

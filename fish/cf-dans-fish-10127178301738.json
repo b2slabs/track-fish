@@ -1,7 +1,7 @@
 {
   "canonicalFishId": "cf:dans-fish:10127178301738",
-  "commonName": "Fine Spotted Earth Eater",
-  "scientificName": null,
+  "commonName": "One Spotted Eartheater (Satanoperca lilith)",
+  "scientificName": "Satanoperca mapiritensis",
   "listings": [
     {
       "listingId": "dans-fish:10127178301738",
@@ -9,6 +9,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Fine Spotted Earth Eater",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:46324+60639",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "One Spotted Eartheater (Satanoperca lilith)"
     }
   ],
   "events": [
@@ -31,6 +37,32 @@
       ],
       "listingId": "dans-fish:10127178301738",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "60639",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "46324",
+          "label": "Default",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:46324+60639",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

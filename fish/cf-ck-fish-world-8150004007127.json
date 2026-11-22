@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:ck-fish-world:8150004007127",
-  "commonName": "Red Claw Crab",
-  "scientificName": null,
+  "commonName": "Red Claw Crab (Perisesarma bidens)",
+  "scientificName": "Perisesarma bidens",
   "listings": [
     {
       "listingId": "ck-fish-world:8150004007127",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Red Claw Crab",
-      "lastCheckedAt": "2026-11-22T06:57:29.601Z"
+      "commonName": "Red Claw Crab"
+    },
+    {
+      "listingId": "aqua-imports:139236",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Red Claw Crab (Perisesarma bidens)"
     }
   ],
   "events": [
@@ -75,6 +80,55 @@
       ],
       "listingId": "ck-fish-world:8150004007127",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45697070006487",
+          "label": "3",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45707901305047",
+          "label": "5",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45707901337815",
+          "label": "10",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150004007127",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "139236",
+          "label": "Default",
+          "price": 5.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:139236",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

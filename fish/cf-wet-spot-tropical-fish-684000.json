@@ -1,0 +1,61 @@
+{
+  "canonicalFishId": "cf:wet-spot-tropical-fish:684000",
+  "commonName": "Leptobotia pellegrini",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "wet-spot-tropical-fish:684000",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Leptobotia pellegrini"
+    },
+    {
+      "listingId": "aqua-imports:146037",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Leptobotia pellegrini"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 89.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "684000",
+          "label": "Default",
+          "price": 89.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:684000",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "146037",
+          "label": "Default",
+          "price": 99.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:146037",
+      "storeSlug": "aqua-imports"
+    }
+  ]
+}

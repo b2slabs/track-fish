@@ -1,7 +1,7 @@
 {
   "canonicalFishId": "cf:dans-fish:10127140225322",
-  "commonName": "Golden Goby",
-  "scientificName": null,
+  "commonName": "Golden Goby (Mugilogobius rexi)",
+  "scientificName": "Mugilogobius rexi",
   "listings": [
     {
       "listingId": "dans-fish:10127140225322",
@@ -9,6 +9,12 @@
       "storeName": "Dan's Fish",
       "commonName": "Golden Goby",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "aqua-imports:190323",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Golden Goby (Mugilogobius rexi)"
     }
   ],
   "events": [
@@ -31,6 +37,26 @@
       ],
       "listingId": "dans-fish:10127140225322",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "190323",
+          "label": "Default",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:190323",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

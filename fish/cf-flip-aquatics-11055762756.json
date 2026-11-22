@@ -7,15 +7,13 @@
       "listingId": "flip-aquatics:11055762756",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Pure Red Line Shrimp",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "Pure Red Line Shrimp"
     },
     {
       "listingId": "aquarium-fish:8189562093867",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Pure Red Line Shrimp",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Pure Red Line Shrimp"
     }
   ],
   "events": [
@@ -192,6 +190,46 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "aquarium-fish:8189562093867",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32269347455078",
+          "label": "Imported / 1 Shrimp",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "45947878178918",
+          "label": "USA Bred / 1 Shrimp",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:11055762756",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44782614053163",
+          "label": "Title",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "aquarium-fish:8189562093867",
       "storeSlug": "aquarium-fish"
     }

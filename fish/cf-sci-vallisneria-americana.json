@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:vallisneria-americana",
-  "commonName": "Vallisneria Americana",
+  "commonName": "Vallisneria “Jungle” (Vallisneria americana)",
   "scientificName": "Vallisneria americana",
   "listings": [
     {
       "listingId": "buce-plant:10543881869",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Vallisneria Americana",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Vallisneria Americana"
     },
     {
       "listingId": "glass-aqua:7436497485910",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Vallisneria Americana",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Vallisneria Americana"
     },
     {
       "listingId": "aquatic-arts:1378925936726+3876540874838",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Jungle Vallisneria (Vallisneria americana), Bunch w/Lead",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Jungle Vallisneria (Vallisneria americana), Bunch w/Lead"
+    },
+    {
+      "listingId": "aqua-imports:59970",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Vallisneria “Jungle” (Vallisneria americana)"
     }
   ],
   "events": [
@@ -161,6 +164,101 @@
       ],
       "listingId": "aquatic-arts:1378925936726+3876540874838",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12742053101654",
+          "label": "1 Bunch",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "29213278765142",
+          "label": "1 Bunch",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "29213278830678",
+          "label": "2 Bunches",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "29213278896214",
+          "label": "3 Bunches",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:1378925936726+3876540874838",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 6.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41219667341",
+          "label": "Lead Bunch",
+          "price": 6.79,
+          "available": false
+        },
+        {
+          "id": "12396829540433",
+          "label": "4 Bunches",
+          "price": 20.37,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:10543881869",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41875492438102",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:7436497485910",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "59970",
+          "label": "Default",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:59970",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

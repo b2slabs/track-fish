@@ -7,15 +7,13 @@
       "listingId": "monster-aquarium:7030053568721",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Turquoise Blue Rainbow (Melanotaenia lacustris)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Turquoise Blue Rainbow (Melanotaenia lacustris)"
     },
     {
       "listingId": "aquahuna:1774228799531",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Turquoise Blue Rainbow Fish Size S",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Turquoise Blue Rainbow Fish Size S"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "aquahuna:1774228799531",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41034956341457",
+          "label": "2\"",
+          "price": 16.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7030053568721",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 9.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "16053465612331",
+          "label": "Title",
+          "price": 9.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "aquahuna:1774228799531",
       "storeSlug": "aquahuna"
     }

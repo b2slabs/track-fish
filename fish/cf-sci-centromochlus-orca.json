@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:centromochlus-orca",
-  "commonName": "Orca Woodcat (Centromochlus orca)",
+  "commonName": "Orca Wood Catfish (Centromochlus orca)",
   "scientificName": "Centromochlus orca",
   "listings": [
     {
       "listingId": "monster-aquarium:7696622813393",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Orca Wood Catfish (Centromochlus orca)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Orca Wood Catfish (Centromochlus orca)"
     },
     {
       "listingId": "imperial-tropicals:10390335914291",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Orca Woodcat (Centromochlus orca)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Orca Woodcat (Centromochlus orca)"
+    },
+    {
+      "listingId": "aqua-imports:87976",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Orca Wood Catfish (Centromochlus orca)"
     }
   ],
   "events": [
@@ -99,6 +103,60 @@
       ],
       "listingId": "imperial-tropicals:10390335914291",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 30,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42958009827537",
+          "label": "2\"",
+          "price": 30,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7696622813393",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53876741079347",
+          "label": "2-3\" Unsexed Rio Nhamunda",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:10390335914291",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "87976",
+          "label": "Default",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:87976",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

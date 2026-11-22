@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:glass-aqua:4733081911382",
-  "commonName": "Bucephalandra Biblis",
+  "commonName": "Bucephalandra ‘Biblis’",
   "scientificName": null,
   "listings": [
     {
       "listingId": "glass-aqua:4733081911382",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Bucephalandra Biblis",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Bucephalandra Biblis"
+    },
+    {
+      "listingId": "aqua-imports:121609",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Bucephalandra ‘Biblis’"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "glass-aqua:4733081911382",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32636970401878",
+          "label": "Title",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:4733081911382",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "121609",
+          "label": "Default",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:121609",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

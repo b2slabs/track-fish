@@ -1,35 +1,31 @@
 {
   "canonicalFishId": "cf:sci:corydoras-pantanalensis",
-  "commonName": "C005 Corydoras pantanalensis",
+  "commonName": "Corydoras pantanalensis",
   "scientificName": "Corydoras pantanalensis",
   "listings": [
     {
       "listingId": "aquatic-arts:14687622725999",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "C005 Pantanalensis Cory (Corydoras pantanalensis)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "C005 Pantanalensis Cory (Corydoras pantanalensis)"
     },
     {
       "listingId": "monster-aquarium:7226888224977",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "CW005 Albertini corydoras - Corydoras pantanalensis",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "CW005 Albertini corydoras - Corydoras pantanalensis"
     },
     {
       "listingId": "aquahuna:7062653960267",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Pantanalensis Corydoras (C005)",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Pantanalensis Corydoras (C005)"
     },
     {
       "listingId": "nu-aqua-shop:10074867204412",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Pantanalensis Cory",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Pantanalensis Cory"
     },
     {
       "listingId": "dans-fish:10127098839338",
@@ -37,6 +33,12 @@
       "storeName": "Dan's Fish",
       "commonName": "C005 Corydoras pantanalensis",
       "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:682656",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Corydoras pantanalensis"
     }
   ],
   "events": [
@@ -329,6 +331,106 @@
       ],
       "listingId": "dans-fish:10127098839338",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 42.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51818195026287",
+          "label": "1 Fish",
+          "price": 42.99,
+          "available": false
+        },
+        {
+          "id": "51818195059055",
+          "label": "3 Fish",
+          "price": 115.99,
+          "available": false
+        },
+        {
+          "id": "51827485114735",
+          "label": "6 Fish",
+          "price": 229.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14687622725999",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41508839227601",
+          "label": "1-1.5\"",
+          "price": 21.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7226888224977",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 44,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40634616086603",
+          "label": "Title",
+          "price": 44,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7062653960267",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 43.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51828664893756",
+          "label": "Title",
+          "price": 43.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10074867204412",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 79.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "682656",
+          "label": "Default",
+          "price": 79.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:682656",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:symphysodon-aequifasciatus:yellow",
-  "commonName": "Yellow Marlboro Discus",
+  "commonName": "Yellow Pigeonblood Discus (Symphysodon discus)",
   "scientificName": "Symphysodon aequifasciatus",
   "listings": [
     {
       "listingId": "aquahuna:15258963050571",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Yellow Pigeon Blood Discus",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Yellow Pigeon Blood Discus"
     },
     {
       "listingId": "aquarium-fish:1422387052614",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Yellow Marlboro Discus",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Yellow Marlboro Discus"
     },
     {
       "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Yellow Discus (Symphysodon aequifasciatus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Yellow Discus (Symphysodon aequifasciatus)"
+    },
+    {
+      "listingId": "aqua-imports:129231",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Yellow Pigeonblood Discus (Symphysodon discus)"
     }
   ],
   "events": [
@@ -456,6 +459,119 @@
       ],
       "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42263592435921",
+          "label": "5”",
+          "price": 94.99,
+          "available": false
+        },
+        {
+          "id": "42263591354577",
+          "label": "4”-4.5”",
+          "price": 79.99,
+          "available": true
+        },
+        {
+          "id": "42912421314769",
+          "label": "3\"-4\"",
+          "price": 68.99,
+          "available": false
+        },
+        {
+          "id": "41152149455057",
+          "label": "3-4\"",
+          "price": 69.99,
+          "available": true
+        },
+        {
+          "id": "41041245470929",
+          "label": "4-5\"",
+          "price": 88.99,
+          "available": false
+        },
+        {
+          "id": "42424240046289",
+          "label": "4”",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 44,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67315159236683",
+          "label": "Title",
+          "price": 44,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:15258963050571",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 89.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39544941543505",
+          "label": "Medium (1.5-2\")",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "12633419808838",
+          "label": "Large (2.5-3\")",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "12633419841606",
+          "label": "Extra Large (4\")",
+          "price": 149.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1422387052614",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "129231",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:129231",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

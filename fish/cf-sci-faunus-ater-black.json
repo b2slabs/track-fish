@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:faunus-ater:black",
-  "commonName": "Black Devil Spike Snail",
+  "commonName": "Black Devil Snail (Faunus ater)",
   "scientificName": "Faunus ater",
   "listings": [
     {
       "listingId": "aquatic-arts:4845915590",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Black Devil Spike Snail (Faunus ater)",
-      "lastCheckedAt": "2026-11-22T06:57:03.992Z"
+      "commonName": "Black Devil Spike Snail (Faunus ater)"
     },
     {
       "listingId": "nu-aqua-shop:10413459308860",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Black Devil Spike Snail",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Black Devil Spike Snail"
     },
     {
       "listingId": "flip-aquatics:7811525640294",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "3 Black Devil Spike Snail | Faunus Ater",
-      "lastCheckedAt": "2026-11-22T06:57:37.264Z"
+      "commonName": "3 Black Devil Spike Snail | Faunus Ater"
+    },
+    {
+      "listingId": "aqua-imports:70546",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Black Devil Snail (Faunus ater)"
     }
   ],
   "events": [
@@ -121,6 +124,113 @@
       ],
       "listingId": "nu-aqua-shop:10413459308860",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15878765574",
+          "label": "1 Snail",
+          "price": 4.99,
+          "available": true
+        },
+        {
+          "id": "15878765638",
+          "label": "3 Snails",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "12409682919510",
+          "label": "5 Snails",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "12409682952278",
+          "label": "10 Snails",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "12409682985046",
+          "label": "20 Snails",
+          "price": 54.99,
+          "available": true
+        },
+        {
+          "id": "46964669186327",
+          "label": "5 SNAILS B GRADE",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "46964688224535",
+          "label": "3 SNAILS B GRADE",
+          "price": 5.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4845915590",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44229922160742",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:7811525640294",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 6.89,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53157324161340",
+          "label": "Title",
+          "price": 6.89,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10413459308860",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "70546",
+          "label": "Default",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:70546",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

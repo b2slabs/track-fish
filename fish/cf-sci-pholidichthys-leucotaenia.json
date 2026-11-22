@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:pholidichthys-leucotaenia",
-  "commonName": "Engineer Goby",
+  "commonName": "Engineer Goby (Pholidichthys leucotaenia)",
   "scientificName": "Pholidichthys leucotaenia",
   "listings": [
     {
       "listingId": "aquarium-fish:10436236443947+8843640012",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Engineer Goby",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Engineer Goby"
+    },
+    {
+      "listingId": "aqua-imports:169097",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Engineer Goby (Pholidichthys leucotaenia)"
     }
   ],
   "events": [
@@ -119,6 +124,49 @@
       ],
       "listingId": "aquarium-fish:10436236443947+8843640012",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 20.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53921571569963",
+          "label": "Medium (1.25-2\")",
+          "price": 53.99,
+          "available": true
+        },
+        {
+          "id": "32267650072657",
+          "label": "Medium (1.25-2\")",
+          "price": 20.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10436236443947+8843640012",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "169097",
+          "label": "Default",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:169097",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

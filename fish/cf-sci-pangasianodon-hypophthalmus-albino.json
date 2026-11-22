@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:pangasianodon-hypophthalmus:albino",
-  "commonName": "Albino Iridescent Shark (Pangasianodon hypophthalmus)",
+  "commonName": "Glass Albino Iridescent Shark (Pangasianodon hypophthalmus)",
   "scientificName": "Pangasianodon hypophthalmus",
   "listings": [
     {
       "listingId": "monster-aquarium:7045669421265",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Albino Iridescent Shark (Pangasianodon hypophthalmus)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Albino Iridescent Shark (Pangasianodon hypophthalmus)"
+    },
+    {
+      "listingId": "aqua-imports:71134",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Glass Albino Iridescent Shark (Pangasianodon hypophthalmus)"
     }
   ],
   "events": [
@@ -37,6 +42,49 @@
       ],
       "listingId": "monster-aquarium:7045669421265",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41066038231249",
+          "label": "3-4”",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "42274726772945",
+          "label": "6\"",
+          "price": 57.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7045669421265",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "71134",
+          "label": "Default",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:71134",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

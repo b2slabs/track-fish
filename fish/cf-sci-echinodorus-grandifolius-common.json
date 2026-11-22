@@ -7,15 +7,13 @@
       "listingId": "buce-plant:29033889805",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Echinodorus Grandifolius",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Echinodorus Grandifolius"
     },
     {
       "listingId": "glass-aqua:7868307800150",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Echinodorus Grandiflorus",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Echinodorus Grandiflorus"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "glass-aqua:7868307800150",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "200295317517",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:29033889805",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44673664122966",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "glass-aqua:7868307800150",
       "storeSlug": "glass-aqua"
     }

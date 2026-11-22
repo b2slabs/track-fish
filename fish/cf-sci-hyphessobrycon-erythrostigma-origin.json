@@ -1,42 +1,43 @@
 {
   "canonicalFishId": "cf:sci:hyphessobrycon-erythrostigma-origin",
-  "commonName": "Bleeding Heart Tetra",
+  "commonName": "Bleeding Heart Tetra (Hyphessobrycon erythrostigma)",
   "scientificName": "Hyphessobrycon erythrostigma origin",
   "listings": [
     {
       "listingId": "aquarium-fish:4852488518",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Bleeding Heart Tetra",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Bleeding Heart Tetra"
     },
     {
       "listingId": "global-exoticquatics:10249440854208",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Bleeding Heart Tetra",
-      "lastCheckedAt": "2026-11-22T06:58:26.089Z"
+      "commonName": "Bleeding Heart Tetra"
     },
     {
       "listingId": "nu-aqua-shop:10006313992508",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Bleeding Heart Tetra",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Bleeding Heart Tetra"
     },
     {
       "listingId": "monster-aquarium:7664590258385",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Bleeding Heart Tetra (Hyphessobrycon erythrostigma)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Bleeding Heart Tetra (Hyphessobrycon erythrostigma)"
     },
     {
       "listingId": "imperial-tropicals:8398084538675",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Bleeding Heart Tetra (Megalamphodus erythrostigmus)",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Bleeding Heart Tetra (Megalamphodus erythrostigmus)"
+    },
+    {
+      "listingId": "aqua-imports:39003",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Bleeding Heart Tetra (Hyphessobrycon erythrostigma)"
     }
   ],
   "events": [
@@ -224,6 +225,129 @@
       ],
       "listingId": "nu-aqua-shop:10006313992508",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42840246190289",
+          "label": "1”",
+          "price": 5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7664590258385",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 5.89,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15908934086",
+          "label": "Title",
+          "price": 5.89,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4852488518",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612066439475",
+          "label": "(3 Pack) 1-2\" Unsexed Puerto Nariño",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "45612066472243",
+          "label": "(10 Pack) 1-2\" Unsexed Puerto Nariño",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398084538675",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50404333158592",
+          "label": "5 fish",
+          "price": 25,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:10249440854208",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 7.17,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718406078780",
+          "label": "Single",
+          "price": 7.17,
+          "available": false
+        },
+        {
+          "id": "51718406111548",
+          "label": "Group of 3",
+          "price": 19.36,
+          "available": false
+        },
+        {
+          "id": "51718406144316",
+          "label": "Group of 6",
+          "price": 34.42,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006313992508",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39003",
+          "label": "Default",
+          "price": 3.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:39003",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:uaru-amphiacanthoides",
-  "commonName": "Triangle Cichlid",
+  "commonName": "Common Uaru (Uaru amphiacanthoides)",
   "scientificName": "Uaru amphiacanthoides",
   "listings": [
     {
       "listingId": "monster-aquarium:7123779256529",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Uaru Cichlid (Uaru amphiacanthoides)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Uaru Cichlid (Uaru amphiacanthoides)"
     },
     {
       "listingId": "aquarium-fish:5951280006",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Uaru",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Uaru"
     },
     {
       "listingId": "imperial-tropicals:8398106231091",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Triangle Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:56.213Z"
+      "commonName": "Triangle Cichlid"
+    },
+    {
+      "listingId": "aqua-imports:37508",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Common Uaru (Uaru amphiacanthoides)"
     }
   ],
   "events": [
@@ -97,6 +100,89 @@
       ],
       "listingId": "imperial-tropicals:8398106231091",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41265979719889",
+          "label": "2”",
+          "price": 25,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7123779256529",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "18822866182",
+          "label": "Title",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:5951280006",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612117786931",
+          "label": "1-2” Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "47996069839155",
+          "label": "2-3\" Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "45612117819699",
+          "label": "3-4” Unsexed",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398106231091",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37508",
+          "label": "Default",
+          "price": 16.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:37508",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

@@ -7,15 +7,13 @@
       "listingId": "shrimpy-business:8972859605282",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Salvinia Minima",
-      "lastCheckedAt": "2026-11-22T06:57:34.146Z"
+      "commonName": "Salvinia Minima"
     },
     {
       "listingId": "nu-aqua-shop:10006360260924",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Salvinia Minima",
-      "lastCheckedAt": "2026-11-22T06:58:29.123Z"
+      "commonName": "Salvinia Minima"
     }
   ],
   "events": [
@@ -56,6 +54,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:10006360260924",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 5.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47810225013026",
+          "label": "1 Portion",
+          "price": 5.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:8972859605282",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51627672371516",
+          "label": "Title",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006360260924",
       "storeSlug": "nu-aqua-shop"
     }

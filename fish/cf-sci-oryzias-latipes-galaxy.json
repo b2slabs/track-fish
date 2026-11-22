@@ -1,28 +1,31 @@
 {
   "canonicalFishId": "cf:sci:oryzias-latipes:galaxy",
-  "commonName": "Galaxy Medaka Rice Fish",
+  "commonName": "Galaxy Medaka Ricefish (Oryzias latipes “galaxy”)",
   "scientificName": "Oryzias latipes",
   "listings": [
     {
       "listingId": "buce-plant:7171607593160",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Oryzias Sp Galaxy Medaka Rice Fish",
-      "lastCheckedAt": "2026-11-22T06:58:05.418Z"
+      "commonName": "Oryzias Sp Galaxy Medaka Rice Fish"
     },
     {
       "listingId": "glass-aqua:10405737594966",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Galaxy Medaka Rice Fish",
-      "lastCheckedAt": "2026-11-22T06:58:18.213Z"
+      "commonName": "Galaxy Medaka Rice Fish"
     },
     {
       "listingId": "monster-aquarium:7257892847825",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Galaxy Medaka rice fish (Oryzias Latipes)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Galaxy Medaka rice fish (Oryzias Latipes)"
+    },
+    {
+      "listingId": "aqua-imports:93130",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Galaxy Medaka Ricefish (Oryzias latipes “galaxy”)"
     }
   ],
   "events": [
@@ -97,6 +100,89 @@
       ],
       "listingId": "glass-aqua:10405737594966",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 4,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41578091774161",
+          "label": ".5\"",
+          "price": 4,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7257892847825",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41317984796872",
+          "label": "6 Pack",
+          "price": 26.99,
+          "available": true
+        },
+        {
+          "id": "41317984829640",
+          "label": "12 Pack",
+          "price": 50.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7171607593160",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51058019237974",
+          "label": "6 Fish",
+          "price": 26.99,
+          "available": true
+        },
+        {
+          "id": "51058019270742",
+          "label": "12 Fish",
+          "price": 50.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:10405737594966",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "93130",
+          "label": "Default",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:93130",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

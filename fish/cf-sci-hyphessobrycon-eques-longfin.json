@@ -1,21 +1,25 @@
 {
   "canonicalFishId": "cf:sci:hyphessobrycon-eques:longfin",
-  "commonName": "Long-fin Serpae Tetra",
+  "commonName": "Longfin Super Serpae Tetra (Hyphessobrycon eques)",
   "scientificName": "Hyphessobrycon eques",
   "listings": [
     {
       "listingId": "monster-aquarium:7231869288657",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Long Fin Serpae Tetra (Hyphessobrycon eques)",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Long Fin Serpae Tetra (Hyphessobrycon eques)"
     },
     {
       "listingId": "aquarium-fish:777265512567",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Long-fin Serpae Tetra",
-      "lastCheckedAt": "2026-11-22T06:57:44.014Z"
+      "commonName": "Long-fin Serpae Tetra"
+    },
+    {
+      "listingId": "aqua-imports:127820",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Longfin Super Serpae Tetra (Hyphessobrycon eques)"
     }
   ],
   "events": [
@@ -58,6 +62,60 @@
       ],
       "listingId": "aquarium-fish:777265512567",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 7,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41518830911697",
+          "label": ".75-1\"",
+          "price": 7,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7231869288657",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 5.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "8659449282679",
+          "label": "Title",
+          "price": 5.49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:777265512567",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 4.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "127820",
+          "label": "Default",
+          "price": 4.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:127820",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

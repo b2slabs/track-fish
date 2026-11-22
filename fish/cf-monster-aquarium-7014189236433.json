@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:monster-aquarium:7014189236433",
-  "commonName": "Unicolor Eel",
-  "scientificName": null,
+  "commonName": "Unicolor Eel (Mastacembelus unicolor)",
+  "scientificName": "Mastacembelus unicolor",
   "listings": [
     {
       "listingId": "monster-aquarium:7014189236433",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Unicolor Eel",
-      "lastCheckedAt": "2026-11-22T06:57:17.729Z"
+      "commonName": "Unicolor Eel"
+    },
+    {
+      "listingId": "aqua-imports:82539",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Unicolor Eel (Mastacembelus unicolor)"
     }
   ],
   "events": [
@@ -31,6 +36,43 @@
       ],
       "listingId": "monster-aquarium:7014189236433",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 108,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41001045426385",
+          "label": "8-10\"",
+          "price": 108,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7014189236433",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "82539",
+          "label": "Default",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:82539",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

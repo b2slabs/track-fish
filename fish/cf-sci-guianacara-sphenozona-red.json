@@ -1,14 +1,19 @@
 {
   "canonicalFishId": "cf:sci:guianacara-sphenozona:red",
-  "commonName": "Suriname Red Spotted Cichlid",
+  "commonName": "Suriname Red Spot Cichlid (Guianacara sphenozona ’red spot’)",
   "scientificName": "Guianacara sphenozona",
   "listings": [
     {
       "listingId": "aquahuna:6845799628875",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Suriname Red Spotted Cichlid",
-      "lastCheckedAt": "2026-11-22T06:57:24.006Z"
+      "commonName": "Suriname Red Spotted Cichlid"
+    },
+    {
+      "listingId": "aqua-imports:101317",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Suriname Red Spot Cichlid (Guianacara sphenozona ’red spot’)"
     }
   ],
   "events": [
@@ -51,6 +56,43 @@
       ],
       "listingId": "aquahuna:6845799628875",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 16,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40046419181643",
+          "label": "Title",
+          "price": 16,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6845799628875",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "101317",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:101317",
+      "storeSlug": "aqua-imports"
     }
   ]
 }
