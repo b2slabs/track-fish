@@ -1,22 +1,63 @@
 {
   "canonicalFishId": "cf:sci:geophagus-steindachneri:red",
-  "commonName": "Red Hump Eartheater (Geophagus steindachneri)",
+  "commonName": "Red Hump Eartheater",
   "scientificName": "Geophagus steindachneri",
   "listings": [
     {
       "listingId": "aquarium-fish:5950471942",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Red Hump Geophagus Cichlid"
+      "commonName": "Red Hump Geophagus Cichlid",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     },
     {
       "listingId": "aqua-imports:41973",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Hump Eartheater (Geophagus steindachneri)"
+    },
+    {
+      "listingId": "monster-aquarium:7259922038993",
+      "storeSlug": "monster-aquarium",
+      "storeName": "Monster Aquarium",
+      "commonName": "Red Hump Eartheater  (Geophagus Steindachneri )",
+      "lastCheckedAt": "2026-11-22T16:01:13.602Z"
+    },
+    {
+      "listingId": "global-exoticquatics:8435192463552",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Red Hump Eartheater",
+      "lastCheckedAt": "2026-11-22T16:02:44.108Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41586388631761",
+          "label": "2-2.5”",
+          "price": 10,
+          "available": false
+        },
+        {
+          "id": "41586390827217",
+          "label": "3-4”",
+          "price": 20,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7259922038993",
+      "storeSlug": "monster-aquarium"
+    },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 39.99,
@@ -38,6 +79,49 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47252110115008",
+          "label": "2  inch",
+          "price": 15,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8435192463552",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41586388631761",
+          "label": "2-2.5”",
+          "price": 10,
+          "available": false
+        },
+        {
+          "id": "41586390827217",
+          "label": "3-4”",
+          "price": 20,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7259922038993",
+      "storeSlug": "monster-aquarium"
+    },
+    {
       "observedAt": "2026-11-22T15:59:02.777Z",
       "price": 39.99,
       "currency": "USD",
@@ -53,6 +137,23 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:5950471942",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47252110115008",
+          "label": "2  inch",
+          "price": 15,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8435192463552",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

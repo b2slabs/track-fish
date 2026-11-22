@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:geophagus-surinamensis",
-  "commonName": "Redstriped Eartheater (Geophagus surinamensis)",
+  "commonName": "Geophagus Surinamensis",
   "scientificName": "Geophagus surinamensis",
   "listings": [
     {
@@ -8,9 +8,206 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Redstriped Eartheater (Geophagus surinamensis)"
+    },
+    {
+      "listingId": "monster-aquarium:7217314169041",
+      "storeSlug": "monster-aquarium",
+      "storeName": "Monster Aquarium",
+      "commonName": "Surinamensis Geophagus (Geophagus surinamensis)",
+      "lastCheckedAt": "2026-11-22T16:01:13.602Z"
+    },
+    {
+      "listingId": "aquahuna:6847367643211",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Geophagus surinamensis",
+      "lastCheckedAt": "2026-11-22T16:01:22.102Z"
+    },
+    {
+      "listingId": "aquarium-fish:5926203270",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Geophagus Surinamensis",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40050073501771",
+          "label": "Title",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:6847367643211",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 46.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41491818643665",
+          "label": "2-2.5”",
+          "price": 20,
+          "available": false
+        },
+        {
+          "id": "42103369400529",
+          "label": "4-5”",
+          "price": 46.99,
+          "available": true
+        },
+        {
+          "id": "42909296361681",
+          "label": "6-7”",
+          "price": 90,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7217314169041",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40050073501771",
+          "label": "Title",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:6847367643211",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "18732433734",
+          "label": "Title",
+          "price": 26.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:5926203270",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 22.94,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "18732433734",
+          "label": "Title",
+          "price": 22.94,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:5926203270",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 46.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41491818643665",
+          "label": "2-2.5”",
+          "price": 20,
+          "available": false
+        },
+        {
+          "id": "42103369400529",
+          "label": "4-5”",
+          "price": 46.99,
+          "available": true
+        },
+        {
+          "id": "42909296361681",
+          "label": "6-7”",
+          "price": 90,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7217314169041",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40050073501771",
+          "label": "Title",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6847367643211",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 22.94,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "18732433734",
+          "label": "Title",
+          "price": 22.94,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:5926203270",
+      "storeSlug": "aquarium-fish"
+    },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 39.99,

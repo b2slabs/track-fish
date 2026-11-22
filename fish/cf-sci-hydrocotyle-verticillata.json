@@ -1,19 +1,27 @@
 {
   "canonicalFishId": "cf:sci:hydrocotyle-verticillata",
-  "commonName": "Whorled Pennywort (Hydrocotyle verticillata)",
+  "commonName": "Hydrocotyle Verticillata",
   "scientificName": "Hydrocotyle verticillata",
   "listings": [
-    {
-      "listingId": "buce-plant:6091294605512",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Hydrocotyle Verticillata Aquatic Farmer Tissue Culture"
-    },
     {
       "listingId": "aqua-imports:158531",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Whorled Pennywort (Hydrocotyle verticillata)"
+    },
+    {
+      "listingId": "buce-plant:6091294605512+9625765325",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Hydrocotyle Verticillata",
+      "lastCheckedAt": "2026-11-22T16:02:19.867Z"
+    },
+    {
+      "listingId": "glass-aqua:4964075405398",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Hydrocotyle Verticillata",
+      "lastCheckedAt": "2026-11-22T16:02:34.703Z"
     }
   ],
   "events": [
@@ -34,8 +42,54 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "buce-plant:6091294605512",
+      "listingId": "buce-plant:6091294605512+9625765325",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "35886257293",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:6091294605512+9625765325",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42573513130070",
+          "label": "Potted",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "42573513162838",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:4964075405398",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-22T15:59:26.456Z",
@@ -51,8 +105,48 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "buce-plant:6091294605512",
+      "listingId": "buce-plant:6091294605512+9625765325",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:26.456Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "35886257293",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:6091294605512+9625765325",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42573513130070",
+          "label": "Potted",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "42573513162838",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:4964075405398",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
@@ -73,6 +167,32 @@
       ],
       "listingId": "aqua-imports:158531",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:02:19.867Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37559416619208",
+          "label": "Hydrocotyle Verticillata Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "35886257293",
+          "label": "Hydrocotyle Verticillata",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:6091294605512+9625765325",
+      "storeSlug": "buce-plant"
     }
   ]
 }

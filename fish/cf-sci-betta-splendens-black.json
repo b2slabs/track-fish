@@ -1,25 +1,27 @@
 {
   "canonicalFishId": "cf:sci:betta-splendens:black",
-  "commonName": "Black Samurai Betta (Betta splendens)",
+  "commonName": "Black Samurai Betta",
   "scientificName": "Betta splendens",
   "listings": [
     {
       "listingId": "aquatic-arts:4001816051798",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Assorted Black Samurai Plakat Betta (Betta splendens) - Tank-Bred!"
-    },
-    {
-      "listingId": "nu-aqua-shop:10068478427452",
-      "storeSlug": "nu-aqua-shop",
-      "storeName": "NU Aqua Shop",
-      "commonName": "Black Mamba Betta Male"
+      "commonName": "Assorted Black Samurai Plakat Betta (Betta splendens) - Tank-Bred!",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "aqua-imports:130307",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Black Samurai Betta (Betta splendens)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10068478427452+10332194734396",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Black Samurai Betta",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     }
   ],
   "events": [
@@ -51,6 +53,26 @@
     },
     {
       "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52848705438012",
+          "label": "Title",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10068478427452+10332194734396",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
       "price": 38.85,
       "currency": "USD",
       "available": false,
@@ -66,7 +88,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "nu-aqua-shop:10068478427452",
+      "listingId": "nu-aqua-shop:10068478427452+10332194734396",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -94,6 +116,23 @@
     },
     {
       "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52848705438012",
+          "label": "Title",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10068478427452+10332194734396",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
       "price": 38.85,
       "currency": "USD",
       "available": false,
@@ -106,7 +145,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "nu-aqua-shop:10068478427452",
+      "listingId": "nu-aqua-shop:10068478427452+10332194734396",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -128,6 +167,32 @@
       ],
       "listingId": "aqua-imports:130307",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:02:48.468Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52848705438012",
+          "label": "Black Samurai Betta",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "51809243038012",
+          "label": "Black Mamba Betta Male",
+          "price": 38.85,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10068478427452+10332194734396",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

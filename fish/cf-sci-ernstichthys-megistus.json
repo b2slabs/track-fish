@@ -1,19 +1,20 @@
 {
   "canonicalFishId": "cf:sci:ernstichthys-megistus",
-  "commonName": "Dwarf Banjo Catfish (Ernstichthys megistus)",
+  "commonName": "Dwarf Banjo Catfish",
   "scientificName": "Ernstichthys megistus",
   "listings": [
-    {
-      "listingId": "aquarium-fish:10093516030251",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Dwarf Venezuelan Banjo Catfish"
-    },
     {
       "listingId": "aqua-imports:119546",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Dwarf Banjo Catfish (Ernstichthys megistus)"
+    },
+    {
+      "listingId": "aquarium-fish:10093516030251+8955161313579",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Dwarf Banjo Catfish",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     }
   ],
   "events": [
@@ -34,7 +35,27 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:10093516030251",
+      "listingId": "aquarium-fish:10093516030251+8955161313579",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47719188136235",
+          "label": "Title",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10093516030251+8955161313579",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -51,7 +72,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:10093516030251",
+      "listingId": "aquarium-fish:10093516030251+8955161313579",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47719188136235",
+          "label": "Title",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10093516030251+8955161313579",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -73,6 +111,32 @@
       ],
       "listingId": "aqua-imports:119546",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:01:48.345Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51324140454187",
+          "label": "Dwarf Venezuelan Banjo Catfish",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "47719188136235",
+          "label": "Dwarf Banjo Catfish",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10093516030251+8955161313579",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

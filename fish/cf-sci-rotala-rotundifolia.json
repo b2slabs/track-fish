@@ -1,49 +1,69 @@
 {
   "canonicalFishId": "cf:sci:rotala-rotundifolia",
-  "commonName": "Rotala Indica (Rotala rotundifolia)",
+  "commonName": "Rotala Indica",
   "scientificName": "Rotala rotundifolia",
   "listings": [
     {
       "listingId": "flip-aquatics:4673481212006",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Rotala Indica"
+      "commonName": "Rotala Indica",
+      "lastCheckedAt": "2026-11-22T16:01:39.266Z"
     },
     {
       "listingId": "aquarium-fish:10106502349099",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Rotala sp. H'ra - Tissue Culture"
+      "commonName": "Rotala sp. H'ra - Tissue Culture",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     },
     {
       "listingId": "ck-fish-world:8152571707607",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Rotala"
+      "commonName": "Rotala",
+      "lastCheckedAt": "2026-11-22T16:01:29.374Z"
     },
     {
       "listingId": "buce-plant:1317161926737+4649367470161+7137082867912+7464900034760+7473935941832+9390248205",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Rotala H'Ra"
-    },
-    {
-      "listingId": "glass-aqua:1329145806934",
-      "storeSlug": "glass-aqua",
-      "storeName": "Glass Aqua",
-      "commonName": "Rotala H'Ra"
+      "commonName": "Rotala H'Ra",
+      "lastCheckedAt": "2026-11-22T16:02:19.867Z"
     },
     {
       "listingId": "aquatic-arts:8583669678359+8962517336343",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Rotala 'H'ra'  (Rotala Rotundifolia 'H'ra' ) Tissue Culture"
+      "commonName": "Rotala 'H'ra'  (Rotala Rotundifolia 'H'ra' ) Tissue Culture",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "aqua-imports:60114",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Rotala Indica (Rotala rotundifolia)"
+    },
+    {
+      "listingId": "shrimpy-business:9488862675234",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Rotala Indica",
+      "lastCheckedAt": "2026-11-22T16:01:35.155Z"
+    },
+    {
+      "listingId": "glass-aqua:1329145806934+490067591200",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Rotala H'Ra",
+      "lastCheckedAt": "2026-11-22T16:02:34.703Z"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006313009468",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Rotala Indica",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     }
   ],
   "events": [
@@ -152,6 +172,26 @@
       ],
       "listingId": "ck-fish-world:8152571707607",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 8.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49165755253026",
+          "label": "Title",
+          "price": 8.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9488862675234",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
@@ -320,6 +360,26 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12344495931478",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:1329145806934+490067591200",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-11-21T01:29:25.528Z",
       "price": 6.99,
       "currency": "USD",
@@ -344,6 +404,26 @@
       ],
       "listingId": "buce-plant:1317161926737+4649367470161+7137082867912+7464900034760+7473935941832+9390248205",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51627484086588",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006313009468",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-21T20:08:29.473Z",
@@ -450,7 +530,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "glass-aqua:1329145806934",
+      "listingId": "glass-aqua:1329145806934+490067591200",
       "storeSlug": "glass-aqua"
     },
     {
@@ -566,7 +646,7 @@
         "price",
         "variants"
       ],
-      "listingId": "glass-aqua:1329145806934",
+      "listingId": "glass-aqua:1329145806934+490067591200",
       "storeSlug": "glass-aqua"
     },
     {
@@ -674,6 +754,23 @@
       "type": "heartbeat",
       "listingId": "ck-fish-world:8152571707607",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 8.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49165755253026",
+          "label": "Title",
+          "price": 8.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9488862675234",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-22T15:58:55.354Z",
@@ -788,8 +885,42 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "glass-aqua:1329145806934",
+      "listingId": "glass-aqua:1329145806934+490067591200",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:39.957Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12344495931478",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:1329145806934+490067591200",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51627484086588",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006313009468",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
@@ -810,6 +941,44 @@
       ],
       "listingId": "aqua-imports:60114",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:02:34.703Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50613604679766",
+          "label": "Bunch",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "50613604712534",
+          "label": "UNS Tissue Culture",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "50613604745302",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "12344495931478",
+          "label": "Rotala Indica",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:1329145806934+490067591200",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

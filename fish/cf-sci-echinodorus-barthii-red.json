@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:echinodorus-barthii:red",
-  "commonName": "Red Melon Sword Plant (Echinodorus barthii)",
+  "commonName": "Red Melon Sword",
   "scientificName": "Echinodorus barthii",
   "listings": [
     {
@@ -8,9 +8,153 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Melon Sword Plant (Echinodorus barthii)"
+    },
+    {
+      "listingId": "flip-aquatics:4673519386726",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Red Melon Sword",
+      "lastCheckedAt": "2026-11-22T16:01:39.266Z"
+    },
+    {
+      "listingId": "aquarium-fish:6260571334",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Red Melon Sword",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006359769404",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Red Melon Sword",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31494964674662",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:4673519386726",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 8.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19809724934",
+          "label": "Medium (6\")",
+          "price": 8.29,
+          "available": true
+        },
+        {
+          "id": "12960272220230",
+          "label": "Large (12\")",
+          "price": 15.59,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6260571334",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627671879996",
+          "label": "Title",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006359769404",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31494964674662",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:4673519386726",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 8.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19809724934",
+          "label": "Medium (6\")",
+          "price": 8.29,
+          "available": true
+        },
+        {
+          "id": "12960272220230",
+          "label": "Large (12\")",
+          "price": 15.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6260571334",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627671879996",
+          "label": "Title",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006359769404",
+      "storeSlug": "nu-aqua-shop"
+    },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 9.99,

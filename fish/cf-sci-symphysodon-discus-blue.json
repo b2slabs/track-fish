@@ -1,31 +1,41 @@
 {
   "canonicalFishId": "cf:sci:symphysodon-discus:blue",
-  "commonName": "Cobalt Blue Discus (Symphysodon discus)",
+  "commonName": "Cobalt Blue Discus",
   "scientificName": "Symphysodon discus",
   "listings": [
     {
       "listingId": "aquarium-fish:7985269866795",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Blue Heckel Discus"
+      "commonName": "Blue Heckel Discus",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     },
     {
       "listingId": "imperial-tropicals:9467372208435",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Blue Face Heckel Discus \"Nhamunda\" (Symphysodon discus)"
+      "commonName": "Blue Face Heckel Discus \"Nhamunda\" (Symphysodon discus)",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
     },
     {
       "listingId": "nationwide-aquatics-usa:15526876938393+8932537073817",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Nhamunda blue face heckels (Symphysodon discus) XL"
+      "commonName": "Nhamunda blue face heckels (Symphysodon discus) XL",
+      "lastCheckedAt": "2026-11-22T16:01:32.924Z"
     },
     {
       "listingId": "aqua-imports:107913+42155+52331+70067",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Cobalt Blue Discus (Symphysodon discus)"
+    },
+    {
+      "listingId": "global-exoticquatics:10249397862592",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Cobalt Blue Discus",
+      "lastCheckedAt": "2026-11-22T16:02:44.108Z"
     }
   ],
   "events": [
@@ -116,6 +126,26 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 50,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50404146413760",
+          "label": "3-4in",
+          "price": 50,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:10249397862592",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
       "observedAt": "2026-11-21T20:07:52.673Z",
       "price": 200,
       "currency": "USD",
@@ -203,6 +233,23 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:9467372208435",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 50,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50404146413760",
+          "label": "3-4in",
+          "price": 50,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:10249397862592",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

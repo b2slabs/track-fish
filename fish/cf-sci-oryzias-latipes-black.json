@@ -1,49 +1,62 @@
 {
   "canonicalFishId": "cf:sci:oryzias-latipes:black",
-  "commonName": "Black Medaka Ricefish (Oryzias latipes)",
+  "commonName": "Black Miyuki Medaka Rice Fish",
   "scientificName": "Oryzias latipes",
   "listings": [
     {
       "listingId": "aquahuna:6691444326475",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Black/Midnight Medaka Ricefish"
+      "commonName": "Black/Midnight Medaka Ricefish",
+      "lastCheckedAt": "2026-11-22T16:01:22.102Z"
     },
     {
       "listingId": "ck-fish-world:8150020817111",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Black Japanese Ricefish"
+      "commonName": "Black Japanese Ricefish",
+      "lastCheckedAt": "2026-11-22T16:01:29.374Z"
     },
     {
       "listingId": "buce-plant:8223985041608",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Miyuki Black Medaka Rice Fish"
+      "commonName": "Miyuki Black Medaka Rice Fish",
+      "lastCheckedAt": "2026-11-22T16:02:19.867Z"
     },
     {
       "listingId": "glass-aqua:7588221419606",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Black Miyuki Medaka Rice Fish"
+      "commonName": "Black Miyuki Medaka Rice Fish",
+      "lastCheckedAt": "2026-11-22T16:02:34.703Z"
     },
     {
       "listingId": "aquatic-arts:6724648403030",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Black Medaka Ricefish aka Japanese Ricefish/Killifish (Oryzias latipes \"Black Medaka\"), Tank-Bred"
+      "commonName": "Black Medaka Ricefish aka Japanese Ricefish/Killifish (Oryzias latipes \"Black Medaka\"), Tank-Bred",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "monster-aquarium:7464582840529+7464582938833",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Medaka Black rice fish (Oryzias Latipes)"
+      "commonName": "Medaka Black rice fish (Oryzias Latipes)",
+      "lastCheckedAt": "2026-11-22T16:01:13.602Z"
     },
     {
       "listingId": "aqua-imports:134878",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Black Medaka Ricefish (Oryzias latipes)"
+    },
+    {
+      "listingId": "daku-aquatics:8741037867226",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Black Medaka Ricefish",
+      "lastCheckedAt": "2026-11-22T16:02:18.343Z"
     }
   ],
   "events": [
@@ -236,6 +249,26 @@
       "storeSlug": "ck-fish-world"
     },
     {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 30,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043847164122",
+          "label": "5 Pack (mixed sex)",
+          "price": 30,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741037867226",
+      "storeSlug": "daku-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 46.79,
       "currency": "USD",
@@ -410,6 +443,23 @@
       "type": "heartbeat",
       "listingId": "ck-fish-world:8150020817111",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:25.196Z",
+      "price": 30,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043847164122",
+          "label": "5 Pack (mixed sex)",
+          "price": 30,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741037867226",
+      "storeSlug": "daku-aquatics"
     },
     {
       "observedAt": "2026-11-22T15:59:26.456Z",

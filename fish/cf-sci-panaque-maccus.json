@@ -1,26 +1,14 @@
 {
   "canonicalFishId": "cf:sci:panaque-maccus",
-  "commonName": "Clown Pleco",
+  "commonName": "Clown Pleco (1.0\" to 2\")",
   "scientificName": "Panaque maccus",
   "listings": [
     {
       "listingId": "aquahuna:4603048493131",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Clown Pleco (1.0\" to 2\")"
-    },
-    {
-      "listingId": "nu-aqua-shop:10042820100412",
-      "storeSlug": "nu-aqua-shop",
-      "storeName": "NU Aqua Shop",
-      "commonName": "Clown Pleco"
-    },
-    {
-      "listingId": "dans-fish:10127129084202",
-      "storeSlug": "dans-fish",
-      "storeName": "Dan's Fish",
-      "commonName": "Clown Pleco",
-      "lastCheckedAt": "2026-11-22T06:58:35.864Z"
+      "commonName": "Clown Pleco (1.0\" to 2\")",
+      "lastCheckedAt": "2026-11-22T16:01:22.102Z"
     }
   ],
   "events": [
@@ -66,46 +54,6 @@
       "storeSlug": "aquahuna"
     },
     {
-      "observedAt": "2026-11-21T01:29:44.090Z",
-      "price": 11.37,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51737020039484",
-          "label": "Title",
-          "price": 11.37,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "nu-aqua-shop:10042820100412",
-      "storeSlug": "nu-aqua-shop"
-    },
-    {
-      "observedAt": "2026-11-22T06:58:35.864Z",
-      "price": 16.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51533971685674",
-          "label": "Unsexed",
-          "price": 16.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "dans-fish:10127129084202",
-      "storeSlug": "dans-fish"
-    },
-    {
       "observedAt": "2026-11-22T15:58:41.655Z",
       "price": 9.2,
       "currency": "USD",
@@ -121,23 +69,6 @@
       "type": "heartbeat",
       "listingId": "aquahuna:4603048493131",
       "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-22T15:59:51.902Z",
-      "price": 11.37,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51737020039484",
-          "label": "Title",
-          "price": 11.37,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "nu-aqua-shop:10042820100412",
-      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

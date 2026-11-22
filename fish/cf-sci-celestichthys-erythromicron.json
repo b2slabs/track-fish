@@ -1,43 +1,69 @@
 {
   "canonicalFishId": "cf:sci:celestichthys-erythromicron",
-  "commonName": "Emerald Dwarf Rasbora (Celestichthys erythromicron)",
+  "commonName": "Dwarf Emerald Rasbora",
   "scientificName": "Celestichthys erythromicron",
   "listings": [
     {
       "listingId": "ck-fish-world:8149571633367",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Emerald Dwarf Danio"
+      "commonName": "Emerald Dwarf Danio",
+      "lastCheckedAt": "2026-11-22T16:01:29.374Z"
     },
     {
       "listingId": "monster-aquarium:7456189087953",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Emerald Dwarf Danio (Danio Erythromicron )"
+      "commonName": "Emerald Dwarf Danio (Danio Erythromicron )",
+      "lastCheckedAt": "2026-11-22T16:01:13.602Z"
     },
     {
       "listingId": "nu-aqua-shop:10006356689212",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Emerald Dwarf Rasbora"
+      "commonName": "Emerald Dwarf Rasbora",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     },
     {
       "listingId": "aquatic-arts:4740688006",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Emerald Dwarf Rasbora (Celestichthys erythromicron), Tank-Bred"
+      "commonName": "Emerald Dwarf Rasbora (Celestichthys erythromicron), Tank-Bred",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "shrimpy-business:6703166816341",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Emerald Dwarf Rasbora (Tank-Bred)"
+      "commonName": "Emerald Dwarf Rasbora (Tank-Bred)",
+      "lastCheckedAt": "2026-11-22T16:01:35.155Z"
     },
     {
       "listingId": "aqua-imports:40237",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Emerald Dwarf Rasbora (Celestichthys erythromicron)"
+    },
+    {
+      "listingId": "aquahuna:1724218310699",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Emerald Dwarf Rasbora",
+      "lastCheckedAt": "2026-11-22T16:01:22.102Z"
+    },
+    {
+      "listingId": "imperial-tropicals:8398117241139",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Emerald Dwarf Rasbora",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
+    },
+    {
+      "listingId": "dans-fish:10127075442986",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Dwarf Emerald Rasbora",
+      "lastCheckedAt": "2026-11-22T16:02:56.833Z"
     }
   ],
   "events": [
@@ -152,6 +178,26 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 3.8,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15774078631979",
+          "label": "Title",
+          "price": 3.8,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:1724218310699",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-20T06:14:42.801Z",
       "price": 19.98,
       "currency": "USD",
@@ -222,6 +268,32 @@
       "storeSlug": "shrimpy-business"
     },
     {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612142231859",
+          "label": "(3 Pack) 0.5-1\" Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "50841806209331",
+          "label": "(10 Pack) 0.5-1\" Unsexed",
+          "price": 74.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398117241139",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-21T01:29:44.090Z",
       "price": 10.42,
       "currency": "USD",
@@ -240,6 +312,26 @@
       ],
       "listingId": "nu-aqua-shop:10006356689212",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533808140586",
+          "label": "Unsexed",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127075442986",
+      "storeSlug": "dans-fish"
     },
     {
       "observedAt": "2026-11-22T15:58:21.001Z",
@@ -292,6 +384,23 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7456189087953",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 3.8,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15774078631979",
+          "label": "Title",
+          "price": 3.8,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1724218310699",
+      "storeSlug": "aquahuna"
     },
     {
       "observedAt": "2026-11-22T15:58:47.389Z",
@@ -356,6 +465,29 @@
       "type": "heartbeat",
       "listingId": "shrimpy-business:6703166816341",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612142231859",
+          "label": "(3 Pack) 0.5-1\" Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "50841806209331",
+          "label": "(10 Pack) 0.5-1\" Unsexed",
+          "price": 74.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398117241139",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-22T15:59:51.902Z",

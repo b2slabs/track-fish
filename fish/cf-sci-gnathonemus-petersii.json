@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:gnathonemus-petersii",
-  "commonName": "Peters Elephant Nose Fish (Gnathonemus petersii)",
+  "commonName": "Elephant Nose Fish",
   "scientificName": "Gnathonemus petersii",
   "listings": [
     {
@@ -8,9 +8,121 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Peters Elephant Nose Fish (Gnathonemus petersii)"
+    },
+    {
+      "listingId": "monster-aquarium:6967227351249",
+      "storeSlug": "monster-aquarium",
+      "storeName": "Monster Aquarium",
+      "commonName": "Elephant Nose Fish (Gnathonemus petersii)",
+      "lastCheckedAt": "2026-11-22T16:01:13.602Z"
+    },
+    {
+      "listingId": "aquarium-fish:6096710150",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Elephant Nose Fish",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 47.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40848440950993",
+          "label": "3.5-4”",
+          "price": 18,
+          "available": false
+        },
+        {
+          "id": "42449645437137",
+          "label": "4\"-5.5\"",
+          "price": 27.99,
+          "available": false
+        },
+        {
+          "id": "41846571860177",
+          "label": "6-7”",
+          "price": 47.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:6967227351249",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 42.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47491888316715",
+          "label": "Title",
+          "price": 42.29,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6096710150",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 47.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40848440950993",
+          "label": "3.5-4”",
+          "price": 18,
+          "available": false
+        },
+        {
+          "id": "42449645437137",
+          "label": "4\"-5.5\"",
+          "price": 27.99,
+          "available": false
+        },
+        {
+          "id": "41846571860177",
+          "label": "6-7”",
+          "price": 47.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6967227351249",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 42.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47491888316715",
+          "label": "Title",
+          "price": 42.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6096710150",
+      "storeSlug": "aquarium-fish"
+    },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 24.99,

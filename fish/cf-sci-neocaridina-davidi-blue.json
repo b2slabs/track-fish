@@ -1,76 +1,125 @@
 {
   "canonicalFishId": "cf:sci:neocaridina-davidi:blue",
-  "commonName": "Blue Rili Shrimp (Neocaridina davidi)",
+  "commonName": "Blue Dream Shrimp",
   "scientificName": "Neocaridina davidi",
   "listings": [
     {
       "listingId": "monster-aquarium:6967146610897",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Blue Velvet Shrimp (Neocaridina davidi)"
+      "commonName": "Blue Velvet Shrimp (Neocaridina davidi)",
+      "lastCheckedAt": "2026-11-22T16:01:13.602Z"
     },
     {
       "listingId": "aquarium-fish:6592330886",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Blue Velvet Shrimp"
+      "commonName": "Blue Velvet Shrimp",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     },
     {
       "listingId": "glass-aqua:7657243115606",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Blue Dream Shrimp"
-    },
-    {
-      "listingId": "nu-aqua-shop:10310765707580",
-      "storeSlug": "nu-aqua-shop",
-      "storeName": "NU Aqua Shop",
-      "commonName": "Blue Dream Shrimp"
+      "commonName": "Blue Dream Shrimp",
+      "lastCheckedAt": "2026-11-22T16:02:34.703Z"
     },
     {
       "listingId": "shrimpy-business:2591869010005+9918709530914",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Blue Rili Shrimp"
+      "commonName": "Blue Rili Shrimp",
+      "lastCheckedAt": "2026-11-22T16:01:35.155Z"
     },
     {
       "listingId": "flip-aquatics:11067414212+11067729732",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Blue Dream Shrimp"
+      "commonName": "Blue Dream Shrimp",
+      "lastCheckedAt": "2026-11-22T16:01:39.266Z"
     },
     {
       "listingId": "buce-plant:7552033390792+9213630477",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Blue Rili Shrimp"
+      "commonName": "Blue Rili Shrimp",
+      "lastCheckedAt": "2026-11-22T16:02:19.867Z"
     },
     {
       "listingId": "aquatic-arts:4689023174+5378067526+8055096639767+8055165747479",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Blue Rili Shrimp (Neocaridina davidi), Tank-Bred"
+      "commonName": "Blue Rili Shrimp (Neocaridina davidi), Tank-Bred",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "aquatic-arts:6783739854934",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Sky Blue Velvet Shrimp Breeder Combo Box"
+      "commonName": "Sky Blue Velvet Shrimp Breeder Combo Box",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "aquatic-arts:6783011356758",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Dream Blue Velvet Shrimp Breeder Combo Box"
+      "commonName": "Dream Blue Velvet Shrimp Breeder Combo Box",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "aqua-imports:114189+190522",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Blue Rili Shrimp (Neocaridina davidi)"
+    },
+    {
+      "listingId": "ck-fish-world:8359956185303",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Blue Velvet Shrimp",
+      "lastCheckedAt": "2026-11-22T16:01:29.374Z"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006355345724+10310765707580",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Blue Dream Shrimp",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336214634711",
+          "label": "3",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45335846813911",
+          "label": "5",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45335846846679",
+          "label": "10",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8359956185303",
+      "storeSlug": "ck-fish-world"
+    },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 7.99,
@@ -318,6 +367,38 @@
       ],
       "listingId": "monster-aquarium:6967146610897",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336214634711",
+          "label": "3",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45335846813911",
+          "label": "5",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45335846846679",
+          "label": "10",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8359956185303",
+      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-20T06:27:39.339Z",
@@ -637,7 +718,27 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "nu-aqua-shop:10310765707580",
+      "listingId": "nu-aqua-shop:10006355345724+10310765707580",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 27.75,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627662836028",
+          "label": "Title",
+          "price": 27.75,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006355345724+10310765707580",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -1359,6 +1460,35 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336214634711",
+          "label": "3",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45335846813911",
+          "label": "5",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45335846846679",
+          "label": "10",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8359956185303",
+      "storeSlug": "ck-fish-world"
+    },
+    {
       "observedAt": "2026-11-22T15:58:52.034Z",
       "price": 27.5,
       "currency": "USD",
@@ -1589,7 +1719,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "nu-aqua-shop:10310765707580",
+      "listingId": "nu-aqua-shop:10006355345724+10310765707580",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 27.75,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627662836028",
+          "label": "Title",
+          "price": 27.75,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006355345724+10310765707580",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -1617,6 +1764,32 @@
       ],
       "listingId": "aqua-imports:114189+190522",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:02:48.468Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52806345261372",
+          "label": "Single",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "51627662836028",
+          "label": "Blue Velvet Shrimp",
+          "price": 27.75,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006355345724+10310765707580",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

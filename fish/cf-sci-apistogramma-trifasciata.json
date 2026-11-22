@@ -1,31 +1,35 @@
 {
   "canonicalFishId": "cf:sci:apistogramma-trifasciata",
-  "commonName": "Three Stripe Apisto (Apistogramma trifasciata)",
+  "commonName": "Three Stripe Apisto",
   "scientificName": "Apistogramma trifasciata",
   "listings": [
     {
       "listingId": "aquatic-arts:1993869459542",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Redfin Three-Striped Dwarf Cichlid (Apistogramma trifasciata) - TANK-BRED!!!"
+      "commonName": "Redfin Three-Striped Dwarf Cichlid (Apistogramma trifasciata) - TANK-BRED!!!",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "imperial-tropicals:8303244017971",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Apistogramma trifasciata"
+      "commonName": "Apistogramma trifasciata",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
     },
     {
       "listingId": "aquahuna:6829148143691",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
-      "commonName": "Apistogramma Trifasciatum"
+      "commonName": "Apistogramma Trifasciatum",
+      "lastCheckedAt": "2026-11-22T16:01:22.102Z"
     },
     {
       "listingId": "nu-aqua-shop:10006354329916",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Apistogramma Trifasciata PAIR"
+      "commonName": "Apistogramma Trifasciata PAIR",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:681760",
@@ -38,6 +42,13 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Three Stripe Apisto (Apistogramma trifasciata)"
+    },
+    {
+      "listingId": "dans-fish:10127102083370",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Three Stripe Apisto",
+      "lastCheckedAt": "2026-11-22T16:02:56.833Z"
     }
   ],
   "events": [
@@ -164,6 +175,38 @@
       ],
       "listingId": "nu-aqua-shop:10006354329916",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533886816554",
+          "label": "Unsexed",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "51533886849322",
+          "label": "Male",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "51533886882090",
+          "label": "Female",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127102083370",
+      "storeSlug": "dans-fish"
     },
     {
       "observedAt": "2026-11-22T15:58:21.001Z",

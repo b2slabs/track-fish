@@ -1,14 +1,8 @@
 {
   "canonicalFishId": "cf:nationwide-aquatics-usa:15413288370329",
-  "commonName": "Synodontis longirostris",
+  "commonName": "synodontis longirostris",
   "scientificName": null,
   "listings": [
-    {
-      "listingId": "nationwide-aquatics-usa:15413288370329",
-      "storeSlug": "nationwide-aquatics-usa",
-      "storeName": "Nationwide Aquatics USA",
-      "commonName": "synodontis longirostris"
-    },
     {
       "listingId": "wet-spot-tropical-fish:683767",
       "storeSlug": "wet-spot-tropical-fish",
@@ -20,6 +14,13 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Synodontis longirostris"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:15413288370329+8730836467865",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "synodontis longirostris",
+      "lastCheckedAt": "2026-11-22T16:01:32.924Z"
     }
   ],
   "events": [
@@ -40,7 +41,27 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "nationwide-aquatics-usa:15413288370329",
+      "listingId": "nationwide-aquatics-usa:15413288370329+8730836467865",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:43.307Z",
+      "price": 375,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47059329351833",
+          "label": "Title",
+          "price": 375,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:15413288370329+8730836467865",
       "storeSlug": "nationwide-aquatics-usa"
     },
     {
@@ -57,7 +78,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "nationwide-aquatics-usa:15413288370329",
+      "listingId": "nationwide-aquatics-usa:15413288370329+8730836467865",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:50.364Z",
+      "price": 375,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47059329351833",
+          "label": "Title",
+          "price": 375,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:15413288370329+8730836467865",
       "storeSlug": "nationwide-aquatics-usa"
     },
     {
@@ -99,6 +137,32 @@
       ],
       "listingId": "aqua-imports:186567",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:01:32.924Z",
+      "price": 375,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67648086147225",
+          "label": "synodontis longirostris",
+          "price": 105,
+          "available": false
+        },
+        {
+          "id": "47059329351833",
+          "label": "Synodontis longirostris 10\"",
+          "price": 375,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:15413288370329+8730836467865",
+      "storeSlug": "nationwide-aquatics-usa"
     }
   ]
 }

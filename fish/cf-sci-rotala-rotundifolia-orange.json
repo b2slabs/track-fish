@@ -1,37 +1,48 @@
 {
   "canonicalFishId": "cf:sci:rotala-rotundifolia:orange",
-  "commonName": "Rotala ‘Orange Juice’ (Rotala rotundifolia ‘Orange Juice’)",
+  "commonName": "Rotala Orange Juice",
   "scientificName": "Rotala rotundifolia",
   "listings": [
     {
       "listingId": "flip-aquatics:7161718407270",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Rotala Rotundifolia Orange Juice"
+      "commonName": "Rotala Rotundifolia Orange Juice",
+      "lastCheckedAt": "2026-11-22T16:01:39.266Z"
     },
     {
       "listingId": "daku-aquatics:8741039145178",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
-      "commonName": "Rotala Rotundifolia 'Orange Juice'"
+      "commonName": "Rotala Rotundifolia 'Orange Juice'",
+      "lastCheckedAt": "2026-11-22T16:02:18.343Z"
     },
     {
       "listingId": "buce-plant:1569210269777",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Rotala Rotundifolia Orange Juice"
+      "commonName": "Rotala Rotundifolia Orange Juice",
+      "lastCheckedAt": "2026-11-22T16:02:19.867Z"
     },
     {
       "listingId": "glass-aqua:1567764185174",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Rotala Rotundifolia Orange Juice"
+      "commonName": "Rotala Rotundifolia Orange Juice",
+      "lastCheckedAt": "2026-11-22T16:02:34.703Z"
     },
     {
       "listingId": "aqua-imports:151972",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Rotala ‘Orange Juice’ (Rotala rotundifolia ‘Orange Juice’)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006360195388",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Rotala Orange Juice",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     }
   ],
   "events": [
@@ -116,6 +127,26 @@
       "storeSlug": "glass-aqua"
     },
     {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 7.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627672305980",
+          "label": "Title",
+          "price": 7.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006360195388",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
       "observedAt": "2026-11-22T15:58:55.354Z",
       "price": 7.99,
       "currency": "USD",
@@ -182,6 +213,23 @@
       "type": "heartbeat",
       "listingId": "glass-aqua:1567764185174",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 7.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627672305980",
+          "label": "Title",
+          "price": 7.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006360195388",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

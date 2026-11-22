@@ -1,19 +1,34 @@
 {
   "canonicalFishId": "cf:sci:hoplisoma-adolfoi",
-  "commonName": "Adolfoi Cory (Hoplisoma adolfoi)",
+  "commonName": "Corydoras adolfoi",
   "scientificName": "Hoplisoma adolfoi",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398162362675+9594102055219",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Adolfo's Hoplisoma (Hoplisoma adolfoi)"
+      "commonName": "Adolfo's Hoplisoma (Hoplisoma adolfoi)",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
     },
     {
       "listingId": "aqua-imports:186018+81577",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Adolfoi Cory (Hoplisoma adolfoi)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006353903932",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Adolfoi Cory",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
+    },
+    {
+      "listingId": "dans-fish:10127115452714",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Corydoras adolfoi",
+      "lastCheckedAt": "2026-11-22T16:02:56.833Z"
     }
   ],
   "events": [
@@ -94,6 +109,26 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627658346812",
+          "label": "Title",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006353903932",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
       "observedAt": "2026-11-21T20:08:19.601Z",
       "price": 79.99,
       "currency": "USD",
@@ -156,6 +191,26 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 47.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533927317802",
+          "label": "Unsexed",
+          "price": 47.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127115452714",
+      "storeSlug": "dans-fish"
+    },
+    {
       "observedAt": "2026-11-22T15:59:16.177Z",
       "price": 79.99,
       "currency": "USD",
@@ -213,6 +268,23 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8398162362675+9594102055219",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627658346812",
+          "label": "Title",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006353903932",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

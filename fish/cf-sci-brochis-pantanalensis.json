@@ -1,19 +1,27 @@
 {
   "canonicalFishId": "cf:sci:brochis-pantanalensis",
-  "commonName": "C005 Pantanalensis Cory (Brochis pantanalensis)",
+  "commonName": "C005 Corydoras pantanalensis",
   "scientificName": "Brochis pantanalensis",
   "listings": [
     {
       "listingId": "shrimpy-business:9551574008098",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "C005 Pantanal Cory (Tank-Bred)"
+      "commonName": "C005 Pantanal Cory (Tank-Bred)",
+      "lastCheckedAt": "2026-11-22T16:01:35.155Z"
     },
     {
       "listingId": "aqua-imports:186010+69259",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "C005 Pantanalensis Cory (Brochis pantanalensis)"
+    },
+    {
+      "listingId": "dans-fish:10127098839338",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "C005 Corydoras pantanalensis",
+      "lastCheckedAt": "2026-11-22T16:02:56.833Z"
     }
   ],
   "events": [
@@ -54,6 +62,26 @@
       ],
       "listingId": "shrimpy-business:9551574008098",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533876396330",
+          "label": "Unsexed",
+          "price": 69.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127098839338",
+      "storeSlug": "dans-fish"
     },
     {
       "observedAt": "2026-11-22T15:58:52.034Z",

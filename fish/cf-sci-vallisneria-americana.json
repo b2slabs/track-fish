@@ -1,31 +1,48 @@
 {
   "canonicalFishId": "cf:sci:vallisneria-americana",
-  "commonName": "Vallisneria “Jungle” (Vallisneria americana)",
+  "commonName": "Jungle Vallisneria",
   "scientificName": "Vallisneria americana",
   "listings": [
     {
       "listingId": "buce-plant:10543881869",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Vallisneria Americana"
+      "commonName": "Vallisneria Americana",
+      "lastCheckedAt": "2026-11-22T16:02:19.867Z"
     },
     {
       "listingId": "glass-aqua:7436497485910",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Vallisneria Americana"
+      "commonName": "Vallisneria Americana",
+      "lastCheckedAt": "2026-11-22T16:02:34.703Z"
     },
     {
       "listingId": "aquatic-arts:1378925936726+3876540874838",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Jungle Vallisneria (Vallisneria americana), Bunch w/Lead"
+      "commonName": "Jungle Vallisneria (Vallisneria americana), Bunch w/Lead",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "aqua-imports:59970",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Vallisneria “Jungle” (Vallisneria americana)"
+    },
+    {
+      "listingId": "aquarium-fish:6260712134",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Jungle vallisneria",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
+    },
+    {
+      "listingId": "nu-aqua-shop:10377643032892",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Jungle Vallisneria",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     }
   ],
   "events": [
@@ -82,6 +99,26 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 5.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19810081798",
+          "label": "Title",
+          "price": 5.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6260712134",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 6.79,
       "currency": "USD",
@@ -126,6 +163,26 @@
       ],
       "listingId": "glass-aqua:7436497485910",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53027548627260",
+          "label": "Title",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10377643032892",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-22T00:52:10.879Z",
@@ -201,6 +258,23 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 5.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19810081798",
+          "label": "Title",
+          "price": 5.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6260712134",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-22T15:59:26.456Z",
       "price": 6.79,
       "currency": "USD",
@@ -239,6 +313,23 @@
       "type": "heartbeat",
       "listingId": "glass-aqua:7436497485910",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53027548627260",
+          "label": "Title",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10377643032892",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

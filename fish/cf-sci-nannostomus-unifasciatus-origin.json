@@ -1,19 +1,14 @@
 {
   "canonicalFishId": "cf:sci:nannostomus-unifasciatus-origin",
-  "commonName": "Rocket Pencilfish",
+  "commonName": "Rocket Pencil fish (Nannostomus Eques)",
   "scientificName": "Nannostomus unifasciatus origin",
   "listings": [
-    {
-      "listingId": "aquarium-fish:6657762886",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Rocket Pencilfish"
-    },
     {
       "listingId": "monster-aquarium:7194922647761",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Rocket Pencil fish (Nannostomus Eques)"
+      "commonName": "Rocket Pencil fish (Nannostomus Eques)",
+      "lastCheckedAt": "2026-11-22T16:01:13.602Z"
     }
   ],
   "events": [
@@ -38,26 +33,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-20T06:27:42.901Z",
-      "price": 6.79,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "21040378694",
-          "label": "Title",
-          "price": 6.79,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquarium-fish:6657762886",
-      "storeSlug": "aquarium-fish"
-    },
-    {
       "observedAt": "2026-11-22T15:58:35.129Z",
       "price": 3,
       "currency": "USD",
@@ -73,23 +48,6 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7194922647761",
       "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-22T15:59:02.777Z",
-      "price": 6.79,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "21040378694",
-          "label": "Title",
-          "price": 6.79,
-          "available": false
-        }
-      ],
-      "type": "heartbeat",
-      "listingId": "aquarium-fish:6657762886",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

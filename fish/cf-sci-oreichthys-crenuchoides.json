@@ -1,19 +1,27 @@
 {
   "canonicalFishId": "cf:sci:oreichthys-crenuchoides",
-  "commonName": "Drape Fin Barb (Oreichthys crenuchoides)",
+  "commonName": "Drape Fin Barb",
   "scientificName": "Oreichthys crenuchoides",
   "listings": [
     {
       "listingId": "flip-aquatics:6849673822310",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Drape Fin Barb | Oreichthys Crenuchoides"
+      "commonName": "Drape Fin Barb | Oreichthys Crenuchoides",
+      "lastCheckedAt": "2026-11-22T16:01:39.266Z"
     },
     {
       "listingId": "aqua-imports:56895",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Drape Fin Barb (Oreichthys crenuchoides)"
+    },
+    {
+      "listingId": "dans-fish:10127144354090",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Drape Fin Barb",
+      "lastCheckedAt": "2026-11-22T16:02:56.833Z"
     }
   ],
   "events": [
@@ -36,6 +44,38 @@
       ],
       "listingId": "flip-aquatics:6849673822310",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51534029029674",
+          "label": "Unsexed",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "51534029062442",
+          "label": "Male",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "51534029095210",
+          "label": "Female",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127144354090",
+      "storeSlug": "dans-fish"
     },
     {
       "observedAt": "2026-11-22T15:58:55.354Z",

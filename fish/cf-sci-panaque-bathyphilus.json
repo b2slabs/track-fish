@@ -1,19 +1,27 @@
 {
   "canonicalFishId": "cf:sci:panaque-bathyphilus",
-  "commonName": "L090 Papa Lyretail Pleco (Panaque bathyphilus)",
+  "commonName": "L090 Papa Lyretail Pleco",
   "scientificName": "Panaque bathyphilus",
   "listings": [
     {
       "listingId": "aquarium-fish:1657727909958",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "L-90 Papa Pleco"
+      "commonName": "L-90 Papa Pleco",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     },
     {
       "listingId": "aqua-imports:40730+69234",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "L090 Papa Lyretail Pleco (Panaque bathyphilus)"
+    },
+    {
+      "listingId": "imperial-tropicals:8398132609331",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "L090 Papa Lyretail Pleco",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
     }
   ],
   "events": [
@@ -44,6 +52,38 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612178276659",
+          "label": "2-3\" Unsexed",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "49579591958835",
+          "label": "3-4\" Unsexed",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "49579595235635",
+          "label": "4-5\" Unsexed",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398132609331",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-22T15:59:02.777Z",
       "price": 29.99,
       "currency": "USD",
@@ -65,6 +105,35 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:1657727909958",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612178276659",
+          "label": "2-3\" Unsexed",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "49579591958835",
+          "label": "3-4\" Unsexed",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "49579595235635",
+          "label": "4-5\" Unsexed",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398132609331",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

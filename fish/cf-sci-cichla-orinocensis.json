@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:cichla-orinocensis",
-  "commonName": "“Flower” Orinocensis Peacock Bass (Cichla orinocensis) – Rio Meta Locale",
+  "commonName": "Peacock Bass Orinocensis",
   "scientificName": "Cichla orinocensis",
   "listings": [
     {
@@ -8,9 +8,109 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "“Flower” Orinocensis Peacock Bass (Cichla orinocensis) – Rio Meta Locale"
+    },
+    {
+      "listingId": "monster-aquarium:6984264614097",
+      "storeSlug": "monster-aquarium",
+      "storeName": "Monster Aquarium",
+      "commonName": "Orinocensis Peacock Bass (Cichla orinocensis)",
+      "lastCheckedAt": "2026-11-22T16:01:13.602Z"
+    },
+    {
+      "listingId": "aquarium-fish:1440521879622",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Peacock Bass Orinocensis",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40891711881425",
+          "label": "5-5.5\"",
+          "price": 55,
+          "available": false
+        },
+        {
+          "id": "42603784306897",
+          "label": "6.5-7.5”",
+          "price": 120,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:6984264614097",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 44.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12733660921926",
+          "label": "Title",
+          "price": 44.29,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:1440521879622",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40891711881425",
+          "label": "5-5.5\"",
+          "price": 55,
+          "available": false
+        },
+        {
+          "id": "42603784306897",
+          "label": "6.5-7.5”",
+          "price": 120,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6984264614097",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 44.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12733660921926",
+          "label": "Title",
+          "price": 44.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:1440521879622",
+      "storeSlug": "aquarium-fish"
+    },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 34.99,

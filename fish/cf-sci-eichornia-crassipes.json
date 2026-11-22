@@ -1,19 +1,27 @@
 {
   "canonicalFishId": "cf:sci:eichornia-crassipes",
-  "commonName": "Water Hyacinth (Eichornia crassipes)",
+  "commonName": "Water Hyacinth",
   "scientificName": "Eichornia crassipes",
   "listings": [
     {
       "listingId": "aquatic-arts:6562203172950",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Water Hyacinth (Eichornia crassipes), Regular and Jumbo"
+      "commonName": "Water Hyacinth (Eichornia crassipes), Regular and Jumbo",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "aqua-imports:60166",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Water Hyacinth (Eichornia crassipes)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10419048546620",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Water Hyacinth",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     }
   ],
   "events": [
@@ -44,6 +52,26 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53171920109884",
+          "label": "Title",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10419048546620",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
       "observedAt": "2026-11-22T15:58:21.001Z",
       "price": 5.99,
       "currency": "USD",
@@ -65,6 +93,23 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:6562203172950",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53171920109884",
+          "label": "Title",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10419048546620",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

@@ -1,52 +1,85 @@
 {
   "canonicalFishId": "cf:sci:hydrocotyle-tripartita",
-  "commonName": "Dwarf Pennywort ‘Japan’ (Hydrocotyle tripartita)",
+  "commonName": "Hydrocotyle Tripartita",
   "scientificName": "Hydrocotyle tripartita",
   "listings": [
     {
       "listingId": "flip-aquatics:4673527480422+6694492536934",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Hydrocotyle tripartita  \"Japan\""
+      "commonName": "Hydrocotyle tripartita  \"Japan\"",
+      "lastCheckedAt": "2026-11-22T16:01:39.266Z"
     },
     {
       "listingId": "aquarium-fish:10105569313067+10106560708907",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Mini pennyworth - Tissue Culture"
+      "commonName": "Mini pennyworth - Tissue Culture",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     },
     {
       "listingId": "daku-aquatics:8741031444698+9183247991002",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
-      "commonName": "Hydrocotyle Tripartita"
+      "commonName": "Hydrocotyle Tripartita",
+      "lastCheckedAt": "2026-11-22T16:02:18.343Z"
     },
     {
       "listingId": "buce-plant:409535807528+7507772440776+7663800516808+9369860301+9520402829",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Hydrocotyle Tripartita"
+      "commonName": "Hydrocotyle Tripartita",
+      "lastCheckedAt": "2026-11-22T16:02:19.867Z"
     },
     {
       "listingId": "glass-aqua:11277474183+6848402489430",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Hydrocotyle Tripartita"
+      "commonName": "Hydrocotyle Tripartita",
+      "lastCheckedAt": "2026-11-22T16:02:34.703Z"
     },
     {
       "listingId": "imperial-tropicals:8925540647219",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Japanese Dwarf Pennywort"
+      "commonName": "Japanese Dwarf Pennywort",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
     },
     {
       "listingId": "aqua-imports:60161",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Dwarf Pennywort ‘Japan’ (Hydrocotyle tripartita)"
+    },
+    {
+      "listingId": "shrimpy-business:9431140008226",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Dwarf Pennywort - Japan",
+      "lastCheckedAt": "2026-11-22T16:01:35.155Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 8.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49007588671778",
+          "label": "Title",
+          "price": 8.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9431140008226",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 12.99,
@@ -540,6 +573,23 @@
       ],
       "listingId": "glass-aqua:11277474183+6848402489430",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 8.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49007588671778",
+          "label": "Title",
+          "price": 8.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9431140008226",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-22T15:58:55.354Z",

@@ -1,37 +1,55 @@
 {
   "canonicalFishId": "cf:sci:hemianthus-callitrichoides",
-  "commonName": "Dwarf Baby Tears (Hemianthus callitrichoides)",
+  "commonName": "Hemianthus Callitrichoides ‘Cuba'",
   "scientificName": "Hemianthus callitrichoides",
   "listings": [
     {
       "listingId": "glass-aqua:11277473863",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Hemianthus Callitrichoides ‘Cuba'"
+      "commonName": "Hemianthus Callitrichoides ‘Cuba'",
+      "lastCheckedAt": "2026-11-22T16:02:34.703Z"
     },
     {
       "listingId": "buce-plant:2870741172305+8561775117+9860832269",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Hemianthus Callitrichoides 'Cuba' (Dwarf Baby Tears)"
+      "commonName": "Hemianthus Callitrichoides 'Cuba' (Dwarf Baby Tears)",
+      "lastCheckedAt": "2026-11-22T16:02:19.867Z"
     },
     {
       "listingId": "aquatic-arts:1923354198102+8155386630",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Dwarf Baby Tears Pot - Hemianthus callitrichoides"
-    },
-    {
-      "listingId": "flip-aquatics:6692645175398",
-      "storeSlug": "flip-aquatics",
-      "storeName": "Flip Aquatics",
-      "commonName": "Dwarf Baby Tears  | Hemianthus Callitrichoides | Tissue Culture"
+      "commonName": "Dwarf Baby Tears Pot - Hemianthus callitrichoides",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "aqua-imports:60144",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Dwarf Baby Tears (Hemianthus callitrichoides)"
+    },
+    {
+      "listingId": "flip-aquatics:6692633182310+6692645175398",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Dwarf Baby Tears (HC)",
+      "lastCheckedAt": "2026-11-22T16:01:39.266Z"
+    },
+    {
+      "listingId": "aquarium-fish:6260760454",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Dwarf Baby Tears (Potted)",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
+    },
+    {
+      "listingId": "imperial-tropicals:8398180712755",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Dwarf Baby Tears",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
     }
   ],
   "events": [
@@ -89,6 +107,26 @@
     },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550742298726",
+          "label": "Potted",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6692633182310+6692645175398",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 12.99,
       "currency": "USD",
       "available": false,
@@ -104,8 +142,48 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "flip-aquatics:6692645175398",
+      "listingId": "flip-aquatics:6692633182310+6692645175398",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 7.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19810225478",
+          "label": "Title",
+          "price": 7.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6260760454",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612296012083",
+          "label": "1 Potted Plant",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398180712755",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
@@ -210,6 +288,27 @@
       ],
       "listingId": "glass-aqua:11277473863",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612296012083",
+          "label": "1 Potted Plant",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398180712755",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-21T20:08:29.473Z",
@@ -330,6 +429,23 @@
     },
     {
       "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550742298726",
+          "label": "Potted",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692633182310+6692645175398",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
       "price": 12.99,
       "currency": "USD",
       "available": false,
@@ -342,8 +458,42 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "flip-aquatics:6692645175398",
+      "listingId": "flip-aquatics:6692633182310+6692645175398",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 7.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19810225478",
+          "label": "Title",
+          "price": 7.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6260760454",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612296012083",
+          "label": "1 Potted Plant",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398180712755",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-22T15:59:26.456Z",
@@ -434,6 +584,32 @@
       ],
       "listingId": "aqua-imports:60144",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:01:39.266Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550742298726",
+          "label": "Potted",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "39550762254438",
+          "label": "Dwarf Baby Tears  | Hemianthus Callitrichoides | Tissue Culture",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6692633182310+6692645175398",
+      "storeSlug": "flip-aquatics"
     }
   ]
 }

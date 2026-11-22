@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:botia-histrionica:gold",
-  "commonName": "Burmese Golden Zebra Loach (Botia histrionica)",
+  "commonName": "Gold Zebra Loach",
   "scientificName": "Botia histrionica",
   "listings": [
     {
@@ -8,9 +8,97 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Burmese Golden Zebra Loach (Botia histrionica)"
+    },
+    {
+      "listingId": "monster-aquarium:7264212910289",
+      "storeSlug": "monster-aquarium",
+      "storeName": "Monster Aquarium",
+      "commonName": "Golden Zebra Loach (Botia histrionica)",
+      "lastCheckedAt": "2026-11-22T16:01:13.602Z"
+    },
+    {
+      "listingId": "aquarium-fish:4782696595537",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Gold Zebra Loach",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41596073803985",
+          "label": "1.5-2.5”",
+          "price": 10,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7264212910289",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32891151876177",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:4782696595537",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41596073803985",
+          "label": "1.5-2.5”",
+          "price": 10,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7264212910289",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32891151876177",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4782696595537",
+      "storeSlug": "aquarium-fish"
+    },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 10.99,

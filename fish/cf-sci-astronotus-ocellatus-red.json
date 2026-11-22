@@ -1,37 +1,48 @@
 {
   "canonicalFishId": "cf:sci:astronotus-ocellatus:red",
-  "commonName": "Red Chili Oscar (Astronotus ocellatus)",
+  "commonName": "Chili Red Oscar",
   "scientificName": "Astronotus ocellatus",
   "listings": [
     {
       "listingId": "imperial-tropicals:8398115733811",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Red Oscar"
+      "commonName": "Red Oscar",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
     },
     {
       "listingId": "aquatic-arts:4508653781078",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Red Oscar (Astronotus ocellatus), Tank-Bred"
+      "commonName": "Red Oscar (Astronotus ocellatus), Tank-Bred",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "monster-aquarium:7199919964369+7437875314897",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Fire Red Oscar (Astronotus ocellatus)"
+      "commonName": "Fire Red Oscar (Astronotus ocellatus)",
+      "lastCheckedAt": "2026-11-22T16:01:13.602Z"
     },
     {
       "listingId": "aquarium-fish:5951724550+8856786862379",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Red Oscar"
+      "commonName": "Red Oscar",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     },
     {
       "listingId": "aqua-imports:126251+130296",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Chili Oscar (Astronotus ocellatus)"
+    },
+    {
+      "listingId": "global-exoticquatics:10256853270720",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Chili Red Oscar",
+      "lastCheckedAt": "2026-11-22T16:02:44.108Z"
     }
   ],
   "events": [
@@ -216,6 +227,26 @@
       ],
       "listingId": "imperial-tropicals:8398115733811",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 40,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50440312553664",
+          "label": "3-3.5in",
+          "price": 40,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:10256853270720",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-20T17:33:47.733Z",
@@ -462,6 +493,23 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8398115733811",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 40,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50440312553664",
+          "label": "3-3.5in",
+          "price": 40,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:10256853270720",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

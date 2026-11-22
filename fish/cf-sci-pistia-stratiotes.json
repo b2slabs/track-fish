@@ -1,37 +1,41 @@
 {
   "canonicalFishId": "cf:sci:pistia-stratiotes",
-  "commonName": "Water Lettuce (Pistia stratiotes)",
+  "commonName": "Water Lettuce",
   "scientificName": "Pistia stratiotes",
   "listings": [
     {
       "listingId": "flip-aquatics:6664255111270",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Dwarf Water Lettuce"
+      "commonName": "Dwarf Water Lettuce",
+      "lastCheckedAt": "2026-11-22T16:01:39.266Z"
     },
     {
       "listingId": "buce-plant:9541168717",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Pistia Stratiotes/ Water Lettuce"
-    },
-    {
-      "listingId": "nu-aqua-shop:10110476878140",
-      "storeSlug": "nu-aqua-shop",
-      "storeName": "NU Aqua Shop",
-      "commonName": "Dwarf Water Lettuce"
+      "commonName": "Pistia Stratiotes/ Water Lettuce",
+      "lastCheckedAt": "2026-11-22T16:02:19.867Z"
     },
     {
       "listingId": "aquatic-arts:6562138226774+6562407678038+6562409152598",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Rosette Water Lettuce (Pistia stratiotes)"
+      "commonName": "Rosette Water Lettuce (Pistia stratiotes)",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "aqua-imports:60167",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Water Lettuce (Pistia stratiotes)"
+    },
+    {
+      "listingId": "nu-aqua-shop:10110476878140+10377641492796",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Water Lettuce",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     }
   ],
   "events": [
@@ -143,6 +147,26 @@
     },
     {
       "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53027532865852",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10110476878140+10377641492796",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
       "price": 8.99,
       "currency": "USD",
       "available": false,
@@ -158,7 +182,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "nu-aqua-shop:10110476878140",
+      "listingId": "nu-aqua-shop:10110476878140+10377641492796",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -270,6 +294,23 @@
     },
     {
       "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53027532865852",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10110476878140+10377641492796",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
       "price": 8.99,
       "currency": "USD",
       "available": false,
@@ -282,7 +323,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "nu-aqua-shop:10110476878140",
+      "listingId": "nu-aqua-shop:10110476878140+10377641492796",
       "storeSlug": "nu-aqua-shop"
     },
     {
@@ -304,6 +345,32 @@
       ],
       "listingId": "aqua-imports:60167",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:02:48.468Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53027532865852",
+          "label": "Water Lettuce",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "51952827203900",
+          "label": "Dwarf Water Lettuce",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10110476878140+10377641492796",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

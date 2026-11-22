@@ -1,31 +1,55 @@
 {
   "canonicalFishId": "cf:sci:sturisoma-panamense",
-  "commonName": "Royal Farlowella / Whiptail Catfish (Sturisomatichthys panamensis)",
+  "commonName": "Royal Farlowella",
   "scientificName": "Sturisoma panamense",
   "listings": [
     {
       "listingId": "aquatic-arts:4752776838",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Royal Farlowella (Sturisoma panamense) aka Whiptail Catfish - Tank-Bred!"
+      "commonName": "Royal Farlowella (Sturisoma panamense) aka Whiptail Catfish - Tank-Bred!",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "shrimpy-business:9047879549218",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Royal Farlowella Whiptail Catfish (Tank-Bred)"
+      "commonName": "Royal Farlowella Whiptail Catfish (Tank-Bred)",
+      "lastCheckedAt": "2026-11-22T16:01:35.155Z"
     },
     {
       "listingId": "monster-aquarium:7030051373265",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Royal Farlowella ( RIO MAGDELANA ) (Sturisoma panamense)"
+      "commonName": "Royal Farlowella ( RIO MAGDELANA ) (Sturisoma panamense)",
+      "lastCheckedAt": "2026-11-22T16:01:13.602Z"
     },
     {
       "listingId": "aqua-imports:141615",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Royal Farlowella / Whiptail Catfish (Sturisomatichthys panamensis)"
+    },
+    {
+      "listingId": "aquahuna:6763720769611",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Royal Farlowella",
+      "lastCheckedAt": "2026-11-22T16:01:22.102Z"
+    },
+    {
+      "listingId": "aquarium-fish:2501767069777",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Royal Farlowella",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
+    },
+    {
+      "listingId": "imperial-tropicals:8398161412403",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Royal Farlowella",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
     }
   ],
   "events": [
@@ -76,6 +100,26 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 11,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39849912565835",
+          "label": "Title",
+          "price": 11,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:6763720769611",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 16,
       "currency": "USD",
@@ -112,6 +156,58 @@
       ],
       "listingId": "shrimpy-business:9047879549218",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21549813006417",
+          "label": "Title",
+          "price": 26.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:2501767069777",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53399591584051",
+          "label": "2-3\" Unsexed IMP Captive Bred",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "45612261933363",
+          "label": "4-5\" Unsexed Wild Colombian",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "50986443538739",
+          "label": "5-6\" Unsexed Wild Colombian",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398161412403",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-22T15:58:21.001Z",
@@ -154,6 +250,23 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 11,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39849912565835",
+          "label": "Title",
+          "price": 11,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:6763720769611",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-22T15:58:52.034Z",
       "price": 16,
       "currency": "USD",
@@ -187,6 +300,52 @@
       "type": "heartbeat",
       "listingId": "shrimpy-business:9047879549218",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21549813006417",
+          "label": "Title",
+          "price": 26.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:2501767069777",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53399591584051",
+          "label": "2-3\" Unsexed IMP Captive Bred",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "45612261933363",
+          "label": "4-5\" Unsexed Wild Colombian",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "50986443538739",
+          "label": "5-6\" Unsexed Wild Colombian",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398161412403",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

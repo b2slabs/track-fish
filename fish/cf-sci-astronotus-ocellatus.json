@@ -1,49 +1,55 @@
 {
   "canonicalFishId": "cf:sci:astronotus-ocellatus",
-  "commonName": "Assorted Oscar (Astronotus ocellatus)",
+  "commonName": "Lemon Oscar",
   "scientificName": "Astronotus ocellatus",
   "listings": [
     {
       "listingId": "ck-fish-world:8150025044183",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Oscar"
-    },
-    {
-      "listingId": "global-exoticquatics:8357212487872",
-      "storeSlug": "global-exoticquatics",
-      "storeName": "Global Exoticquatics",
-      "commonName": "Lemon Oscar"
+      "commonName": "Oscar",
+      "lastCheckedAt": "2026-11-22T16:01:29.374Z"
     },
     {
       "listingId": "nu-aqua-shop:10311165346108",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Lemon Oscar"
+      "commonName": "Lemon Oscar",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     },
     {
       "listingId": "monster-aquarium:6986124591313+7014188187857+7017691709649+7289485000913+7622727074001",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
-      "commonName": "Wild Oscar (Astronotus ocellatus)"
+      "commonName": "Wild Oscar (Astronotus ocellatus)",
+      "lastCheckedAt": "2026-11-22T16:01:13.602Z"
     },
     {
       "listingId": "aquarium-fish:790733357175+790734209143",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Lemon Oscar"
+      "commonName": "Lemon Oscar",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     },
     {
       "listingId": "imperial-tropicals:10388752892211+8994136785203",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Marajo Oscar (Astronotus ocellatus)"
+      "commonName": "Marajo Oscar (Astronotus ocellatus)",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
     },
     {
       "listingId": "aqua-imports:113432+116702+39165+39313+42521+64166+74344",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Assorted Oscar (Astronotus ocellatus)"
+    },
+    {
+      "listingId": "global-exoticquatics:8357212487872+8569374310592",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Lemon Oscar",
+      "lastCheckedAt": "2026-11-22T16:02:44.108Z"
     }
   ],
   "events": [
@@ -628,6 +634,26 @@
       "observedAt": "2026-11-20T06:27:57.334Z",
       "price": 15,
       "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48238470955200",
+          "label": "1-2in",
+          "price": 15,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8357212487872+8569374310592",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 15,
+      "currency": "USD",
       "available": true,
       "variants": [
         {
@@ -641,7 +667,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "global-exoticquatics:8357212487872",
+      "listingId": "global-exoticquatics:8357212487872+8569374310592",
       "storeSlug": "global-exoticquatics"
     },
     {
@@ -1114,6 +1140,23 @@
       "observedAt": "2026-11-22T15:59:48.467Z",
       "price": 15,
       "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48238470955200",
+          "label": "1-2in",
+          "price": 15,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8357212487872+8569374310592",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 15,
+      "currency": "USD",
       "available": true,
       "variants": [
         {
@@ -1124,7 +1167,7 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "global-exoticquatics:8357212487872",
+      "listingId": "global-exoticquatics:8357212487872+8569374310592",
       "storeSlug": "global-exoticquatics"
     },
     {
@@ -1199,6 +1242,32 @@
       ],
       "listingId": "aqua-imports:113432+116702+39165+39313+42521+64166+74344",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:02:44.108Z",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48238470955200",
+          "label": "1-2in",
+          "price": 15,
+          "available": false
+        },
+        {
+          "id": "46960210641088",
+          "label": "2 inch",
+          "price": 15,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8357212487872+8569374310592",
+      "storeSlug": "global-exoticquatics"
     }
   ]
 }

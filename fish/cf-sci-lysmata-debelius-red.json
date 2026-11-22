@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:lysmata-debelius:red",
-  "commonName": "Blood Red Fire Shrimp (Lysmata debelius)",
+  "commonName": "Red Fire Shrimp",
   "scientificName": "Lysmata debelius",
   "listings": [
     {
@@ -8,9 +8,110 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Blood Red Fire Shrimp (Lysmata debelius)"
+    },
+    {
+      "listingId": "aquarium-fish:10071908811051",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Red Fire Shrimp",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 65.7,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51588078305579",
+          "label": "Small  (0.75-1.25\")",
+          "price": 65.7,
+          "available": true
+        },
+        {
+          "id": "51227095007531",
+          "label": "Medium (1.25-1.75\")",
+          "price": 71.65,
+          "available": true
+        },
+        {
+          "id": "51227095073067",
+          "label": "Large (1.75-2.25\")",
+          "price": 82.44,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10071908811051",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 77.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51588078305579",
+          "label": "Small  (0.75-1.25\")",
+          "price": 77.29,
+          "available": true
+        },
+        {
+          "id": "51227095007531",
+          "label": "Medium (1.25-1.75\")",
+          "price": 84.29,
+          "available": true
+        },
+        {
+          "id": "51227095073067",
+          "label": "Large (1.75-2.25\")",
+          "price": 96.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10071908811051",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 77.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51588078305579",
+          "label": "Small  (0.75-1.25\")",
+          "price": 77.29,
+          "available": true
+        },
+        {
+          "id": "51227095007531",
+          "label": "Medium (1.25-1.75\")",
+          "price": 84.29,
+          "available": true
+        },
+        {
+          "id": "51227095073067",
+          "label": "Large (1.75-2.25\")",
+          "price": 96.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10071908811051",
+      "storeSlug": "aquarium-fish"
+    },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 49.99,

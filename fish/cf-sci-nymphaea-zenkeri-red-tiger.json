@@ -1,19 +1,48 @@
 {
   "canonicalFishId": "cf:sci:nymphaea-zenkeri:red-tiger",
-  "commonName": "Red Tiger Lotus (Nymphaea zenkeri)",
+  "commonName": "Red Tiger Lotus",
   "scientificName": "Nymphaea zenkeri",
   "listings": [
     {
       "listingId": "aquatic-arts:1984687407190",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Red Tiger Lotus Aquarium Lily (Nymphaea zenkeri), bulb"
+      "commonName": "Red Tiger Lotus Aquarium Lily (Nymphaea zenkeri), bulb",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "aqua-imports:59996",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Tiger Lotus (Nymphaea zenkeri)"
+    },
+    {
+      "listingId": "flip-aquatics:4960089931878",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Red Tiger Lotus",
+      "lastCheckedAt": "2026-11-22T16:01:39.266Z"
+    },
+    {
+      "listingId": "imperial-tropicals:8398128808243",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Red Tiger Lotus",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
+    },
+    {
+      "listingId": "daku-aquatics:8741038489818",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Red Tiger Lotus",
+      "lastCheckedAt": "2026-11-22T16:02:18.343Z"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006360916284",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Red Tiger Lotus",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     }
   ],
   "events": [
@@ -48,6 +77,92 @@
       ],
       "listingId": "aquatic-arts:1984687407190",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32164544381030",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:4960089931878",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612172869939",
+          "label": "1 Plant",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "49382148604211",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398128808243",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043848278234",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741038489818",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627673026876",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006360916284",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-22T06:57:03.992Z",
@@ -110,6 +225,80 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:1984687407190",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:55.354Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32164544381030",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:4960089931878",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612172869939",
+          "label": "1 Plant",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "49382148604211",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398128808243",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:25.196Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043848278234",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "daku-aquatics:8741038489818",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627673026876",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006360916284",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

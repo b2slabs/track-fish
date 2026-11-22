@@ -1,22 +1,102 @@
 {
   "canonicalFishId": "cf:sci:hoplisoma-granti",
-  "commonName": "Skunk Cory (Hoplisoma granti)",
+  "commonName": "Skunk Cory",
   "scientificName": "Hoplisoma granti",
   "listings": [
     {
       "listingId": "imperial-tropicals:10048008519987",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Skunk Hoplisoma (Hoplisoma granti)"
+      "commonName": "Skunk Hoplisoma (Hoplisoma granti)",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
     },
     {
       "listingId": "aqua-imports:46759",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Skunk Cory (Hoplisoma granti)"
+    },
+    {
+      "listingId": "monster-aquarium:7259922694353",
+      "storeSlug": "monster-aquarium",
+      "storeName": "Monster Aquarium",
+      "commonName": "Skunk Cory ( Corydoras Arcuatus )",
+      "lastCheckedAt": "2026-11-22T16:01:13.602Z"
+    },
+    {
+      "listingId": "shrimpy-business:9455600501026",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Skunk Corydoras (Tank-Bred)",
+      "lastCheckedAt": "2026-11-22T16:01:35.155Z"
+    },
+    {
+      "listingId": "nu-aqua-shop:10373109973308",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Skunk Cory",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 6,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41586395283665",
+          "label": ".5-1\"",
+          "price": 6,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7259922694353",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 15,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49075066732834",
+          "label": "1 Fish",
+          "price": 15,
+          "available": false
+        },
+        {
+          "id": "49075066765602",
+          "label": "3 Fish",
+          "price": 40.95,
+          "available": false
+        },
+        {
+          "id": "51662841479458",
+          "label": "6 Fish",
+          "price": 76.95,
+          "available": false
+        },
+        {
+          "id": "51662841512226",
+          "label": "12 Fish",
+          "price": 143.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9455600501026",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 29.99,
@@ -44,6 +124,99 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53011774505276",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10373109973308",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:31.804Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53011774505276",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "nu-aqua-shop:10373109973308",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 6,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41586395283665",
+          "label": ".5-1\"",
+          "price": 6,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7259922694353",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 15,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49075066732834",
+          "label": "1 Fish",
+          "price": 15,
+          "available": false
+        },
+        {
+          "id": "49075066765602",
+          "label": "3 Fish",
+          "price": 40.95,
+          "available": false
+        },
+        {
+          "id": "51662841479458",
+          "label": "6 Fish",
+          "price": 76.95,
+          "available": false
+        },
+        {
+          "id": "51662841512226",
+          "label": "12 Fish",
+          "price": 143.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9455600501026",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-11-22T15:59:16.177Z",
       "price": 29.99,
       "currency": "USD",
@@ -65,6 +238,23 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:10048008519987",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53011774505276",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10373109973308",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

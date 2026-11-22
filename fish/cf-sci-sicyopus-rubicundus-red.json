@@ -1,25 +1,41 @@
 {
   "canonicalFishId": "cf:sci:sicyopus-rubicundus:red",
-  "commonName": "Red Lipstick Goby (Sicyopus rubicundus)",
+  "commonName": "Red Lipstick Goby",
   "scientificName": "Sicyopus rubicundus",
   "listings": [
     {
       "listingId": "aquatic-arts:11710901132",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Red Lipstick Sicyopus Goby (Sicyopus rubicundus)"
+      "commonName": "Red Lipstick Sicyopus Goby (Sicyopus rubicundus)",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "shrimpy-business:10133042331938",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
-      "commonName": "Red Lipstick' Goby"
+      "commonName": "Red Lipstick' Goby",
+      "lastCheckedAt": "2026-11-22T16:01:35.155Z"
     },
     {
       "listingId": "aqua-imports:177171",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Lipstick Goby (Sicyopus rubicundus)"
+    },
+    {
+      "listingId": "aquarium-fish:209117216793",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Red Lipstick Goby",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
+    },
+    {
+      "listingId": "nu-aqua-shop:10042915848508",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Red Lipstick Goby",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     }
   ],
   "events": [
@@ -94,6 +110,46 @@
       "storeSlug": "shrimpy-business"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "1610041065497",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:209117216793",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51737351553340",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10042915848508",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
       "observedAt": "2026-11-22T15:58:21.001Z",
       "price": 9.99,
       "currency": "USD",
@@ -156,6 +212,40 @@
       "type": "heartbeat",
       "listingId": "shrimpy-business:10133042331938",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "1610041065497",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:209117216793",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51737351553340",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10042915848508",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

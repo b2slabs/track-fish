@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:amphiprion-sp",
-  "commonName": "Ocellaris Clownfish (Amphiprion sp.)",
+  "commonName": "Ocellaris Clownfish",
   "scientificName": "Amphiprion sp.",
   "listings": [
     {
@@ -8,6 +8,13 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Ocellaris Clownfish (Amphiprion sp.)"
+    },
+    {
+      "listingId": "aquarium-fish:8094082694",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Ocellaris Clownfish",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     }
   ],
   "events": [
@@ -48,6 +55,26 @@
       ],
       "listingId": "aqua-imports:144575+144584+144590+144592",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:01:48.345Z",
+      "price": 32.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "94748147737",
+          "label": "Small (1-1.25\")",
+          "price": 32.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:8094082694",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

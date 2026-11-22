@@ -1,19 +1,27 @@
 {
   "canonicalFishId": "cf:sci:nannostomus-unifasciatus",
-  "commonName": "One Line Pencilfish (Nannostomus unifasciatus)",
+  "commonName": "One-Lined Pencilfish",
   "scientificName": "Nannostomus unifasciatus",
   "listings": [
-    {
-      "listingId": "aquarium-fish:8155825635627",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Zipper Pencilfish"
-    },
     {
       "listingId": "aqua-imports:110464",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "One Line Pencilfish (Nannostomus unifasciatus)"
+    },
+    {
+      "listingId": "aquarium-fish:6657762886+8155825635627",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Rocket Pencilfish",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
+    },
+    {
+      "listingId": "nu-aqua-shop:10266136707388",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "One-Lined Pencilfish",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     }
   ],
   "events": [
@@ -34,8 +42,48 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:8155825635627",
+      "listingId": "aquarium-fish:6657762886+8155825635627",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 6.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21040378694",
+          "label": "Title",
+          "price": 6.79,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6657762886+8155825635627",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 5.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52596450132284",
+          "label": "Title",
+          "price": 5.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10266136707388",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-22T15:59:02.777Z",
@@ -51,8 +99,42 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:8155825635627",
+      "listingId": "aquarium-fish:6657762886+8155825635627",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 6.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21040378694",
+          "label": "Title",
+          "price": 6.79,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6657762886+8155825635627",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 5.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52596450132284",
+          "label": "Title",
+          "price": 5.49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10266136707388",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
@@ -73,6 +155,32 @@
       ],
       "listingId": "aqua-imports:110464",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:01:48.345Z",
+      "price": 6.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44642916565291",
+          "label": "Zipper Pencilfish",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "21040378694",
+          "label": "Rocket Pencilfish",
+          "price": 6.79,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6657762886+8155825635627",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

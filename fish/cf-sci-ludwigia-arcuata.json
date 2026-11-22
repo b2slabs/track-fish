@@ -1,37 +1,48 @@
 {
   "canonicalFishId": "cf:sci:ludwigia-arcuata",
-  "commonName": "Needle Leaf Ludwigia (Ludwigia arcuata)",
+  "commonName": "Ludwigia Arcuata",
   "scientificName": "Ludwigia arcuata",
   "listings": [
     {
       "listingId": "aquarium-fish:10106323370283",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Ludwigia arcuata - Tissue Culture"
+      "commonName": "Ludwigia arcuata - Tissue Culture",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     },
     {
       "listingId": "glass-aqua:11277465479",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Ludwigia Arcuata"
+      "commonName": "Ludwigia Arcuata",
+      "lastCheckedAt": "2026-11-22T16:02:34.703Z"
     },
     {
       "listingId": "aquatic-arts:11765747532+1923394273366",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Needle Leaf Ludwigia (Ludwigia arcuata), Bunched"
+      "commonName": "Needle Leaf Ludwigia (Ludwigia arcuata), Bunched",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "buce-plant:1347990552657+4649367011409+8561782029",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Ludwigia Arcuata"
+      "commonName": "Ludwigia Arcuata",
+      "lastCheckedAt": "2026-11-22T16:02:19.867Z"
     },
     {
       "listingId": "aqua-imports:92662",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Needle Leaf Ludwigia (Ludwigia arcuata)"
+    },
+    {
+      "listingId": "imperial-tropicals:8398167638323",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Needle Leaf Ludwigia",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
     }
   ],
   "events": [
@@ -106,6 +117,26 @@
       ],
       "listingId": "aquarium-fish:10106323370283",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612274123059",
+          "label": "1 Potted Plant",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398167638323",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
@@ -358,6 +389,23 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:10106323370283",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612274123059",
+          "label": "1 Potted Plant",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398167638323",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-22T15:59:26.456Z",

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pao-baileyi",
-  "commonName": "Hairy Puffer – Tank Raised (Pao baileyi)",
+  "commonName": "Hairy Puffer",
   "scientificName": "Pao baileyi",
   "listings": [
     {
@@ -8,9 +8,53 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Hairy Puffer – Tank Raised (Pao baileyi)"
+    },
+    {
+      "listingId": "aquarium-fish:9988036264235",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Hairy Puffer",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 129.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50583725769003",
+          "label": "Large (4\")",
+          "price": 129.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:9988036264235",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 129.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50583725769003",
+          "label": "Large (4\")",
+          "price": 129.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9988036264235",
+      "storeSlug": "aquarium-fish"
+    },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 0,

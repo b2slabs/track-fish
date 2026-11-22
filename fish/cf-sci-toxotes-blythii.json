@@ -1,19 +1,21 @@
 {
   "canonicalFishId": "cf:sci:toxotes-blythii",
-  "commonName": "Burmese Clouded Archer (Toxotes blythii)",
+  "commonName": "Burmese Clouded Archer",
   "scientificName": "Toxotes blythii",
   "listings": [
     {
       "listingId": "aquatic-arts:15036700885359",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Burmese Cloud Archerfish (Toxotes blythii)"
+      "commonName": "Burmese Cloud Archerfish (Toxotes blythii)",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "aquarium-fish:4496929685585",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Clouded Archer Fish"
+      "commonName": "Clouded Archer Fish",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     },
     {
       "listingId": "ck-fish-world:8251128348887",
@@ -27,6 +29,13 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Burmese Clouded Archer (Toxotes blythii)"
+    },
+    {
+      "listingId": "dans-fish:10127142191402",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Burmese Clouded Archer",
+      "lastCheckedAt": "2026-11-22T16:02:56.833Z"
     }
   ],
   "events": [
@@ -202,6 +211,26 @@
       ],
       "listingId": "aquarium-fish:4496929685585",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51534021755178",
+          "label": "Unsexed",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127142191402",
+      "storeSlug": "dans-fish"
     },
     {
       "observedAt": "2026-11-22T15:58:21.001Z",

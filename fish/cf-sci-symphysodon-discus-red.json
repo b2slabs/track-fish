@@ -1,19 +1,27 @@
 {
   "canonicalFishId": "cf:sci:symphysodon-discus:red",
-  "commonName": "Red Melon Discus (Symphysodon discus)",
+  "commonName": "Red Melon Discus",
   "scientificName": "Symphysodon discus",
   "listings": [
-    {
-      "listingId": "imperial-tropicals:10380758286643",
-      "storeSlug": "imperial-tropicals",
-      "storeName": "Imperial Tropicals",
-      "commonName": "Red Nhamunda Heckel Discus (Symphysodon discus)"
-    },
     {
       "listingId": "aqua-imports:120555+129240+146657+52320",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Melon Discus (Symphysodon discus)"
+    },
+    {
+      "listingId": "imperial-tropicals:10380758286643+8398035058995",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Red Melon Discus",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
+    },
+    {
+      "listingId": "global-exoticquatics:8403806978240",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Red Melon Discus",
+      "lastCheckedAt": "2026-11-22T16:02:44.108Z"
     }
   ],
   "events": [
@@ -34,7 +42,39 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "imperial-tropicals:10380758286643",
+      "listingId": "imperial-tropicals:10380758286643+8398035058995",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T00:26:58.302Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612188434739",
+          "label": "2.5\" Unsexed",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "45611898372403",
+          "label": "2-3\" (Silver Dollar Size) Unsexed USA",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "51779769729331",
+          "label": "5-6\" Unsexed Singapore",
+          "price": 199.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:10380758286643+8398035058995",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -51,7 +91,36 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "imperial-tropicals:10380758286643",
+      "listingId": "imperial-tropicals:10380758286643+8398035058995",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612188434739",
+          "label": "2.5\" Unsexed",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "45611898372403",
+          "label": "2-3\" (Silver Dollar Size) Unsexed USA",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "51779769729331",
+          "label": "5-6\" Unsexed Singapore",
+          "price": 199.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:10380758286643+8398035058995",
       "storeSlug": "imperial-tropicals"
     },
     {
@@ -91,6 +160,58 @@
       ],
       "listingId": "aqua-imports:120555+129240+146657+52320",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:02:06.431Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53848895193395",
+          "label": "6-7\" Unsexed",
+          "price": 274.99,
+          "available": false
+        },
+        {
+          "id": "45611898372403",
+          "label": "2-3\" (Silver Dollar Size) Unsexed USA",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "51779769729331",
+          "label": "5-6\" Unsexed Singapore",
+          "price": 199.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:10380758286643+8398035058995",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:02:44.108Z",
+      "price": 50,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47145061974208",
+          "label": "3-4 inch",
+          "price": 50,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8403806978240",
+      "storeSlug": "global-exoticquatics"
     }
   ]
 }

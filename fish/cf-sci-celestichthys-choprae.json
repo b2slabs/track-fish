@@ -1,34 +1,104 @@
 {
   "canonicalFishId": "cf:sci:celestichthys-choprae",
-  "commonName": "Glowlight Danio (Celestichthys choprae)",
+  "commonName": "Glowlight Danio",
   "scientificName": "Celestichthys choprae",
   "listings": [
     {
       "listingId": "flip-aquatics:6581361442918",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Glowlight Danio | Celestichthys Choprae"
+      "commonName": "Glowlight Danio | Celestichthys Choprae",
+      "lastCheckedAt": "2026-11-22T16:01:39.266Z"
     },
     {
       "listingId": "imperial-tropicals:8398118945075",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Glowlight Danio"
+      "commonName": "Glowlight Danio",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
     },
     {
       "listingId": "aquatic-arts:4421902532694",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Glowlight Danio (Celestichthys choprae), Tank-Bred!"
+      "commonName": "Glowlight Danio (Celestichthys choprae), Tank-Bred!",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "aqua-imports:39005",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Glowlight Danio (Celestichthys choprae)"
+    },
+    {
+      "listingId": "aquahuna:1818260635691",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Glowlight Danio",
+      "lastCheckedAt": "2026-11-22T16:01:22.102Z"
+    },
+    {
+      "listingId": "ck-fish-world:8150020522199",
+      "storeSlug": "ck-fish-world",
+      "storeName": "CK Fish World",
+      "commonName": "Glowlight Danio",
+      "lastCheckedAt": "2026-11-22T16:01:29.374Z"
+    },
+    {
+      "listingId": "aquarium-fish:10130824331563+775145422967",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Glowlight Danio",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006316482876",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Glowlight Danio",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
+    },
+    {
+      "listingId": "dans-fish:10127072592170",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Glowlight Danio",
+      "lastCheckedAt": "2026-11-22T16:02:56.833Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 16.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336082972887",
+          "label": "3",
+          "price": 16.98,
+          "available": true
+        },
+        {
+          "id": "45336083005655",
+          "label": "5",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45336083038423",
+          "label": "10",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8150020522199",
+      "storeSlug": "ck-fish-world"
+    },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 18.99,
@@ -68,6 +138,58 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 4,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "16494621098027",
+          "label": "Title",
+          "price": 4,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:1818260635691",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 16.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336082972887",
+          "label": "3",
+          "price": 16.98,
+          "available": true
+        },
+        {
+          "id": "45336083005655",
+          "label": "5",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45336083038423",
+          "label": "10",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8150020522199",
+      "storeSlug": "ck-fish-world"
+    },
+    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 6.99,
       "currency": "USD",
@@ -88,6 +210,46 @@
       "storeSlug": "flip-aquatics"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441053729067",
+          "label": "Title",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10130824331563+775145422967",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51437714211115",
+          "label": "Title",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10130824331563+775145422967",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 4.99,
       "currency": "USD",
@@ -106,6 +268,159 @@
       ],
       "listingId": "imperial-tropicals:8398118945075",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 18.74,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441053729067",
+          "label": "Title",
+          "price": 18.74,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10130824331563+775145422967",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 5.69,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51437714211115",
+          "label": "Title",
+          "price": 5.69,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10130824331563+775145422967",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51718434652476",
+          "label": "Single",
+          "price": 4.99,
+          "available": true
+        },
+        {
+          "id": "51718434685244",
+          "label": "Group of 3",
+          "price": 13.47,
+          "available": false
+        },
+        {
+          "id": "51718434718012",
+          "label": "Group of 6",
+          "price": 23.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006316482876",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 5.69,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441053729067",
+          "label": "Glowlight Danio (School of 5)",
+          "price": 18.74,
+          "available": true
+        },
+        {
+          "id": "51437714211115",
+          "label": "Glowlight Danio",
+          "price": 5.69,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10130824331563+775145422967",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:31.804Z",
+      "price": 13.47,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51718434652476",
+          "label": "Single",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "51718434685244",
+          "label": "Group of 3",
+          "price": 13.47,
+          "available": true
+        },
+        {
+          "id": "51718434718012",
+          "label": "Group of 6",
+          "price": 23.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "nu-aqua-shop:10006316482876",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533801324842",
+          "label": "Unsexed",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127072592170",
+      "storeSlug": "dans-fish"
     },
     {
       "observedAt": "2026-11-22T15:58:21.001Z",
@@ -143,6 +458,52 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 4,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "16494621098027",
+          "label": "Title",
+          "price": 4,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1818260635691",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:47.389Z",
+      "price": 16.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336082972887",
+          "label": "3",
+          "price": 16.98,
+          "available": true
+        },
+        {
+          "id": "45336083005655",
+          "label": "5",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45336083038423",
+          "label": "10",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150020522199",
+      "storeSlug": "ck-fish-world"
+    },
+    {
       "observedAt": "2026-11-22T15:58:55.354Z",
       "price": 6.99,
       "currency": "USD",
@@ -160,6 +521,29 @@
       "storeSlug": "flip-aquatics"
     },
     {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 5.69,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441053729067",
+          "label": "Glowlight Danio (School of 5)",
+          "price": 18.74,
+          "available": true
+        },
+        {
+          "id": "51437714211115",
+          "label": "Glowlight Danio",
+          "price": 5.69,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130824331563+775145422967",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-22T15:59:16.177Z",
       "price": 4.99,
       "currency": "USD",
@@ -175,6 +559,35 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8398118945075",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 13.47,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51718434652476",
+          "label": "Single",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "51718434685244",
+          "label": "Group of 3",
+          "price": 13.47,
+          "available": true
+        },
+        {
+          "id": "51718434718012",
+          "label": "Group of 6",
+          "price": 23.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006316482876",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

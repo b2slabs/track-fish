@@ -1,22 +1,69 @@
 {
   "canonicalFishId": "cf:sci:poecilia-velifera:sailfin",
-  "commonName": "Assorted Sailfin Molly (Poecilia velifera)",
+  "commonName": "Assorted Sailfin Molly (Lot of 4)",
   "scientificName": "Poecilia velifera",
   "listings": [
     {
       "listingId": "flip-aquatics:7741814866022",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Sailfin Molly | Poecilia Velifera"
+      "commonName": "Sailfin Molly | Poecilia Velifera",
+      "lastCheckedAt": "2026-11-22T16:01:39.266Z"
     },
     {
       "listingId": "aqua-imports:57436",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Assorted Sailfin Molly (Poecilia velifera)"
+    },
+    {
+      "listingId": "aquatic-arts:10691407500",
+      "storeSlug": "aquatic-arts",
+      "storeName": "Aquatic Arts",
+      "commonName": "Assorted Sailfin Molly (Poecilia latipinna/velifera) - Tank-Bred!",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
+    },
+    {
+      "listingId": "aquarium-fish:9923505676",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Assorted Sailfin Molly (Lot of 4)",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39654202636",
+          "label": "1 Male",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "39654320588",
+          "label": "1 Female",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "39812109452",
+          "label": "Male / Female Pair",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:10691407500",
+      "storeSlug": "aquatic-arts"
+    },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 9.99,
@@ -38,6 +85,121 @@
       "storeSlug": "flip-aquatics"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "35701420364",
+          "label": "Title",
+          "price": 34.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:9923505676",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 10.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "20791678982",
+          "label": "Title",
+          "price": 10.79,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:9923505676",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 10.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "35701420364",
+          "label": "Assorted Sailfin Molly (Lot of 4)",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "20791678982",
+          "label": "Harlequin Sailfin Molly",
+          "price": 10.79,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:9923505676",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T00:26:46.153Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "35701420364",
+          "label": "Title",
+          "price": 34.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:9923505676",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:21.001Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39654202636",
+          "label": "1 Male",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "39654320588",
+          "label": "1 Female",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "39812109452",
+          "label": "Male / Female Pair",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:10691407500",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-22T15:58:55.354Z",
       "price": 9.99,
       "currency": "USD",
@@ -53,6 +215,23 @@
       "type": "heartbeat",
       "listingId": "flip-aquatics:7741814866022",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "35701420364",
+          "label": "Title",
+          "price": 34.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9923505676",
+      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

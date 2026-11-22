@@ -1,19 +1,41 @@
 {
   "canonicalFishId": "cf:sci:pterophyllum-scalare:panda",
-  "commonName": "Panda Angelfish (Pterophyllum scalare)",
+  "commonName": "Panda Angelfish",
   "scientificName": "Pterophyllum scalare",
   "listings": [
     {
       "listingId": "aquatic-arts:8684958515479",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Panda Angelfish (Pterophyllum scalare - variant), USA Bred"
+      "commonName": "Panda Angelfish (Pterophyllum scalare - variant), USA Bred",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "aqua-imports:43159",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Panda Angelfish (Pterophyllum scalare)"
+    },
+    {
+      "listingId": "imperial-tropicals:8398040596787",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Panda Angelfish",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
+    },
+    {
+      "listingId": "global-exoticquatics:8498823561408",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Panda Angelfish",
+      "lastCheckedAt": "2026-11-22T16:02:44.108Z"
+    },
+    {
+      "listingId": "dans-fish:10127098249514",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Panda Angelfish",
+      "lastCheckedAt": "2026-11-22T16:02:56.833Z"
     }
   ],
   "events": [
@@ -50,6 +72,78 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611929305395",
+          "label": "1-2\" Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "49700039196979",
+          "label": "2-3\" Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "49700046668083",
+          "label": "3-4\" Unsexed",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398040596787",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 15,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47592426209472",
+          "label": "2-3inch",
+          "price": 15,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8498823561408",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533874692394",
+          "label": "Unsexed",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127098249514",
+      "storeSlug": "dans-fish"
+    },
+    {
       "observedAt": "2026-11-22T15:58:21.001Z",
       "price": 9.99,
       "currency": "USD",
@@ -77,6 +171,52 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:8684958515479",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:16.177Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611929305395",
+          "label": "1-2\" Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "49700039196979",
+          "label": "2-3\" Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "49700046668083",
+          "label": "3-4\" Unsexed",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398040596787",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 15,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47592426209472",
+          "label": "2-3inch",
+          "price": 15,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8498823561408",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

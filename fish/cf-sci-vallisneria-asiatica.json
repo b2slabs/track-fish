@@ -1,43 +1,48 @@
 {
   "canonicalFishId": "cf:sci:vallisneria-asiatica",
-  "commonName": "Vallisneria Contortion (Vallisneria asiatica)",
+  "commonName": "Vallisneria Corkscrew",
   "scientificName": "Vallisneria asiatica",
   "listings": [
     {
       "listingId": "daku-aquatics:8741040980186",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
-      "commonName": "Corkscrew Vallisneria"
+      "commonName": "Corkscrew Vallisneria",
+      "lastCheckedAt": "2026-11-22T16:02:18.343Z"
     },
     {
       "listingId": "buce-plant:9541099917",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
-      "commonName": "Vallisneria Contortionist (Corkscrew Vallisneria)"
+      "commonName": "Vallisneria Contortionist (Corkscrew Vallisneria)",
+      "lastCheckedAt": "2026-11-22T16:02:19.867Z"
     },
     {
       "listingId": "glass-aqua:7481385975894",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
-      "commonName": "Vallisneria Contortionist"
+      "commonName": "Vallisneria Contortionist",
+      "lastCheckedAt": "2026-11-22T16:02:34.703Z"
     },
     {
       "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Vallisneria Corkscrew"
-    },
-    {
-      "listingId": "aquarium-fish:6260707398",
-      "storeSlug": "aquarium-fish",
-      "storeName": "AquariumFish.com",
-      "commonName": "Corkscrew vallisneria"
+      "commonName": "Vallisneria Corkscrew",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     },
     {
       "listingId": "aqua-imports:59932",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Vallisneria Contortion (Vallisneria asiatica)"
+    },
+    {
+      "listingId": "aquarium-fish:6260704006+6260707398",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Corkscrew vallisneria",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     }
   ],
   "events": [
@@ -58,7 +63,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:6260707398",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -78,7 +83,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:6260707398",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -210,7 +215,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:6260707398",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -256,7 +261,27 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquarium-fish:6260707398",
+      "listingId": "aquarium-fish:6260704006+6260707398",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T00:26:46.153Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19810061830",
+          "label": "Title",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -273,7 +298,24 @@
         }
       ],
       "type": "heartbeat",
-      "listingId": "aquarium-fish:6260707398",
+      "listingId": "aquarium-fish:6260704006+6260707398",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19810061830",
+          "label": "Title",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish"
     },
     {
@@ -375,6 +417,32 @@
       ],
       "listingId": "aqua-imports:59932",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:01:48.345Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19810072454",
+          "label": "Corkscrew vallisneria",
+          "price": 7.59,
+          "available": true
+        },
+        {
+          "id": "19810061830",
+          "label": "Contortion vallisneria",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6260704006+6260707398",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

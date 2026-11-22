@@ -1,55 +1,69 @@
 {
   "canonicalFishId": "cf:sci:sahyadria-denisonii",
-  "commonName": "Roseline Shark / Denisonii Barb (Sahyadria denisonii)",
+  "commonName": "Denison's Barb",
   "scientificName": "Sahyadria denisonii",
   "listings": [
     {
       "listingId": "aquatic-arts:9881740108",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Denison’s Barb (Sahyadria denisonii), Tank-Bred"
+      "commonName": "Denison’s Barb (Sahyadria denisonii), Tank-Bred",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "ck-fish-world:8150016852183",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
-      "commonName": "Roseline Shark"
+      "commonName": "Roseline Shark",
+      "lastCheckedAt": "2026-11-22T16:01:29.374Z"
     },
     {
       "listingId": "imperial-tropicals:8397998489907",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Roseline Shark"
+      "commonName": "Roseline Shark",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
     },
     {
       "listingId": "global-exoticquatics:8309396570304",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
-      "commonName": "Roseline Shark"
+      "commonName": "Roseline Shark",
+      "lastCheckedAt": "2026-11-22T16:02:44.108Z"
     },
     {
       "listingId": "nu-aqua-shop:10006356590908",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
-      "commonName": "Denison's Barb"
+      "commonName": "Denison's Barb",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     },
     {
       "listingId": "aquarium-fish:10130825773355+10130825969963+10845873932+10845948236",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Denisoni Barb"
+      "commonName": "Denisoni Barb",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     },
     {
       "listingId": "flip-aquatics:7745383497830",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Denison Barb | Sahyadria denisonii"
+      "commonName": "Denison Barb | Sahyadria denisonii",
+      "lastCheckedAt": "2026-11-22T16:01:39.266Z"
     },
     {
       "listingId": "aqua-imports:38008+50836",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Roseline Shark / Denisonii Barb (Sahyadria denisonii)"
+    },
+    {
+      "listingId": "shrimpy-business:9512719974690",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Roseline Barb / Denisonii Barb",
+      "lastCheckedAt": "2026-11-22T16:01:35.155Z"
     }
   ],
   "events": [
@@ -154,6 +168,44 @@
       ],
       "listingId": "ck-fish-world:8150016852183",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 11.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49231901983010",
+          "label": "1 Fish",
+          "price": 11.95,
+          "available": false
+        },
+        {
+          "id": "49231902015778",
+          "label": "3 Fish",
+          "price": 31.95,
+          "available": false
+        },
+        {
+          "id": "51662840529186",
+          "label": "6 Fish",
+          "price": 60.95,
+          "available": false
+        },
+        {
+          "id": "51662840561954",
+          "label": "12 Fish",
+          "price": 114.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9512719974690",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
@@ -539,6 +591,41 @@
       "type": "heartbeat",
       "listingId": "ck-fish-world:8150016852183",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 11.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49231901983010",
+          "label": "1 Fish",
+          "price": 11.95,
+          "available": false
+        },
+        {
+          "id": "49231902015778",
+          "label": "3 Fish",
+          "price": 31.95,
+          "available": false
+        },
+        {
+          "id": "51662840529186",
+          "label": "6 Fish",
+          "price": 60.95,
+          "available": false
+        },
+        {
+          "id": "51662840561954",
+          "label": "12 Fish",
+          "price": 114.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9512719974690",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-22T15:58:55.354Z",

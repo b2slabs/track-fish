@@ -1,25 +1,48 @@
 {
   "canonicalFishId": "cf:sci:gastrodermus-pygmaeus",
-  "commonName": "True Pygmy Cory (Gastrodermus pygmaeus)",
+  "commonName": "Pygmy Cory",
   "scientificName": "Gastrodermus pygmaeus",
   "listings": [
     {
       "listingId": "nationwide-aquatics-usa:8820133560473",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
-      "commonName": "Pygmy corydoras ( Gastrodermus pygmaeus )"
+      "commonName": "Pygmy corydoras ( Gastrodermus pygmaeus )",
+      "lastCheckedAt": "2026-11-22T16:01:32.924Z"
     },
     {
       "listingId": "imperial-tropicals:8398099251507",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Pygmy Gastrodermus (Gastrodermus pygmaeus)"
+      "commonName": "Pygmy Gastrodermus (Gastrodermus pygmaeus)",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
     },
     {
       "listingId": "aqua-imports:39754+58192",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "True Pygmy Cory (Gastrodermus pygmaeus)"
+    },
+    {
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Pygmy Corydoras (Tank-Bred)",
+      "lastCheckedAt": "2026-11-22T16:01:35.155Z"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006359376188",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Pygmy Cory",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
+    },
+    {
+      "listingId": "dans-fish:10127077212458",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Pygmy Cory",
+      "lastCheckedAt": "2026-11-22T16:02:56.833Z"
     }
   ],
   "events": [
@@ -42,6 +65,44 @@
       ],
       "listingId": "nationwide-aquatics-usa:8820133560473",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 53.95,
+          "available": true
+        },
+        {
+          "id": "51662847213858",
+          "label": "12 Fish",
+          "price": 101.95,
+          "available": true
+        },
+        {
+          "id": "51662847246626",
+          "label": "24 Fish",
+          "price": 191.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
@@ -70,6 +131,58 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51634271060284",
+          "label": "Single",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "51634271093052",
+          "label": "Group of 3",
+          "price": 21.57,
+          "available": false
+        },
+        {
+          "id": "51634271125820",
+          "label": "Group of 6",
+          "price": 40.75,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006359376188",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533812236586",
+          "label": "Unsexed",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127077212458",
+      "storeSlug": "dans-fish"
+    },
+    {
       "observedAt": "2026-11-22T15:58:50.364Z",
       "price": 4,
       "currency": "USD",
@@ -85,6 +198,41 @@
       "type": "heartbeat",
       "listingId": "nationwide-aquatics-usa:8820133560473",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 53.95,
+          "available": true
+        },
+        {
+          "id": "51662847213858",
+          "label": "12 Fish",
+          "price": 101.95,
+          "available": true
+        },
+        {
+          "id": "51662847246626",
+          "label": "24 Fish",
+          "price": 191.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-22T15:59:16.177Z",
@@ -108,6 +256,35 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8398099251507",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51634271060284",
+          "label": "Single",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "51634271093052",
+          "label": "Group of 3",
+          "price": 21.57,
+          "available": false
+        },
+        {
+          "id": "51634271125820",
+          "label": "Group of 6",
+          "price": 40.75,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006359376188",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

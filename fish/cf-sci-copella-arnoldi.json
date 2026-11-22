@@ -1,22 +1,68 @@
 {
   "canonicalFishId": "cf:sci:copella-arnoldi",
-  "commonName": "Splash Tetra (Copella arnoldi)",
+  "commonName": "Copeina Splashing Tetra",
   "scientificName": "Copella arnoldi",
   "listings": [
     {
       "listingId": "aquarium-fish:4221906124881",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Copeina Splashing Tetra"
+      "commonName": "Copeina Splashing Tetra",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     },
     {
       "listingId": "aqua-imports:161209",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Splash Tetra (Copella arnoldi)"
+    },
+    {
+      "listingId": "shrimpy-business:9841035346210",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Splash Tetra",
+      "lastCheckedAt": "2026-11-22T16:01:35.155Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 12.75,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50297731842338",
+          "label": "2 Fish",
+          "price": 12.75,
+          "available": false
+        },
+        {
+          "id": "50297731875106",
+          "label": "4 Fish",
+          "price": 22.95,
+          "available": false
+        },
+        {
+          "id": "51662834991394",
+          "label": "8 Fish",
+          "price": 42.95,
+          "available": false
+        },
+        {
+          "id": "51662835024162",
+          "label": "16 Fish",
+          "price": 81.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9841035346210",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 7.99,
@@ -36,6 +82,41 @@
       ],
       "listingId": "aquarium-fish:4221906124881",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:52.034Z",
+      "price": 12.75,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50297731842338",
+          "label": "2 Fish",
+          "price": 12.75,
+          "available": false
+        },
+        {
+          "id": "50297731875106",
+          "label": "4 Fish",
+          "price": 22.95,
+          "available": false
+        },
+        {
+          "id": "51662834991394",
+          "label": "8 Fish",
+          "price": 42.95,
+          "available": false
+        },
+        {
+          "id": "51662835024162",
+          "label": "16 Fish",
+          "price": 81.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9841035346210",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-22T15:59:02.777Z",

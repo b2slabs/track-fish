@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pimelodus-blochii",
-  "commonName": "Four Line Pictus Catfish (Pimelodus blochii)",
+  "commonName": "Pictus Catfish",
   "scientificName": "Pimelodus blochii",
   "listings": [
     {
@@ -8,9 +8,97 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Four Line Pictus Catfish (Pimelodus blochii)"
+    },
+    {
+      "listingId": "aquarium-fish:8807493304619",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Pictus Catfish",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
+    },
+    {
+      "listingId": "nu-aqua-shop:10244494131516",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Pictus Catfish",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 22.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47231958319403",
+          "label": "Title",
+          "price": 22.59,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:8807493304619",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 12.24,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52520222622012",
+          "label": "Title",
+          "price": 12.24,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10244494131516",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:02.777Z",
+      "price": 22.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47231958319403",
+          "label": "Title",
+          "price": 22.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:8807493304619",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 12.24,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52520222622012",
+          "label": "Title",
+          "price": 12.24,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10244494131516",
+      "storeSlug": "nu-aqua-shop"
+    },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 13.99,

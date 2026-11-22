@@ -1,25 +1,34 @@
 {
   "canonicalFishId": "cf:sci:geophagus-brasiliensis:pearl",
-  "commonName": "Pearl Eartheater (Geophagus brasiliensis)",
+  "commonName": "Pearl Eartheater",
   "scientificName": "Geophagus brasiliensis",
   "listings": [
     {
       "listingId": "aquatic-arts:14942174642543",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "Pearl Cichlid (Geophagus brasiliensis) – Tank Bred"
+      "commonName": "Pearl Cichlid (Geophagus brasiliensis) – Tank Bred",
+      "lastCheckedAt": "2026-11-22T16:00:56.519Z"
     },
     {
       "listingId": "imperial-tropicals:8397979222323",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Pearl Cichlid"
+      "commonName": "Pearl Cichlid",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
     },
     {
       "listingId": "aqua-imports:41286",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Pearl Eartheater (Geophagus brasiliensis)"
+    },
+    {
+      "listingId": "global-exoticquatics:8547781935296",
+      "storeSlug": "global-exoticquatics",
+      "storeName": "Global Exoticquatics",
+      "commonName": "Pearl Eartheater",
+      "lastCheckedAt": "2026-11-22T16:02:44.108Z"
     }
   ],
   "events": [
@@ -321,6 +330,26 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 45,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48146038653120",
+          "label": "5in+",
+          "price": 45,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8547781935296",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
       "observedAt": "2026-11-22T15:58:21.001Z",
       "price": 4.49,
       "currency": "USD",
@@ -395,6 +424,23 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8397979222323",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:48.467Z",
+      "price": 45,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48146038653120",
+          "label": "5in+",
+          "price": 45,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8547781935296",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

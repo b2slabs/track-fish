@@ -1,28 +1,91 @@
 {
   "canonicalFishId": "cf:sci:apistogramma-panduro",
-  "commonName": "Panduro Apisto (Apistogramma panduro)",
+  "commonName": "Apistogramma Panduro-PAIR",
   "scientificName": "Apistogramma panduro",
   "listings": [
     {
       "listingId": "aquarium-fish:6780184985681",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Apistogramma Pandurini Show"
+      "commonName": "Apistogramma Pandurini Show",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     },
     {
       "listingId": "imperial-tropicals:8303246475571",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Apistogramma panduro"
+      "commonName": "Apistogramma panduro",
+      "lastCheckedAt": "2026-11-22T16:02:06.431Z"
     },
     {
       "listingId": "aqua-imports:161801+45817",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Panduro Apisto (Apistogramma panduro)"
+    },
+    {
+      "listingId": "monster-aquarium:6996779696337",
+      "storeSlug": "monster-aquarium",
+      "storeName": "Monster Aquarium",
+      "commonName": "Apistogramma Panduro",
+      "lastCheckedAt": "2026-11-22T16:01:13.602Z"
+    },
+    {
+      "listingId": "aquahuna:2180214358059",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
+      "commonName": "Apistogramma Pandurini",
+      "lastCheckedAt": "2026-11-22T16:01:22.102Z"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006354264380",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Apistogramma Panduro-PAIR",
+      "lastCheckedAt": "2026-11-22T16:02:48.468Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925194879185",
+          "label": "4-4.5cm",
+          "price": 25,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:6996779696337",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 23,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "20610370076715",
+          "label": "Title",
+          "price": 23,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:2180214358059",
+      "storeSlug": "aquahuna"
+    },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 28.99,
@@ -70,6 +133,60 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 35.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627658707260",
+          "label": "Title",
+          "price": 35.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006354264380",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:35.129Z",
+      "price": 25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40925194879185",
+          "label": "4-4.5cm",
+          "price": 25,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6996779696337",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T15:58:41.655Z",
+      "price": 23,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "20610370076715",
+          "label": "Title",
+          "price": 23,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:2180214358059",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-22T15:59:02.777Z",
       "price": 28.99,
       "currency": "USD",
@@ -108,6 +225,23 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8303246475571",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:51.902Z",
+      "price": 35.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627658707260",
+          "label": "Title",
+          "price": 35.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006354264380",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

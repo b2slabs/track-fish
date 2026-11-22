@@ -1,19 +1,27 @@
 {
   "canonicalFishId": "cf:sci:desmopuntius-pentazona",
-  "commonName": "Five-Banded Barb (Desmopuntius pentazona)",
+  "commonName": "Five Banded Barb",
   "scientificName": "Desmopuntius pentazona",
   "listings": [
     {
       "listingId": "aquarium-fish:10130834227499+6018779270",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Penta Barb"
+      "commonName": "Penta Barb",
+      "lastCheckedAt": "2026-11-22T16:01:48.345Z"
     },
     {
       "listingId": "aqua-imports:41300",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Five-Banded Barb (Desmopuntius pentazona)"
+    },
+    {
+      "listingId": "dans-fish:10127077998890",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Five Banded Barb",
+      "lastCheckedAt": "2026-11-22T16:02:56.833Z"
     }
   ],
   "events": [
@@ -82,6 +90,26 @@
       ],
       "listingId": "aquarium-fish:10130834227499+6018779270",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533814399274",
+          "label": "Unsexed",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127077998890",
+      "storeSlug": "dans-fish"
     },
     {
       "observedAt": "2026-11-22T15:59:02.777Z",
