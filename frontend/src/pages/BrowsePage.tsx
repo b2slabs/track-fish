@@ -23,18 +23,46 @@ export function BrowsePage() {
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
-  // Search/store/availability filters run on individual Listings, same as
-  // before grouping was introduced. Filtering is intentionally done BEFORE
-  // grouping (not after) — see group-listings.ts — so e.g. a store filter
-  // naturally keeps a grouped card iff at least one of its Listings is from
-  // that Store, without any group-aware filter logic of its own.
+  // Store/availability filters run on individual Listings, same as before
+  // grouping was introduced. Filtering is intentionally done BEFORE grouping
+  // (not after) — see group-listings.ts — so e.g. a store filter naturally
+  // keeps a grouped card iff at least one of its Listings is from that
+  // Store, without any group-aware filter logic of its own.
+  //
+  // Search is the one exception, and deliberately so (issue #74): a plain
+  // per-Listing commonName filter applied before grouping — the same
+  // pattern used for store/availability — looked right but wasn't, because
+  // different Stores title the exact same Canonical Fish differently. See
+  // the comment inside the `search` branch below for the full story.
   const filteredListings = useMemo(() => {
     if (!index) return [];
     const search = filters.search.trim().toLowerCase();
     let listings = index.listings;
 
     if (search) {
-      listings = listings.filter((l) => l.commonName.toLowerCase().includes(search));
+      // Match at the Canonical Fish level, not per-Listing (issue #74:
+      // "Cory Hastatus" showed "In stock 1/3 stores" via search, when the
+      // real count is 2/4). Different Stores title the same Canonical Fish
+      // differently — e.g. one Store's Listing is "Cory Hastatus" while
+      // another's is just "Tail Spot Pygmy Cory", no "hastatus" in sight —
+      // so filtering individual Listings by their own commonName before
+      // grouping silently dropped a Store's Listing whenever that Store's
+      // title happened not to use the searched word, even though another
+      // Listing sharing the exact same canonicalFishId matched. Since
+      // group-listings.ts derives storeCount/inStockStoreCount only from
+      // the Listings that survive this filter, that under-filtering showed
+      // up downstream as an undercounted badge. Fix: first find every
+      // canonicalFishId with at least one matching Listing, then keep ALL
+      // Listings sharing one of those ids — so the group a card renders
+      // from still contains every real Store carrying that fish, exactly
+      // like the store filter already does for store-level filtering (see
+      // module doc above).
+      const matchingFishIds = new Set(
+        listings
+          .filter((l) => l.commonName.toLowerCase().includes(search))
+          .map((l) => l.canonicalFishId),
+      );
+      listings = listings.filter((l) => matchingFishIds.has(l.canonicalFishId));
     }
     if (filters.storeSlug !== 'all') {
       listings = listings.filter((l) => l.storeSlug === filters.storeSlug);
