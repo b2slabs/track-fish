@@ -38,6 +38,18 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Panda Cory"
+    },
+    {
+      "listingId": "shrimpy-business:6738942459989",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Panda Corydoras (Tank-Bred)"
+    },
+    {
+      "listingId": "flip-aquatics:458116464680",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Panda Cory Catfish | Corydoras panda"
     }
   ],
   "events": [
@@ -557,6 +569,64 @@
       "storeSlug": "ck-fish-world"
     },
     {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 12.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39994193969237",
+          "label": "2 Fish",
+          "price": 12.95,
+          "available": true
+        },
+        {
+          "id": "39994194002005",
+          "label": "4 Fish",
+          "price": 22.95,
+          "available": true
+        },
+        {
+          "id": "51662845903138",
+          "label": "8 Fish",
+          "price": 43.95,
+          "available": true
+        },
+        {
+          "id": "51662845935906",
+          "label": "16 Fish",
+          "price": 82.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6738942459989",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31441391288422",
+          "label": "Imported / 1 Fish",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:458116464680",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 17.99,
       "currency": "USD",
@@ -735,6 +805,62 @@
       "storeSlug": "ck-fish-world"
     },
     {
+      "observedAt": "2026-11-20T17:33:33.576Z",
+      "price": 12.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39994193969237",
+          "label": "2 Fish",
+          "price": 12.95,
+          "available": true
+        },
+        {
+          "id": "39994194002005",
+          "label": "4 Fish",
+          "price": 22.95,
+          "available": true
+        },
+        {
+          "id": "51662845903138",
+          "label": "8 Fish",
+          "price": 43.95,
+          "available": true
+        },
+        {
+          "id": "51662845935906",
+          "label": "16 Fish",
+          "price": 82.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6738942459989",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:37.039Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31441391288422",
+          "label": "Imported / 1 Fish",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:458116464680",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T17:33:47.733Z",
       "price": 17.99,
       "currency": "USD",
@@ -905,6 +1031,58 @@
       "type": "heartbeat",
       "listingId": "ck-fish-world:8149573435607",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:10.831Z",
+      "price": 12.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39994193969237",
+          "label": "2 Fish",
+          "price": 12.95,
+          "available": true
+        },
+        {
+          "id": "39994194002005",
+          "label": "4 Fish",
+          "price": 22.95,
+          "available": true
+        },
+        {
+          "id": "51662845903138",
+          "label": "8 Fish",
+          "price": 43.95,
+          "available": true
+        },
+        {
+          "id": "51662845935906",
+          "label": "16 Fish",
+          "price": 82.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6738942459989",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31441391288422",
+          "label": "Imported / 1 Fish",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:458116464680",
+      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-11-21T01:29:18.881Z",
@@ -1099,6 +1277,58 @@
       "storeSlug": "ck-fish-world"
     },
     {
+      "observedAt": "2026-11-21T01:30:42.479Z",
+      "price": 12.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39994193969237",
+          "label": "2 Fish",
+          "price": 12.95,
+          "available": true
+        },
+        {
+          "id": "39994194002005",
+          "label": "4 Fish",
+          "price": 22.95,
+          "available": true
+        },
+        {
+          "id": "51662845903138",
+          "label": "8 Fish",
+          "price": 43.95,
+          "available": true
+        },
+        {
+          "id": "51662845935906",
+          "label": "16 Fish",
+          "price": 82.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6738942459989",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:45.496Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31441391288422",
+          "label": "Imported / 1 Fish",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:458116464680",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-21T01:30:53.467Z",
       "price": 17.99,
       "currency": "USD",
@@ -1269,6 +1499,58 @@
       "type": "heartbeat",
       "listingId": "ck-fish-world:8149573435607",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:27.948Z",
+      "price": 12.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39994193969237",
+          "label": "2 Fish",
+          "price": 12.95,
+          "available": true
+        },
+        {
+          "id": "39994194002005",
+          "label": "4 Fish",
+          "price": 22.95,
+          "available": true
+        },
+        {
+          "id": "51662845903138",
+          "label": "8 Fish",
+          "price": 43.95,
+          "available": true
+        },
+        {
+          "id": "51662845935906",
+          "label": "16 Fish",
+          "price": 82.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6738942459989",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:31.129Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31441391288422",
+          "label": "Imported / 1 Fish",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:458116464680",
+      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-11-21T02:00:39.304Z",
@@ -1458,6 +1740,58 @@
       "type": "heartbeat",
       "listingId": "ck-fish-world:8149573435607",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T02:05:54.618Z",
+      "price": 12.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39994193969237",
+          "label": "2 Fish",
+          "price": 12.95,
+          "available": true
+        },
+        {
+          "id": "39994194002005",
+          "label": "4 Fish",
+          "price": 22.95,
+          "available": true
+        },
+        {
+          "id": "51662845903138",
+          "label": "8 Fish",
+          "price": 43.95,
+          "available": true
+        },
+        {
+          "id": "51662845935906",
+          "label": "16 Fish",
+          "price": 82.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6738942459989",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T02:05:57.911Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31441391288422",
+          "label": "Imported / 1 Fish",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:458116464680",
+      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-11-21T02:06:06.550Z",
@@ -1652,6 +1986,58 @@
       "storeSlug": "ck-fish-world"
     },
     {
+      "observedAt": "2026-11-21T14:37:39.532Z",
+      "price": 12.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39994193969237",
+          "label": "2 Fish",
+          "price": 12.95,
+          "available": true
+        },
+        {
+          "id": "39994194002005",
+          "label": "4 Fish",
+          "price": 22.95,
+          "available": true
+        },
+        {
+          "id": "51662845903138",
+          "label": "8 Fish",
+          "price": 43.95,
+          "available": true
+        },
+        {
+          "id": "51662845935906",
+          "label": "16 Fish",
+          "price": 82.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6738942459989",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T14:37:45.520Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31441391288422",
+          "label": "Imported / 1 Fish",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:458116464680",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-21T14:38:00.589Z",
       "price": 17.99,
       "currency": "USD",
@@ -1839,6 +2225,58 @@
       "type": "heartbeat",
       "listingId": "ck-fish-world:8149573435607",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T14:49:34.637Z",
+      "price": 12.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39994193969237",
+          "label": "2 Fish",
+          "price": 12.95,
+          "available": true
+        },
+        {
+          "id": "39994194002005",
+          "label": "4 Fish",
+          "price": 22.95,
+          "available": true
+        },
+        {
+          "id": "51662845903138",
+          "label": "8 Fish",
+          "price": 43.95,
+          "available": true
+        },
+        {
+          "id": "51662845935906",
+          "label": "16 Fish",
+          "price": 82.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6738942459989",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T14:49:39.886Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31441391288422",
+          "label": "Imported / 1 Fish",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:458116464680",
+      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-11-21T14:49:52.866Z",
@@ -2030,6 +2468,58 @@
       "storeSlug": "ck-fish-world"
     },
     {
+      "observedAt": "2026-11-21T14:59:48.879Z",
+      "price": 12.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39994193969237",
+          "label": "2 Fish",
+          "price": 12.95,
+          "available": true
+        },
+        {
+          "id": "39994194002005",
+          "label": "4 Fish",
+          "price": 22.95,
+          "available": true
+        },
+        {
+          "id": "51662845903138",
+          "label": "8 Fish",
+          "price": 43.95,
+          "available": true
+        },
+        {
+          "id": "51662845935906",
+          "label": "16 Fish",
+          "price": 82.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6738942459989",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T14:59:52.527Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31441391288422",
+          "label": "Imported / 1 Fish",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:458116464680",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-21T15:00:01.282Z",
       "price": 17.99,
       "currency": "USD",
@@ -2217,6 +2707,58 @@
       "type": "heartbeat",
       "listingId": "ck-fish-world:8149573435607",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T15:39:20.255Z",
+      "price": 12.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39994193969237",
+          "label": "2 Fish",
+          "price": 12.95,
+          "available": true
+        },
+        {
+          "id": "39994194002005",
+          "label": "4 Fish",
+          "price": 22.95,
+          "available": true
+        },
+        {
+          "id": "51662845903138",
+          "label": "8 Fish",
+          "price": 43.95,
+          "available": true
+        },
+        {
+          "id": "51662845935906",
+          "label": "16 Fish",
+          "price": 82.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6738942459989",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T15:39:24.026Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31441391288422",
+          "label": "Imported / 1 Fish",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:458116464680",
+      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-11-21T15:39:33.054Z",
@@ -2408,6 +2950,58 @@
       "storeSlug": "ck-fish-world"
     },
     {
+      "observedAt": "2026-11-21T16:38:20.970Z",
+      "price": 12.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39994193969237",
+          "label": "2 Fish",
+          "price": 12.95,
+          "available": true
+        },
+        {
+          "id": "39994194002005",
+          "label": "4 Fish",
+          "price": 22.95,
+          "available": true
+        },
+        {
+          "id": "51662845903138",
+          "label": "8 Fish",
+          "price": 43.95,
+          "available": true
+        },
+        {
+          "id": "51662845935906",
+          "label": "16 Fish",
+          "price": 82.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6738942459989",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T16:38:26.729Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31441391288422",
+          "label": "Imported / 1 Fish",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:458116464680",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-21T16:38:40.438Z",
       "price": 17.99,
       "currency": "USD",
@@ -2578,6 +3172,58 @@
       "storeSlug": "ck-fish-world"
     },
     {
+      "observedAt": "2026-11-21T20:07:54.360Z",
+      "price": 12.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39994193969237",
+          "label": "2 Fish",
+          "price": 12.95,
+          "available": true
+        },
+        {
+          "id": "39994194002005",
+          "label": "4 Fish",
+          "price": 22.95,
+          "available": true
+        },
+        {
+          "id": "51662845903138",
+          "label": "8 Fish",
+          "price": 43.95,
+          "available": true
+        },
+        {
+          "id": "51662845935906",
+          "label": "16 Fish",
+          "price": 82.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6738942459989",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:57.844Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31441391288422",
+          "label": "Imported / 1 Fish",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:458116464680",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-21T20:08:06.000Z",
       "price": 6.29,
       "currency": "USD",
@@ -2737,6 +3383,58 @@
       "storeSlug": "ck-fish-world"
     },
     {
+      "observedAt": "2026-11-22T00:26:36.406Z",
+      "price": 12.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39994193969237",
+          "label": "2 Fish",
+          "price": 12.95,
+          "available": true
+        },
+        {
+          "id": "39994194002005",
+          "label": "4 Fish",
+          "price": 22.95,
+          "available": true
+        },
+        {
+          "id": "51662845903138",
+          "label": "8 Fish",
+          "price": 43.95,
+          "available": true
+        },
+        {
+          "id": "51662845935906",
+          "label": "16 Fish",
+          "price": 82.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6738942459989",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T00:26:39.405Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31441391288422",
+          "label": "Imported / 1 Fish",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:458116464680",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-22T00:26:46.153Z",
       "price": 6.29,
       "currency": "USD",
@@ -2761,6 +3459,214 @@
     },
     {
       "observedAt": "2026-11-22T00:27:31.804Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627671126332",
+          "label": "Title",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006359015740",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T00:52:10.879Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15532872070",
+          "label": "School of 3",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "15532872198",
+          "label": "School of 6",
+          "price": 30.99,
+          "available": false
+        },
+        {
+          "id": "30963777932",
+          "label": "School of 9",
+          "price": 45.99,
+          "available": false
+        },
+        {
+          "id": "43283556748",
+          "label": "School of 12",
+          "price": 58.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4752652678",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T00:52:23.866Z",
+      "price": 6.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40848407527633",
+          "label": ".75-1\"",
+          "price": 6.5,
+          "available": true
+        },
+        {
+          "id": "40921972342993",
+          "label": "1.1-1.5”",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6967212900561",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T00:52:29.834Z",
+      "price": 4.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42246118342731",
+          "label": "Panda Cory (Size Medium)",
+          "price": 5,
+          "available": false
+        },
+        {
+          "id": "41032360886347",
+          "label": "Panda Cory (Size Medium/Large)",
+          "price": 6,
+          "available": false
+        },
+        {
+          "id": "16053361475627",
+          "label": "Panda Cory",
+          "price": 4.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1774164508715+7218628821067+7632383574091",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T00:52:35.081Z",
+      "price": 21.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336172101847",
+          "label": "3",
+          "price": 21.98,
+          "available": true
+        },
+        {
+          "id": "45336172134615",
+          "label": "5",
+          "price": 34.98,
+          "available": true
+        },
+        {
+          "id": "45704807907543",
+          "label": "10",
+          "price": 59.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8149573435607",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T00:52:39.317Z",
+      "price": 12.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39994193969237",
+          "label": "2 Fish",
+          "price": 12.95,
+          "available": true
+        },
+        {
+          "id": "39994194002005",
+          "label": "4 Fish",
+          "price": 22.95,
+          "available": true
+        },
+        {
+          "id": "51662845903138",
+          "label": "8 Fish",
+          "price": 43.95,
+          "available": true
+        },
+        {
+          "id": "51662845935906",
+          "label": "16 Fish",
+          "price": 82.95,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6738942459989",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T00:52:42.262Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31441391288422",
+          "label": "Imported / 1 Fish",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:458116464680",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T00:52:48.855Z",
+      "price": 6.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441092624683",
+          "label": "Panda Cory (Embarrassment of 3)",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "51428222304555",
+          "label": "Panda Cory",
+          "price": 6.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130832032043+6319067974",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T00:53:33.241Z",
       "price": 4.99,
       "currency": "USD",
       "available": false,
