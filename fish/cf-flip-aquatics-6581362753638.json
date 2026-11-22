@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:flip-aquatics:6581362753638",
-  "commonName": "Diamond Head Neon Tetra (Blue Diamond)",
+  "commonName": "Diamond Head Neon Tetra",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Diamond Head Neon Tetra (Blue Diamond)"
+    },
+    {
+      "listingId": "dans-fish:10127101985066",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Diamond Head Neon Tetra"
     }
   ],
   "events": [
@@ -251,6 +257,43 @@
       "type": "heartbeat",
       "listingId": "flip-aquatics:6581362753638",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:37.264Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39334885490790",
+          "label": "Imported / 1 Fish",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6581362753638",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533886325034",
+          "label": "Unsexed",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127101985066",
+      "storeSlug": "dans-fish"
     }
   ]
 }

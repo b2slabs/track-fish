@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10068456407356",
-  "commonName": "Multi Shell Dweller Cichlid-1-2\"",
+  "commonName": "Multi Shell Dweller Cichlid",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Multi Shell Dweller Cichlid-1-2\""
+    },
+    {
+      "listingId": "dans-fish:10127095890218",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Multi Shell Dweller Cichlid"
     }
   ],
   "events": [
@@ -200,6 +206,43 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10068456407356",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:29.123Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51809121239356",
+          "label": "Title",
+          "price": 15.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10068456407356",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533867712810",
+          "label": "Unsexed",
+          "price": 16.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127095890218",
+      "storeSlug": "dans-fish"
     }
   ]
 }

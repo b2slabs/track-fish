@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:imperial-tropicals:9971670843699",
-  "commonName": "L136 Demini Angelicus Pleco (Hypancistrus sp. (L136))",
+  "commonName": "L136b Demini Angelicus Pleco",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "L136 Demini Angelicus Pleco (Hypancistrus sp. (L136))"
+    },
+    {
+      "listingId": "dans-fish:10127143502122",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "L136b Demini Angelicus Pleco"
     }
   ],
   "events": [
@@ -251,6 +257,43 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:9971670843699",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:56.213Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52697961038131",
+          "label": "2-3\" Unsexed",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9971670843699",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51534026473770",
+          "label": "Unsexed",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127143502122",
+      "storeSlug": "dans-fish"
     }
   ]
 }

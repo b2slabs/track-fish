@@ -8,6 +8,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Dwarf Red Hummingbird Tetra"
+    },
+    {
+      "listingId": "dans-fish:10127192654122",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Dwarf Red Hummingbird Tetra"
     }
   ],
   "events": [
@@ -200,6 +206,43 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006356754748",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:29.123Z",
+      "price": 12.87,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627665719612",
+          "label": "Title",
+          "price": 12.87,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006356754748",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51534144831786",
+          "label": "Unsexed",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127192654122",
+      "storeSlug": "dans-fish"
     }
   ]
 }

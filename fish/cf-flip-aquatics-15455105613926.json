@@ -8,6 +8,12 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Orange Molly"
+    },
+    {
+      "listingId": "dans-fish:10258441732394",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Orange Molly"
     }
   ],
   "events": [
@@ -251,6 +257,55 @@
       "type": "heartbeat",
       "listingId": "flip-aquatics:15455105613926",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:37.264Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67872842055782",
+          "label": "Imported / 1 Fish",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:15455105613926",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52267362287914",
+          "label": "Unsexed",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "52267362320682",
+          "label": "Male",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "52267362353450",
+          "label": "Female",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10258441732394",
+      "storeSlug": "dans-fish"
     }
   ]
 }

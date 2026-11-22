@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10006315106620",
-  "commonName": "Really Red Pencilfish 'Rio Amaya'- WILD",
+  "commonName": "Really Red Pencilfish 'Rio Amaya'",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Really Red Pencilfish 'Rio Amaya'- WILD"
+    },
+    {
+      "listingId": "dans-fish:10127075311914",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Really Red Pencilfish 'Rio Amaya'"
     }
   ],
   "events": [
@@ -332,6 +338,67 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006315106620",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:29.123Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51665997955388",
+          "label": "Single",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "51665997988156",
+          "label": "Group of 3",
+          "price": 107.97,
+          "available": false
+        },
+        {
+          "id": "51665998020924",
+          "label": "Group of 6",
+          "price": 191.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006315106620",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533807845674",
+          "label": "Unsexed",
+          "price": 69.99,
+          "available": true
+        },
+        {
+          "id": "51533807878442",
+          "label": "Male",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "51533807911210",
+          "label": "Female",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127075311914",
+      "storeSlug": "dans-fish"
     }
   ]
 }

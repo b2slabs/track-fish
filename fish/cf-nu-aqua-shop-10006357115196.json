@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10006357115196",
-  "commonName": "Drapefin Barb",
+  "commonName": "Drape Fin Barb",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Drapefin Barb"
+    },
+    {
+      "listingId": "dans-fish:10127144354090",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Drape Fin Barb"
     }
   ],
   "events": [
@@ -200,6 +206,55 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006357115196",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:29.123Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627666342204",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006357115196",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51534029029674",
+          "label": "Unsexed",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "51534029062442",
+          "label": "Male",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "51534029095210",
+          "label": "Female",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127144354090",
+      "storeSlug": "dans-fish"
     }
   ]
 }

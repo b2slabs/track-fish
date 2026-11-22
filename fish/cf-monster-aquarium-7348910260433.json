@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:monster-aquarium:7348910260433",
-  "commonName": "Scarlet goby( Rhinogobius Zhoui )",
+  "commonName": "Scarlet Goby",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Scarlet goby( Rhinogobius Zhoui )"
+    },
+    {
+      "listingId": "dans-fish:10127076589866",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Scarlet Goby"
     }
   ],
   "events": [
@@ -5702,6 +5708,55 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7348910260433",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:17.729Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41923644227793",
+          "label": "1.5-2\"",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7348910260433",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533810827562",
+          "label": "Unsexed",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "51533810860330",
+          "label": "Male",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "51533810893098",
+          "label": "Female",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127076589866",
+      "storeSlug": "dans-fish"
     }
   ]
 }

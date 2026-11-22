@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10006315008316",
-  "commonName": "Cochu’s Blue Tetra",
+  "commonName": "Blue Cochu Tetra",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Cochu’s Blue Tetra"
+    },
+    {
+      "listingId": "dans-fish:10127115878698",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Blue Cochu Tetra"
     }
   ],
   "events": [
@@ -200,6 +206,43 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006315008316",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:29.123Z",
+      "price": 3.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627486806332",
+          "label": "Title",
+          "price": 3.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006315008316",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533929021738",
+          "label": "Unsexed",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127115878698",
+      "storeSlug": "dans-fish"
     }
   ]
 }

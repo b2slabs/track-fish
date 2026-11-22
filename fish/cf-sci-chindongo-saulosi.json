@@ -8,6 +8,12 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Chindongo saulosi"
+    },
+    {
+      "listingId": "dans-fish:10127114830122",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Chindongo saulosi"
     }
   ],
   "events": [
@@ -419,6 +425,55 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8303244837171",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:56.213Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45224042823987",
+          "label": "1-2\" Unsexed",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "45224042955059",
+          "label": "2-3\" Female",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "45224042856755",
+          "label": "2-3\" Male",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8303244837171",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533924958506",
+          "label": "Unsexed",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127114830122",
+      "storeSlug": "dans-fish"
     }
   ]
 }

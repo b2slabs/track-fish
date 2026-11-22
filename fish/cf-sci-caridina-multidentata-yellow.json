@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:caridina-multidentata:yellow",
-  "commonName": "Yellow Amano Shrimp",
+  "commonName": "Lemon Yellow Amano Shrimp, (4 pack)",
   "scientificName": "Caridina multidentata",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Lemon Yellow Amano Shrimp (Caridina multidentata \"Lemon\")- Tank Bred"
+    },
+    {
+      "listingId": "dans-fish:10419757187370",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Lemon Yellow Amano Shrimp, (4 pack)"
     }
   ],
   "events": [
@@ -1212,6 +1218,96 @@
       "type": "heartbeat",
       "listingId": "shrimpy-business:9934568161570",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:03.992Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49516199772439",
+          "label": "1 shrimp",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "49516199805207",
+          "label": "3 shrimp",
+          "price": 25.99,
+          "available": true
+        },
+        {
+          "id": "49516199837975",
+          "label": "5 shrimp",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "id": "49516199870743",
+          "label": "10 Shrimp",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:9622486712599",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:34.146Z",
+      "price": 34.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50568228438306",
+          "label": "5 Shrimp",
+          "price": 34.95,
+          "available": false
+        },
+        {
+          "id": "50568228471074",
+          "label": "10 Shrimp",
+          "price": 62.95,
+          "available": false
+        },
+        {
+          "id": "51662833254690",
+          "label": "20 Shrimp",
+          "price": 118.95,
+          "available": false
+        },
+        {
+          "id": "51662833287458",
+          "label": "40 Shrimp",
+          "price": 223.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9934568161570",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53484183912746",
+          "label": "Unsexed",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10419757187370",
+      "storeSlug": "dans-fish"
     }
   ]
 }

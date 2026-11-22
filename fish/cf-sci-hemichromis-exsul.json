@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hemichromis-exsul",
-  "commonName": "Turkana Jewel Cichlid (Hemichromis exsul), Tank-Bred!",
+  "commonName": "Turkana Jewel Cichlid",
   "scientificName": "Hemichromis exsul",
   "listings": [
     {
@@ -20,6 +20,12 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Turkana Jewel Cichlid (Rubricatochromis exsul)"
+    },
+    {
+      "listingId": "dans-fish:10308327538986",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Turkana Jewel Cichlid"
     }
   ],
   "events": [
@@ -7126,6 +7132,95 @@
       "type": "heartbeat",
       "listingId": "global-exoticquatics:8263775977664",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:03.992Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32002692972630",
+          "label": "1 Fish",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "32002693005398",
+          "label": "Group of 3",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4573424713814",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:56.213Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612166480179",
+          "label": "1-2\" Unsexed",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "45612166512947",
+          "label": "2-3” Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "47152608510259",
+          "label": "3-4” Unsexed",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398127169843",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:26.089Z",
+      "price": 9,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46484870234304",
+          "label": "1 inch",
+          "price": 9,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8263775977664",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52590811250986",
+          "label": "Unsexed",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10308327538986",
+      "storeSlug": "dans-fish"
     }
   ]
 }

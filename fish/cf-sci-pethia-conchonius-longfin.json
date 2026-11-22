@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pethia-conchonius:longfin",
-  "commonName": "Longfin Rosy Barb",
+  "commonName": "Long Fin Rosy Barb",
   "scientificName": "Pethia conchonius",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Longfin Rosy Barb"
+    },
+    {
+      "listingId": "dans-fish:10127109882154",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Long Fin Rosy Barb"
     }
   ],
   "events": [
@@ -666,6 +672,84 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:9638247203123",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:44.014Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19056945478",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6018766790",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:56.213Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51050534142259",
+          "label": "1-2\" Unsexed",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "51050534175027",
+          "label": "(6 Pack) 1-2\" Unsexed",
+          "price": 26.99,
+          "available": false
+        },
+        {
+          "id": "67612004319539",
+          "label": "1-2\" Pair (1 Male, 1 Female)",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9638247203123",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533909098794",
+          "label": "Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "51533909131562",
+          "label": "Male",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "51533909164330",
+          "label": "Female",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127109882154",
+      "storeSlug": "dans-fish"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:gastromyzon-species:pink",
-  "commonName": "Pink Polcadot Hillstream Loach",
+  "commonName": "Pink Polka Dot Hillstream Loach",
   "scientificName": "Gastromyzon species",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Pink Polcadot Hillstream Loach"
+    },
+    {
+      "listingId": "dans-fish:10419070337322",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Pink Polka Dot Hillstream Loach"
     }
   ],
   "events": [
@@ -503,6 +509,61 @@
       "type": "heartbeat",
       "listingId": "shrimpy-business:9797252743458",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:34.146Z",
+      "price": 38.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50149656264994",
+          "label": "1 Fish",
+          "price": 38.95,
+          "available": false
+        },
+        {
+          "id": "50149656297762",
+          "label": "3 Fish",
+          "price": 104.95,
+          "available": false
+        },
+        {
+          "id": "51662837317922",
+          "label": "6 Fish",
+          "price": 198.95,
+          "available": false
+        },
+        {
+          "id": "51662837350690",
+          "label": "12 Fish",
+          "price": 373.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9797252743458",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53478612861226",
+          "label": "Unsexed",
+          "price": 34.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10419070337322",
+      "storeSlug": "dans-fish"
     }
   ]
 }

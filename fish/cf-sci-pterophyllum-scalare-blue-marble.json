@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pterophyllum-scalare:blue-marble",
-  "commonName": "Blue Turquoise Marble Angelfish (Pterophyllum scalare) – Tank Bred",
+  "commonName": "Blue Marble Angelfish",
   "scientificName": "Pterophyllum scalare",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Blue Marble Angelfish - 2.5-3\""
+    },
+    {
+      "listingId": "dans-fish:10127086616874",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Blue Marble Angelfish"
     }
   ],
   "events": [
@@ -2742,6 +2748,66 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10292892991804",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:03.992Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51818189783407",
+          "label": "1 Fish",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "51818189816175",
+          "label": "3 Fish",
+          "price": 144.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:14687620825455",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:29.123Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52722390106428",
+          "label": "Title",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10292892991804",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533839368490",
+          "label": "Unsexed",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127086616874",
+      "storeSlug": "dans-fish"
     }
   ]
 }

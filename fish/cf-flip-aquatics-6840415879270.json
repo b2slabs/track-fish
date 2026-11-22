@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:flip-aquatics:6840415879270",
-  "commonName": "Orange Saddle Sumo Loach",
+  "commonName": "Orange Saddle Sumo Loach II",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Orange Saddle Sumo Loach"
+    },
+    {
+      "listingId": "dans-fish:10127137603882",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Orange Saddle Sumo Loach II"
     }
   ],
   "events": [
@@ -251,6 +257,43 @@
       "type": "heartbeat",
       "listingId": "flip-aquatics:6840415879270",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:37.264Z",
+      "price": 16.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39991515381862",
+          "label": "1 Fish",
+          "price": 16.49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6840415879270",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51534006583594",
+          "label": "Unsexed",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127137603882",
+      "storeSlug": "dans-fish"
     }
   ]
 }

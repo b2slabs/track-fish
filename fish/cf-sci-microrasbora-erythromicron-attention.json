@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:microrasbora-erythromicron-attention",
-  "commonName": "Emerald Dwarf Rasbora",
+  "commonName": "Dwarf Emerald Rasbora",
   "scientificName": "Microrasbora erythromicron attention",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Emerald Dwarf Rasbora"
+    },
+    {
+      "listingId": "dans-fish:10127075442986",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Dwarf Emerald Rasbora"
     }
   ],
   "events": [
@@ -599,6 +605,66 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8398117241139",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:24.006Z",
+      "price": 3.8,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15774078631979",
+          "label": "Title",
+          "price": 3.8,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1724218310699",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:56.213Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612142231859",
+          "label": "(3 Pack) 0.5-1\" Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "50841806209331",
+          "label": "(10 Pack) 0.5-1\" Unsexed",
+          "price": 74.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398117241139",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533808140586",
+          "label": "Unsexed",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127075442986",
+      "storeSlug": "dans-fish"
     }
   ]
 }

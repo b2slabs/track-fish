@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:otothyropsis-piribebuy:black",
-  "commonName": "Black Oto (Otothyropsis piribebuy)",
+  "commonName": "Black Otocinclus",
   "scientificName": "Otothyropsis piribebuy",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Black Oto (Otothyropsis piribebuy)"
+    },
+    {
+      "listingId": "dans-fish:10127107653930",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Black Otocinclus"
     }
   ],
   "events": [
@@ -335,6 +341,49 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:9608330510643",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:56.213Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50878803312947",
+          "label": "0.25-0.5\" Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "50878804918579",
+          "label": "0.5-1\" Unsexed",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9608330510643",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533901857066",
+          "label": "Unsexed",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127107653930",
+      "storeSlug": "dans-fish"
     }
   ]
 }

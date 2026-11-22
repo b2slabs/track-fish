@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Hump Head Glass Fish"
+    },
+    {
+      "listingId": "dans-fish:10127175581994",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Hump Head Glass Fish"
     }
   ],
   "events": [
@@ -302,6 +308,43 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:7162344898769",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:17.729Z",
+      "price": 25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41363324600529",
+          "label": "2-2.5”",
+          "price": 25,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7162344898769",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51534086144298",
+          "label": "Unsexed",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127175581994",
+      "storeSlug": "dans-fish"
     }
   ]
 }

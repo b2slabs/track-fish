@@ -1,13 +1,19 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10006361014588",
-  "commonName": "Weitzmani Cory",
-  "scientificName": null,
+  "commonName": "Corydoras weitzmani",
+  "scientificName": "Corys for short",
   "listings": [
     {
       "listingId": "nu-aqua-shop:10006361014588",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Weitzmani Cory"
+    },
+    {
+      "listingId": "dans-fish:10127195734314",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Corydoras weitzmani"
     }
   ],
   "events": [
@@ -200,6 +206,43 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006361014588",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:29.123Z",
+      "price": 32.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627673125180",
+          "label": "Title",
+          "price": 32.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006361014588",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 19.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51534158954794",
+          "label": "Unsexed",
+          "price": 19.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127195734314",
+      "storeSlug": "dans-fish"
     }
   ]
 }

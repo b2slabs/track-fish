@@ -8,6 +8,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Platinum Lyretail Molly"
+    },
+    {
+      "listingId": "dans-fish:10127129903402",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Platinum Lyretail Molly"
     }
   ],
   "events": [
@@ -251,6 +257,55 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:6552887046",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:44.014Z",
+      "price": 6.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20749347462",
+          "label": "Title",
+          "price": 6.29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6552887046",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533976699178",
+          "label": "Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "51533976731946",
+          "label": "Male",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "51533976764714",
+          "label": "Female",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127129903402",
+      "storeSlug": "dans-fish"
     }
   ]
 }

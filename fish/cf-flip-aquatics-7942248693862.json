@@ -8,6 +8,12 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Red Lace Guppy"
+    },
+    {
+      "listingId": "dans-fish:10127129182506",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Red Lace Guppy"
     }
   ],
   "events": [
@@ -419,6 +425,67 @@
       "type": "heartbeat",
       "listingId": "flip-aquatics:7942248693862",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:37.264Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45259391369318",
+          "label": "Imported / Male",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "45259391402086",
+          "label": "Imported / Female",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45259391434854",
+          "label": "Imported / Pair (M/F)",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:7942248693862",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533972111658",
+          "label": "Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "51533972144426",
+          "label": "Male",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "51533972177194",
+          "label": "Female",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127129182506",
+      "storeSlug": "dans-fish"
     }
   ]
 }

@@ -593,6 +593,39 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:1984687407190",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:03.992Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19642760659030",
+          "label": "1 Bulb",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "19642760691798",
+          "label": "2 Bulbs",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "19642760724566",
+          "label": "3 Bulbs",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:1984687407190",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

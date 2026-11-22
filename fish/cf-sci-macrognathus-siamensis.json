@@ -20,6 +20,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Peacock Eel Striped"
+    },
+    {
+      "listingId": "dans-fish:10333729587498",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Peacock Eel"
     }
   ],
   "events": [
@@ -11588,6 +11594,77 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:6189920582",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:17.729Z",
+      "price": 29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42767126724817",
+          "label": "5-6\"",
+          "price": 29,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7646854709457",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:29.601Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44098377318615",
+          "label": "Title",
+          "price": 19.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150020456663",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:44.014Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19603565702",
+          "label": "Title",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6189920582",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52806975357226",
+          "label": "Unsexed",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10333729587498",
+      "storeSlug": "dans-fish"
     }
   ]
 }

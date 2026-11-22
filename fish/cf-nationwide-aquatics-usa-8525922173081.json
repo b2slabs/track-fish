@@ -14,6 +14,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Trout Goodeid"
+    },
+    {
+      "listingId": "dans-fish:10127108800810",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Trout Goodeid"
     }
   ],
   "events": [
@@ -464,6 +470,72 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10042857259324",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:32.685Z",
+      "price": 30,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45733551374489",
+          "label": "Title",
+          "price": 30,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nationwide-aquatics-usa:8525922173081",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:29.123Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51737078989116",
+          "label": "M/L 2-3\"",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10042857259324",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533905723690",
+          "label": "Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "51533905756458",
+          "label": "Male",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "51533905789226",
+          "label": "Female",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127108800810",
+      "storeSlug": "dans-fish"
     }
   ]
 }

@@ -8,6 +8,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Green Sailfin Molly"
+    },
+    {
+      "listingId": "dans-fish:10127106638122",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Green Sailfin Molly"
     }
   ],
   "events": [
@@ -462,6 +468,61 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:10306181103915+10436214522155",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:44.014Z",
+      "price": 10.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53921510850859",
+          "label": "Green Sailfin Molly (4-Pack)",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "52737836319019",
+          "label": "Green Sailfin Molly",
+          "price": 10.79,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10306181103915+10436214522155",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533898711338",
+          "label": "Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "51533898744106",
+          "label": "Male",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "51533898776874",
+          "label": "Female",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127106638122",
+      "storeSlug": "dans-fish"
     }
   ]
 }

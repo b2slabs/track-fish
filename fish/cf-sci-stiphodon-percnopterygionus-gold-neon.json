@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:stiphodon-percnopterygionus:gold-neon",
-  "commonName": "Gold Neon Dwarf Goby (Stiphodon percnopterygionus)",
+  "commonName": "Dwarf Gold Neon Goby",
   "scientificName": "Stiphodon percnopterygionus",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Gold Neon Dwarf Goby (Stiphodon percnopterygionus)"
+    },
+    {
+      "listingId": "dans-fish:10127087468842",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Dwarf Gold Neon Goby"
     }
   ],
   "events": [
@@ -593,6 +599,55 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:9944154508",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:03.992Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "35813014860",
+          "label": "1 Fish",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "35813014924",
+          "label": "Group of 3",
+          "price": 56.99,
+          "available": false
+        },
+        {
+          "id": "35813015052",
+          "label": "Group of 6",
+          "price": 108.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:9944154508",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533842055466",
+          "label": "Unsexed",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127087468842",
+      "storeSlug": "dans-fish"
     }
   ]
 }

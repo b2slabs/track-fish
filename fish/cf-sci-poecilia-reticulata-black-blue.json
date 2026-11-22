@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:poecilia-reticulata:black-blue",
-  "commonName": "Half Black Blue Guppy (Poecilia reticulata) – Tank Bred",
+  "commonName": "Half Black Blue Guppy",
   "scientificName": "Poecilia reticulata",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Half Black Blue Guppy (Poecilia reticulata) – Tank Bred"
+    },
+    {
+      "listingId": "dans-fish:10127160181034",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Half Black Blue Guppy"
     }
   ],
   "events": [
@@ -4958,6 +4964,67 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:15004135424367",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:03.992Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53143692575087",
+          "label": "1 Male",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "53143692607855",
+          "label": "1 Female",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "53143692640623",
+          "label": "1 Pair ( 1 Male + 1 Female )",
+          "price": 22.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:15004135424367",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51534060290346",
+          "label": "Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "51534060323114",
+          "label": "Male",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "51534060355882",
+          "label": "Female",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127160181034",
+      "storeSlug": "dans-fish"
     }
   ]
 }

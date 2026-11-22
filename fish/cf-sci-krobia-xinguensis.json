@@ -8,6 +8,12 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Krobia xinguensis"
+    },
+    {
+      "listingId": "dans-fish:10127113158954",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Krobia xinguensis"
     }
   ],
   "events": [
@@ -251,6 +257,43 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8398130708787",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:56.213Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612175786291",
+          "label": "1.5” Unsexed",
+          "price": 21.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398130708787",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533919158570",
+          "label": "Unsexed",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127113158954",
+      "storeSlug": "dans-fish"
     }
   ]
 }

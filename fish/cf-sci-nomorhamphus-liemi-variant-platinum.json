@@ -20,6 +20,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Platinum Half Beak"
+    },
+    {
+      "listingId": "dans-fish:10127085797674",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Platinum Halfbeak"
     }
   ],
   "events": [
@@ -8283,6 +8289,89 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006359277884",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:29.601Z",
+      "price": 20.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46112633061591",
+          "label": "3",
+          "price": 20.98,
+          "available": true
+        },
+        {
+          "id": "46112633094359",
+          "label": "5",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8537397526743",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:44.014Z",
+      "price": 8.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48489429172523",
+          "label": "Platinum Half Beak (Group of 4)",
+          "price": 25.99,
+          "available": true
+        },
+        {
+          "id": "51437516489003",
+          "label": "Platinum Half Beak",
+          "price": 8.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6574367814+9211153350955",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:29.123Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627671388476",
+          "label": "Title",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006359277884",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533836845354",
+          "label": "Unsexed",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127085797674",
+      "storeSlug": "dans-fish"
     }
   ]
 }

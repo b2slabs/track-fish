@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:guianacara-dacrya",
-  "commonName": "Bandit Cichlid (Guianacara dacrya)",
+  "commonName": "Bandit Cichlid",
   "scientificName": "Guianacara dacrya",
   "listings": [
     {
@@ -13,6 +13,12 @@
       "listingId": "aquarium-fish:4744808562769",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
+      "commonName": "Bandit Cichlid"
+    },
+    {
+      "listingId": "dans-fish:10127199109418",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
       "commonName": "Bandit Cichlid"
     }
   ],
@@ -582,6 +588,66 @@
       "type": "heartbeat",
       "listingId": "imperial-tropicals:8398195884339",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:44.014Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32795906113617",
+          "label": "Title",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:4744808562769",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:56.213Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50799654830387",
+          "label": "1-2\" Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "45612323406131",
+          "label": "2-3\" Unsexed",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:8398195884339",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51534170489130",
+          "label": "Unsexed",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127199109418",
+      "storeSlug": "dans-fish"
     }
   ]
 }

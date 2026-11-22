@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:nannostomus-sp:red",
-  "commonName": "Cenepa Red Pencilfish- WILD",
+  "commonName": "Cenepa Red Pencilfish",
   "scientificName": "Nannostomus sp",
   "listings": [
     {
@@ -20,6 +20,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Cenepa Red Pencilfish- WILD"
+    },
+    {
+      "listingId": "dans-fish:10127115059498",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Cenepa Red Pencilfish"
     }
   ],
   "events": [
@@ -829,6 +835,83 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006356033852",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:17.729Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41829212258513",
+          "label": ".75-1\"",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7320586223825",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:56.213Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51016572862771",
+          "label": "0.5-1\" Unsexed",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "51016572895539",
+          "label": "(10 Pack) 0.5-1\" Unsexed",
+          "price": 269.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9630999445811",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:29.123Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627664998716",
+          "label": "Title",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006356033852",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533925843242",
+          "label": "Unsexed",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127115059498",
+      "storeSlug": "dans-fish"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:red-tail:red",
-  "commonName": "Hillstream Loach | Red Tail",
+  "commonName": "Red Tail Hillstream Loach",
   "scientificName": "Red tail",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Hillstream Loach | Red Tail"
+    },
+    {
+      "listingId": "dans-fish:10127110603050",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Red Tail Hillstream Loach"
     }
   ],
   "events": [
@@ -5626,6 +5632,43 @@
       "type": "heartbeat",
       "listingId": "aquahuna:7379659882571",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:24.006Z",
+      "price": 20,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41519687827531",
+          "label": "Title",
+          "price": 20,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:7379659882571",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533911654698",
+          "label": "Unsexed",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127110603050",
+      "storeSlug": "dans-fish"
     }
   ]
 }

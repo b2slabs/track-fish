@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pseudotropheus-socolofi:white",
-  "commonName": "Snow White Cichlid",
+  "commonName": "Snow White Socolofi",
   "scientificName": "Pseudotropheus socolofi",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Snow White Cichlid"
+    },
+    {
+      "listingId": "dans-fish:10127085207850",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Snow White Socolofi"
     }
   ],
   "events": [
@@ -515,6 +521,60 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:5837199110",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:24.006Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "30279907082283",
+          "label": "Title",
+          "price": 5.5,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4168266874923",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:44.014Z",
+      "price": 10.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "18461638086",
+          "label": "Title",
+          "price": 10.29,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:5837199110",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533834912042",
+          "label": "Unsexed",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127085207850",
+      "storeSlug": "dans-fish"
     }
   ]
 }

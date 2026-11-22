@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:puntius-denisonii",
-  "commonName": "Roseline barb (Puntius denisonii)",
+  "commonName": "Roseline Barb",
   "scientificName": "Puntius denisonii",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Roseline barb (Puntius denisonii)"
+    },
+    {
+      "listingId": "dans-fish:10127074853162",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Roseline Barb"
     }
   ],
   "events": [
@@ -768,6 +774,61 @@
       "type": "heartbeat",
       "listingId": "monster-aquarium:6967885529297+7008094159057",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:17.729Z",
+      "price": 13.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40979976552657",
+          "label": "2.5-3.5\"",
+          "price": 35,
+          "available": false
+        },
+        {
+          "id": "40849721393361",
+          "label": "2\"",
+          "price": 13.5,
+          "available": true
+        },
+        {
+          "id": "42939205189841",
+          "label": "3\"",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "40914029805777",
+          "label": "4\"",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6967885529297+7008094159057",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533806502186",
+          "label": "Unsexed",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127074853162",
+      "storeSlug": "dans-fish"
     }
   ]
 }

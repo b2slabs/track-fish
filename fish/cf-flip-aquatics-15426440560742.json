@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:flip-aquatics:15426440560742",
-  "commonName": "Snow Amano Shrimp",
+  "commonName": "Snow Amano Shrimp, (4 pack)",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Snow Amano Shrimp"
+    },
+    {
+      "listingId": "dans-fish:10333720969514",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Snow Amano Shrimp, (4 pack)"
     }
   ],
   "events": [
@@ -335,6 +341,49 @@
       "type": "heartbeat",
       "listingId": "flip-aquatics:15426440560742",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:37.264Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67728441639014",
+          "label": "Imported / 5 Pack",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "67728441671782",
+          "label": "Imported / 10 Pack",
+          "price": 74.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:15426440560742",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52806918275370",
+          "label": "Unsexed",
+          "price": 39.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10333720969514",
+      "storeSlug": "dans-fish"
     }
   ]
 }

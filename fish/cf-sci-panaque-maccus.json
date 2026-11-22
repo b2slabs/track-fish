@@ -14,6 +14,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Clown Pleco"
+    },
+    {
+      "listingId": "dans-fish:10127129084202",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Clown Pleco"
     }
   ],
   "events": [
@@ -468,6 +474,60 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10042820100412",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:24.006Z",
+      "price": 9.2,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32450436825163",
+          "label": "Title",
+          "price": 9.2,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4603048493131",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:29.123Z",
+      "price": 11.37,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51737020039484",
+          "label": "Title",
+          "price": 11.37,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10042820100412",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533971685674",
+          "label": "Unsexed",
+          "price": 16.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127129084202",
+      "storeSlug": "dans-fish"
     }
   ]
 }

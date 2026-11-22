@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:beaufortia-kweichowensis",
-  "commonName": "Butterfly Hillstream Loach (Beaufortia kweichowensis)",
+  "commonName": "Butterfly Hillstream Loach",
   "scientificName": "Beaufortia kweichowensis",
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Butterfly Hillstream Loach (Beaufortia kweichowensis)"
+    },
+    {
+      "listingId": "dans-fish:10127113617706",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Butterfly Hillstream Loach"
     }
   ],
   "events": [
@@ -713,6 +719,61 @@
       "type": "heartbeat",
       "listingId": "aquatic-arts:4937669378134",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:03.992Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33312390873174",
+          "label": "Group of 3",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "33312390905942",
+          "label": "Group of 6",
+          "price": 86.99,
+          "available": false
+        },
+        {
+          "id": "33312390938710",
+          "label": "Group of 9",
+          "price": 123.99,
+          "available": false
+        },
+        {
+          "id": "33312390971478",
+          "label": "Group of 12",
+          "price": 156.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquatic-arts:4937669378134",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533920502058",
+          "label": "Unsexed",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127113617706",
+      "storeSlug": "dans-fish"
     }
   ]
 }

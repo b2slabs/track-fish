@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:shrimpy-business:8906661200162",
-  "commonName": "Corydoras Duplicareus (Tanks-Bred)",
+  "commonName": "Corydoras duplicareus",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Corydoras Duplicareus (Tanks-Bred)"
+    },
+    {
+      "listingId": "dans-fish:10127087862058",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Corydoras duplicareus"
     }
   ],
   "events": [
@@ -503,6 +509,61 @@
       "type": "heartbeat",
       "listingId": "shrimpy-business:8906661200162",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:34.146Z",
+      "price": 52,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47593594552610",
+          "label": "2 Fish",
+          "price": 52,
+          "available": false
+        },
+        {
+          "id": "47593594585378",
+          "label": "4 Fish",
+          "price": 93.95,
+          "available": false
+        },
+        {
+          "id": "51662843183394",
+          "label": "8 Fish",
+          "price": 176.95,
+          "available": false
+        },
+        {
+          "id": "51662843216162",
+          "label": "16 Fish",
+          "price": 332.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:8906661200162",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533843169578",
+          "label": "Unsexed",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127087862058",
+      "storeSlug": "dans-fish"
     }
   ]
 }

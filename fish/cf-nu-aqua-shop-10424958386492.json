@@ -8,6 +8,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Pi Tetra"
+    },
+    {
+      "listingId": "dans-fish:10127162835242",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Pi Tetra"
     }
   ],
   "events": [
@@ -200,6 +206,43 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10424958386492",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:29.123Z",
+      "price": 13.47,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53198749172028",
+          "label": "Title",
+          "price": 13.47,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10424958386492",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51534064386346",
+          "label": "Unsexed",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127162835242",
+      "storeSlug": "dans-fish"
     }
   ]
 }

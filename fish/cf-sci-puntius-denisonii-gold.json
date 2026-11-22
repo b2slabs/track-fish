@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:puntius-denisonii:gold",
-  "commonName": "Gold Roseline Denison Barb",
+  "commonName": "Gold Roseline Barb",
   "scientificName": "Puntius denisonii",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Gold Roseline Denison Barb"
+    },
+    {
+      "listingId": "dans-fish:10127073706282",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Gold Roseline Barb"
     }
   ],
   "events": [
@@ -903,6 +909,84 @@
       "type": "heartbeat",
       "listingId": "shrimpy-business:9810525847842",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:17.729Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40979973963985",
+          "label": "1.75-2”",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "41853408051409",
+          "label": "3”",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7008093241553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:34.146Z",
+      "price": 39.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50201943081250",
+          "label": "1 Fish",
+          "price": 39.95,
+          "available": false
+        },
+        {
+          "id": "50201943114018",
+          "label": "3 Fish",
+          "price": 107.95,
+          "available": false
+        },
+        {
+          "id": "51662837088546",
+          "label": "6 Fish",
+          "price": 203.95,
+          "available": false
+        },
+        {
+          "id": "51662837121314",
+          "label": "12 Fish",
+          "price": 383.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:9810525847842",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 79.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533803749674",
+          "label": "Unsexed",
+          "price": 79.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127073706282",
+      "storeSlug": "dans-fish"
     }
   ]
 }

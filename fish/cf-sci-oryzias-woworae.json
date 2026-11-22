@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:oryzias-woworae",
-  "commonName": "Daisy's rice fish (Oryzias woworae )",
+  "commonName": "Daisy's Ricefish",
   "scientificName": "Oryzias woworae",
   "listings": [
     {
@@ -25,6 +25,12 @@
       "listingId": "shrimpy-business:6703173566549",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
+      "commonName": "Daisy's Ricefish"
+    },
+    {
+      "listingId": "dans-fish:10127095365930",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
       "commonName": "Daisy's Ricefish"
     }
   ],
@@ -6813,6 +6819,118 @@
       "type": "heartbeat",
       "listingId": "buce-plant:7171611427016",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:17.729Z",
+      "price": 4,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42221123731665",
+          "label": ".5\"",
+          "price": 4,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7464583233745",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:24.006Z",
+      "price": 4,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32787628458059",
+          "label": "Title",
+          "price": 4,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:4655546662987",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:34.146Z",
+      "price": 17.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39884353470549",
+          "label": "3 Fish",
+          "price": 17.95,
+          "available": false
+        },
+        {
+          "id": "39884353503317",
+          "label": "6 Fish",
+          "price": 31.95,
+          "available": false
+        },
+        {
+          "id": "51662847901986",
+          "label": "12 Fish",
+          "price": 60.95,
+          "available": false
+        },
+        {
+          "id": "51662847934754",
+          "label": "24 Fish",
+          "price": 114.95,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "shrimpy-business:6703173566549",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:05.418Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41318000001224",
+          "label": "6 Pack",
+          "price": 23.99,
+          "available": false
+        },
+        {
+          "id": "41318000066760",
+          "label": "12 Pack",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "buce-plant:7171611427016",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533865877802",
+          "label": "Unsexed",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127095365930",
+      "storeSlug": "dans-fish"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:flip-aquatics:6840410636390",
-  "commonName": "Calico Blue Coral Platy",
+  "commonName": "Blue Coral Calico Platy",
   "scientificName": null,
   "listings": [
     {
@@ -8,6 +8,12 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Calico Blue Coral Platy"
+    },
+    {
+      "listingId": "dans-fish:10127133442346",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Blue Coral Calico Platy"
     }
   ],
   "events": [
@@ -419,6 +425,67 @@
       "type": "heartbeat",
       "listingId": "flip-aquatics:6840410636390",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:37.264Z",
+      "price": 10.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39991509581926",
+          "label": "Imported / Male",
+          "price": 10.49,
+          "available": false
+        },
+        {
+          "id": "42100652408934",
+          "label": "Imported / Female",
+          "price": 10.49,
+          "available": false
+        },
+        {
+          "id": "42100652441702",
+          "label": "Imported / M/F Pair",
+          "price": 17.49,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6840410636390",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533988561194",
+          "label": "Unsexed",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "51533988593962",
+          "label": "Male",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "51533988626730",
+          "label": "Female",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127133442346",
+      "storeSlug": "dans-fish"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:kryptopterus-vitreolus",
-  "commonName": "Ghost Glass Catfish",
+  "commonName": "Glass Catfish",
   "scientificName": "Kryptopterus vitreolus",
   "listings": [
     {
@@ -32,6 +32,12 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Ghost Glass Catfish"
+    },
+    {
+      "listingId": "dans-fish:10127129018666",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Glass Catfish"
     }
   ],
   "events": [
@@ -7116,6 +7122,100 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006316450108",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:17.729Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41220979687633",
+          "label": "2”-3”",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:7106601418961",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:24.006Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "16064095682603",
+          "label": "Title",
+          "price": 10,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1778963709995",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:44.014Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441068474667",
+          "label": "Ghost Glass Catfish (School of 4)",
+          "price": 38.99,
+          "available": true
+        },
+        {
+          "id": "51428220174635",
+          "label": "Ghost Glass Catfish",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:10130825609515+11007502668",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:29.123Z",
+      "price": 12.27,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627488674108",
+          "label": "Title",
+          "price": 12.27,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10006316450108",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533971357994",
+          "label": "Unsexed",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127129018666",
+      "storeSlug": "dans-fish"
     }
   ]
 }

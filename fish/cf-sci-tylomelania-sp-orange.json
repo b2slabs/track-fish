@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:tylomelania-sp:orange",
-  "commonName": "Orange Rabbit Snail",
+  "commonName": "Orange Rabbit Snail, (3 pack)",
   "scientificName": "Tylomelania sp.",
   "listings": [
     {
@@ -14,6 +14,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Orange Rabbit Snail"
+    },
+    {
+      "listingId": "dans-fish:10127079571754",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Orange Rabbit Snail, (3 pack)"
     }
   ],
   "events": [
@@ -498,6 +504,60 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:755050741879",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:37.264Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40254579540070",
+          "label": "Imported / 1 Snail",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6881559937126",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:44.014Z",
+      "price": 9.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "8133330042999",
+          "label": "Title",
+          "price": 9.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:755050741879",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533818200362",
+          "label": "Unsexed",
+          "price": 39.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127079571754",
+      "storeSlug": "dans-fish"
     }
   ]
 }

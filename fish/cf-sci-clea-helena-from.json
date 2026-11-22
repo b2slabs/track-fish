@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:clea-helena-from",
-  "commonName": "Assassin Snail",
+  "commonName": "Assassin Snail, (3 pack)",
   "scientificName": "Clea helena from",
   "listings": [
     {
@@ -20,6 +20,12 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Assassin Snail"
+    },
+    {
+      "listingId": "dans-fish:10127102574890",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Assassin Snail, (3 pack)"
     }
   ],
   "events": [
@@ -10210,6 +10216,95 @@
       "type": "heartbeat",
       "listingId": "aquarium-fish:6638694342",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:24.006Z",
+      "price": 2,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15717235163179",
+          "label": "Title",
+          "price": 2,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquahuna:1709536641067",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:29.601Z",
+      "price": 12.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45335959666903",
+          "label": "3 + (GET 1 FREE)",
+          "price": 12.98,
+          "available": true
+        },
+        {
+          "id": "45335959699671",
+          "label": "5",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45707867816151",
+          "label": "10 + (GET 4 FREE)",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "ck-fish-world:8150001221847",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:44.014Z",
+      "price": 2.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51428409377067",
+          "label": "Each",
+          "price": 2.79,
+          "available": true
+        },
+        {
+          "id": "51428409409835",
+          "label": "Walk of 10",
+          "price": 22.49,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:6638694342",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533888225578",
+          "label": "Unsexed",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127102574890",
+      "storeSlug": "dans-fish"
     }
   ]
 }

@@ -20,6 +20,12 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Albino Congo Tetra"
+    },
+    {
+      "listingId": "dans-fish:10127095628074",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Albino Congo Tetra"
     }
   ],
   "events": [
@@ -6561,6 +6567,72 @@
       "type": "heartbeat",
       "listingId": "global-exoticquatics:8514128052416",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:57:17.729Z",
+      "price": 9,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40847416000721",
+          "label": "1-1.5\"",
+          "price": 9,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "monster-aquarium:6966778036433",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:26.089Z",
+      "price": 45,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47784004354240",
+          "label": "5 pack",
+          "price": 45,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "global-exoticquatics:8514128052416",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533866598698",
+          "label": "Unsexed",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "51533866631466",
+          "label": "Male",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "51533866664234",
+          "label": "Female",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127095628074",
+      "storeSlug": "dans-fish"
     }
   ]
 }
