@@ -8,6 +8,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Java Fern 'Windelov'"
+    },
+    {
+      "listingId": "daku-aquatics:8741026791642",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Java Fern 'Windelov'"
     }
   ],
   "events": [
@@ -152,6 +158,43 @@
     },
     {
       "observedAt": "2026-11-21T20:08:56.247Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52532223050044",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10247212269884",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:06.534Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043824652506",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741026791642",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:31.804Z",
       "price": 7.99,
       "currency": "USD",
       "available": false,

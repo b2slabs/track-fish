@@ -1,12 +1,18 @@
 {
   "canonicalFishId": "cf:glass-aqua:1965302874198",
   "commonName": "Homalomena Insignis",
-  "scientificName": null,
+  "scientificName": "Homalomena sp.",
   "listings": [
     {
       "listingId": "glass-aqua:1965302874198",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
+      "commonName": "Homalomena Insignis"
+    },
+    {
+      "listingId": "buce-plant:9390471885",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
       "commonName": "Homalomena Insignis"
     }
   ],
@@ -203,6 +209,43 @@
     },
     {
       "observedAt": "2026-11-21T20:08:44.972Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19553448034390",
+          "label": "Title",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:1965302874198",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:07.721Z",
+      "price": 19.13,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "34396848653",
+          "label": "Title",
+          "price": 19.13,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:9390471885",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:20.421Z",
       "price": 14.99,
       "currency": "USD",
       "available": true,

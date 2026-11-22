@@ -8,9 +8,591 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Anubias Congensis"
+    },
+    {
+      "listingId": "shrimpy-business:6721556480085",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Anubias Congensis"
+    },
+    {
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Anubias Congensis"
+    },
+    {
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Anubias congensis"
+    },
+    {
+      "listingId": "glass-aqua:6863580561494",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Anubias Congensis"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550741446758",
+          "label": "Potted",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550737809510",
+          "label": "Potted / Loose",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39550740168806",
+          "label": "Potted / Loose",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15574511779942",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090480738406",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090481655910",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53603124937011",
+          "label": "1 Medium Plant",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "50255771697459",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53660631269683",
+          "label": "1 Medium Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45224043643187",
+          "label": "1 Potted Plant",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45224036368691",
+          "label": "1 Medium Plant",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "46997018509619",
+          "label": "1 Large Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "49581301498163",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:37.039Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550741446758",
+          "label": "Potted",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:37.039Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550737809510",
+          "label": "Potted / Loose",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:37.039Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39550740168806",
+          "label": "Potted / Loose",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:37.039Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15574511779942",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:37.039Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090480738406",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:37.039Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090481655910",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:50.975Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53603124937011",
+          "label": "1 Medium Plant",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "50255771697459",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:50.975Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53660631269683",
+          "label": "1 Medium Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45224043643187",
+          "label": "1 Potted Plant",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:50.975Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45224036368691",
+          "label": "1 Medium Plant",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "46997018509619",
+          "label": "1 Large Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "49581301498163",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550741446758",
+          "label": "Potted",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550737809510",
+          "label": "Potted / Loose",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39550740168806",
+          "label": "Potted / Loose",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15574511779942",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090480738406",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:12.871Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090481655910",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53603124937011",
+          "label": "1 Medium Plant",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "50255771697459",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53660631269683",
+          "label": "1 Medium Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45224043643187",
+          "label": "1 Potted Plant",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45224036368691",
+          "label": "1 Medium Plant",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "46997018509619",
+          "label": "1 Large Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "49581301498163",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
     {
       "observedAt": "2026-11-21T01:29:44.090Z",
       "price": 12.99,
@@ -32,6 +614,360 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
+      "observedAt": "2026-11-21T01:30:45.496Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550741446758",
+          "label": "Potted",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:45.496Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550737809510",
+          "label": "Potted / Loose",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:45.496Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39550740168806",
+          "label": "Potted / Loose",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:45.496Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15574511779942",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:45.496Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090480738406",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:45.496Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090481655910",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:07.776Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53603124937011",
+          "label": "1 Medium Plant",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "50255771697459",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:07.776Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53660631269683",
+          "label": "1 Medium Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45224043643187",
+          "label": "1 Potted Plant",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T01:31:07.776Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45224036368691",
+          "label": "1 Medium Plant",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "46997018509619",
+          "label": "1 Large Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "49581301498163",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:31.129Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550741446758",
+          "label": "Potted",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:31.129Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550737809510",
+          "label": "Potted / Loose",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:31.129Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39550740168806",
+          "label": "Potted / Loose",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:31.129Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15574511779942",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:31.129Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090480738406",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:31.129Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090481655910",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:55.045Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53603124937011",
+          "label": "1 Medium Plant",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "50255771697459",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:55.045Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53660631269683",
+          "label": "1 Medium Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45224043643187",
+          "label": "1 Potted Plant",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:55.045Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45224036368691",
+          "label": "1 Medium Plant",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "46997018509619",
+          "label": "1 Large Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "49581301498163",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-21T02:01:36.649Z",
       "price": 12.99,
       "currency": "USD",
@@ -47,6 +983,183 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10347771232572",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T02:05:57.911Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550741446758",
+          "label": "Potted",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T02:05:57.911Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550737809510",
+          "label": "Potted / Loose",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T02:05:57.911Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39550740168806",
+          "label": "Potted / Loose",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T02:05:57.911Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15574511779942",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T02:05:57.911Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090480738406",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T02:05:57.911Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090481655910",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T02:06:22.842Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53603124937011",
+          "label": "1 Medium Plant",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "50255771697459",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T02:06:22.842Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53660631269683",
+          "label": "1 Medium Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45224043643187",
+          "label": "1 Potted Plant",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T02:06:22.842Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45224036368691",
+          "label": "1 Medium Plant",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "46997018509619",
+          "label": "1 Large Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "49581301498163",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-21T02:07:05.919Z",
@@ -66,6 +1179,183 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
+      "observedAt": "2026-11-21T14:37:45.520Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550741446758",
+          "label": "Potted",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:37:45.520Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550737809510",
+          "label": "Potted / Loose",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:37:45.520Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39550740168806",
+          "label": "Potted / Loose",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:37:45.520Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15574511779942",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:37:45.520Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090480738406",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:37:45.520Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090481655910",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:38:33.801Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53603124937011",
+          "label": "1 Medium Plant",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "50255771697459",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T14:38:33.801Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53660631269683",
+          "label": "1 Medium Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45224043643187",
+          "label": "1 Potted Plant",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T14:38:33.801Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45224036368691",
+          "label": "1 Medium Plant",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "46997018509619",
+          "label": "1 Large Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "49581301498163",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-21T14:39:54.085Z",
       "price": 12.99,
       "currency": "USD",
@@ -81,6 +1371,183 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10347771232572",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T14:49:39.886Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550741446758",
+          "label": "Potted",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:49:39.886Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550737809510",
+          "label": "Potted / Loose",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:49:39.886Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39550740168806",
+          "label": "Potted / Loose",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:49:39.886Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15574511779942",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:49:39.886Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090480738406",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:49:39.886Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090481655910",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:50:16.363Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53603124937011",
+          "label": "1 Medium Plant",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "50255771697459",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T14:50:16.363Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53660631269683",
+          "label": "1 Medium Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45224043643187",
+          "label": "1 Potted Plant",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T14:50:16.363Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45224036368691",
+          "label": "1 Medium Plant",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "46997018509619",
+          "label": "1 Large Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "49581301498163",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-21T14:51:13.682Z",
@@ -100,6 +1567,183 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
+      "observedAt": "2026-11-21T14:59:52.527Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550741446758",
+          "label": "Potted",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:59:52.527Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550737809510",
+          "label": "Potted / Loose",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:59:52.527Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39550740168806",
+          "label": "Potted / Loose",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:59:52.527Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15574511779942",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:59:52.527Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090480738406",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T14:59:52.527Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090481655910",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:16.231Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53603124937011",
+          "label": "1 Medium Plant",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "50255771697459",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:16.231Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53660631269683",
+          "label": "1 Medium Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45224043643187",
+          "label": "1 Potted Plant",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:16.231Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45224036368691",
+          "label": "1 Medium Plant",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "46997018509619",
+          "label": "1 Large Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "49581301498163",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-21T15:01:01.678Z",
       "price": 12.99,
       "currency": "USD",
@@ -115,6 +1759,183 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10347771232572",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T15:39:24.026Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550741446758",
+          "label": "Potted",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T15:39:24.026Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550737809510",
+          "label": "Potted / Loose",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T15:39:24.026Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39550740168806",
+          "label": "Potted / Loose",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T15:39:24.026Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15574511779942",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T15:39:24.026Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090480738406",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T15:39:24.026Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090481655910",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T15:39:48.127Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53603124937011",
+          "label": "1 Medium Plant",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "50255771697459",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T15:39:48.127Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53660631269683",
+          "label": "1 Medium Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45224043643187",
+          "label": "1 Potted Plant",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T15:39:48.127Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45224036368691",
+          "label": "1 Medium Plant",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "46997018509619",
+          "label": "1 Large Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "49581301498163",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-21T15:40:34.282Z",
@@ -134,6 +1955,183 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
+      "observedAt": "2026-11-21T16:38:26.729Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550741446758",
+          "label": "Potted",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T16:38:26.729Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550737809510",
+          "label": "Potted / Loose",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T16:38:26.729Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39550740168806",
+          "label": "Potted / Loose",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T16:38:26.729Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15574511779942",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T16:38:26.729Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090480738406",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T16:38:26.729Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090481655910",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T16:39:04.184Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53603124937011",
+          "label": "1 Medium Plant",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "50255771697459",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T16:39:04.184Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53660631269683",
+          "label": "1 Medium Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45224043643187",
+          "label": "1 Potted Plant",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T16:39:04.184Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45224036368691",
+          "label": "1 Medium Plant",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "46997018509619",
+          "label": "1 Large Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "49581301498163",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-21T16:40:16.406Z",
       "price": 12.99,
       "currency": "USD",
@@ -151,7 +2149,222 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
+      "observedAt": "2026-11-21T20:07:57.844Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550741446758",
+          "label": "Potted",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "39550737809510",
+          "label": "Potted / Loose",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "39550740168806",
+          "label": "Potted / Loose",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "15574511779942",
+          "label": "Anubias Coffeefolia",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "32090480738406",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "32090481655910",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:19.601Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53603124937011",
+          "label": "1 Medium Plant",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "50255771697459",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "53660631269683",
+          "label": "1 Medium Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45224043643187",
+          "label": "1 Potted Plant",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "45224036368691",
+          "label": "1 Medium Plant",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "46997018509619",
+          "label": "1 Large Plant",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "49581301498163",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-21T20:08:56.247Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52925646340412",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:10347771232572",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T00:26:36.406Z",
+      "price": 12.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39934891360341",
+          "label": "Title",
+          "price": 12.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6721556480085",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T00:26:39.405Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550741446758",
+          "label": "Potted",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6692632854630",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T00:26:58.302Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53603124937011",
+          "label": "1 Medium Plant",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "50255771697459",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:20.421Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42152485486678",
+          "label": "Potted",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "42152485519446",
+          "label": "UNS Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:6863580561494",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:31.804Z",
       "price": 12.99,
       "currency": "USD",
       "available": false,

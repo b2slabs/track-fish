@@ -8,6 +8,12 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Cryptocoryne Dewitii"
+    },
+    {
+      "listingId": "shrimpy-business:4805965119573+6560964444245",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Cryptocoryne Wendtii (Red)"
     }
   ],
   "events": [
@@ -203,6 +209,49 @@
     },
     {
       "observedAt": "2026-11-21T20:08:44.972Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33312113721430",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:4937548431446",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T00:26:36.406Z",
+      "price": 8.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39305232416853",
+          "label": "Cryptocoryne Wendtii (Green)",
+          "price": 8.95,
+          "available": true
+        },
+        {
+          "id": "32881625923669",
+          "label": "Cryptocoryne Wendtii (Red)",
+          "price": 8.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:4805965119573+6560964444245",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:20.421Z",
       "price": 6.99,
       "currency": "USD",
       "available": false,

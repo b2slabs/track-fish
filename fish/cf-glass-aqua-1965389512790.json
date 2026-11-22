@@ -8,6 +8,12 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Bucephalandra Theia"
+    },
+    {
+      "listingId": "flip-aquatics:8115844284518",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Bucephalandra Theia"
     }
   ],
   "events": [
@@ -203,6 +209,43 @@
     },
     {
       "observedAt": "2026-11-21T20:08:44.972Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19553886470230",
+          "label": "Title",
+          "price": 16.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:1965389512790",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T00:26:39.405Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46002117705830",
+          "label": "Potted",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:8115844284518",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:20.421Z",
       "price": 16.99,
       "currency": "USD",
       "available": true,

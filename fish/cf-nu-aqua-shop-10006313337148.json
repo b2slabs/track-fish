@@ -1,16 +1,280 @@
 {
   "canonicalFishId": "cf:nu-aqua-shop:10006313337148",
   "commonName": "Anubias Nana ‘Petite’",
-  "scientificName": null,
+  "scientificName": "Anubias nana petite",
   "listings": [
     {
       "listingId": "nu-aqua-shop:10006313337148",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Anubias Nana ‘Petite’"
+    },
+    {
+      "listingId": "shrimpy-business:4791597006933",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Anubias Nana Petite"
+    },
+    {
+      "listingId": "flip-aquatics:11309592068",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Anubias Nana \"Petite\""
+    },
+    {
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Anubias Nana Petite"
+    },
+    {
+      "listingId": "daku-aquatics:8741026070746",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Anubias Nana Petite"
+    },
+    {
+      "listingId": "glass-aqua:11279073223",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Anubias Nana Petite"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50428009218347",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21420566839377",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": false
+        },
+        {
+          "id": "21420566872145",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "21420566904913",
+          "label": "Small (2\")",
+          "price": 7.59,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 12.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12961951809606",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": true
+        },
+        {
+          "id": "12961951842374",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "12961951875142",
+          "label": "Small (2\")",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50428009218347",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21420566839377",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": false
+        },
+        {
+          "id": "21420566872145",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "21420566904913",
+          "label": "Small (2\")",
+          "price": 7.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T17:33:47.733Z",
+      "price": 12.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12961951809606",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": true
+        },
+        {
+          "id": "12961951842374",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "12961951875142",
+          "label": "Small (2\")",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50428009218347",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21420566839377",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": false
+        },
+        {
+          "id": "21420566872145",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "21420566904913",
+          "label": "Small (2\")",
+          "price": 7.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:18.881Z",
+      "price": 12.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12961951809606",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": true
+        },
+        {
+          "id": "12961951842374",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "12961951875142",
+          "label": "Small (2\")",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
     {
       "observedAt": "2026-11-21T01:29:44.090Z",
       "price": 11.99,
@@ -32,6 +296,156 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50428009218347",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21420566839377",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": false
+        },
+        {
+          "id": "21420566872145",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "21420566904913",
+          "label": "Small (2\")",
+          "price": 7.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:30:53.467Z",
+      "price": 12.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12961951809606",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": true
+        },
+        {
+          "id": "12961951842374",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "12961951875142",
+          "label": "Small (2\")",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:39.304Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50428009218347",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:39.304Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21420566839377",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": false
+        },
+        {
+          "id": "21420566872145",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "21420566904913",
+          "label": "Small (2\")",
+          "price": 7.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T02:00:39.304Z",
+      "price": 12.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12961951809606",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": true
+        },
+        {
+          "id": "12961951842374",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "12961951875142",
+          "label": "Small (2\")",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T02:01:36.649Z",
       "price": 11.99,
       "currency": "USD",
@@ -47,6 +461,81 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006313337148",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T02:06:06.550Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50428009218347",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T02:06:06.550Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21420566839377",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": false
+        },
+        {
+          "id": "21420566872145",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "21420566904913",
+          "label": "Small (2\")",
+          "price": 7.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T02:06:06.550Z",
+      "price": 12.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12961951809606",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": true
+        },
+        {
+          "id": "12961951842374",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "12961951875142",
+          "label": "Small (2\")",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-21T02:07:05.919Z",
@@ -66,6 +555,81 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
+      "observedAt": "2026-11-21T14:38:00.589Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50428009218347",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T14:38:00.589Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21420566839377",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": false
+        },
+        {
+          "id": "21420566872145",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "21420566904913",
+          "label": "Small (2\")",
+          "price": 7.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T14:38:00.589Z",
+      "price": 12.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12961951809606",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": true
+        },
+        {
+          "id": "12961951842374",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "12961951875142",
+          "label": "Small (2\")",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T14:39:54.085Z",
       "price": 11.99,
       "currency": "USD",
@@ -81,6 +645,81 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006313337148",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T14:49:52.866Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50428009218347",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T14:49:52.866Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21420566839377",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": false
+        },
+        {
+          "id": "21420566872145",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "21420566904913",
+          "label": "Small (2\")",
+          "price": 7.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T14:49:52.866Z",
+      "price": 12.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12961951809606",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": true
+        },
+        {
+          "id": "12961951842374",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "12961951875142",
+          "label": "Small (2\")",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-21T14:51:13.682Z",
@@ -100,6 +739,81 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
+      "observedAt": "2026-11-21T15:00:01.282Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50428009218347",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:01.282Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21420566839377",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": false
+        },
+        {
+          "id": "21420566872145",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "21420566904913",
+          "label": "Small (2\")",
+          "price": 7.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T15:00:01.282Z",
+      "price": 12.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12961951809606",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": true
+        },
+        {
+          "id": "12961951842374",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "12961951875142",
+          "label": "Small (2\")",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T15:01:01.678Z",
       "price": 11.99,
       "currency": "USD",
@@ -115,6 +829,81 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006313337148",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T15:39:33.054Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50428009218347",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T15:39:33.054Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21420566839377",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": false
+        },
+        {
+          "id": "21420566872145",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "21420566904913",
+          "label": "Small (2\")",
+          "price": 7.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T15:39:33.054Z",
+      "price": 12.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12961951809606",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": true
+        },
+        {
+          "id": "12961951842374",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "12961951875142",
+          "label": "Small (2\")",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-21T15:40:34.282Z",
@@ -134,6 +923,81 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
+      "observedAt": "2026-11-21T16:38:40.438Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50428009218347",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T16:38:40.438Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21420566839377",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": false
+        },
+        {
+          "id": "21420566872145",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "21420566904913",
+          "label": "Small (2\")",
+          "price": 7.59,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T16:38:40.438Z",
+      "price": 12.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12961951809606",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": true
+        },
+        {
+          "id": "12961951842374",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "12961951875142",
+          "label": "Small (2\")",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T16:40:16.406Z",
       "price": 11.99,
       "currency": "USD",
@@ -149,6 +1013,62 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006313337148",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 12.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50428009218347",
+          "label": "Anubias Nana Petite",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "21420566839377",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": false
+        },
+        {
+          "id": "21420566872145",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "21420566904913",
+          "label": "Small (2\")",
+          "price": 7.59,
+          "available": false
+        },
+        {
+          "id": "12961951809606",
+          "label": "Medium (4\")",
+          "price": 12.79,
+          "available": true
+        },
+        {
+          "id": "12961951842374",
+          "label": "Large (6-8\")",
+          "price": 16.59,
+          "available": false
+        },
+        {
+          "id": "12961951875142",
+          "label": "Small (2\")",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-21T20:08:56.247Z",
@@ -168,6 +1088,123 @@
         "available",
         "variants"
       ],
+      "listingId": "nu-aqua-shop:10006313337148",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T00:26:36.406Z",
+      "price": 14.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32826246692949",
+          "label": "Title",
+          "price": 14.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:4791597006933",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-22T00:26:39.405Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32090481655910",
+          "label": "Regular",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:11309592068",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T00:26:46.153Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50428009218347",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:06.534Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043823243482",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741026070746",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:20.421Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52750737927",
+          "label": "Title",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:11279073223",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:31.804Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627484545340",
+          "label": "Title",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "heartbeat",
       "listingId": "nu-aqua-shop:10006313337148",
       "storeSlug": "nu-aqua-shop"
     }

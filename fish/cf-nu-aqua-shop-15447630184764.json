@@ -8,6 +8,12 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Bucephalandra ‘Godzilla’"
+    },
+    {
+      "listingId": "glass-aqua:2007616684118",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Bucephalandra Godzilla"
     }
   ],
   "events": [
@@ -152,6 +158,43 @@
     },
     {
       "observedAt": "2026-11-21T20:08:56.247Z",
+      "price": 15.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67967586107708",
+          "label": "Title",
+          "price": 15.49,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "nu-aqua-shop:15447630184764",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:20.421Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19754905436246",
+          "label": "Title",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:2007616684118",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:31.804Z",
       "price": 15.49,
       "currency": "USD",
       "available": true,

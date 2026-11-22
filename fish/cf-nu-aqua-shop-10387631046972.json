@@ -220,6 +220,33 @@
       "type": "heartbeat",
       "listingId": "nu-aqua-shop:10387631046972",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:31.804Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53070964064572",
+          "label": "PAIR",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "53070964097340",
+          "label": "Female",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "nu-aqua-shop:10387631046972",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

@@ -1,12 +1,18 @@
 {
   "canonicalFishId": "cf:glass-aqua:7577805586518",
   "commonName": "Bucephalandra Brownie Purple",
-  "scientificName": null,
+  "scientificName": "Bucephalandra sp.",
   "listings": [
     {
       "listingId": "glass-aqua:7577805586518",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
+      "commonName": "Bucephalandra Brownie Purple"
+    },
+    {
+      "listingId": "buce-plant:6447426049",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
       "commonName": "Bucephalandra Brownie Purple"
     }
   ],
@@ -203,6 +209,43 @@
     },
     {
       "observedAt": "2026-11-21T20:08:44.972Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42408710111318",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:7577805586518",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:07.721Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "20261226433",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:6447426049",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:20.421Z",
       "price": 8.99,
       "currency": "USD",
       "available": true,

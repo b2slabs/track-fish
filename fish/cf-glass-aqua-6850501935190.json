@@ -1,12 +1,18 @@
 {
   "canonicalFishId": "cf:glass-aqua:6850501935190",
   "commonName": "Fire Red Cherry Shrimp",
-  "scientificName": null,
+  "scientificName": "Neoc aridina davidi",
   "listings": [
     {
       "listingId": "glass-aqua:6850501935190",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
+      "commonName": "Fire Red Cherry Shrimp"
+    },
+    {
+      "listingId": "aquahuna:946735349803",
+      "storeSlug": "aquahuna",
+      "storeName": "AquaHuna",
       "commonName": "Fire Red Cherry Shrimp"
     }
   ],
@@ -269,6 +275,49 @@
     },
     {
       "observedAt": "2026-11-21T20:08:44.972Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40186860142678",
+          "label": "10 Pack",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "40186860175446",
+          "label": "20 Pack",
+          "price": 79.99,
+          "available": true
+        }
+      ],
+      "type": "heartbeat",
+      "listingId": "glass-aqua:6850501935190",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-22T00:26:26.881Z",
+      "price": 3.38,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15746612199467",
+          "label": "Title",
+          "price": 3.38,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:946735349803",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:20.421Z",
       "price": 39.99,
       "currency": "USD",
       "available": true,
