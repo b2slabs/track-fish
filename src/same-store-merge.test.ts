@@ -263,3 +263,100 @@ test('migrating real pre-fix data: two already-separate listingIds with their ow
     assert.deepEqual(prices, [2.99, 2.99, 15.59]);
   });
 });
+
+test('a bundle/combo Listing never merges with a same-Store, same-Canonical-Fish sibling, even one eligible to merge with another', () => {
+  withTempDataDir((dataDir) => {
+    const result = processStoreRun({
+      store,
+      rawData: {
+        products: [
+          {
+            id: 1,
+            title: 'White Cloud Minnow',
+            handle: '1',
+            body_html: '<p>White Cloud Mountain Minnow (Tanichthys albonubes)</p>',
+            variants: [{ id: 10, title: 'Default Title', price: '2.99', available: true }],
+            images: [],
+            options: [{ name: 'Title' }],
+          },
+          {
+            id: 2,
+            title: 'White Cloud Minnow (School of 6)',
+            handle: '2',
+            body_html: '<p>White Cloud Mountain Minnow (Tanichthys albonubes)</p>',
+            variants: [{ id: 20, title: 'Default Title', price: '15.59', available: true }],
+            images: [],
+            options: [{ name: 'Title' }],
+          },
+          {
+            id: 3,
+            // Same species/canonicalFishId as the two plain Listings above,
+            // but a combo-box product -- must stay its own standalone
+            // Listing, not get folded into (or anchor) a merge group.
+            title: 'White Cloud Minnow Variety Pack Combo Box',
+            handle: '3',
+            body_html: '<p>White Cloud Mountain Minnow (Tanichthys albonubes)</p>',
+            variants: [{ id: 30, title: 'Default Title', price: '12.00', available: true }],
+            images: [],
+            options: [{ name: 'Title' }],
+          },
+        ],
+      },
+      dataDir,
+      now: new Date('2026-11-18T00:00:00.000Z'),
+    });
+
+    assert.equal(result.accepted, true);
+
+    const index = readIndexFile(dataDir);
+    const storeListings = index.listings.filter((l) => l.storeSlug === 'aquarium-fish');
+    // Two Listings: the plain pair merged into one, the bundle standing alone.
+    assert.equal(storeListings.length, 2);
+
+    const merged = storeListings.find((l) => l.listingId === 'aquarium-fish:1+2');
+    assert.ok(merged, 'the two plain Listings still merge with each other');
+    assert.equal(merged!.variants.length, 2);
+
+    const bundle = storeListings.find((l) => l.listingId === 'aquarium-fish:3');
+    assert.ok(bundle, 'the combo-box Listing keeps its own standalone listingId');
+    assert.equal(bundle!.variants.length, 1);
+    assert.equal(bundle!.commonName, 'White Cloud Minnow Variety Pack Combo Box');
+    assert.equal(bundle!.canonicalFishId, merged!.canonicalFishId, 'same Canonical Fish, still not merged');
+  });
+});
+
+test('a group of three same-Store, same-Canonical-Fish bundle Listings never merge with each other either', () => {
+  withTempDataDir((dataDir) => {
+    const bundleProduct = (id: number, title: string, price: string) => ({
+      id,
+      title,
+      handle: String(id),
+      body_html: '<p>Carbon Rili Shrimp (Neocaridina davidi)</p>',
+      variants: [{ id: id * 10, title: 'Default Title', price, available: true }],
+      images: [],
+      options: [{ name: 'Title' }],
+    });
+
+    const result = processStoreRun({
+      store: { name: 'Aquatic Arts', slug: 'aquatic-arts', domain: 'aquaticarts.com', platform: 'shopify' },
+      rawData: {
+        products: [
+          bundleProduct(1, 'Carbon Rili Shrimp Breeder Combo Box', '40.00'),
+          bundleProduct(2, 'Wild Form Neocaridina Shrimp Breeder Combo Box', '35.00'),
+          bundleProduct(3, 'Bred by Aquatic Arts Mix & Match Shrimp Combo Box – Choose 2', '30.00'),
+        ],
+      },
+      dataDir,
+      now: new Date('2026-11-18T00:00:00.000Z'),
+    });
+
+    assert.equal(result.accepted, true);
+
+    const index = readIndexFile(dataDir);
+    const storeListings = index.listings.filter((l) => l.storeSlug === 'aquatic-arts');
+    assert.equal(storeListings.length, 3, 'three distinct combo-box Listings, none merged with each other');
+    for (const l of storeListings) {
+      assert.equal(l.variants.length, 1);
+    }
+  });
+});

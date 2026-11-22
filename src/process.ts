@@ -11,6 +11,7 @@ import {
   representativePriceAndAvailability,
   type MatchResult,
 } from './lib/canonical-fish.js';
+import { isBundleListing } from './lib/bundle.js';
 import { diffListing } from './lib/diff.js';
 import {
   readIndexFile,
@@ -94,6 +95,22 @@ export function processStoreRun(params: {
     index.listings.filter((listing) => listing.storeSlug === store.slug).map((listing) => [listing.listingId, listing])
   );
 
+  // Every individual pre-merge productIdentifier (for this Store) mapped
+  // to whichever previous Listing -- standalone or already-merged -- it
+  // was last part of. A merge group's *composition* can change between
+  // runs (a bundle Listing just introduced to `isBundleListing` getting
+  // carved back out of a group it used to be merged into, a new sibling
+  // product appearing, etc.); this is what lets the lookups below survive
+  // that, instead of only ever finding a previous Listing under its own
+  // exact (old) listingId.
+  const previousListingsByProductId = new Map<string, Listing>();
+  for (const prevListing of previousListingsById.values()) {
+    const compoundSuffix = prevListing.listingId.slice(`${store.slug}:`.length);
+    for (const productId of compoundSuffix.split('+')) {
+      previousListingsByProductId.set(productId, prevListing);
+    }
+  }
+
   // The matching context is built once per Store run (not once per
   // Listing) from every Listing currently known across every Store, as
   // of the start of this run -- see `buildMatchContext`.
@@ -146,11 +163,22 @@ export function processStoreRun(params: {
   }
   writePendingMatches(dataDir, pendingMatches);
 
+  // Group by canonicalFishId to find same-Store merge candidates -- except
+  // a bundle/combo/variety-pack/"choose your own" Listing (see
+  // `isBundleListing`), which is a genuinely different product type from
+  // a plain variant of the base species and must never be folded into a
+  // merge group, even with another bundle Listing sharing the same
+  // canonicalFishId (two different combo configurations are still two
+  // different products). Each gets a unique grouping key -- its own
+  // listingId -- so it always stays a standalone group of one.
   const groupsByCanonicalFishId = new Map<string, { parsed: ParsedListing; match: MatchResult }[]>();
   for (const entry of matched) {
-    const group = groupsByCanonicalFishId.get(entry.match.canonicalFishId) ?? [];
+    const key = isBundleListing(entry.parsed.commonName)
+      ? `bundle:${store.slug}:${entry.parsed.productIdentifier}`
+      : entry.match.canonicalFishId;
+    const group = groupsByCanonicalFishId.get(key) ?? [];
     group.push(entry);
-    groupsByCanonicalFishId.set(entry.match.canonicalFishId, group);
+    groupsByCanonicalFishId.set(key, group);
   }
 
   // Every old (pre-merge) listingId absorbed into a merged Listing this
@@ -159,7 +187,12 @@ export function processStoreRun(params: {
   // vanishing from the catalog (see the comment at that filter).
   const supersededListingIds = new Set<string>();
 
-  for (const [canonicalFishId, group] of groupsByCanonicalFishId) {
+  for (const group of groupsByCanonicalFishId.values()) {
+    // The grouping key is a synthetic per-Listing key for a bundle Listing
+    // (see above), not necessarily its real canonicalFishId -- always
+    // derive the real one from a group member's own match result instead
+    // of the map key.
+    const canonicalFishId = group[0].match.canonicalFishId;
     const isMergeGroup = group.length > 1;
     const listingId = isMergeGroup
       ? mergedListingId(store.slug, group.map((g) => g.parsed.productIdentifier))
@@ -183,7 +216,7 @@ export function processStoreRun(params: {
     // one-time transition run that first collapses them).
     const priorFirstObservedAt = [
       previousListingsById.get(listingId)?.firstObservedAt,
-      ...group.map((g) => previousListingsById.get(`${store.slug}:${g.parsed.productIdentifier}`)?.firstObservedAt),
+      ...group.map((g) => previousListingsByProductId.get(g.parsed.productIdentifier)?.firstObservedAt),
     ]
       .filter((v): v is string => v != null)
       .sort()[0];
@@ -231,13 +264,29 @@ export function processStoreRun(params: {
     // carries a real, distinct price/variant observation worth keeping,
     // and `computeStoreInstants` on the frontend already pools same-
     // timestamp events for one Store together regardless of listingId.
+    //
+    // Looks up each old Listing via `previousListingsByProductId` (not a
+    // reconstructed `${store.slug}:${productIdentifier}`), so this still
+    // finds it even when it was last written under a *different* merge
+    // grouping's compound listingId -- e.g. a bundle Listing (see
+    // `isBundleListing`) being carved back out of a group it used to be
+    // wrongly merged into. `processedOldListingIds` guards against
+    // processing that same old compound listingId more than once when
+    // more than one of today's groups shares it (its history can only be
+    // moved into whichever one is processed first; see the module-level
+    // limitation note on `mergedListingId`).
     const movedEvents: CanonicalFishHistoryEvent[] = [];
+    const processedOldListingIds = new Set<string>();
     for (const { parsed: groupParsed } of group) {
-      const oldListingId = `${store.slug}:${groupParsed.productIdentifier}`;
-      const oldPrevious = previousListingsById.get(oldListingId);
+      const oldPrevious = previousListingsByProductId.get(groupParsed.productIdentifier);
       if (!oldPrevious) {
         continue; // never seen before -- nothing to move.
       }
+      const oldListingId = oldPrevious.listingId;
+      if (processedOldListingIds.has(oldListingId)) {
+        continue; // already moved earlier in this same group's loop.
+      }
+      processedOldListingIds.add(oldListingId);
       const listingIdChanged = oldListingId !== listingId;
       const canonicalFishIdChanged = oldPrevious.canonicalFishId !== canonicalFishId;
       if (!listingIdChanged && !canonicalFishIdChanged) {
