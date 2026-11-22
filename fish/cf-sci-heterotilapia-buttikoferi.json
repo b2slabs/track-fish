@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:heterotilapia-buttikoferi",
-  "commonName": "Zebra Tilapia Pair (Heterotilapia buttikoferi)",
+  "commonName": "Zebra Tilapia (Tilapia buttikoferi)",
   "scientificName": "Heterotilapia buttikoferi",
   "listings": [
     {
@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Buttikoferi Cichlid",
-      "lastCheckedAt": "2026-11-22T16:06:01.126Z"
+      "lastCheckedAt": "2026-11-22T16:57:23.666Z"
     },
     {
       "listingId": "nationwide-aquatics-usa:8549170512025",
@@ -16,6 +16,13 @@
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Zebra Tilapia Pair (Heterotilapia buttikoferi)",
       "lastCheckedAt": "2026-01-20T02:00:00.000Z"
+    },
+    {
+      "listingId": "aqua-imports:58445",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Zebra Tilapia (Tilapia buttikoferi)",
+      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
     }
   ],
   "events": [
@@ -58,6 +65,26 @@
       ],
       "listingId": "aquarium-fish:5403870470",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "58445",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:58445",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

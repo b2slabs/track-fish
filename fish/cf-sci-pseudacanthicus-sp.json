@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pseudacanthicus-sp",
-  "commonName": "L452 Mustang Cactus Pleco (Pseudacanthicus sp.)",
+  "commonName": "L452 Mustang Cactus Pleco (Pseudcanthicus sp. L452)",
   "scientificName": "Pseudacanthicus sp",
   "listings": [
     {
@@ -8,21 +8,21 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "LDA 105 Typhoon pleco (Pseudacanthicus sp)",
-      "lastCheckedAt": "2026-11-22T16:05:27.785Z"
+      "lastCheckedAt": "2026-11-22T16:56:20.227Z"
     },
     {
       "listingId": "aquarium-fish:1402607763526+6655545478",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "L-273 Titanic Pleco",
-      "lastCheckedAt": "2026-11-22T16:06:01.126Z"
+      "lastCheckedAt": "2026-11-22T16:57:23.666Z"
     },
     {
       "listingId": "imperial-tropicals:8398015693107+8398116913459",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "L273 Titanic Pleco",
-      "lastCheckedAt": "2026-11-22T16:06:17.584Z"
+      "lastCheckedAt": "2026-11-22T16:57:55.301Z"
     },
     {
       "listingId": "nationwide-aquatics-usa:8651231723673",
@@ -30,6 +30,13 @@
       "storeName": "Nationwide Aquatics USA",
       "commonName": "L452 Mustang Cactus Pleco (Pseudacanthicus sp.)",
       "lastCheckedAt": "2026-05-24T04:00:00.000Z"
+    },
+    {
+      "listingId": "aqua-imports:111896",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "L452 Mustang Cactus Pleco (Pseudcanthicus sp. L452)",
+      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
     }
   ],
   "events": [
@@ -216,6 +223,26 @@
       ],
       "listingId": "imperial-tropicals:8398015693107+8398116913459",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 149.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "111896",
+          "label": "Default",
+          "price": 149.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:111896",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

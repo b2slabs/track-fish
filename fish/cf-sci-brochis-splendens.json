@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:brochis-splendens",
-  "commonName": "Hognose Brochis (Brochis multiradiatus)",
+  "commonName": "Emerald Brochis (Brochis splendens)",
   "scientificName": "Brochis splendens",
   "listings": [
     {
@@ -8,14 +8,7 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Hog Nose Brochis",
-      "lastCheckedAt": "2026-11-22T16:06:17.584Z"
-    },
-    {
-      "listingId": "aqua-imports:38738+46214",
-      "storeSlug": "aqua-imports",
-      "storeName": "Aqua Imports",
-      "commonName": "Emerald Brochis (Brochis splendens)",
-      "lastCheckedAt": "2026-11-22T16:00:03.419Z"
+      "lastCheckedAt": "2026-11-22T16:57:55.301Z"
     },
     {
       "listingId": "nationwide-aquatics-usa:8641951989913",
@@ -23,6 +16,13 @@
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Hognose Brochis (Brochis multiradiatus)",
       "lastCheckedAt": "2026-05-24T04:00:00.000Z"
+    },
+    {
+      "listingId": "aqua-imports:46214",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Emerald Brochis (Brochis splendens)",
+      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
     }
   ],
   "events": [
@@ -95,7 +95,27 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aqua-imports:38738+46214",
+      "listingId": "aqua-imports:46214",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:59:38.961Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46214",
+          "label": "Default",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:46214",
       "storeSlug": "aqua-imports"
     }
   ]

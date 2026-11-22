@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:brochis-multiradiatus",
-  "commonName": "Hognose Brochis (Brochis multiradiatus) 7 pack",
+  "commonName": "Hognose Brochis (Brochis multiradiatus)",
   "scientificName": "Brochis multiradiatus",
   "listings": [
     {
@@ -9,6 +9,13 @@
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Hognose Brochis (Brochis multiradiatus) 7 pack",
       "lastCheckedAt": "2026-05-24T04:00:00.000Z"
+    },
+    {
+      "listingId": "aqua-imports:38738",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Hognose Brochis (Brochis multiradiatus)",
+      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
     }
   ],
   "events": [
@@ -31,6 +38,26 @@
       ],
       "listingId": "nationwide-aquatics-usa:8641954644121",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-22T16:59:38.961Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38738",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:38738",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

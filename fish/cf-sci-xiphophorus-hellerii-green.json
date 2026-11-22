@@ -1,28 +1,28 @@
 {
   "canonicalFishId": "cf:sci:xiphophorus-hellerii:green",
-  "commonName": "Green Swordtail",
+  "commonName": "Wild Type Green Swordtail (Xiphophorus hellerii)",
   "scientificName": "Xiphophorus hellerii",
   "listings": [
-    {
-      "listingId": "aqua-imports:154425+68423",
-      "storeSlug": "aqua-imports",
-      "storeName": "Aqua Imports",
-      "commonName": "Otapa Wild Type Green Swordtail (Xiphophorus hellerii ‘Otapa’)",
-      "lastCheckedAt": "2026-11-22T16:00:03.419Z"
-    },
     {
       "listingId": "aquarium-fish:10436233363755+6318627398",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Green Swordtail",
-      "lastCheckedAt": "2026-11-22T16:06:01.126Z"
+      "lastCheckedAt": "2026-11-22T16:57:23.666Z"
     },
     {
       "listingId": "imperial-tropicals:8397993935155",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Green Swordtail",
-      "lastCheckedAt": "2026-11-22T16:06:17.584Z"
+      "lastCheckedAt": "2026-11-22T16:57:55.301Z"
+    },
+    {
+      "listingId": "aqua-imports:119081+154425+68423",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Wild Type Green Swordtail (Xiphophorus hellerii)",
+      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
     }
   ],
   "events": [
@@ -191,7 +191,59 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "aqua-imports:154425+68423",
+      "listingId": "aqua-imports:119081+154425+68423",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "119081",
+          "label": "Default",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:119081+154425+68423",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:59:38.961Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "154425",
+          "label": "Default",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "119081",
+          "label": "Default",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "68423",
+          "label": "Default",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:119081+154425+68423",
       "storeSlug": "aqua-imports"
     }
   ]
