@@ -349,6 +349,123 @@ test('issue #16 regression: a cross-store-established scientific-name group is n
   });
 });
 
+test('issue #72: "Orange Venezuelan Cory" merges all five real-world Store titles -- plain, quoted-strain parenthetical, flip-aquatics pipe-format (no sci name anywhere), and shrimpy-business no-parenthetical -- into one Canonical Fish', () => {
+  withTempDataDir((dataDir) => {
+    const storeAquahuna: StoreConfig = { name: 'AquaHuna', slug: 'aquahuna', domain: 'aquahuna.com', platform: 'shopify' };
+    const storeCk: StoreConfig = { name: 'CK Fish World', slug: 'ck-fish-world', domain: 'ckfishworld.com', platform: 'shopify' };
+    const storeAquaticArts: StoreConfig = { name: 'Aquatic Arts', slug: 'aquatic-arts', domain: 'aquaticarts.com', platform: 'shopify' };
+    const storeFlip: StoreConfig = { name: 'Flip Aquatics', slug: 'flip-aquatics', domain: 'flipaquatics.com', platform: 'shopify' };
+    const storeShrimpy: StoreConfig = { name: 'Shrimpy Business', slug: 'shrimpy-business', domain: 'shrimpybusiness.com', platform: 'shopify' };
+
+    // aquahuna: plain title, but a clean "Scientific Name:" label in the
+    // description (as in the real dataset) -- this is the Store whose
+    // own extraction directly establishes the group's id.
+    const aquahunaRaw = rawProduct(1, 'Orange Venezuelan Cory', '5.00');
+    (aquahunaRaw.products[0] as { body_html: string }).body_html = 'Scientific Name: Corydoras aeneus. A beautiful South American catfish.';
+    processStoreRun({ store: storeAquahuna, rawData: aquahunaRaw, dataDir, now: new Date('2026-11-18T00:00:00.000Z') });
+    processStoreRun({ store: storeCk, rawData: rawProduct(2, 'Orange Venezuelan Cory', '5.50'), dataDir, now: new Date('2026-11-18T00:00:01.000Z') });
+    processStoreRun({
+      store: storeAquaticArts,
+      rawData: rawProduct(3, 'Orange Venezuelan Cory Catfish (Corydoras aeneus "Venezuela"), Tank-Bred', '6.00'),
+      dataDir,
+      now: new Date('2026-11-18T00:00:02.000Z'),
+    });
+    processStoreRun({
+      store: storeFlip,
+      rawData: rawProduct(4, 'Orange Venezuelan Corydoras | Venezuelan Cory', '6.50'),
+      dataDir,
+      now: new Date('2026-11-18T00:00:03.000Z'),
+    });
+    processStoreRun({
+      store: storeShrimpy,
+      rawData: rawProduct(5, 'Orange Venezuelan Corydoras (Tank-Bred)', '7.00'),
+      dataDir,
+      now: new Date('2026-11-18T00:00:04.000Z'),
+    });
+
+    const index = readIndexFile(dataDir);
+    const ids = ['aquahuna:1', 'ck-fish-world:2', 'aquatic-arts:3', 'flip-aquatics:4', 'shrimpy-business:5'].map(
+      (listingId) => index.listings.find((l) => l.listingId === listingId)!.canonicalFishId
+    );
+    assert.equal(new Set(ids).size, 1, `expected all five Listings on one Canonical Fish, got ${JSON.stringify(ids)}`);
+    assert.equal(ids[0], 'cf:sci:corydoras-aeneus:orange');
+
+    const history = readHistoryFile(dataDir, 'cf:sci:corydoras-aeneus:orange') as CanonicalFishHistory;
+    const storeSlugs = history.listings.map((l) => l.storeSlug).sort();
+    assert.deepEqual(storeSlugs, ['aquahuna', 'aquatic-arts', 'ck-fish-world', 'flip-aquatics', 'shrimpy-business']);
+  });
+});
+
+test('issue #72: "Panda Cory" (plain) and "Longfin Panda Cory" each join their existing cross-store group once flip-aquatics\' pipe-format and shrimpy-business\' no-parenthetical Listings are reprocessed', () => {
+  withTempDataDir((dataDir) => {
+    const storeAquahuna: StoreConfig = { name: 'AquaHuna', slug: 'aquahuna', domain: 'aquahuna.com', platform: 'shopify' };
+    const storeAquariumFish: StoreConfig = { name: 'Aquarium Co-Op', slug: 'aquarium-fish', domain: 'aquariumcoop.com', platform: 'shopify' };
+    const storeAquaticArts: StoreConfig = { name: 'Aquatic Arts', slug: 'aquatic-arts', domain: 'aquaticarts.com', platform: 'shopify' };
+    const storeFlip: StoreConfig = { name: 'Flip Aquatics', slug: 'flip-aquatics', domain: 'flipaquatics.com', platform: 'shopify' };
+    const storeShrimpy: StoreConfig = { name: 'Shrimpy Business', slug: 'shrimpy-business', domain: 'shrimpybusiness.com', platform: 'shopify' };
+
+    // Establish the existing, already-correct cross-store "plain Panda
+    // Cory" and "Longfin Panda Cory" groups first (mirrors the real
+    // dataset's pre-existing state: a clean title-parenthetical
+    // extraction from one Store anchors the group at `cf:sci:...`, and
+    // other Stores' plain, sci-name-less titles fuzzy-join it on an
+    // exact post-normalization text match).
+    processStoreRun({ store: storeAquaticArts, rawData: rawProduct(1, 'Panda Cory (Corydoras panda)', '4.00'), dataDir, now: new Date('2026-11-18T00:00:00.000Z') });
+    processStoreRun({ store: storeAquahuna, rawData: rawProduct(2, 'Panda Cory', '4.00'), dataDir, now: new Date('2026-11-18T00:00:01.000Z') });
+    processStoreRun({ store: storeAquariumFish, rawData: rawProduct(3, 'Panda Cory', '4.50'), dataDir, now: new Date('2026-11-18T00:00:02.000Z') });
+    processStoreRun({
+      store: storeAquaticArts,
+      rawData: rawProduct(9, 'Longfin Panda Cory (Corydoras panda "Longfin")', '6.00'),
+      dataDir,
+      now: new Date('2026-11-18T00:00:03.000Z'),
+    });
+    processStoreRun({ store: storeAquahuna, rawData: rawProduct(4, 'Longfin Panda Cory', '6.00'), dataDir, now: new Date('2026-11-18T00:00:04.000Z') });
+    processStoreRun({ store: storeAquariumFish, rawData: rawProduct(5, 'Longfin Panda Cory', '6.50'), dataDir, now: new Date('2026-11-18T00:00:05.000Z') });
+
+    // flip-aquatics' pipe-format titles.
+    processStoreRun({
+      store: storeFlip,
+      rawData: rawProduct(5, 'Panda Cory Catfish | Corydoras panda', '5.00'),
+      dataDir,
+      now: new Date('2026-11-18T00:00:04.000Z'),
+    });
+    processStoreRun({
+      store: storeFlip,
+      rawData: rawProduct(6, 'Longfin Panda Cory | Corydoras Panda', '7.00'),
+      dataDir,
+      now: new Date('2026-11-18T00:00:05.000Z'),
+    });
+
+    // shrimpy-business's no-parenthetical titles.
+    processStoreRun({
+      store: storeShrimpy,
+      rawData: rawProduct(7, 'Panda Corydoras (Tank-Bred)', '5.50'),
+      dataDir,
+      now: new Date('2026-11-18T00:00:06.000Z'),
+    });
+    processStoreRun({
+      store: storeShrimpy,
+      rawData: rawProduct(8, 'Longfin Panda Corydoras (Tank-Bred)', '7.50'),
+      dataDir,
+      now: new Date('2026-11-18T00:00:07.000Z'),
+    });
+
+    const index = readIndexFile(dataDir);
+    const pandaGroup = ['aquahuna:2', 'aquarium-fish:3', 'flip-aquatics:5', 'shrimpy-business:7'].map(
+      (listingId) => index.listings.find((l) => l.listingId === listingId)!.canonicalFishId
+    );
+    const longfinGroup = ['aquahuna:4', 'aquarium-fish:5', 'flip-aquatics:6', 'shrimpy-business:8'].map(
+      (listingId) => index.listings.find((l) => l.listingId === listingId)!.canonicalFishId
+    );
+
+    assert.equal(new Set(pandaGroup).size, 1, `expected one group, got ${JSON.stringify(pandaGroup)}`);
+    assert.equal(pandaGroup[0], 'cf:sci:corydoras-panda:panda');
+    assert.equal(new Set(longfinGroup).size, 1, `expected one group, got ${JSON.stringify(longfinGroup)}`);
+    assert.equal(longfinGroup[0], 'cf:sci:corydoras-panda:longfin-panda');
+    assert.notEqual(pandaGroup[0], longfinGroup[0]);
+  });
+});
+
 test('history is preserved, not lost or duplicated, when a Listing is repointed to a merged Canonical Fish on a later run', () => {
   withTempDataDir((dataDir) => {
     // Run 1: Store A's Listing has no scientific name yet -- gets a trivial id.
