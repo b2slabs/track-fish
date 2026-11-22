@@ -43,11 +43,22 @@ export function formatShortDate(iso: string): string {
  * of rendering `label` raw, so the fix lives in one shared place rather
  * than two special-cased ones.
  *
- * `siblingCount` is the size of the variant list this label is being
- * rendered inside (e.g. `listing.variants.length`); the placeholder is only
- * ever genuine when that list has exactly one entry — a real multi-variant
- * listing's option values are left untouched even if one happened to also
- * be the literal string "Title".
+ * `siblingCount` is the number of variants Shopify actually gave the one
+ * product this label's own variant came from (e.g. `listing.variants.length`
+ * for a straightforward per-Listing render like `StoreComparisonCard`'s).
+ * The placeholder is only ever genuine when that count is exactly one — a
+ * real multi-variant listing's option values are left untouched even if one
+ * happened to also be the literal string "Title".
+ *
+ * Callers that pool variants from more than one HistoryEvent/Listing into
+ * one rendered list (e.g. `PriceHistoryChart`'s per-instant tooltip, which
+ * can combine two Listings a Store still carries for the same Canonical
+ * Fish into one point) must pass each variant's OWN originating event's
+ * variant count here, not the size of the pooled list it ends up sitting
+ * in — otherwise a Store with two separate single-variant Listings reads
+ * as "two siblings", keeping the literal "Title" placeholder on screen
+ * (issue #56) even though each contributing Listing, on its own, genuinely
+ * only had the one variant.
  */
 export function normalizeVariantLabel(label: string, siblingCount: number): string {
   if (siblingCount === 1 && label === 'Title') return 'Single';

@@ -67,6 +67,42 @@ const overrides: CanonicalFishOverride[] = [
       'further-specialized variety signature ({albino, hifin} vs {albino}) and correctly lands ' +
       'on its own id, not this one.',
   },
+  {
+    listingId: 'aquahuna:7593047851083',
+    canonicalFishId: 'cf:sci:tanichthys-micagemmae',
+    note:
+      'Issue #56: AquaHuna\'s "Vietnamese White Cloud" is a genuinely different SPECIES, not a ' +
+      'color-morph/variety of plain White Cloud Mountain Minnow -- its own description is explicit: ' +
+      '"Tanichthys micagemmae (Vietnamese White Cloud) is a separate species from T. albonubes and ' +
+      'should be labeled and kept as such; avoid mixing the two ... to prevent hybridization." This ' +
+      'Listing\'s own scientific-name extraction already correctly found "Tanichthys micagemmae" ' +
+      '(a labeled "Scientific Name:" line in its description) -- the automatic match still landed it ' +
+      'on cf:sci:tanichthys-albonubes:white (plain White Cloud) anyway, because canonical-fish.ts\'s ' +
+      'fuzzy-rival-hijack guard (built for issue #16\'s vendor-synonym case) found a high-scoring ' +
+      'fuzzy common-name rival in the already-established, cross-store "White Cloud" group (shared ' +
+      'wording: "White Cloud") and this Listing\'s own cf:sci:tanichthys-micagemmae:white id had no ' +
+      'cross-store corroboration yet to protect it from being overridden by that rival. Investigated ' +
+      'as a candidate "should \'Vietnamese\' become a recognized variety term in variety.ts" case ' +
+      '(ADR 0004) -- rejected: this is a different species, not a same-species color/pattern variant, ' +
+      'so suffixing a variety onto the SAME (wrong) species slug would still be taxonomically wrong. ' +
+      'Repointed directly to the correct species-level id instead (no variety suffix needed -- a ' +
+      'different species does not need one to stay distinct from plain White Cloud).',
+  },
+  {
+    listingId: 'nu-aqua-shop:10179871932732',
+    canonicalFishId: 'cf:sci:tanichthys-micagemmae',
+    note:
+      'Issue #56: the other real "Vietnamese White Cloud" Listing in the dataset (see the AquaHuna ' +
+      'override above for the full species-mismatch rationale). This Store\'s own description ' +
+      'mentions both species by name in a contrastive sentence ("...the common White Cloud Mountain ' +
+      'Minnow (Tanichthys albonubes)...Tanichthys micagemmae (Vietnamese White Cloud) is a separate ' +
+      'species..."), and scientific-name.ts\'s last-resort "any parenthetical binomial in the ' +
+      'description" pattern grabbed the WRONG one -- the contrastively-mentioned T. albonubes, which ' +
+      'happens to be the only one of the two actually written inside parentheses in this Store\'s ' +
+      'wording, rather than this Listing\'s own T. micagemmae (written as "scientifically known as ' +
+      'Tanichthys micagemmae", no parens, which the extractor does not currently recognize as a ' +
+      'label pattern). Repointed to the same correct species-level id as the AquaHuna Listing.',
+  },
   ...(['aquahuna:7456012402763', 'aquarium-fish:10359234167083', 'aquarium-fish:1592179064902',
        'aquatic-arts:11385997708', 'monster-aquarium:7466867392721', 'nu-aqua-shop:10006318842172',
        'shrimpy-business:9470968693026'] as const).map((listingId) => ({
