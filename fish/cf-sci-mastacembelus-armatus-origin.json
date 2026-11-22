@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:mastacembelus-armatus-origin",
-  "commonName": "Tire Track Eel",
+  "commonName": "Tire Track eel (mastacembelus armatus)",
   "scientificName": "Mastacembelus armatus origin",
   "listings": [
     {
@@ -22,7 +22,7 @@
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Tire Track eel (mastacembelus armatus)",
-      "lastCheckedAt": "2026-11-22T16:05:46.326Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "monster-aquarium:6974858985681",
@@ -40,6 +40,47 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-07-07T04:00:00.000Z",
+      "price": 40,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48287411863705",
+          "label": "Title",
+          "price": 40,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8799637897369",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-08-13T03:00:00.000Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48287411863705",
+          "label": "Title",
+          "price": 40,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:8799637897369",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 25.99,

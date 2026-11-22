@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:tetraodon-schoutedeni",
-  "commonName": "Congo Spotted Puffer",
+  "commonName": "Spotted Congo Puffer (Tetraodon schoutedeni)",
   "scientificName": "Tetraodon schoutedeni",
   "listings": [
     {
@@ -15,7 +15,7 @@
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Spotted Congo Puffer (Tetraodon schoutedeni)",
-      "lastCheckedAt": "2026-11-22T16:05:46.326Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "imperial-tropicals:8398127071539",
@@ -51,9 +51,99 @@
       "storeName": "Aqua Imports",
       "commonName": "Spotted Congo Puffer (Tetraodon schoutedeni)",
       "lastCheckedAt": "2026-11-22T16:00:03.419Z"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8574419665049",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "Spotted Congo Puffer\n(Tetraodon schouteden)",
+      "lastCheckedAt": "2026-02-22T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 115,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45886961811609",
+          "label": "Title",
+          "price": 115,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8574419665049",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-05-08T03:00:00.000Z",
+      "price": 95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47119762325657",
+          "label": "Title",
+          "price": 95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8735507316889",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-07-11T03:00:00.000Z",
+      "price": 95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47119762325657",
+          "label": "Title",
+          "price": 95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:8735507316889",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-14T07:00:00.000Z",
+      "price": 125,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47119762325657",
+          "label": "Title",
+          "price": 125,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:8735507316889",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 120,

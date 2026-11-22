@@ -1,0 +1,57 @@
+{
+  "canonicalFishId": "cf:sci:maskaheros-argenteus:platinum",
+  "commonName": "Platinum Cichlid\n(Maskaheros argenteus)",
+  "scientificName": "Maskaheros argenteus",
+  "listings": [
+    {
+      "listingId": "nationwide-aquatics-usa:8610123939993",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "Platinum Cichlid\n(Maskaheros argenteus)",
+      "lastCheckedAt": "2026-02-02T03:00:00.000Z"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 75,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46048603734169",
+          "label": "Title",
+          "price": 75,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8610123939993",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-02-02T03:00:00.000Z",
+      "price": 75,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46048603734169",
+          "label": "Title",
+          "price": 75,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:8610123939993",
+      "storeSlug": "nationwide-aquatics-usa"
+    }
+  ]
+}

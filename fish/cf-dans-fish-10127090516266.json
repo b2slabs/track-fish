@@ -1,7 +1,7 @@
 {
   "canonicalFishId": "cf:dans-fish:10127090516266",
-  "commonName": "CW111 Vulcan Cory",
-  "scientificName": null,
+  "commonName": "CW111 Vulcan Cory (Hoplisoma sp.)",
+  "scientificName": "Hoplisoma sp.",
   "listings": [
     {
       "listingId": "dans-fish:10127090516266",
@@ -9,9 +9,57 @@
       "storeName": "Dan's Fish",
       "commonName": "CW111 Vulcan Cory",
       "lastCheckedAt": "2026-11-22T16:07:06.492Z"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:15428718985369",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "CW111 Vulcan Cory (Hoplisoma sp.)",
+      "lastCheckedAt": "2026-11-01T06:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-10-16T04:00:00.000Z",
+      "price": 150,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67717574000793",
+          "label": "Title",
+          "price": 150,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:15428718985369",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-10-17T04:00:00.000Z",
+      "price": 175,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67717574000793",
+          "label": "Title",
+          "price": 175,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:15428718985369",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
     {
       "observedAt": "2026-11-22T06:58:35.864Z",
       "price": 249.99,

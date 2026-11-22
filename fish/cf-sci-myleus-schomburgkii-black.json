@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:myleus-schomburgkii:black",
-  "commonName": "Black Bar Myleus (Myleus schomburgkii)",
+  "commonName": "Black Bar (Myleus schomburgkii)",
   "scientificName": "Myleus schomburgkii",
   "listings": [
     {
@@ -9,9 +9,36 @@
       "storeName": "Aqua Imports",
       "commonName": "Black Bar Myleus (Myleus schomburgkii)",
       "lastCheckedAt": "2026-11-22T16:00:03.419Z"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8380712419481",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "Black Bar (Myleus schomburgkii)",
+      "lastCheckedAt": "2026-05-24T04:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 35,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45237909946521",
+          "label": "Title",
+          "price": 35,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8380712419481",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 0,

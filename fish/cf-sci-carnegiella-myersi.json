@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:carnegiella-myersi",
-  "commonName": "Pygmy Hatchet",
+  "commonName": "Pygmy Hatchet (Carnegiella myersi)",
   "scientificName": "Carnegiella myersi",
   "listings": [
     {
@@ -29,7 +29,7 @@
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Pygmy Hatchet (Carnegiella myersi)",
-      "lastCheckedAt": "2026-11-22T16:05:46.326Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "aqua-imports:45730",
@@ -40,6 +40,38 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-07-23T03:00:00.000Z",
+      "price": 5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48352390250649",
+          "label": "Pygmy Hatchet (Carnegiella myersi) 20 pack",
+          "price": 80,
+          "available": true
+        },
+        {
+          "id": "48352389529753",
+          "label": "Pygmy Hatchet (Carnegiella myersi) 10 pack",
+          "price": 45,
+          "available": true
+        },
+        {
+          "id": "48352385826969",
+          "label": "Pygmy Hatchet (Carnegiella myersi)",
+          "price": 5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8818951323801+8818954338457+8818954928281",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 3,

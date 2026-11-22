@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:monster-aquarium:7141413552337",
-  "commonName": "L095 Orange Cheek Pinecone Pleco (Pseudorinelepis sp. (L095))",
+  "commonName": "L095 Orange Cheek Pinecone Pleco (pseudorinelepis sp.)",
   "scientificName": null,
   "listings": [
     {
@@ -15,7 +15,7 @@
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "L095 Orange Cheek Pinecone Pleco (pseudorinelepis sp.)",
-      "lastCheckedAt": "2026-11-22T16:05:46.326Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "imperial-tropicals:10083856777523",
@@ -33,6 +33,47 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-09-11T05:00:00.000Z",
+      "price": 400,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49006105854105",
+          "label": "Title",
+          "price": 400,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8958452367513",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-09-22T05:00:00.000Z",
+      "price": 400,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49006105854105",
+          "label": "Title",
+          "price": 400,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:8958452367513",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 179.99,

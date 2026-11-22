@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:trachelyopterus-galeatus",
-  "commonName": "Common Woodcat (Trachelyopterus galeatus)",
+  "commonName": "Driftwood Catfish (Trachelyopterus galeatus)",
   "scientificName": "Trachelyopterus galeatus",
   "listings": [
     {
@@ -9,9 +9,84 @@
       "storeName": "Aqua Imports",
       "commonName": "Common Woodcat (Trachelyopterus galeatus)",
       "lastCheckedAt": "2026-11-22T16:00:03.419Z"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8774449496217",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "Driftwood Catfish (Trachelyopterus galeatus)",
+      "lastCheckedAt": "2026-07-08T03:00:00.000Z"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8774433702041",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "Driftwood Catfish (Trachelyopterus galeatus)",
+      "lastCheckedAt": "2026-10-23T05:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-06-08T05:00:00.000Z",
+      "price": 60,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47888668721305",
+          "label": "Title",
+          "price": 60,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8774449496217",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-07-09T04:00:00.000Z",
+      "price": 65,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47888604659865",
+          "label": "Title",
+          "price": 65,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8774433702041",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-07-28T03:00:00.000Z",
+      "price": 60,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47888604659865",
+          "label": "Title",
+          "price": 60,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:8774433702041",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 34.99,

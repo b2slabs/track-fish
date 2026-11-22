@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:ctenopoma-acutirostre:leopard",
-  "commonName": "Leopard Bushfish",
+  "commonName": "Leopard Bushfish (Ctenopoma acutirostre)",
   "scientificName": "Ctenopoma acutirostre",
   "listings": [
     {
@@ -37,9 +37,36 @@
       "storeName": "Aqua Imports",
       "commonName": "Leopard Ctenopoma (Ctenopoma acutirostre)",
       "lastCheckedAt": "2026-11-22T16:00:03.419Z"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8574849515673",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "Leopard Bushfish (Ctenopoma acutirostre)",
+      "lastCheckedAt": "2026-02-08T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45891044507801",
+          "label": "Title",
+          "price": 25,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8574849515673",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 8,

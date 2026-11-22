@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hoplias-curupira:black",
-  "commonName": "Black Wolf fish (Hoplias curupira)",
+  "commonName": "Black Wolf Fish (Hoplias curupira)",
   "scientificName": "Hoplias curupira",
   "listings": [
     {
@@ -16,9 +16,78 @@
       "storeName": "Aqua Imports",
       "commonName": "Black Wolf Fish (Hoplias curupira)",
       "lastCheckedAt": "2026-11-22T16:00:03.419Z"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8709850759321",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "Black Wolf Fish (Hoplias curupira)",
+      "lastCheckedAt": "2026-05-19T04:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-04-15T03:00:00.000Z",
+      "price": 111,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46952375353497",
+          "label": "Title",
+          "price": 111,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8709850759321",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-04-18T03:00:00.000Z",
+      "price": 111,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46952375353497",
+          "label": "Title",
+          "price": 111,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:8709850759321",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-04-19T03:00:00.000Z",
+      "price": 111,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46952375353497",
+          "label": "Title",
+          "price": 111,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:8709850759321",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 79.99,

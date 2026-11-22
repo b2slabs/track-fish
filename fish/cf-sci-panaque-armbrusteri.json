@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:panaque-armbrusteri",
-  "commonName": "L027d Thunder Royal Pleco (Panaque armbrusteri)",
+  "commonName": "L027 C - araguaia (Panaque armbrusteri)",
   "scientificName": "Panaque armbrusteri",
   "listings": [
     {
@@ -15,7 +15,7 @@
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "L027 C - araguaia (Panaque armbrusteri)",
-      "lastCheckedAt": "2026-11-22T16:05:46.326Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "aqua-imports:109997+60337+72495",
@@ -23,9 +23,137 @@
       "storeName": "Aqua Imports",
       "commonName": "L027 Goldline Araguaia Royal Pleco (Panaque armbrusteri)",
       "lastCheckedAt": "2026-11-22T16:00:03.419Z"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8649601482905",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "L027 Araguaiae (Panaque armbrusteri )",
+      "lastCheckedAt": "2026-03-04T03:00:00.000Z"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8798893211801",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "L027 pleco Rio araguaia(Panaque armbrusteri)",
+      "lastCheckedAt": "2026-08-27T10:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-02-18T03:00:00.000Z",
+      "price": 105,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46173225713817",
+          "label": "Title",
+          "price": 105,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8649601482905",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-03-04T03:00:00.000Z",
+      "price": 105,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46173225713817",
+          "label": "Title",
+          "price": 105,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:8649601482905",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-07-05T04:00:00.000Z",
+      "price": 500,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48284338978969",
+          "label": "Title",
+          "price": 500,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8798893211801",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-08-28T12:00:00.000Z",
+      "price": 165,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48942293745817",
+          "label": "L027 A - Tocantins  (Panaque armbrusteri)",
+          "price": 300,
+          "available": true
+        },
+        {
+          "id": "48942281752729",
+          "label": "L027 C - araguaia (Panaque armbrusteri)",
+          "price": 165,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8936611905689+8936622948505",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-09-04T05:00:00.000Z",
+      "price": 300,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48942293745817",
+          "label": "L027 A - Tocantins  (Panaque armbrusteri)",
+          "price": 300,
+          "available": true
+        },
+        {
+          "id": "48942281752729",
+          "label": "L027 C - araguaia (Panaque armbrusteri)",
+          "price": 165,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:8936611905689+8936622948505",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
     {
       "observedAt": "2026-11-20T06:14:43.307Z",
       "price": 300,

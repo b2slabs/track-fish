@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:synodontis-waterloti-common",
-  "commonName": "Synodontis waterloti",
+  "commonName": "Synodontis Waterloti",
   "scientificName": "Synodontis waterloti common",
   "listings": [
     {
@@ -15,7 +15,7 @@
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Synodontis Waterloti",
-      "lastCheckedAt": "2026-11-22T16:05:46.326Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:683823",
@@ -26,6 +26,47 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 35,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45281528742041",
+          "label": "Title",
+          "price": 35,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8392218149017",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-10-07T06:00:00.000Z",
+      "price": 35,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45281528742041",
+          "label": "Title",
+          "price": 35,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:8392218149017",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
     {
       "observedAt": "2026-11-20T06:14:43.307Z",
       "price": 35,

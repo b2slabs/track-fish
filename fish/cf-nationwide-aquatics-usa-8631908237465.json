@@ -1,0 +1,57 @@
+{
+  "canonicalFishId": "cf:nationwide-aquatics-usa:8631908237465",
+  "commonName": "Hypostomus luteus phase 3",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "nationwide-aquatics-usa:8631908237465",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "Hypostomus luteus phase 3",
+      "lastCheckedAt": "2026-02-08T03:00:00.000Z"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-02-03T03:00:00.000Z",
+      "price": 999,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46132055900313",
+          "label": "Title",
+          "price": 999,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8631908237465",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-02-07T03:00:00.000Z",
+      "price": 999,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46132055900313",
+          "label": "Title",
+          "price": 999,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:8631908237465",
+      "storeSlug": "nationwide-aquatics-usa"
+    }
+  ]
+}

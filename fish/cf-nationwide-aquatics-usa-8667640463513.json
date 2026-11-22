@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:nationwide-aquatics-usa:8667640463513",
-  "commonName": "C123 Yellow Cory-Peru",
+  "commonName": "C123 Peru Yellow Cory (Gastrodermus sp. 'c123')",
   "scientificName": "Gastrodermus sp.",
   "listings": [
     {
@@ -8,7 +8,7 @@
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "C123 Peru Yellow Cory (Gastrodermus sp. 'c123')",
-      "lastCheckedAt": "2026-11-22T16:05:46.326Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "nu-aqua-shop:10256167928124",
@@ -26,6 +26,47 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-02-28T02:00:00.000Z",
+      "price": 10,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46204637970585",
+          "label": "Title",
+          "price": 10,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8667640463513",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-06-12T05:00:00.000Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46204637970585",
+          "label": "Title",
+          "price": 10,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:8667640463513",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
     {
       "observedAt": "2026-11-20T06:14:43.307Z",
       "price": 10,

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:polypterus-endlicheri",
-  "commonName": "Endlicheri Bichir",
+  "commonName": "(Polypterus endlicheri)",
   "scientificName": "Polypterus endlicheri",
   "listings": [
     {
@@ -8,7 +8,7 @@
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "(Polypterus endlicheri)",
-      "lastCheckedAt": "2026-11-22T16:05:46.326Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "aquatic-arts:9449813934359",
@@ -44,6 +44,13 @@
       "storeName": "Aqua Imports",
       "commonName": "Endlicheri Bichir (Polypterus endlicheri)",
       "lastCheckedAt": "2026-11-22T16:00:03.419Z"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8682893705369+8682894885017+8682896162969",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "Endlicheri Bichir (Polypterus endlicheri) *Wc Guinea* 14\"",
+      "lastCheckedAt": "2026-05-09T04:00:00.000Z"
     }
   ],
   "events": [
@@ -66,6 +73,111 @@
       ],
       "listingId": "aquahuna:7014232490059",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-03-15T03:00:00.000Z",
+      "price": 75,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46381618364569",
+          "label": "Endlicheri Bichir (Polypterus endlicheri) *Wc Guinea* 14\"",
+          "price": 140,
+          "available": true
+        },
+        {
+          "id": "46381616955545",
+          "label": "Endlicheri Bichir (Polypterus endlicheri) *Wc Guinea* 10\"-12\"",
+          "price": 100,
+          "available": true
+        },
+        {
+          "id": "46381614563481",
+          "label": "Endlicheri Bichir (Polypterus endlicheri) *Wc Guinea* 8\"-10\"",
+          "price": 75,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8682893705369+8682894885017+8682896162969",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-03-31T03:00:00.000Z",
+      "price": 75,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46381618364569",
+          "label": "Endlicheri Bichir (Polypterus endlicheri) *Wc Guinea* 14\"",
+          "price": 140,
+          "available": false
+        },
+        {
+          "id": "46381616955545",
+          "label": "Endlicheri Bichir (Polypterus endlicheri) *Wc Guinea* 10\"-12\"",
+          "price": 100,
+          "available": true
+        },
+        {
+          "id": "46381614563481",
+          "label": "Endlicheri Bichir (Polypterus endlicheri) *Wc Guinea* 8\"-10\"",
+          "price": 75,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:8682893705369+8682894885017+8682896162969",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-05-29T04:00:00.000Z",
+      "price": 135,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47863993106585",
+          "label": "Title",
+          "price": 135,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8767071191193",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-06-03T05:00:00.000Z",
+      "price": 135,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47863993106585",
+          "label": "Title",
+          "price": 135,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:8767071191193",
+      "storeSlug": "nationwide-aquatics-usa"
     },
     {
       "observedAt": "2026-08-26T02:00:00.000Z",

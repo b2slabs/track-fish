@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:tandanus-tandanus",
-  "commonName": "Tandanus Catfish (Tandanus tandanus)",
+  "commonName": "Tandanus Catfish",
   "scientificName": "Tandanus tandanus",
   "listings": [
     {
@@ -9,9 +9,36 @@
       "storeName": "Aqua Imports",
       "commonName": "Tandanus Catfish (Tandanus tandanus)",
       "lastCheckedAt": "2026-11-22T16:00:03.419Z"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8703075680409",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "Tandanus Catfish",
+      "lastCheckedAt": "2026-05-24T04:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-04-10T03:00:00.000Z",
+      "price": 65,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46931705692313",
+          "label": "Title",
+          "price": 65,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8703075680409",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 89.99,

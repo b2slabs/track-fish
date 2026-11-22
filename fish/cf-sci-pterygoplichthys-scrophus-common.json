@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pterygoplichthys-scrophus-common",
-  "commonName": "Rhino Pleco",
+  "commonName": "Rhino Pleco (Pterygoplichthys scrophus)",
   "scientificName": "Pterygoplichthys scrophus common",
   "listings": [
     {
@@ -23,9 +23,57 @@
       "storeName": "Aqua Imports",
       "commonName": "Rhino Pleco (Pterygoplichthys scrophus)",
       "lastCheckedAt": "2026-11-22T16:00:03.419Z"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8810514153625",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "Rhino Pleco (Pterygoplichthys scrophus)",
+      "lastCheckedAt": "2026-10-23T05:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-07-20T04:00:00.000Z",
+      "price": 45,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48331227922585",
+          "label": "Title",
+          "price": 45,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8810514153625",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-07-24T03:00:00.000Z",
+      "price": 55,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48331227922585",
+          "label": "Title",
+          "price": 55,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:8810514153625",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 49.99,
