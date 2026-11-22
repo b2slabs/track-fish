@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:bacopa-caroliniana",
-  "commonName": "Bacopa (Bacopa caroliniana)",
+  "commonName": "Bacopa",
   "scientificName": "Bacopa caroliniana",
   "listings": [
     {
@@ -37,6 +37,13 @@
       "storeName": "CK Fish World",
       "commonName": "Bacopa",
       "lastCheckedAt": "2026-11-22T16:56:49.333Z"
+    },
+    {
+      "listingId": "aquarium-fish:6260497222",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Bacopa",
+      "lastCheckedAt": "2026-03-11T03:00:00.000Z"
     }
   ],
   "events": [
@@ -115,6 +122,47 @@
       ],
       "listingId": "ck-fish-world:8733642424535",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 5.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19809518406",
+          "label": "Title",
+          "price": 5.29,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6260497222",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-02-06T03:00:00.000Z",
+      "price": 5.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19809518406",
+          "label": "Title",
+          "price": 5.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6260497222",
+      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-05-04T04:00:00.000Z",

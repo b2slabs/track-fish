@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:tridacna-maxima",
-  "commonName": "Tahitian Maxima Clam (Tridacna maxima)",
+  "commonName": "Maxima Ultra Clam",
   "scientificName": "Tridacna maxima",
   "listings": [
     {
@@ -16,9 +16,36 @@
       "storeName": "Aqua Imports",
       "commonName": "Tahitian Maxima Clam (Tridacna maxima)",
       "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+    },
+    {
+      "listingId": "aquarium-fish:10110916133163",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Maxima Ultra Clam",
+      "lastCheckedAt": "2026-03-13T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 203.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51378009211179",
+          "label": "Large (5-6\")",
+          "price": 203.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10110916133163",
+      "storeSlug": "aquarium-fish"
+    },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 231.29,

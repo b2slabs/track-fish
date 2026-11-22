@@ -8,10 +8,387 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Clown Grouper",
-      "lastCheckedAt": "2026-11-22T16:57:23.666Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-16T02:00:00.000Z",
+      "price": 99.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51733070872875",
+          "label": "Medium",
+          "price": 99.98,
+          "available": true
+        },
+        {
+          "id": "51733070905643",
+          "label": "Large",
+          "price": 119.98,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10239584928043",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-03-14T03:00:00.000Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51733070872875",
+          "label": "Medium",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "id": "51733070905643",
+          "label": "Large",
+          "price": 119.98,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10239584928043",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-04-02T03:00:00.000Z",
+      "price": 62.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51733070872875",
+          "label": "Medium",
+          "price": 62.99,
+          "available": true
+        },
+        {
+          "id": "51733070905643",
+          "label": "Large",
+          "price": 125.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10239584928043",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-04-04T03:00:00.000Z",
+      "price": 51.65,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51733070872875",
+          "label": "Medium",
+          "price": 51.65,
+          "available": true
+        },
+        {
+          "id": "51733070905643",
+          "label": "Large",
+          "price": 103.31,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10239584928043",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-04-05T03:00:00.000Z",
+      "price": 51.65,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51733070872875",
+          "label": "Medium",
+          "price": 51.65,
+          "available": false
+        },
+        {
+          "id": "51733070905643",
+          "label": "Large",
+          "price": 103.31,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10239584928043",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-04-08T03:00:00.000Z",
+      "price": 62.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51733070872875",
+          "label": "Medium",
+          "price": 62.99,
+          "available": false
+        },
+        {
+          "id": "51733070905643",
+          "label": "Large",
+          "price": 125.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10239584928043",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-05-23T04:00:00.000Z",
+      "price": 51.65,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51733070872875",
+          "label": "Medium",
+          "price": 51.65,
+          "available": false
+        },
+        {
+          "id": "51733070905643",
+          "label": "Large",
+          "price": 103.31,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10239584928043",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-05-27T04:00:00.000Z",
+      "price": 62.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51733070872875",
+          "label": "Medium",
+          "price": 62.99,
+          "available": false
+        },
+        {
+          "id": "51733070905643",
+          "label": "Large",
+          "price": 125.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10239584928043",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-07-04T04:00:00.000Z",
+      "price": 51.8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51733070872875",
+          "label": "Medium",
+          "price": 51.8,
+          "available": false
+        },
+        {
+          "id": "51733070905643",
+          "label": "Large",
+          "price": 103.61,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10239584928043",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-07-07T04:00:00.000Z",
+      "price": 62.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51733070872875",
+          "label": "Medium",
+          "price": 62.99,
+          "available": false
+        },
+        {
+          "id": "51733070905643",
+          "label": "Large",
+          "price": 125.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10239584928043",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-09-05T04:00:00.000Z",
+      "price": 53.54,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51733070872875",
+          "label": "Medium",
+          "price": 53.54,
+          "available": false
+        },
+        {
+          "id": "51733070905643",
+          "label": "Large",
+          "price": 107.09,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10239584928043",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-09-09T05:00:00.000Z",
+      "price": 62.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51733070872875",
+          "label": "Medium",
+          "price": 62.99,
+          "available": false
+        },
+        {
+          "id": "51733070905643",
+          "label": "Large",
+          "price": 125.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10239584928043",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-10-27T05:00:00.000Z",
+      "price": 65.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51733070872875",
+          "label": "Medium",
+          "price": 65.49,
+          "available": false
+        },
+        {
+          "id": "51733070905643",
+          "label": "Large",
+          "price": 130.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10239584928043",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-03T07:00:00.000Z",
+      "price": 67.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51733070872875",
+          "label": "Medium",
+          "price": 67.99,
+          "available": false
+        },
+        {
+          "id": "51733070905643",
+          "label": "Large",
+          "price": 136.29,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10239584928043",
+      "storeSlug": "aquarium-fish"
+    },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 67.99,

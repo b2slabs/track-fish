@@ -9,9 +9,36 @@
       "storeName": "AquariumFish.com",
       "commonName": "Flamboyant Cuttlefish",
       "lastCheckedAt": "2026-11-22T16:57:23.666Z"
+    },
+    {
+      "listingId": "aquarium-fish:10309466947883",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Flamboyant Cuttlefish (Copy)",
+      "lastCheckedAt": "2026-03-16T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-03-16T03:00:00.000Z",
+      "price": 930.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52864282067243",
+          "label": "Title",
+          "price": 930.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10309466947883",
+      "storeSlug": "aquarium-fish"
+    },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 1056.99,
