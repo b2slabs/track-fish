@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hygrophila-lancea",
-  "commonName": "Hygrophila ‘Araguaia’ (Hygrophila lancea)",
+  "commonName": "Hygrophila Araguaia",
   "scientificName": "Hygrophila lancea",
   "listings": [
     {
@@ -44,9 +44,57 @@
       "storeName": "Aqua Imports",
       "commonName": "Hygrophila ‘Araguaia’ (Hygrophila lancea)",
       "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+    },
+    {
+      "listingId": "daku-aquatics:9355026333914",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Hygrophila Araguaia",
+      "lastCheckedAt": "2026-08-04T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-06-24T04:00:00.000Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48091615035610",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:9355026333914",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-08-01T04:00:00.000Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48091615035610",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "daku-aquatics:9355026333914",
+      "storeSlug": "daku-aquatics"
+    },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 7.99,

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:anubias-heterophylla",
-  "commonName": "Anubias Lanceolata (Anubias heterophylla ‘Lanceolata’)",
+  "commonName": "Anubias Lanceolata",
   "scientificName": "Anubias heterophylla",
   "listings": [
     {
@@ -23,9 +23,57 @@
       "storeName": "Aqua Imports",
       "commonName": "Anubias Lanceolata (Anubias heterophylla ‘Lanceolata’)",
       "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+    },
+    {
+      "listingId": "daku-aquatics:9074820939994",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Anubias Lanceolata",
+      "lastCheckedAt": "2026-07-24T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47081957523674",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:9074820939994",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-07-24T03:00:00.000Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47081957523674",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "daku-aquatics:9074820939994",
+      "storeSlug": "daku-aquatics"
+    },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 11.99,

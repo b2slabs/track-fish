@@ -43,7 +43,7 @@
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Scarlet Badis",
-      "lastCheckedAt": "2026-11-22T16:58:16.364Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "nu-aqua-shop:10006319628604",
@@ -1769,6 +1769,26 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-04T06:00:00.000Z",
+      "price": 40,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "68029093707994",
+          "label": "5 pack (males)",
+          "price": 40,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:15308631769306",
+      "storeSlug": "daku-aquatics"
+    },
+    {
       "observedAt": "2026-11-07T06:00:00.000Z",
       "price": 6.99,
       "currency": "USD",
@@ -1884,6 +1904,27 @@
       ],
       "listingId": "imperial-tropicals:9536928416051",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-16T07:00:00.000Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "68029093707994",
+          "label": "5 pack (males)",
+          "price": 40,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "daku-aquatics:15308631769306",
+      "storeSlug": "daku-aquatics"
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",

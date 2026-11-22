@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:flip-aquatics:6692628725862",
-  "commonName": "Rotala nanjenshan",
+  "commonName": "Rotala Nanjenshan",
   "scientificName": null,
   "listings": [
     {
@@ -23,9 +23,78 @@
       "storeName": "Aqua Imports",
       "commonName": "Rotala nanjenshan",
       "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+    },
+    {
+      "listingId": "daku-aquatics:8741033640154",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Rotala Nanjenshan",
+      "lastCheckedAt": "2026-07-10T04:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043838709978",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741033640154",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-02-16T03:00:00.000Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043838709978",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "daku-aquatics:8741033640154",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-02-18T03:00:00.000Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043838709978",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "daku-aquatics:8741033640154",
+      "storeSlug": "daku-aquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 7.99,

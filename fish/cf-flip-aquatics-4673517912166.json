@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:flip-aquatics:4673517912166",
-  "commonName": "Red Flame Sword (Echinodorus sp. ‘Red Flame’)",
+  "commonName": "Red Flame Sword",
   "scientificName": "Echinodorus sp.",
   "listings": [
     {
@@ -15,7 +15,7 @@
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Red Flame Sword",
-      "lastCheckedAt": "2026-11-22T16:58:16.364Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "nu-aqua-shop:10006319071548",
@@ -33,6 +33,89 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043841495258",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741035278554",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-02-26T03:00:00.000Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043841495258",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "daku-aquatics:8741035278554",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-02-27T03:00:00.000Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043841495258",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "daku-aquatics:8741035278554",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-06-10T05:00:00.000Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043841495258",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "daku-aquatics:8741035278554",
+      "storeSlug": "daku-aquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 8.99,

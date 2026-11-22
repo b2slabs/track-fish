@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:aqua-imports:155165",
-  "commonName": "Ludwigia inclinata ‘White’",
+  "commonName": "Ludwigia Inclinata 'White'",
   "scientificName": null,
   "listings": [
     {
@@ -9,9 +9,57 @@
       "storeName": "Aqua Imports",
       "commonName": "Ludwigia inclinata ‘White’",
       "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+    },
+    {
+      "listingId": "daku-aquatics:9211336196314",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Ludwigia Inclinata 'White'",
+      "lastCheckedAt": "2026-07-14T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-03-31T03:00:00.000Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47718674530522",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:9211336196314",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-07-01T05:00:00.000Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47718674530522",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "daku-aquatics:9211336196314",
+      "storeSlug": "daku-aquatics"
+    },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 5.99,

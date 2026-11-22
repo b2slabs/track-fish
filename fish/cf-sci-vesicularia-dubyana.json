@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:vesicularia-dubyana",
-  "commonName": "Java Moss (Taxiphyllum barbieri)",
+  "commonName": "Java Moss",
   "scientificName": "Vesicularia dubyana",
   "listings": [
     {
@@ -72,6 +72,13 @@
       "storeName": "Aqua Imports",
       "commonName": "Java Moss (Taxiphyllum barbieri)",
       "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+    },
+    {
+      "listingId": "daku-aquatics:8741028430042",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Java Moss",
+      "lastCheckedAt": "2026-05-08T03:00:00.000Z"
     }
   ],
   "events": [
@@ -758,6 +765,26 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-04-25T03:00:00.000Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043827568858",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741028430042",
+      "storeSlug": "daku-aquatics"
+    },
+    {
       "observedAt": "2026-04-28T04:00:00.000Z",
       "price": 7,
       "currency": "USD",
@@ -777,6 +804,27 @@
       ],
       "listingId": "aquahuna:7115884068939",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-05-02T04:00:00.000Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043827568858",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "daku-aquatics:8741028430042",
+      "storeSlug": "daku-aquatics"
     },
     {
       "observedAt": "2026-05-05T03:00:00.000Z",

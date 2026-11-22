@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:oryzias-latipes:black",
-  "commonName": "Black Medaka Ricefish (Oryzias latipes)",
+  "commonName": "Black Medaka Ricefish",
   "scientificName": "Oryzias latipes",
   "listings": [
     {
@@ -57,7 +57,7 @@
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Black Medaka Ricefish",
-      "lastCheckedAt": "2026-11-22T16:58:16.364Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
@@ -118,6 +118,89 @@
       ],
       "listingId": "ck-fish-world:8150020817111",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043847164122",
+          "label": "5 Pack (mixed sex)",
+          "price": 25,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741037867226",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-02-13T03:00:00.000Z",
+      "price": 25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043847164122",
+          "label": "5 Pack (mixed sex)",
+          "price": 25,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "daku-aquatics:8741037867226",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-05-12T04:00:00.000Z",
+      "price": 30,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043847164122",
+          "label": "5 Pack (mixed sex)",
+          "price": 30,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "daku-aquatics:8741037867226",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-09-22T05:00:00.000Z",
+      "price": 30,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043847164122",
+          "label": "5 Pack (mixed sex)",
+          "price": 30,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "daku-aquatics:8741037867226",
+      "storeSlug": "daku-aquatics"
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:cryptocoryne-beckettii-common",
-  "commonName": "Cryptocoryne beckettii",
+  "commonName": "Cryptocoryne Beckettii",
   "scientificName": "Cryptocoryne beckettii common",
   "listings": [
     {
@@ -23,9 +23,78 @@
       "storeName": "Aqua Imports",
       "commonName": "Cryptocoryne beckettii",
       "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+    },
+    {
+      "listingId": "daku-aquatics:8981281112282",
+      "storeSlug": "daku-aquatics",
+      "storeName": "Daku Aquatics",
+      "commonName": "Cryptocoryne Beckettii",
+      "lastCheckedAt": "2026-08-04T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46722582151386",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8981281112282",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-03-19T03:00:00.000Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46722582151386",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "daku-aquatics:8981281112282",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-03-20T03:00:00.000Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46722582151386",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "daku-aquatics:8981281112282",
+      "storeSlug": "daku-aquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 7.99,

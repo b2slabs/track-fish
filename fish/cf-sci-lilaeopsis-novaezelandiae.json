@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:lilaeopsis-novaezelandiae",
-  "commonName": "Micro Sword (Lilaeopsis novaezelandiae)",
+  "commonName": "Micro Sword",
   "scientificName": "Lilaeopsis novaezelandiae",
   "listings": [
     {
@@ -29,10 +29,30 @@
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Micro Sword",
-      "lastCheckedAt": "2026-11-22T16:58:16.364Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043838841050",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741033771226",
+      "storeSlug": "daku-aquatics"
+    },
     {
       "observedAt": "2026-05-06T04:00:00.000Z",
       "price": 8.95,
@@ -52,6 +72,48 @@
       ],
       "listingId": "shrimpy-business:6560963002453",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-08-19T02:00:00.000Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043838841050",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "daku-aquatics:8741033771226",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-08-20T02:00:00.000Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043838841050",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "daku-aquatics:8741033771226",
+      "storeSlug": "daku-aquatics"
     },
     {
       "observedAt": "2026-11-20T06:27:39.339Z",
