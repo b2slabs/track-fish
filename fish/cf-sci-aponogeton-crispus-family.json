@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:aponogeton-crispus-family",
-  "commonName": "Aponogeton crispus",
+  "commonName": "Aponogeton Crispus",
   "scientificName": "Aponogeton crispus family",
   "listings": [
     {
@@ -8,7 +8,7 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Aponogeton Crispus",
-      "lastCheckedAt": "2026-11-22T16:57:07.173Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "daku-aquatics:8741041799386",
@@ -40,6 +40,47 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-08-08T02:00:00.000Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46539632246886",
+          "label": "Potted / Loose",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:8138522886246",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-09-17T05:00:00.000Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46539632246886",
+          "label": "Potted / Loose",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:8138522886246",
+      "storeSlug": "flip-aquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 8.99,

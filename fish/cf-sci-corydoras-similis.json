@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:corydoras-similis",
-  "commonName": "Smudge Spot Cory (Hoplisoma similis)",
+  "commonName": "Smudge Spot Cory | Cory Similis",
   "scientificName": "Corydoras similis",
   "listings": [
     {
@@ -29,7 +29,7 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Smudge Spot Cory | Cory Similis",
-      "lastCheckedAt": "2026-11-22T16:57:07.173Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "aquarium-fish:8426961830187",
@@ -169,6 +169,47 @@
       ],
       "listingId": "shrimpy-business:9516448743714",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-08-29T07:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46607961129062",
+          "label": "Imported / 1 Fish",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:8161465729126",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-09-21T05:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46607961129062",
+          "label": "Imported / 1 Fish",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:8161465729126",
+      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-10-01T06:00:00.000Z",

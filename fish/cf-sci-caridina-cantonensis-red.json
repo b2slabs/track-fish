@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:caridina-cantonensis:red",
-  "commonName": "Crystal Red Shrimp (Caridina cf. cantonensis) Grade S",
+  "commonName": "Red Calceo Shrimp",
   "scientificName": "Caridina cantonensis",
   "listings": [
     {
@@ -86,6 +86,13 @@
       "storeName": "Aqua Imports",
       "commonName": "Crystal Red Shrimp (Caridina cf. cantonensis) Grade S",
       "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+    },
+    {
+      "listingId": "flip-aquatics:7487862964326",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Red Calceo Shrimp",
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
@@ -120,6 +127,80 @@
       ],
       "listingId": "ck-fish-world:8149535031511",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42294628057190",
+          "label": "Imported / 1 Shrimp",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:7487862964326",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-07-18T03:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42294628057190",
+          "label": "Imported / 1 Shrimp",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45947878735974",
+          "label": "USA Bred / 1 Shrimp",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7487862964326",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-09-30T05:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42294628057190",
+          "label": "Imported / 1 Shrimp",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45947878735974",
+          "label": "USA Bred / 1 Shrimp",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7487862964326",
+      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",

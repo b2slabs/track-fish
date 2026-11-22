@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:melanotaenia-lacustris",
-  "commonName": "Turquoise Rainbow (Melanotaenia lacustris)",
+  "commonName": "Turquoise Rainbowfish | Melanotaenia lacustris",
   "scientificName": "Melanotaenia lacustris",
   "listings": [
     {
@@ -15,7 +15,7 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Turquoise Rainbowfish | Melanotaenia lacustris",
-      "lastCheckedAt": "2026-11-22T16:57:07.173Z"
+      "lastCheckedAt": "2026-09-09T05:00:00.000Z"
     },
     {
       "listingId": "aquahuna:6826411196491",
@@ -61,6 +61,68 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 11.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41499176960102",
+          "label": "Imported / 1 Fish",
+          "price": 11.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:7287989469286",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-08-01T04:00:00.000Z",
+      "price": 11.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41499176960102",
+          "label": "Imported / 1 Fish",
+          "price": 11.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7287989469286",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-08-16T02:00:00.000Z",
+      "price": 11.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41499176960102",
+          "label": "Imported / 1 Fish",
+          "price": 11.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7287989469286",
+      "storeSlug": "flip-aquatics"
+    },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 28.99,

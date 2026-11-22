@@ -8,10 +8,75 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Royal Blue Endler",
-      "lastCheckedAt": "2026-11-22T16:57:07.173Z"
+      "lastCheckedAt": "2026-05-08T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41080846745702",
+          "label": "Imported / Male",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "41080846778470",
+          "label": "Imported / Female",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "41080846811238",
+          "label": "Imported / Pair (M/F)",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:7122251284582",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-04-08T03:00:00.000Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41080846745702",
+          "label": "Imported / Male",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "41080846778470",
+          "label": "Imported / Female",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "41080846811238",
+          "label": "Imported / Pair (M/F)",
+          "price": 18.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7122251284582",
+      "storeSlug": "flip-aquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 9.99,

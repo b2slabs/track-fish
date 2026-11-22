@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:petruichthys-sp",
-  "commonName": "Rosy Loach (Petruichthys sp.)",
+  "commonName": "Rosy Loach | Petruichthys sp.",
   "scientificName": "Petruichthys sp.",
   "listings": [
     {
@@ -29,7 +29,7 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Rosy Loach | Petruichthys sp.",
-      "lastCheckedAt": "2026-11-22T16:57:07.173Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "aquarium-fish:2386246860881",
@@ -79,6 +79,26 @@
       ],
       "listingId": "shrimpy-business:9659252310306",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43064920604774",
+          "label": "1 Fish",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:7721846112358",
+      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-03-28T03:00:00.000Z",
@@ -301,6 +321,27 @@
       ],
       "listingId": "aquahuna:7634842812491",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-10-27T05:00:00.000Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43064920604774",
+          "label": "1 Fish",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7721846112358",
+      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-11-08T06:00:00.000Z",

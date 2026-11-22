@@ -8,7 +8,7 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Orange Molly",
-      "lastCheckedAt": "2026-11-22T16:57:07.173Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "dans-fish:10258441732394",
@@ -19,6 +19,47 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-04T06:00:00.000Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "67872842055782",
+          "label": "Imported / 1 Fish",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:15455105613926",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-07T06:00:00.000Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67872842055782",
+          "label": "Imported / 1 Fish",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:15455105613926",
+      "storeSlug": "flip-aquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 7.99,

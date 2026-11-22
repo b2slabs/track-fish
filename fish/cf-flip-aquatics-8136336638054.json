@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:flip-aquatics:8136336638054",
-  "commonName": "Orange Eye Red Devil Shrimp (Neocaridina davidi)",
+  "commonName": "Orange Eye Red Devil Shrimp",
   "scientificName": "Neocaridina davidi",
   "listings": [
     {
@@ -8,7 +8,7 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Orange Eye Red Devil Shrimp",
-      "lastCheckedAt": "2026-11-22T16:57:07.173Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "aqua-imports:185287",
@@ -19,6 +19,47 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-08-07T03:00:00.000Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46529515651174",
+          "label": "Regular / USA Bred / 1 Shrimp",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:8136336638054",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-18T07:00:00.000Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46529515651174",
+          "label": "Regular / USA Bred / 1 Shrimp",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:8136336638054",
+      "storeSlug": "flip-aquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 29.99,

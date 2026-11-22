@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hyphessobrycon-eques",
-  "commonName": "Super Serpae Tetra (Hyphessobrycon eques)",
+  "commonName": "Serpae Tetra | Hyphessobrycon eques",
   "scientificName": "Hyphessobrycon eques",
   "listings": [
     {
@@ -36,7 +36,7 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Serpae Tetra | Hyphessobrycon eques",
-      "lastCheckedAt": "2026-11-22T16:57:07.173Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "aqua-imports:43967",
@@ -47,6 +47,26 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 2.75,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42282834722918",
+          "label": "Imported / 1 Fish",
+          "price": 2.75,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:7484813934694",
+      "storeSlug": "flip-aquatics"
+    },
     {
       "observedAt": "2026-01-26T03:00:00.000Z",
       "price": 15.98,
@@ -78,6 +98,91 @@
       ],
       "listingId": "ck-fish-world:8149530411223",
       "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-08-15T01:00:00.000Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42282834722918",
+          "label": "Imported / 1 Fish",
+          "price": 3.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7484813934694",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-08-25T02:00:00.000Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42282834722918",
+          "label": "Imported / 1 Fish",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7484813934694",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-09-05T04:00:00.000Z",
+      "price": 5.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42282834722918",
+          "label": "Imported / 1 Fish",
+          "price": 5.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7484813934694",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-19T07:00:00.000Z",
+      "price": 5.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42282834722918",
+          "label": "Imported / 1 Fish",
+          "price": 5.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7484813934694",
+      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-11-20T06:14:42.593Z",

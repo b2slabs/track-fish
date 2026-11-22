@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:stigmatogobius-sadanundio",
-  "commonName": "Knight Goby (Stigmatogobius sadanundio)",
+  "commonName": "Knight Goby | Stigmatogobius sadanundio",
   "scientificName": "Stigmatogobius sadanundio",
   "listings": [
     {
@@ -22,7 +22,7 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Knight Goby | Stigmatogobius sadanundio",
-      "lastCheckedAt": "2026-11-22T16:57:07.173Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "aqua-imports:61693",
@@ -33,6 +33,68 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40903710539878",
+          "label": "Imported / 1 Fish",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:7056452485222",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-04-04T03:00:00.000Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40903710539878",
+          "label": "Imported / 1 Fish",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7056452485222",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-05-01T04:00:00.000Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40903710539878",
+          "label": "Imported / 1 Fish",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7056452485222",
+      "storeSlug": "flip-aquatics"
+    },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 12.5,

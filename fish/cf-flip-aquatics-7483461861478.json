@@ -8,10 +8,42 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Caridina Gift Bundle",
-      "lastCheckedAt": "2026-11-22T16:57:07.173Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42277053399142",
+          "label": "Bundle A",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "42277053431910",
+          "label": "Bundle B",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "42277053464678",
+          "label": "Bundle C",
+          "price": 99.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:7483461861478",
+      "storeSlug": "flip-aquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 24.99,

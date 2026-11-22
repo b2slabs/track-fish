@@ -8,10 +8,75 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Blue Mosaic Snakeskin Guppy",
-      "lastCheckedAt": "2026-11-22T16:57:07.173Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-10-28T06:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "67838163124326",
+          "label": "Imported / Male",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "67838163157094",
+          "label": "Imported / Female",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "67838163189862",
+          "label": "Imported / Pair (M/F)",
+          "price": 26.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:15447587291238",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-10-29T06:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67838163124326",
+          "label": "Imported / Male",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "67838163157094",
+          "label": "Imported / Female",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "67838163189862",
+          "label": "Imported / Pair (M/F)",
+          "price": 26.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:15447587291238",
+      "storeSlug": "flip-aquatics"
+    },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 14.99,

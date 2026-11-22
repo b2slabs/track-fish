@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:azolla-caroliniana",
-  "commonName": "Fairy Moss (Azolla caroliniana)",
+  "commonName": "Azolla Caroliniana | Azolla Fairy Moss",
   "scientificName": "Azolla caroliniana",
   "listings": [
     {
@@ -22,7 +22,7 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Azolla Caroliniana | Azolla Fairy Moss",
-      "lastCheckedAt": "2026-11-22T16:57:07.173Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "buce-plant:454168281128",
@@ -110,6 +110,47 @@
       ],
       "listingId": "shrimpy-business:9756925329698",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-08-07T03:00:00.000Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46539615240294",
+          "label": "Portion Cup",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:8138518888550",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-08-08T02:00:00.000Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46539615240294",
+          "label": "Portion Cup",
+          "price": 5.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:8138518888550",
+      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
