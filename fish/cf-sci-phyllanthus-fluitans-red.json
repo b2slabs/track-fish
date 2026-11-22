@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:phyllanthus-fluitans:red",
-  "commonName": "Red Root Floater (Phyllanthis fluitans)",
+  "commonName": "Red Root Floater",
   "scientificName": "Phyllanthus fluitans",
   "listings": [
     {
@@ -50,7 +50,7 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Red Root Floater",
-      "lastCheckedAt": "2026-11-22T16:57:55.301Z"
+      "lastCheckedAt": "2026-04-22T03:00:00.000Z"
     },
     {
       "listingId": "aquatic-arts:1389646774358+6799259533398",
@@ -93,6 +93,26 @@
       ],
       "listingId": "shrimpy-business:9757903683874",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49211322827059",
+          "label": "4 oz Cup",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9242834075955",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-01-27T02:00:00.000Z",
@@ -201,6 +221,48 @@
       ],
       "listingId": "shrimpy-business:9757903683874",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-03-13T03:00:00.000Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49211322827059",
+          "label": "4 oz Cup",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:9242834075955",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-03-26T03:00:00.000Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49211322827059",
+          "label": "4 oz Cup",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:9242834075955",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-03-31T03:00:00.000Z",

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hypostomus-luteus:gold-sailfin",
-  "commonName": "Golden Sailfin Pleco Phase 2 (Hypostomus luteus)",
+  "commonName": "Golden Sailfin Pleco Phase 1 (Hypostomus luteus)",
   "scientificName": "Hypostomus luteus",
   "listings": [
     {
@@ -16,9 +16,70 @@
       "storeName": "Aqua Imports",
       "commonName": "Golden Sailfin Pleco Phase 2 (Hypostomus luteus)",
       "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+    },
+    {
+      "listingId": "imperial-tropicals:8398005469491",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Golden Sailfin Pleco Phase 1 (Hypostomus luteus)",
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-10-02T06:00:00.000Z",
+      "price": 349.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611799150899",
+          "label": "4-5\" Unsexed Rio Uruguai",
+          "price": 349.99,
+          "available": false
+        },
+        {
+          "id": "67597173915955",
+          "label": "5-6\" Unsexed Rio Uruguai",
+          "price": 399.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398005469491",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-10-03T05:00:00.000Z",
+      "price": 399.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611799150899",
+          "label": "4-5\" Unsexed Rio Uruguai",
+          "price": 399.99,
+          "available": true
+        },
+        {
+          "id": "67597173915955",
+          "label": "5-6\" Unsexed Rio Uruguai",
+          "price": 449.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398005469491",
+      "storeSlug": "imperial-tropicals"
+    },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 399.99,

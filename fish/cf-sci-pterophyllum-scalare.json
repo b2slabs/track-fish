@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pterophyllum-scalare",
-  "commonName": "Assorted Angelfish (School of 6)",
+  "commonName": "Amazon Angelfish (Pterophyllum scalare)",
   "scientificName": "Pterophyllum scalare",
   "listings": [
     {
@@ -64,6 +64,13 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Assorted Angelfish (School of 6)",
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+    },
+    {
+      "listingId": "imperial-tropicals:15445425127731",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "Amazon Angelfish (Pterophyllum scalare)",
       "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
@@ -718,6 +725,71 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-10-30T06:00:00.000Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "67801136562483",
+          "label": "1-2\" Unsexed Amazon River",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "67801136595251",
+          "label": "2-3” Unsexed Amazon River",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "67801286967603",
+          "label": "3-4” Unsexed Amazon River",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:15445425127731",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-10-31T06:00:00.000Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67801136562483",
+          "label": "1-2\" Unsexed Amazon River",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "67801136595251",
+          "label": "2-3” Unsexed Amazon River",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "67801286967603",
+          "label": "3-4” Unsexed Amazon River",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:15445425127731",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-03T07:00:00.000Z",
       "price": 64.79,
       "currency": "USD",
@@ -789,6 +861,70 @@
       ],
       "listingId": "aquatic-arts:1376822558806+1376847855702+14661630984559+14759189741935+14814010212719+4541186342998+4964433821782+5001220063318+6719932498006",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-07T06:00:00.000Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67801136562483",
+          "label": "1-2\" Unsexed Amazon River",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "67801136595251",
+          "label": "2-3” Unsexed Amazon River",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "67801286967603",
+          "label": "3-4” Unsexed Amazon River",
+          "price": 44.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:15445425127731",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-18T07:00:00.000Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67801136562483",
+          "label": "1-2\" Unsexed Amazon River",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "67801136595251",
+          "label": "2-3” Unsexed Amazon River",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "67801286967603",
+          "label": "3-4” Unsexed Amazon River",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:15445425127731",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",

@@ -8,10 +8,30 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "WYSIWYG Male Isonga Tropheus (Tropheus sp. 'Crescentic' Mkuyu)",
-      "lastCheckedAt": "2026-11-22T16:57:55.301Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-12T07:00:00.000Z",
+      "price": 139.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67902245273907",
+          "label": "4-5\" Male",
+          "price": 139.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:15465362489651",
+      "storeSlug": "imperial-tropicals"
+    },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 139.99,
@@ -34,6 +54,27 @@
     },
     {
       "observedAt": "2026-11-21T01:29:20.687Z",
+      "price": 139.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "67902245273907",
+          "label": "4-5\" Male",
+          "price": 139.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:15465362489651",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T07:00:00.000Z",
       "price": 139.99,
       "currency": "USD",
       "available": false,

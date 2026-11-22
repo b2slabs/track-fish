@@ -1,0 +1,57 @@
+{
+  "canonicalFishId": "cf:imperial-tropicals:10009218941235",
+  "commonName": "BOGO Orange Shrimp",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "imperial-tropicals:10009218941235",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "BOGO Orange Shrimp",
+      "lastCheckedAt": "2026-01-30T03:00:00.000Z"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-01-24T02:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52800473039155",
+          "label": "(3 Pack) 0.25-0.75\" Unsexed",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:10009218941235",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-01-30T03:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52800473039155",
+          "label": "(3 Pack) 0.25-0.75\" Unsexed",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:10009218941235",
+      "storeSlug": "imperial-tropicals"
+    }
+  ]
+}

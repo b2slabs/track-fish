@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:andinoacara-rivulatus:green",
-  "commonName": "Green Terror Cichlid (Andinoacara rivulatus)",
+  "commonName": "Green Terror (Andinoacara rivulatus)",
   "scientificName": "Andinoacara rivulatus",
   "listings": [
     {
@@ -29,7 +29,7 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Green Terror (Andinoacara rivulatus)",
-      "lastCheckedAt": "2026-11-22T16:57:55.301Z"
+      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
     },
     {
       "listingId": "aqua-imports:147236",
@@ -37,9 +37,112 @@
       "storeName": "Aqua Imports",
       "commonName": "Green Terror Cichlid (Andinoacara rivulatus)",
       "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+    },
+    {
+      "listingId": "imperial-tropicals:10461782933811",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "BOGO Green Terror (Andinoacara rivulatus)",
+      "lastCheckedAt": "2026-09-25T05:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-09-19T04:00:00.000Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "54088105263411",
+          "label": "1-2” Unsexed",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:10461782933811",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-10-31T06:00:00.000Z",
+      "price": 179.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "67820191547699",
+          "label": "9-10\" Male",
+          "price": 179.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:15448894505267+8397977321779",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-05T07:00:00.000Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611726930227",
+          "label": "1-2” Unsexed",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "45611726962995",
+          "label": "2-3” Unsexed",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "46470439305523",
+          "label": "3-4\" Unsexed",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "50892899778867",
+          "label": "4-5\" Unsexed",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "53874116722995",
+          "label": "7-8\" Male",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "53874117476659",
+          "label": "8-9\" Male",
+          "price": 149.99,
+          "available": false
+        },
+        {
+          "id": "67820191547699",
+          "label": "9-10\" Male",
+          "price": 179.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:15448894505267+8397977321779",
+      "storeSlug": "imperial-tropicals"
+    },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 85.99,
@@ -253,6 +356,62 @@
       ],
       "listingId": "global-exoticquatics:8263775158464",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-20T07:00:00.000Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611726930227",
+          "label": "1-2” Unsexed",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "45611726962995",
+          "label": "2-3” Unsexed",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "46470439305523",
+          "label": "3-4\" Unsexed",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "50892899778867",
+          "label": "4-5\" Unsexed",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "53874116722995",
+          "label": "7-8\" Male",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "53874117476659",
+          "label": "8-9\" Male",
+          "price": 149.99,
+          "available": false
+        },
+        {
+          "id": "67820191547699",
+          "label": "9-10\" Male",
+          "price": 179.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:15448894505267+8397977321779",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-21T20:07:35.821Z",

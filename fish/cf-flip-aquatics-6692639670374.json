@@ -15,7 +15,7 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Rotala Vietnam",
-      "lastCheckedAt": "2026-11-22T16:57:55.301Z"
+      "lastCheckedAt": "2026-03-17T03:00:00.000Z"
     },
     {
       "listingId": "glass-aqua:6835447660630",
@@ -26,6 +26,47 @@
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49172012073267",
+          "label": "1 Potted Plant",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9236950155571",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-03-17T03:00:00.000Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49172012073267",
+          "label": "1 Potted Plant",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:9236950155571",
+      "storeSlug": "imperial-tropicals"
+    },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 7.99,

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:fundulus-chrysotus:gold",
-  "commonName": "Golden Topminnow",
+  "commonName": "BOGO Golden Topminnow",
   "scientificName": "Fundulus chrysotus",
   "listings": [
     {
@@ -16,9 +16,36 @@
       "storeName": "NU Aqua Shop",
       "commonName": "Golden Topminnow",
       "lastCheckedAt": "2026-11-22T16:59:11.588Z"
+    },
+    {
+      "listingId": "imperial-tropicals:10141327294771",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "BOGO Golden Topminnow",
+      "lastCheckedAt": "2026-04-17T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-04-11T03:00:00.000Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53211432878387",
+          "label": "2-3\" Unsexed",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:10141327294771",
+      "storeSlug": "imperial-tropicals"
+    },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 6.99,

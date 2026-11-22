@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:cambarellus-patzcuarensis:orange",
-  "commonName": "Mexican Dwarf Orange Crayfish (Cambarellus patzcuarensis ‘orange’)",
+  "commonName": "BOGO Mexican Dwarf Orange Crayfish",
   "scientificName": "Cambarellus patzcuarensis",
   "listings": [
     {
@@ -44,9 +44,36 @@
       "storeName": "NU Aqua Shop",
       "commonName": "Orange Dwarf Mexican Crayfish",
       "lastCheckedAt": "2026-11-22T16:59:11.588Z"
+    },
+    {
+      "listingId": "imperial-tropicals:9834493837619",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "BOGO Mexican Dwarf Orange Crayfish",
+      "lastCheckedAt": "2026-09-25T05:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-04-18T03:00:00.000Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51909330927923",
+          "label": "0.75-1\" Unsexed",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9834493837619",
+      "storeSlug": "imperial-tropicals"
+    },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 57.99,

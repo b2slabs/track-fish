@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:pterophyllum-scalare:koi",
-  "commonName": "Koi Angelfish (Group of 3)",
+  "commonName": "BOGO Koi Angelfish",
   "scientificName": "Pterophyllum scalare",
   "listings": [
     {
@@ -51,9 +51,36 @@
       "storeName": "AquariumFish.com",
       "commonName": "Koi Angelfish (Group of 3)",
       "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+    },
+    {
+      "listingId": "imperial-tropicals:9847552213299",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "BOGO Koi Angelfish",
+      "lastCheckedAt": "2026-03-20T03:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-03-14T03:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52309649490227",
+          "label": "1-2\" Unsexed",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9847552213299",
+      "storeSlug": "imperial-tropicals"
+    },
     {
       "observedAt": "2026-05-27T04:00:00.000Z",
       "price": 72.49,

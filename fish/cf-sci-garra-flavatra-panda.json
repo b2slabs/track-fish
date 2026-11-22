@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:garra-flavatra:panda",
-  "commonName": "Panda Garra (Garra flavatra)",
+  "commonName": "BOGO Panda Garra",
   "scientificName": "Garra flavatra",
   "listings": [
     {
@@ -72,6 +72,13 @@
       "storeName": "Aqua Imports",
       "commonName": "Panda Garra (Garra flavatra)",
       "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+    },
+    {
+      "listingId": "imperial-tropicals:10315093737779",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "BOGO Panda Garra",
+      "lastCheckedAt": "2026-07-24T03:00:00.000Z"
     }
   ],
   "events": [
@@ -230,6 +237,47 @@
       ],
       "listingId": "shrimpy-business:8972839649570",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-07-18T03:00:00.000Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53670078939443",
+          "label": "1-2\" Unsexed",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:10315093737779",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-07-20T04:00:00.000Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53670078939443",
+          "label": "1-2\" Unsexed",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:10315093737779",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",

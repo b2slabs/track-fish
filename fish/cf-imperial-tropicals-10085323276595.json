@@ -1,0 +1,57 @@
+{
+  "canonicalFishId": "cf:imperial-tropicals:10085323276595",
+  "commonName": "BOGO Common Oto",
+  "scientificName": null,
+  "listings": [
+    {
+      "listingId": "imperial-tropicals:10085323276595",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "BOGO Common Oto",
+      "lastCheckedAt": "2026-02-27T03:00:00.000Z"
+    }
+  ],
+  "events": [
+    {
+      "observedAt": "2026-02-21T03:00:00.000Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53061774541107",
+          "label": "0.5-1\" Unsexed",
+          "price": 2.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:10085323276595",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-02-22T03:00:00.000Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53061774541107",
+          "label": "0.5-1\" Unsexed",
+          "price": 2.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:10085323276595",
+      "storeSlug": "imperial-tropicals"
+    }
+  ]
+}

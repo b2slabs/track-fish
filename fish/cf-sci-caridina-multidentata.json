@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:caridina-multidentata",
-  "commonName": "Amano Shrimp (Caridina multidentata)",
+  "commonName": "BOGO Amano Shrimp (Caridina multidentata)",
   "scientificName": "Caridina multidentata",
   "listings": [
     {
@@ -107,6 +107,13 @@
       "storeName": "Aqua Imports",
       "commonName": "Amano Shrimp (Caridina multidentata)",
       "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+    },
+    {
+      "listingId": "imperial-tropicals:10132882030899",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "BOGO Amano Shrimp (Caridina multidentata)",
+      "lastCheckedAt": "2026-04-10T03:00:00.000Z"
     }
   ],
   "events": [
@@ -171,6 +178,47 @@
       ],
       "listingId": "aquahuna:1725707419691+6752407846987+6863417147467+947857358891",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-04-04T03:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53185764786483",
+          "label": "(3 Pack) 0.5-1\" Unsexed",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:10132882030899",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-04-05T03:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53185764786483",
+          "label": "(3 Pack) 0.5-1\" Unsexed",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:10132882030899",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-05-26T04:00:00.000Z",

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:nimbochromis-venustus",
-  "commonName": "Venustus",
+  "commonName": "BOGO Giraffe Cichlid",
   "scientificName": "Nimbochromis venustus",
   "listings": [
     {
@@ -30,9 +30,84 @@
       "storeName": "Global Exoticquatics",
       "commonName": "Venustus",
       "lastCheckedAt": "2026-11-22T16:59:03.872Z"
+    },
+    {
+      "listingId": "imperial-tropicals:9931592532275",
+      "storeSlug": "imperial-tropicals",
+      "storeName": "Imperial Tropicals",
+      "commonName": "BOGO Giraffe Cichlid",
+      "lastCheckedAt": "2026-05-22T04:00:00.000Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-02-07T03:00:00.000Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52740584276275",
+          "label": "1-2\" Unsexed",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "53020624421171",
+          "label": "2-3\" Unsexed",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9931592532275",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-03-14T03:00:00.000Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53020624421171",
+          "label": "2-3\" Unsexed",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:9931592532275",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-05-16T04:00:00.000Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53020624421171",
+          "label": "2-3\" Unsexed",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:9931592532275",
+      "storeSlug": "imperial-tropicals"
+    },
     {
       "observedAt": "2026-11-20T06:14:42.593Z",
       "price": 6.5,
