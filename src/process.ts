@@ -56,7 +56,10 @@ export interface ProcessStoreRunResult {
   rejectionReason?: string;
   listingCount: number;
   changeCount: number;
-  heartbeatCount: number;
+  /** Listings observed unchanged this run — their `lastCheckedAt` on the
+   * history file was advanced, but no Heartbeat event was written (see
+   * issue #81: Heartbeat events no longer exist at all). */
+  unchangedCount: number;
   /** Listings whose best automatic Canonical Fish match was ambiguous
    * this run — recorded in pending-matches.json, not auto-merged. */
   ambiguousCount: number;
@@ -68,11 +71,14 @@ export interface ProcessStoreRunResult {
  * validation guard, matches each Listing to a Canonical Fish (see issue
  * #3 / `canonical-fish.ts` — by maintainer override, then scientific
  * name, then fuzzy common-name, falling back to a trivial per-Listing
- * id), diffs against the previously recorded state to emit a Change
- * Event or Heartbeat per Listing, and writes the result into the `data`
- * branch worktree at `dataDir` (index.json, one history file per
- * Canonical Fish, and pending-matches.json for ambiguous matches). Does
- * not commit or push — the caller decides when a batch of stores is done.
+ * id), diffs against the previously recorded state to emit a Change Event
+ * for each Listing whose price/availability genuinely differs — or, for
+ * one observed unchanged, advances its `lastCheckedAt` on the history
+ * file in place instead (issue #81: no Heartbeat event is ever written) —
+ * and writes the result into the `data` branch worktree at `dataDir`
+ * (index.json, one history file per Canonical Fish, and
+ * pending-matches.json for ambiguous matches). Does not commit or push —
+ * the caller decides when a batch of stores is done.
  */
 export function processStoreRun(params: {
   store: StoreConfig;
@@ -99,7 +105,7 @@ export function processStoreRun(params: {
       rejectionReason: `parsed Listing count ${parsedListings.length} is more than a 50% drop from the last successful run's ${previousListingCount}`,
       listingCount: parsedListings.length,
       changeCount: 0,
-      heartbeatCount: 0,
+      unchangedCount: 0,
       ambiguousCount: 0,
     };
   }
@@ -139,7 +145,7 @@ export function processStoreRun(params: {
 
   const nextListings: Listing[] = [];
   let changeCount = 0;
-  let heartbeatCount = 0;
+  let unchangedCount = 0;
   let ambiguousCount = 0;
 
   // Match every parsed Listing first (matching itself is per-Listing and
@@ -257,10 +263,10 @@ export function processStoreRun(params: {
     // Listing gets).
     const previous = previousListingsById.get(listingId);
     const diffEvent = diffListing(previous, listing);
-    if (diffEvent.type === 'change') {
+    if (diffEvent) {
       changeCount++;
     } else {
-      heartbeatCount++;
+      unchangedCount++;
     }
 
     // Move every old listingId this group absorbs out of wherever its
@@ -321,11 +327,19 @@ export function processStoreRun(params: {
       movedEvents.push(...moved.map((event) => ({ ...event, listingId, storeSlug: store.slug })));
     }
 
+    // `lastCheckedAt` is set to `now` unconditionally -- this Listing was
+    // just observed this run, whether or not anything changed (issue #81).
+    // This is the only place that pointer ever advances; a Listing not
+    // touched this run (a different Store's Listing sharing this Canonical
+    // Fish, or this Listing itself on a run where it vanished from the
+    // catalog) keeps whatever `lastCheckedAt` it already had, via
+    // `mergeListingIntoHistory`'s upsert-by-listingId.
     const listingInfo: CanonicalFishHistoryListing = {
       listingId,
       storeSlug: store.slug,
       storeName: store.name,
       commonName: listing.commonName,
+      lastCheckedAt: now,
     };
     const mergedHistory = mergeListingIntoHistory({
       existing: readHistoryFile(dataDir, canonicalFishId),
@@ -372,7 +386,7 @@ export function processStoreRun(params: {
     accepted: true,
     listingCount: parsedListings.length,
     changeCount,
-    heartbeatCount,
+    unchangedCount,
     ambiguousCount,
   };
 }

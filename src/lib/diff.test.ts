@@ -28,16 +28,15 @@ function makeListing(overrides: Partial<Listing> = {}): Listing {
 test('a brand-new Listing (no previous state) is a Change Event tagged first-observed', () => {
   const next = makeListing();
   const event = diffListing(undefined, next);
-  assert.equal(event.type, 'change');
-  assert.deepEqual(event.changedFields, ['first-observed']);
+  assert.equal(event?.type, 'change');
+  assert.deepEqual(event?.changedFields, ['first-observed']);
 });
 
-test('identical state across runs is a Heartbeat', () => {
+test('identical state across runs produces no event at all', () => {
   const previous = makeListing();
   const next = makeListing({ lastObservedAt: '2026-01-02T00:00:00.000Z' });
   const event = diffListing(previous, next);
-  assert.equal(event.type, 'heartbeat');
-  assert.equal(event.changedFields, undefined);
+  assert.equal(event, undefined);
 });
 
 test('a price change is a Change Event naming price', () => {
@@ -47,8 +46,8 @@ test('a price change is a Change Event naming price', () => {
     variants: [{ id: 'v1', label: 'Default', price: 12, available: true }],
   });
   const event = diffListing(previous, next);
-  assert.equal(event.type, 'change');
-  assert.ok(event.changedFields?.includes('price'));
+  assert.equal(event?.type, 'change');
+  assert.ok(event?.changedFields?.includes('price'));
 });
 
 test('an availability change is a Change Event naming available', () => {
@@ -58,8 +57,8 @@ test('an availability change is a Change Event naming available', () => {
     variants: [{ id: 'v1', label: 'Default', price: 10, available: false }],
   });
   const event = diffListing(previous, next);
-  assert.equal(event.type, 'change');
-  assert.ok(event.changedFields?.includes('available'));
+  assert.equal(event?.type, 'change');
+  assert.ok(event?.changedFields?.includes('available'));
 });
 
 test('a variant-level change is a Change Event even if the top-level summary is unchanged', () => {
@@ -82,8 +81,8 @@ test('a variant-level change is a Change Event even if the top-level summary is 
     ],
   });
   const event = diffListing(previous, next);
-  assert.equal(event.type, 'change');
-  assert.deepEqual(event.changedFields, ['variants']);
+  assert.equal(event?.type, 'change');
+  assert.deepEqual(event?.changedFields, ['variants']);
 });
 
 test('a new variant appearing counts as a change', () => {
@@ -97,6 +96,6 @@ test('a new variant appearing counts as a change', () => {
     ],
   });
   const event = diffListing(previous, next);
-  assert.equal(event.type, 'change');
-  assert.deepEqual(event.changedFields, ['variants']);
+  assert.equal(event?.type, 'change');
+  assert.deepEqual(event?.changedFields, ['variants']);
 });

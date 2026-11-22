@@ -119,16 +119,28 @@ export function FishDetailPage() {
                   Listing (and, for a Canonical Fish with multiple Listings, this
                   chart renders them as one unified set of series rather than N
                   separate per-Store charts — issue #23) — pass every event
-                  through unfiltered and let the chart split by listingId itself. */}
+                  through unfiltered and let the chart split by listingId itself.
+                  lastCheckedAt (issue #81) lives on the history file's own
+                  per-Listing metadata, not on index.json's Listing — matched
+                  in here by listingId rather than carried by `listings` (the
+                  index.json entries) itself. */}
               <PriceHistoryChart
                 events={history.events}
-                listings={listings.map((l) => ({
-                  listingId: l.listingId,
-                  storeSlug: l.storeSlug,
-                  storeName: l.storeName,
-                  commonName: l.commonName,
-                  currency: l.currency,
-                }))}
+                listings={listings.map((l) => {
+                  const historyListing = history.listings.find((hl) => hl.listingId === l.listingId);
+                  return {
+                    listingId: l.listingId,
+                    storeSlug: l.storeSlug,
+                    storeName: l.storeName,
+                    commonName: l.commonName,
+                    currency: l.currency,
+                    // Falls back to this Listing's own lastObservedAt (always
+                    // present on index.json) on the off chance the history
+                    // file hasn't caught up yet -- e.g. a brand-new Listing
+                    // whose first history write raced this page's two fetches.
+                    lastCheckedAt: historyListing?.lastCheckedAt ?? l.lastObservedAt,
+                  };
+                })}
               />
             </CardContent>
           </Card>

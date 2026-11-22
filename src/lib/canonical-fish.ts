@@ -506,6 +506,12 @@ function eventKey(event: CanonicalFishHistoryEvent): string {
  * moved over from its old Canonical Fish) into `existing` — the target
  * Canonical Fish's current history, or undefined if this is the first
  * time anything has been recorded under this id.
+ *
+ * `newEvent` is `undefined` when this Listing was observed unchanged this
+ * run (see issue #81 / `diffListing`) — no event is appended in that case,
+ * but `listingInfo` (carrying this run's fresh `lastCheckedAt`) is still
+ * upserted into `listings` either way, which is what advances that pointer
+ * on every observation regardless of whether anything changed.
  */
 export function mergeListingIntoHistory(params: {
   existing: CanonicalFishHistory | undefined;
@@ -513,7 +519,7 @@ export function mergeListingIntoHistory(params: {
   listingInfo: CanonicalFishHistoryListing;
   scientificName: string | null;
   movedEvents: CanonicalFishHistoryEvent[];
-  newEvent: HistoryEvent;
+  newEvent: HistoryEvent | undefined;
 }): CanonicalFishHistory {
   const { canonicalFishId, listingInfo, scientificName, movedEvents, newEvent } = params;
   const existing = params.existing;
@@ -522,17 +528,15 @@ export function mergeListingIntoHistory(params: {
     ? existing.listings.map((listing) => (listing.listingId === listingInfo.listingId ? listingInfo : listing))
     : [...(existing?.listings ?? []), listingInfo];
 
-  const taggedNewEvent: CanonicalFishHistoryEvent = {
-    ...newEvent,
-    listingId: listingInfo.listingId,
-    storeSlug: listingInfo.storeSlug,
-  };
+  const taggedNewEvent: CanonicalFishHistoryEvent | undefined = newEvent
+    ? { ...newEvent, listingId: listingInfo.listingId, storeSlug: listingInfo.storeSlug }
+    : undefined;
 
   const existingKeys = new Set((existing?.events ?? []).map(eventKey));
   const incomingMoved = movedEvents.filter((event) => !existingKeys.has(eventKey(event)));
 
-  const events = [...(existing?.events ?? []), ...incomingMoved, taggedNewEvent].sort((a, b) =>
-    a.observedAt.localeCompare(b.observedAt)
+  const events = [...(existing?.events ?? []), ...incomingMoved, ...(taggedNewEvent ? [taggedNewEvent] : [])].sort(
+    (a, b) => a.observedAt.localeCompare(b.observedAt)
   );
 
   return {
@@ -560,6 +564,13 @@ export function migrateLegacyHistory(raw: unknown): CanonicalFishHistory {
     events: HistoryEvent[];
   };
 
+  // This single Listing's `lastCheckedAt` (issue #81) didn't exist in this
+  // pre-#3 shape at all -- backfill it from this Listing's own last event,
+  // whatever its type, since events are append-only in observedAt order:
+  // the last one *is* the most recent observation, changed or not.
+  const lastCheckedAt =
+    legacy.events.length > 0 ? [...legacy.events].map((e) => e.observedAt).sort().at(-1)! : new Date(0).toISOString();
+
   return {
     canonicalFishId: legacy.canonicalFishId,
     commonName: legacy.commonName,
@@ -570,6 +581,7 @@ export function migrateLegacyHistory(raw: unknown): CanonicalFishHistory {
         storeSlug: legacy.storeSlug,
         storeName: legacy.storeSlug,
         commonName: legacy.commonName,
+        lastCheckedAt,
       },
     ],
     events: legacy.events.map((event) => ({

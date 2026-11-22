@@ -27,11 +27,11 @@ A personal tool, hosted entirely on GitHub (Actions + Releases + Pages). Not a p
 
 ## Domain language
 
-See `GLOSSARY.md` for precise definitions of **Store**, **Listing**, **Canonical Fish**, **Scrape Run**, **Observation**, **Change Event**, and **Heartbeat**. Key points:
+See `GLOSSARY.md` for precise definitions of **Store**, **Listing**, **Canonical Fish**, **Scrape Run**, **Observation**, **Change Event**, and **lastCheckedAt**. Key points:
 
 - A **Canonical Fish** is species-level — size/grade is a property of a **Listing**'s variants, not a separate identity (see [ADR 0002](./adr/0002-canonical-fish-is-species-level.md)). The UI must show size next to price so cross-store comparisons aren't misleading.
 - Fish identity across stores is established by a hybrid match: automatic by scientific name (when present) plus fuzzy common-name matching, falling back to a manually-curated mapping for ambiguous cases.
-- The processed layer is sparse by design: a **Change Event** is written only when a Listing's price or availability changes, plus a periodic **Heartbeat** confirming "still observed, unchanged." It is not one row per scrape.
+- The processed layer is sparse by design: a **Change Event** is written only when a Listing's price or availability changes. An unchanged observation advances that Listing's **lastCheckedAt** pointer in place instead of writing anything to the event history (see [ADR 0005](./adr/0005-heartbeat-events-replaced-by-lastcheckedat.md)). It is not one row per scrape.
 
 ## Initial stores
 
@@ -61,9 +61,9 @@ New stores are added via config, not a redesign.
 
 ### Processing & storage
 
-- See [ADR 0003](./adr/0003-processed-data-as-static-json-fetched-live.md): a dedicated `data` git branch (separate from `main`) holds the processed layer: current Listings plus the Change Event / Heartbeat history, as flat JSON files — no SQLite, no external database.
+- See [ADR 0003](./adr/0003-processed-data-as-static-json-fetched-live.md): a dedicated `data` git branch (separate from `main`) holds the processed layer: current Listings plus the Change Event history, as flat JSON files — no SQLite, no external database.
 - Shaped as one lightweight `index.json` (every current Listing, for browse/search/filter/sort) plus one history file per Canonical Fish (fetched only when its detail/chart view is opened).
-- This layer stays small by construction — it only grows on actual price/availability changes, not on every scrape — so it tolerates living in git indefinitely.
+- This layer stays small by construction — it only grows on actual price/availability changes, not on every scrape — so it tolerates living in git indefinitely. See [ADR 0005](./adr/0005-heartbeat-events-replaced-by-lastcheckedat.md): an unchanged observation advances a single `lastCheckedAt` pointer per Listing in place rather than appending anything to the event history.
 
 ### Automation
 

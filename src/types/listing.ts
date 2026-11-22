@@ -65,12 +65,18 @@ export interface Listing extends ParsedListing {
   lastObservedAt: string;
 }
 
-export type HistoryEventType = 'change' | 'heartbeat';
+export type HistoryEventType = 'change';
 
 /**
- * One entry in a Canonical Fish's history file: either a Change Event
- * (price or availability differed from the prior Scrape Run) or a
- * Heartbeat (observed, unchanged).
+ * One entry in a Canonical Fish's history file: a Change Event (price or
+ * availability differed from the prior Scrape Run). An unchanged
+ * observation does NOT get an entry here — see issue #81 /
+ * `CanonicalFishHistoryListing.lastCheckedAt` below, which an unchanged
+ * observation updates in place instead. (Before issue #81, an unchanged
+ * observation appended a `type: 'heartbeat'` entry to this array every
+ * single day — one more than real changes by orders of magnitude — which
+ * is exactly what made this array grow unboundedly; see
+ * `docs/adr/0005-heartbeat-events-replaced-by-lastcheckedat.md`.)
  */
 export interface HistoryEvent {
   type: HistoryEventType;
@@ -104,6 +110,17 @@ export interface CanonicalFishHistoryListing {
   storeSlug: string;
   storeName: string;
   commonName: string;
+  /**
+   * ISO timestamp of the most recent Scrape Run that observed this
+   * Listing, updated in place on every observation — whether or not
+   * anything changed (see issue #81). This is the authoritative "confirmed
+   * observed through this date" signal: it is what lets the frontend chart
+   * extend a variant's line flat from its last Change Event up to this
+   * date, instead of needing a dense trail of Heartbeat events (or a
+   * cadence-based heuristic guess, issues #53/#59) to know how far a line
+   * can safely be drawn before assuming a silent gap means something.
+   */
+  lastCheckedAt: string;
 }
 
 export interface CanonicalFishHistory {
