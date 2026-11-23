@@ -8,21 +8,21 @@
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Tail Spot Pygmy Cory (Gastrodermus hastatus)",
-      "lastCheckedAt": "2026-11-22T16:56:55.770Z"
+      "lastCheckedAt": "2026-11-23T20:55:48.130Z"
     },
     {
       "listingId": "nu-aqua-shop:10006360686908",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Tail Spot Pygmy Cory",
-      "lastCheckedAt": "2026-11-22T16:59:11.588Z"
+      "lastCheckedAt": "2026-11-23T20:57:08.685Z"
     },
     {
       "listingId": "aqua-imports:152641+39543",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Tail Spot Pygmy Cory (Gastrodermus hastatus)",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     }
   ],
   "events": [
@@ -193,6 +193,34 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aqua-imports:152641+39543",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:57:31.638Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "152641",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "39543",
+          "label": "Default",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aqua-imports:152641+39543",
       "storeSlug": "aqua-imports"

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:fissidens-fontanus",
-  "commonName": "Fissiden Fontanus",
+  "commonName": "Fissidens Fontanus",
   "scientificName": "Fissidens fontanus",
   "listings": [
     {
@@ -8,21 +8,21 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Fissidens Fontanus Mat",
-      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:55:54.782Z"
     },
     {
       "listingId": "glass-aqua:1997782253654",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Fissidens Fontanus",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     },
     {
       "listingId": "buce-plant:1381586600017+29054828557",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Fissidens Fontanus",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     }
   ],
   "events": [
@@ -355,6 +355,72 @@
       ],
       "listingId": "buce-plant:1381586600017+29054828557",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:35.740Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12614211502161",
+          "label": "1 Pack",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "12614211534929",
+          "label": "3 Pack",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "12614211567697",
+          "label": "5 Pack",
+          "price": 42.99,
+          "available": false
+        },
+        {
+          "id": "200693645325",
+          "label": "One Golfball",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:1381586600017+29054828557",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:53.148Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42393734611030",
+          "label": "Loose (Small)",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "42393734643798",
+          "label": "Stainless Steel Mesh",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:1997782253654",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

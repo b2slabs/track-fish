@@ -8,28 +8,28 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Rose Red Rotala (Rotala macrandra), bunch",
-      "lastCheckedAt": "2026-11-22T16:55:48.334Z"
+      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
     },
     {
       "listingId": "glass-aqua:1346970386518",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Rotala Macrandra Red",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     },
     {
       "listingId": "flip-aquatics:5002065510502",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Rotala Macrandra Red",
-      "lastCheckedAt": "2026-11-22T16:57:07.173Z"
+      "lastCheckedAt": "2026-11-23T20:55:54.782Z"
     },
     {
       "listingId": "buce-plant:436008648744+4561542414417",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Rotala Macrandra Red",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     }
   ],
   "events": [
@@ -412,6 +412,39 @@
       ],
       "listingId": "buce-plant:436008648744+4561542414417",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-23T20:55:07.821Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12798301175894",
+          "label": "1 BUNCH",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "12798301208662",
+          "label": "2 BUNCHES",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "12798301241430",
+          "label": "3 BUNCHES",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:1396069924950",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

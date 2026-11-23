@@ -8,21 +8,21 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Butterfly Hillstream Loach (Beaufortia kweichowensis)",
-      "lastCheckedAt": "2026-11-22T16:55:48.334Z"
+      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
     },
     {
       "listingId": "dans-fish:10127113617706",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Butterfly Hillstream Loach",
-      "lastCheckedAt": "2026-11-22T16:59:28.019Z"
+      "lastCheckedAt": "2026-11-23T20:57:19.015Z"
     },
     {
       "listingId": "aqua-imports:43453",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Chinese Butterfly Loach (Beaufortia kweichowensis)",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     }
   ],
   "events": [
@@ -103,6 +103,45 @@
       ],
       "listingId": "aqua-imports:43453",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:55:07.821Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "33312390873174",
+          "label": "Group of 3",
+          "price": 44.99,
+          "available": true
+        },
+        {
+          "id": "33312390905942",
+          "label": "Group of 6",
+          "price": 86.99,
+          "available": true
+        },
+        {
+          "id": "33312390938710",
+          "label": "Group of 9",
+          "price": 123.99,
+          "available": true
+        },
+        {
+          "id": "33312390971478",
+          "label": "Group of 12",
+          "price": 156.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:4937669378134",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

@@ -8,35 +8,35 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Juncus repens - Tissue Culture",
-      "lastCheckedAt": "2026-11-22T16:57:23.666Z"
+      "lastCheckedAt": "2026-11-23T20:56:04.154Z"
     },
     {
       "listingId": "glass-aqua:1346961080406",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Juncus Repens",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     },
     {
       "listingId": "ck-fish-world:8771007152343",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Juncus Repens",
-      "lastCheckedAt": "2026-11-22T16:56:49.333Z"
+      "lastCheckedAt": "2026-11-23T20:55:44.109Z"
     },
     {
       "listingId": "aquatic-arts:4529468145750+4998682443862",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Lesser Creeping Rush (Juncus repens), clump",
-      "lastCheckedAt": "2026-11-22T16:55:48.334Z"
+      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
     },
     {
       "listingId": "buce-plant:1317159600209+1317161533521+2870706438225",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Juncus Repens",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     }
   ],
   "events": [
@@ -346,6 +346,83 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "buce-plant:1317159600209+1317161533521+2870706438225",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-23T20:55:07.821Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31841504198742",
+          "label": "1 Tissue Culture Cup",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "33451081236566",
+          "label": "1 Plant",
+          "price": 4.99,
+          "available": true
+        },
+        {
+          "id": "33451081269334",
+          "label": "2 Plants",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "33451081302102",
+          "label": "3 Plants",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:4529468145750+4998682443862",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:35.740Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "22738292736081",
+          "label": "Juncus Repens UNS Tissue Culture",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "12190433968209",
+          "label": "1 Cup",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "12190419091537",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12398339948625",
+          "label": "4 Bunches",
+          "price": 20.97,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
       ],
       "listingId": "buce-plant:1317159600209+1317161533521+2870706438225",
       "storeSlug": "buce-plant"

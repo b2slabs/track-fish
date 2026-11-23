@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:myleus-schomburgkii:silver",
-  "commonName": "Blackberry Silver Dollar",
+  "commonName": "Blackberry Silver Dollar (Myleus schomburgkii ‘blackberry’)",
   "scientificName": "Myleus schomburgkii",
   "listings": [
     {
@@ -8,42 +8,42 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Wide Bar Silver Dollar ( Myleus Schomburgkii )",
-      "lastCheckedAt": "2026-11-22T16:56:20.227Z"
+      "lastCheckedAt": "2026-11-23T20:55:26.602Z"
     },
     {
       "listingId": "aquahuna:6835379503179",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Blackberry Silver Dollar Tetra",
-      "lastCheckedAt": "2026-11-22T16:56:36.089Z"
+      "lastCheckedAt": "2026-11-23T20:55:36.178Z"
     },
     {
       "listingId": "aqua-imports:43862",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Blackberry Silver Dollar (Myleus schomburgkii ‘blackberry’)",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     },
     {
       "listingId": "imperial-tropicals:8398186709299",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Blackberry Silver Dollar (Myloplus cf. schomburgkii)",
-      "lastCheckedAt": "2026-11-22T16:57:55.301Z"
+      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
     },
     {
       "listingId": "global-exoticquatics:8241442455744",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Blackberry Silver Dollar",
-      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:57:03.886Z"
     },
     {
       "listingId": "aquarium-fish:8857541050667",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Blackberry Silver Dollar",
-      "lastCheckedAt": "2026-11-22T16:57:23.666Z"
+      "lastCheckedAt": "2026-11-23T20:56:04.154Z"
     }
   ],
   "events": [
@@ -320,6 +320,40 @@
       ],
       "listingId": "aqua-imports:43862",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:55:26.602Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41097546039505",
+          "label": "3\"",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "41512807989457",
+          "label": "1”-1.5”",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "43268415094993",
+          "label": "4\"-5\"",
+          "price": 48.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "monster-aquarium:7056432300241",
+      "storeSlug": "monster-aquarium"
     }
   ]
 }

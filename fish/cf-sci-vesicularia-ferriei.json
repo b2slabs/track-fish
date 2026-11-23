@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:vesicularia-ferriei",
-  "commonName": "Weeping Moss",
+  "commonName": "Weeping Moss (Vesicularia ferriei)",
   "scientificName": "Vesicularia ferriei",
   "listings": [
     {
@@ -8,56 +8,49 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Weeping Moss (Vesicularia ferriei 'Weeping Moss')",
-      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
     },
     {
       "listingId": "aqua-imports:85637",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Weeping Moss (Vesicularia ferriei)",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     },
     {
       "listingId": "aquahuna:7198029316171",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Weeping Moss",
-      "lastCheckedAt": "2026-11-22T16:56:36.089Z"
+      "lastCheckedAt": "2026-11-23T20:55:36.178Z"
     },
     {
       "listingId": "flip-aquatics:6692633411686",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Weeping Moss",
-      "lastCheckedAt": "2026-11-22T16:57:07.173Z"
+      "lastCheckedAt": "2026-11-23T20:55:54.782Z"
     },
     {
       "listingId": "glass-aqua:10412190040150+4829948215382",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Weeping Moss",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     },
     {
       "listingId": "aquatics-for-fun:8412178153664",
       "storeSlug": "aquatics-for-fun",
       "storeName": "AquaticsForFun",
       "commonName": "Weeping Moss",
-      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:57:07.512Z"
     },
     {
       "listingId": "nu-aqua-shop:10299600372028",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Weeping Moss",
-      "lastCheckedAt": "2026-11-22T16:59:11.588Z"
-    },
-    {
-      "listingId": "buce-plant:4654037925969",
-      "storeSlug": "buce-plant",
-      "storeName": "Buce Plant",
-      "commonName": "Weeping Moss",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-23T20:57:08.685Z"
     },
     {
       "listingId": "daku-aquatics:9174246916314",
@@ -72,6 +65,13 @@
       "storeName": "Glass Aqua",
       "commonName": "Weeping Moss Dome",
       "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+    },
+    {
+      "listingId": "buce-plant:4654037925969+8354318483656",
+      "storeSlug": "buce-plant",
+      "storeName": "Buce Plant",
+      "commonName": "Weeping Moss",
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     }
   ],
   "events": [
@@ -1311,6 +1311,26 @@
       "storeSlug": "glass-aqua"
     },
     {
+      "observedAt": "2026-11-14T07:00:00.000Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45255178944712",
+          "label": "Title",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:4654037925969+8354318483656",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-20T06:14:42.593Z",
       "price": 8,
       "currency": "USD",
@@ -1375,6 +1395,72 @@
       ],
       "listingId": "imperial-tropicals:10021326094643",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45255178944712",
+          "label": "Title",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:4654037925969+8354318483656",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32465309499473",
+          "label": "Golfball",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "32465309532241",
+          "label": "Large Cup",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:4654037925969+8354318483656",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "3802833780776",
+          "label": "Title",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:4654037925969+8354318483656",
+      "storeSlug": "buce-plant"
     },
     {
       "observedAt": "2026-11-20T06:27:50.853Z",
@@ -1469,6 +1555,90 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45255178944712",
+          "label": "Weeping Moss Dome",
+          "price": 18.99,
+          "available": true
+        },
+        {
+          "id": "32465309499473",
+          "label": "Golfball",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "32465309532241",
+          "label": "Large Cup",
+          "price": 28.99,
+          "available": false
+        },
+        {
+          "id": "3802833780776",
+          "label": "Weeping Moss on Stainless Steel",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:4654037925969+8354318483656",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:07.721Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45255178944712",
+          "label": "Title",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:4654037925969+8354318483656",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:07.721Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32465309499473",
+          "label": "Golfball",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "32465309532241",
+          "label": "Large Cup",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:4654037925969+8354318483656",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 9.99,
       "currency": "USD",
@@ -1487,6 +1657,38 @@
       ],
       "listingId": "aqua-imports:85637",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:02:19.867Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45255178944712",
+          "label": "Weeping Moss Dome",
+          "price": 18.99,
+          "available": true
+        },
+        {
+          "id": "32465309499473",
+          "label": "Golfball",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "32465309532241",
+          "label": "Large Cup",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:4654037925969+8354318483656",
+      "storeSlug": "buce-plant"
     },
     {
       "observedAt": "2026-11-22T16:02:34.703Z",
@@ -1528,6 +1730,26 @@
     },
     {
       "observedAt": "2026-11-22T16:06:30.023Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45255178944712",
+          "label": "Title",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:4654037925969+8354318483656",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T16:06:30.023Z",
       "price": 7.99,
       "currency": "USD",
       "available": false,
@@ -1549,7 +1771,39 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "buce-plant:4654037925969",
+      "listingId": "buce-plant:4654037925969+8354318483656",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:35.740Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45255178944712",
+          "label": "Weeping Moss Dome",
+          "price": 18.99,
+          "available": true
+        },
+        {
+          "id": "32465309499473",
+          "label": "Golfball",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "32465309532241",
+          "label": "Large Cup",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:4654037925969+8354318483656",
       "storeSlug": "buce-plant"
     }
   ]

@@ -8,7 +8,7 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Longfin Albino Bushynose",
-      "lastCheckedAt": "2026-11-22T16:57:55.301Z"
+      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
     }
   ],
   "events": [
@@ -60,6 +60,33 @@
       "type": "change",
       "changedFields": [
         "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398002061619",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:21.598Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611791647027",
+          "label": "1-2” Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45611791679795",
+          "label": "2-3\" Unsexed",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
         "variants"
       ],
       "listingId": "imperial-tropicals:8398002061619",

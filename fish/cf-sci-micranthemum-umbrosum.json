@@ -8,28 +8,28 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Giant Baby Tears (Micranthemum umbrosum)",
-      "lastCheckedAt": "2026-11-22T16:55:48.334Z"
+      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
     },
     {
       "listingId": "imperial-tropicals:8398014611763",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Baby Tears (Micranthemum umbrosum)",
-      "lastCheckedAt": "2026-11-22T16:57:55.301Z"
+      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
     },
     {
       "listingId": "buce-plant:9354768077",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Micranthemum Umbrosum",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     },
     {
       "listingId": "glass-aqua:11277466119",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Micranthemum Umbrosum",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     }
   ],
   "events": [
@@ -136,6 +136,33 @@
       ],
       "listingId": "glass-aqua:11277466119",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:21.598Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48340405092659",
+          "label": "1 Bunch",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "45611818811699",
+          "label": "1 Potted Plant",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398014611763",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

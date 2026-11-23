@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:astronotus-ocellatus:red",
-  "commonName": "Chili Red Oscar",
+  "commonName": "Red Chili Oscar (Astronotus ocellatus)",
   "scientificName": "Astronotus ocellatus",
   "listings": [
     {
@@ -8,42 +8,42 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Red Oscar",
-      "lastCheckedAt": "2026-11-22T16:57:55.301Z"
+      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
     },
     {
       "listingId": "aquatic-arts:4508653781078",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Red Oscar (Astronotus ocellatus), Tank-Bred",
-      "lastCheckedAt": "2026-11-22T16:55:48.334Z"
+      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
     },
     {
       "listingId": "monster-aquarium:7199919964369+7437875314897",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Fire Red Oscar (Astronotus ocellatus)",
-      "lastCheckedAt": "2026-11-22T16:56:20.227Z"
+      "lastCheckedAt": "2026-11-23T20:55:26.602Z"
     },
     {
       "listingId": "aquarium-fish:5951724550+8856786862379",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Oscar",
-      "lastCheckedAt": "2026-11-22T16:57:23.666Z"
+      "lastCheckedAt": "2026-11-23T20:56:04.154Z"
     },
     {
       "listingId": "aqua-imports:126251+130296",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Chili Oscar (Astronotus ocellatus)",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     },
     {
       "listingId": "global-exoticquatics:10256853270720",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Chili Red Oscar",
-      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:57:03.886Z"
     },
     {
       "listingId": "global-exoticquatics:8357535482048",
@@ -466,6 +466,45 @@
       ],
       "listingId": "aqua-imports:126251+130296",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:04.154Z",
+      "price": 14.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47378587713835",
+          "label": "Small (1.5-2\")",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "47378587746603",
+          "label": "Medium (2-2.5\")",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "44877977289003",
+          "label": "Small (1.5-2\")",
+          "price": 14.79,
+          "available": true
+        },
+        {
+          "id": "44877982662955",
+          "label": "Medium (2-3\")",
+          "price": 22.79,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:5951724550+8856786862379",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:flip-aquatics:7658325213286",
-  "commonName": "Shrimp Stix by Shrimp Envy",
+  "commonName": "Shrimp Envy Shrimp Stix",
   "scientificName": null,
   "listings": [
     {
@@ -8,14 +8,14 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Shrimp Stix by Shrimp Envy",
-      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:55:54.782Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:617070",
       "storeSlug": "wet-spot-tropical-fish",
       "storeName": "The Wet Spot Tropical Fish",
       "commonName": "Shrimp Envy Shrimp Stix",
-      "lastCheckedAt": "2026-11-22T15:59:59.136Z"
+      "lastCheckedAt": "2026-11-23T20:57:25.413Z"
     }
   ],
   "events": [
@@ -680,6 +680,32 @@
       ],
       "listingId": "wet-spot-tropical-fish:617070",
       "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-23T20:55:54.782Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42803043106918",
+          "label": "4 inch - 10 Pack",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "42803043139686",
+          "label": "8 inch - 10 Pack",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7658325213286",
+      "storeSlug": "flip-aquatics"
     }
   ]
 }

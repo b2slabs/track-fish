@@ -8,14 +8,14 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "UNS Pro Inline CO2 Diffuser",
-      "lastCheckedAt": "2026-08-05T03:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     },
     {
       "listingId": "glass-aqua:7519628918870",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "UNS Pro Inline CO2 Diffuser",
-      "lastCheckedAt": "2026-09-02T04:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     }
   ],
   "events": [
@@ -561,6 +561,39 @@
       ],
       "listingId": "glass-aqua:7519628918870",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:35.740Z",
+      "price": 30.39,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44719523430600",
+          "label": "12mm (1/2in)",
+          "price": 30.39,
+          "available": true
+        },
+        {
+          "id": "44719523463368",
+          "label": "16mm (5/8in)",
+          "price": 36.09,
+          "available": true
+        },
+        {
+          "id": "44719523496136",
+          "label": "20mm (1in)",
+          "price": 42.74,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:8228834312392",
+      "storeSlug": "buce-plant"
     }
   ]
 }

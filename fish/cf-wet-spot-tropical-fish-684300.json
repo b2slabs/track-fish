@@ -1,21 +1,21 @@
 {
   "canonicalFishId": "cf:wet-spot-tropical-fish:684300",
-  "commonName": "Hyphessobrycon Melanostichos",
+  "commonName": "Hyphessobrycon hexastichos",
   "scientificName": null,
   "listings": [
-    {
-      "listingId": "wet-spot-tropical-fish:684300",
-      "storeSlug": "wet-spot-tropical-fish",
-      "storeName": "The Wet Spot Tropical Fish",
-      "commonName": "Hyphessobrycon melanostichos",
-      "lastCheckedAt": "2026-11-22T15:59:59.136Z"
-    },
     {
       "listingId": "nationwide-aquatics-usa:8487181582489+8487182106777",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Hyphessobrycon Melanostichos",
       "lastCheckedAt": "2026-02-08T03:00:00.000Z"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:684300+684737",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Hyphessobrycon hexastichos",
+      "lastCheckedAt": "2026-11-23T20:57:25.413Z"
     }
   ],
   "events": [
@@ -62,7 +62,53 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "wet-spot-tropical-fish:684300",
+      "listingId": "wet-spot-tropical-fish:684300+684737",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "684737",
+          "label": "Default",
+          "price": 22.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:684300+684737",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-23T20:57:25.413Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "684300",
+          "label": "Default",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "684737",
+          "label": "Default",
+          "price": 22.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:684300+684737",
       "storeSlug": "wet-spot-tropical-fish"
     }
   ]

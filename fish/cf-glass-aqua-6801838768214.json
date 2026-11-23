@@ -8,14 +8,14 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Bucephalandra Brownie Phoenix",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     },
     {
       "listingId": "buce-plant:1346606235729",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Bucephalandra Brownie Phoenix (Farmed)",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     }
   ],
   "events": [
@@ -120,6 +120,44 @@
       ],
       "listingId": "buce-plant:1346606235729",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:53.148Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42073050513494",
+          "label": "Potted",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "40613597053014",
+          "label": "UNS Tissue Culture - Small",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "40613597085782",
+          "label": "UNS Tissue Culture - Regular",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "42305957658710",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:6801838768214",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

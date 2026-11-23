@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:stiphodon-atropurpureus:blue-neon",
-  "commonName": "Neon Blue Stiphodon Goby (Group of 3)",
+  "commonName": "Neon Blue Goby",
   "scientificName": "Stiphodon atropurpureus",
   "listings": [
     {
@@ -8,35 +8,35 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Blue Neon Goby",
-      "lastCheckedAt": "2026-11-22T16:56:59.625Z"
+      "lastCheckedAt": "2026-11-23T20:55:50.497Z"
     },
     {
       "listingId": "imperial-tropicals:8398116684083",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Blue Neon Goby (Stiphodon atropurpureus)",
-      "lastCheckedAt": "2026-11-22T16:57:55.301Z"
+      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
     },
     {
       "listingId": "nu-aqua-shop:10006314352956",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Blue Neon Goby",
-      "lastCheckedAt": "2026-11-22T16:59:11.588Z"
+      "lastCheckedAt": "2026-11-23T20:57:08.685Z"
     },
     {
       "listingId": "aquarium-fish:10404113744171+6652532870+8843640652",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Neon Blue Goby",
-      "lastCheckedAt": "2026-11-22T16:57:23.666Z"
+      "lastCheckedAt": "2026-11-23T20:56:04.154Z"
     },
     {
       "listingId": "dans-fish:10331419115818",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Neon Blue Goby",
-      "lastCheckedAt": "2026-11-22T16:59:28.019Z"
+      "lastCheckedAt": "2026-11-23T20:57:19.015Z"
     },
     {
       "listingId": "aquarium-fish:10404113744171",
@@ -44,6 +44,13 @@
       "storeName": "AquariumFish.com",
       "commonName": "Neon Blue Stiphodon Goby (Group of 3)",
       "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+    },
+    {
+      "listingId": "flip-aquatics:4673553793126",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Blue Neon Stiphodon Goby (Male)",
+      "lastCheckedAt": "2026-11-23T20:55:54.782Z"
     }
   ],
   "events": [
@@ -918,6 +925,26 @@
       "storeSlug": "shrimpy-business"
     },
     {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31495138639974",
+          "label": "Imported / 1 Fish",
+          "price": 16.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:4673553793126",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 29.74,
       "currency": "USD",
@@ -1131,6 +1158,44 @@
       ],
       "listingId": "dans-fish:10331419115818",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-23T20:55:50.497Z",
+      "price": 20.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49112869142818",
+          "label": "2 Fish",
+          "price": 20.95,
+          "available": true
+        },
+        {
+          "id": "49112869175586",
+          "label": "4 Fish",
+          "price": 37.95,
+          "available": true
+        },
+        {
+          "id": "51662841119010",
+          "label": "8 Fish",
+          "price": 70.95,
+          "available": true
+        },
+        {
+          "id": "51662841151778",
+          "label": "16 Fish",
+          "price": 133.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9470974001442",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

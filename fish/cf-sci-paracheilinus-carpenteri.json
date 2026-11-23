@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Carpenter's Flasher Wrasse",
-      "lastCheckedAt": "2026-11-22T16:57:23.666Z"
+      "lastCheckedAt": "2026-11-23T20:56:04.154Z"
     },
     {
       "listingId": "aqua-imports:113006",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Carpenter’s Flasher Wrasse (Paracheilinus carpenteri)",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     }
   ],
   "events": [
@@ -55,6 +55,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aqua-imports:113006",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:57:31.638Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "113006",
+          "label": "Default",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "aqua-imports:113006",
       "storeSlug": "aqua-imports"

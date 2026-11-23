@@ -8,7 +8,7 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Pine Spiderwood",
-      "lastCheckedAt": "2026-11-22T16:59:11.588Z"
+      "lastCheckedAt": "2026-11-23T20:57:08.685Z"
     }
   ],
   "events": [
@@ -83,6 +83,46 @@
       ],
       "type": "change",
       "changedFields": [
+        "variants"
+      ],
+      "listingId": "nu-aqua-shop:10117338300732",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-23T20:57:08.685Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51973889196348",
+          "label": "Small",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "51973889229116",
+          "label": "Medium",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "51973889261884",
+          "label": "Large",
+          "price": 42.99,
+          "available": false
+        },
+        {
+          "id": "51973889294652",
+          "label": "X-Large",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
         "variants"
       ],
       "listingId": "nu-aqua-shop:10117338300732",

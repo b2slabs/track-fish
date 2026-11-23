@@ -8,14 +8,14 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Chihiros Dosing Tube Holder",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     },
     {
       "listingId": "glass-aqua:6928227106902",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Chihiros Dosing Tube Holder",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     }
   ],
   "events": [
@@ -91,6 +91,48 @@
           "label": "Title",
           "price": 16.99,
           "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:6928227106902",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:35.740Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43287556686024",
+          "label": "Title",
+          "price": 16.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:7731097206984",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:53.148Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40400510255190",
+          "label": "Title",
+          "price": 16.99,
+          "available": false
         }
       ],
       "type": "change",

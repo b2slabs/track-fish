@@ -1,21 +1,21 @@
 {
   "canonicalFishId": "cf:wet-spot-tropical-fish:741980",
-  "commonName": "chrysichthys auratus",
+  "commonName": "Chrysichthys ornatus",
   "scientificName": null,
   "listings": [
-    {
-      "listingId": "wet-spot-tropical-fish:741980",
-      "storeSlug": "wet-spot-tropical-fish",
-      "storeName": "The Wet Spot Tropical Fish",
-      "commonName": "Chrysichthys auratus",
-      "lastCheckedAt": "2026-11-22T15:59:59.136Z"
-    },
     {
       "listingId": "nationwide-aquatics-usa:8801925365913",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "chrysichthys auratus",
       "lastCheckedAt": "2026-10-23T05:00:00.000Z"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:683481+741980",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Chrysichthys ornatus",
+      "lastCheckedAt": "2026-11-23T20:57:25.413Z"
     }
   ],
   "events": [
@@ -41,6 +41,26 @@
     },
     {
       "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 32.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "683481",
+          "label": "Default",
+          "price": 32.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:683481+741980",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
       "price": 44.99,
       "currency": "USD",
       "available": false,
@@ -56,7 +76,33 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "wet-spot-tropical-fish:741980",
+      "listingId": "wet-spot-tropical-fish:683481+741980",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-23T20:57:25.413Z",
+      "price": 32.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "683481",
+          "label": "Default",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "741980",
+          "label": "Default",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:683481+741980",
       "storeSlug": "wet-spot-tropical-fish"
     }
   ]

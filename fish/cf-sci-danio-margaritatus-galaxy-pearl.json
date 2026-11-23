@@ -8,35 +8,35 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Celestial Pearl Danio AKA Galaxy Rasbora (Celestichthys margaritatus)",
-      "lastCheckedAt": "2026-11-22T16:55:48.334Z"
+      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
     },
     {
       "listingId": "shrimpy-business:6715915599957",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Celestial Pearl Danio / Galaxy Rasbora (Tank-Bred)",
-      "lastCheckedAt": "2026-11-22T16:56:59.625Z"
+      "lastCheckedAt": "2026-11-23T20:55:50.497Z"
     },
     {
       "listingId": "flip-aquatics:754845941862",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Celestial Pearl Danio | Galaxy Rasbora",
-      "lastCheckedAt": "2026-11-22T16:57:07.173Z"
+      "lastCheckedAt": "2026-11-23T20:55:54.782Z"
     },
     {
       "listingId": "aquahuna:1709539557419+4686183170123",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Galaxy Rasbora / Celestial Pearl Danio (Size Small)",
-      "lastCheckedAt": "2026-11-22T16:56:36.089Z"
+      "lastCheckedAt": "2026-11-23T20:55:36.178Z"
     },
     {
       "listingId": "aqua-imports:38905",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Celestial Pearl Danio / Galaxy Rasbora (Celestichthys margaritatus)",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     }
   ],
   "events": [
@@ -1012,6 +1012,57 @@
       ],
       "listingId": "aqua-imports:38905",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:55:07.821Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12321206337622",
+          "label": "School of 3",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "15497331142",
+          "label": "School of 6",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "id": "12321206501462",
+          "label": "School of 9",
+          "price": 45.99,
+          "available": true
+        },
+        {
+          "id": "15497331206",
+          "label": "School of 12",
+          "price": 55.99,
+          "available": true
+        },
+        {
+          "id": "52701504700783",
+          "label": "School of 3 (Locally Bred)",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "52701504733551",
+          "label": "School of 6 (Locally Bred)",
+          "price": 55.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:4737632838",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

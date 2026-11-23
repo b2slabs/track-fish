@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hoplisoma-panda:panda",
-  "commonName": "Panda Cory (Embarrassment of 3)",
+  "commonName": "Panda Cory (Hoplisoma panda)",
   "scientificName": "Hoplisoma panda",
   "listings": [
     {
@@ -8,35 +8,42 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Panda Hoplisoma (Hoplisoma panda)",
-      "lastCheckedAt": "2026-11-22T16:57:55.301Z"
+      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
     },
     {
       "listingId": "aqua-imports:103189+42678",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Panda Cory (Hoplisoma panda)",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     },
     {
       "listingId": "aquahuna:1774164508715+7218628821067+7632383574091",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Panda Cory",
-      "lastCheckedAt": "2026-11-22T16:56:36.089Z"
+      "lastCheckedAt": "2026-11-23T20:55:36.178Z"
     },
     {
       "listingId": "shrimpy-business:6738942459989",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Panda Corydoras (Tank-Bred)",
-      "lastCheckedAt": "2026-11-22T16:56:59.625Z"
+      "lastCheckedAt": "2026-11-23T20:55:50.497Z"
     },
     {
       "listingId": "dans-fish:10127100412202",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Panda Cory",
-      "lastCheckedAt": "2026-11-22T16:59:28.019Z"
+      "lastCheckedAt": "2026-11-23T20:57:19.015Z"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:682648+682651+682653",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Corydoras panda",
+      "lastCheckedAt": "2026-11-23T20:57:25.413Z"
     }
   ],
   "events": [
@@ -1114,6 +1121,38 @@
       ],
       "listingId": "dans-fish:10127100412202",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "682648",
+          "label": "Default",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "682651",
+          "label": "Default",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "682653",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:682648+682651+682653",
+      "storeSlug": "wet-spot-tropical-fish"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

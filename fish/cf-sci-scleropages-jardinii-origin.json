@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Jardini Arowana",
-      "lastCheckedAt": "2026-11-22T16:57:23.666Z"
+      "lastCheckedAt": "2026-11-23T20:56:04.154Z"
     },
     {
       "listingId": "monster-aquarium:6966451962065",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Jardini Arowana (Scleropages jardinii)",
-      "lastCheckedAt": "2026-11-22T16:56:20.227Z"
+      "lastCheckedAt": "2026-11-23T20:55:26.602Z"
     },
     {
       "listingId": "aqua-imports:39630",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Jardini Arowana (Scleropages jardinii)",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     }
   ],
   "events": [
@@ -166,6 +166,51 @@
       ],
       "listingId": "aqua-imports:39630",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:55:26.602Z",
+      "price": 188,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40845974110417",
+          "label": "5”",
+          "price": 119,
+          "available": false
+        },
+        {
+          "id": "40845974143185",
+          "label": "6-7”",
+          "price": 188,
+          "available": true
+        },
+        {
+          "id": "41206197846225",
+          "label": "8-9”",
+          "price": 238,
+          "available": false
+        },
+        {
+          "id": "42709919662289",
+          "label": "12-14\"",
+          "price": 399,
+          "available": true
+        },
+        {
+          "id": "42441378824401",
+          "label": "20-24\"",
+          "price": 649.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "monster-aquarium:6966451962065",
+      "storeSlug": "monster-aquarium"
     }
   ]
 }

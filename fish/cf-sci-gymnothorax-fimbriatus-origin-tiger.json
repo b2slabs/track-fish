@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:gymnothorax-fimbriatus-origin:tiger",
-  "commonName": "Tiger Moray Eel",
+  "commonName": "Tiger Moray Eel (Gymnothorax polyuranodon)",
   "scientificName": "Gymnothorax polyuranodon",
   "listings": [
     {
@@ -8,35 +8,35 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Tiger Moray Eel (Gymnothorax Polyuranodon)",
-      "lastCheckedAt": "2026-11-22T16:56:20.227Z"
+      "lastCheckedAt": "2026-11-23T20:55:26.602Z"
     },
     {
       "listingId": "aquarium-fish:9974121070891",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Tiger Moray Eel",
-      "lastCheckedAt": "2026-11-22T16:57:23.666Z"
+      "lastCheckedAt": "2026-11-23T20:56:04.154Z"
     },
     {
       "listingId": "global-exoticquatics:8241441308864",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Tiger Moray Eel",
-      "lastCheckedAt": "2026-09-28T05:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:57:03.886Z"
     },
     {
       "listingId": "nationwide-aquatics-usa:15482234470553+15484032614553",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Tiger Moray Eel (Gymnothorax polyuranodon)  15\"",
-      "lastCheckedAt": "2026-11-22T16:56:55.770Z"
+      "lastCheckedAt": "2026-11-23T20:55:48.130Z"
     },
     {
       "listingId": "aqua-imports:38614",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Tiger Moray Eel (Gymnothorax polyuranodon)",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     }
   ],
   "events": [
@@ -260,6 +260,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aqua-imports:38614",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:57:31.638Z",
+      "price": 149.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38614",
+          "label": "Default",
+          "price": 149.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "aqua-imports:38614",
       "storeSlug": "aqua-imports"

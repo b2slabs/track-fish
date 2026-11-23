@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Beginner Plant Pack",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     }
   ],
   "events": [
@@ -40,6 +40,39 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "buce-plant:10878455693",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:35.740Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45971343373",
+          "label": "5 Pack",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "48613356365",
+          "label": "10 Pack",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "48613392717",
+          "label": "15 Pack",
+          "price": 84.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:10878455693",
       "storeSlug": "buce-plant"

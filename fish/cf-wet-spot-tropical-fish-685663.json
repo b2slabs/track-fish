@@ -4,18 +4,18 @@
   "scientificName": null,
   "listings": [
     {
-      "listingId": "wet-spot-tropical-fish:685663",
-      "storeSlug": "wet-spot-tropical-fish",
-      "storeName": "The Wet Spot Tropical Fish",
-      "commonName": "Betta sp. “Antuta”",
-      "lastCheckedAt": "2026-11-22T15:59:59.136Z"
-    },
-    {
       "listingId": "aqua-imports:152659",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Betta antuta",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
+    },
+    {
+      "listingId": "wet-spot-tropical-fish:685663+685665",
+      "storeSlug": "wet-spot-tropical-fish",
+      "storeName": "The Wet Spot Tropical Fish",
+      "commonName": "Betta antuta",
+      "lastCheckedAt": "2026-11-23T20:57:25.413Z"
     }
   ],
   "events": [
@@ -36,7 +36,27 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "wet-spot-tropical-fish:685663",
+      "listingId": "wet-spot-tropical-fish:685663+685665",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T15:59:59.136Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "685665",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:685663+685665",
       "storeSlug": "wet-spot-tropical-fish"
     },
     {
@@ -58,6 +78,32 @@
       ],
       "listingId": "aqua-imports:152659",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:57:25.413Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "685663",
+          "label": "Default",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "685665",
+          "label": "Default",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:685663+685665",
+      "storeSlug": "wet-spot-tropical-fish"
     }
   ]
 }

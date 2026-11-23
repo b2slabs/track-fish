@@ -8,14 +8,14 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Anubias Heterophylla - Mother Plant",
-      "lastCheckedAt": "2026-01-22T02:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     },
     {
       "listingId": "buce-plant:1380088250449",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Anubias Heterophylla Mother Pot",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     }
   ],
   "events": [
@@ -180,6 +180,48 @@
       ],
       "listingId": "buce-plant:1380088250449",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:35.740Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12596206141521",
+          "label": "Mother Pot",
+          "price": 23.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:1380088250449",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:53.148Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42129413800022",
+          "label": "Title",
+          "price": 21.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7512268537942",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

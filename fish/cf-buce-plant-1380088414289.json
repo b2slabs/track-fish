@@ -8,14 +8,14 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Echinodorus Red Rubin Mother Pot",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     },
     {
       "listingId": "glass-aqua:7528989622358",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Echinodorus Red Rubin - Mother Plant",
-      "lastCheckedAt": "2026-04-02T03:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     }
   ],
   "events": [
@@ -180,6 +180,48 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "glass-aqua:7528989622358",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:35.740Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12596206305361",
+          "label": "Mother Pot",
+          "price": 22.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:1380088414289",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:53.148Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42211563831382",
+          "label": "Title",
+          "price": 21.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "glass-aqua:7528989622358",
       "storeSlug": "glass-aqua"

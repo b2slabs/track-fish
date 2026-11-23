@@ -8,42 +8,42 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "El Niño Fern AKA Asian Water Fern AKA Bolbitis Broadleaf (Bolbitis heteroclita), Bunch",
-      "lastCheckedAt": "2026-11-22T16:55:48.334Z"
+      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
     },
     {
       "listingId": "glass-aqua:4977367482454",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Bolbitis Heteroclita",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     },
     {
       "listingId": "shrimpy-business:8387931504930",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Bolbitis Heteroclita",
-      "lastCheckedAt": "2026-11-22T16:56:59.625Z"
+      "lastCheckedAt": "2026-11-23T20:55:50.497Z"
     },
     {
       "listingId": "flip-aquatics:6692640030822",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Bolbitis Heteroclita",
-      "lastCheckedAt": "2026-11-22T16:57:07.173Z"
+      "lastCheckedAt": "2026-11-23T20:55:54.782Z"
     },
     {
       "listingId": "buce-plant:1346606006353+4632300781649+8478575181+9560094029",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Bolbitis Heteroclita",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     },
     {
       "listingId": "aqua-imports:60048",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Bolbitis heteroclita",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     }
   ],
   "events": [
@@ -374,6 +374,96 @@
       ],
       "listingId": "aqua-imports:60048",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:35.740Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "28660448077",
+          "label": "Pot",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "12409931890769",
+          "label": "3 Pot Package",
+          "price": 22.99,
+          "available": true
+        },
+        {
+          "id": "12409934905425",
+          "label": "5 Pot Package",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "30381775117",
+          "label": "Grown on Wood (3-4\")",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "30381775181",
+          "label": "Grown on Wood (4-5\")",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "32387388375121",
+          "label": "Mini Bolbitis on Clay Moss Ball",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "12332486230097",
+          "label": "SMALL 12CM",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "12332486688849",
+          "label": "MED 15CM",
+          "price": 20.99,
+          "available": true
+        },
+        {
+          "id": "35459880333",
+          "label": "Bolbitis Heteroclita",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:1346606006353+4632300781649+8478575181+9560094029",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:53.148Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33392118399062",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:4977367482454",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

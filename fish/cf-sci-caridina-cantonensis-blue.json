@@ -8,49 +8,49 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Blue Bolt Shrimp (Caridina cantonensis var. “Blue Bolt”), A-S Grade, Tank-Bred",
-      "lastCheckedAt": "2026-11-22T16:55:48.334Z"
+      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
     },
     {
       "listingId": "aquahuna:1866885267499",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Blue Bolt Shrimp",
-      "lastCheckedAt": "2026-11-22T16:56:36.089Z"
+      "lastCheckedAt": "2026-11-23T20:55:36.178Z"
     },
     {
       "listingId": "ck-fish-world:8150003155159",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Blue Bolt Shrimp",
-      "lastCheckedAt": "2026-11-22T16:56:49.333Z"
+      "lastCheckedAt": "2026-11-23T20:55:44.109Z"
     },
     {
       "listingId": "shrimpy-business:2591750422613",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Blue Bolt Shrimp",
-      "lastCheckedAt": "2026-11-22T16:56:59.625Z"
+      "lastCheckedAt": "2026-11-23T20:55:50.497Z"
     },
     {
       "listingId": "nu-aqua-shop:10450446582076",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Blue Bolt Shrimp",
-      "lastCheckedAt": "2026-11-22T16:59:11.588Z"
+      "lastCheckedAt": "2026-11-23T20:57:08.685Z"
     },
     {
       "listingId": "buce-plant:7551649087688+9228917645",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Blue Bolt Extreme Shrimp",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     },
     {
       "listingId": "aqua-imports:190388",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Blue Bolt Shrimp (Caridina cantonensis)",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     }
   ],
   "events": [
@@ -355,6 +355,44 @@
       ],
       "listingId": "aqua-imports:190388",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:55:07.821Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43367441292",
+          "label": "1 Shrimp",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "43367441356",
+          "label": "5 Shrimp",
+          "price": 101.74,
+          "available": false
+        },
+        {
+          "id": "43367441420",
+          "label": "10 Shrimp",
+          "price": 176.99,
+          "available": false
+        },
+        {
+          "id": "49203946979607",
+          "label": "10 Shrimp Combo Box",
+          "price": 189.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:11466487884",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

@@ -8,21 +8,21 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Blue Diamond Shrimp",
-      "lastCheckedAt": "2026-11-22T16:56:49.333Z"
+      "lastCheckedAt": "2026-11-23T20:55:44.109Z"
     },
     {
       "listingId": "nu-aqua-shop:10006314090812",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Blue Diamond Shrimp",
-      "lastCheckedAt": "2026-11-22T16:59:11.588Z"
+      "lastCheckedAt": "2026-11-23T20:57:08.685Z"
     },
     {
       "listingId": "aqua-imports:43988",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Blue Diamond Shrimp (Neocaridina sp.)",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     }
   ],
   "events": [
@@ -141,6 +141,27 @@
       ],
       "listingId": "aqua-imports:43988",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:57:08.685Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52806338183484",
+          "label": "Single",
+          "price": 5.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "nu-aqua-shop:10006314090812",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

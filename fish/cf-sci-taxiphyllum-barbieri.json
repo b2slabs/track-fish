@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:taxiphyllum-barbieri",
-  "commonName": "Java Moss Ledge",
+  "commonName": "Java Moss (Taxiphyllum barbieri)",
   "scientificName": "Taxiphyllum barbieri",
   "listings": [
     {
@@ -9,6 +9,20 @@
       "storeName": "Daku Aquatics",
       "commonName": "Java Moss Ledge",
       "lastCheckedAt": "2026-10-15T05:00:00.000Z"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006317728060",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Java Moss",
+      "lastCheckedAt": "2026-11-23T20:57:08.685Z"
+    },
+    {
+      "listingId": "aqua-imports:60141",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Java Moss (Taxiphyllum barbieri)",
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     }
   ],
   "events": [
@@ -52,6 +66,46 @@
       ],
       "listingId": "daku-aquatics:9383503954138",
       "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51627490246972",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006317728060",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "60141",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:60141",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

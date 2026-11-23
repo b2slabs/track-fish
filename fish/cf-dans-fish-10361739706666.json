@@ -8,14 +8,14 @@
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Nothobranchius foerschi",
-      "lastCheckedAt": "2026-11-22T16:59:28.019Z"
+      "lastCheckedAt": "2026-11-23T20:57:19.015Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:686966",
       "storeSlug": "wet-spot-tropical-fish",
       "storeName": "The Wet Spot Tropical Fish",
       "commonName": "Nothobranchius foerschi",
-      "lastCheckedAt": "2026-11-22T15:59:59.136Z"
+      "lastCheckedAt": "2026-11-23T20:57:25.413Z"
     }
   ],
   "events": [
@@ -64,6 +64,32 @@
       ],
       "listingId": "wet-spot-tropical-fish:686966",
       "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-23T20:57:19.015Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52955579580714",
+          "label": "Male",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "52955588034858",
+          "label": "Female",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "dans-fish:10361739706666",
+      "storeSlug": "dans-fish"
     }
   ]
 }

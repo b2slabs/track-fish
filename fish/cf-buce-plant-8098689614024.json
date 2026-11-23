@@ -8,14 +8,14 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "UNS Plant Food - Max",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     },
     {
       "listingId": "glass-aqua:7445593456726",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "UNS Plant Food Max",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     }
   ],
   "events": [
@@ -58,6 +58,27 @@
       ],
       "listingId": "glass-aqua:7445593456726",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:35.740Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44234422255816",
+          "label": "Title",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:8098689614024",
+      "storeSlug": "buce-plant"
     }
   ]
 }

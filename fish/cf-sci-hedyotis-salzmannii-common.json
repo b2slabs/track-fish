@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:hedyotis-salzmannii-common",
-  "commonName": "Hedyotis Salzmannii",
+  "commonName": "Hedyotis salzmanni",
   "scientificName": "Hedyotis salzmannii common",
   "listings": [
     {
@@ -8,21 +8,21 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Hedyotis Salzmannii",
-      "lastCheckedAt": "2026-08-05T03:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     },
     {
       "listingId": "glass-aqua:7297003454550",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Hedyotis Salzmannii",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     },
     {
       "listingId": "aqua-imports:153333",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Hedyotis salzmanni",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     }
   ],
   "events": [
@@ -703,6 +703,50 @@
       ],
       "listingId": "aqua-imports:153333",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:35.740Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12332484984913",
+          "label": "Pot",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "12425529950289",
+          "label": "3 Pot Package",
+          "price": 20.97,
+          "available": true
+        },
+        {
+          "id": "12425529983057",
+          "label": "5 Pot Package",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "12425868804177",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12425872408657",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.97,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:1346605350993",
+      "storeSlug": "buce-plant"
     }
   ]
 }

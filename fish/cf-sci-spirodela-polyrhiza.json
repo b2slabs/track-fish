@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:spirodela-polyrhiza",
-  "commonName": "Giant Duckweed (Spirodela Polyrhiza)",
+  "commonName": "Giant Duckweed",
   "scientificName": "Spirodela polyrhiza",
   "listings": [
     {
@@ -8,21 +8,21 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Giant Duckweed (Spirodela polyrhiza) - 2 Tbsp",
-      "lastCheckedAt": "2026-11-22T16:55:48.334Z"
+      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
     },
     {
       "listingId": "nu-aqua-shop:10006316384572",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Giant Duckweed",
-      "lastCheckedAt": "2026-11-22T16:59:11.588Z"
+      "lastCheckedAt": "2026-11-23T20:57:08.685Z"
     },
     {
       "listingId": "glass-aqua:7737263489110",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Giant Duckweed (Spirodela Polyrhiza)",
-      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     }
   ],
   "events": [
@@ -420,6 +420,27 @@
       ],
       "listingId": "nu-aqua-shop:10006316384572",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:53.148Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43749282644054",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7737263489110",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

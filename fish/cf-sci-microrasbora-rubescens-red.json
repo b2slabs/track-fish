@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:microrasbora-rubescens:red",
-  "commonName": "Red Dwarf Rasbora",
+  "commonName": "Red Dwarf Rasbora (Microrasbora rubescens)",
   "scientificName": "Microrasbora rubescens",
   "listings": [
     {
@@ -8,28 +8,28 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Red Dwarf Rasbora | Microrasbora rubescens",
-      "lastCheckedAt": "2026-01-30T03:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:55:54.782Z"
     },
     {
       "listingId": "nu-aqua-shop:10006319038780",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Red Dwarf Rasbora",
-      "lastCheckedAt": "2026-11-22T16:59:11.588Z"
+      "lastCheckedAt": "2026-11-23T20:57:08.685Z"
     },
     {
       "listingId": "aquatic-arts:14664902672751",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Red Dwarf Rasbora (Microrasbora sp. cf. rubescens)",
-      "lastCheckedAt": "2026-11-22T16:55:48.334Z"
+      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
     },
     {
       "listingId": "aqua-imports:223407",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Dwarf Rasbora (Microrasbora rubescens)",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     }
   ],
   "events": [
@@ -173,6 +173,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aqua-imports:223407",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:57:31.638Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "223407",
+          "label": "Default",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "aqua-imports:223407",
       "storeSlug": "aqua-imports"

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:nymphaea-zenkeri:red-tiger",
-  "commonName": "Red Tiger Lotus",
+  "commonName": "Red Tiger Lotus (Nymphaea zenkeri)",
   "scientificName": "Nymphaea zenkeri",
   "listings": [
     {
@@ -8,42 +8,42 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Red Tiger Lotus Aquarium Lily (Nymphaea zenkeri), bulb",
-      "lastCheckedAt": "2026-11-22T16:55:48.334Z"
+      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
     },
     {
       "listingId": "aqua-imports:59996",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Tiger Lotus (Nymphaea zenkeri)",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     },
     {
       "listingId": "flip-aquatics:4960089931878",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Red Tiger Lotus",
-      "lastCheckedAt": "2026-11-22T16:57:07.173Z"
+      "lastCheckedAt": "2026-11-23T20:55:54.782Z"
     },
     {
       "listingId": "imperial-tropicals:8398128808243",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Red Tiger Lotus",
-      "lastCheckedAt": "2026-11-22T16:57:55.301Z"
+      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
     },
     {
       "listingId": "daku-aquatics:8741038489818",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Red Tiger Lotus",
-      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:56:34.006Z"
     },
     {
       "listingId": "nu-aqua-shop:10006360916284",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Red Tiger Lotus",
-      "lastCheckedAt": "2026-11-22T16:59:11.588Z"
+      "lastCheckedAt": "2026-11-23T20:57:08.685Z"
     }
   ],
   "events": [
@@ -573,6 +573,40 @@
       ],
       "listingId": "aqua-imports:59996",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:55:07.821Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19642760659030",
+          "label": "1 Bulb",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "19642760691798",
+          "label": "2 Bulbs",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "19642760724566",
+          "label": "3 Bulbs",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:1984687407190",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

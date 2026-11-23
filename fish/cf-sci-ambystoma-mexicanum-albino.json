@@ -8,21 +8,21 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Albino Axolotl (Ambystoma mexicanum)",
-      "lastCheckedAt": "2026-11-22T16:56:20.227Z"
+      "lastCheckedAt": "2026-11-23T20:55:26.602Z"
     },
     {
       "listingId": "shrimpy-business:10508672991522",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "GFP Albino Axolotl",
-      "lastCheckedAt": "2026-11-22T16:56:59.625Z"
+      "lastCheckedAt": "2026-11-23T20:55:50.497Z"
     },
     {
       "listingId": "aqua-imports:120560",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Albino Axolotl (Ambystoma mexicanum)",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     }
   ],
   "events": [
@@ -306,6 +306,45 @@
       ],
       "listingId": "aqua-imports:120560",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:55:50.497Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52548796809506",
+          "label": "Juvenile (3–5 in.)",
+          "price": 69.99,
+          "available": true
+        },
+        {
+          "id": "52548796842274",
+          "label": "Sub-Adult (5–8 in.)",
+          "price": 94.99,
+          "available": false
+        },
+        {
+          "id": "52548796875042",
+          "label": "Adult Male (8+ in.)",
+          "price": 119.99,
+          "available": false
+        },
+        {
+          "id": "52548796907810",
+          "label": "Adult Female (8+ in.)",
+          "price": 119.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:10508672991522",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

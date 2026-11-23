@@ -8,21 +8,21 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Tiger Lotus",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     },
     {
       "listingId": "shrimpy-business:6651842101333",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Tiger Lotus (Plant with Bulb)",
-      "lastCheckedAt": "2026-11-22T16:56:59.625Z"
+      "lastCheckedAt": "2026-11-23T20:55:50.497Z"
     },
     {
       "listingId": "buce-plant:8011809063112+9540942541",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Nymphaea Tiger Lotus",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     }
   ],
   "events": [
@@ -45,6 +45,86 @@
       ],
       "listingId": "shrimpy-business:6651842101333",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "35341426893",
+          "label": "Lead Bunch",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "12396676055121",
+          "label": "3 Bunches + 1 Free",
+          "price": 29.97,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8011809063112+9540942541",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-01-13T02:00:00.000Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "35341426893",
+          "label": "Lead Bunch",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "12396676055121",
+          "label": "3 Bunches + 1 Free",
+          "price": 29.97,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:8011809063112+9540942541",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-01-14T02:00:00.000Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "35341426893",
+          "label": "Lead Bunch",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "12396676055121",
+          "label": "3 Bunches + 1 Free",
+          "price": 29.97,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:8011809063112+9540942541",
+      "storeSlug": "buce-plant"
     },
     {
       "observedAt": "2026-11-20T06:27:39.339Z",

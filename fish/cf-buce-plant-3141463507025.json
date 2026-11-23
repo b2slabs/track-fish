@@ -8,14 +8,14 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "ONF Flat ONE Plus Pendant LED Light",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     },
     {
       "listingId": "buce-plant:3141463507025+4656671883345",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "ONF Flat ONE+ LED Light (Blue/White) - Pendant",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     }
   ],
   "events": [
@@ -143,6 +143,45 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "buce-plant:3141463507025+4656671883345",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:35.740Z",
+      "price": 419.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32476493414481",
+          "label": "24\" Pendant",
+          "price": 419.99,
+          "available": true
+        },
+        {
+          "id": "32476493447249",
+          "label": "36\" Pendant",
+          "price": 524.99,
+          "available": true
+        },
+        {
+          "id": "23727824568401",
+          "label": "24\"",
+          "price": 419.99,
+          "available": false
+        },
+        {
+          "id": "23727843180625",
+          "label": "36\"",
+          "price": 524.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:3141463507025+4656671883345",
       "storeSlug": "buce-plant"

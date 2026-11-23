@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:corydoras-habrosus",
-  "commonName": "Salt and Pepper Pygmy Cory",
+  "commonName": "Corydoras habrosus",
   "scientificName": "Corydoras habrosus",
   "listings": [
     {
@@ -8,42 +8,42 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Salt and Pepper Pygmy Cory Catfish (Corydoras habrosus)",
-      "lastCheckedAt": "2026-11-22T16:55:48.334Z"
+      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
     },
     {
       "listingId": "monster-aquarium:7119034384593",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Habrosus Cory (Corydoras habrosus)",
-      "lastCheckedAt": "2026-11-22T16:56:20.227Z"
+      "lastCheckedAt": "2026-11-23T20:55:26.602Z"
     },
     {
       "listingId": "aquarium-fish:6319103750",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Pygmy Salt and Pepper Cory",
-      "lastCheckedAt": "2026-11-22T16:57:23.666Z"
+      "lastCheckedAt": "2026-11-23T20:56:04.154Z"
     },
     {
       "listingId": "nu-aqua-shop:10006319595836",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Salt and Pepper Pygmy Cory",
-      "lastCheckedAt": "2026-11-22T16:59:11.588Z"
+      "lastCheckedAt": "2026-11-23T20:57:08.685Z"
     },
     {
       "listingId": "flip-aquatics:3522575564902",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Habrosus Corydoras",
-      "lastCheckedAt": "2026-11-22T16:57:07.173Z"
+      "lastCheckedAt": "2026-11-23T20:55:54.782Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:682579",
       "storeSlug": "wet-spot-tropical-fish",
       "storeName": "The Wet Spot Tropical Fish",
       "commonName": "Corydoras habrosus",
-      "lastCheckedAt": "2026-11-22T15:59:59.136Z"
+      "lastCheckedAt": "2026-11-23T20:57:25.413Z"
     }
   ],
   "events": [
@@ -181,6 +181,48 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:682579",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-23T20:55:26.602Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41251981263057",
+          "label": ".5-.75”",
+          "price": 3.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "monster-aquarium:7119034384593",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-23T20:57:25.413Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "682579",
+          "label": "Default",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "wet-spot-tropical-fish:682579",
       "storeSlug": "wet-spot-tropical-fish"

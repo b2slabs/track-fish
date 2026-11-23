@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:cryptocoryne-wendtii:green",
-  "commonName": "Cryptocoryne Wendtii Green",
+  "commonName": "Cryptocoryne wendtii ‘Green’",
   "scientificName": "Cryptocoryne wendtii",
   "listings": [
     {
@@ -8,56 +8,56 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Green Cryptocoryne wendtii",
-      "lastCheckedAt": "2026-11-22T16:55:48.334Z"
+      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
     },
     {
       "listingId": "aquarium-fish:6260681222",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Cryptocoryne Wendtii Green",
-      "lastCheckedAt": "2026-11-22T16:57:23.666Z"
+      "lastCheckedAt": "2026-11-23T20:56:04.154Z"
     },
     {
       "listingId": "imperial-tropicals:8398080573747",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Cryptocoryne wendtii \"Green\"",
-      "lastCheckedAt": "2026-11-22T16:57:55.301Z"
+      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
     },
     {
       "listingId": "daku-aquatics:8741034098906",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Cryptocoryne Wendtii Green",
-      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:56:34.006Z"
     },
     {
       "listingId": "glass-aqua:11277474439",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Cryptocoryne Wendtii Green",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     },
     {
       "listingId": "nu-aqua-shop:10006315303228",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Cryptocoryne Green Wendtii",
-      "lastCheckedAt": "2026-11-22T16:59:11.588Z"
+      "lastCheckedAt": "2026-11-23T20:57:08.685Z"
     },
     {
       "listingId": "buce-plant:10042698765+10655863501+9849491341",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Cryptocoryne Wendtii Green",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     },
     {
       "listingId": "aqua-imports:59962",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Cryptocoryne wendtii ‘Green’",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     }
   ],
   "events": [
@@ -488,6 +488,78 @@
       ],
       "listingId": "aqua-imports:59962",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:35.740Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42905367181",
+          "label": "1 Cup",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "37748124109",
+          "label": "1 Cup",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "36794824653",
+          "label": "Pot",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12423107543121",
+          "label": "3 Pot Package",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "12423107575889",
+          "label": "5 Pot Package",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:10042698765+10655863501+9849491341",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:53.148Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738888519",
+          "label": "UNS Tissue Culture",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "12711312425046",
+          "label": "Potted",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277474439",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

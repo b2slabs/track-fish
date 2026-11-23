@@ -1,35 +1,28 @@
 {
   "canonicalFishId": "cf:sci:ludwigia-inclinata",
-  "commonName": "Ludwigia Inclinata Twister",
+  "commonName": "Ludwigia inclinata",
   "scientificName": "Ludwigia inclinata",
   "listings": [
-    {
-      "listingId": "glass-aqua:434996674592",
-      "storeSlug": "glass-aqua",
-      "storeName": "Glass Aqua",
-      "commonName": "Ludwigia Inclinata",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
-    },
     {
       "listingId": "aquarium-fish:10106320617771+10106333823275",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Ludwigia inclinata 'Cuba' - Tissue Culture",
-      "lastCheckedAt": "2026-11-22T16:57:23.666Z"
+      "lastCheckedAt": "2026-11-23T20:56:04.154Z"
     },
     {
       "listingId": "buce-plant:436007370792+9364108301",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Ludwigia Inclinata",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     },
     {
       "listingId": "aqua-imports:114197+60082",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Ludwigia inclinata",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     },
     {
       "listingId": "buce-plant:436007370792",
@@ -37,6 +30,13 @@
       "storeName": "Buce Plant",
       "commonName": "Ludwigia Inclinata Twister",
       "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+    },
+    {
+      "listingId": "glass-aqua:4027151351894+434996674592",
+      "storeSlug": "glass-aqua",
+      "storeName": "Glass Aqua",
+      "commonName": "Ludwigia Inclinata",
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     }
   ],
   "events": [
@@ -160,6 +160,26 @@
     },
     {
       "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29830419775574",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:4027151351894+434996674592",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 6.99,
       "currency": "USD",
       "available": false,
@@ -175,7 +195,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "glass-aqua:434996674592",
+      "listingId": "glass-aqua:4027151351894+434996674592",
       "storeSlug": "glass-aqua"
     },
     {
@@ -267,6 +287,32 @@
       ],
       "listingId": "aqua-imports:114197+60082",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:53.148Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29830419775574",
+          "label": "Ludwigia Inclinata Twister",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "5278579851296",
+          "label": "Ludwigia Inclinata",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:4027151351894+434996674592",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

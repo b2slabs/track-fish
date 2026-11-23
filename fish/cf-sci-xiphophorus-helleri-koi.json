@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:xiphophorus-helleri:koi",
-  "commonName": "Sanke Koi Swordtail",
+  "commonName": "Sanke Koi Swordtail (Xiphophorus helleri)",
   "scientificName": "Xiphophorus helleri",
   "listings": [
     {
@@ -8,49 +8,49 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Koi Sanke Swordtail (Xiphophorus helleri), Tank-Bred",
-      "lastCheckedAt": "2026-11-22T16:55:48.334Z"
+      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
     },
     {
       "listingId": "aquahuna:4165028905003",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Koi Swordtail",
-      "lastCheckedAt": "2026-11-22T16:56:36.089Z"
+      "lastCheckedAt": "2026-11-23T20:55:36.178Z"
     },
     {
       "listingId": "imperial-tropicals:9370657161523",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Sanke Koi Swordtail",
-      "lastCheckedAt": "2026-05-29T04:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
     },
     {
       "listingId": "nu-aqua-shop:10006357934396",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Koi Swordtails",
-      "lastCheckedAt": "2026-11-22T16:59:11.588Z"
+      "lastCheckedAt": "2026-11-23T20:57:08.685Z"
     },
     {
       "listingId": "shrimpy-business:9751495901474+9797207982370",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Sanke Koi Swordtail",
-      "lastCheckedAt": "2026-11-22T16:56:59.625Z"
+      "lastCheckedAt": "2026-11-23T20:55:50.497Z"
     },
     {
       "listingId": "flip-aquatics:7741803724902",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Sanke Koi Swordtail | Xiphophorus Helleri",
-      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:55:54.782Z"
     },
     {
       "listingId": "aqua-imports:118437+57425",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Sanke Koi Swordtail (Xiphophorus helleri)",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     }
   ],
   "events": [
@@ -1126,6 +1126,54 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aqua-imports:118437+57425",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:55:36.178Z",
+      "price": 5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "30267492925483",
+          "label": "Title",
+          "price": 5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "aquahuna:4165028905003",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-23T20:57:31.638Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "118437",
+          "label": "Default",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "57425",
+          "label": "Default",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "aqua-imports:118437+57425",
       "storeSlug": "aqua-imports"

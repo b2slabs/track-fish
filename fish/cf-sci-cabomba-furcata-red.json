@@ -8,14 +8,14 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Cabomba Piauhyensis Red",
-      "lastCheckedAt": "2026-11-22T16:58:19.049Z"
+      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
     },
     {
       "listingId": "glass-aqua:6644272431190",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Cabomba Piauhyensis Red",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     }
   ],
   "events": [
@@ -103,6 +103,54 @@
           "label": "Title",
           "price": 9.99,
           "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:6644272431190",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:35.740Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "3734955196456",
+          "label": "Lead Bunch",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "12397025755217",
+          "label": "3 Bunches + 1 Free",
+          "price": 29.97,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:435835928616",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:53.148Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39575564877910",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
         }
       ],
       "type": "change",

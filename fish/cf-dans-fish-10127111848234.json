@@ -8,7 +8,7 @@
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Dwarf Redtail Eel",
-      "lastCheckedAt": "2026-11-22T16:59:28.019Z"
+      "lastCheckedAt": "2026-11-23T20:57:19.015Z"
     }
   ],
   "events": [
@@ -34,6 +34,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "dans-fish:10127111848234",
+      "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-23T20:57:19.015Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533915717930",
+          "label": "Unsexed",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "53683492421930",
+          "label": "This One is healthy, but has a Bent Spine",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "dans-fish:10127111848234",
       "storeSlug": "dans-fish"

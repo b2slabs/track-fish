@@ -8,7 +8,7 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Lilaeopsis Novaezelandiae",
-      "lastCheckedAt": "2026-11-22T16:58:46.501Z"
+      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
     }
   ],
   "events": [
@@ -34,6 +34,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "glass-aqua:11277471943",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-23T20:56:53.148Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52738875591",
+          "label": "Tissue Culture",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "5733210226720",
+          "label": "Potted",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "glass-aqua:11277471943",
       "storeSlug": "glass-aqua"

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:poecilia-sphenops:black",
-  "commonName": "Black Molly (Poecilia sphenops)",
+  "commonName": "Black Lyretail Molly",
   "scientificName": "Poecilia sphenops",
   "listings": [
     {
@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Black Molly",
-      "lastCheckedAt": "2026-11-22T16:57:23.666Z"
+      "lastCheckedAt": "2026-11-23T20:56:04.154Z"
     },
     {
       "listingId": "imperial-tropicals:8397996130611+9018063290675",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Black Molly (Poecilia sphenops)",
-      "lastCheckedAt": "2026-11-22T16:57:55.301Z"
+      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
     },
     {
       "listingId": "aquarium-fish:10130808897835",
@@ -23,6 +23,13 @@
       "storeName": "AquariumFish.com",
       "commonName": "Black Lyretail Molly (School of 4)",
       "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+    },
+    {
+      "listingId": "dans-fish:10127072133418",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Black Lyretail Molly",
+      "lastCheckedAt": "2026-11-23T20:57:19.015Z"
     }
   ],
   "events": [
@@ -631,6 +638,38 @@
       ],
       "listingId": "imperial-tropicals:8397996130611+9018063290675",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533800341802",
+          "label": "Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "51533800374570",
+          "label": "Male",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "51533800407338",
+          "label": "Female",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127072133418",
+      "storeSlug": "dans-fish"
     }
   ]
 }

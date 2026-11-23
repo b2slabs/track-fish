@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:inpaichthys-kerri:blue",
-  "commonName": "Blue Emporer Tetra",
+  "commonName": "Super Blue Emperor Tetra (Inpaichthys kerri)",
   "scientificName": "Inpaichthys kerri",
   "listings": [
     {
@@ -8,56 +8,49 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Blue Emperor Tetra (Inpaichthys kerri)",
-      "lastCheckedAt": "2026-11-22T16:57:55.301Z"
+      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
     },
     {
       "listingId": "aquatic-arts:15108392681839",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Super Blue Emperor Tetra (Inpaichthys kerri) – Tank-Bred",
-      "lastCheckedAt": "2026-11-22T16:55:48.334Z"
+      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
     },
     {
       "listingId": "aquahuna:1846230712363",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Blue Emperor Tetra",
-      "lastCheckedAt": "2026-11-22T16:56:36.089Z"
+      "lastCheckedAt": "2026-11-23T20:55:36.178Z"
     },
     {
       "listingId": "shrimpy-business:9473490288930",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Blue Emperor Tetra",
-      "lastCheckedAt": "2026-11-22T16:56:59.625Z"
+      "lastCheckedAt": "2026-11-23T20:55:50.497Z"
     },
     {
       "listingId": "global-exoticquatics:8439020781760",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Blue Emporer Tetra",
-      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:57:03.886Z"
     },
     {
       "listingId": "aquarium-fish:10130824986923+11334038092",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Super Blue Emperor Tetra",
-      "lastCheckedAt": "2026-11-22T16:57:23.666Z"
+      "lastCheckedAt": "2026-11-23T20:56:04.154Z"
     },
     {
       "listingId": "aqua-imports:164140+56426",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Super Blue Emperor Tetra (Inpaichthys kerri)",
-      "lastCheckedAt": "2026-11-22T16:59:38.961Z"
-    },
-    {
-      "listingId": "flip-aquatics:7483549057126",
-      "storeSlug": "flip-aquatics",
-      "storeName": "Flip Aquatics",
-      "commonName": "Super Blue Kerri Tetra | Inpaichthys kerri",
-      "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
     },
     {
       "listingId": "aquarium-fish:10130824986923",
@@ -65,6 +58,13 @@
       "storeName": "AquariumFish.com",
       "commonName": "Blue Emperor Tetra (School of 5)",
       "lastCheckedAt": "2026-11-21T07:00:00.000Z"
+    },
+    {
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
+      "storeSlug": "flip-aquatics",
+      "storeName": "Flip Aquatics",
+      "commonName": "Super Blue Kerri Tetra | Inpaichthys kerri",
+      "lastCheckedAt": "2026-11-23T20:55:54.782Z"
     }
   ],
   "events": [
@@ -96,6 +96,26 @@
     },
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 31.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441056940331",
+          "label": "School of 6",
+          "price": 31.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10130824986923",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
       "price": 6.99,
       "currency": "USD",
       "available": false,
@@ -117,28 +137,8 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "flip-aquatics:7483549057126",
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
       "storeSlug": "flip-aquatics"
-    },
-    {
-      "observedAt": "2026-01-08T21:00:00.000Z",
-      "price": 31.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51441056940331",
-          "label": "School of 6",
-          "price": 31.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquarium-fish:10130824986923",
-      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-01-10T02:00:00.000Z",
@@ -221,7 +221,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "flip-aquatics:7483549057126",
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -463,28 +463,7 @@
         "available",
         "variants"
       ],
-      "listingId": "flip-aquatics:7483549057126",
-      "storeSlug": "flip-aquatics"
-    },
-    {
-      "observedAt": "2026-03-27T03:00:00.000Z",
-      "price": 12.49,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "42277521129574",
-          "label": "Imported / 1 Fish",
-          "price": 12.49,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "available",
-        "variants"
-      ],
-      "listingId": "flip-aquatics:7483549057126",
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -507,6 +486,27 @@
       ],
       "listingId": "aquarium-fish:10130824986923",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-03-27T03:00:00.000Z",
+      "price": 12.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42277521129574",
+          "label": "Imported / 1 Fish",
+          "price": 12.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
+      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-03-28T03:00:00.000Z",
@@ -575,27 +575,6 @@
     },
     {
       "observedAt": "2026-04-04T03:00:00.000Z",
-      "price": 12.49,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42277521129574",
-          "label": "Imported / 1 Fish",
-          "price": 12.49,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "available",
-        "variants"
-      ],
-      "listingId": "flip-aquatics:7483549057126",
-      "storeSlug": "flip-aquatics"
-    },
-    {
-      "observedAt": "2026-04-04T03:00:00.000Z",
       "price": 27.05,
       "currency": "USD",
       "available": true,
@@ -616,6 +595,27 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-04-04T03:00:00.000Z",
+      "price": 12.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42277521129574",
+          "label": "Imported / 1 Fish",
+          "price": 12.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-04-06T03:00:00.000Z",
       "price": 12.49,
       "currency": "USD",
@@ -633,7 +633,7 @@
         "available",
         "variants"
       ],
-      "listingId": "flip-aquatics:7483549057126",
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -717,7 +717,7 @@
         "available",
         "variants"
       ],
-      "listingId": "flip-aquatics:7483549057126",
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -738,7 +738,7 @@
         "available",
         "variants"
       ],
-      "listingId": "flip-aquatics:7483549057126",
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -882,7 +882,7 @@
         "available",
         "variants"
       ],
-      "listingId": "flip-aquatics:7483549057126",
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -941,7 +941,7 @@
         "available",
         "variants"
       ],
-      "listingId": "flip-aquatics:7483549057126",
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -962,7 +962,7 @@
         "available",
         "variants"
       ],
-      "listingId": "flip-aquatics:7483549057126",
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -1025,28 +1025,7 @@
         "available",
         "variants"
       ],
-      "listingId": "flip-aquatics:7483549057126",
-      "storeSlug": "flip-aquatics"
-    },
-    {
-      "observedAt": "2026-07-18T03:00:00.000Z",
-      "price": 12.49,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42277521129574",
-          "label": "Imported / 1 Fish",
-          "price": 12.49,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "available",
-        "variants"
-      ],
-      "listingId": "flip-aquatics:7483549057126",
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -1071,6 +1050,27 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-07-18T03:00:00.000Z",
+      "price": 12.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42277521129574",
+          "label": "Imported / 1 Fish",
+          "price": 12.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-07-22T04:00:00.000Z",
       "price": 12.49,
       "currency": "USD",
@@ -1088,7 +1088,7 @@
         "available",
         "variants"
       ],
-      "listingId": "flip-aquatics:7483549057126",
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -1462,7 +1462,7 @@
         "available",
         "variants"
       ],
-      "listingId": "flip-aquatics:7483549057126",
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -1757,7 +1757,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "flip-aquatics:7483549057126",
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -1777,7 +1777,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "flip-aquatics:7483549057126",
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -1911,7 +1911,7 @@
         "available",
         "variants"
       ],
-      "listingId": "flip-aquatics:7483549057126",
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -1963,7 +1963,7 @@
       "changedFields": [
         "first-observed"
       ],
-      "listingId": "flip-aquatics:7483549057126",
+      "listingId": "flip-aquatics:7038805147750+7483549057126",
       "storeSlug": "flip-aquatics"
     },
     {
@@ -1991,6 +1991,38 @@
       ],
       "listingId": "aqua-imports:164140+56426",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:55:07.821Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53529242861935",
+          "label": "School of 3",
+          "price": 22.99,
+          "available": true
+        },
+        {
+          "id": "53529242894703",
+          "label": "School of 6",
+          "price": 37.99,
+          "available": false
+        },
+        {
+          "id": "53529242927471",
+          "label": "School of 9",
+          "price": 50.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:15108392681839",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }
