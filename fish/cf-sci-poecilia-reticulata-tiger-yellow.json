@@ -8,21 +8,21 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Yellow Tiger King Cobra Guppy (Poecilia reticulata), Tank-Bred!",
-      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
+      "lastCheckedAt": "2026-11-24T19:58:11.943Z"
     },
     {
       "listingId": "imperial-tropicals:10051982328115",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Yellow Tiger King Cobra Guppy (Poecilia reticulata)",
-      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
+      "lastCheckedAt": "2026-11-24T20:00:19.491Z"
     },
     {
       "listingId": "dans-fish:10127076163882",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Yellow King Tiger Cobra Guppy",
-      "lastCheckedAt": "2026-11-23T20:57:19.015Z"
+      "lastCheckedAt": "2026-11-24T20:01:50.832Z"
     }
   ],
   "events": [
@@ -1270,6 +1270,44 @@
       ],
       "listingId": "dans-fish:10127076163882",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-24T20:00:19.491Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53153322205491",
+          "label": "1-2\" Female",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "53138107007283",
+          "label": "1-2\" Male",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "52949702770995",
+          "label": "1-2\" Pair (1 Male, 1 Female)",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "53138117919027",
+          "label": "1-2\" Trio (1 Male, 2 Female)",
+          "price": 39.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:10051982328115",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

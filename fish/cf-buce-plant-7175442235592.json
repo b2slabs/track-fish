@@ -8,14 +8,14 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Echinodorus Red Diamond UNS Tissue Culture",
-      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
+      "lastCheckedAt": "2026-11-24T20:00:42.767Z"
     },
     {
       "listingId": "glass-aqua:6682936344662",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Echinodorus Red Diamond Tissue Culture",
-      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
+      "lastCheckedAt": "2026-11-24T20:01:09.812Z"
     }
   ],
   "events": [
@@ -61,6 +61,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "glass-aqua:6682936344662",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-24T20:01:09.812Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39733970731094",
+          "label": "Tissue Culture",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "39733970763862",
+          "label": "Potted",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "glass-aqua:6682936344662",
       "storeSlug": "glass-aqua"

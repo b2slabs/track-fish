@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Cleaner Wrasse",
-      "lastCheckedAt": "2026-11-23T20:56:04.154Z"
+      "lastCheckedAt": "2026-11-24T19:59:48.098Z"
     },
     {
       "listingId": "aqua-imports:108694",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Bluestreak Cleaner Wrasse (Labroides dimidiatus)",
-      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
+      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
     }
   ],
   "events": [
@@ -125,6 +125,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aqua-imports:108694",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-24T20:02:11.699Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "108694",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "aqua-imports:108694",
       "storeSlug": "aqua-imports"

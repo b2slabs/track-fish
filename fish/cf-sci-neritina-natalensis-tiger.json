@@ -8,14 +8,14 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Nerite Snail Combo Pack: Tiger + Zebra + Zebra Thorn Nerites",
-      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
+      "lastCheckedAt": "2026-11-24T19:58:11.943Z"
     },
     {
       "listingId": "aquatic-arts:4170808492118",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Nerite Snail Combo Pack: Tiger Nerite + Zebra Nerite",
-      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
+      "lastCheckedAt": "2026-11-24T19:58:11.943Z"
     }
   ],
   "events": [
@@ -310,6 +310,51 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquatic-arts:4170808492118",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-24T19:58:11.943Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "30326477226070",
+          "label": "1 of Each Snail",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "30326477258838",
+          "label": "3 of Each Snail",
+          "price": 12.59,
+          "available": true
+        },
+        {
+          "id": "30326477291606",
+          "label": "5 of Each Snail",
+          "price": 17.49,
+          "available": true
+        },
+        {
+          "id": "30326477324374",
+          "label": "10 of Each Snail",
+          "price": 31.49,
+          "available": true
+        },
+        {
+          "id": "30326482927702",
+          "label": "20 of Each Snail",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "aquatic-arts:4170808492118",
       "storeSlug": "aquatic-arts"

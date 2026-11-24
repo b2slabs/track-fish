@@ -8,28 +8,28 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Red Dragon Guppy Pair",
-      "lastCheckedAt": "2026-11-23T20:57:03.886Z"
+      "lastCheckedAt": "2026-11-24T20:01:26.850Z"
     },
     {
       "listingId": "aquatic-arts:14952184545647+15109128847727",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Red Dragon Guppy (Poecilia reticulata) – Tank Bred",
-      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
+      "lastCheckedAt": "2026-11-24T19:58:11.943Z"
     },
     {
       "listingId": "imperial-tropicals:8398167048499+8602836631859",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Red Dragon Mosaic Guppy",
-      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
+      "lastCheckedAt": "2026-11-24T20:00:19.491Z"
     },
     {
       "listingId": "dans-fish:10127082881322",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Red Dragon Guppy",
-      "lastCheckedAt": "2026-11-23T20:57:19.015Z"
+      "lastCheckedAt": "2026-11-24T20:01:50.832Z"
     }
   ],
   "events": [
@@ -889,6 +889,109 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "dans-fish:10127082881322",
+      "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-24T20:00:19.491Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46742744138035",
+          "label": "1-2\" Male",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "46742744170803",
+          "label": "1-2\" Pair (1 Male, 1 Female)",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "45612273500467",
+          "label": "1-2\" Male",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "46650830750003",
+          "label": "1-2” Pair (1 Male, 1 Female)",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "53464088576307",
+          "label": "1-2” Trio (1 Male, 2 Female)",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398167048499+8602836631859",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-24T20:01:26.850Z",
+      "price": 20,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50567420248256",
+          "label": "1 Male 1 Female",
+          "price": 20,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:10284529909952",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-24T20:01:50.832Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533828423978",
+          "label": "Male-B Grade",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "51533828456746",
+          "label": "Female-B Grade",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "52742736314666",
+          "label": "Male",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "52742743163178",
+          "label": "Female",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
       ],
       "listingId": "dans-fish:10127082881322",
       "storeSlug": "dans-fish"

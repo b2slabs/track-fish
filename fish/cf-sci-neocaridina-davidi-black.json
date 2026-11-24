@@ -8,42 +8,42 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Black Rose Shrimp (Neocaridina davidi), BREDBY: Aquatic Arts",
-      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
+      "lastCheckedAt": "2026-11-24T19:58:11.943Z"
     },
     {
       "listingId": "shrimpy-business:4330921132117",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Black Rose Shrimp",
-      "lastCheckedAt": "2026-11-23T20:55:50.497Z"
+      "lastCheckedAt": "2026-11-24T19:59:24.021Z"
     },
     {
       "listingId": "aquarium-fish:6637031878",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Black Rose Shrimp",
-      "lastCheckedAt": "2026-11-23T20:56:04.154Z"
+      "lastCheckedAt": "2026-11-24T19:59:48.098Z"
     },
     {
       "listingId": "imperial-tropicals:8397989052723",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Black Shrimp (Neocaridina davidi)",
-      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
+      "lastCheckedAt": "2026-11-24T20:00:19.491Z"
     },
     {
       "listingId": "buce-plant:7552033652936",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Black Rili Shrimp",
-      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
+      "lastCheckedAt": "2026-11-24T20:00:42.767Z"
     },
     {
       "listingId": "flip-aquatics:11067379012",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Black Rose Shrimp",
-      "lastCheckedAt": "2026-11-23T20:55:54.782Z"
+      "lastCheckedAt": "2026-11-24T19:59:31.567Z"
     }
   ],
   "events": [
@@ -279,6 +279,33 @@
       "type": "change",
       "changedFields": [
         "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8397989052723",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-24T20:00:19.491Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611755995443",
+          "label": "(3 Pack) 0.25-0.75\" Unsexed",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "45611756028211",
+          "label": "(6 Pack) 0.25-0.75\" Unsexed",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
         "available",
         "variants"
       ],

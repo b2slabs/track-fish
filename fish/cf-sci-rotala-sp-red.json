@@ -8,14 +8,14 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Rotala Narrow Leaf Red",
-      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
+      "lastCheckedAt": "2026-11-24T20:01:09.812Z"
     },
     {
       "listingId": "buce-plant:4687890350161+9404132749",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Rotala Narrow Leaf Sp. Red",
-      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
+      "lastCheckedAt": "2026-11-24T20:00:42.767Z"
     }
   ],
   "events": [
@@ -116,6 +116,53 @@
           "label": "Title",
           "price": 8.99,
           "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:4880034824278",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-24T20:00:42.767Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "34485403021",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "32603524792401",
+          "label": "Rotala Narrow Leaf Sp. Red",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:4687890350161+9404132749",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-24T20:01:09.812Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "33225077751894",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
         }
       ],
       "type": "change",

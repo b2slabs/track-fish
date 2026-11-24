@@ -1,14 +1,14 @@
 {
   "canonicalFishId": "cf:flip-aquatics:4867325362278",
-  "commonName": "Neka Driftwood Small",
+  "commonName": "Neka Driftwood",
   "scientificName": null,
   "listings": [
     {
       "listingId": "flip-aquatics:4867325362278",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
-      "commonName": "Neka Driftwood Small",
-      "lastCheckedAt": "2026-11-23T20:55:54.782Z"
+      "commonName": "Neka Driftwood",
+      "lastCheckedAt": "2026-11-24T19:59:31.567Z"
     }
   ],
   "events": [
@@ -61,6 +61,32 @@
       "changedFields": [
         "price",
         "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:4867325362278",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-24T19:59:31.567Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32001798307942",
+          "label": "3-6 inches",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "32001798340710",
+          "label": "6-12 inches",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
         "variants"
       ],
       "listingId": "flip-aquatics:4867325362278",

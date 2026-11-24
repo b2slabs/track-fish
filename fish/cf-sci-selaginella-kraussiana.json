@@ -8,14 +8,14 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Selaginella Kraussiana Aurea",
-      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
+      "lastCheckedAt": "2026-11-24T20:01:09.812Z"
     },
     {
       "listingId": "buce-plant:4453512118353+8263554269384",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Selaginella Kraussiana Aurea",
-      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
+      "lastCheckedAt": "2026-11-24T20:00:42.767Z"
     }
   ],
   "events": [
@@ -564,6 +564,53 @@
       ],
       "listingId": "buce-plant:4453512118353+8263554269384",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-24T20:00:42.767Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44876723093704",
+          "label": "Selaginella Kraussiana Aurea",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "31661994999889",
+          "label": "Selaginella Kraussiana Mini Club Moss",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:4453512118353+8263554269384",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-24T20:01:09.812Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43741211426902",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7735393583190",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

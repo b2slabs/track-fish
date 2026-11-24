@@ -8,28 +8,28 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Cyperus Helferi",
-      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
+      "lastCheckedAt": "2026-11-24T20:00:42.767Z"
     },
     {
       "listingId": "glass-aqua:1346973368406",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Cyperus Helferi",
-      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
+      "lastCheckedAt": "2026-11-24T20:01:09.812Z"
     },
     {
       "listingId": "daku-aquatics:9257510535386",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Cyperus Helferi",
-      "lastCheckedAt": "2026-11-23T20:56:34.006Z"
+      "lastCheckedAt": "2026-11-24T20:00:40.084Z"
     },
     {
       "listingId": "aqua-imports:59964",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Cyperus helferi",
-      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
+      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
     }
   ],
   "events": [
@@ -444,6 +444,54 @@
       ],
       "listingId": "aqua-imports:59964",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-24T20:00:42.767Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37563291149",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12390925992017",
+          "label": "4 Bunches",
+          "price": 20.97,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:10011925517",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-24T20:01:09.812Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12388419076182",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:1346973368406",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

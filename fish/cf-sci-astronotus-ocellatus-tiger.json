@@ -8,35 +8,35 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Short Body Tiger Oscar (Astronotus ocellatus)",
-      "lastCheckedAt": "2026-11-23T20:55:26.602Z"
+      "lastCheckedAt": "2026-11-24T19:58:44.448Z"
     },
     {
       "listingId": "aquarium-fish:5951733062",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Tiger Oscar",
-      "lastCheckedAt": "2026-11-23T20:56:04.154Z"
+      "lastCheckedAt": "2026-11-24T19:59:48.098Z"
     },
     {
       "listingId": "imperial-tropicals:8398037483827",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Tiger Oscar",
-      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
+      "lastCheckedAt": "2026-11-24T20:00:19.491Z"
     },
     {
       "listingId": "aquatic-arts:4508614099030",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Tiger Oscar (Astronotus ocellatus), Tank-Bred",
-      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
+      "lastCheckedAt": "2026-11-24T19:58:11.943Z"
     },
     {
       "listingId": "aqua-imports:130298",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Nemo Tiger Oscar (Astronotus ocellatus)",
-      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
+      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
     }
   ],
   "events": [
@@ -175,6 +175,33 @@
       ],
       "listingId": "aqua-imports:130298",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-24T19:59:48.098Z",
+      "price": 23.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44878033289515",
+          "label": "Small (1.5-2\")",
+          "price": 15.29,
+          "available": false
+        },
+        {
+          "id": "44878033322283",
+          "label": "Medium (2-3\")",
+          "price": 23.79,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:5951733062",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

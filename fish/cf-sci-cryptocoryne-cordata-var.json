@@ -8,21 +8,21 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Cryptocoryne Blassii",
-      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
+      "lastCheckedAt": "2026-11-24T20:00:42.767Z"
     },
     {
       "listingId": "glass-aqua:4993500643414",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Cryptocoryne Blassii",
-      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
+      "lastCheckedAt": "2026-11-24T20:01:09.812Z"
     },
     {
       "listingId": "aqua-imports:59937",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Cryptocoryne blassii",
-      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
+      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
     }
   ],
   "events": [
@@ -142,6 +142,60 @@
           "label": "Title",
           "price": 6.99,
           "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:4993500643414",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-24T20:00:42.767Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "35337257549",
+          "label": "Pot",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12423002161233",
+          "label": "3 Pot Package",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "12423002194001",
+          "label": "5 Pot Package",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:9540407757",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-24T20:01:09.812Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "33431589191766",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
         }
       ],
       "type": "change",

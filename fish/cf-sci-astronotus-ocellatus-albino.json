@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Albino Oscar",
-      "lastCheckedAt": "2026-11-23T20:56:04.154Z"
+      "lastCheckedAt": "2026-11-24T19:59:48.098Z"
     },
     {
       "listingId": "imperial-tropicals:8398165082419",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Albino Oscar (Astronotus ocellatus)",
-      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
+      "lastCheckedAt": "2026-11-24T20:00:19.491Z"
     },
     {
       "listingId": "aqua-imports:61305",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Albino Ruby Oscar (Astronotus ocellatus)",
-      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
+      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
     }
   ],
   "events": [
@@ -115,6 +115,33 @@
       ],
       "listingId": "aqua-imports:61305",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-24T19:59:48.098Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44877582336299",
+          "label": "Small (1.5-2\")",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "44877582369067",
+          "label": "Medium (2-3\")",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:5951737606",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

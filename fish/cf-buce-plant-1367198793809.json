@@ -8,14 +8,14 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Echinodorus Harbich",
-      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
+      "lastCheckedAt": "2026-11-24T20:00:42.767Z"
     },
     {
       "listingId": "glass-aqua:6630445842518",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Echinodorus Harbich",
-      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
+      "lastCheckedAt": "2026-11-24T20:01:09.812Z"
     }
   ],
   "events": [
@@ -55,6 +55,48 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "glass-aqua:6630445842518",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-24T20:00:42.767Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12525551681617",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:1367198793809",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-24T20:01:09.812Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39540973994070",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "glass-aqua:6630445842518",
       "storeSlug": "glass-aqua"

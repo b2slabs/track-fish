@@ -8,28 +8,28 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Downoi (Pogostemon helferi) Tissue Culture",
-      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
+      "lastCheckedAt": "2026-11-24T19:58:11.943Z"
     },
     {
       "listingId": "glass-aqua:11277469063",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Pogostemon Helferi Downoi",
-      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
+      "lastCheckedAt": "2026-11-24T20:01:09.812Z"
     },
     {
       "listingId": "buce-plant:1328310714449+436010188840+8607853197",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Pogostemon Helferi 'Downoi'",
-      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
+      "lastCheckedAt": "2026-11-24T20:00:42.767Z"
     },
     {
       "listingId": "aqua-imports:60164",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Downoi (Pogostemon helferi)",
-      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
+      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
     }
   ],
   "events": [
@@ -261,6 +261,66 @@
           "label": "Potted",
           "price": 19.99,
           "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277469063",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-24T20:00:42.767Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29469115021",
+          "label": "Pogostemon Helferi 'Downoi' UNS Tissue Culture",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "12232800796753",
+          "label": "Pot",
+          "price": 22.99,
+          "available": false
+        },
+        {
+          "id": "3736288722984",
+          "label": "Pogostemon Helferi 'Downoi' Aquatic Farmer Tissue Culture",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:1328310714449+436010188840+8607853197",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-24T20:01:09.812Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738859207",
+          "label": "Tissue Culture",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "12711316422742",
+          "label": "Potted",
+          "price": 19.99,
+          "available": false
         }
       ],
       "type": "change",

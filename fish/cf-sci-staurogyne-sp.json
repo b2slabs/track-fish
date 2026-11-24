@@ -8,14 +8,14 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Staurogyne Porto Velho",
-      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
+      "lastCheckedAt": "2026-11-24T20:01:09.812Z"
     },
     {
       "listingId": "buce-plant:436029161512+7529801449672",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Staurogyne sp Porto Velho",
-      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
+      "lastCheckedAt": "2026-11-24T20:00:42.767Z"
     }
   ],
   "events": [
@@ -104,6 +104,54 @@
       ],
       "listingId": "buce-plant:436029161512+7529801449672",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-24T20:00:42.767Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42613138555080",
+          "label": "Staurogyne Bihar Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "3736421990440",
+          "label": "Staurogyne sp Porto Velho",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:436029161512+7529801449672",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-24T20:01:09.812Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19438447919190",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:1921994817622",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

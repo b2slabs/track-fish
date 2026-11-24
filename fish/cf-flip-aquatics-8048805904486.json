@@ -8,7 +8,7 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Blue Tarzan Guppy",
-      "lastCheckedAt": "2026-11-23T20:55:54.782Z"
+      "lastCheckedAt": "2026-11-24T19:59:31.567Z"
     }
   ],
   "events": [
@@ -287,6 +287,39 @@
           "label": "Imported / Female",
           "price": 14.99,
           "available": true
+        },
+        {
+          "id": "45731696181350",
+          "label": "Imported / Pair (M/F)",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:8048805904486",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-24T19:59:31.567Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45731696115814",
+          "label": "Imported / Male",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45731696148582",
+          "label": "Imported / Female",
+          "price": 14.99,
+          "available": false
         },
         {
           "id": "45731696181350",

@@ -8,14 +8,14 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Rotala Vietnam H'ra (Rotala rotundifolia \"Vietnam H'ra\") Tissue Culture",
-      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
+      "lastCheckedAt": "2026-11-24T19:58:11.943Z"
     },
     {
       "listingId": "buce-plant:7476194509000",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Rotala Vietnam UNS Tissue Culture",
-      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
+      "lastCheckedAt": "2026-11-24T20:00:42.767Z"
     }
   ],
   "events": [
@@ -70,6 +70,39 @@
       ],
       "listingId": "buce-plant:7476194509000",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-24T19:58:11.943Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "30337480261718",
+          "label": "1 Tissue Culture",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "30337480294486",
+          "label": "2 Tissue Cultures",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "30337480327254",
+          "label": "3 Tissue Cultures",
+          "price": 38.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:4175105884246",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

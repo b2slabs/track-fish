@@ -8,21 +8,21 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Ludwigia Senegalensis",
-      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
+      "lastCheckedAt": "2026-11-24T20:00:42.767Z"
     },
     {
       "listingId": "glass-aqua:1380724899926",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Ludwigia Senegalensis",
-      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
+      "lastCheckedAt": "2026-11-24T20:01:09.812Z"
     },
     {
       "listingId": "aqua-imports:110371",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Ludwigia senegalensis",
-      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
+      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
     }
   ],
   "events": [
@@ -91,6 +91,54 @@
       ],
       "listingId": "aqua-imports:110371",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-24T20:00:42.767Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "3675948351528",
+          "label": "Bunch",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:422851969064",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-24T20:01:09.812Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42373388468310",
+          "label": "Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "42373388501078",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:1380724899926",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

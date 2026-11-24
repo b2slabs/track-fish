@@ -8,28 +8,28 @@
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Schismatoglottis Prietoi",
-      "lastCheckedAt": "2026-11-23T20:56:34.006Z"
+      "lastCheckedAt": "2026-11-24T20:00:40.084Z"
     },
     {
       "listingId": "glass-aqua:7999201214550",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Schismatoglottis Prietoi",
-      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
+      "lastCheckedAt": "2026-11-24T20:01:09.812Z"
     },
     {
       "listingId": "nu-aqua-shop:10302361665852",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Schismatoglottis Prietoi",
-      "lastCheckedAt": "2026-11-23T20:57:08.685Z"
+      "lastCheckedAt": "2026-11-24T20:01:34.520Z"
     },
     {
       "listingId": "aqua-imports:184229",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Schismatoglottis prietoi",
-      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
+      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
     }
   ],
   "events": [
@@ -584,6 +584,27 @@
           "label": "Title",
           "price": 12.99,
           "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7999201214550",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-24T20:01:09.812Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45560348835926",
+          "label": "Title",
+          "price": 12.99,
+          "available": true
         }
       ],
       "type": "change",

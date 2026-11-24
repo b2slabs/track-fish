@@ -8,21 +8,21 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Hedyotis Salzmannii",
-      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
+      "lastCheckedAt": "2026-11-24T20:00:42.767Z"
     },
     {
       "listingId": "glass-aqua:7297003454550",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Hedyotis Salzmannii",
-      "lastCheckedAt": "2026-11-23T20:56:53.148Z"
+      "lastCheckedAt": "2026-11-24T20:01:09.812Z"
     },
     {
       "listingId": "aqua-imports:153333",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Hedyotis salzmanni",
-      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
+      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
     }
   ],
   "events": [
@@ -747,6 +747,82 @@
       ],
       "listingId": "buce-plant:1346605350993",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-24T20:00:42.767Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12332484984913",
+          "label": "Pot",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "12425529950289",
+          "label": "3 Pot Package",
+          "price": 20.97,
+          "available": true
+        },
+        {
+          "id": "12425529983057",
+          "label": "5 Pot Package",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "12425868804177",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12425872408657",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.97,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:1346605350993",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-24T20:01:09.812Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42188611715158",
+          "label": "UNS Tissue Culture",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "42188611747926",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "42507381014614",
+          "label": "Potted",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:7297003454550",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

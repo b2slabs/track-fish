@@ -8,7 +8,7 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Purple Waffle Plant (Hemigraphis alternata)",
-      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
+      "lastCheckedAt": "2026-11-24T19:58:11.943Z"
     }
   ],
   "events": [
@@ -529,6 +529,34 @@
           "label": "1 Potted Plant",
           "price": 8.99,
           "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:14702344143215",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-24T19:58:11.943Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51902217650543",
+          "label": "1 Bunch plant",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "51902217683311",
+          "label": "1 Potted Plant",
+          "price": 8.99,
+          "available": true
         }
       ],
       "type": "change",

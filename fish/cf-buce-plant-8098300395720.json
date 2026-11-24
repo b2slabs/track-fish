@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Assorted Accent Wood",
-      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
+      "lastCheckedAt": "2026-11-24T20:00:42.767Z"
     }
   ],
   "events": [
@@ -120,6 +120,64 @@
       "type": "change",
       "changedFields": [
         "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:8098300395720",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-24T20:00:42.767Z",
+      "price": 10,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44232993145032",
+          "label": "Extra Small / 10 Pack",
+          "price": 10,
+          "available": false
+        },
+        {
+          "id": "44232993210568",
+          "label": "Small / 5 Pack",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "44232993243336",
+          "label": "Small / 10 Pack",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "44232993276104",
+          "label": "Medium / 3 Pack",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "44232993308872",
+          "label": "Medium / 5 Pack",
+          "price": 84.99,
+          "available": false
+        },
+        {
+          "id": "44232993374408",
+          "label": "Large / 3 Pack",
+          "price": 167.99,
+          "available": false
+        },
+        {
+          "id": "44232993407176",
+          "label": "Large / 5 Pack",
+          "price": 224.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
         "variants"
       ],
       "listingId": "buce-plant:8098300395720",

@@ -8,14 +8,14 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Albino Taiwan Reef (Protomelas sp. \"Steveni Taiwan\")",
-      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
+      "lastCheckedAt": "2026-11-24T20:00:19.491Z"
     },
     {
       "listingId": "global-exoticquatics:8241463034048",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Albino Taiwan Reef",
-      "lastCheckedAt": "2026-11-23T20:57:03.886Z"
+      "lastCheckedAt": "2026-11-24T20:01:26.850Z"
     }
   ],
   "events": [
@@ -120,6 +120,56 @@
       ],
       "listingId": "global-exoticquatics:8241463034048",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-24T20:00:19.491Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611873009971",
+          "label": "1-2\" Unsexed",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "50718333698355",
+          "label": "(5 Pack) 1-2\" Unsexed",
+          "price": 69.99,
+          "available": true
+        },
+        {
+          "id": "47416279957811",
+          "label": "2-3” Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "51141174591795",
+          "label": "3-4\" Female",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "46846279385395",
+          "label": "3-4\" Male",
+          "price": 49.99,
+          "available": true
+        },
+        {
+          "id": "52317487595827",
+          "label": "4-5\" Male",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398031454515",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

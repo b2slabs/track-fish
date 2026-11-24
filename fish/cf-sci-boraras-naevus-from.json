@@ -8,28 +8,28 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Strawberry Rasbora",
-      "lastCheckedAt": "2026-11-23T20:55:36.178Z"
+      "lastCheckedAt": "2026-11-24T19:59:00.415Z"
     },
     {
       "listingId": "shrimpy-business:6828277858389",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Strawberry Rasbora",
-      "lastCheckedAt": "2026-11-23T20:55:50.497Z"
+      "lastCheckedAt": "2026-11-24T19:59:24.021Z"
     },
     {
       "listingId": "nu-aqua-shop:15445002453308",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Strawberry Rasbora",
-      "lastCheckedAt": "2026-11-23T20:57:08.685Z"
+      "lastCheckedAt": "2026-11-24T20:01:34.520Z"
     },
     {
       "listingId": "aquatic-arts:1943269900374",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Strawberry Rasbora (Boraras naevus)",
-      "lastCheckedAt": "2026-11-23T20:55:07.821Z"
+      "lastCheckedAt": "2026-11-24T19:58:11.943Z"
     },
     {
       "listingId": "ck-fish-world:9071501607127",
@@ -43,14 +43,14 @@
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Strawberry Rasbora",
-      "lastCheckedAt": "2026-11-23T20:57:19.015Z"
+      "lastCheckedAt": "2026-11-24T20:01:50.832Z"
     },
     {
       "listingId": "aqua-imports:184197",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Strawberry Rasbora (Boraras naevus)",
-      "lastCheckedAt": "2026-11-23T20:57:31.638Z"
+      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
     }
   ],
   "events": [
@@ -1343,6 +1343,51 @@
       ],
       "listingId": "aquahuna:4164378787883",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-24T19:58:11.943Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19475216957526",
+          "label": "School of 3",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "19475216990294",
+          "label": "School of 6",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "19475217023062",
+          "label": "School of 9",
+          "price": 21.99,
+          "available": false
+        },
+        {
+          "id": "19475217055830",
+          "label": "School of 12",
+          "price": 27.99,
+          "available": false
+        },
+        {
+          "id": "19475217088598",
+          "label": "School of 24",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:1943269900374",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

@@ -8,14 +8,14 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Otopharynx tetrastigma",
-      "lastCheckedAt": "2026-11-23T20:56:21.598Z"
+      "lastCheckedAt": "2026-11-24T20:00:19.491Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:680039",
       "storeSlug": "wet-spot-tropical-fish",
       "storeName": "The Wet Spot Tropical Fish",
       "commonName": "Otopharynx tetrastigma",
-      "lastCheckedAt": "2026-11-23T20:57:25.413Z"
+      "lastCheckedAt": "2026-11-24T20:02:01.801Z"
     }
   ],
   "events": [
@@ -106,6 +106,75 @@
       ],
       "listingId": "wet-spot-tropical-fish:680039",
       "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-24T20:00:19.491Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612019155251",
+          "label": "1-2” Unsexed",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "45612019188019",
+          "label": "2-3\" Unsexed",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "45612019286323",
+          "label": "3-4” Female",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "45612019220787",
+          "label": "3-4” Male",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "45612019319091",
+          "label": "3-4” Breeder Pack (1 Male, 3 Female)",
+          "price": 74.99,
+          "available": false
+        },
+        {
+          "id": "50179520659763",
+          "label": "4-5” Female",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "45612019351859",
+          "label": "4-5” Male",
+          "price": 54.99,
+          "available": true
+        },
+        {
+          "id": "50179535798579",
+          "label": "4-5” Breeder Pack (1 Male, 3 Female)",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "49370477953331",
+          "label": "5-6\" Male",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398067204403",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

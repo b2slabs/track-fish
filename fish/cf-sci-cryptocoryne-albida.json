@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Cryptocoryne Albida Costata",
-      "lastCheckedAt": "2026-11-23T20:56:35.740Z"
+      "lastCheckedAt": "2026-11-24T20:00:42.767Z"
     }
   ],
   "events": [
@@ -43,6 +43,27 @@
           "label": "Title",
           "price": 7.99,
           "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:10475726861",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-24T20:00:42.767Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40659546317",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
         }
       ],
       "type": "change",
