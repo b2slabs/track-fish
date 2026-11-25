@@ -8,21 +8,21 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Betta Albimarginata - PAIR",
-      "lastCheckedAt": "2026-11-24T20:01:34.520Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:685656+685658+689998+765932",
       "storeSlug": "wet-spot-tropical-fish",
       "storeName": "The Wet Spot Tropical Fish",
       "commonName": "Betta albimarginata",
-      "lastCheckedAt": "2026-11-24T20:02:01.801Z"
+      "lastCheckedAt": "2026-11-25T19:04:28.157Z"
     },
     {
       "listingId": "aqua-imports:131614",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Betta albimarginata",
-      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -103,6 +103,40 @@
       ],
       "listingId": "aqua-imports:131614",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-25T19:04:00.223Z",
+      "price": 36.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "68252310569276",
+          "label": "Pair",
+          "price": 74.99,
+          "available": true
+        },
+        {
+          "id": "68252310602044",
+          "label": "Female",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "id": "68252310634812",
+          "label": "Male",
+          "price": 36.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "nu-aqua-shop:10006354690364",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

@@ -8,14 +8,14 @@
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Nothobranchius rachovii",
-      "lastCheckedAt": "2026-11-24T20:01:50.832Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:687045+687049",
       "storeSlug": "wet-spot-tropical-fish",
       "storeName": "The Wet Spot Tropical Fish",
       "commonName": "Nothobranchius rachovii",
-      "lastCheckedAt": "2026-11-24T20:02:01.801Z"
+      "lastCheckedAt": "2026-11-25T19:04:28.157Z"
     }
   ],
   "events": [
@@ -73,6 +73,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:687045+687049",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-25T19:04:28.157Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "687049",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "687045",
+          "label": "Default",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "wet-spot-tropical-fish:687045+687049",
       "storeSlug": "wet-spot-tropical-fish"

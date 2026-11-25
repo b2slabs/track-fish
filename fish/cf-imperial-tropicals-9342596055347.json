@@ -8,14 +8,14 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Süsswassertang",
-      "lastCheckedAt": "2026-11-24T20:00:19.491Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "glass-aqua:5014736011350",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Süsswassertang (Subwassertang)",
-      "lastCheckedAt": "2026-11-24T20:01:09.812Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
@@ -81,6 +81,34 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "glass-aqua:5014736011350",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-25T19:03:34.985Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43844908318806",
+          "label": "Loose",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "43844908351574",
+          "label": "Dome",
+          "price": 15.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "glass-aqua:5014736011350",
       "storeSlug": "glass-aqua"

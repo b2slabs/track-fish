@@ -8,14 +8,14 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "L191 Green Royal Pleco(Panaque cf. nigrolineatus)",
-      "lastCheckedAt": "2026-11-24T19:58:44.448Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aqua-imports:40485",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "L418 Green Royal Pleco (Panaque titan)",
-      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -70,6 +70,40 @@
       ],
       "listingId": "aqua-imports:40485",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-25T19:01:08.640Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42636347605201",
+          "label": "1-2\"",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "40926875058385",
+          "label": "2-3\"",
+          "price": 31.99,
+          "available": false
+        },
+        {
+          "id": "42305657864401",
+          "label": "4-5”",
+          "price": 50,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "monster-aquarium:6997712273617",
+      "storeSlug": "monster-aquarium"
     }
   ]
 }

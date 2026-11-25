@@ -8,7 +8,7 @@
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Blue Gularis 'Warri'",
-      "lastCheckedAt": "2026-11-24T20:01:50.832Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     }
   ],
   "events": [
@@ -40,6 +40,39 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "dans-fish:10127084781866",
+      "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-25T19:04:17.105Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533833503018",
+          "label": "Unsexed",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "51533833535786",
+          "label": "Male",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "51533833568554",
+          "label": "Female",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "dans-fish:10127084781866",
       "storeSlug": "dans-fish"

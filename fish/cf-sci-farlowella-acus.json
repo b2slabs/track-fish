@@ -8,21 +8,21 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Farlowella Catfish (Farlowella acus)",
-      "lastCheckedAt": "2026-11-24T19:58:44.448Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquarium-fish:11007505868",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Farlowella Long Nose Catfish",
-      "lastCheckedAt": "2026-11-24T19:59:48.098Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:115875+38689",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Stick Catfish / Common Farlowella (Farlowella acus)",
-      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -108,6 +108,34 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aqua-imports:115875+38689",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-25T19:04:38.047Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "115875",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        },
+        {
+          "id": "38689",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aqua-imports:115875+38689",
       "storeSlug": "aqua-imports"

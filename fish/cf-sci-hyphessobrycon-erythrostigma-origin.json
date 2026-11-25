@@ -8,42 +8,42 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Bleeding Heart Tetra",
-      "lastCheckedAt": "2026-11-24T19:59:48.098Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "global-exoticquatics:10249440854208",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Bleeding Heart Tetra",
-      "lastCheckedAt": "2026-11-24T20:01:26.850Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     },
     {
       "listingId": "nu-aqua-shop:10006313992508",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Bleeding Heart Tetra",
-      "lastCheckedAt": "2026-11-24T20:01:34.520Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "monster-aquarium:7664590258385",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Bleeding Heart Tetra (Hyphessobrycon erythrostigma)",
-      "lastCheckedAt": "2026-11-24T19:58:44.448Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "imperial-tropicals:8398084538675",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Bleeding Heart Tetra (Megalamphodus erythrostigmus)",
-      "lastCheckedAt": "2026-11-24T20:00:19.491Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aqua-imports:39003",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Bleeding Heart Tetra (Hyphessobrycon erythrostigma)",
-      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -268,6 +268,53 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aqua-imports:39003",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-25T19:02:43.781Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612066439475",
+          "label": "(3 Pack) 1-2\" Unsexed Puerto Nariño",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "45612066472243",
+          "label": "(10 Pack) 1-2\" Unsexed Puerto Nariño",
+          "price": 59.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398084538675",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-25T19:04:38.047Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39003",
+          "label": "Default",
+          "price": 3.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "aqua-imports:39003",
       "storeSlug": "aqua-imports"

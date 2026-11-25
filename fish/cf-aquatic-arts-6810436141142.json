@@ -1,14 +1,14 @@
 {
   "canonicalFishId": "cf:aquatic-arts:6810436141142",
-  "commonName": "KatsAquatics Calcium + Immunity (1.7 oz)",
+  "commonName": "KatsAquatics Calcium + Immunity",
   "scientificName": null,
   "listings": [
     {
       "listingId": "aquatic-arts:6810436141142",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "KatsAquatics Calcium + Immunity (1.7 oz)",
-      "lastCheckedAt": "2026-11-24T19:58:11.943Z"
+      "commonName": "KatsAquatics Calcium + Immunity",
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
@@ -28,6 +28,32 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquatic-arts:6810436141142",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-25T19:00:36.524Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "68288773063023",
+          "label": "1.7 oz",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "68288773095791",
+          "label": "1.8 oz",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
       ],
       "listingId": "aquatic-arts:6810436141142",
       "storeSlug": "aquatic-arts"

@@ -1,14 +1,14 @@
 {
   "canonicalFishId": "cf:sci:vieja-bifasciata:red",
-  "commonName": "Red Spotted Cichlid",
+  "commonName": "Red Spotted Cichlid (Vieja bifasciata)",
   "scientificName": "Vieja bifasciata",
   "listings": [
     {
       "listingId": "imperial-tropicals:8824687231283",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
-      "commonName": "Red Spotted Cichlid",
-      "lastCheckedAt": "2026-11-24T20:00:19.491Z"
+      "commonName": "Red Spotted Cichlid (Vieja bifasciata)",
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     }
   ],
   "events": [
@@ -34,6 +34,50 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8824687231283",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-25T19:02:43.781Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47436383813939",
+          "label": "1-2\" Unsexed",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "47436383846707",
+          "label": "(5 Pack) 1-2\" Unsexed",
+          "price": 25.99,
+          "available": false
+        },
+        {
+          "id": "68102474498355",
+          "label": "2-3\" Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "68102475055411",
+          "label": "3-4\" Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "68102476267827",
+          "label": "4-5\" Unsexed",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
       ],
       "listingId": "imperial-tropicals:8824687231283",
       "storeSlug": "imperial-tropicals"

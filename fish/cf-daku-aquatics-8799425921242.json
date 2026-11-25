@@ -8,28 +8,28 @@
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Bolbitis Heudelotii",
-      "lastCheckedAt": "2026-11-24T20:00:40.084Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     },
     {
       "listingId": "glass-aqua:1364803420246",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Bolbitis Heudelotii",
-      "lastCheckedAt": "2026-11-24T20:01:09.812Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "nu-aqua-shop:10006314647868",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Bolbitis Heudelotii",
-      "lastCheckedAt": "2026-11-24T20:01:34.520Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aqua-imports:104904",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Bolbitis heudelotii",
-      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -775,6 +775,27 @@
           "label": "Title",
           "price": 22.99,
           "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:1364803420246",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-25T19:03:34.985Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12470777479254",
+          "label": "Title",
+          "price": 22.99,
+          "available": false
         }
       ],
       "type": "change",

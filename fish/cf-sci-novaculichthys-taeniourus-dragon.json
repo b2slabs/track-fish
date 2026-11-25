@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Dragon Wrasse",
-      "lastCheckedAt": "2026-11-24T19:59:48.098Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     }
   ],
   "events": [
@@ -40,6 +40,39 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:11164754060",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-25T19:02:12.467Z",
+      "price": 55.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "186022297625",
+          "label": "Small (1.5-3\")",
+          "price": 55.79,
+          "available": true
+        },
+        {
+          "id": "42170142540",
+          "label": "Medium (3-4\")",
+          "price": 76.79,
+          "available": true
+        },
+        {
+          "id": "32267642601553",
+          "label": "Large (4-6\")",
+          "price": 109.79,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:11164754060",
       "storeSlug": "aquarium-fish"

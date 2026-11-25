@@ -8,35 +8,35 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Dwarf Water Lettuce",
-      "lastCheckedAt": "2026-11-24T19:59:31.567Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "buce-plant:9541168717",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Pistia Stratiotes/ Water Lettuce",
-      "lastCheckedAt": "2026-11-24T20:00:42.767Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aquatic-arts:6562138226774+6562407678038+6562409152598",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Rosette Water Lettuce (Pistia stratiotes)",
-      "lastCheckedAt": "2026-11-24T19:58:11.943Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aqua-imports:60167",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Water Lettuce (Pistia stratiotes)",
-      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "nu-aqua-shop:10110476878140+10377641492796",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Water Lettuce",
-      "lastCheckedAt": "2026-11-24T20:01:34.520Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     }
   ],
   "events": [
@@ -266,6 +266,34 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10110476878140+10377641492796",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-25T19:04:00.223Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53027532865852",
+          "label": "Water Lettuce",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "51952827203900",
+          "label": "Dwarf Water Lettuce",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "nu-aqua-shop:10110476878140+10377641492796",
       "storeSlug": "nu-aqua-shop"

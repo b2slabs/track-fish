@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Black Molly",
-      "lastCheckedAt": "2026-11-24T19:59:48.098Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:8397996130611+9018063290675",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Black Molly (Poecilia sphenops)",
-      "lastCheckedAt": "2026-11-24T20:00:19.491Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquarium-fish:10130808897835",
@@ -29,7 +29,7 @@
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Black Lyretail Molly",
-      "lastCheckedAt": "2026-11-24T20:01:50.832Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     }
   ],
   "events": [
@@ -670,6 +670,44 @@
       ],
       "listingId": "dans-fish:10127072133418",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-25T19:02:43.781Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48371808076083",
+          "label": "1-2\" Unsexed",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "48371808108851",
+          "label": "(5 Pack) 1-2\" Unsexed",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "45611775459635",
+          "label": "1-2\" Unsexed",
+          "price": 3.99,
+          "available": true
+        },
+        {
+          "id": "45611775492403",
+          "label": "(5 Pack) 1-2\" Unsexed",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8397996130611+9018063290675",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

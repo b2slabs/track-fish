@@ -8,7 +8,7 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Utricularia Graminifolia",
-      "lastCheckedAt": "2026-11-24T20:01:09.812Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
@@ -119,6 +119,38 @@
           "label": "Aquatic Farmer Tissue Culture",
           "price": 10.99,
           "available": true
+        },
+        {
+          "id": "43500897173590",
+          "label": "UNS Tissue Culture - Regular",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "39962066845782",
+          "label": "UNS Tissue Culture - Small",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:490068967456",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-25T19:03:34.985Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39962066813014",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 10.99,
+          "available": false
         },
         {
           "id": "43500897173590",

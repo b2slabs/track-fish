@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Copperband Butterflyfish",
-      "lastCheckedAt": "2026-11-24T19:59:48.098Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:85072",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Copperband Butterfly (Chelmon rostratus)",
-      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -103,6 +103,38 @@
       ],
       "listingId": "aqua-imports:85072",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-25T19:02:12.467Z",
+      "price": 97.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51326789550379",
+          "label": "Small/Medium (2-2.5\")",
+          "price": 97.29,
+          "available": true
+        },
+        {
+          "id": "30518227788",
+          "label": "Medium (2.5-4\")",
+          "price": 140.79,
+          "available": true
+        },
+        {
+          "id": "51326786961707",
+          "label": "Large (4-6\")",
+          "price": 162.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquarium-fish:8843635084",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

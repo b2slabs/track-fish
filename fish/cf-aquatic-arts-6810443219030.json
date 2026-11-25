@@ -1,14 +1,14 @@
 {
   "canonicalFishId": "cf:aquatic-arts:6810443219030",
-  "commonName": "KatsAquatics 3-1 Limited Edition Calcium (1.7 oz)",
+  "commonName": "KatsAquatics 3-1 Limited Edition Calcium",
   "scientificName": null,
   "listings": [
     {
       "listingId": "aquatic-arts:6810443219030",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "KatsAquatics 3-1 Limited Edition Calcium (1.7 oz)",
-      "lastCheckedAt": "2026-11-24T19:58:11.943Z"
+      "commonName": "KatsAquatics 3-1 Limited Edition Calcium",
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
@@ -48,6 +48,33 @@
       "type": "change",
       "changedFields": [
         "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:6810443219030",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-25T19:00:36.524Z",
+      "price": 12.74,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "68288754844015",
+          "label": "1.7 oz",
+          "price": 12.74,
+          "available": true
+        },
+        {
+          "id": "68288754876783",
+          "label": "1.8 oz",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
         "variants"
       ],
       "listingId": "aquatic-arts:6810443219030",

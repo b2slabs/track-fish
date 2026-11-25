@@ -8,14 +8,14 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Hydrocotyle Sibthorpioides",
-      "lastCheckedAt": "2026-11-24T20:00:42.767Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:11277471879",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Hydrocotyle Sibthorpioides",
-      "lastCheckedAt": "2026-11-24T20:01:09.812Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
@@ -133,6 +133,72 @@
           "label": "Potted",
           "price": 7.99,
           "available": true
+        },
+        {
+          "id": "40176253468758",
+          "label": "AF Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "glass-aqua:11277471879",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-25T19:03:07.423Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "35459943309",
+          "label": "Pot",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "12425264005201",
+          "label": "3 Pot Package",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "12425264037969",
+          "label": "5 Pot Package",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:9560106893",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-25T19:03:34.985Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52738875527",
+          "label": "UNS Tissue Culture",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "5260632064032",
+          "label": "Potted",
+          "price": 7.99,
+          "available": false
         },
         {
           "id": "40176253468758",

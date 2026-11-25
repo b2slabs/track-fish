@@ -8,14 +8,14 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Fisher's Wood Cat",
-      "lastCheckedAt": "2026-11-24T20:00:19.491Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aqua-imports:64530",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Fisher’s Wood Catfish (Trachelyopterus fisheri)",
-      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -55,6 +55,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aqua-imports:64530",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-25T19:04:38.047Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "64530",
+          "label": "Default",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "aqua-imports:64530",
       "storeSlug": "aqua-imports"

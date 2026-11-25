@@ -8,21 +8,21 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Black Galaxy Shrimp Mix",
-      "lastCheckedAt": "2026-11-24T19:59:00.415Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "aquatic-arts:6658640117846",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Black Galaxy Pinto Shrimp (Caridina cantonensis, A Grade), Tank-Bred",
-      "lastCheckedAt": "2026-11-24T19:58:11.943Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "shrimpy-business:4532625145941",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Black Galaxy Pinto Shrimp",
-      "lastCheckedAt": "2026-11-24T19:59:24.021Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     }
   ],
   "events": [
@@ -204,6 +204,44 @@
       ],
       "listingId": "shrimpy-business:4532625145941",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-25T19:00:36.524Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39599426863190",
+          "label": "1 Shrimp",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "39599426895958",
+          "label": "5 Shrimp",
+          "price": 92.5,
+          "available": false
+        },
+        {
+          "id": "39599426928726",
+          "label": "10 Shrimp",
+          "price": 229.99,
+          "available": false
+        },
+        {
+          "id": "39599426961494",
+          "label": "20 Shrimp",
+          "price": 439.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:6658640117846",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

@@ -8,42 +8,42 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Anubias Congensis",
-      "lastCheckedAt": "2026-11-24T20:01:34.520Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "shrimpy-business:6721556480085",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Anubias Congensis",
-      "lastCheckedAt": "2026-11-24T19:59:24.021Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "flip-aquatics:6692632854630",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Anubias Congensis",
-      "lastCheckedAt": "2026-11-24T19:59:31.567Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "imperial-tropicals:9490239390003",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Anubias congensis",
-      "lastCheckedAt": "2026-11-24T20:00:19.491Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "glass-aqua:6863580561494",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Anubias Congensis",
-      "lastCheckedAt": "2026-11-24T20:01:09.812Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "aqua-imports:59900",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Anubias Congensis (Anubias afzelii)",
-      "lastCheckedAt": "2026-11-24T20:02:11.699Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -693,6 +693,33 @@
       ],
       "listingId": "aqua-imports:59900",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-25T19:02:43.781Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53603124937011",
+          "label": "1 Medium Plant",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "50255771697459",
+          "label": "1 Potted Plant",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:9490239390003",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

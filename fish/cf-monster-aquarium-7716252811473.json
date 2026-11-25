@@ -8,14 +8,14 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Microdevario kubotai (Neon Green Rasbora)",
-      "lastCheckedAt": "2026-11-24T19:58:44.448Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:685418",
       "storeSlug": "wet-spot-tropical-fish",
       "storeName": "The Wet Spot Tropical Fish",
       "commonName": "Microdevario kubotai",
-      "lastCheckedAt": "2026-11-24T20:02:01.801Z"
+      "lastCheckedAt": "2026-11-25T19:04:28.157Z"
     }
   ],
   "events": [
@@ -180,6 +180,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "wet-spot-tropical-fish:685418",
+      "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-25T19:04:28.157Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "685418",
+          "label": "Default",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "wet-spot-tropical-fish:685418",
       "storeSlug": "wet-spot-tropical-fish"

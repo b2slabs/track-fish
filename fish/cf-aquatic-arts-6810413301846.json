@@ -1,14 +1,14 @@
 {
   "canonicalFishId": "cf:aquatic-arts:6810413301846",
-  "commonName": "KatsAquatics Calcium + Protein (1.7 oz)",
+  "commonName": "KatsAquatics Calcium + Protein",
   "scientificName": null,
   "listings": [
     {
       "listingId": "aquatic-arts:6810413301846",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
-      "commonName": "KatsAquatics Calcium + Protein (1.7 oz)",
-      "lastCheckedAt": "2026-11-24T19:58:11.943Z"
+      "commonName": "KatsAquatics Calcium + Protein",
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
@@ -28,6 +28,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquatic-arts:6810413301846",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-25T19:00:36.524Z",
+      "price": 12.74,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "68288733806959",
+          "label": "1.7 oz",
+          "price": 12.74,
+          "available": true
+        },
+        {
+          "id": "68288733839727",
+          "label": "1.8 oz",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:6810413301846",
       "storeSlug": "aquatic-arts"
