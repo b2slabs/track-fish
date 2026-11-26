@@ -360,3 +360,71 @@ test('a group of three same-Store, same-Canonical-Fish bundle Listings never mer
     }
   });
 });
+
+test('issue #96: a same-Store merge group gaining a sibling product does not re-fire first-observed for the already-tracked one', () => {
+  withTempDataDir((dataDir) => {
+    // Run 1: only product 1 exists for this Store -- a plain, unmerged
+    // Listing with real history starting here.
+    processStoreRun({
+      store,
+      rawData: {
+        products: [
+          {
+            id: 1,
+            title: 'White Cloud Minnow',
+            handle: '1',
+            body_html: '<p>White Cloud Mountain Minnow (Tanichthys albonubes)</p>',
+            variants: [{ id: 10, title: 'Default Title', price: '2.99', available: true }],
+            images: [],
+            options: [],
+          },
+        ],
+      },
+      dataDir,
+      now: new Date('2026-11-18T00:00:00.000Z'),
+    });
+
+    const beforeIndex = readIndexFile(dataDir);
+    const beforeListing = beforeIndex.listings.find((l) => l.storeSlug === 'aquarium-fish');
+    assert.equal(beforeListing!.listingId, 'aquarium-fish:1');
+
+    // Run 2: a second, same-Canonical-Fish product from this same Store
+    // newly appears (e.g. just came back in stock, or was just matched) --
+    // the merge group's *composition* changes from {1} to {1, 2}, so the
+    // merged listingId changes from "aquarium-fish:1" to "aquarium-fish:1+2"
+    // even though product 1 itself has been tracked continuously. This
+    // must not be reported as a brand-new Listing: product 1's own price
+    // (2.99) is unchanged, so the only genuinely new information is that a
+    // second variant showed up.
+    processStoreRun({
+      store,
+      rawData: rawTwoProducts(),
+      dataDir,
+      now: new Date('2026-11-19T00:00:00.000Z'),
+    });
+
+    const index = readIndexFile(dataDir);
+    const storeListings = index.listings.filter((l) => l.storeSlug === 'aquarium-fish');
+    assert.equal(storeListings.length, 1);
+    const merged = storeListings[0];
+    assert.equal(merged.listingId, 'aquarium-fish:1+2');
+    assert.equal(merged.firstObservedAt, '2026-11-18T00:00:00.000Z', 'firstObservedAt carried through from product 1');
+
+    const history = readHistoryFile(dataDir, merged.canonicalFishId) as CanonicalFishHistory;
+    // Exactly one 'first-observed' event total across this Listing's whole
+    // history (from run 1, under its pre-merge id, retagged onto the
+    // merged listingId when its history was moved) -- run 2's merge must
+    // produce a genuine 'variants' change event, not a second, spurious
+    // 'first-observed' that makes this long-tracked Listing look brand new.
+    const firstObservedCount = history.events.filter((e) => e.changedFields?.includes('first-observed')).length;
+    assert.equal(firstObservedCount, 1, 'only the original run should ever be first-observed');
+
+    const run2Event = history.events.find((e) => e.observedAt === '2026-11-19T00:00:00.000Z');
+    assert.ok(run2Event, 'run 2 produced a Change Event');
+    assert.ok(
+      !run2Event?.changedFields?.includes('first-observed'),
+      'run 2\'s event must not be first-observed -- product 1 already has real history',
+    );
+    assert.ok(run2Event?.changedFields?.includes('variants'), 'run 2\'s event reports the genuine variants change');
+  });
+});
