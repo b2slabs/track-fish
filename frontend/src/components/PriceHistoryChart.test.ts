@@ -224,6 +224,15 @@ describe('computeVariantLines — outOfStockRun (issue #103)', () => {
     expect(start.timestamp).toBe(new Date('2026-11-20T00:00:00Z').getTime());
     expect(end.timestamp).toBe(new Date('2026-11-26T00:00:00Z').getTime());
     expect(end.price).toBe(10); // flat at the last real price
+    // Regression (user report, NU Aqua Shop / Gastrodermus hastatus): this
+    // run has exactly one real point, so `LinesOverlay` would otherwise draw
+    // issue #89's symmetric single-point stub centered on it AND the gray
+    // outOfStockRun line starting from it, double-drawing a short line right
+    // on top of the stub's own right half -- visually a stray line crossing
+    // the point. `outOfStockRun[0]` identifying the exact same point as the
+    // lone point in `runs[0]` is what `LinesOverlay` keys off of to skip the
+    // redundant stub in that case.
+    expect(start.key).toBe(line.runs[0][0].key);
   });
 
   it('extends a delisted (vanished) variant\'s outOfStockRun only to its frozen lastCheckedAt, not further', () => {
