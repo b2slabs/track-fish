@@ -557,9 +557,13 @@ const LINE_WIDTH = 2;
  * The out-of-stock/delisted trailing segment (issue #103, `VariantLine.outOfStockRun`)
  * always renders in this muted gray, deliberately never a Store's own
  * color — a shopper should never mistake it for real, currently-accurate
- * pricing, regardless of which Store's line it trails.
+ * pricing, regardless of which Store's line it trails. Drawn at
+ * `OUT_OF_STOCK_OPACITY` (light/transparent, not a solid dark gray) so it
+ * unmistakably reads as "faded out"/not-currently-real, sitting visually
+ * beneath every Store's own full-opacity colored line.
  */
 const OUT_OF_STOCK_COLOR = 'var(--color-muted-foreground, #71717a)';
+const OUT_OF_STOCK_OPACITY = 0.35;
 
 /**
  * A short line-style swatch (color + dash) used both in the legend and the
@@ -687,6 +691,7 @@ function LinesOverlay({
                     x2={b.cx}
                     y2={b.cy}
                     stroke={OUT_OF_STOCK_COLOR}
+                    strokeOpacity={OUT_OF_STOCK_OPACITY}
                     strokeWidth={LINE_WIDTH}
                     strokeLinecap="round"
                   />
@@ -695,6 +700,7 @@ function LinesOverlay({
                     cy={b.cy}
                     r={isHovered ? POINT_RADIUS_HOVERED : POINT_RADIUS}
                     fill={OUT_OF_STOCK_COLOR}
+                    fillOpacity={OUT_OF_STOCK_OPACITY}
                     stroke="var(--color-background, #fff)"
                     strokeWidth={POINT_RING_WIDTH}
                   />
