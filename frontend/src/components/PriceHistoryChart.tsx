@@ -919,10 +919,13 @@ function StoreLinesChart({ events, listings }: { events: HistoryEvent[]; listing
   const showLegend = lines.length > 1;
 
   // Group lines by Store (in that Store's stable first-seen order) for the
-  // legend: a Store with exactly one line shows a plain swatch + its name
-  // (identical to issue #59's legend row); a Store with several shows its
-  // name once followed by one swatch+label row per variant, since those
-  // lines share a color and only their dash style/label tell them apart.
+  // legend: every Store's row uses the same `LineSwatch` line-style icon
+  // (issue #97) regardless of how many lines it has — a Store with exactly
+  // one line is visually just the single-variant case of the same pattern
+  // a multi-variant Store uses, not a different kind of legend entry.
+  // A Store with several lines shows its name once followed by one
+  // swatch+label row per variant, since those lines share a color and only
+  // their dash style/label tell them apart.
   const byStore = useMemo(() => {
     const groups = new Map<string, VariantLine[]>();
     for (const line of lines) {
@@ -944,10 +947,7 @@ function StoreLinesChart({ events, listings }: { events: HistoryEvent[]; listing
             {byStore.map(({ slug, meta, lines: storeLines }) =>
               storeLines.length === 1 ? (
                 <span key={slug} className="inline-flex items-center gap-1.5">
-                  <span
-                    className="inline-block size-2.5 shrink-0 rounded-[2px]"
-                    style={{ backgroundColor: meta.color }}
-                  />
+                  <LineSwatch color={meta.color} dash={storeLines[0].dash} />
                   {meta.label}
                 </span>
               ) : (
