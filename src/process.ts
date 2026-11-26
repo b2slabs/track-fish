@@ -261,7 +261,26 @@ export function processStoreRun(params: {
     // into this one, there is none yet, so the diff is a fresh
     // 'first-observed' Change Event (the same treatment a genuinely new
     // Listing gets).
-    const previous = previousListingsById.get(listingId);
+    //
+    // Falls back to `previousListingsByProductId` (same rationale as
+    // `priorFirstObservedAt` above) when the exact merged listingId isn't
+    // found -- issue #96: a merge group's *composition* can change between
+    // runs (a sibling product newly appearing or dropping out) even when
+    // no individual product is actually new, which changes the compound
+    // listingId string itself. Without this fallback, `previousListingsById`
+    // would never find that already-tracked product under its *new*
+    // compound id, and this would misfire as a spurious 'first-observed'
+    // Change Event -- resetting a Listing's visible history -- instead of
+    // the genuine (if any) price/availability/variants diff it actually is.
+    // When more than one of this group's products already had its own
+    // separate prior history (a first-time merge of two previously
+    // untracked-together Listings), the earliest-established one is used,
+    // mirroring `priorFirstObservedAt`'s own earliest-wins tie-break.
+    const previousCandidates = group
+      .map((g) => previousListingsByProductId.get(g.parsed.productIdentifier))
+      .filter((l): l is Listing => l != null)
+      .sort((a, b) => (a.firstObservedAt < b.firstObservedAt ? -1 : a.firstObservedAt > b.firstObservedAt ? 1 : 0));
+    const previous = previousListingsById.get(listingId) ?? previousCandidates[0];
     const diffEvent = diffListing(previous, listing);
     if (diffEvent) {
       changeCount++;
