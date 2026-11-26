@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
+import { getDisplayName } from '@/lib/display-name';
 import { formatPrice } from '@/lib/format';
+import { isSoldOutPlaceholder } from '@/lib/listing-freshness';
 import type { Listing } from '@/types/data';
 
 /**
@@ -35,6 +37,11 @@ export function ListingCard({
   inStockStoreCount?: number;
 }) {
   const detailHref = `/fish/${encodeURIComponent(listing.canonicalFishId)}`;
+  // Same name + scientific-name-as-subtitle formatting FishDetailPage uses
+  // for its header (issue #91) — both surfaces call this instead of
+  // reading `commonName`/`scientificName` off the Listing directly, so
+  // they can't drift back apart.
+  const displayName = getDisplayName(listing);
 
   return (
     <Card className="flex flex-col overflow-hidden">
@@ -43,7 +50,7 @@ export function ListingCard({
           {listing.imageUrl ? (
             <img
               src={listing.imageUrl}
-              alt={listing.commonName}
+              alt={displayName.name}
               loading="lazy"
               className="h-full w-full object-cover transition-transform hover:scale-105"
             />
@@ -56,8 +63,11 @@ export function ListingCard({
       </Link>
       <CardHeader className="gap-1 pb-2">
         <Link to={detailHref} className="font-medium leading-snug hover:underline">
-          {listing.commonName}
+          {displayName.name}
         </Link>
+        {displayName.scientificName && (
+          <p className="text-xs italic text-muted-foreground">{displayName.scientificName}</p>
+        )}
         <div className="flex flex-wrap items-center gap-1.5">
           <Badge variant={inStockStoreCount > 0 ? 'default' : 'destructive'}>
             {storeCount > 1
@@ -72,15 +82,36 @@ export function ListingCard({
       </CardHeader>
       <CardContent className="flex-1 pb-2">
         <p className="text-lg font-semibold">
-          {storeCount > 1 ? 'From ' : ''}
-          {formatPrice(listing.price, listing.currency)}
+          {isSoldOutPlaceholder(listing.price) ? (
+            // issue #86: last-resort case — every Listing in the group is
+            // priced at the $0.00 sold-out placeholder, so there's no real
+            // price anywhere to show "From" (group-listings.ts's
+            // pickRepresentative falls back to just the first Listing here).
+            'Price unavailable'
+          ) : (
+            <>
+              {storeCount > 1 ? 'From ' : ''}
+              {formatPrice(listing.price, listing.currency)}
+            </>
+          )}
         </p>
-        {listing.variants.length > 1 && (
-          <p className="text-xs text-muted-foreground">
-            {listing.variants.length} variants · from{' '}
-            {formatPrice(Math.min(...listing.variants.map((v) => v.price)), listing.currency)}
-          </p>
-        )}
+        {listing.variants.length > 1 &&
+          (() => {
+            // issue #86: a variant priced at the $0.00 sold-out placeholder
+            // must never leak into this "from $X" figure — skip it the same
+            // way `group-listings.ts`'s representative-picking already does
+            // at the Listing level.
+            const realPrices = listing.variants
+              .map((v) => v.price)
+              .filter((p) => !isSoldOutPlaceholder(p));
+            if (realPrices.length === 0) return null;
+            return (
+              <p className="text-xs text-muted-foreground">
+                {listing.variants.length} variants · from{' '}
+                {formatPrice(Math.min(...realPrices), listing.currency)}
+              </p>
+            );
+          })()}
       </CardContent>
     </Card>
   );

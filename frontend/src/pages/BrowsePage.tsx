@@ -8,6 +8,7 @@ import { useIndex } from '@/hooks/useIndex';
 import { useInfiniteScroll } from '@/hooks/useInfiniteScroll';
 import { categorizeListing, categoryRank } from '@/lib/categorize';
 import { groupListingsByCanonicalFish } from '@/lib/group-listings';
+import { displayListingStatus } from '@/lib/listing-freshness';
 
 const PAGE_SIZE = 24;
 
@@ -69,7 +70,14 @@ export function BrowsePage() {
     }
     if (filters.availability !== 'all') {
       const wantAvailable = filters.availability === 'available';
-      listings = listings.filter((l) => l.available === wantAvailable);
+      // issue #86: the availability filter must agree with what the card
+      // itself displays — a stale or $0.00-placeholder-priced Listing
+      // should never show up under "Available" just because its own raw
+      // `available` flag still says true.
+      const now = new Date();
+      listings = listings.filter(
+        (l) => displayListingStatus(l, index.stores, now).available === wantAvailable,
+      );
     }
 
     return listings;
@@ -91,7 +99,8 @@ export function BrowsePage() {
   // results, since search only affects `filteredListings` upstream — so
   // tiering applies identically either way.
   const groups = useMemo(() => {
-    const grouped = groupListingsByCanonicalFish(filteredListings);
+    if (!index) return [];
+    const grouped = groupListingsByCanonicalFish(filteredListings, index.stores);
     // Precompute each group's category rank once (O(n)) instead of calling
     // the (string-scanning, description-fallback) categorizeListing() twice
     // per comparison inside the sort below — a plain Array.sort comparator
@@ -116,7 +125,7 @@ export function BrowsePage() {
         ? a.representative.price - b.representative.price
         : b.representative.price - a.representative.price;
     });
-  }, [filteredListings, filters.sort]);
+  }, [filteredListings, filters.sort, index]);
 
   function handleFilterChange(next: FilterState) {
     setFilters(next);
