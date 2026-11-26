@@ -3,6 +3,7 @@ import type { MouseEvent as ReactMouseEvent, RefObject } from 'react';
 import { CartesianGrid, Line, LineChart, ResponsiveContainer, XAxis, YAxis } from 'recharts';
 import { formatDateTime, formatPrice, normalizeVariantLabel } from '@/lib/format';
 import type { HistoryEvent } from '@/types/data';
+import { singlePointStubPath } from './price-history-chart-geometry';
 
 /**
  * Per-variant price history chart (issue #75) — replaces the median-per-Store
@@ -558,8 +559,11 @@ function LineSwatch({ color, dash }: { color: string; dash?: string }) {
  * independent schedules, so a single shared x-axis dataset would force
  * spurious breaks into a line at every *other* line's observation time, not
  * just its own). A run of exactly one point (nothing to connect it to,
- * isolated on both sides by a gap) renders as a lone dot instead of a
- * zero-length path.
+ * isolated on both sides by a gap) renders as a short line-style stub (see
+ * `singlePointStubPath`, issue #89) plus the usual point marker, rather than
+ * either a zero-length path or a lone dot with no line-like styling — same
+ * color/dash/width as a multi-point run, so point count alone never reads
+ * as a different line style.
  */
 function LinesOverlay({
   lines,
@@ -580,18 +584,32 @@ function LinesOverlay({
         line.runs.map((run, runIdx) => {
           if (run.length === 0) return null;
           if (run.length === 1) {
+            // Issue #89: isolated on both sides by a gap, so there's no
+            // neighboring point to draw a real step to — but it still needs
+            // to read as "this Store's line", not a plain dot, so it gets
+            // the same short line-style stub + point marker a multi-point
+            // run's own points are drawn with below.
             const { cx, cy } = pointXY(rect, domain, run[0], line.seriesIndex, storeCount);
             const isHovered = run[0].key === hoveredKey;
             return (
-              <circle
-                key={`${line.key}-${runIdx}`}
-                cx={cx}
-                cy={cy}
-                r={isHovered ? POINT_RADIUS_HOVERED : POINT_RADIUS}
-                fill={line.color}
-                stroke="var(--color-background, #fff)"
-                strokeWidth={POINT_RING_WIDTH}
-              />
+              <g key={`${line.key}-${runIdx}`}>
+                <path
+                  d={singlePointStubPath(cx, cy)}
+                  fill="none"
+                  stroke={line.color}
+                  strokeWidth={LINE_WIDTH}
+                  strokeDasharray={line.dash}
+                  strokeLinecap="round"
+                />
+                <circle
+                  cx={cx}
+                  cy={cy}
+                  r={isHovered ? POINT_RADIUS_HOVERED : POINT_RADIUS}
+                  fill={line.color}
+                  stroke="var(--color-background, #fff)"
+                  strokeWidth={POINT_RING_WIDTH}
+                />
+              </g>
             );
           }
           return (
