@@ -155,6 +155,23 @@ export interface VariantLine {
   dash?: string;
   currency: string;
   runs: VariantPoint[][];
+  /**
+   * The trailing "known not purchasable" stretch (issue #103), when this
+   * variant's last known state is a gap (out of stock, or vanished from its
+   * Store's catalog) rather than a real observation: `[lastRealPoint,
+   * syntheticEndPoint]`, flat at `lastRealPoint`'s price. `syntheticEndPoint`
+   * sits at this Listing's `lastCheckedAt` — which, per `src/process.ts`,
+   * only ever advances when a Listing is actually re-observed, so it
+   * already carries the distinction this needs with no separate staleness
+   * check: still-tracked-but-out-of-stock keeps `lastCheckedAt` advancing
+   * (segment reaches "now"), while a delisted/vanished Listing's
+   * `lastCheckedAt` is frozen at its last real observation (segment stops
+   * there). Rendered in a muted gray, never the Store's own color, so it's
+   * never mistaken for real, currently-accurate pricing. `undefined` when
+   * the variant is currently in stock (see the ordinary `runs` extension
+   * instead) or there is nothing to extend to.
+   */
+  outOfStockRun?: [VariantPoint, VariantPoint];
 }
 
 /**
@@ -270,6 +287,7 @@ export function computeVariantLines(
     siblingCount: number;
     runs: VariantPoint[][];
     sawGapEvidence: boolean;
+    outOfStockRun?: [VariantPoint, VariantPoint];
   }
 
   const lines: VariantLine[] = [];
@@ -331,25 +349,35 @@ export function computeVariantLines(
       acc.runs = mergeSamePriceRuns(acc.runs);
     }
 
-    // Issue #81: extend each variant's final run flat out to this Listing's
-    // own lastCheckedAt, as long as its last known state isn't already a
-    // gap (sawGapEvidence) -- see this function's doc. Done once per
-    // Listing (not per variant fetch) since every variant on one Listing
-    // shares the same lastCheckedAt.
+    // Issue #81/#103: extend each variant's final state flat out to this
+    // Listing's own lastCheckedAt -- as a continuation of the real colored
+    // line when currently in stock (issue #81), or as a separate gray
+    // `outOfStockRun` when its last known state is already a gap (issue
+    // #103: out of stock, or vanished from the catalog -- see this
+    // function's doc and `VariantLine.outOfStockRun`'s doc for why
+    // `lastCheckedAt` alone already distinguishes "still tracked" from
+    // "delisted" here with no separate staleness check). Done once per
+    // Listing (not per variant) since every variant on one Listing shares
+    // the same lastCheckedAt.
     const lastCheckedAt = lastCheckedAtByListing.get(listingId);
     const lastCheckedTimestamp = lastCheckedAt ? new Date(lastCheckedAt).getTime() : undefined;
     if (lastCheckedTimestamp != null) {
       for (const acc of accums.values()) {
-        if (acc.sawGapEvidence || acc.runs.length === 0) continue;
+        if (acc.runs.length === 0) continue;
         const lastRun = acc.runs[acc.runs.length - 1];
         const lastPoint = lastRun[lastRun.length - 1];
         if (lastCheckedTimestamp <= lastPoint.timestamp) continue; // nothing to extend
-        lastRun.push({
+        const endPoint: VariantPoint = {
           key: `${listingId}::${acc.variantId}::lastChecked::${lastCheckedTimestamp}`,
           timestamp: lastCheckedTimestamp,
           observedAt: lastCheckedAt!,
           price: lastPoint.price,
-        });
+        };
+        if (acc.sawGapEvidence) {
+          acc.outOfStockRun = [lastPoint, endPoint];
+        } else {
+          lastRun.push(endPoint);
+        }
       }
     }
 
@@ -365,6 +393,7 @@ export function computeVariantLines(
         dash: dashPattern(dashIdx),
         currency: meta.currency,
         runs: acc.runs,
+        outOfStockRun: acc.outOfStockRun,
       });
     }
   }
@@ -387,7 +416,8 @@ function useLineDomain(lines: VariantLine[]): Domain | null {
     let maxP = -Infinity;
     let any = false;
     for (const line of lines) {
-      for (const run of line.runs) {
+      const allPoints = line.outOfStockRun ? [...line.runs, line.outOfStockRun] : line.runs;
+      for (const run of allPoints) {
         for (const p of run) {
           any = true;
           if (p.timestamp < minT) minT = p.timestamp;
@@ -523,6 +553,13 @@ const POINT_RADIUS = 3;
 const POINT_RADIUS_HOVERED = 5.5;
 const POINT_RING_WIDTH = 1.5;
 const LINE_WIDTH = 2;
+/**
+ * The out-of-stock/delisted trailing segment (issue #103, `VariantLine.outOfStockRun`)
+ * always renders in this muted gray, deliberately never a Store's own
+ * color — a shopper should never mistake it for real, currently-accurate
+ * pricing, regardless of which Store's line it trails.
+ */
+const OUT_OF_STOCK_COLOR = 'var(--color-muted-foreground, #71717a)';
 
 /**
  * A short line-style swatch (color + dash) used both in the legend and the
@@ -574,55 +611,29 @@ function LinesOverlay({
 }) {
   return (
     <svg className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden="true">
-      {lines.map((line) =>
-        line.runs.map((run, runIdx) => {
-          if (run.length === 0) return null;
-          if (run.length === 1) {
-            // Issue #89: isolated on both sides by a gap, so there's no
-            // neighboring point to draw a real step to — but it still needs
-            // to read as "this Store's line", not a plain dot, so it gets
-            // the same short line-style stub + point marker a multi-point
-            // run's own points are drawn with below.
-            const { cx, cy } = pointXY(rect, domain, run[0]);
-            const isHovered = run[0].key === hoveredKey;
-            return (
-              <g key={`${line.key}-${runIdx}`}>
-                <path
-                  d={singlePointStubPath(cx, cy)}
-                  fill="none"
-                  stroke={line.color}
-                  strokeWidth={LINE_WIDTH}
-                  strokeDasharray={line.dash}
-                  strokeLinecap="round"
-                />
-                <circle
-                  cx={cx}
-                  cy={cy}
-                  r={isHovered ? POINT_RADIUS_HOVERED : POINT_RADIUS}
-                  fill={line.color}
-                  stroke="var(--color-background, #fff)"
-                  strokeWidth={POINT_RING_WIDTH}
-                />
-              </g>
-            );
-          }
-          return (
-            <g key={`${line.key}-${runIdx}`}>
-              <path
-                d={stepPath(rect, domain, run)}
-                fill="none"
-                stroke={line.color}
-                strokeWidth={LINE_WIDTH}
-                strokeDasharray={line.dash}
-                strokeLinejoin="round"
-                strokeLinecap="round"
-              />
-              {run.map((p) => {
-                const { cx, cy } = pointXY(rect, domain, p);
-                const isHovered = p.key === hoveredKey;
-                return (
+      {lines.map((line) => (
+        <g key={line.key}>
+          {line.runs.map((run, runIdx) => {
+            if (run.length === 0) return null;
+            if (run.length === 1) {
+              // Issue #89: isolated on both sides by a gap, so there's no
+              // neighboring point to draw a real step to — but it still needs
+              // to read as "this Store's line", not a plain dot, so it gets
+              // the same short line-style stub + point marker a multi-point
+              // run's own points are drawn with below.
+              const { cx, cy } = pointXY(rect, domain, run[0]);
+              const isHovered = run[0].key === hoveredKey;
+              return (
+                <g key={`${line.key}-${runIdx}`}>
+                  <path
+                    d={singlePointStubPath(cx, cy)}
+                    fill="none"
+                    stroke={line.color}
+                    strokeWidth={LINE_WIDTH}
+                    strokeDasharray={line.dash}
+                    strokeLinecap="round"
+                  />
                   <circle
-                    key={p.key}
                     cx={cx}
                     cy={cy}
                     r={isHovered ? POINT_RADIUS_HOVERED : POINT_RADIUS}
@@ -630,12 +641,68 @@ function LinesOverlay({
                     stroke="var(--color-background, #fff)"
                     strokeWidth={POINT_RING_WIDTH}
                   />
-                );
-              })}
-            </g>
-          );
-        }),
-      )}
+                </g>
+              );
+            }
+            return (
+              <g key={`${line.key}-${runIdx}`}>
+                <path
+                  d={stepPath(rect, domain, run)}
+                  fill="none"
+                  stroke={line.color}
+                  strokeWidth={LINE_WIDTH}
+                  strokeDasharray={line.dash}
+                  strokeLinejoin="round"
+                  strokeLinecap="round"
+                />
+                {run.map((p) => {
+                  const { cx, cy } = pointXY(rect, domain, p);
+                  const isHovered = p.key === hoveredKey;
+                  return (
+                    <circle
+                      key={p.key}
+                      cx={cx}
+                      cy={cy}
+                      r={isHovered ? POINT_RADIUS_HOVERED : POINT_RADIUS}
+                      fill={line.color}
+                      stroke="var(--color-background, #fff)"
+                      strokeWidth={POINT_RING_WIDTH}
+                    />
+                  );
+                })}
+              </g>
+            );
+          })}
+          {line.outOfStockRun &&
+            (() => {
+              const [start, end] = line.outOfStockRun;
+              const a = pointXY(rect, domain, start);
+              const b = pointXY(rect, domain, end);
+              const isHovered = end.key === hoveredKey;
+              return (
+                <g key={`${line.key}-oos`}>
+                  <line
+                    x1={a.cx}
+                    y1={a.cy}
+                    x2={b.cx}
+                    y2={b.cy}
+                    stroke={OUT_OF_STOCK_COLOR}
+                    strokeWidth={LINE_WIDTH}
+                    strokeLinecap="round"
+                  />
+                  <circle
+                    cx={b.cx}
+                    cy={b.cy}
+                    r={isHovered ? POINT_RADIUS_HOVERED : POINT_RADIUS}
+                    fill={OUT_OF_STOCK_COLOR}
+                    stroke="var(--color-background, #fff)"
+                    strokeWidth={POINT_RING_WIDTH}
+                  />
+                </g>
+              );
+            })()}
+        </g>
+      ))}
     </svg>
   );
 }
@@ -681,7 +748,8 @@ function useNearestPointHover(
     let bestXY: { cx: number; cy: number } | null = null;
     let bestDist = Infinity;
     for (const line of lines) {
-      for (const run of line.runs) {
+      const allPoints = line.outOfStockRun ? [...line.runs, line.outOfStockRun] : line.runs;
+      for (const run of allPoints) {
         for (const p of run) {
           const xy = pointXY(rect, domain, p);
           const dx = (xy.cx - mx) / rect.width;
