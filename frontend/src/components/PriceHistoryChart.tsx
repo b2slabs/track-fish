@@ -123,13 +123,11 @@ function dashPattern(index: number): string | undefined {
   return DASH_PATTERNS[index % DASH_PATTERNS.length];
 }
 
-/** Per-Store display identity a line needs: legend/tooltip label, color, currency, stagger basis. */
+/** Per-Store display identity a line needs: legend/tooltip label, color, currency. */
 export interface StoreMeta {
   label: string;
   color: string;
   currency: string;
-  /** Stable first-seen index across `listings` — drives both `seriesColor` and the same-day stagger offset. */
-  seriesIndex: number;
 }
 
 /** One real observation of one variant's line, in stepAfter order. */
@@ -156,8 +154,6 @@ export interface VariantLine {
   color: string;
   dash?: string;
   currency: string;
-  /** This line's Store's stable first-seen index — see `StoreMeta.seriesIndex`. */
-  seriesIndex: number;
   runs: VariantPoint[][];
 }
 
@@ -368,7 +364,6 @@ export function computeVariantLines(
         color: meta.color,
         dash: dashPattern(dashIdx),
         currency: meta.currency,
-        seriesIndex: meta.seriesIndex,
         runs: acc.runs,
       });
     }
@@ -376,7 +371,7 @@ export function computeVariantLines(
   return lines;
 }
 
-interface Domain {
+export interface Domain {
   minT: number;
   maxT: number;
   minP: number;
@@ -413,7 +408,7 @@ function useLineDomain(lines: VariantLine[]): Domain | null {
   }, [lines]);
 }
 
-interface PlotRect {
+export interface PlotRect {
   left: number;
   top: number;
   width: number;
@@ -489,60 +484,18 @@ function usePlotRect(dataLength: number) {
   return { containerRef, rect };
 }
 
-const DAY_MS = 24 * 60 * 60 * 1000;
-/** Smallest/largest per-step horizontal nudge a Store's stagger offset can use. */
-const MIN_STAGGER_SPACING_PX = 2;
-const MAX_STAGGER_SPACING_PX = 7;
 /**
- * How much of one day's own pixel width the full staggered cluster (every
- * Store's offset, end to end) may spread across, at most (issue #53,
- * carried into the per-variant redesign per issue #75's "same-day bars/
- * points stay staggered" criterion). `cx` is continuous time, so on a
- * short/zoomed-in time range one day already spans many pixels and a
- * generous stagger reads clearly as "a few Stores sharing a day"; on a long
- * time range one day can collapse toward a single pixel, and the same
- * fixed-pixel stagger would start to look like a run of separate days.
- * Scaling the spacing to a fraction of the domain's own pixels-per-day —
- * capped either way by `MIN/MAX_STAGGER_SPACING_PX` — keeps the cluster
- * small relative to a day's own width at any zoom level.
+ * Maps one point's (timestamp, price) to pixel coordinates inside `rect`.
+ *
+ * Issue #53 originally nudged same-day points from different Stores apart
+ * horizontally (`staggerOffsetPx`) so they wouldn't visually overlap.
+ * Issue #94 removed that: since issue #59's Keepa-style redesign and issue
+ * #75's per-variant lines, each Store already has its own distinct
+ * color/dash and renders as a continuous step-line, so a point's x always
+ * matches its true observed timestamp now — no cosmetic offset.
  */
-const MAX_CLUSTER_FRACTION_OF_DAY = 0.5;
-
-/**
- * This Store's horizontal pixel nudge, stable for the life of the chart
- * (depends only on `seriesIndex` and the overall domain/store count, never
- * on which other Stores happen to share a particular day — issue #53).
- * Offsets are centered on zero and evenly spaced by `seriesIndex`, so a
- * cluster of Stores observed on the same day fans out symmetrically around
- * that day's true x position instead of drifting the whole cluster to one
- * side. A single-Store chart (`storeCount <= 1`) always gets zero offset —
- * nothing to stagger against. Applied uniformly to every one of a Store's
- * variant lines (issue #75): they move together as one cluster, so a
- * Store's own variants stay comparable to each other while the whole
- * cluster separates from another Store's.
- */
-function staggerOffsetPx(rect: PlotRect, domain: Domain, seriesIndex: number, storeCount: number): number {
-  if (storeCount <= 1) return 0;
-  const span = domain.maxT - domain.minT || 1;
-  const pixelsPerDay = (rect.width * DAY_MS) / span;
-  const maxClusterWidth = pixelsPerDay * MAX_CLUSTER_FRACTION_OF_DAY;
-  const spacing = Math.min(
-    MAX_STAGGER_SPACING_PX,
-    Math.max(MIN_STAGGER_SPACING_PX, maxClusterWidth / Math.max(storeCount - 1, 1)),
-  );
-  return (seriesIndex - (storeCount - 1) / 2) * spacing;
-}
-
-/** Maps one point's (timestamp, price) to pixel coordinates inside `rect`, staggered by its line's Store. */
-function pointXY(
-  rect: PlotRect,
-  domain: Domain,
-  point: VariantPoint,
-  seriesIndex: number,
-  storeCount: number,
-): { cx: number; cy: number } {
-  const baseCx = rect.left + ((point.timestamp - domain.minT) / (domain.maxT - domain.minT)) * rect.width;
-  const cx = baseCx + staggerOffsetPx(rect, domain, seriesIndex, storeCount);
+export function pointXY(rect: PlotRect, domain: Domain, point: VariantPoint): { cx: number; cy: number } {
+  const cx = rect.left + ((point.timestamp - domain.minT) / (domain.maxT - domain.minT)) * rect.width;
   const cy = rect.top + (1 - (point.price - domain.minP) / (domain.maxP - domain.minP)) * rect.height;
   return { cx, cy };
 }
@@ -555,18 +508,12 @@ function pointXY(
  * does exactly that, since the path cursor is left at the previous point's
  * y after each `H`.
  */
-function stepPath(
-  rect: PlotRect,
-  domain: Domain,
-  run: VariantPoint[],
-  seriesIndex: number,
-  storeCount: number,
-): string {
+function stepPath(rect: PlotRect, domain: Domain, run: VariantPoint[]): string {
   if (run.length === 0) return '';
-  const first = pointXY(rect, domain, run[0], seriesIndex, storeCount);
+  const first = pointXY(rect, domain, run[0]);
   let d = `M ${first.cx} ${first.cy}`;
   for (let i = 1; i < run.length; i++) {
-    const { cx, cy } = pointXY(rect, domain, run[i], seriesIndex, storeCount);
+    const { cx, cy } = pointXY(rect, domain, run[i]);
     d += ` H ${cx} V ${cy}`;
   }
   return d;
@@ -618,13 +565,11 @@ function LinesOverlay({
   lines,
   rect,
   domain,
-  storeCount,
   hoveredKey,
 }: {
   lines: VariantLine[];
   rect: PlotRect;
   domain: Domain;
-  storeCount: number;
   hoveredKey?: string;
 }) {
   return (
@@ -638,7 +583,7 @@ function LinesOverlay({
             // to read as "this Store's line", not a plain dot, so it gets
             // the same short line-style stub + point marker a multi-point
             // run's own points are drawn with below.
-            const { cx, cy } = pointXY(rect, domain, run[0], line.seriesIndex, storeCount);
+            const { cx, cy } = pointXY(rect, domain, run[0]);
             const isHovered = run[0].key === hoveredKey;
             return (
               <g key={`${line.key}-${runIdx}`}>
@@ -664,7 +609,7 @@ function LinesOverlay({
           return (
             <g key={`${line.key}-${runIdx}`}>
               <path
-                d={stepPath(rect, domain, run, line.seriesIndex, storeCount)}
+                d={stepPath(rect, domain, run)}
                 fill="none"
                 stroke={line.color}
                 strokeWidth={LINE_WIDTH}
@@ -673,7 +618,7 @@ function LinesOverlay({
                 strokeLinecap="round"
               />
               {run.map((p) => {
-                const { cx, cy } = pointXY(rect, domain, p, line.seriesIndex, storeCount);
+                const { cx, cy } = pointXY(rect, domain, p);
                 const isHovered = p.key === hoveredKey;
                 return (
                   <circle
@@ -718,7 +663,6 @@ const MAX_HOVER_DIST_SQ = 0.0025;
  */
 function useNearestPointHover(
   lines: VariantLine[],
-  storeCount: number,
   containerRef: RefObject<HTMLDivElement | null>,
   rect: PlotRect | null,
   domain: Domain | null,
@@ -739,7 +683,7 @@ function useNearestPointHover(
     for (const line of lines) {
       for (const run of line.runs) {
         for (const p of run) {
-          const xy = pointXY(rect, domain, p, line.seriesIndex, storeCount);
+          const xy = pointXY(rect, domain, p);
           const dx = (xy.cx - mx) / rect.width;
           const dy = (xy.cy - my) / rect.height;
           const dist = dx * dx + dy * dy;
@@ -801,16 +745,9 @@ function PointHoverOverlay({ hover }: { hover: PointHoverState }) {
  */
 function StepLineChart({ lines, axisCurrency }: { lines: VariantLine[]; axisCurrency: string }) {
   const domain = useLineDomain(lines);
-  const storeCount = useMemo(() => new Set(lines.map((l) => l.storeSlug)).size, [lines]);
   const allPoints = useMemo(() => lines.flatMap((l) => l.runs.flat()), [lines]);
   const { containerRef, rect } = usePlotRect(allPoints.length);
-  const { hover, handleMove, handleLeave } = useNearestPointHover(
-    lines,
-    storeCount,
-    containerRef,
-    rect,
-    domain,
-  );
+  const { hover, handleMove, handleLeave } = useNearestPointHover(lines, containerRef, rect, domain);
 
   return (
     <div
@@ -864,13 +801,7 @@ function StepLineChart({ lines, axisCurrency }: { lines: VariantLine[]; axisCurr
         </LineChart>
       </ResponsiveContainer>
       {rect && domain && (
-        <LinesOverlay
-          lines={lines}
-          rect={rect}
-          domain={domain}
-          storeCount={storeCount}
-          hoveredKey={hover?.point.key}
-        />
+        <LinesOverlay lines={lines} rect={rect} domain={domain} hoveredKey={hover?.point.key} />
       )}
       {hover && <PointHoverOverlay hover={hover} />}
     </div>
@@ -955,8 +886,9 @@ export function buildSingleObservationMessage(
  * single-variant case — no regression), a single Listing with several
  * variants (same color, each a different dash style), and several
  * Listings/Stores together (each Store's own color, each of its variants
- * its own dash, same-day clusters staggered apart). A legend is only worth
- * showing once there's more than one line to tell apart.
+ * its own dash — see issue #94 for why same-day points from different
+ * Stores are no longer nudged apart). A legend is only worth showing once
+ * there's more than one line to tell apart.
  */
 function StoreLinesChart({ events, listings }: { events: HistoryEvent[]; listings: ChartListing[] }) {
   const storeMeta = useMemo(() => {
@@ -964,7 +896,7 @@ function StoreLinesChart({ events, listings }: { events: HistoryEvent[]; listing
     let idx = 0;
     for (const l of listings) {
       if (meta.has(l.storeSlug)) continue;
-      meta.set(l.storeSlug, { label: l.storeName, color: seriesColor(idx), currency: l.currency, seriesIndex: idx });
+      meta.set(l.storeSlug, { label: l.storeName, color: seriesColor(idx), currency: l.currency });
       idx += 1;
     }
     return meta;

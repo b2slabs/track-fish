@@ -1,5 +1,14 @@
 import { describe, expect, it } from 'vitest';
-import { buildSingleObservationMessage, computeVariantLines, type ChartListing, type StoreMeta } from './PriceHistoryChart';
+import {
+  buildSingleObservationMessage,
+  computeVariantLines,
+  pointXY,
+  type ChartListing,
+  type Domain,
+  type PlotRect,
+  type StoreMeta,
+  type VariantPoint,
+} from './PriceHistoryChart';
 import { singlePointStubPath } from './price-history-chart-geometry';
 import type { HistoryEvent } from '@/types/data';
 
@@ -100,7 +109,7 @@ describe('buildSingleObservationMessage', () => {
  */
 
 function storeMeta(slug: string): Map<string, StoreMeta> {
-  return new Map([[slug, { label: slug, color: '#000', currency: 'USD', seriesIndex: 0 }]]);
+  return new Map([[slug, { label: slug, color: '#000', currency: 'USD' }]]);
 }
 
 function variantEvent(
@@ -173,5 +182,27 @@ describe('computeVariantLines — same-price run splitting (issue #87)', () => {
       l.key.endsWith('::v1'),
     );
     expect(v1Line.runs).toHaveLength(2);
+  });
+});
+
+describe('pointXY — no same-day Store stagger (issue #94)', () => {
+  const rect: PlotRect = { left: 0, top: 0, width: 1000, height: 100 };
+  const domain: Domain = { minT: 0, maxT: 10 * 24 * 60 * 60 * 1000, minP: 0, maxP: 100 };
+
+  function point(timestamp: number, price: number): VariantPoint {
+    return { key: `${timestamp}-${price}`, timestamp, observedAt: new Date(timestamp).toISOString(), price };
+  }
+
+  it("places a point's x exactly at its true timestamp, never nudged aside", () => {
+    const p = point(5 * 24 * 60 * 60 * 1000, 50);
+    expect(pointXY(rect, domain, p).cx).toBe(rect.left + rect.width / 2);
+  });
+
+  it("renders two different Stores' same-day, same-price points at the identical pixel, not staggered apart", () => {
+    const timestamp = 3 * 24 * 60 * 60 * 1000;
+    const storeAPoint = point(timestamp, 40);
+    const storeBPoint = point(timestamp, 40);
+
+    expect(pointXY(rect, domain, storeAPoint)).toEqual(pointXY(rect, domain, storeBPoint));
   });
 });
