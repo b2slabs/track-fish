@@ -26,9 +26,5 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],
-  // *.test.ts files run under plain Node (node:test, no bundler/DOM globals
-  // — see tsconfig.test.json), not through Vite, so they're excluded from
-  // this app-build typecheck rather than needing `types` here to carry
-  // both "vite/client" and "node" at once.
   "exclude": ["src/**/*.test.ts"]
 }

@@ -825,6 +825,58 @@ export interface ChartListing {
   commonName: string;
   currency: string;
   lastCheckedAt: string;
+  /**
+   * This Listing's current availability straight from index.json (issue
+   * #88) — distinct from any one `HistoryEvent.available`, which only ever
+   * speaks to that one past instant. Used by the single-observation message
+   * so it never claims "still in stock" once the Listing has gone out of
+   * stock since its one recorded Change Event.
+   */
+  available: boolean;
+}
+
+/**
+ * Builds the message shown when a Canonical Fish's shared history file has
+ * exactly one `HistoryEvent` across every Listing (issue #88). Because an
+ * unchanged Listing produces no new Change Event (only its `lastCheckedAt`
+ * pointer advances — see `computeVariantLines`'s doc and
+ * `docs/adr/0005-heartbeat-events-replaced-by-lastcheckedat.md`), a Listing
+ * can have been re-scraped many times since this one event with nothing to
+ * show for it; naively reporting only the event's own `observedAt`/
+ * `available` then reads as "we haven't checked since" even when the
+ * opposite is true.
+ *
+ * `listing` is the matching `ChartListing` for this event's `listingId` (its
+ * `lastCheckedAt`/`available` carry the up-to-date picture); when it's
+ * missing, or its `lastCheckedAt` is no later than the event's own
+ * `observedAt` (the common case: a genuinely brand-new fish, scraped once),
+ * the message is exactly the original issue #59/#75 wording, unchanged.
+ */
+export function buildSingleObservationMessage(
+  event: HistoryEvent,
+  listing: ChartListing | undefined,
+  currency: string,
+): string {
+  const eventTime = new Date(event.observedAt).getTime();
+  const lastCheckedAt = listing?.lastCheckedAt;
+  const lastCheckedTime = lastCheckedAt ? new Date(lastCheckedAt).getTime() : eventTime;
+  const dateText = formatDateTime(event.observedAt);
+  const priceText = formatPrice(event.price, currency);
+
+  if (!(lastCheckedTime > eventTime)) {
+    return `Only one observation recorded so far (${dateText}): ${priceText}, ${
+      event.available ? 'in stock' : 'out of stock'
+    }. Check back after more scrape runs for a trend.`;
+  }
+
+  const lastCheckedText = formatDateTime(lastCheckedAt!);
+  const currentlyAvailable = listing?.available ?? event.available;
+
+  if (currentlyAvailable) {
+    return `Only one price change recorded so far (${dateText}): ${priceText}. Still confirmed in stock as of the latest scrape on ${lastCheckedText}. Check back after a price change for a trend.`;
+  }
+
+  return `Only one price change recorded so far (${dateText}): ${priceText}. It's since gone out of stock (last checked ${lastCheckedText}). Check back after more scrape runs for a trend.`;
 }
 
 /**
@@ -949,11 +1001,10 @@ export function PriceHistoryChart({
 
   if (events.length === 1) {
     const only = events[0];
+    const listing = listings.find((l) => l.listingId === only.listingId);
     return (
       <p className="text-sm text-muted-foreground">
-        Only one observation recorded so far ({formatDateTime(only.observedAt)}):{' '}
-        {formatPrice(only.price, currency)}, {only.available ? 'in stock' : 'out of stock'}.
-        Check back after more scrape runs for a trend.
+        {buildSingleObservationMessage(only, listing, currency)}
       </p>
     );
   }

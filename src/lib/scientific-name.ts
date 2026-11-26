@@ -236,11 +236,72 @@ function matchBinomial(text: string, pattern: RegExp): string | null {
 }
 
 /**
+ * Genus-synonym normalization (issue #90, see also ADR 0002/0004).
+ *
+ * Taxonomic genus reclassifications routinely split one historically-used
+ * genus into several new ones, or move a species from one existing genus
+ * into another, without the species epithet changing at all. Stores don't
+ * coordinate on which name they use, so the *same* species shows up across
+ * the catalog under either its old or new genus -- e.g. the 2021 Corydoras
+ * genus split moved many species into newly-erected or resurrected genera
+ * (Hoplisoma, Gastrodermus, Scleromystax, ...) while hobbyist/vendor usage
+ * of the pre-split "Corydoras" name for those same species remains common
+ * and will keep showing up in scraped titles/descriptions indefinitely.
+ * `scientificNameSlug` builds the deterministic `cf:sci:<slug>` Canonical
+ * Fish id directly from the extracted name (see `canonical-fish.ts`), so
+ * without this normalization, two Listings of the same species under
+ * different genus names permanently fork into two never-reconciled
+ * Canonical Fish entries instead of auto-merging -- exactly the problem
+ * `canonical-fish-overrides.ts` otherwise has to patch one Listing at a
+ * time (see issue #16's "Gastrodermus hastatus" vs. "Corydoras hastatus").
+ *
+ * This is a curated genus-level synonym table, in the same spirit as
+ * `variety.ts`'s curated keyword list: not a full taxonomic synonymy
+ * database, just the real reclassifications observed to matter for this
+ * catalog. Each entry maps a synonym genus (lowercase) to the single
+ * canonical genus its slug should converge on -- deliberately picking
+ * whichever name is currently most common across Stores in practice, not
+ * necessarily the taxonomically "correct" or most recent one; the goal is
+ * convergence, not correctness of nomenclature. Mapping happens at the
+ * genus token only -- the species (and subspecies) word is never touched
+ * -- so two genuinely different species that happen to share a synonym
+ * genus (e.g. "Hoplisoma panda" vs. a hypothetical "Hoplisoma sp. black")
+ * still land on different slugs, because their species words still
+ * differ. Extend this table as new real reclassification cases surface,
+ * the same way `canonical-fish-overrides.ts` accumulates maintainer fixes
+ * and `variety.ts`'s `VARIETY_TERMS` grows over time -- no new rationale
+ * needs to be re-derived for a straightforward "genus X is a synonym of
+ * genus Y for slug purposes" addition; just add the entry.
+ *
+ * Deliberately NOT applied to the human-readable `scientificName` string
+ * itself (only to the id-building slug) -- the extracted name as written
+ * by the Store is still what gets stored/displayed, so a maintainer
+ * reading history data sees exactly what the Store wrote, not a
+ * silently-substituted genus.
+ */
+const GENUS_SYNONYMS: Record<string, string> = {
+  // 2021 Corydoras genus split (Tencati-Perez et al.) moved many species
+  // long sold under "Corydoras" into newly-erected or resurrected genera.
+  // Hobbyist/vendor usage of the pre-split name remains dominant and will
+  // keep appearing in scraped titles/descriptions indefinitely, so this
+  // normalizes back onto "corydoras" (the name still most common across
+  // Stores at the time of this fix) rather than onto the newer name.
+  hoplisoma: 'corydoras', // e.g. Corydoras/Hoplisoma panda (issue #90)
+  gastrodermus: 'corydoras', // e.g. Corydoras/Gastrodermus hastatus (issue #16, #90)
+};
+
+/**
  * Normalizes a scientific name into a stable slug for use as a Canonical
  * Fish id suffix, e.g. "Hyphessobrycon peugeoti" -> "hyphessobrycon-peugeoti".
+ * The genus token is first run through `GENUS_SYNONYMS` (see above) so
+ * that two scientific names differing only by a known genus synonym
+ * converge on the same slug.
  */
 export function scientificNameSlug(scientificName: string): string {
-  return scientificName
+  const [genus, ...rest] = scientificName.split(' ');
+  const canonicalGenus = GENUS_SYNONYMS[genus.toLowerCase()] ?? genus;
+  return [canonicalGenus, ...rest]
+    .join(' ')
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');

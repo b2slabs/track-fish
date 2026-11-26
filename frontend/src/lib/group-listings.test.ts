@@ -1,7 +1,6 @@
-import { test } from 'node:test';
-import assert from 'node:assert/strict';
-import { pickRepresentative } from './group-listings.ts';
-import type { Listing } from '../types/data.ts';
+import { expect, test } from 'vitest';
+import type { Listing } from '@/types/data';
+import { pickRepresentative } from './group-listings';
 
 function listing(overrides: Partial<Listing>): Listing {
   return {
@@ -48,5 +47,5 @@ test('pickRepresentative picks the same Listing regardless of which one happens 
 
   const result = pickRepresentative([imageButPricier, noImageButCheaper]);
 
-  assert.equal(result.listingId, 'a:1');
+  expect(result.listingId).toBe('a:1');
 });

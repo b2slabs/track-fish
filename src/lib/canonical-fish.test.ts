@@ -84,7 +84,7 @@ test('fuzzy matching ignores candidates whose only Listings are from the same St
   assert.equal(result.canonicalFishId, 'cf:aquatic-arts:1');
 });
 
-test('issue #16: a confident fuzzy common-name match reconciles two different extracted scientific names (vendor synonym) into the already-established group', () => {
+test('issue #16/#90: a genus-synonym normalization resolves two differently-extracted scientific names (vendor synonym) directly onto the same id, with no fuzzy rescue needed', () => {
   const context = buildMatchContext('nationwide-aquatics-usa', [
     existingListing({
       canonicalFishId: 'cf:sci:corydoras-hastatus',
@@ -96,10 +96,17 @@ test('issue #16: a confident fuzzy common-name match reconciles two different ex
     { productIdentifier: '1', commonName: 'Tail Spot Pygmy Cory (Gastrodermus hastatus)', description: '' },
     context
   );
-  assert.equal(result.status, 'fuzzy-auto');
+  // Before issue #90's genus-synonym table, "Gastrodermus hastatus" minted
+  // its own fresh cf:sci:gastrodermus-hastatus id and depended on the
+  // fuzzy-rival-reconciliation path (status 'fuzzy-auto') to land on the
+  // same group as "Corydoras hastatus". Genus-synonym normalization now
+  // folds "Gastrodermus" onto "Corydoras" directly in the slug, so this is
+  // a deterministic 'scientific-name' match from the start -- no fuzzy
+  // wording similarity required at all.
+  assert.equal(result.status, 'scientific-name');
   assert.equal(result.canonicalFishId, 'cf:sci:corydoras-hastatus');
-  // The (differing) extracted scientific name is still reported, e.g. for
-  // history bookkeeping, even though it didn't decide the final id.
+  // The name is still reported exactly as extracted (not genus-normalized),
+  // e.g. for history bookkeeping.
   assert.equal(result.scientificName, 'Gastrodermus hastatus');
 });
 

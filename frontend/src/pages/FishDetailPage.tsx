@@ -10,6 +10,7 @@ import { useFishHistory } from '@/hooks/useFishHistory';
 import { useIndex } from '@/hooks/useIndex';
 import { getDisplayName } from '@/lib/display-name';
 import { pickRepresentative } from '@/lib/group-listings';
+import { selectPrimaryListing } from '@/lib/select-primary-image';
 
 export function FishDetailPage() {
   const { canonicalFishId: rawId } = useParams<{ canonicalFishId: string }>();
@@ -26,14 +27,17 @@ export function FishDetailPage() {
   // Listing side by side, however many there are.
   const listings = index?.listings.filter((l) => l.canonicalFishId === canonicalFishId) ?? [];
   const storeCount = new Set(listings.map((l) => l.storeSlug)).size;
-  // The header's name/scientific-name subtitle come from the same
-  // representative-picking rule the browse grid's card uses (issue #91) —
-  // picking by "whichever Listing has an image" instead used to let this
-  // page show a different common name than the search results for the
-  // same Canonical Fish. The image itself still prefers whichever Listing
-  // actually has one, since not every representative Listing does.
+  // Image and name are deliberately picked by two different, independently
+  // documented rules rather than one "primary" Listing serving both (as it
+  // used to): the image uses selectPrimaryListing's stable, firstObservedAt-
+  // ordered rule (issue #92) so it doesn't flicker as new Listings merge in,
+  // while the name/scientific-name subtitle use group-listings.ts's
+  // pickRepresentative (issue #91) -- the same rule the browse grid's card
+  // uses -- so this page can no longer show a different common name than
+  // search results for the same Canonical Fish just because the two pages
+  // happened to pick different Listings to read a name off of.
+  const image = selectPrimaryListing(listings);
   const primary = listings.length > 0 ? pickRepresentative(listings) : undefined;
-  const image = listings.find((l) => l.imageUrl) ?? primary;
   const displayName = primary ? getDisplayName(primary) : undefined;
   const loading = indexLoading || historyLoading;
 
@@ -148,6 +152,11 @@ export function FishDetailPage() {
                     // file hasn't caught up yet -- e.g. a brand-new Listing
                     // whose first history write raced this page's two fetches.
                     lastCheckedAt: historyListing?.lastCheckedAt ?? l.lastObservedAt,
+                    // Current availability straight from index.json (issue
+                    // #88) -- always the live picture, unlike any single
+                    // HistoryEvent's own `available`, which only ever speaks
+                    // to that one past instant.
+                    available: l.available,
                   };
                 })}
               />
