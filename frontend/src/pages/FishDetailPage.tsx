@@ -8,6 +8,8 @@ import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Skeleton } from '@/components/ui/skeleton';
 import { useFishHistory } from '@/hooks/useFishHistory';
 import { useIndex } from '@/hooks/useIndex';
+import { getDisplayName } from '@/lib/display-name';
+import { pickRepresentative } from '@/lib/group-listings';
 
 export function FishDetailPage() {
   const { canonicalFishId: rawId } = useParams<{ canonicalFishId: string }>();
@@ -24,16 +26,23 @@ export function FishDetailPage() {
   // Listing side by side, however many there are.
   const listings = index?.listings.filter((l) => l.canonicalFishId === canonicalFishId) ?? [];
   const storeCount = new Set(listings.map((l) => l.storeSlug)).size;
-  // Use whichever Listing has an image for the header; all share one species.
-  const primary = listings.find((l) => l.imageUrl) ?? listings[0];
+  // The header's name/scientific-name subtitle come from the same
+  // representative-picking rule the browse grid's card uses (issue #91) —
+  // picking by "whichever Listing has an image" instead used to let this
+  // page show a different common name than the search results for the
+  // same Canonical Fish. The image itself still prefers whichever Listing
+  // actually has one, since not every representative Listing does.
+  const primary = listings.length > 0 ? pickRepresentative(listings) : undefined;
+  const image = listings.find((l) => l.imageUrl) ?? primary;
+  const displayName = primary ? getDisplayName(primary) : undefined;
   const loading = indexLoading || historyLoading;
 
   useEffect(() => {
-    document.title = primary ? `${primary.commonName} - Track Fish` : 'Track Fish';
+    document.title = displayName ? `${displayName.name} - Track Fish` : 'Track Fish';
     return () => {
       document.title = 'Track Fish';
     };
-  }, [primary]);
+  }, [displayName]);
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8">
@@ -66,15 +75,15 @@ export function FishDetailPage() {
         </p>
       )}
 
-      {primary && history && (
+      {primary && displayName && history && (
         <div className="mt-6 space-y-6">
           <Card>
             <div className="flex flex-col gap-4 p-4 sm:flex-row">
               <div className="aspect-square w-full overflow-hidden rounded-md bg-muted sm:w-48">
-                {primary.imageUrl ? (
+                {image?.imageUrl ? (
                   <img
-                    src={primary.imageUrl}
-                    alt={primary.commonName}
+                    src={image.imageUrl}
+                    alt={displayName.name}
                     className="h-full w-full object-cover"
                   />
                 ) : (
@@ -84,10 +93,10 @@ export function FishDetailPage() {
                 )}
               </div>
               <div className="flex-1 space-y-2">
-                <h1 className="text-2xl font-semibold leading-tight">{primary.commonName}</h1>
-                {primary.scientificName && (
+                <h1 className="text-2xl font-semibold leading-tight">{displayName.name}</h1>
+                {displayName.scientificName && (
                   <p className="text-sm italic text-muted-foreground">
-                    {primary.scientificName}
+                    {displayName.scientificName}
                   </p>
                 )}
                 <p className="text-sm text-muted-foreground">

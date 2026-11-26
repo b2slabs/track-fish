@@ -88,8 +88,18 @@ export function groupListingsByCanonicalFish(listings: Listing[]): GroupedListin
  *
  * Last resort (every Listing in the group is priced at 0): just the first
  * Listing, to guarantee a representative always exists.
+ *
+ * Exported (issue #91) so `FishDetailPage` can pick its header name/
+ * scientific-name subtitle with the exact same rule the browse grid uses
+ * for its card — before this, the detail page picked its "primary"
+ * Listing by a completely different rule (whichever Listing had an
+ * image), so the same Canonical Fish could show two different common
+ * names depending which page you were on. The image itself may still
+ * come from a different Listing (not every representative Listing has
+ * one), but the *name* is now always this function's pick, on both
+ * pages.
  */
-function pickRepresentative(groupListings: Listing[]): Listing {
+export function pickRepresentative(groupListings: Listing[]): Listing {
   const inStockPriced = groupListings.filter((l) => l.available && l.price > 0);
   if (inStockPriced.length > 0) {
     return inStockPriced.reduce((lowest, l) => (l.price < lowest.price ? l : lowest));
