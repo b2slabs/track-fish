@@ -919,13 +919,13 @@ function StoreLinesChart({ events, listings }: { events: HistoryEvent[]; listing
   const showLegend = lines.length > 1;
 
   // Group lines by Store (in that Store's stable first-seen order) for the
-  // legend: every Store's row uses the same `LineSwatch` line-style icon
-  // (issue #97) regardless of how many lines it has — a Store with exactly
-  // one line is visually just the single-variant case of the same pattern
-  // a multi-variant Store uses, not a different kind of legend entry.
-  // A Store with several lines shows its name once followed by one
-  // swatch+label row per variant, since those lines share a color and only
-  // their dash style/label tell them apart.
+  // legend: every Store's entry uses the identical two-row layout (issue
+  // #97's `LineSwatch` icon, issue #99's "name on top, swatch+label row(s)
+  // below" structure) regardless of how many lines it has — a Store with
+  // exactly one line is visually just the single-variant case of the same
+  // pattern a multi-variant Store uses, never a shorter, differently-shaped
+  // entry. Lines under one Store share its color and are told apart only by
+  // dash style/label.
   const byStore = useMemo(() => {
     const groups = new Map<string, VariantLine[]>();
     for (const line of lines) {
@@ -944,26 +944,19 @@ function StoreLinesChart({ events, listings }: { events: HistoryEvent[]; listing
       {showLegend && (
         <div className="mt-2 space-y-2 text-xs text-muted-foreground">
           <div className="flex flex-wrap gap-x-5 gap-y-2">
-            {byStore.map(({ slug, meta, lines: storeLines }) =>
-              storeLines.length === 1 ? (
-                <span key={slug} className="inline-flex items-center gap-1.5">
-                  <LineSwatch color={meta.color} dash={storeLines[0].dash} />
-                  {meta.label}
-                </span>
-              ) : (
-                <div key={slug} className="flex flex-col gap-1">
-                  <span className="font-medium text-foreground">{meta.label}</span>
-                  <div className="flex flex-wrap gap-x-4 gap-y-1 pl-0.5">
-                    {storeLines.map((line) => (
-                      <span key={line.key} className="inline-flex items-center gap-1.5">
-                        <LineSwatch color={line.color} dash={line.dash} />
-                        {line.variantLabel}
-                      </span>
-                    ))}
-                  </div>
+            {byStore.map(({ slug, meta, lines: storeLines }) => (
+              <div key={slug} className="flex flex-col gap-1">
+                <span className="font-medium text-foreground">{meta.label}</span>
+                <div className="flex flex-wrap gap-x-4 gap-y-1 pl-0.5">
+                  {storeLines.map((line) => (
+                    <span key={line.key} className="inline-flex items-center gap-1.5">
+                      <LineSwatch color={line.color} dash={line.dash} />
+                      {line.variantLabel}
+                    </span>
+                  ))}
                 </div>
-              ),
-            )}
+              </div>
+            ))}
           </div>
           {currencies.size > 1 && (
             <p>
