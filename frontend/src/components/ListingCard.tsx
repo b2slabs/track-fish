@@ -3,6 +3,7 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { getDisplayName } from '@/lib/display-name';
 import { formatPrice } from '@/lib/format';
+import { isSoldOutPlaceholder } from '@/lib/listing-freshness';
 import type { Listing } from '@/types/data';
 
 /**
@@ -81,15 +82,36 @@ export function ListingCard({
       </CardHeader>
       <CardContent className="flex-1 pb-2">
         <p className="text-lg font-semibold">
-          {storeCount > 1 ? 'From ' : ''}
-          {formatPrice(listing.price, listing.currency)}
+          {isSoldOutPlaceholder(listing.price) ? (
+            // issue #86: last-resort case — every Listing in the group is
+            // priced at the $0.00 sold-out placeholder, so there's no real
+            // price anywhere to show "From" (group-listings.ts's
+            // pickRepresentative falls back to just the first Listing here).
+            'Price unavailable'
+          ) : (
+            <>
+              {storeCount > 1 ? 'From ' : ''}
+              {formatPrice(listing.price, listing.currency)}
+            </>
+          )}
         </p>
-        {listing.variants.length > 1 && (
-          <p className="text-xs text-muted-foreground">
-            {listing.variants.length} variants · from{' '}
-            {formatPrice(Math.min(...listing.variants.map((v) => v.price)), listing.currency)}
-          </p>
-        )}
+        {listing.variants.length > 1 &&
+          (() => {
+            // issue #86: a variant priced at the $0.00 sold-out placeholder
+            // must never leak into this "from $X" figure — skip it the same
+            // way `group-listings.ts`'s representative-picking already does
+            // at the Listing level.
+            const realPrices = listing.variants
+              .map((v) => v.price)
+              .filter((p) => !isSoldOutPlaceholder(p));
+            if (realPrices.length === 0) return null;
+            return (
+              <p className="text-xs text-muted-foreground">
+                {listing.variants.length} variants · from{' '}
+                {formatPrice(Math.min(...realPrices), listing.currency)}
+              </p>
+            );
+          })()}
       </CardContent>
     </Card>
   );

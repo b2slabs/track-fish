@@ -117,7 +117,7 @@ export function FishDetailPage() {
             <CardContent>
               <div className="grid gap-4 sm:grid-cols-2">
                 {listings.map((l) => (
-                  <StoreComparisonCard key={l.listingId} listing={l} />
+                  <StoreComparisonCard key={l.listingId} listing={l} stores={index!.stores} />
                 ))}
               </div>
             </CardContent>

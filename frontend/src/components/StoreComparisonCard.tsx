@@ -2,6 +2,7 @@ import { ExternalLink } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { formatPrice, formatShortDate, normalizeVariantLabel } from '@/lib/format';
+import { displayListingStatus, isSoldOutPlaceholder, type FreshnessStore } from '@/lib/listing-freshness';
 import type { Listing } from '@/types/data';
 
 /**
@@ -15,15 +16,28 @@ import type { Listing } from '@/types/data';
  * next to its price here — even when a Listing has just one variant — so
  * two Stores' prices are never misread as a direct apples-to-apples
  * comparison when they're actually for different sizes.
+ *
+ * `stores` (`IndexFile.stores`) feeds `displayListingStatus` (issue #86) so
+ * this Listing's own badge reads "Out of stock" rather than an unqualified
+ * "In stock" once it's stale (vanished from this Store's catalog, or the
+ * Store's own data just old) — same stale/placeholder-aware rule every
+ * other display surface uses, not `listing.available` read raw.
  */
-export function StoreComparisonCard({ listing }: { listing: Listing }) {
+export function StoreComparisonCard({
+  listing,
+  stores,
+}: {
+  listing: Listing;
+  stores: Record<string, FreshnessStore>;
+}) {
+  const status = displayListingStatus(listing, stores, new Date());
   return (
     <Card className="flex flex-col">
       <CardHeader className="gap-1 pb-2">
         <div className="flex items-center justify-between gap-2">
           <span className="font-medium">{listing.storeName}</span>
-          <Badge variant={listing.available ? 'default' : 'outline'}>
-            {listing.available ? 'In stock' : 'Out of stock'}
+          <Badge variant={status.available ? 'default' : 'outline'}>
+            {status.available ? 'In stock' : 'Out of stock'}
           </Badge>
         </div>
       </CardHeader>
@@ -36,12 +50,12 @@ export function StoreComparisonCard({ listing }: { listing: Listing }) {
               </span>
               <span
                 className={
-                  v.available
+                  v.available && !isSoldOutPlaceholder(v.price)
                     ? 'font-medium'
                     : 'font-medium text-muted-foreground line-through'
                 }
               >
-                {formatPrice(v.price, listing.currency)}
+                {isSoldOutPlaceholder(v.price) ? 'Sold out' : formatPrice(v.price, listing.currency)}
               </span>
             </li>
           ))}

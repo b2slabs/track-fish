@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest';
 import type { Listing } from '@/types/data';
-import { pickRepresentative } from './group-listings';
+import { groupListingsByCanonicalFish, pickRepresentative } from './group-listings';
 
 function listing(overrides: Partial<Listing>): Listing {
   return {
@@ -48,4 +48,59 @@ test('pickRepresentative picks the same Listing regardless of which one happens 
   const result = pickRepresentative([imageButPricier, noImageButCheaper]);
 
   expect(result.listingId).toBe('a:1');
+});
+
+const NOW = new Date('2026-11-26T12:00:00.000Z');
+
+function makeListing(overrides: Partial<Listing>): Listing {
+  return listing({
+    productIdentifier: 'p1',
+    commonName: 'Neon Tetra',
+    productUrl: 'https://example.com/p1',
+    price: 4.99,
+    variants: [{ id: 'v1', label: 'Title', price: 4.99, available: true }],
+    listingId: 'store:p1',
+    canonicalFishId: 'neon-tetra',
+    firstObservedAt: '2026-11-01T00:00:00.000Z',
+    lastObservedAt: '2026-11-26T09:00:00.000Z',
+    ...overrides,
+  });
+}
+
+test('groupListingsByCanonicalFish: a stale (vanished) Listing no longer makes its group read as available, even though its own `available` flag is true', () => {
+  const stores = { store: { lastSuccessfulRunAt: '2026-11-26T09:00:00.000Z' } };
+  const staleListing = makeListing({ lastObservedAt: '2026-11-25T09:00:00.000Z' }); // Store ran again since this was last observed
+  const [group] = groupListingsByCanonicalFish([staleListing], stores, NOW);
+  expect(group.available).toBe(false);
+  expect(group.inStockStoreCount).toBe(0);
+});
+
+test('groupListingsByCanonicalFish: a fresh, in-stock, real-priced Listing is unaffected and drives the group as before', () => {
+  const stores = { store: { lastSuccessfulRunAt: '2026-11-26T09:00:00.000Z' } };
+  const freshListing = makeListing({});
+  const [group] = groupListingsByCanonicalFish([freshListing], stores, NOW);
+  expect(group.available).toBe(true);
+  expect(group.inStockStoreCount).toBe(1);
+  expect(group.representative.price).toBe(4.99);
+});
+
+test('groupListingsByCanonicalFish: the $0.00 sold-out placeholder is never picked as the representative price when a real-priced alternative exists in the group', () => {
+  const stores = {
+    'store-a': { lastSuccessfulRunAt: '2026-11-26T09:00:00.000Z' },
+    'store-b': { lastSuccessfulRunAt: '2026-11-26T09:00:00.000Z' },
+  };
+  const placeholderListing = makeListing({
+    storeSlug: 'store-a',
+    listingId: 'store-a:p1',
+    price: 0,
+    available: true,
+  });
+  const realListing = makeListing({
+    storeSlug: 'store-b',
+    listingId: 'store-b:p1',
+    price: 7.49,
+    available: false, // out of stock, but still a real price -- the fallback tier
+  });
+  const [group] = groupListingsByCanonicalFish([placeholderListing, realListing], stores, NOW);
+  expect(group.representative.price).toBe(7.49);
 });
