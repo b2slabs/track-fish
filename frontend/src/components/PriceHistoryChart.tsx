@@ -124,7 +124,7 @@ function dashPattern(index: number): string | undefined {
 }
 
 /** Per-Store display identity a line needs: legend/tooltip label, color, currency, stagger basis. */
-interface StoreMeta {
+export interface StoreMeta {
   label: string;
   color: string;
   currency: string;
@@ -133,7 +133,7 @@ interface StoreMeta {
 }
 
 /** One real observation of one variant's line, in stepAfter order. */
-interface VariantPoint {
+export interface VariantPoint {
   key: string;
   timestamp: number;
   observedAt: string;
@@ -148,7 +148,7 @@ interface VariantPoint {
  * stretch of real observations, broken only on hard evidence of that exact
  * variant being unavailable (see `computeVariantLines`).
  */
-interface VariantLine {
+export interface VariantLine {
   key: string;
   storeSlug: string;
   storeLabel: string;
@@ -189,6 +189,15 @@ interface VariantLine {
  * lines on unusually large silent gaps even with no evidence anything was
  * ever out of stock, which is exactly the over-splitting this drops.
  *
+ * Issue #87: even hard evidence (case two or three above) only earns a
+ * visual break when it brackets a real price change. `mergeSamePriceRuns`
+ * re-joins a run ending at price P to the next run if that next run also
+ * starts at price P — a brief out-of-stock blip (or a variant that
+ * vanishes and reappears) that resolves back to the exact same price
+ * carries no trend information worth a gap, however "hard" the evidence
+ * in between was. A gap that resumes at a genuinely different price is
+ * left broken, since that price change is real and worth showing.
+ *
  * Issue #81: once every variant's events are accounted for, a variant whose
  * last known state is a real, in-stock observation (not a gap) gets one
  * more synthetic point appended to its final run — same price, timestamp
@@ -197,7 +206,33 @@ interface VariantLine {
  * be most recent. A variant whose last known state is already a gap is left
  * exactly as evidence says: ended there, no synthetic continuation.
  */
-function computeVariantLines(
+/**
+ * Collapses adjacent runs that straddle a gap with no real price movement
+ * (see issue #87, `computeVariantLines`'s own doc) into one continuous run:
+ * when a run's last point and the next run's first point are the exact
+ * same price, whatever gap evidence split them apart is not worth a visual
+ * break — nothing about the price trend actually changed. A gap that
+ * resumes at a different price is left as two runs, since that price
+ * change is real, reportable information.
+ */
+function mergeSamePriceRuns(runs: VariantPoint[][]): VariantPoint[][] {
+  if (runs.length <= 1) return runs;
+  const merged: VariantPoint[][] = [runs[0]];
+  for (let i = 1; i < runs.length; i++) {
+    const currentRun = runs[i];
+    const previousRun = merged[merged.length - 1];
+    const previousLast = previousRun[previousRun.length - 1];
+    const currentFirst = currentRun[0];
+    if (previousLast.price === currentFirst.price) {
+      previousRun.push(...currentRun);
+    } else {
+      merged.push(currentRun);
+    }
+  }
+  return merged;
+}
+
+export function computeVariantLines(
   events: HistoryEvent[],
   storeMeta: Map<string, StoreMeta>,
   lastCheckedAtByListing: Map<string, string>,
@@ -284,6 +319,20 @@ function computeVariantLines(
       for (const acc of accums.values()) {
         if (!eventVariantIds.has(acc.variantId)) acc.sawGapEvidence = true;
       }
+    }
+
+    // Issue #87: a gap "evidence" event only earns a visual break when it
+    // actually bracketed a real price change. A brief `available: false`/
+    // missing blip that resolves back to the exact same price it had
+    // before (CK Fish World's Panda Cory listing, reported in issue #85:
+    // 8 Jan, 20 Nov, 24 Nov 2026, all $59.98) carries no information worth
+    // showing as a gap — whatever happened in between, the price trend
+    // itself never moved, so the line should read as one unbroken stretch.
+    // A gap that resumes at a *different* price is kept as a real break:
+    // that is the "genuine" case issue #87's acceptance criteria calls
+    // out, and it's exactly what a reader needs to see.
+    for (const acc of accums.values()) {
+      acc.runs = mergeSamePriceRuns(acc.runs);
     }
 
     // Issue #81: extend each variant's final run flat out to this Listing's
