@@ -18,10 +18,17 @@ import type { Listing } from '@/types/data';
  * comparison when they're actually for different sizes.
  *
  * `stores` (`IndexFile.stores`) feeds `displayListingStatus` (issue #86) so
- * this Listing's own badge reads "Out of stock" rather than an unqualified
- * "In stock" once it's stale (vanished from this Store's catalog, or the
- * Store's own data just old) — same stale/placeholder-aware rule every
- * other display surface uses, not `listing.available` read raw.
+ * this Listing's own badge reads "Out of stock"/"Delisted" rather than an
+ * unqualified "In stock" once it's stale (vanished from this Store's
+ * catalog, or the Store's own data just old) — same stale/placeholder-aware
+ * rule every other display surface uses, not `listing.available` read raw.
+ *
+ * `status.stale` (issue #101) distinguishes a vanished/delisted Listing
+ * ("Delisted") from one that's still tracked and genuinely out of stock
+ * ("Out of stock"), and forces every variant's price to cross out when
+ * stale — a vanished Listing's last-known per-variant `available` flags
+ * predate whatever actually happened to it, so they can't be trusted
+ * variant-by-variant the way a fresh Listing's can.
  */
 export function StoreComparisonCard({
   listing,
@@ -37,7 +44,7 @@ export function StoreComparisonCard({
         <div className="flex items-center justify-between gap-2">
           <span className="font-medium">{listing.storeName}</span>
           <Badge variant={status.available ? 'default' : 'outline'}>
-            {status.available ? 'In stock' : 'Out of stock'}
+            {status.available ? 'In stock' : status.stale ? 'Delisted' : 'Out of stock'}
           </Badge>
         </div>
       </CardHeader>
@@ -50,7 +57,7 @@ export function StoreComparisonCard({
               </span>
               <span
                 className={
-                  v.available && !isSoldOutPlaceholder(v.price)
+                  v.available && !isSoldOutPlaceholder(v.price) && !status.stale
                     ? 'font-medium'
                     : 'font-medium text-muted-foreground line-through'
                 }

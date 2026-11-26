@@ -43,7 +43,7 @@ test('displayListingStatus: a fresh, available, real-priced Listing displays as 
     available: true,
     price: 24.99,
   };
-  expect(displayListingStatus(listing, stores, NOW)).toEqual({ available: true, price: 24.99 });
+  expect(displayListingStatus(listing, stores, NOW)).toEqual({ available: true, price: 24.99, stale: false });
 });
 
 test('displayListingStatus: a Listing priced at the $0.00 sold-out placeholder never displays as available with that price', () => {
@@ -54,10 +54,10 @@ test('displayListingStatus: a Listing priced at the $0.00 sold-out placeholder n
     available: true,
     price: 0,
   };
-  expect(displayListingStatus(listing, stores, NOW)).toEqual({ available: false, price: null });
+  expect(displayListingStatus(listing, stores, NOW)).toEqual({ available: false, price: null, stale: false });
 });
 
-test('displayListingStatus: a stale (vanished) Listing no longer displays as available even though its own `available` flag still says true', () => {
+test('displayListingStatus: a stale (vanished) Listing no longer displays as available even though its own `available` flag still says true, and reports itself as stale', () => {
   const stores = { petco: { lastSuccessfulRunAt: '2026-11-26T09:00:00.000Z' } };
   const listing = {
     storeSlug: 'petco',
@@ -67,6 +67,7 @@ test('displayListingStatus: a stale (vanished) Listing no longer displays as ava
   };
   const status = displayListingStatus(listing, stores, NOW);
   expect(status.available).toBe(false);
+  expect(status.stale).toBe(true);
 });
 
 test('displayListingStatus: a Listing genuinely out of stock (fresh, real price) stays out of stock, still shows its real price', () => {
@@ -77,5 +78,5 @@ test('displayListingStatus: a Listing genuinely out of stock (fresh, real price)
     available: false,
     price: 19.99,
   };
-  expect(displayListingStatus(listing, stores, NOW)).toEqual({ available: false, price: 19.99 });
+  expect(displayListingStatus(listing, stores, NOW)).toEqual({ available: false, price: 19.99, stale: false });
 });
