@@ -625,18 +625,32 @@ function LinesOverlay({
               // to read as "this Store's line", not a plain dot, so it gets
               // the same short line-style stub + point marker a multi-point
               // run's own points are drawn with below.
+              //
+              // Issue #103 exception: when this single point is also where
+              // an `outOfStockRun` picks up (the point went straight from
+              // "first/only observation" to "out of stock", with nothing in
+              // between), the gray segment already draws a line emanating
+              // from this exact point — the symmetric stub would then
+              // double-draw a short second line right on top of its own
+              // right half, reading as a stray line crossing the point.
+              // Skip the stub in that case; the marker alone is enough,
+              // since the gray line itself now carries the "this is a line,
+              // not a dot" signal.
+              const connectsToOutOfStockRun = line.outOfStockRun?.[0].key === run[0].key;
               const { cx, cy } = pointXY(rect, domain, run[0]);
               const isHovered = run[0].key === hoveredKey;
               return (
                 <g key={`${line.key}-${runIdx}`}>
-                  <path
-                    d={singlePointStubPath(cx, cy)}
-                    fill="none"
-                    stroke={line.color}
-                    strokeWidth={LINE_WIDTH}
-                    strokeDasharray={line.dash}
-                    strokeLinecap="round"
-                  />
+                  {!connectsToOutOfStockRun && (
+                    <path
+                      d={singlePointStubPath(cx, cy)}
+                      fill="none"
+                      stroke={line.color}
+                      strokeWidth={LINE_WIDTH}
+                      strokeDasharray={line.dash}
+                      strokeLinecap="round"
+                    />
+                  )}
                   <circle
                     cx={cx}
                     cy={cy}
