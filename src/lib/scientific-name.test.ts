@@ -175,3 +175,22 @@ test('slugifies a scientific name for use as a Canonical Fish id suffix', () => 
   assert.equal(scientificNameSlug('Hyphessobrycon peugeoti'), 'hyphessobrycon-peugeoti');
   assert.equal(scientificNameSlug('Corydoras sp. black'), 'corydoras-sp-black');
 });
+
+test('issue #90: a synonym genus normalizes onto its canonical genus in the slug, so the same species converges to one id regardless of which genus name a Store used', () => {
+  // Panda Cory: genus split moved it from Corydoras to Hoplisoma.
+  assert.equal(scientificNameSlug('Corydoras panda'), scientificNameSlug('Hoplisoma panda'));
+  assert.equal(scientificNameSlug('Hoplisoma panda'), 'corydoras-panda');
+
+  // Tail Spot Pygmy Cory: genus split moved it from Corydoras to Gastrodermus.
+  assert.equal(scientificNameSlug('Corydoras hastatus'), scientificNameSlug('Gastrodermus hastatus'));
+  assert.equal(scientificNameSlug('Gastrodermus hastatus'), 'corydoras-hastatus');
+});
+
+test('issue #90: genus-synonym normalization does not touch the species word, so genuinely different species under a synonym genus stay distinct', () => {
+  assert.notEqual(scientificNameSlug('Hoplisoma panda'), scientificNameSlug('Hoplisoma sp. black'));
+  assert.equal(scientificNameSlug('Hoplisoma sp. black'), 'corydoras-sp-black');
+});
+
+test('issue #90: a genus with no registered synonym is left exactly as-is', () => {
+  assert.equal(scientificNameSlug('Hyphessobrycon peugeoti'), 'hyphessobrycon-peugeoti');
+});

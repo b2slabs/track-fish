@@ -8,6 +8,9 @@ import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Skeleton } from '@/components/ui/skeleton';
 import { useFishHistory } from '@/hooks/useFishHistory';
 import { useIndex } from '@/hooks/useIndex';
+import { getDisplayName } from '@/lib/display-name';
+import { pickRepresentative } from '@/lib/group-listings';
+import { selectPrimaryListing } from '@/lib/select-primary-image';
 
 export function FishDetailPage() {
   const { canonicalFishId: rawId } = useParams<{ canonicalFishId: string }>();
@@ -24,16 +27,26 @@ export function FishDetailPage() {
   // Listing side by side, however many there are.
   const listings = index?.listings.filter((l) => l.canonicalFishId === canonicalFishId) ?? [];
   const storeCount = new Set(listings.map((l) => l.storeSlug)).size;
-  // Use whichever Listing has an image for the header; all share one species.
-  const primary = listings.find((l) => l.imageUrl) ?? listings[0];
+  // Image and name are deliberately picked by two different, independently
+  // documented rules rather than one "primary" Listing serving both (as it
+  // used to): the image uses selectPrimaryListing's stable, firstObservedAt-
+  // ordered rule (issue #92) so it doesn't flicker as new Listings merge in,
+  // while the name/scientific-name subtitle use group-listings.ts's
+  // pickRepresentative (issue #91) -- the same rule the browse grid's card
+  // uses -- so this page can no longer show a different common name than
+  // search results for the same Canonical Fish just because the two pages
+  // happened to pick different Listings to read a name off of.
+  const image = selectPrimaryListing(listings);
+  const primary = listings.length > 0 ? pickRepresentative(listings) : undefined;
+  const displayName = primary ? getDisplayName(primary) : undefined;
   const loading = indexLoading || historyLoading;
 
   useEffect(() => {
-    document.title = primary ? `${primary.commonName} - Track Fish` : 'Track Fish';
+    document.title = displayName ? `${displayName.name} - Track Fish` : 'Track Fish';
     return () => {
       document.title = 'Track Fish';
     };
-  }, [primary]);
+  }, [displayName]);
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8">
@@ -66,15 +79,15 @@ export function FishDetailPage() {
         </p>
       )}
 
-      {primary && history && (
+      {primary && displayName && history && (
         <div className="mt-6 space-y-6">
           <Card>
             <div className="flex flex-col gap-4 p-4 sm:flex-row">
               <div className="aspect-square w-full overflow-hidden rounded-md bg-muted sm:w-48">
-                {primary.imageUrl ? (
+                {image?.imageUrl ? (
                   <img
-                    src={primary.imageUrl}
-                    alt={primary.commonName}
+                    src={image.imageUrl}
+                    alt={displayName.name}
                     className="h-full w-full object-cover"
                   />
                 ) : (
@@ -84,10 +97,10 @@ export function FishDetailPage() {
                 )}
               </div>
               <div className="flex-1 space-y-2">
-                <h1 className="text-2xl font-semibold leading-tight">{primary.commonName}</h1>
-                {primary.scientificName && (
+                <h1 className="text-2xl font-semibold leading-tight">{displayName.name}</h1>
+                {displayName.scientificName && (
                   <p className="text-sm italic text-muted-foreground">
-                    {primary.scientificName}
+                    {displayName.scientificName}
                   </p>
                 )}
                 <p className="text-sm text-muted-foreground">
@@ -139,6 +152,11 @@ export function FishDetailPage() {
                     // file hasn't caught up yet -- e.g. a brand-new Listing
                     // whose first history write raced this page's two fetches.
                     lastCheckedAt: historyListing?.lastCheckedAt ?? l.lastObservedAt,
+                    // Current availability straight from index.json (issue
+                    // #88) -- always the live picture, unlike any single
+                    // HistoryEvent's own `available`, which only ever speaks
+                    // to that one past instant.
+                    available: l.available,
                   };
                 })}
               />
