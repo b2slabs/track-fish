@@ -139,6 +139,11 @@ export function FishDetailPage() {
                     // file hasn't caught up yet -- e.g. a brand-new Listing
                     // whose first history write raced this page's two fetches.
                     lastCheckedAt: historyListing?.lastCheckedAt ?? l.lastObservedAt,
+                    // Current availability straight from index.json (issue
+                    // #88) -- always the live picture, unlike any single
+                    // HistoryEvent's own `available`, which only ever speaks
+                    // to that one past instant.
+                    available: l.available,
                   };
                 })}
               />
