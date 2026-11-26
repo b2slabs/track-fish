@@ -8,56 +8,56 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Phoenix Rasbora (Boraras merah)",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
     },
     {
       "listingId": "monster-aquarium:7466867392721",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Phoenix Rasbora (Boraras merah)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
     },
     {
       "listingId": "aquahuna:7456012402763",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Phoenix Rasbora",
-      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
+      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
     },
     {
       "listingId": "shrimpy-business:9470968693026",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Phoenix Rasbora",
-      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
+      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
     },
     {
       "listingId": "nu-aqua-shop:10006318842172",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Phoenix Rasbora",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
     },
     {
       "listingId": "aquarium-fish:10359234167083+1592179064902",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Phoenix Rasbora",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "dans-fish:10127081668906",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Phoenix Rasbora",
-      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
+      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
     },
     {
       "listingId": "aqua-imports:45152",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Phoenix Rasbora (Boraras merah)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     },
     {
       "listingId": "aquarium-fish:10359234167083",
@@ -995,6 +995,71 @@
       ],
       "listingId": "aquatic-arts:11385997708",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-26T18:52:12.035Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43044673420",
+          "label": "School of 6",
+          "price": 18.99,
+          "available": true
+        },
+        {
+          "id": "43044673484",
+          "label": "School of 9",
+          "price": 25.99,
+          "available": false
+        },
+        {
+          "id": "43044673612",
+          "label": "School of 12",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "43044673740",
+          "label": "School of 24",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:11385997708",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 6.45,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53368665309483",
+          "label": "Phoenix Rasbora (School of 6)",
+          "price": 30.25,
+          "available": false
+        },
+        {
+          "id": "14403816161350",
+          "label": "Phoenix Rasbora",
+          "price": 6.45,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10359234167083+1592179064902",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

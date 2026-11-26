@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Warty Sea Cat",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -135,6 +135,33 @@
           "id": "51381135507755",
           "label": "Large (2-3\")",
           "price": 35.91,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10111237488939",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 40.37,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51381135474987",
+          "label": "Small/Medium (1.5-2\")",
+          "price": 31.27,
+          "available": false
+        },
+        {
+          "id": "51381135507755",
+          "label": "Large (2-3\")",
+          "price": 40.37,
           "available": true
         }
       ],

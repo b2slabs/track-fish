@@ -8,7 +8,7 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Java Moss",
-      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
+      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
     },
     {
       "listingId": "daku-aquatics:8741028430042",
@@ -22,21 +22,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Java Moss on Coconut Shell",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "buce-plant:8478753677",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Java Moss on Driftwood",
-      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
+      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
     },
     {
       "listingId": "aquatic-arts:14631277429103",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Java Moss on Coconut Half (Vesicularia dubyana on Coconut Half)",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
     }
   ],
   "events": [
@@ -1636,6 +1636,33 @@
       ],
       "listingId": "buce-plant:8478753677",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 13.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51367136624939",
+          "label": "Dome",
+          "price": 20.65,
+          "available": false
+        },
+        {
+          "id": "51367136657707",
+          "label": "Bridge",
+          "price": 13.59,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10106809254187",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

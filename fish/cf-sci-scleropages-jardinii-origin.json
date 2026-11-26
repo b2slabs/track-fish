@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Jardini Arowana",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "monster-aquarium:6966451962065",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Jardini Arowana (Scleropages jardinii)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
     },
     {
       "listingId": "aqua-imports:39630",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Jardini Arowana (Scleropages jardinii)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -211,6 +211,39 @@
       ],
       "listingId": "monster-aquarium:6966451962065",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 42.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21174254764113",
+          "label": "Small (3\")",
+          "price": 42.49,
+          "available": false
+        },
+        {
+          "id": "1692320268313",
+          "label": "Medium (5\")",
+          "price": 76.49,
+          "available": false
+        },
+        {
+          "id": "49426759385387",
+          "label": "Large (8\")",
+          "price": 127.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:221110992921",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

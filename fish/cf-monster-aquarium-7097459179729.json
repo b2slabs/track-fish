@@ -1,21 +1,21 @@
 {
   "canonicalFishId": "cf:monster-aquarium:7097459179729",
   "commonName": "Platinum Alligator Gar",
-  "scientificName": null,
+  "scientificName": "Atractosteus spatula",
   "listings": [
     {
       "listingId": "monster-aquarium:7097459179729",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Platinum Alligator Gar (Atractosteus Spatula)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
     },
     {
       "listingId": "global-exoticquatics:10249377382592",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Platinum Alligator Gar",
-      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
+      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
     },
     {
       "listingId": "nationwide-aquatics-usa:8780020973721",
@@ -23,6 +23,13 @@
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Platinum Alligator Gar (Atractosteus Spatula)",
       "lastCheckedAt": "2026-08-12T03:00:00.000Z"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:15548414197913",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "platinum alligator gar (Atractosteus spatula)",
+      "lastCheckedAt": "2026-11-26T18:53:19.110Z"
     }
   ],
   "events": [
@@ -91,6 +98,26 @@
       ],
       "listingId": "monster-aquarium:7097459179729",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:19.110Z",
+      "price": 875,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "68198188810393",
+          "label": "Title",
+          "price": 875,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:15548414197913",
+      "storeSlug": "nationwide-aquatics-usa"
     }
   ]
 }

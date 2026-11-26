@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Platinum Sailfin Molly",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -42,6 +42,27 @@
           "id": "39351378542673",
           "label": "Title",
           "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6574256947281",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 10.19,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39351378542673",
+          "label": "Title",
+          "price": 10.19,
           "available": true
         }
       ],

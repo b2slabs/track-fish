@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Blue Ring Angelfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:124493",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Blue Ring Angelfish (Pomacanthus annularis)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -70,6 +70,39 @@
       ],
       "listingId": "aqua-imports:124493",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 340.84,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42174750220",
+          "label": "Small (1-2.5\")",
+          "price": 216.74,
+          "available": false
+        },
+        {
+          "id": "926159044633",
+          "label": "Large (3-5\")",
+          "price": 340.84,
+          "available": true
+        },
+        {
+          "id": "51337470050603",
+          "label": "X-Large (5\"+)",
+          "price": 403.15,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:11166712332",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

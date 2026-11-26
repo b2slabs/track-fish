@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Veil Tail Angelfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "imperial-tropicals:8397983711539+8547955179827",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Veiltail Smokey Pinoy Angelfish",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
     },
     {
       "listingId": "aqua-imports:116271",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Veiltail Angelfish (Pterophyllum scalare)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -139,6 +139,45 @@
       ],
       "listingId": "aqua-imports:116271",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 21.67,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "18968669126",
+          "label": "Medium",
+          "price": 21.67,
+          "available": true
+        },
+        {
+          "id": "8657526030455",
+          "label": "Jumbo",
+          "price": 49.97,
+          "available": false
+        },
+        {
+          "id": "49066594697515",
+          "label": "Small",
+          "price": 14.95,
+          "available": false
+        },
+        {
+          "id": "49066601382187",
+          "label": "Large",
+          "price": 28.89,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:5993627846",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Flame Fin Tomini Tang",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:103842",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Flame Fin/Tomini Tang (Ctenocheatus tominiensis)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -70,6 +70,39 @@
       ],
       "listingId": "aqua-imports:103842",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 100.97,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "185590906905",
+          "label": "Small (2-2.5\")",
+          "price": 100.97,
+          "available": true
+        },
+        {
+          "id": "42166912652",
+          "label": "Medium (2.5-3.5\")",
+          "price": 110.32,
+          "available": true
+        },
+        {
+          "id": "51335985561899",
+          "label": "Large (3.5-5\")",
+          "price": 128.77,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:11163621132",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

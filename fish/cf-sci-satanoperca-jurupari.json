@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Jurupari Cichlid",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:44786",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Jurupari Eartheater (Satanoperca jurupari)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -70,6 +70,39 @@
       ],
       "listingId": "aqua-imports:44786",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 8.15,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "18819751622",
+          "label": "Medium (1.5- 2.5\")",
+          "price": 22.94,
+          "available": false
+        },
+        {
+          "id": "8679691026551",
+          "label": "Large (3\")",
+          "price": 27.7,
+          "available": false
+        },
+        {
+          "id": "32267413717073",
+          "label": "Small (1-2\")",
+          "price": 8.15,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:5950502214",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

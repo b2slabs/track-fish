@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Anglerfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -84,6 +84,75 @@
           "id": "558881964057",
           "label": "Medium (2-3\")",
           "price": 118.79,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:62133927961+9971961069867",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 73.6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50518482911531",
+          "label": "S",
+          "price": 157.92,
+          "available": false
+        },
+        {
+          "id": "50518482944299",
+          "label": "SM",
+          "price": 178.49,
+          "available": false
+        },
+        {
+          "id": "50518482977067",
+          "label": "M",
+          "price": 202.29,
+          "available": false
+        },
+        {
+          "id": "50518483009835",
+          "label": "ML",
+          "price": 228.47,
+          "available": false
+        },
+        {
+          "id": "50518483042603",
+          "label": "L",
+          "price": 256.35,
+          "available": false
+        },
+        {
+          "id": "50518483075371",
+          "label": "XL",
+          "price": 326.39,
+          "available": false
+        },
+        {
+          "id": "50518483108139",
+          "label": "XX",
+          "price": 455.85,
+          "available": false
+        },
+        {
+          "id": "652127764505",
+          "label": "Small (1-2\")",
+          "price": 73.6,
+          "available": true
+        },
+        {
+          "id": "558881964057",
+          "label": "Medium (2-3\")",
+          "price": 100.97,
           "available": true
         }
       ],

@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Mertensi Butterflyfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -40,6 +40,39 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:10033228022059",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 142.62,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51048892236075",
+          "label": "S",
+          "price": 108.79,
+          "available": false
+        },
+        {
+          "id": "51048892268843",
+          "label": "M",
+          "price": 142.62,
+          "available": true
+        },
+        {
+          "id": "51048892301611",
+          "label": "L",
+          "price": 160.3,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10033228022059",
       "storeSlug": "aquarium-fish"

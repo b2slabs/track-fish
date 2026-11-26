@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Powder Brown Tang",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:133859",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Powder Brown Tang (Acanthurus japonicus)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -70,6 +70,39 @@
       ],
       "listingId": "aqua-imports:133859",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 64.42,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51227658649899",
+          "label": "Small (2-3\")",
+          "price": 64.42,
+          "available": true
+        },
+        {
+          "id": "51227658715435",
+          "label": "Medium (3-4\")",
+          "price": 82.7,
+          "available": true
+        },
+        {
+          "id": "51227658780971",
+          "label": "Large (4-6\")",
+          "price": 89.92,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10072033067307",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

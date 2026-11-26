@@ -8,21 +8,21 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Electric Eel (Electrophorus electricus)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
     },
     {
       "listingId": "aquarium-fish:6658924806",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Electric Eel",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:40110",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Electric Eel (Electrophorus varii)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -124,6 +124,27 @@
       ],
       "listingId": "aqua-imports:40110",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 246.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "21042602502",
+          "label": "Title",
+          "price": 246.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6658924806",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

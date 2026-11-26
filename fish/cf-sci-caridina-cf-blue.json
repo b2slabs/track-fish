@@ -8,14 +8,14 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Ocean Blue Shrimp",
-      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
+      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
     },
     {
       "listingId": "aquarium-fish:6686296539217+8829567303979",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Blue Glaze Shrimp",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -100,6 +100,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:6686296539217+8829567303979",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 7.64,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47310277706027",
+          "label": "Extreme Blue Bolt Shrimp",
+          "price": 8.49,
+          "available": false
+        },
+        {
+          "id": "39570328027217",
+          "label": "Blue Glaze Shrimp",
+          "price": 7.64,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:6686296539217+8829567303979",
       "storeSlug": "aquarium-fish"

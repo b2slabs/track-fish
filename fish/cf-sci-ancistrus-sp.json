@@ -8,56 +8,56 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Ancistrus Wabenmuster Pleco",
-      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
+      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
     },
     {
       "listingId": "monster-aquarium:6993469374673+7464581759185+7701781774545",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "HoneyComb Bristlenose pleco (Ancistrus sp.)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
     },
     {
       "listingId": "aquahuna:1717563392043+7585692876875",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Bushy Nose Pleco (1 inch)",
-      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
+      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
     },
     {
       "listingId": "aquarium-fish:10436218814763+2354864193617+6652795398+9931323212075",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "L-144 Bushynose Pleco",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "imperial-tropicals:8398153548083+8398161084723",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "L255 Spotted Medusa Pleco",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
     },
     {
       "listingId": "aquatic-arts:14730487300463+15000985993583",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Honeycomb Bristlenose Pleco (Ancistrus sp. “Wabenmuster”) – Tank Bred",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
     },
     {
       "listingId": "ck-fish-world:8152463737047",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Bristlenose Pleco",
-      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
+      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
     },
     {
       "listingId": "nu-aqua-shop:10006355706172",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Bristlenose Plecostomus",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
     },
     {
       "listingId": "aquarium-fish:10436218814763",
@@ -71,7 +71,7 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Bristlenose Pleco (Ancistrus sp.)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -792,6 +792,84 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006355706172",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 6.45,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53921521238315",
+          "label": "L-144 Bushynose Pleco (3-Pack)",
+          "price": 32.12,
+          "available": true
+        },
+        {
+          "id": "50380257263915",
+          "label": "L-519 Honeycomb Pleco",
+          "price": 50.99,
+          "available": false
+        },
+        {
+          "id": "21904422207569",
+          "label": "L-183 Starlight Bristlenose Pleco",
+          "price": 42.49,
+          "available": false
+        },
+        {
+          "id": "21031812742",
+          "label": "Large (3-4\")",
+          "price": 25.49,
+          "available": false
+        },
+        {
+          "id": "29925413708",
+          "label": "Medium (2-3\")",
+          "price": 21.24,
+          "available": false
+        },
+        {
+          "id": "29925413772",
+          "label": "Small (1\")",
+          "price": 6.45,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10436218814763+2354864193617+6652795398+9931323212075",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:55:33.016Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53099776901436",
+          "label": "M-2-3\"",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "53099776934204",
+          "label": "XL-4-5\"",
+          "price": 23.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "nu-aqua-shop:10006355706172",
       "storeSlug": "nu-aqua-shop"

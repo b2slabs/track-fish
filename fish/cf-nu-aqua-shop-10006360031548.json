@@ -8,14 +8,14 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Reni Sword",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
     },
     {
       "listingId": "aqua-imports:142716",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Reni Sword (Echinodorus sp. Reni)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -55,6 +55,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aqua-imports:142716",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:56:09.972Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "142716",
+          "label": "Default",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "aqua-imports:142716",
       "storeSlug": "aqua-imports"

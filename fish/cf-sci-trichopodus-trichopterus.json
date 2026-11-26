@@ -8,14 +8,14 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Opaline Gourami (Trichopodus trichopterus) Tank Bred",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
     },
     {
       "listingId": "aquarium-fish:6573705030",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Opaline Gourami",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -93,6 +93,33 @@
           "id": "12634838040646",
           "label": "Large (2-3\")",
           "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6573705030",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 10.19,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "20797221382",
+          "label": "Medium (1.5-2\")",
+          "price": 5.35,
+          "available": false
+        },
+        {
+          "id": "12634838040646",
+          "label": "Large (2-3\")",
+          "price": 10.19,
           "available": true
         }
       ],

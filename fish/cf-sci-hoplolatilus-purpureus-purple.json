@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Purple Tile Goby",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -34,6 +34,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:8843641676",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 144.75,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51377767219499",
+          "label": "Small (1.5-3\")",
+          "price": 144.75,
+          "available": true
+        },
+        {
+          "id": "51377765220651",
+          "label": "Medium/Large (3-5\")",
+          "price": 183.42,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:8843641676",
       "storeSlug": "aquarium-fish"

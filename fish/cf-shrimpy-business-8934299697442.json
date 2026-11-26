@@ -8,21 +8,21 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "GlasGarten - Snail Dinner (27g)",
-      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
+      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
     },
     {
       "listingId": "flip-aquatics:6664194523238",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "GlasGarten Snail Dinner",
-      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
+      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
     },
     {
       "listingId": "nu-aqua-shop:10399097291068",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "GlasGarten Snail Dinner",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
     }
   ],
   "events": [
@@ -178,6 +178,34 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10399097291068",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-26T18:55:33.016Z",
+      "price": 14.26,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53106808029500",
+          "label": "27g",
+          "price": 14.26,
+          "available": false
+        },
+        {
+          "id": "53106808062268",
+          "label": "54g",
+          "price": 18.78,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "nu-aqua-shop:10399097291068",
       "storeSlug": "nu-aqua-shop"

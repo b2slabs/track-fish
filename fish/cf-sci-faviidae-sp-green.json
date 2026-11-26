@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Green Favia Brain",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -34,6 +34,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:44170412057",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 213.6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39844731519057",
+          "label": "Small",
+          "price": 213.6,
+          "available": true
+        },
+        {
+          "id": "39844731551825",
+          "label": "Medium",
+          "price": 300.3,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:44170412057",
       "storeSlug": "aquarium-fish"

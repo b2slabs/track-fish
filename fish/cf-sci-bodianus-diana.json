@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Diana's Hogfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:138082",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Diana’s Hogfish (Bodianus diana)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -64,6 +64,33 @@
       ],
       "listingId": "aqua-imports:138082",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 72.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267646468177",
+          "label": "Small (1.5-2\")",
+          "price": 72.5,
+          "available": true
+        },
+        {
+          "id": "32267646500945",
+          "label": "Medium (2-3.5\")",
+          "price": 108.79,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:9258825292",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

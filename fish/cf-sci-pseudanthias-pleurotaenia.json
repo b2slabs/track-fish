@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Squareback Anthias",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:119979",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Squareback Anthias (Pseudanthias pleurotaenia)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -76,6 +76,45 @@
       ],
       "listingId": "aqua-imports:119979",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 113.04,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "25262392518",
+          "label": "Male / Small (1-2\")",
+          "price": 116.44,
+          "available": true
+        },
+        {
+          "id": "12415880724550",
+          "label": "Male / Medium (2-3\")",
+          "price": 132.85,
+          "available": true
+        },
+        {
+          "id": "51481281233195",
+          "label": "Female / Small (1-2\")",
+          "price": 105.65,
+          "available": false
+        },
+        {
+          "id": "51481281265963",
+          "label": "Female / Medium (2-3\")",
+          "price": 113.04,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:7808044486",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

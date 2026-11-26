@@ -8,7 +8,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Rhoadesii",
-      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
+      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
     }
   ],
   "events": [
@@ -48,6 +48,27 @@
       "type": "change",
       "changedFields": [
         "price",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8731789656256",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-26T18:55:25.356Z",
+      "price": 50,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48983316529344",
+          "label": "5-6in",
+          "price": 50,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
         "variants"
       ],
       "listingId": "global-exoticquatics:8731789656256",

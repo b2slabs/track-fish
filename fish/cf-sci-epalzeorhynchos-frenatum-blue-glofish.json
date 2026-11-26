@@ -1,14 +1,14 @@
 {
-  "canonicalFishId": "cf:sci:epalzeorhynchos-frenatum:blue",
-  "commonName": "Blue Glo Shark",
+  "canonicalFishId": "cf:sci:epalzeorhynchos-frenatum:blue-glofish",
+  "commonName": "Blue GloFish Shark",
   "scientificName": "Epalzeorhynchos frenatum",
   "listings": [
     {
       "listingId": "aquarium-fish:1592874696774",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Blue Glo Shark",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "commonName": "Blue GloFish Shark",
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -28,6 +28,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:1592874696774",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 24.64,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "14413273825350",
+          "label": "Title",
+          "price": 24.64,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:1592874696774",
       "storeSlug": "aquarium-fish"

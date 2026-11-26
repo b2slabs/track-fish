@@ -8,7 +8,7 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Bacter AE",
-      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
+      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
     }
   ],
   "events": [
@@ -40,6 +40,38 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "flip-aquatics:11210055876",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:30.571Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43380515602534",
+          "label": "35g",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "43380515635302",
+          "label": "70g",
+          "price": 23.99,
+          "available": false
+        },
+        {
+          "id": "43380515668070",
+          "label": "140g",
+          "price": 39.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
       ],
       "listingId": "flip-aquatics:11210055876",
       "storeSlug": "flip-aquatics"

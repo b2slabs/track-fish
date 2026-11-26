@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Coral Hogfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:131606",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Eclipse Hogfish (Bodianus mesothorax)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -70,6 +70,39 @@
       ],
       "listingId": "aqua-imports:131606",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 51.84,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267646664785",
+          "label": "Small (1.5-2\")",
+          "price": 51.84,
+          "available": true
+        },
+        {
+          "id": "32267646632017",
+          "label": "Medium (2-3.5\")",
+          "price": 82.44,
+          "available": true
+        },
+        {
+          "id": "51420571828523",
+          "label": "Large (3.5-5\")",
+          "price": 103.35,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:9258825100",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

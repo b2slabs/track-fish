@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Fuschia Fern",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -34,6 +34,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:98197864473",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 7.9,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "899247570969",
+          "label": "6\"",
+          "price": 7.9,
+          "available": true
+        },
+        {
+          "id": "899247636505",
+          "label": "12\"",
+          "price": 15.55,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:98197864473",
       "storeSlug": "aquarium-fish"

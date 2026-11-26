@@ -8,42 +8,42 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Black Widow Frontosa Cichlid (Cyphotilapia frontosa), Tank-Bred!",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
     },
     {
       "listingId": "monster-aquarium:7061206532305",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Black Widow Frontosa cichlid (Cyphotilapia frontosa)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
     },
     {
       "listingId": "aquarium-fish:4622777253969",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Black Widow Frontosa",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "imperial-tropicals:8398105739571",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Black Widow Frontosa (Cyphotilapia frontosa)",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
     },
     {
       "listingId": "global-exoticquatics:8241449926848",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Black Widow Frontosa",
-      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
+      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
     },
     {
       "listingId": "aqua-imports:91757",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Black Widow Frontosa (Cyphotilapia frontosa ’black widow’)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -253,6 +253,90 @@
       ],
       "listingId": "aqua-imports:91757",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 33.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32393913106513",
+          "label": "Small (1\")",
+          "price": 33.99,
+          "available": false
+        },
+        {
+          "id": "32393913139281",
+          "label": "Medium (1.5-2\")",
+          "price": 38.24,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:4622777253969",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:54:17.996Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612116082995",
+          "label": "1-2” Unsexed Black Widow",
+          "price": 49.99,
+          "available": true
+        },
+        {
+          "id": "45612116115763",
+          "label": "2-3\" Unsexed Black Widow",
+          "price": 69.99,
+          "available": true
+        },
+        {
+          "id": "49701296865587",
+          "label": "3-4\" Unsexed Black Widow",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "46470307021107",
+          "label": "1-2” Unsexed Six Stripe Frontosa (Black Widow Gene)",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "49980080390451",
+          "label": "2-3” Unsexed Six Stripe Frontosa (Black Widow Gene)",
+          "price": 49.99,
+          "available": true
+        },
+        {
+          "id": "46781373382963",
+          "label": "3-4\" Unsexed Six stripe Fronosta (Black Widow Gene)",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "51087373992243",
+          "label": "4-5\" Unsexed Six stripe Fronosta (Black Widow Gene)",
+          "price": 89.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398105739571",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

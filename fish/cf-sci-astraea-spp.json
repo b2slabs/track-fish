@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Star Snail",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -165,6 +165,39 @@
           "id": "51394464121131",
           "label": "10-pack / Medium (0.5-1\")",
           "price": 57.8,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10114643001643",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 7.3,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51394457239851",
+          "label": "Each / Medium (0.5-1\")",
+          "price": 7.3,
+          "available": true
+        },
+        {
+          "id": "51394464088363",
+          "label": "5-pack / Medium (0.5-1\")",
+          "price": 34.25,
+          "available": true
+        },
+        {
+          "id": "51394464121131",
+          "label": "10-pack / Medium (0.5-1\")",
+          "price": 64.85,
           "available": true
         }
       ],

@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Blue Reef Chromis",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -40,6 +40,39 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:8843637580",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 33.57,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "925766058009",
+          "label": "Small (0.5-1.25\")",
+          "price": 33.57,
+          "available": true
+        },
+        {
+          "id": "30518237132",
+          "label": "Medium (1.25-2.25\")",
+          "price": 39.35,
+          "available": true
+        },
+        {
+          "id": "51540861616427",
+          "label": "Large (2.25-3.5\")",
+          "price": 33.57,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:8843637580",
       "storeSlug": "aquarium-fish"

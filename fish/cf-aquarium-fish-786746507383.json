@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Tail Triggerfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -34,6 +34,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:786746507383",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 307.1,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51324438479147",
+          "label": "Medium (3-4\")",
+          "price": 307.1,
+          "available": false
+        },
+        {
+          "id": "8699238383735",
+          "label": "Large (4.5-5\")",
+          "price": 358.52,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:786746507383",
       "storeSlug": "aquarium-fish"

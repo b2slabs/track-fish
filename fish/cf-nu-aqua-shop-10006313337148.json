@@ -8,49 +8,49 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Anubias Nana ‘Petite’",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
     },
     {
       "listingId": "shrimpy-business:4791597006933",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Anubias Nana Petite",
-      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
+      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
     },
     {
       "listingId": "flip-aquatics:11309592068",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Anubias Nana \"Petite\"",
-      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
+      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
     },
     {
       "listingId": "aquarium-fish:9945189876011",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Anubias Nana Petite",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "daku-aquatics:8741026070746",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Anubias Nana Petite",
-      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
+      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
     },
     {
       "listingId": "glass-aqua:11279073223",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Anubias Nana Petite",
-      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
+      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
     },
     {
       "listingId": "aqua-imports:59992",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Anubias nana ‘Petite’",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -340,6 +340,48 @@
       ],
       "listingId": "aqua-imports:59992",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 8.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50428009218347",
+          "label": "Title",
+          "price": 8.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:9945189876011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:55:33.016Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51627484545340",
+          "label": "Title",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "nu-aqua-shop:10006313337148",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

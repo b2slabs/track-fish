@@ -8,14 +8,14 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Rotala Fujian",
-      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
+      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
     },
     {
       "listingId": "glass-aqua:4977408606294",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Rotala Fujian",
-      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
+      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
     }
   ],
   "events": [
@@ -103,6 +103,54 @@
           "label": "Title",
           "price": 6.99,
           "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:4977408606294",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-26T18:54:41.266Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "37669481218248",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "37669481251016",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.97,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:6118266863816",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-26T18:55:08.324Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33392220569686",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
         }
       ],
       "type": "change",

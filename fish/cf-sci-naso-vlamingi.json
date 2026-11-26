@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Vlamingi Tang",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:113002",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Vlamingi Tang (Naso vlamingii)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -70,6 +70,39 @@
       ],
       "listingId": "aqua-imports:113002",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 64.42,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51231399870763",
+          "label": "Small (1-2\")",
+          "price": 64.42,
+          "available": true
+        },
+        {
+          "id": "51231399936299",
+          "label": "Medium (2-3\")",
+          "price": 82.7,
+          "available": true
+        },
+        {
+          "id": "51388064760107",
+          "label": "Large (3-4\")",
+          "price": 119.67,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10072857411883",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

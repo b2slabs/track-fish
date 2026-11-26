@@ -8,56 +8,56 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Black Ghost (Apteronotus albifrons)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
     },
     {
       "listingId": "aquahuna:4112860446763",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Black Ghost Knife",
-      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
+      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
     },
     {
       "listingId": "aquarium-fish:6657599558",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Black Ghost Knifefish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "imperial-tropicals:8398108950835",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Black Ghost Knife (Apteronotus albifrons)",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
     },
     {
       "listingId": "nu-aqua-shop:10283316314428",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Black Ghost Knifefish - 3-5\"",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
     },
     {
       "listingId": "aquatic-arts:4189603922006",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Black Ghost Knifefish (Apteronotus albifrons) - Tank-Bred!",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
     },
     {
       "listingId": "ck-fish-world:8150019571927",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Black Ghost Knifefish",
-      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
+      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
     },
     {
       "listingId": "aqua-imports:104732+38969",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Black Ghost Knifefish (Apteronotus albifrons)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -256,6 +256,45 @@
       ],
       "listingId": "aqua-imports:104732+38969",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44884281688363",
+          "label": "Small (2\")",
+          "price": 14.7,
+          "available": false
+        },
+        {
+          "id": "44884281721131",
+          "label": "Medium (3-4\")",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "44884281753899",
+          "label": "Large (4-5\")",
+          "price": 22.94,
+          "available": false
+        },
+        {
+          "id": "45968034005291",
+          "label": "X-Large (10\")",
+          "price": 73.6,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6657599558",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

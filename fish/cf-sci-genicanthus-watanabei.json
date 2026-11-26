@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Watanabei Angelfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -40,6 +40,39 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:10071958192427",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 134.12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51481254920491",
+          "label": "Male / Medium (2-4\")",
+          "price": 279.05,
+          "available": false
+        },
+        {
+          "id": "51227225194795",
+          "label": "Female / Medium (2-4\")",
+          "price": 134.12,
+          "available": false
+        },
+        {
+          "id": "51227225260331",
+          "label": "Female / Large (4-6\")",
+          "price": 155.2,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10071958192427",
       "storeSlug": "aquarium-fish"

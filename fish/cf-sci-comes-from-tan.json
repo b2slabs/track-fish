@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Vietnamese Cardinal Minnow",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "imperial-tropicals:8398165541171",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Vietnamese Cardinal Minnow",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
     }
   ],
   "events": [
@@ -64,6 +64,33 @@
       ],
       "listingId": "imperial-tropicals:8398165541171",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 5.09,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51428347904299",
+          "label": "Each",
+          "price": 5.09,
+          "available": false
+        },
+        {
+          "id": "51428347937067",
+          "label": "School of 8",
+          "price": 33.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:9431911661867",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

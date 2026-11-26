@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Asfur Angelfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -34,6 +34,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:8843630860",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 266.55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "30518200524",
+          "label": "Medium (3-4\")",
+          "price": 266.55,
+          "available": false
+        },
+        {
+          "id": "51337472606507",
+          "label": "Large (4-5\")",
+          "price": 321.8,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:8843630860",
       "storeSlug": "aquarium-fish"

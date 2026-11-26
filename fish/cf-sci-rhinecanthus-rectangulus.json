@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Rectangulus Triggerfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:108640",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Rectangle Triggerfish (Rhinecanthus rectangulus)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -70,6 +70,39 @@
       ],
       "listingId": "aqua-imports:108640",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 35.35,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51231798100267",
+          "label": "Small (1-2\")",
+          "price": 35.35,
+          "available": true
+        },
+        {
+          "id": "51231798165803",
+          "label": "Medium (2-3\")",
+          "price": 49.97,
+          "available": true
+        },
+        {
+          "id": "51231798231339",
+          "label": "Large (3-5\")",
+          "price": 75.47,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10072948015403",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

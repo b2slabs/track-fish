@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Naso Tang",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:154588",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Naso Tang (Naso lituratus)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -70,6 +70,39 @@
       ],
       "listingId": "aqua-imports:154588",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 82.7,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "185474940953",
+          "label": "Small (2-2.5\")",
+          "price": 82.7,
+          "available": true
+        },
+        {
+          "id": "42498594188",
+          "label": "Medium (3-3.5\")",
+          "price": 119.67,
+          "available": true
+        },
+        {
+          "id": "32267654987857",
+          "label": "Large (4-5\")",
+          "price": 183.85,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:7916774854",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

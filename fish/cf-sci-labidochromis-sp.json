@@ -8,14 +8,14 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Perlmutt",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
     },
     {
       "listingId": "aquarium-fish:10123815747883+791796285559",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Hongi Cichlid",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -70,6 +70,45 @@
       ],
       "listingId": "imperial-tropicals:8398147813683",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 16.14,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51420637757739",
+          "label": "Medium (2\")",
+          "price": 16.14,
+          "available": true
+        },
+        {
+          "id": "51420637790507",
+          "label": "Large (3\")",
+          "price": 25.07,
+          "available": false
+        },
+        {
+          "id": "51420637823275",
+          "label": "X-Large (4\")",
+          "price": 39.94,
+          "available": false
+        },
+        {
+          "id": "8730255261815",
+          "label": "Medium",
+          "price": 24.64,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10123815747883+791796285559",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,42 +8,42 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Fiji Red Discus (Symphysodon aequifasciatus)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
     },
     {
       "listingId": "aquahuna:15236562714699+15280490217547",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Red Melon Discus",
-      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
+      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
     },
     {
       "listingId": "aquarium-fish:6189870982+9240533452",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Marlboro Discus",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:130303+39156+70070+80605",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Alenquer Discus (Symphysodon aequifasciatus)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     },
     {
       "listingId": "imperial-tropicals:8398137557299+8398137688371",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Red Alenquer Discus",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
     },
     {
       "listingId": "global-exoticquatics:10249365782720+10332458221760",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Red Marlboro Discus",
-      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
+      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
     }
   ],
   "events": [
@@ -338,6 +338,57 @@
       ],
       "listingId": "aqua-imports:130303+39156+70070+80605",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 76.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39544943214673",
+          "label": "Medium (1.5-2\")",
+          "price": 67.99,
+          "available": false
+        },
+        {
+          "id": "32019209932",
+          "label": "Large (2.5-3\")",
+          "price": 76.49,
+          "available": false
+        },
+        {
+          "id": "12633358532678",
+          "label": "Extra Large (4\")",
+          "price": 127.49,
+          "available": false
+        },
+        {
+          "id": "19603260166",
+          "label": "X-Large (4\")",
+          "price": 110.49,
+          "available": false
+        },
+        {
+          "id": "12633098813510",
+          "label": "Large (2.5-3\")",
+          "price": 76.49,
+          "available": true
+        },
+        {
+          "id": "39544979750993",
+          "label": "Medium (1.5-2\")",
+          "price": 59.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6189870982+9240533452",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

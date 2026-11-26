@@ -1,14 +1,14 @@
 {
   "canonicalFishId": "cf:sci:puntigrus-tetrazona:glofish-orange",
-  "commonName": "Sunburst Orange Glofish Barb",
+  "commonName": "Sunburst Orange GloFish Barb",
   "scientificName": "Puntigrus tetrazona",
   "listings": [
     {
       "listingId": "aquarium-fish:4657926897745",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Sunburst Orange Glofish Barb",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "commonName": "Sunburst Orange GloFish Barb",
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -28,6 +28,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:4657926897745",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 10.87,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32479449284689",
+          "label": "Title",
+          "price": 10.87,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:4657926897745",
       "storeSlug": "aquarium-fish"

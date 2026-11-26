@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Peacock Cichlid Red",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -78,6 +78,45 @@
           "id": "8729791037559",
           "label": "Jumbo",
           "price": 53.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:5648772934",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 14.7,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "17624555590",
+          "label": "Small",
+          "price": 5.6,
+          "available": false
+        },
+        {
+          "id": "8729790972023",
+          "label": "Medium",
+          "price": 14.7,
+          "available": true
+        },
+        {
+          "id": "8729791004791",
+          "label": "Large",
+          "price": 32.12,
+          "available": true
+        },
+        {
+          "id": "8729791037559",
+          "label": "Jumbo",
+          "price": 45.89,
           "available": false
         }
       ],

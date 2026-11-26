@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Gold Zebra Danio",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -34,6 +34,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:4379811217489",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 2.54,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32538681475153",
+          "label": "Small",
+          "price": 2.54,
+          "available": false
+        },
+        {
+          "id": "32538681507921",
+          "label": "Large",
+          "price": 3.65,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:4379811217489",
       "storeSlug": "aquarium-fish"
