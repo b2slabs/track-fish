@@ -206,3 +206,61 @@ describe('pointXY — no same-day Store stagger (issue #94)', () => {
     expect(pointXY(rect, domain, storeAPoint)).toEqual(pointXY(rect, domain, storeBPoint));
   });
 });
+
+describe('computeVariantLines — outOfStockRun (issue #103)', () => {
+  it('extends a currently out-of-stock variant with a gray outOfStockRun out to lastCheckedAt', () => {
+    const events = [
+      variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 10, available: true }]),
+      // Confirmed out of stock as of the latest scrape.
+      variantEvent('2026-11-24T00:00:00Z', [{ id: 'v1', price: 10, available: false }]),
+    ];
+    const lastChecked = new Map([['listing-1', '2026-11-26T00:00:00Z']]);
+    const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked);
+
+    expect(line.runs).toHaveLength(1);
+    expect(line.runs[0].map((p) => p.price)).toEqual([10]); // the gap isn't appended to the real run
+    expect(line.outOfStockRun).toBeDefined();
+    const [start, end] = line.outOfStockRun!;
+    expect(start.timestamp).toBe(new Date('2026-11-20T00:00:00Z').getTime());
+    expect(end.timestamp).toBe(new Date('2026-11-26T00:00:00Z').getTime());
+    expect(end.price).toBe(10); // flat at the last real price
+  });
+
+  it('extends a delisted (vanished) variant\'s outOfStockRun only to its frozen lastCheckedAt, not further', () => {
+    const events = [
+      variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 10, available: true }]),
+      // v1 entirely absent -- vanished from the catalog.
+      variantEvent('2026-11-21T00:00:00Z', [{ id: 'v2', price: 5, available: true }]),
+    ];
+    // Per src/process.ts, a delisted Listing's lastCheckedAt freezes at its
+    // last real observation -- it never advances past 2026-11-20 here.
+    const lastChecked = new Map([['listing-1', '2026-11-20T00:00:00Z']]);
+    const [v1Line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked).filter((l) =>
+      l.key.endsWith('::v1'),
+    );
+
+    expect(v1Line.outOfStockRun).toBeUndefined(); // nothing to extend: lastCheckedAt == last real point
+  });
+
+  it('does not add an outOfStockRun for a variant currently in stock (existing issue #81 extension applies instead)', () => {
+    const events = [variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 10, available: true }])];
+    const lastChecked = new Map([['listing-1', '2026-11-26T00:00:00Z']]);
+    const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked);
+
+    expect(line.outOfStockRun).toBeUndefined();
+    expect(line.runs[0]).toHaveLength(2); // the ordinary flat continuation
+    expect(line.runs[0][1].price).toBe(10);
+  });
+
+  it('adds no outOfStockRun when lastCheckedAt is not later than the last real observation', () => {
+    const events = [
+      variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 10, available: true }]),
+      variantEvent('2026-11-24T00:00:00Z', [{ id: 'v1', price: 10, available: false }]),
+    ];
+    // Same instant as the last real (in-stock) observation -- nothing to extend.
+    const lastChecked = new Map([['listing-1', '2026-11-20T00:00:00Z']]);
+    const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked);
+
+    expect(line.outOfStockRun).toBeUndefined();
+  });
+});
