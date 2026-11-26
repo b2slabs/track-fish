@@ -8,6 +8,7 @@ import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Skeleton } from '@/components/ui/skeleton';
 import { useFishHistory } from '@/hooks/useFishHistory';
 import { useIndex } from '@/hooks/useIndex';
+import { selectPrimaryListing } from '@/lib/select-primary-image';
 
 export function FishDetailPage() {
   const { canonicalFishId: rawId } = useParams<{ canonicalFishId: string }>();
@@ -24,8 +25,11 @@ export function FishDetailPage() {
   // Listing side by side, however many there are.
   const listings = index?.listings.filter((l) => l.canonicalFishId === canonicalFishId) ?? [];
   const storeCount = new Set(listings.map((l) => l.storeSlug)).size;
-  // Use whichever Listing has an image for the header; all share one species.
-  const primary = listings.find((l) => l.imageUrl) ?? listings[0];
+  // Which Listing's image/name drive the header: a deliberate, documented
+  // rule (issue #92) rather than incidental Listing ordering, so revisiting
+  // this page after new Listings merge in doesn't flicker to a different
+  // Store's photo for no visible reason. See select-primary-image.ts.
+  const primary = selectPrimaryListing(listings);
   const loading = indexLoading || historyLoading;
 
   useEffect(() => {
