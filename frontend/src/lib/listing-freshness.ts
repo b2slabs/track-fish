@@ -85,6 +85,16 @@ export interface ListingDisplayStatus {
   available: boolean;
   /** The real price to show, or `null` when there is none worth showing (the $0.00 placeholder). */
   price: number | null;
+  /**
+   * True when this Listing vanished from its Store's catalog (or its
+   * Store's own data is stale) rather than being genuinely, freshly
+   * observed as out of stock (issue #101) — see `isListingStale`. Lets a
+   * caller distinguish "Delisted" from "Out of stock" and know that even
+   * this Listing's own per-variant `available` flags can no longer be
+   * trusted (a vanished Listing's last-known variant state predates
+   * whatever actually happened to it).
+   */
+  stale: boolean;
 }
 
 /**
@@ -116,5 +126,6 @@ export function displayListingStatus(
   return {
     available: listing.available && !placeholder && !stale,
     price: placeholder ? null : listing.price,
+    stale,
   };
 }
