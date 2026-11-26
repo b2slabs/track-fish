@@ -2,8 +2,9 @@
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.test.tsbuildinfo",
     "target": "es2023",
-    "lib": ["ES2023"],
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
     "module": "esnext",
+    "jsx": "react-jsx",
     "types": ["node"],
     "skipLibCheck": true,
 
