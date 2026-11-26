@@ -50,6 +50,37 @@ test('pickRepresentative picks the same Listing regardless of which one happens 
   expect(result.listingId).toBe('a:1');
 });
 
+// Regression test: FishDetailPage must pass `index.stores` into
+// pickRepresentative, the same way BrowsePage does, or its representative
+// pick silently ignores staleness (issue #86) and can disagree with the
+// browse grid's pick for the same Canonical Fish -- undermining #91's
+// "search and detail page must agree" acceptance criterion.
+test('pickRepresentative treats a stale (vanished) Listing as unavailable when store freshness data is supplied, picking the fresh alternative instead', () => {
+  const stale = listing({
+    listingId: 'stale:1',
+    storeSlug: 'stale-store',
+    price: 5,
+    available: true,
+    lastObservedAt: '2026-11-20T00:00:00.000Z',
+  });
+  const fresh = listing({
+    listingId: 'fresh:1',
+    storeSlug: 'fresh-store',
+    price: 20,
+    available: true,
+    lastObservedAt: '2026-11-26T00:00:00.000Z',
+  });
+  const stores = {
+    'stale-store': { lastSuccessfulRunAt: '2026-11-26T00:00:00.000Z' },
+    'fresh-store': { lastSuccessfulRunAt: '2026-11-26T00:00:00.000Z' },
+  };
+  const now = new Date('2026-11-26T12:00:00.000Z');
+
+  const result = pickRepresentative([stale, fresh], stores, now);
+
+  expect(result.listingId).toBe('fresh:1');
+});
+
 const NOW = new Date('2026-11-26T12:00:00.000Z');
 
 function makeListing(overrides: Partial<Listing>): Listing {

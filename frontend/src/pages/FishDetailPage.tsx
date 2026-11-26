@@ -37,7 +37,8 @@ export function FishDetailPage() {
   // search results for the same Canonical Fish just because the two pages
   // happened to pick different Listings to read a name off of.
   const image = selectPrimaryListing(listings);
-  const primary = listings.length > 0 ? pickRepresentative(listings) : undefined;
+  const primary =
+    listings.length > 0 ? pickRepresentative(listings, index?.stores ?? {}) : undefined;
   const displayName = primary ? getDisplayName(primary) : undefined;
   const loading = indexLoading || historyLoading;
 
