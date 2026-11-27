@@ -1,6 +1,11 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { extractScientificName, scientificNameSlug } from './scientific-name.js';
+import { extractScientificName, scientificNameSlug, GENUS_SYNONYMS } from './scientific-name.js';
+
+test('exports GENUS_SYNONYMS so other modules (e.g. a genus-synonym migration) can enumerate known synonym genera', () => {
+  assert.equal(GENUS_SYNONYMS.hoplisoma, 'corydoras');
+  assert.equal(GENUS_SYNONYMS.gastrodermus, 'corydoras');
+});
 
 test('extracts a parenthetical binomial from the title', () => {
   const name = extractScientificName({

@@ -279,7 +279,7 @@ function matchBinomial(text: string, pattern: RegExp): string | null {
  * reading history data sees exactly what the Store wrote, not a
  * silently-substituted genus.
  */
-const GENUS_SYNONYMS: Record<string, string> = {
+export const GENUS_SYNONYMS: Record<string, string> = {
   // 2021 Corydoras genus split (Tencati-Perez et al.) moved many species
   // long sold under "Corydoras" into newly-erected or resurrected genera.
   // Hobbyist/vendor usage of the pre-split name remains dominant and will
