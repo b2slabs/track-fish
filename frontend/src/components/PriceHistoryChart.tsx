@@ -334,8 +334,19 @@ export function computeVariantLines(
             observedAt: e.observedAt,
             price: v.price,
           };
-          if (acc.runs.length === 0 || acc.sawGapEvidence) acc.runs.push([point]);
-          else acc.runs[acc.runs.length - 1].push(point);
+          if (acc.runs.length === 0 || acc.sawGapEvidence) {
+            acc.runs.push([point]);
+          } else {
+            // Issue #123: a Listing-level Change Event fires when ANY ONE
+            // variant changes -- every other still-available variant in
+            // that same event would otherwise get a redundant point here
+            // even though its own price never moved. Skip it when
+            // continuing an existing run at an unchanged price; gap
+            // resumption (the branch above) is untouched.
+            const lastRun = acc.runs[acc.runs.length - 1];
+            const lastPoint = lastRun[lastRun.length - 1];
+            if (lastPoint.price !== point.price) lastRun.push(point);
+          }
           acc.sawGapEvidence = false;
         } else {
           extendRunToConfirmedSameUntil(acc, e, listingId);
