@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Whitetail Pygmy Angelfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -81,6 +81,39 @@
           "id": "51323794981163",
           "label": "Small",
           "price": 127.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10098037621035+8843634444",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 24.64,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51339270914347",
+          "label": "Small (0.75-1.5\")",
+          "price": 24.64,
+          "available": false
+        },
+        {
+          "id": "32267653185617",
+          "label": "Medium",
+          "price": 124.09,
+          "available": false
+        },
+        {
+          "id": "51323794981163",
+          "label": "Small",
+          "price": 108.79,
           "available": false
         }
       ],

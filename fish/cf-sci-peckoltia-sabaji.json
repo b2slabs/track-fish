@@ -8,28 +8,28 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "L-75 Rio de Para Pleco",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "imperial-tropicals:8398100136243",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "L075 Para Pleco (Peckoltia sabaji)",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
     },
     {
       "listingId": "nationwide-aquatics-usa:8930929606809+8930931081369",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "L075 Para Pleco (Peckoltia sabaji)",
-      "lastCheckedAt": "2026-11-25T19:01:44.668Z"
+      "lastCheckedAt": "2026-11-26T18:53:19.110Z"
     },
     {
       "listingId": "aqua-imports:37981",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "L075 Para Pleco (Peckoltia sabaji)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -231,6 +231,33 @@
       ],
       "listingId": "aqua-imports:37981",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 93.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39308449874001",
+          "label": "Medium (4-6\")",
+          "price": 59.49,
+          "available": false
+        },
+        {
+          "id": "39308449906769",
+          "label": "Large (6-7\")",
+          "price": 93.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6654259014",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

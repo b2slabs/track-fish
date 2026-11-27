@@ -8,21 +8,21 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Giraffe Cichlid (Nimbochromis venustus)",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
     },
     {
       "listingId": "aquarium-fish:5837290118",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Venustus Cichlid",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aquahuna:4168269824043",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Venustus",
-      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
+      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
     },
     {
       "listingId": "imperial-tropicals:9931592532275",
@@ -43,7 +43,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Venustus",
-      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
+      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
     }
   ],
   "events": [
@@ -510,6 +510,39 @@
       ],
       "listingId": "global-exoticquatics:8241466638528",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 8.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39899484258385",
+          "label": "Medium",
+          "price": 21.67,
+          "available": false
+        },
+        {
+          "id": "39899484291153",
+          "label": "Large",
+          "price": 30,
+          "available": false
+        },
+        {
+          "id": "40210334482513",
+          "label": "Small",
+          "price": 8.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:5837290118",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

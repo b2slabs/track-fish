@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Electric Blue Cichlid",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "imperial-tropicals:8398021689651+8752202645811",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Electric Blue Fryeri  \"German Strain\"",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
     },
     {
       "listingId": "aquarium-fish:10476683034923",
@@ -627,6 +627,45 @@
       ],
       "listingId": "imperial-tropicals:8398021689651+8752202645811",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 11.04,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "54187950735659",
+          "label": "Large",
+          "price": 76.49,
+          "available": false
+        },
+        {
+          "id": "54187950768427",
+          "label": "Medium",
+          "price": 30.59,
+          "available": true
+        },
+        {
+          "id": "40184553996369",
+          "label": "Large",
+          "price": 21.24,
+          "available": false
+        },
+        {
+          "id": "40184554029137",
+          "label": "Medium",
+          "price": 11.04,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10476683034923+2345262579793",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

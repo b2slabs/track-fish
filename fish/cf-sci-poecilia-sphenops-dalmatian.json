@@ -8,21 +8,21 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Dalmatian Molly",
-      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
+      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
     },
     {
       "listingId": "aquarium-fish:6553015238+6571409030+9172927676715",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Dalmatian Molly",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "imperial-tropicals:8398079459635+9542612320563",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Dalmatian Molly",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
     }
   ],
   "events": [
@@ -1789,6 +1789,39 @@
       ],
       "listingId": "imperial-tropicals:8398079459635+9542612320563",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 4.24,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48389876580651",
+          "label": "Dalmatian Lyretail Molly (Pack of 4)",
+          "price": 15.55,
+          "available": true
+        },
+        {
+          "id": "20790241222",
+          "label": "Dalmatian Molly",
+          "price": 4.24,
+          "available": true
+        },
+        {
+          "id": "51437707690283",
+          "label": "Dalmatian Lyretail Molly",
+          "price": 5.09,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6553015238+6571409030+9172927676715",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

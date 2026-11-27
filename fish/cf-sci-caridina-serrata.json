@@ -8,14 +8,14 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Bred By Aquatic Arts Planted Caridina Shrimp Combo Box (Caridina spp.)",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
     },
     {
       "listingId": "aquatic-arts:14654392893807",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Bred By Aquatic Arts Caridina Combo Box (Caridina spp.)",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
     }
   ],
   "events": [
@@ -160,6 +160,44 @@
     },
     {
       "observedAt": "2026-11-22T00:26:08.096Z",
+      "price": 89.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51732528005487",
+          "label": "Tangerine Tiger Shrimp",
+          "price": 89.99,
+          "available": true
+        },
+        {
+          "id": "51732528038255",
+          "label": "Super Tiger Shrimp",
+          "price": 98.99,
+          "available": false
+        },
+        {
+          "id": "51732528071023",
+          "label": "Green Babaulti Shrimp",
+          "price": 134.99,
+          "available": true
+        },
+        {
+          "id": "51732528103791",
+          "label": "Zebra Babaulti Shrimp",
+          "price": 149.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:14654392893807",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T00:26:08.096Z",
       "price": 104.99,
       "currency": "USD",
       "available": true,
@@ -195,44 +233,6 @@
         "variants"
       ],
       "listingId": "aquatic-arts:14654391943535",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-22T00:26:08.096Z",
-      "price": 89.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51732528005487",
-          "label": "Tangerine Tiger Shrimp",
-          "price": 89.99,
-          "available": true
-        },
-        {
-          "id": "51732528038255",
-          "label": "Super Tiger Shrimp",
-          "price": 98.99,
-          "available": false
-        },
-        {
-          "id": "51732528071023",
-          "label": "Green Babaulti Shrimp",
-          "price": 134.99,
-          "available": true
-        },
-        {
-          "id": "51732528103791",
-          "label": "Zebra Babaulti Shrimp",
-          "price": 149.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquatic-arts:14654392893807",
       "storeSlug": "aquatic-arts"
     }
   ]
