@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:corydoras-pygmaeus",
-  "commonName": "True Pygmy Cory (Gastrodermus pygmaeus)",
+  "commonName": "Pygmy Cory",
   "scientificName": "Corydoras pygmaeus",
   "listings": [
     {
@@ -79,6 +79,27 @@
       "storeName": "Aqua Imports",
       "commonName": "True Pygmy Cory (Gastrodermus pygmaeus)",
       "lastCheckedAt": "2026-11-27T04:39:41.069Z"
+    },
+    {
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Pygmy Corydoras (Tank-Bred)",
+      "lastCheckedAt": "2026-11-27T04:36:58.601Z"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006359376188",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Pygmy Cory",
+      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+    },
+    {
+      "listingId": "dans-fish:10127077212458",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "Pygmy Cory",
+      "lastCheckedAt": "2026-11-27T04:39:20.672Z"
     }
   ],
   "events": [
@@ -155,6 +176,32 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-01-10T02:00:00.000Z",
       "price": 36.99,
       "currency": "USD",
@@ -198,6 +245,112 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-01-24T02:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": false
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-01-25T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-01-27T02:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-01-28T02:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-01-31T03:00:00.000Z",
       "price": 36.99,
       "currency": "USD",
@@ -219,6 +372,33 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-02-04T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": false
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-02-06T03:00:00.000Z",
       "price": 38.29,
       "currency": "USD",
@@ -238,6 +418,249 @@
       ],
       "listingId": "aquarium-fish:10130781602091",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-02-08T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-02-09T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": false
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-02-10T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-02-15T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": false
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-02-16T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-02-22T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": false
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-02-24T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-03-21T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": false
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-03-27T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-03-28T03:00:00.000Z",
@@ -367,6 +790,247 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-04-12T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": false
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-04-15T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-04-16T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": false
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-04-17T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-04-19T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-04-20T04:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-04-21T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": false
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-04-23T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-05-01T04:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": false
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-05-02T04:00:00.000Z",
       "price": 32.55,
       "currency": "USD",
@@ -409,6 +1073,59 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-05-07T04:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-05-08T03:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-05-09T04:00:00.000Z",
       "price": 38.29,
       "currency": "USD",
@@ -428,6 +1145,60 @@
       ],
       "listingId": "aquarium-fish:10130781602091",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-05-09T04:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": false
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-05-14T04:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-05-16T04:00:00.000Z",
@@ -472,6 +1243,44 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-05-23T04:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 56.5,
+          "available": true
+        },
+        {
+          "id": "51662847213858",
+          "label": "12 Fish",
+          "price": 101.95,
+          "available": true
+        },
+        {
+          "id": "51662847246626",
+          "label": "24 Fish",
+          "price": 191.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-05-27T04:00:00.000Z",
       "price": 38.29,
       "currency": "USD",
@@ -491,6 +1300,44 @@
       ],
       "listingId": "aquarium-fish:10130781602091",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-06-03T05:00:00.000Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 53.95,
+          "available": true
+        },
+        {
+          "id": "51662847213858",
+          "label": "12 Fish",
+          "price": 101.95,
+          "available": true
+        },
+        {
+          "id": "51662847246626",
+          "label": "24 Fish",
+          "price": 191.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-07-04T04:00:00.000Z",
@@ -916,6 +1763,44 @@
       "storeSlug": "nationwide-aquatics-usa"
     },
     {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 29.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39922913968213",
+          "label": "3 Fish",
+          "price": 29.95,
+          "available": true
+        },
+        {
+          "id": "39922914000981",
+          "label": "6 Fish",
+          "price": 53.95,
+          "available": true
+        },
+        {
+          "id": "51662847213858",
+          "label": "12 Fish",
+          "price": 101.95,
+          "available": true
+        },
+        {
+          "id": "51662847246626",
+          "label": "24 Fish",
+          "price": 191.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6715937325141",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 10.99,
       "currency": "USD",
@@ -1002,6 +1887,38 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51634271060284",
+          "label": "Single",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "51634271093052",
+          "label": "Group of 3",
+          "price": 21.57,
+          "available": false
+        },
+        {
+          "id": "51634271125820",
+          "label": "Group of 6",
+          "price": 40.75,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006359376188",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
       "observedAt": "2026-11-21T14:37:18.780Z",
       "price": 4,
       "currency": "USD",
@@ -1047,6 +1964,26 @@
       ],
       "listingId": "aquarium-fish:10130781602091+6319092230",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533812236586",
+          "label": "Unsexed",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127077212458",
+      "storeSlug": "dans-fish"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:corydoras-hastatus",
-  "commonName": "Tail Spot Pygmy Cory (Gastrodermus hastatus)",
+  "commonName": "Tail Spot Pygmy Cory",
   "scientificName": "Corydoras hastatus",
   "listings": [
     {
@@ -44,6 +44,13 @@
       "storeName": "Aqua Imports",
       "commonName": "Tail Spot Pygmy Cory (Gastrodermus hastatus)",
       "lastCheckedAt": "2026-11-27T04:39:41.069Z"
+    },
+    {
+      "listingId": "nu-aqua-shop:10006360686908",
+      "storeSlug": "nu-aqua-shop",
+      "storeName": "NU Aqua Shop",
+      "commonName": "Tail Spot Pygmy Cory",
+      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
     }
   ],
   "events": [
@@ -132,6 +139,71 @@
       ],
       "listingId": "aquarium-fish:4676233199697",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 101.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51633980506428",
+          "label": "Single",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "51633980440892",
+          "label": "Group of 3",
+          "price": 53.97,
+          "available": false
+        },
+        {
+          "id": "51633980473660",
+          "label": "Group of 6",
+          "price": 101.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006360686908",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:31.804Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51633980506428",
+          "label": "Single",
+          "price": 19.99,
+          "available": true
+        },
+        {
+          "id": "51633980440892",
+          "label": "Group of 3",
+          "price": 53.97,
+          "available": false
+        },
+        {
+          "id": "51633980473660",
+          "label": "Group of 6",
+          "price": 101.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "nu-aqua-shop:10006360686908",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-22T06:58:35.864Z",
