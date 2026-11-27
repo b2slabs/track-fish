@@ -1044,6 +1044,72 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-26T18:52:12.035Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43044673420",
+          "label": "School of 6",
+          "price": 18.99,
+          "available": true
+        },
+        {
+          "id": "43044673484",
+          "label": "School of 9",
+          "price": 25.99,
+          "available": false
+        },
+        {
+          "id": "43044673612",
+          "label": "School of 12",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "43044673740",
+          "label": "School of 24",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:11385997708",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 6.45,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53368665309483",
+          "label": "Phoenix Rasbora (School of 6)",
+          "price": 30.25,
+          "available": false
+        },
+        {
+          "id": "14403816161350",
+          "label": "Phoenix Rasbora",
+          "price": 6.45,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10359234167083+1592179064902",
+      "storeSlug": "aquarium-fish",
+      "confirmedSameUntil": "2026-11-25T19:02:12.467Z"
+    },
+    {
       "observedAt": "2026-11-27T04:35:48.725Z",
       "price": 18.99,
       "currency": "USD",
@@ -1081,33 +1147,6 @@
       ],
       "listingId": "aquatic-arts:11385997708",
       "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-27T04:37:21.498Z",
-      "price": 6.45,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "53368665309483",
-          "label": "Phoenix Rasbora (School of 6)",
-          "price": 30.25,
-          "available": false
-        },
-        {
-          "id": "14403816161350",
-          "label": "Phoenix Rasbora",
-          "price": 6.45,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10359234167083+1592179064902",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

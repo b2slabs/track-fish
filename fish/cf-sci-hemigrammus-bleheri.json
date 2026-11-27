@@ -1795,6 +1795,61 @@
       "storeSlug": "global-exoticquatics"
     },
     {
+      "observedAt": "2026-11-26T18:55:33.016Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51718518636860",
+          "label": "Single",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "51718518669628",
+          "label": "Group of 3",
+          "price": 18.87,
+          "available": true
+        },
+        {
+          "id": "51718518702396",
+          "label": "Group of 6",
+          "price": 35.65,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "nu-aqua-shop:10006319497532",
+      "storeSlug": "nu-aqua-shop",
+      "confirmedSameUntil": "2026-11-25T19:04:00.223Z"
+    },
+    {
+      "observedAt": "2026-11-26T18:55:49.257Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533879771434",
+          "label": "Unsexed",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "dans-fish:10127100117290",
+      "storeSlug": "dans-fish",
+      "confirmedSameUntil": "2026-11-25T19:04:17.105Z"
+    },
+    {
       "observedAt": "2026-11-27T04:37:51.180Z",
       "price": 9.99,
       "currency": "USD",
@@ -1831,59 +1886,6 @@
       ],
       "listingId": "imperial-tropicals:8398029127987",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-27T04:39:04.942Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51718518636860",
-          "label": "Single",
-          "price": 6.99,
-          "available": true
-        },
-        {
-          "id": "51718518669628",
-          "label": "Group of 3",
-          "price": 18.87,
-          "available": true
-        },
-        {
-          "id": "51718518702396",
-          "label": "Group of 6",
-          "price": 35.65,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "variants"
-      ],
-      "listingId": "nu-aqua-shop:10006319497532",
-      "storeSlug": "nu-aqua-shop"
-    },
-    {
-      "observedAt": "2026-11-27T04:39:20.672Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51533879771434",
-          "label": "Unsexed",
-          "price": 8.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "available",
-        "variants"
-      ],
-      "listingId": "dans-fish:10127100117290",
-      "storeSlug": "dans-fish"
     }
   ]
 }

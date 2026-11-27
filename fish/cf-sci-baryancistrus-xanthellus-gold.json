@@ -426,6 +426,34 @@
       "storeSlug": "aqua-imports"
     },
     {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 42.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32267404345425",
+          "label": "Medium (2\")",
+          "price": 42.49,
+          "available": false
+        },
+        {
+          "id": "21357056491601",
+          "label": "Large (3-4\")",
+          "price": 59.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6653295878",
+      "storeSlug": "aquarium-fish",
+      "confirmedSameUntil": "2026-11-25T19:02:12.467Z"
+    },
+    {
       "observedAt": "2026-11-27T04:36:20.162Z",
       "price": 27.99,
       "currency": "USD",
@@ -457,33 +485,6 @@
       ],
       "listingId": "monster-aquarium:7004703817937",
       "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-27T04:37:21.498Z",
-      "price": 42.49,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "32267404345425",
-          "label": "Medium (2\")",
-          "price": 42.49,
-          "available": false
-        },
-        {
-          "id": "21357056491601",
-          "label": "Large (3-4\")",
-          "price": 59.49,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6653295878",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

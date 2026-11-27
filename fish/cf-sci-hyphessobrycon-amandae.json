@@ -1493,7 +1493,7 @@
       "storeSlug": "flip-aquatics"
     },
     {
-      "observedAt": "2026-11-27T04:37:05.797Z",
+      "observedAt": "2026-11-26T18:53:30.571Z",
       "price": 5.99,
       "currency": "USD",
       "available": true,
@@ -1512,6 +1512,39 @@
       ],
       "listingId": "flip-aquatics:458254254120",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-26T18:55:33.016Z",
+      "price": 3.15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51718427672892",
+          "label": "Single",
+          "price": 3.15,
+          "available": true
+        },
+        {
+          "id": "51718427705660",
+          "label": "Group of 3",
+          "price": 8.5,
+          "available": true
+        },
+        {
+          "id": "51718427738428",
+          "label": "Group of 6",
+          "price": 15.12,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "nu-aqua-shop:10006315860284",
+      "storeSlug": "nu-aqua-shop",
+      "confirmedSameUntil": "2026-11-25T19:04:00.223Z"
     },
     {
       "observedAt": "2026-11-27T04:37:21.498Z",
@@ -1576,38 +1609,6 @@
       ],
       "listingId": "imperial-tropicals:8398116192563",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-27T04:39:04.942Z",
-      "price": 3.15,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51718427672892",
-          "label": "Single",
-          "price": 3.15,
-          "available": true
-        },
-        {
-          "id": "51718427705660",
-          "label": "Group of 3",
-          "price": 8.5,
-          "available": true
-        },
-        {
-          "id": "51718427738428",
-          "label": "Group of 6",
-          "price": 15.12,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "variants"
-      ],
-      "listingId": "nu-aqua-shop:10006315860284",
-      "storeSlug": "nu-aqua-shop"
     }
   ]
 }
