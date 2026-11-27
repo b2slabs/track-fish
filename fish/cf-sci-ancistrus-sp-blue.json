@@ -8,63 +8,63 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Blue eyed Bristlenose pleco (Ancistrus sp.)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-27T04:36:20.162Z"
     },
     {
       "listingId": "aquarium-fish:6696583954513",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Lemon Blue Eye Bushynose Pleco",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "imperial-tropicals:8398041415987",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Blue Eye Lemon Bushynose (Ancistrus sp.)",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
     },
     {
       "listingId": "buce-plant:7551649284296",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Blue Eye Lemon Bristlenose Pleco",
-      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
+      "lastCheckedAt": "2026-11-27T04:38:13.782Z"
     },
     {
       "listingId": "shrimpy-business:6730781098069",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Blue Eye Lemon Bristlenose Pleco (Tank-Bred)",
-      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
+      "lastCheckedAt": "2026-11-27T04:36:58.601Z"
     },
     {
       "listingId": "nu-aqua-shop:10006355280188",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Blue Eye Lemon Bristlenose Pleco",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
     },
     {
       "listingId": "aquatic-arts:4594353832022+4752889030",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "L144a Blue Eye Lemon Bristlenose Pleco (Ancistrus sp.) - Tank-bred!",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
     },
     {
       "listingId": "dans-fish:10127074459946",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Lemon Blue Eye Bushynose Pleco",
-      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
+      "lastCheckedAt": "2026-11-27T04:39:20.672Z"
     },
     {
       "listingId": "aqua-imports:76016",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Blue Eye Lemon Bristlenose Pleco (Ancistrus sp.)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -1725,6 +1725,111 @@
       ],
       "listingId": "dans-fish:10127074459946",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:36:58.601Z",
+      "price": 16.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39967226003541",
+          "label": "1 Fish",
+          "price": 16.95,
+          "available": false
+        },
+        {
+          "id": "48830349967650",
+          "label": "3 Fish",
+          "price": 45.95,
+          "available": false
+        },
+        {
+          "id": "51662846099746",
+          "label": "6 Fish",
+          "price": 85.95,
+          "available": false
+        },
+        {
+          "id": "51662846132514",
+          "label": "12 Fish",
+          "price": 162.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6730781098069",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 27.7,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39587212296273",
+          "label": "Small (1.5\")",
+          "price": 27.7,
+          "available": true
+        },
+        {
+          "id": "39587222028369",
+          "label": "Medium (3\")",
+          "price": 36.8,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6696583954513",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:51.180Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611931468083",
+          "label": "1-2” Unsexed",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "45611931500851",
+          "label": "2-3” Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "50492912763187",
+          "label": "3-4” Unsexed",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "68077297598771",
+          "label": "BOGO · 1-2” Unsexed · 2 fish",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398041415987",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

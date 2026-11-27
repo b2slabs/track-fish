@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Bellus Angelfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -34,6 +34,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:9970872779051",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 248.19,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50513990943019",
+          "label": "Male / Medium (2-3\")",
+          "price": 321.8,
+          "available": false
+        },
+        {
+          "id": "51337492201771",
+          "label": "Female / Medium (2-3\")",
+          "price": 248.19,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:9970872779051",
       "storeSlug": "aquarium-fish"

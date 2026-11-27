@@ -8,14 +8,14 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Blood Red Fire Shrimp (Lysmata debelius)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     },
     {
       "listingId": "aquarium-fish:10071908811051",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Fire Shrimp",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -103,6 +103,39 @@
       ],
       "listingId": "aqua-imports:49377",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 65.7,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51588078305579",
+          "label": "Small  (0.75-1.25\")",
+          "price": 65.7,
+          "available": true
+        },
+        {
+          "id": "51227095007531",
+          "label": "Medium (1.25-1.75\")",
+          "price": 71.65,
+          "available": true
+        },
+        {
+          "id": "51227095073067",
+          "label": "Large (1.75-2.25\")",
+          "price": 82.44,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10071908811051",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

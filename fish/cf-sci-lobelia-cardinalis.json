@@ -8,70 +8,70 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Lobelia Cardinalis",
-      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
+      "lastCheckedAt": "2026-11-27T04:38:40.408Z"
     },
     {
       "listingId": "aquarium-fish:8452031185195",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Cardinal Plant",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "daku-aquatics:8741038915802",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Cardinal Plant",
-      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
+      "lastCheckedAt": "2026-11-27T04:38:11.126Z"
     },
     {
       "listingId": "nu-aqua-shop:10127078457660",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Cardinal Plant",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
     },
     {
       "listingId": "buce-plant:1333687353425+8844214413",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Lobelia Cardinalis",
-      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
+      "lastCheckedAt": "2026-11-27T04:38:13.782Z"
     },
     {
       "listingId": "shrimpy-business:10430573609250",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Crimson Current Plant Bundle",
-      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
+      "lastCheckedAt": "2026-11-27T04:36:58.601Z"
     },
     {
       "listingId": "shrimpy-business:10351541879074",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Cardinal Plant (Lobelia cardinals)",
-      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
+      "lastCheckedAt": "2026-11-27T04:36:58.601Z"
     },
     {
       "listingId": "flip-aquatics:7034763214950",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Cardinal Plant | Lobelia cardinalis",
-      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
+      "lastCheckedAt": "2026-11-27T04:37:05.797Z"
     },
     {
       "listingId": "aquatic-arts:1346970615894+14661433524591+14686559306095+1923350331478+8015433957655",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Stem Plant Bouquet, bunched",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
     },
     {
       "listingId": "aqua-imports:70159",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Cardinal Plant (Lobelia cardinalis)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -1319,6 +1319,66 @@
       ],
       "listingId": "shrimpy-business:10430573609250",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-27T04:36:58.601Z",
+      "price": 57.64,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52197598298402",
+          "label": "1 Plant Each",
+          "price": 57.64,
+          "available": false
+        },
+        {
+          "id": "52197598331170",
+          "label": "2 Plants Each",
+          "price": 103.79,
+          "available": false
+        },
+        {
+          "id": "52197598363938",
+          "label": "4 Plants Each",
+          "price": 196.1,
+          "available": false
+        },
+        {
+          "id": "52197598396706",
+          "label": "8 Plants Each",
+          "price": 369.17,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:10430573609250",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 4.67,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45752236146987",
+          "label": "Title",
+          "price": 4.67,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:8452031185195",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

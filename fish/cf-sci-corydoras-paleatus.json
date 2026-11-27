@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:corydoras-paleatus",
-  "commonName": "Corydoras paleatus",
+  "commonName": "Peppered Cory (Hoplisoma paleatus)",
   "scientificName": "Corydoras paleatus",
   "listings": [
     {
@@ -8,28 +8,35 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Paleatus Cory",
-      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
+      "lastCheckedAt": "2026-11-27T04:36:35.502Z"
     },
     {
       "listingId": "aquarium-fish:6319116166+9178977141035",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Paleatus Cory",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "flip-aquatics:6596834820198",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Peppered Cory | Corydoras Paleatus",
-      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
+      "lastCheckedAt": "2026-11-27T04:37:05.797Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:682641+682644+682646+755745+755747",
       "storeSlug": "wet-spot-tropical-fish",
       "storeName": "The Wet Spot Tropical Fish",
       "commonName": "Corydoras paleatus",
-      "lastCheckedAt": "2026-11-25T19:04:28.157Z"
+      "lastCheckedAt": "2026-11-27T04:39:31.261Z"
+    },
+    {
+      "listingId": "aqua-imports:56892",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Peppered Cory (Hoplisoma paleatus)",
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -896,6 +903,53 @@
       ],
       "listingId": "wet-spot-tropical-fish:682641+682644+682646+755745+755747",
       "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "56892",
+          "label": "Default",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:56892",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 5.09,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48413719953707",
+          "label": "Paleatus Cory (Gang of 3)",
+          "price": 13.25,
+          "available": true
+        },
+        {
+          "id": "51437703233835",
+          "label": "Paleatus Cory",
+          "price": 5.09,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6319116166+9178977141035",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

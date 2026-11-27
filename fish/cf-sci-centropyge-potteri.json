@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Potter's Angelfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -40,6 +40,39 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:8843632972",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 311.35,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "30518212428",
+          "label": "Large (3-4\")",
+          "price": 428.22,
+          "available": false
+        },
+        {
+          "id": "94651613209",
+          "label": "Small (1-2\")",
+          "price": 311.35,
+          "available": false
+        },
+        {
+          "id": "94654890009",
+          "label": "Medium (2-3\")",
+          "price": 356.65,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:8843632972",
       "storeSlug": "aquarium-fish"

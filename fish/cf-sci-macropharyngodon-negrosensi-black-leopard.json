@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Black Leopard Wrasse",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "aqua-imports:190347",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Black Leopard Wrasse (Macropharyngodon negrosensis)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -64,6 +64,33 @@
       ],
       "listingId": "aqua-imports:190347",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 88.9,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50553620136235",
+          "label": "Small/Medium",
+          "price": 88.9,
+          "available": true
+        },
+        {
+          "id": "50553620169003",
+          "label": "Medium",
+          "price": 96.04,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:9981225894187",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Elegance Coral",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -54,6 +54,33 @@
           "id": "23426488369233",
           "label": "Large",
           "price": 456.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:9329809676",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 197.45,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32245012812",
+          "label": "Medium",
+          "price": 197.45,
+          "available": true
+        },
+        {
+          "id": "23426488369233",
+          "label": "Large",
+          "price": 387.85,
           "available": true
         }
       ],

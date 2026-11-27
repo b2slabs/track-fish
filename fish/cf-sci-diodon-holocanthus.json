@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Porcupine Puffer",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "aqua-imports:108731",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Porcupine Puffer (Diodon holocanthus)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -70,6 +70,39 @@
       ],
       "listingId": "aqua-imports:108731",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 76.32,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32267640275025",
+          "label": "Small (1.5-2.5\")",
+          "price": 76.32,
+          "available": false
+        },
+        {
+          "id": "42500534860",
+          "label": "Medium (2.5-3.5\")",
+          "price": 93.32,
+          "available": false
+        },
+        {
+          "id": "265378168857",
+          "label": "Large (3.5-5.5\")",
+          "price": 124.09,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:11233188108",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

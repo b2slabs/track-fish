@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Bumblebee Cichlid",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "aquahuna:1716779253803",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Bumblebee Cichlid",
-      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
+      "lastCheckedAt": "2026-11-27T04:36:35.502Z"
     },
     {
       "listingId": "imperial-tropicals:8398078345523",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Bumblebee Cichlid",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
     }
   ],
   "events": [
@@ -165,6 +165,39 @@
       "changedFields": [
         "price",
         "available",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:5403843974",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 5.94,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "30145337360465",
+          "label": "Small (1\")",
+          "price": 5.94,
+          "available": false
+        },
+        {
+          "id": "16883405958",
+          "label": "Medium (approx 2\")",
+          "price": 11.89,
+          "available": false
+        },
+        {
+          "id": "39333889146961",
+          "label": "Large (3\")",
+          "price": 18.35,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
         "variants"
       ],
       "listingId": "aquarium-fish:5403843974",

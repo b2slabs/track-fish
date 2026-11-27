@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Purple Firefish Goby",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "aqua-imports:108718",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Purple Firefish (Nemateleotris decora)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -64,6 +64,33 @@
       ],
       "listingId": "aqua-imports:108718",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 47.42,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51227388346667",
+          "label": "Medium (1.5-2.5\")",
+          "price": 47.42,
+          "available": true
+        },
+        {
+          "id": "51327749390635",
+          "label": "Large (2.5-3.5\")",
+          "price": 56.94,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10071986635051",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

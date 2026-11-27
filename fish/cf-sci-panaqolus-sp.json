@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "L-204 Emperor Pleco",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "imperial-tropicals:8398132511027",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "L351 Sachamama Pleco",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
     },
     {
       "listingId": "aqua-imports:40597",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "L351 Sachamama Pleco (Panaqolus sp. ‘L351’)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -82,6 +82,48 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aqua-imports:40597",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 42.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32267404476497",
+          "label": "Medium (3\")",
+          "price": 42.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6653141062",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:39:41.069Z",
+      "price": 79.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40597",
+          "label": "Default",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "aqua-imports:40597",
       "storeSlug": "aqua-imports"

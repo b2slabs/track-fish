@@ -8,28 +8,28 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Dovii Cichlid ( Parachromis dovii )",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-27T04:36:20.162Z"
     },
     {
       "listingId": "aquarium-fish:5952087494",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Wolf Cichlid",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "imperial-tropicals:8397978272051",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Wolf Cichlid",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
     },
     {
       "listingId": "aqua-imports:62339",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Wolf / Dovii Cichlid (Parachromis dovii)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -678,6 +678,33 @@
       ],
       "listingId": "imperial-tropicals:8397978272051",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 25.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39899497201745",
+          "label": "Medium",
+          "price": 25.49,
+          "available": false
+        },
+        {
+          "id": "39899497234513",
+          "label": "Large",
+          "price": 33.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:5952087494",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

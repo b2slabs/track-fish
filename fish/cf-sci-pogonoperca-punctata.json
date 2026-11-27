@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Clown Grouper",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -411,6 +411,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:10239584928043",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 57.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51733070872875",
+          "label": "Medium",
+          "price": 57.79,
+          "available": false
+        },
+        {
+          "id": "51733070905643",
+          "label": "Large",
+          "price": 115.85,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10239584928043",
       "storeSlug": "aquarium-fish"

@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Falcula Butterflyfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -122,6 +122,57 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:8843635276+9972670365995",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 137.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50521380389163",
+          "label": "Small (1-2\")",
+          "price": 70.12,
+          "available": false
+        },
+        {
+          "id": "50521380454699",
+          "label": "Medium (2-3\")",
+          "price": 93.32,
+          "available": false
+        },
+        {
+          "id": "50521380520235",
+          "label": "Large (3-4\")",
+          "price": 117.97,
+          "available": false
+        },
+        {
+          "id": "32267652956241",
+          "label": "Medium",
+          "price": 137.95,
+          "available": true
+        },
+        {
+          "id": "32267652989009",
+          "label": "Large",
+          "price": 156.22,
+          "available": false
+        },
+        {
+          "id": "32848749396049",
+          "label": "Small",
+          "price": 92.05,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:8843635276+9972670365995",
       "storeSlug": "aquarium-fish"

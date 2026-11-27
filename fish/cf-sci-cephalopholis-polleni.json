@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Polleni Grouper",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "aqua-imports:108655",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Harlequin Grouper (Cephalopholis polleni)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -64,6 +64,33 @@
       ],
       "listingId": "aqua-imports:108655",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 361.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50537151365419",
+          "label": "M",
+          "price": 361.5,
+          "available": true
+        },
+        {
+          "id": "50537151430955",
+          "label": "L",
+          "price": 436.89,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:9977059574059",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

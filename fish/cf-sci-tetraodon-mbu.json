@@ -15,42 +15,42 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Mbu Pufferfish (Tetraodon mbu)",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
     },
     {
       "listingId": "nu-aqua-shop:10006358393148",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Mbu Puffer-3.5-4\"",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
     },
     {
       "listingId": "monster-aquarium:6966812967121",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "MBU Puffer (Tetraodon mbu)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-27T04:36:20.162Z"
     },
     {
       "listingId": "aqua-imports:156555+37825",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Mbu Puffer (Tetraodon mbu)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     },
     {
       "listingId": "aquarium-fish:6096461126",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Mbu Puffer",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "global-exoticquatics:8256108495040",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Mbu Puffer",
-      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
+      "lastCheckedAt": "2026-11-27T04:38:57.362Z"
     },
     {
       "listingId": "nationwide-aquatics-usa:8574418714777+8574418944153",
@@ -64,7 +64,7 @@
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Mbu pufferfish (Tetraodon mbu) 4\"-5\"",
-      "lastCheckedAt": "2026-11-25T19:01:44.668Z"
+      "lastCheckedAt": "2026-11-27T04:36:54.589Z"
     }
   ],
   "events": [
@@ -823,6 +823,55 @@
       ],
       "listingId": "aqua-imports:156555+37825",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 254.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19293245510",
+          "label": "Title",
+          "price": 254.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6096461126",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:51.180Z",
+      "price": 299.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51878541164851",
+          "label": "4-5\" Unsexed",
+          "price": 299.99,
+          "available": false
+        },
+        {
+          "id": "51878541197619",
+          "label": "5-6\" Unsexed",
+          "price": 324.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:9828216406323",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

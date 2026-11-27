@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Ice Cap Acropora",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -468,6 +468,39 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:10149733990699",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 34.25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51501583204651",
+          "label": "Small",
+          "price": 34.25,
+          "available": false
+        },
+        {
+          "id": "51501583237419",
+          "label": "Small/Medium",
+          "price": 41.47,
+          "available": false
+        },
+        {
+          "id": "51501583270187",
+          "label": "Medium",
+          "price": 51.84,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10149733990699",
       "storeSlug": "aquarium-fish"

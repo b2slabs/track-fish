@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Fin Rasbora",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "nu-aqua-shop:10160061186364",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Red Line Rasbora",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
     }
   ],
   "events": [
@@ -58,6 +58,27 @@
       ],
       "listingId": "nu-aqua-shop:10160061186364",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 5.35,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49376746340651",
+          "label": "Title",
+          "price": 5.35,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:9601662648619",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

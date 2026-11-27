@@ -8,21 +8,21 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Red Shoulder Severum (Heros cf. efasciatus)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-27T04:36:20.162Z"
     },
     {
       "listingId": "imperial-tropicals:8397982597427",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Red Shoulder Severum",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
     },
     {
       "listingId": "global-exoticquatics:8241449140416",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Red Shoulder Severum",
-      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
+      "lastCheckedAt": "2026-11-27T04:38:57.362Z"
     }
   ],
   "events": [
@@ -150,6 +150,45 @@
       ],
       "listingId": "global-exoticquatics:8241449140416",
       "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:51.180Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611741872435",
+          "label": "1-2” Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45611741905203",
+          "label": "2-3\" Unsexed",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "67638978511155",
+          "label": "3-4\" Unsexed",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "67839326519603",
+          "label": "4-5\" Unsexed",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8397982597427",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

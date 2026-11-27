@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Golden PilotFish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -34,6 +34,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:11246578380",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 157.67,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267639717969",
+          "label": "Small (1-2\")",
+          "price": 157.67,
+          "available": true
+        },
+        {
+          "id": "32267639750737",
+          "label": "Medium (3-4\")",
+          "price": 286.87,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:11246578380",
       "storeSlug": "aquarium-fish"

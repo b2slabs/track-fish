@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Blue Angelfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "ck-fish-world:8150014066903",
@@ -22,7 +22,7 @@
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Blue Angelfish",
-      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
+      "lastCheckedAt": "2026-11-27T04:39:20.672Z"
     }
   ],
   "events": [
@@ -130,6 +130,39 @@
       ],
       "listingId": "dans-fish:10127095431466",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 185.97,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51226847543595",
+          "label": "Small (1-2\")",
+          "price": 144.75,
+          "available": false
+        },
+        {
+          "id": "51226847609131",
+          "label": "Small/Medium (2-3\")",
+          "price": 103.35,
+          "available": false
+        },
+        {
+          "id": "51226847674667",
+          "label": "Medium (3-4\")",
+          "price": 185.97,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10071857627435",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,21 +8,21 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Tinfoil Barb",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
     },
     {
       "listingId": "aquarium-fish:4583467352145",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Tinfoil Barb",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "monster-aquarium:7264201769169+7734132932817",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "High Body Tinfoil Barb (Barbonymus schwanenfeldii)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-27T04:36:20.162Z"
     }
   ],
   "events": [
@@ -178,6 +178,33 @@
       ],
       "listingId": "monster-aquarium:7264201769169+7734132932817",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 4.92,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32576832110673",
+          "label": "Small",
+          "price": 4.92,
+          "available": false
+        },
+        {
+          "id": "32576832143441",
+          "label": "Medium",
+          "price": 7.05,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:4583467352145",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

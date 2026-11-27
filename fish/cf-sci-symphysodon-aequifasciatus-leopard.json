@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Leopard Skin Discus",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "monster-aquarium:7032809488593+7079802503377",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Leopard Discus (Symphysodon aequifasciatus)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-27T04:36:20.162Z"
     }
   ],
   "events": [
@@ -128,6 +128,39 @@
       ],
       "listingId": "monster-aquarium:7032809488593+7079802503377",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 67.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39544947212369",
+          "label": "Medium (1.5-2\")",
+          "price": 67.99,
+          "available": false
+        },
+        {
+          "id": "12633293586502",
+          "label": "Large (2.5-3\")",
+          "price": 101.99,
+          "available": false
+        },
+        {
+          "id": "1520231579673",
+          "label": "Extra Large (4\")",
+          "price": 127.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:186446118937",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

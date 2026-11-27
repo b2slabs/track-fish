@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Gold Rim Tang",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "aqua-imports:131608",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Gold Rim Tang (Acanthurus glaucopareius)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -100,6 +100,39 @@
       "changedFields": [
         "price",
         "available",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:7916717830",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 137.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40231673888849",
+          "label": "Small (2-3\")",
+          "price": 119.67,
+          "available": false
+        },
+        {
+          "id": "40231673921617",
+          "label": "Medium (3-4\")",
+          "price": 137.95,
+          "available": true
+        },
+        {
+          "id": "40231673954385",
+          "label": "Large (4-6\")",
+          "price": 183.85,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
         "variants"
       ],
       "listingId": "aquarium-fish:7916717830",

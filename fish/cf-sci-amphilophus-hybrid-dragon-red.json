@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Dragon Flowerhorn",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -40,6 +40,39 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:5952205638",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 23.2,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "18826339206",
+          "label": "Small (1\")",
+          "price": 14.02,
+          "available": false
+        },
+        {
+          "id": "21613426278481",
+          "label": "Medium (2\")",
+          "price": 23.2,
+          "available": true
+        },
+        {
+          "id": "32463837266001",
+          "label": "Large (3\")",
+          "price": 32.55,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:5952205638",
       "storeSlug": "aquarium-fish"

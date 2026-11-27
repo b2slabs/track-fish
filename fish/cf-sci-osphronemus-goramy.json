@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Giant Gourami",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "monster-aquarium:6975144493265",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Giant Gourami (Osphronemus goramy)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-27T04:36:20.162Z"
     }
   ],
   "events": [
@@ -61,6 +61,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:776994717815",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 11.04,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "8657938448503",
+          "label": "Title",
+          "price": 11.04,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:776994717815",
       "storeSlug": "aquarium-fish"

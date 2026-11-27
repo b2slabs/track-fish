@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Maculiceps Tang",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "aqua-imports:112999",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Maculiceps Tang (Acanthurus maculiceps)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -70,6 +70,39 @@
       ],
       "listingId": "aqua-imports:112999",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 110.32,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50550789636395",
+          "label": "Small (2-3\")",
+          "price": 110.32,
+          "available": true
+        },
+        {
+          "id": "50550789701931",
+          "label": "Medium (3-4\")",
+          "price": 174.67,
+          "available": true
+        },
+        {
+          "id": "50550789767467",
+          "label": "Large (4-5\")",
+          "price": 229.75,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:9980599370027",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

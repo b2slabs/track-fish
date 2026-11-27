@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Orange Pom Pom",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -34,6 +34,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:98198159385",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 7.9,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "899248095257",
+          "label": "6\"",
+          "price": 7.9,
+          "available": false
+        },
+        {
+          "id": "899248160793",
+          "label": "12\"",
+          "price": 15.55,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:98198159385",
       "storeSlug": "aquarium-fish"

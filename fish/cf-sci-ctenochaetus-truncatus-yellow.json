@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Yellow Bristletooth Tang",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -40,6 +40,39 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:10095708504363",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 144.75,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51331395518763",
+          "label": "Small/Medium (1.5-3\")",
+          "price": 144.75,
+          "available": true
+        },
+        {
+          "id": "51331395551531",
+          "label": "Large (3-4\")",
+          "price": 175.94,
+          "available": true
+        },
+        {
+          "id": "51331395584299",
+          "label": "X-Large (4-5\")",
+          "price": 237.4,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10095708504363",
       "storeSlug": "aquarium-fish"

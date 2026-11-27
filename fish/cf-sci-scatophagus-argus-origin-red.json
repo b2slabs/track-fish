@@ -8,21 +8,21 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Red Scats (Scatophagus argus)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-27T04:36:20.162Z"
     },
     {
       "listingId": "aquarium-fish:6574240902",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Scat",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "aqua-imports:57362",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Scat (Scatophagus argus)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -97,6 +97,39 @@
       ],
       "listingId": "aqua-imports:57362",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20798761670",
+          "label": "Small",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "22112256262225",
+          "label": "Medium",
+          "price": 25.49,
+          "available": false
+        },
+        {
+          "id": "32092444131409",
+          "label": "Large",
+          "price": 42.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6574240902",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

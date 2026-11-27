@@ -8,28 +8,35 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "True Red Terror",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "imperial-tropicals:8398107410739",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Red Terror",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
     },
     {
       "listingId": "monster-aquarium:7082712957137",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Red Terror (mesoheros festae)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-27T04:36:20.162Z"
     },
     {
       "listingId": "aqua-imports:147766+38444",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "True Red Terror (Mesoheros festae)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:15548304228505",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "Red terror cichlid (Mesoheros festae )Wild",
+      "lastCheckedAt": "2026-11-27T04:36:54.589Z"
     }
   ],
   "events": [
@@ -142,6 +149,47 @@
       ],
       "listingId": "aqua-imports:147766+38444",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:36:54.589Z",
+      "price": 40,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "68197780029593",
+          "label": "Title",
+          "price": 40,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:15548304228505",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 33.4,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "18822635974",
+          "label": "Title",
+          "price": 33.4,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:5951244358",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

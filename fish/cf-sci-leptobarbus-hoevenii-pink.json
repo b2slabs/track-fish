@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Pink Tail Shark",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -34,6 +34,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:6763929698385",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 24.64,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39711341281361",
+          "label": "Small",
+          "price": 24.64,
+          "available": false
+        },
+        {
+          "id": "39711341314129",
+          "label": "Medium",
+          "price": 29.74,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:6763929698385",
       "storeSlug": "aquarium-fish"

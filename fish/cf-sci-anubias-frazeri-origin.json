@@ -8,28 +8,28 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Frazeri Anubias",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "daku-aquatics:8741031641306",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Anubias Frazeri",
-      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
+      "lastCheckedAt": "2026-11-27T04:38:11.126Z"
     },
     {
       "listingId": "nu-aqua-shop:10006313238844",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Anubias Frazeri",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
     },
     {
       "listingId": "aqua-imports:59901",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Anubias Frazeri",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -375,6 +375,39 @@
       ],
       "listingId": "aqua-imports:59901",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 6.45,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19809937926",
+          "label": "Medium (4\")",
+          "price": 6.45,
+          "available": true
+        },
+        {
+          "id": "8665360466039",
+          "label": "Large (6-8\")",
+          "price": 10.87,
+          "available": false
+        },
+        {
+          "id": "12644374282310",
+          "label": "Small (2\")",
+          "price": 5.35,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6260636998",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

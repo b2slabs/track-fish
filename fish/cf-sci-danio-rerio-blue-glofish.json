@@ -1,14 +1,14 @@
 {
   "canonicalFishId": "cf:sci:danio-rerio:blue-glofish",
-  "commonName": "Cosmic Blue Glofish Danio",
+  "commonName": "Cosmic Blue GloFish Danio",
   "scientificName": "Danio rerio",
   "listings": [
     {
       "listingId": "aquarium-fish:774932922487",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
-      "commonName": "Cosmic Blue Glofish Danio",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "commonName": "Cosmic Blue GloFish Danio",
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -28,6 +28,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:774932922487",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 8.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "8648451162231",
+          "label": "Title",
+          "price": 8.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:774932922487",
       "storeSlug": "aquarium-fish"

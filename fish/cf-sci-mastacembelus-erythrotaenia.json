@@ -8,42 +8,42 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Fire Eel (Mastacembelus erythrotaenia)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-27T04:36:20.162Z"
     },
     {
       "listingId": "nationwide-aquatics-usa:15489488683161",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Fire Eel (Mastacembelus erythrotaenia)",
-      "lastCheckedAt": "2026-11-25T19:01:44.668Z"
+      "lastCheckedAt": "2026-11-27T04:36:54.589Z"
     },
     {
       "listingId": "aquarium-fish:6189905734",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Fire Eel",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "imperial-tropicals:8398108623155",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Fire Eel",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
     },
     {
       "listingId": "global-exoticquatics:8241441079488",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Fire Eel",
-      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
+      "lastCheckedAt": "2026-11-27T04:38:57.362Z"
     },
     {
       "listingId": "aqua-imports:37991",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Fire Eel (Mastacembelus erythrotaenia)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -342,6 +342,45 @@
       ],
       "listingId": "aqua-imports:37991",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 161.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267410014289",
+          "label": "Small (3-4\")",
+          "price": 33.99,
+          "available": false
+        },
+        {
+          "id": "32267409981521",
+          "label": "Medium (5-6\")",
+          "price": 59.49,
+          "available": false
+        },
+        {
+          "id": "722268192793",
+          "label": "X-Large (8-10\")",
+          "price": 110.49,
+          "available": false
+        },
+        {
+          "id": "18177396506694",
+          "label": "Jumbo (approx. 12\")",
+          "price": 161.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6189905734",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

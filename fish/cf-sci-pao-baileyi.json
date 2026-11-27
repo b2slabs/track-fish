@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Hairy Puffer",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "monster-aquarium:7203179790545",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Hairy Puffer (Tetraodon baileyi)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-27T04:36:20.162Z"
     },
     {
       "listingId": "aqua-imports:181088+43200",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Hairy Puffer (Pao baileyi)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -131,6 +131,27 @@
       ],
       "listingId": "aqua-imports:181088+43200",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 110.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50583725769003",
+          "label": "Large (4\")",
+          "price": 110.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:9988036264235",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

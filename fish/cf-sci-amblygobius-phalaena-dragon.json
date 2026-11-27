@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Dragon Goby",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "ck-fish-world:8920535990487",
@@ -22,7 +22,7 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Dragon Goby (Gobioides brousonnetti)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -91,6 +91,33 @@
       ],
       "listingId": "aqua-imports:119550",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 46.4,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267641028689",
+          "label": "Medium (1.5-2.5\")",
+          "price": 46.4,
+          "available": true
+        },
+        {
+          "id": "32267641061457",
+          "label": "X-Large (3.5-4\")",
+          "price": 67.14,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:11210365132",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

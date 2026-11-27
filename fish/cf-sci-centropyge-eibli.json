@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Eibli Angelfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -34,6 +34,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:10028600131883",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 65.27,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50979974709547",
+          "label": "Small/Medium (2-3.5\")",
+          "price": 65.27,
+          "available": true
+        },
+        {
+          "id": "50979974775083",
+          "label": "Large (3.5-5\")",
+          "price": 80.74,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10028600131883",
       "storeSlug": "aquarium-fish"

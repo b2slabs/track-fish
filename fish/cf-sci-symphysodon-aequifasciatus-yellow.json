@@ -8,28 +8,28 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Yellow Pigeon Blood Discus",
-      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
+      "lastCheckedAt": "2026-11-27T04:36:35.502Z"
     },
     {
       "listingId": "aquarium-fish:1422387052614",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Yellow Marlboro Discus",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Yellow Discus (Symphysodon aequifasciatus)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-27T04:36:20.162Z"
     },
     {
       "listingId": "aqua-imports:129231",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Yellow Pigeonblood Discus (Symphysodon discus)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -483,6 +483,39 @@
       ],
       "listingId": "aqua-imports:129231",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 76.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39544941543505",
+          "label": "Medium (1.5-2\")",
+          "price": 76.49,
+          "available": false
+        },
+        {
+          "id": "12633419808838",
+          "label": "Large (2.5-3\")",
+          "price": 84.99,
+          "available": false
+        },
+        {
+          "id": "12633419841606",
+          "label": "Extra Large (4\")",
+          "price": 127.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:1422387052614",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:corydoras-trilineatus",
-  "commonName": "Julii Cory",
+  "commonName": "False Julii Cory (Hoplisoma trilineatus)",
   "scientificName": "Corydoras trilineatus",
   "listings": [
     {
@@ -8,35 +8,42 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Julii Cory",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
     },
     {
       "listingId": "aquahuna:4202001203243",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Julii Cory",
-      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
+      "lastCheckedAt": "2026-11-27T04:36:35.502Z"
     },
     {
       "listingId": "ck-fish-world:8149573337303",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Julii Cory",
-      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
+      "lastCheckedAt": "2026-11-27T04:36:48.327Z"
     },
     {
       "listingId": "aquatic-arts:4686997127254+4958545936470",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Threestripe AKA False Juli's Cory Catfish (Corydoras trilineatus), Tank-Bred!",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
     },
     {
       "listingId": "shrimpy-business:9377484341538",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Julii Corydoras (Tank-Bred)",
-      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
+      "lastCheckedAt": "2026-11-27T04:36:58.601Z"
+    },
+    {
+      "listingId": "aqua-imports:109393+42104",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "False Julii Cory (Hoplisoma trilineatus)",
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -914,6 +921,72 @@
       ],
       "listingId": "aquatic-arts:4686997127254+4958545936470",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "109393",
+          "label": "Default",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:109393+42104",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42104",
+          "label": "Default",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:109393+42104",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:39:41.069Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "109393",
+          "label": "Default",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "42104",
+          "label": "Default",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aqua-imports:109393+42104",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

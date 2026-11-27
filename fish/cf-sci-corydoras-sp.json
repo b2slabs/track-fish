@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:corydoras-sp",
-  "commonName": "Cory CW-045",
+  "commonName": "CW028 Super Schwartzi Cory (Hoplisoma sp. ‘cw028’)",
   "scientificName": "Corydoras sp.",
   "listings": [
     {
@@ -8,7 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Cory CW-045",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
+    },
+    {
+      "listingId": "aqua-imports:64542",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "CW028 Super Schwartzi Cory (Hoplisoma sp. ‘cw028’)",
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -42,6 +49,68 @@
           "id": "39543112400977",
           "label": "Title",
           "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6671725559889",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "64542",
+          "label": "Default",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:64542",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:57:31.638Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "64542",
+          "label": "Default",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "aqua-imports:64542",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 33.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39543112400977",
+          "label": "Title",
+          "price": 33.99,
           "available": false
         }
       ],

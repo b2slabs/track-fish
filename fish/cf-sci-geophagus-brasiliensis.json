@@ -8,21 +8,21 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Geophagus Brasiliensis - 2-3\"",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
     },
     {
       "listingId": "aquarium-fish:8238755676459",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Geophagus Braziliansis",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:681973",
       "storeSlug": "wet-spot-tropical-fish",
       "storeName": "The Wet Spot Tropical Fish",
       "commonName": "Geophagus brasiliensis",
-      "lastCheckedAt": "2026-11-25T19:04:28.157Z"
+      "lastCheckedAt": "2026-11-27T04:39:31.261Z"
     }
   ],
   "events": [
@@ -103,6 +103,45 @@
       ],
       "listingId": "wet-spot-tropical-fish:681973",
       "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 4.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44954449969451",
+          "label": "Small (1.5\")",
+          "price": 4.5,
+          "available": false
+        },
+        {
+          "id": "44954450002219",
+          "label": "Medium (2\")",
+          "price": 13.85,
+          "available": false
+        },
+        {
+          "id": "44954450034987",
+          "label": "Large (3\")",
+          "price": 22.94,
+          "available": false
+        },
+        {
+          "id": "44954450067755",
+          "label": "Jumbo (4-5\")",
+          "price": 45.04,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:8238755676459",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

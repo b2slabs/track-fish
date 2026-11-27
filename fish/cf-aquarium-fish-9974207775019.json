@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Tassle Filefish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "aqua-imports:98786",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Tassle Filefish (Chaetodermis penicilligerus)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -82,6 +82,51 @@
       ],
       "listingId": "aqua-imports:98786",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 172.37,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50528532234539",
+          "label": "S",
+          "price": 131.32,
+          "available": false
+        },
+        {
+          "id": "50528532267307",
+          "label": "SM",
+          "price": 149.59,
+          "available": false
+        },
+        {
+          "id": "50528532300075",
+          "label": "M",
+          "price": 172.37,
+          "available": true
+        },
+        {
+          "id": "50528532365611",
+          "label": "L",
+          "price": 229.32,
+          "available": false
+        },
+        {
+          "id": "50528532398379",
+          "label": "XL",
+          "price": 258.39,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:9974207775019",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

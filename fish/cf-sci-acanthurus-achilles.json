@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Achilles Tang",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "aqua-imports:151451",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Achilles Tang (Acanthurus achilles)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -82,6 +82,51 @@
       ],
       "listingId": "aqua-imports:151451",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 486.19,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51227745124651",
+          "label": "Small (1-2\")",
+          "price": 397.79,
+          "available": false
+        },
+        {
+          "id": "51227745157419",
+          "label": "Small/Medium (2-3\")",
+          "price": 433.15,
+          "available": false
+        },
+        {
+          "id": "51227745190187",
+          "label": "Medium (3-4\")",
+          "price": 486.19,
+          "available": true
+        },
+        {
+          "id": "51227745255723",
+          "label": "Large (4-5\")",
+          "price": 609.95,
+          "available": true
+        },
+        {
+          "id": "51227745288491",
+          "label": "X-Large (5\"+)",
+          "price": 662.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10072039063851",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Stars and Stripes Puffer",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "aqua-imports:64538",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Brackish Stars and Stripes Puffer (Arothron hispidus)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -70,6 +70,39 @@
       ],
       "listingId": "aqua-imports:64538",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 61.45,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40202988650577",
+          "label": "Small",
+          "price": 61.45,
+          "available": false
+        },
+        {
+          "id": "40202988683345",
+          "label": "Medium",
+          "price": 119.67,
+          "available": false
+        },
+        {
+          "id": "40202988716113",
+          "label": "Large",
+          "price": 209.94,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:4485315002449",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

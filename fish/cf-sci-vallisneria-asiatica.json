@@ -8,42 +8,42 @@
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Corkscrew Vallisneria",
-      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
+      "lastCheckedAt": "2026-11-27T04:38:11.126Z"
     },
     {
       "listingId": "buce-plant:9541099917",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Vallisneria Contortionist (Corkscrew Vallisneria)",
-      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
+      "lastCheckedAt": "2026-11-27T04:38:13.782Z"
     },
     {
       "listingId": "glass-aqua:7481385975894",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Vallisneria Contortionist",
-      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
+      "lastCheckedAt": "2026-11-27T04:38:40.408Z"
     },
     {
       "listingId": "nu-aqua-shop:10006320808252+10481411555644",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Vallisneria Corkscrew",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
     },
     {
       "listingId": "aqua-imports:59932",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Vallisneria Contortion (Vallisneria asiatica)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     },
     {
       "listingId": "aquarium-fish:6260704006+6260707398",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Corkscrew vallisneria",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -834,6 +834,33 @@
       ],
       "type": "change",
       "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6260704006+6260707398",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 6.45,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19810072454",
+          "label": "Corkscrew vallisneria",
+          "price": 6.45,
+          "available": true
+        },
+        {
+          "id": "19810061830",
+          "label": "Contortion vallisneria",
+          "price": 6.45,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
         "variants"
       ],
       "listingId": "aquarium-fish:6260704006+6260707398",

@@ -8,28 +8,28 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Bronze Corydoras (Tank-Bred)",
-      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
+      "lastCheckedAt": "2026-11-27T04:36:58.601Z"
     },
     {
       "listingId": "aquarium-fish:10130818007339+4564530495569",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Bronze Cory",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "dans-fish:10127076426026",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Bronze Cory",
-      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
+      "lastCheckedAt": "2026-11-27T04:39:20.672Z"
     },
     {
       "listingId": "aqua-imports:52337",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Bronze Cory (Osteogaster aeneus)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     },
     {
       "listingId": "aquarium-fish:10130818007339",
@@ -1879,6 +1879,54 @@
       ],
       "listingId": "aqua-imports:52337",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 5.01,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441023844651",
+          "label": "Bronze Cory (Gang of 3)",
+          "price": 12.74,
+          "available": false
+        },
+        {
+          "id": "51428216471851",
+          "label": "Bronze Cory",
+          "price": 5.01,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10130818007339+4564530495569",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:39:20.672Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51533810499882",
+          "label": "Unsexed",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "dans-fish:10127076426026",
+      "storeSlug": "dans-fish"
     }
   ]
 }

@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Java Fern on Driftwood",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "shrimpy-business:10431957336354",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Java Fern on Driftwood",
-      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
+      "lastCheckedAt": "2026-11-27T04:36:58.601Z"
     }
   ],
   "events": [
@@ -600,6 +600,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:10143189106987",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 20.65,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51480268472619",
+          "label": "Each",
+          "price": 20.65,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10143189106987",
       "storeSlug": "aquarium-fish"

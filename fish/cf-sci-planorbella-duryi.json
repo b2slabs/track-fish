@@ -8,14 +8,14 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Ramshorn Snail",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
     },
     {
       "listingId": "buce-plant:8324769349832",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Ramshorn Snails",
-      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
+      "lastCheckedAt": "2026-11-27T04:38:13.782Z"
     }
   ],
   "events": [
@@ -186,6 +186,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006359540028",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-27T04:39:04.942Z",
+      "price": 0.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52741912232252",
+          "label": "Regular",
+          "price": 2.49,
+          "available": false
+        },
+        {
+          "id": "52741912265020",
+          "label": "Small",
+          "price": 0.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "nu-aqua-shop:10006359540028",
       "storeSlug": "nu-aqua-shop"

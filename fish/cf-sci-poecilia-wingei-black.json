@@ -8,35 +8,35 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Black Bar Endler’s Livebearer (Poecilia wingei), Tank-Bred",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
     },
     {
       "listingId": "flip-aquatics:6869047640166",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Black Bar Endler",
-      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
+      "lastCheckedAt": "2026-11-27T04:37:05.797Z"
     },
     {
       "listingId": "aquarium-fish:8014240153899",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Black Bar Endler",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "nu-aqua-shop:10292930642236",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Black Bar Endler's Livebearer PAIR",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
     },
     {
       "listingId": "aqua-imports:190355",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Black Flame Endler’s Livebearer (Poecilia wingei)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -172,6 +172,48 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aqua-imports:190355",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 3.22,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44083434422571",
+          "label": "Title",
+          "price": 3.22,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:8014240153899",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:39:41.069Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "190355",
+          "label": "Default",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "aqua-imports:190355",
       "storeSlug": "aqua-imports"

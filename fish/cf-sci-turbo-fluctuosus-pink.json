@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Pink Margarita Snail",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -40,6 +40,39 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:60444508185",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 2.54,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51378016682283",
+          "label": "Each / Small (0.5-0.75\")",
+          "price": 2.54,
+          "available": true
+        },
+        {
+          "id": "51378018287915",
+          "label": "5-Pack / Small (0.5-0.75\")",
+          "price": 12.57,
+          "available": true
+        },
+        {
+          "id": "51378017468715",
+          "label": "10-Pack / Small (0.5-0.75\")",
+          "price": 24.64,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:60444508185",
       "storeSlug": "aquarium-fish"

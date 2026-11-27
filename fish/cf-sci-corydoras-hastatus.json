@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:corydoras-hastatus",
-  "commonName": "Corydoras hastatus",
+  "commonName": "Tail Spot Pygmy Cory (Gastrodermus hastatus)",
   "scientificName": "Corydoras hastatus",
   "listings": [
     {
@@ -8,31 +8,65 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Tail Spot Pygmy Cory (Corydoras hastatus) - Tank Bred",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
     },
     {
       "listingId": "aquarium-fish:4676233199697",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Cory Hastatus",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "dans-fish:10127107195178",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Corydoras hastatus",
-      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
+      "lastCheckedAt": "2026-11-27T04:39:20.672Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:682585+695400",
       "storeSlug": "wet-spot-tropical-fish",
       "storeName": "The Wet Spot Tropical Fish",
       "commonName": "Corydoras hastatus",
-      "lastCheckedAt": "2026-11-25T19:04:28.157Z"
+      "lastCheckedAt": "2026-11-27T04:39:31.261Z"
+    },
+    {
+      "listingId": "nationwide-aquatics-usa:8503919640729",
+      "storeSlug": "nationwide-aquatics-usa",
+      "storeName": "Nationwide Aquatics USA",
+      "commonName": "Tail Spot Pygmy Cory (Gastrodermus hastatus)",
+      "lastCheckedAt": "2026-11-27T04:36:54.589Z"
+    },
+    {
+      "listingId": "aqua-imports:152641+39543",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Tail Spot Pygmy Cory (Gastrodermus hastatus)",
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 15,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45636772069529",
+          "label": "Title",
+          "price": 15,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8503919640729",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 65.99,
@@ -58,6 +92,26 @@
       ],
       "listingId": "aquatic-arts:9453548830999",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:43.307Z",
+      "price": 15,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45636772069529",
+          "label": "Title",
+          "price": 15,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8503919640729",
+      "storeSlug": "nationwide-aquatics-usa"
     },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
@@ -124,6 +178,121 @@
       ],
       "listingId": "wet-spot-tropical-fish:682585+695400",
       "storeSlug": "wet-spot-tropical-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "152641",
+          "label": "Default",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:152641+39543",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39543",
+          "label": "Default",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:152641+39543",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:59:38.961Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "152641",
+          "label": "Default",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "39543",
+          "label": "Default",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:152641+39543",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-23T20:57:31.638Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "152641",
+          "label": "Default",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "39543",
+          "label": "Default",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aqua-imports:152641+39543",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 11.04,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32563044548689",
+          "label": "Title",
+          "price": 11.04,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:4676233199697",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

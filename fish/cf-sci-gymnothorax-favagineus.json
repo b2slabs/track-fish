@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Tessalata Eel",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -34,6 +34,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:8843638924",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 413.35,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267650433105",
+          "label": "Small/Medium (8-14\")",
+          "price": 413.35,
+          "available": true
+        },
+        {
+          "id": "51418899251499",
+          "label": "Large (14\"+)",
+          "price": 506.42,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:8843638924",
       "storeSlug": "aquarium-fish"

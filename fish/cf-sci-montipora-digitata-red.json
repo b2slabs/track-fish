@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Montipora Digitata",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -435,6 +435,39 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:10153377890603",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 34.25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51512715608363",
+          "label": "Small",
+          "price": 34.25,
+          "available": true
+        },
+        {
+          "id": "51512715641131",
+          "label": "Small/Medium",
+          "price": 46.4,
+          "available": true
+        },
+        {
+          "id": "51512715673899",
+          "label": "Medium",
+          "price": 60.17,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10153377890603",
       "storeSlug": "aquarium-fish"

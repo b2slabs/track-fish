@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Banded Hawkfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -34,6 +34,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:62165549081",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 89.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "559400747033",
+          "label": "Medium (2-3\")",
+          "price": 108.2,
+          "available": false
+        },
+        {
+          "id": "695130914841",
+          "label": "Small (1-2\")",
+          "price": 89.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:62165549081",
       "storeSlug": "aquarium-fish"

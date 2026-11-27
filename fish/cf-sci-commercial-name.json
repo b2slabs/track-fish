@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Nassarius Snail",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -58,6 +58,57 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:60441133081",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 5.35,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51355724939563",
+          "label": "Each / Medium (0.25-0.75\")",
+          "price": 5.35,
+          "available": true
+        },
+        {
+          "id": "51355724972331",
+          "label": "Each / Large (0.75-1\")",
+          "price": 5.77,
+          "available": true
+        },
+        {
+          "id": "51394215215403",
+          "label": "5-pack / Medium (0.25-0.75\")",
+          "price": 24.64,
+          "available": true
+        },
+        {
+          "id": "51394215248171",
+          "label": "5-pack / Large (0.75-1\")",
+          "price": 27.02,
+          "available": true
+        },
+        {
+          "id": "51394215280939",
+          "label": "10-pack / Medium (0.25-0.75\")",
+          "price": 46.4,
+          "available": true
+        },
+        {
+          "id": "51394215313707",
+          "label": "10-pack / Large (0.75-1\")",
+          "price": 51.25,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:60441133081",
       "storeSlug": "aquarium-fish"

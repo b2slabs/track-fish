@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Taiwan Reef Cichlid",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -66,6 +66,39 @@
           "id": "32900668424273",
           "label": "Small",
           "price": 15.29,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:5647030150",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 19.12,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "17618914182",
+          "label": "Large",
+          "price": 51.84,
+          "available": false
+        },
+        {
+          "id": "32679787003985",
+          "label": "Medium",
+          "price": 19.12,
+          "available": true
+        },
+        {
+          "id": "32900668424273",
+          "label": "Small",
+          "price": 13,
           "available": false
         }
       ],

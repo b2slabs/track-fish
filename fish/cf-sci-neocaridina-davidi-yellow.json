@@ -8,49 +8,49 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Yellow Cherry Shrimp (Neocaridina davidi) - Bred by Aquatic Arts",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
     },
     {
       "listingId": "aquahuna:948430209067",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Yellow Rice Shrimp",
-      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
+      "lastCheckedAt": "2026-11-27T04:36:35.502Z"
     },
     {
       "listingId": "aquarium-fish:6637105990",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Super Yellow Shrimp",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "buce-plant:9228822477",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Yellow Goldenback Shrimp",
-      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
+      "lastCheckedAt": "2026-11-27T04:38:13.782Z"
     },
     {
       "listingId": "glass-aqua:7665980833878",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Yellow Goldenback Shrimp",
-      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
+      "lastCheckedAt": "2026-11-27T04:38:40.408Z"
     },
     {
       "listingId": "nu-aqua-shop:10006361473340",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Yellow Fire Shrimp",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
     },
     {
       "listingId": "aqua-imports:38003",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Yellow Fire Shrimp (Neocaridina davidi)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -337,6 +337,71 @@
       ],
       "listingId": "aqua-imports:38003",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:35:48.725Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51566771962223",
+          "label": "1 Shrimp",
+          "price": 4.99,
+          "available": true
+        },
+        {
+          "id": "51566771994991",
+          "label": "5 Shrimp",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "51566772027759",
+          "label": "10 Shrimp",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "51566772060527",
+          "label": "20 Shrimp",
+          "price": 47.99,
+          "available": true
+        },
+        {
+          "id": "53130894115183",
+          "label": "Colony Booster Pack (3 Females + 2 Males)",
+          "price": 24.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:14585691144559",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 6.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "20976732230",
+          "label": "Title",
+          "price": 6.79,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6637105990",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

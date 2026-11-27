@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Imperator Angelfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "aqua-imports:110871+162192",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Emperor Angelfish Adult (Pomacanthus imperator)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -169,6 +169,69 @@
       ],
       "listingId": "aqua-imports:110871+162192",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 72.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50980499489067",
+          "label": "Juvenile / Small (1.5-2\")",
+          "price": 72.5,
+          "available": true
+        },
+        {
+          "id": "51418851934507",
+          "label": "Juvenile / Small/Medium (2-2.5\")",
+          "price": 82.02,
+          "available": true
+        },
+        {
+          "id": "50980499554603",
+          "label": "Juvenile / Medium (2.5-3.5\")",
+          "price": 101.4,
+          "available": true
+        },
+        {
+          "id": "50980499620139",
+          "label": "Juvenile / Large (3.5-4.5\")",
+          "price": 130.3,
+          "available": true
+        },
+        {
+          "id": "51338820518187",
+          "label": "Adult / Medium (2.5-3.5\")",
+          "price": 265.45,
+          "available": true
+        },
+        {
+          "id": "51338820550955",
+          "label": "Adult / Large (3.5-4.5\")",
+          "price": 313.9,
+          "available": true
+        },
+        {
+          "id": "51381407416619",
+          "label": "Adult / X-Large (4.5-6\")",
+          "price": 362.09,
+          "available": true
+        },
+        {
+          "id": "51356892889387",
+          "label": "Changing / Large (3.5-4.5\")",
+          "price": 212.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10028640207147",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

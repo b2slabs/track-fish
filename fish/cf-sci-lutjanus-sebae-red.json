@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Emperor Red Snapper",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "aqua-imports:108673",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Emperor Snapper (Lutjanus sebae)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -64,6 +64,33 @@
       ],
       "listingId": "aqua-imports:108673",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 103.35,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51360865616171",
+          "label": "Small/Medium (1-2.5\")",
+          "price": 103.35,
+          "available": true
+        },
+        {
+          "id": "51360865648939",
+          "label": "Medium (2.5-3\")",
+          "price": 112.45,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:11246420108",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

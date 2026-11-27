@@ -8,21 +8,21 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Prambanan Snail",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
     },
     {
       "listingId": "aquatic-arts:6629896552534",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Prambanan Snail (Thiara winteri)",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
     },
     {
       "listingId": "aquarium-fish:6795194892369",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Prambanan Snail",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "aquahuna:7533777682507",
@@ -36,7 +36,7 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Prambanan Snail (Thiara winteri)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -226,6 +226,33 @@
       ],
       "listingId": "aqua-imports:156503",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 4.24,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51428249796907",
+          "label": "Each",
+          "price": 4.24,
+          "available": false
+        },
+        {
+          "id": "51428249829675",
+          "label": "Group of 5",
+          "price": 19.54,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6795194892369",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,21 +8,21 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Tucano Tetra",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
     },
     {
       "listingId": "dans-fish:10127130493226",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Tucano Tetra",
-      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
+      "lastCheckedAt": "2026-11-27T04:39:20.672Z"
     },
     {
       "listingId": "aqua-imports:82380",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Tucano Tetra (Tucanoichthys tucano)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -97,6 +97,38 @@
       ],
       "listingId": "aqua-imports:82380",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:39:04.942Z",
+      "price": 15.36,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51718532858172",
+          "label": "Single",
+          "price": 15.36,
+          "available": true
+        },
+        {
+          "id": "51718532890940",
+          "label": "Group of 3",
+          "price": 41.47,
+          "available": true
+        },
+        {
+          "id": "51718532923708",
+          "label": "Group of 6",
+          "price": 78.34,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "nu-aqua-shop:10006320218428",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

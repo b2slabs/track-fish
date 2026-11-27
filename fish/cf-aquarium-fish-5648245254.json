@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Peacock Cichlid Albino",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -40,6 +40,39 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:5648245254",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 5.35,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "1567031918617",
+          "label": "Small (1\")",
+          "price": 5.35,
+          "available": false
+        },
+        {
+          "id": "1021902979097",
+          "label": "Medium (2\")",
+          "price": 11.89,
+          "available": false
+        },
+        {
+          "id": "17622630278",
+          "label": "Large (3\")",
+          "price": 18.35,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:5648245254",
       "storeSlug": "aquarium-fish"

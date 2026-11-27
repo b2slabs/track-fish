@@ -8,35 +8,35 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Hygrophila Corymbosa  \"Cherry Leaf\"",
-      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
+      "lastCheckedAt": "2026-11-27T04:37:05.797Z"
     },
     {
       "listingId": "aquarium-fish:10106303676715+6945764933713",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Temple Plant",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "buce-plant:10012017485+1344129630289+1569216987217+416951173160+4698110459985",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Nomaphila Variegatus",
-      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
+      "lastCheckedAt": "2026-11-27T04:38:13.782Z"
     },
     {
       "listingId": "aquatic-arts:1983620087894+4687288434774+6631248986198",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Temple Plant (Hygrophila corymbosa), potted",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
     },
     {
       "listingId": "aqua-imports:60075",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Hygrophila angustifollia (Hygrophila corymbosa ‘angustifolia’)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -669,6 +669,101 @@
       "type": "change",
       "changedFields": [
         "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:10012017485+1344129630289+1569216987217+416951173160+4698110459985",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 8.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51386931347755",
+          "label": "Each",
+          "price": 9.6,
+          "available": false
+        },
+        {
+          "id": "40031191400529",
+          "label": "Temple Plant",
+          "price": 8.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10106303676715+6945764933713",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:38:13.782Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15446281158737",
+          "label": "Lead Bunch",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "15446281191505",
+          "label": "3 Bunches + 1 Free",
+          "price": 23.99,
+          "available": true
+        },
+        {
+          "id": "42510441545928",
+          "label": "Potted",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "3640850841640",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12396670746705",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.97,
+          "available": false
+        },
+        {
+          "id": "12311184998481",
+          "label": "Hygrophila Siamensis Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "32648892579921",
+          "label": "Dwarf Nomaphila Siamensis (Hygrophila Corymbosa Compact) Tissue Culture",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "37563727565",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12396194398289",
+          "label": "4 Bunches",
+          "price": 20.97,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
         "variants"
       ],
       "listingId": "buce-plant:10012017485+1344129630289+1569216987217+416951173160+4698110459985",

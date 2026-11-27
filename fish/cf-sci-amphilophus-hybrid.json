@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "King Kamfa Flowerhorn",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -34,6 +34,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:10123809292587",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 36.8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51420595650859",
+          "label": "Medium (2\")",
+          "price": 36.8,
+          "available": false
+        },
+        {
+          "id": "51420595683627",
+          "label": "Large (4-5\")",
+          "price": 127.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10123809292587",
       "storeSlug": "aquarium-fish"

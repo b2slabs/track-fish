@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Horned Heniochus Butterflyfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -52,6 +52,51 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:9972667285803",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 72.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50521354764587",
+          "label": "Small",
+          "price": 72.5,
+          "available": false
+        },
+        {
+          "id": "50521354830123",
+          "label": "Small/Medium",
+          "price": 89.92,
+          "available": false
+        },
+        {
+          "id": "50521354895659",
+          "label": "Medium",
+          "price": 99.02,
+          "available": false
+        },
+        {
+          "id": "51403912315179",
+          "label": "Medium/Large",
+          "price": 132.42,
+          "available": false
+        },
+        {
+          "id": "51403912642859",
+          "label": "Large",
+          "price": 175.94,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:9972667285803",
       "storeSlug": "aquarium-fish"

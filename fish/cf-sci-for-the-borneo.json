@@ -8,21 +8,21 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Borneo Sucker Loach",
-      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
+      "lastCheckedAt": "2026-11-27T04:37:05.797Z"
     },
     {
       "listingId": "imperial-tropicals:8398138605875",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Borneo Sucker Loach",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
     },
     {
       "listingId": "aqua-imports:220512",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Borneo Sucker Loach (Gastromyzon ctenocephalus)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -199,6 +199,57 @@
       ],
       "listingId": "aqua-imports:220512",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:51.180Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67838564434227",
+          "label": "0.5-1” Unsexed",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "67838568366387",
+          "label": "(10 Pack) 0.5-1” Unsexed",
+          "price": 53.99,
+          "available": false
+        },
+        {
+          "id": "45612191711539",
+          "label": "1-2” Unsexed",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "67838531469619",
+          "label": "(10 Pack) 1-2” Unsexed",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "67838569709875",
+          "label": "2-3” Unsexed",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "68077297566003",
+          "label": "BOGO · 1-2” Unsexed · 2 fish",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398138605875",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

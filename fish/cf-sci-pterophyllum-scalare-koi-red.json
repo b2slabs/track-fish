@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Head Koi Angelfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "aquahuna:1709533954091",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Red Koi Angelfish M",
-      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
+      "lastCheckedAt": "2026-11-27T04:36:35.502Z"
     },
     {
       "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Red Koi Angelfish",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
     }
   ],
   "events": [
@@ -219,6 +219,33 @@
       ],
       "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 21.24,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "18968561094",
+          "label": "Medium (1-2\")",
+          "price": 21.24,
+          "available": false
+        },
+        {
+          "id": "12635047493702",
+          "label": "Large (2-3\")",
+          "price": 33.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:5993583238",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Yellow Tang",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "aqua-imports:85120",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Yellow Tang (Zebrasoma flavescens)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -64,6 +64,33 @@
       ],
       "listingId": "aqua-imports:85120",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 260.09,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "95183110169",
+          "label": "Small (2-2.5\")",
+          "price": 558.95,
+          "available": false
+        },
+        {
+          "id": "31113436236",
+          "label": "Medium (2.5-3\")",
+          "price": 260.09,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:9006743372",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Volitan Lionfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -58,6 +58,57 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:11232077708",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 51.84,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "185054756889",
+          "label": "Small (2-3\") / Black",
+          "price": 66.12,
+          "available": true
+        },
+        {
+          "id": "51346962874667",
+          "label": "Small (2-3\") / Red",
+          "price": 51.84,
+          "available": true
+        },
+        {
+          "id": "42498290252",
+          "label": "Medium (3-4\") / Black",
+          "price": 93.32,
+          "available": true
+        },
+        {
+          "id": "51346962907435",
+          "label": "Medium (3-4\") / Red",
+          "price": 80.74,
+          "available": true
+        },
+        {
+          "id": "185099911193",
+          "label": "Large (5-6\") / Black",
+          "price": 134.12,
+          "available": false
+        },
+        {
+          "id": "51346962940203",
+          "label": "Large (5-6\") / Red",
+          "price": 111.6,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:11232077708",
       "storeSlug": "aquarium-fish"

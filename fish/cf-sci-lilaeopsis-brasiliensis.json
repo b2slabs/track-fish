@@ -8,35 +8,35 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Micro Sword",
-      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
+      "lastCheckedAt": "2026-11-27T04:37:05.797Z"
     },
     {
       "listingId": "nu-aqua-shop:10006318154044",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Micro Sword",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
     },
     {
       "listingId": "aquarium-fish:10106310132011",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Lilaeopsis brasiliensis - Tissue Culture",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "aquatic-arts:14651939488111+3593931292758+4736623494",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Micro Sword (Lilaeopsis brasiliensis)",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
     },
     {
       "listingId": "buce-plant:4373715615825+9520384525",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Micro Sword / Lilaeopsis Novaezelandiae",
-      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
+      "lastCheckedAt": "2026-11-27T04:38:13.782Z"
     }
   ],
   "events": [
@@ -438,6 +438,65 @@
       "type": "change",
       "changedFields": [
         "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:4373715615825+9520384525",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 9.6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51386930463019",
+          "label": "Each",
+          "price": 9.6,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10106310132011",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:38:13.782Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "35246704589",
+          "label": "Pot",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12425334521937",
+          "label": "3 Pot Package",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "12425334554705",
+          "label": "5 Pot Package",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "31267363586129",
+          "label": "Lilaeopsis Brasilensis Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
         "variants"
       ],
       "listingId": "buce-plant:4373715615825+9520384525",

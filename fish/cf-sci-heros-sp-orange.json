@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Orange Shoulder Severum",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -34,6 +34,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:5951251014",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 79.55,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "18822675590",
+          "label": "Medium",
+          "price": 29.74,
+          "available": false
+        },
+        {
+          "id": "23112474067025",
+          "label": "Large 6\"",
+          "price": 79.55,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:5951251014",
       "storeSlug": "aquarium-fish"

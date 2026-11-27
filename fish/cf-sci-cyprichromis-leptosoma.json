@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Cyprichromis leptosoma kitumba",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "imperial-tropicals:8303246999859+8398102495539+8398158168371+9632134037811",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Cyprichromis leptosoma \"Chituta\"",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
     }
   ],
   "events": [
@@ -494,6 +494,33 @@
       ],
       "listingId": "imperial-tropicals:8303246999859+8398102495539+8398158168371+9632134037811",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 33.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32267395727441",
+          "label": "Small (1\")",
+          "price": 33.99,
+          "available": false
+        },
+        {
+          "id": "23990040658001",
+          "label": "Large (2\")",
+          "price": 42.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:1329646829638",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,14 +8,14 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Tropheus moorii \"Nsumbu Red\"",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
     },
     {
       "listingId": "aquarium-fish:4801099726929+5841792454",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Tropheus Red Phoenix",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -101,6 +101,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:4801099726929+5841792454",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 30.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32933543444561",
+          "label": "Tropheus Red Phoenix",
+          "price": 33.99,
+          "available": false
+        },
+        {
+          "id": "18478696582",
+          "label": "Tropheus Moorii Red Banded",
+          "price": 30.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:4801099726929+5841792454",
       "storeSlug": "aquarium-fish"

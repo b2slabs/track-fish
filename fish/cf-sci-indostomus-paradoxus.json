@@ -8,21 +8,21 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Toothpick Fish",
-      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
+      "lastCheckedAt": "2026-11-27T04:36:58.601Z"
     },
     {
       "listingId": "dans-fish:10127102935338",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Toothpick Fish",
-      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
+      "lastCheckedAt": "2026-11-27T04:39:20.672Z"
     },
     {
       "listingId": "aqua-imports:81915",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Paradox Fish (Indostomus paradoxus)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -417,6 +417,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aqua-imports:81915",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:39:41.069Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "81915",
+          "label": "Default",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "aqua-imports:81915",
       "storeSlug": "aqua-imports"

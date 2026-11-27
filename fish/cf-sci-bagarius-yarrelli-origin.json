@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Goonch Catfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "monster-aquarium:7339799970001+7486913642705",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Goonch Catfish (Bagarius Rutilus)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-27T04:36:20.162Z"
     }
   ],
   "events": [
@@ -674,6 +674,27 @@
       ],
       "listingId": "monster-aquarium:7339799970001+7486913642705",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 169.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43013630604",
+          "label": "Title",
+          "price": 169.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:11376551436",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

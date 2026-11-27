@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Panther Grouper",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "aqua-imports:108649",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Panther Grouper (Chromileptes altivelis)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -70,6 +70,39 @@
       ],
       "listingId": "aqua-imports:108649",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 52.69,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21319677870161",
+          "label": "Small (2-3'')",
+          "price": 52.69,
+          "available": false
+        },
+        {
+          "id": "42440738252",
+          "label": "Medium( 3-4\")",
+          "price": 65.7,
+          "available": false
+        },
+        {
+          "id": "32789563015249",
+          "label": "Large",
+          "price": 103.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:7904246662",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

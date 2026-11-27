@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Diamond Blue Flowerhorn",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -40,6 +40,39 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:2346479452241",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 33.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21180793258065",
+          "label": "Medium (2-3\")",
+          "price": 48.44,
+          "available": false
+        },
+        {
+          "id": "21180793290833",
+          "label": "Large (4-6\")",
+          "price": 144.49,
+          "available": false
+        },
+        {
+          "id": "55032796217643",
+          "label": "Small (1\")",
+          "price": 33.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:2346479452241",
       "storeSlug": "aquarium-fish"

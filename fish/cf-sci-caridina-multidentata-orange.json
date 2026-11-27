@@ -8,28 +8,28 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Sun Orange Amano Shrimp (Caridina multidentata \" Orange\") Tank Bred",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
     },
     {
       "listingId": "aquahuna:7475876495435",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Orange Amano Shrimp",
-      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
+      "lastCheckedAt": "2026-11-27T04:36:35.502Z"
     },
     {
       "listingId": "aquarium-fish:10407068434731",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Orange Amano Shrimp",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "nu-aqua-shop:10006320087356",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Sun Orange Amano Shrimp",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
     }
   ],
   "events": [
@@ -442,6 +442,77 @@
       ],
       "listingId": "aquatic-arts:8896355172631",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-27T04:35:48.725Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47403581341975",
+          "label": "1 Shrimp",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "51860108280175",
+          "label": "3 Shrimp",
+          "price": 25.99,
+          "available": true
+        },
+        {
+          "id": "47403581374743",
+          "label": "5 Shrimp",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "id": "47403581407511",
+          "label": "10 Shrimp",
+          "price": 78.99,
+          "available": true
+        },
+        {
+          "id": "53085126230383",
+          "label": "1 Shrimp (Large)",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "53085126263151",
+          "label": "3 Shrimp (Large)",
+          "price": 36.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:8896355172631",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 5.94,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53629737861419",
+          "label": "Title",
+          "price": 5.94,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10407068434731",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

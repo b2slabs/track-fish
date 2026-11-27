@@ -8,28 +8,28 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Black Devil Spike Snail (Faunus ater)",
-      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
+      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
     },
     {
       "listingId": "nu-aqua-shop:10413459308860",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Black Devil Spike Snail",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
     },
     {
       "listingId": "flip-aquatics:7811525640294",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "3 Black Devil Spike Snail | Faunus Ater",
-      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
+      "lastCheckedAt": "2026-11-27T04:37:05.797Z"
     },
     {
       "listingId": "aqua-imports:70546",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Black Devil Snail (Faunus ater)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
     }
   ],
   "events": [
@@ -273,6 +273,62 @@
       ],
       "listingId": "aqua-imports:70546",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T04:35:48.725Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15878765574",
+          "label": "1 Snail",
+          "price": 4.99,
+          "available": true
+        },
+        {
+          "id": "15878765638",
+          "label": "3 Snails",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "12409682919510",
+          "label": "5 Snails",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "12409682952278",
+          "label": "10 Snails",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "12409682985046",
+          "label": "20 Snails",
+          "price": 54.99,
+          "available": true
+        },
+        {
+          "id": "46964669186327",
+          "label": "5 SNAILS B GRADE",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "46964688224535",
+          "label": "3 SNAILS B GRADE",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:4845915590",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

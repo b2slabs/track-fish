@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Tomato Clownfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -78,6 +78,45 @@
           "id": "51418854359339",
           "label": "Large (2.5-3.5\")",
           "price": 33.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:7825920134",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 16.65,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32850241618001",
+          "label": "Small (0.75-1.25\")",
+          "price": 16.65,
+          "available": true
+        },
+        {
+          "id": "51339802542379",
+          "label": "Small (0.75-1.25\") Captive Bred",
+          "price": 21.92,
+          "available": true
+        },
+        {
+          "id": "29329925132",
+          "label": "Medium (1.25-2.5\")",
+          "price": 21.07,
+          "available": true
+        },
+        {
+          "id": "51418854359339",
+          "label": "Large (2.5-3.5\")",
+          "price": 28.89,
           "available": false
         }
       ],

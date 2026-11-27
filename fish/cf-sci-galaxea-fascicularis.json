@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Swamp Gas Galaxea",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -632,6 +632,45 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:10153123741995+10153220604203+10153233875243+10153242231083",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 39.35,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51512432820523",
+          "label": "Swamp Gas Galaxea",
+          "price": 39.35,
+          "available": true
+        },
+        {
+          "id": "51512419189035",
+          "label": "Poison Ivy Galaxea",
+          "price": 65.27,
+          "available": true
+        },
+        {
+          "id": "51512397037867",
+          "label": "Night Walker Galaxea",
+          "price": 51.84,
+          "available": true
+        },
+        {
+          "id": "51512232018219",
+          "label": "Mother Of All Galaxea",
+          "price": 44.45,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10153123741995+10153220604203+10153233875243+10153242231083",
       "storeSlug": "aquarium-fish"

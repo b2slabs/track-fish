@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Empress Cichlid",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     },
     {
       "listingId": "imperial-tropicals:8397971816755+8398170161459+8398170652979",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Red Empress",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
     },
     {
       "listingId": "imperial-tropicals:9931743199539",
@@ -29,7 +29,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Red Empress",
-      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
+      "lastCheckedAt": "2026-11-27T04:38:57.362Z"
     }
   ],
   "events": [
@@ -881,6 +881,39 @@
       ],
       "listingId": "imperial-tropicals:8397971816755+8398170161459+8398170652979",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 32.12,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40210211897425",
+          "label": "Small",
+          "price": 13.85,
+          "available": false
+        },
+        {
+          "id": "40210211930193",
+          "label": "Medium",
+          "price": 32.12,
+          "available": true
+        },
+        {
+          "id": "40210211962961",
+          "label": "Large",
+          "price": 45.04,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:4713332572241",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

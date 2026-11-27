@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Wedge Sea Hare",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
     }
   ],
   "events": [
@@ -58,6 +58,57 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:10072020812075",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-27T04:37:21.498Z",
+      "price": 41.47,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51227570831659",
+          "label": "Small",
+          "price": 41.47,
+          "available": true
+        },
+        {
+          "id": "51227570864427",
+          "label": "Small/Medium",
+          "price": 49.97,
+          "available": true
+        },
+        {
+          "id": "51227570897195",
+          "label": "Medium",
+          "price": 56.09,
+          "available": true
+        },
+        {
+          "id": "51227570929963",
+          "label": "Medium/Large",
+          "price": 61.87,
+          "available": true
+        },
+        {
+          "id": "51227570962731",
+          "label": "Large",
+          "price": 73.35,
+          "available": true
+        },
+        {
+          "id": "51227570995499",
+          "label": "X-Large",
+          "price": 79.89,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10072020812075",
       "storeSlug": "aquarium-fish"
