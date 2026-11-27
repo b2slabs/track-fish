@@ -136,23 +136,6 @@ export interface VariantPoint {
   timestamp: number;
   observedAt: string;
   price: number;
-  /**
-   * True when this point is where a run *resumes* at the exact same price it
-   * had before a hard-evidence gap (issue #108) — i.e. the point
-   * `mergeSamePriceRuns` joined onto the previous run rather than leaving as
-   * its own break. Store Stores like Shrimpy Business sell tiny batches that
-   * genuinely toggle `available` every few days at an unchanged price; issue
-   * #87 already keeps those from breaking the line, but every such
-   * resumption still rendered as a full, ordinary marker — a dense row of
-   * visually identical dots along a flat stretch that reads as noise rather
-   * than as "nothing changed." Rendered with reduced visual weight (see
-   * `FLAP_POINT_RADIUS`/`FLAP_POINT_OPACITY` in `LinesOverlay`) instead of
-   * hidden, so the real history stays inspectable on hover. `undefined`
-   * (never `true`) for a run's first-ever point and for any point that
-   * starts a genuinely new run (a real price change) — only an actual
-   * same-price merge earns this flag.
-   */
-  flap?: boolean;
 }
 
 /**
@@ -173,22 +156,27 @@ export interface VariantLine {
   currency: string;
   runs: VariantPoint[][];
   /**
-   * The trailing "known not purchasable" stretch (issue #103), when this
-   * variant's last known state is a gap (out of stock, or vanished from its
-   * Store's catalog) rather than a real observation: `[lastRealPoint,
-   * syntheticEndPoint]`, flat at `lastRealPoint`'s price. `syntheticEndPoint`
-   * sits at this Listing's `lastCheckedAt` — which, per `src/process.ts`,
-   * only ever advances when a Listing is actually re-observed, so it
-   * already carries the distinction this needs with no separate staleness
-   * check: still-tracked-but-out-of-stock keeps `lastCheckedAt` advancing
-   * (segment reaches "now"), while a delisted/vanished Listing's
-   * `lastCheckedAt` is frozen at its last real observation (segment stops
-   * there). Rendered in a muted gray, never the Store's own color, so it's
-   * never mistaken for real, currently-accurate pricing. `undefined` when
-   * the variant is currently in stock (see the ordinary `runs` extension
-   * instead) or there is nothing to extend to.
+   * Every "known not purchasable" stretch for this variant (issue #111),
+   * each `[lastPointBeforeGap, firstPointAfterGap]`: one between every pair
+   * of adjacent `runs` (a real gap, by construction — that's why they're
+   * separate runs), plus, when this variant's last known state is itself a
+   * gap, one final trailing entry extending to this Listing's own
+   * `lastCheckedAt` instead of to a real next point (issue #103's original
+   * mechanism, unified here as just the last, open-ended segment in this
+   * same list). `lastCheckedAt` only ever advances when a Listing is
+   * actually re-observed (`src/process.ts`), so that trailing segment
+   * already distinguishes "still tracked, still out of stock" (reaches
+   * "now") from "delisted/vanished" (frozen at its last real observation)
+   * with no separate staleness check needed.
+   *
+   * Rendered in a muted gray, never the Store's own color, regardless of
+   * whether the price matches on both sides of the gap — a shopper should
+   * never read a silently-bridged full-color line as "confirmed in stock
+   * the whole time" when it wasn't. A genuine price change across a gap is
+   * still visible: color simply resumes at its new value once the gray
+   * segment ends. Empty when this variant has never had a confirmed gap.
    */
-  outOfStockRun?: [VariantPoint, VariantPoint];
+  outOfStockSegments: [VariantPoint, VariantPoint][];
 }
 
 /**
@@ -219,53 +207,26 @@ export interface VariantLine {
  * lines on unusually large silent gaps even with no evidence anything was
  * ever out of stock, which is exactly the over-splitting this drops.
  *
- * Issue #87: even hard evidence (case two or three above) only earns a
- * visual break when it brackets a real price change. `mergeSamePriceRuns`
- * re-joins a run ending at price P to the next run if that next run also
- * starts at price P — a brief out-of-stock blip (or a variant that
- * vanishes and reappears) that resolves back to the exact same price
- * carries no trend information worth a gap, however "hard" the evidence
- * in between was. A gap that resumes at a genuinely different price is
- * left broken, since that price change is real and worth showing.
+ * Issue #87 originally re-joined a run ending at price P to the next run if
+ * that next run also started at price P, bridging the gap with the Store's
+ * own full color and no visual sign anything happened. Issue #111 replaces
+ * that: every gap between two runs — regardless of whether the price
+ * matches on either side — gets a gray `outOfStockSegments` connector
+ * instead (see `VariantLine.outOfStockSegments`'s doc), so a confirmed
+ * out-of-stock stretch is never silently indistinguishable from continuous
+ * availability. A genuine price change across a gap is still real,
+ * visible information: color simply resumes at its new value once the
+ * gray segment ends.
  *
  * Issue #81: once every variant's events are accounted for, a variant whose
  * last known state is a real, in-stock observation (not a gap) gets one
  * more synthetic point appended to its final run — same price, timestamp
  * at its own Listing's `lastCheckedAt` — so the line visibly continues up
  * to "now" instead of stopping dead at whatever Change Event happened to
- * be most recent. A variant whose last known state is already a gap is left
- * exactly as evidence says: ended there, no synthetic continuation.
+ * be most recent. A variant whose last known state is already a gap gets a
+ * trailing `outOfStockSegments` entry instead (issue #103), extending to
+ * `lastCheckedAt` rather than to a real next point.
  */
-/**
- * Collapses adjacent runs that straddle a gap with no real price movement
- * (see issue #87, `computeVariantLines`'s own doc) into one continuous run:
- * when a run's last point and the next run's first point are the exact
- * same price, whatever gap evidence split them apart is not worth a visual
- * break — nothing about the price trend actually changed. A gap that
- * resumes at a different price is left as two runs, since that price
- * change is real, reportable information.
- */
-function mergeSamePriceRuns(runs: VariantPoint[][]): VariantPoint[][] {
-  if (runs.length <= 1) return runs;
-  const merged: VariantPoint[][] = [runs[0]];
-  for (let i = 1; i < runs.length; i++) {
-    const currentRun = runs[i];
-    const previousRun = merged[merged.length - 1];
-    const previousLast = previousRun[previousRun.length - 1];
-    const currentFirst = currentRun[0];
-    if (previousLast.price === currentFirst.price) {
-      // Issue #108: this is exactly the point that "says the same thing
-      // again" after a gap with no real price movement — tag it so the
-      // overlay can render it with reduced visual weight instead of a full
-      // ordinary marker.
-      currentFirst.flap = true;
-      previousRun.push(...currentRun);
-    } else {
-      merged.push(currentRun);
-    }
-  }
-  return merged;
-}
 
 export function computeVariantLines(
   events: HistoryEvent[],
@@ -309,7 +270,7 @@ export function computeVariantLines(
     siblingCount: number;
     runs: VariantPoint[][];
     sawGapEvidence: boolean;
-    outOfStockRun?: [VariantPoint, VariantPoint];
+    outOfStockSegments: [VariantPoint, VariantPoint][];
   }
 
   const lines: VariantLine[] = [];
@@ -329,7 +290,14 @@ export function computeVariantLines(
         eventVariantIds.add(v.id);
         let acc = accums.get(v.id);
         if (!acc) {
-          acc = { variantId: v.id, label: v.label, siblingCount: eventSiblingCount, runs: [], sawGapEvidence: false };
+          acc = {
+            variantId: v.id,
+            label: v.label,
+            siblingCount: eventSiblingCount,
+            runs: [],
+            sawGapEvidence: false,
+            outOfStockSegments: [],
+          };
           accums.set(v.id, acc);
         }
         acc.label = v.label;
@@ -357,30 +325,29 @@ export function computeVariantLines(
       }
     }
 
-    // Issue #87: a gap "evidence" event only earns a visual break when it
-    // actually bracketed a real price change. A brief `available: false`/
-    // missing blip that resolves back to the exact same price it had
-    // before (CK Fish World's Panda Cory listing, reported in issue #85:
-    // 8 Jan, 20 Nov, 24 Nov 2026, all $59.98) carries no information worth
-    // showing as a gap — whatever happened in between, the price trend
-    // itself never moved, so the line should read as one unbroken stretch.
-    // A gap that resumes at a *different* price is kept as a real break:
-    // that is the "genuine" case issue #87's acceptance criteria calls
-    // out, and it's exactly what a reader needs to see.
+    // Issue #111: every gap between two adjacent runs is, by construction,
+    // a confirmed out-of-stock stretch (that's exactly why the run split
+    // there) -- give each one a gray connector regardless of whether the
+    // price matches on either side. See `VariantLine.outOfStockSegments`'s
+    // doc for why this replaced issue #87's silent same-price merge.
     for (const acc of accums.values()) {
-      acc.runs = mergeSamePriceRuns(acc.runs);
+      for (let i = 1; i < acc.runs.length; i++) {
+        const previousRun = acc.runs[i - 1];
+        const nextRun = acc.runs[i];
+        acc.outOfStockSegments.push([previousRun[previousRun.length - 1], nextRun[0]]);
+      }
     }
 
     // Issue #81/#103: extend each variant's final state flat out to this
     // Listing's own lastCheckedAt -- as a continuation of the real colored
-    // line when currently in stock (issue #81), or as a separate gray
-    // `outOfStockRun` when its last known state is already a gap (issue
-    // #103: out of stock, or vanished from the catalog -- see this
-    // function's doc and `VariantLine.outOfStockRun`'s doc for why
-    // `lastCheckedAt` alone already distinguishes "still tracked" from
-    // "delisted" here with no separate staleness check). Done once per
-    // Listing (not per variant) since every variant on one Listing shares
-    // the same lastCheckedAt.
+    // line when currently in stock (issue #81), or as one more (trailing,
+    // open-ended) `outOfStockSegments` entry when its last known state is
+    // already a gap (issue #103: out of stock, or vanished from the
+    // catalog -- see this function's doc and
+    // `VariantLine.outOfStockSegments`'s doc for why `lastCheckedAt` alone
+    // already distinguishes "still tracked" from "delisted" here with no
+    // separate staleness check). Done once per Listing (not per variant)
+    // since every variant on one Listing shares the same lastCheckedAt.
     const lastCheckedAt = lastCheckedAtByListing.get(listingId);
     const lastCheckedTimestamp = lastCheckedAt ? new Date(lastCheckedAt).getTime() : undefined;
     if (lastCheckedTimestamp != null) {
@@ -396,7 +363,7 @@ export function computeVariantLines(
           price: lastPoint.price,
         };
         if (acc.sawGapEvidence) {
-          acc.outOfStockRun = [lastPoint, endPoint];
+          acc.outOfStockSegments.push([lastPoint, endPoint]);
         } else {
           lastRun.push(endPoint);
         }
@@ -415,7 +382,7 @@ export function computeVariantLines(
         dash: dashPattern(dashIdx),
         currency: meta.currency,
         runs: acc.runs,
-        outOfStockRun: acc.outOfStockRun,
+        outOfStockSegments: acc.outOfStockSegments,
       });
     }
   }
@@ -438,7 +405,7 @@ function useLineDomain(lines: VariantLine[]): Domain | null {
     let maxP = -Infinity;
     let any = false;
     for (const line of lines) {
-      const allPoints = line.outOfStockRun ? [...line.runs, line.outOfStockRun] : line.runs;
+      const allPoints = [...line.runs, ...line.outOfStockSegments];
       for (const run of allPoints) {
         for (const p of run) {
           any = true;
@@ -576,31 +543,17 @@ const POINT_RADIUS_HOVERED = 5.5;
 const POINT_RING_WIDTH = 1.5;
 const LINE_WIDTH = 2;
 /**
- * The out-of-stock/delisted trailing segment (issue #103, `VariantLine.outOfStockRun`)
+ * Every `outOfStockSegments` connector (issue #111, `VariantLine.outOfStockSegments`)
  * always renders in this muted gray, deliberately never a Store's own
- * color — a shopper should never mistake it for real, currently-accurate
- * pricing, regardless of which Store's line it trails. Drawn at
+ * color — a shopper should never read a confirmed out-of-stock stretch as
+ * "available the whole time," whether it's a mid-stream gap or the
+ * trailing (currently out of stock / delisted) case. Drawn at
  * `OUT_OF_STOCK_OPACITY` (light/transparent, not a solid dark gray) so it
  * unmistakably reads as "faded out"/not-currently-real, sitting visually
  * beneath every Store's own full-opacity colored line.
  */
 const OUT_OF_STOCK_COLOR = 'var(--color-muted-foreground, #71717a)';
 const OUT_OF_STOCK_OPACITY = 0.35;
-
-/**
- * Issue #108: a `flap` point (see `VariantPoint.flap`'s doc) is real data —
- * never hidden — but gets a visibly smaller, more transparent marker than an
- * ordinary observation so a dense run of same-price availability toggles
- * (Shrimpy Business's Celestial Pearl Danio, repeatedly `available`
- * true/false every few days at an unchanged price) reads as "a flat,
- * unremarkable stretch with some back-and-forth" rather than a row of
- * visually equal, independently meaningful change markers. Hovering still
- * promotes it to the same `POINT_RADIUS_HOVERED` every other point uses
- * (see the `isHovered` check below) — the point is only de-emphasized at
- * rest, never harder to inspect.
- */
-const FLAP_POINT_RADIUS = 1.5;
-const FLAP_POINT_OPACITY = 0.45;
 
 /**
  * A short line-style swatch (color + dash) used both in the legend and the
@@ -652,91 +605,94 @@ function LinesOverlay({
 }) {
   return (
     <svg className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden="true">
-      {lines.map((line) => (
-        <g key={line.key}>
-          {line.runs.map((run, runIdx) => {
-            if (run.length === 0) return null;
-            if (run.length === 1) {
-              // Issue #89: isolated on both sides by a gap, so there's no
-              // neighboring point to draw a real step to — but it still needs
-              // to read as "this Store's line", not a plain dot, so it gets
-              // the same short line-style stub + point marker a multi-point
-              // run's own points are drawn with below.
-              //
-              // Issue #103 exception: when this single point is also where
-              // an `outOfStockRun` picks up (the point went straight from
-              // "first/only observation" to "out of stock", with nothing in
-              // between), the gray segment already draws a line emanating
-              // from this exact point — the symmetric stub would then
-              // double-draw a short second line right on top of its own
-              // right half, reading as a stray line crossing the point.
-              // Skip the stub in that case; the marker alone is enough,
-              // since the gray line itself now carries the "this is a line,
-              // not a dot" signal.
-              const connectsToOutOfStockRun = line.outOfStockRun?.[0].key === run[0].key;
-              const { cx, cy } = pointXY(rect, domain, run[0]);
-              const isHovered = run[0].key === hoveredKey;
-              return (
-                <g key={`${line.key}-${runIdx}`}>
-                  {!connectsToOutOfStockRun && (
-                    <path
-                      d={singlePointStubPath(cx, cy)}
-                      fill="none"
-                      stroke={line.color}
-                      strokeWidth={LINE_WIDTH}
-                      strokeDasharray={line.dash}
-                      strokeLinecap="round"
-                    />
-                  )}
-                  <circle
-                    cx={cx}
-                    cy={cy}
-                    r={isHovered ? POINT_RADIUS_HOVERED : POINT_RADIUS}
-                    fill={line.color}
-                    stroke="var(--color-background, #fff)"
-                    strokeWidth={POINT_RING_WIDTH}
-                  />
-                </g>
-              );
-            }
-            return (
-              <g key={`${line.key}-${runIdx}`}>
-                <path
-                  d={stepPath(rect, domain, run)}
-                  fill="none"
-                  stroke={line.color}
-                  strokeWidth={LINE_WIDTH}
-                  strokeDasharray={line.dash}
-                  strokeLinejoin="round"
-                  strokeLinecap="round"
-                />
-                {run.map((p) => {
-                  const { cx, cy } = pointXY(rect, domain, p);
-                  const isHovered = p.key === hoveredKey;
-                  return (
+      {lines.map((line) => {
+        // Issue #111: a single-point run's symmetric stub (issue #89) would
+        // double-draw a short second line on top of a gray
+        // `outOfStockSegments` connector that touches that same point (on
+        // either side) — the gray line already carries the "this is a
+        // line, not a dot" signal in that case, so the stub is skipped.
+        const graySegmentPointKeys = new Set(
+          line.outOfStockSegments.flatMap(([a, b]) => [a.key, b.key]),
+        );
+        // A segment's end point only needs its own marker drawn here when
+        // it's NOT already part of a real run (true for every mid-stream
+        // connector, whose both ends belong to adjacent runs already
+        // rendered below -- only the final, synthetic `lastCheckedAt`
+        // endpoint of a trailing segment, issue #103, has no run of its own).
+        const realPointKeys = new Set(line.runs.flat().map((p) => p.key));
+
+        return (
+          <g key={line.key}>
+            {line.runs.map((run, runIdx) => {
+              if (run.length === 0) return null;
+              if (run.length === 1) {
+                // Issue #89: isolated on both sides by a gap, so there's no
+                // neighboring point to draw a real step to — but it still
+                // needs to read as "this Store's line", not a plain dot, so
+                // it gets the same short line-style stub + point marker a
+                // multi-point run's own points are drawn with below.
+                const touchesGraySegment = graySegmentPointKeys.has(run[0].key);
+                const { cx, cy } = pointXY(rect, domain, run[0]);
+                const isHovered = run[0].key === hoveredKey;
+                return (
+                  <g key={`${line.key}-${runIdx}`}>
+                    {!touchesGraySegment && (
+                      <path
+                        d={singlePointStubPath(cx, cy)}
+                        fill="none"
+                        stroke={line.color}
+                        strokeWidth={LINE_WIDTH}
+                        strokeDasharray={line.dash}
+                        strokeLinecap="round"
+                      />
+                    )}
                     <circle
-                      key={p.key}
                       cx={cx}
                       cy={cy}
-                      r={isHovered ? POINT_RADIUS_HOVERED : p.flap ? FLAP_POINT_RADIUS : POINT_RADIUS}
+                      r={isHovered ? POINT_RADIUS_HOVERED : POINT_RADIUS}
                       fill={line.color}
-                      fillOpacity={isHovered || !p.flap ? undefined : FLAP_POINT_OPACITY}
                       stroke="var(--color-background, #fff)"
                       strokeWidth={POINT_RING_WIDTH}
                     />
-                  );
-                })}
-              </g>
-            );
-          })}
-          {line.outOfStockRun &&
-            (() => {
-              const [start, end] = line.outOfStockRun;
+                  </g>
+                );
+              }
+              return (
+                <g key={`${line.key}-${runIdx}`}>
+                  <path
+                    d={stepPath(rect, domain, run)}
+                    fill="none"
+                    stroke={line.color}
+                    strokeWidth={LINE_WIDTH}
+                    strokeDasharray={line.dash}
+                    strokeLinejoin="round"
+                    strokeLinecap="round"
+                  />
+                  {run.map((p) => {
+                    const { cx, cy } = pointXY(rect, domain, p);
+                    const isHovered = p.key === hoveredKey;
+                    return (
+                      <circle
+                        key={p.key}
+                        cx={cx}
+                        cy={cy}
+                        r={isHovered ? POINT_RADIUS_HOVERED : POINT_RADIUS}
+                        fill={line.color}
+                        stroke="var(--color-background, #fff)"
+                        strokeWidth={POINT_RING_WIDTH}
+                      />
+                    );
+                  })}
+                </g>
+              );
+            })}
+            {line.outOfStockSegments.map(([start, end], segIdx) => {
               const a = pointXY(rect, domain, start);
               const b = pointXY(rect, domain, end);
               const isHovered = end.key === hoveredKey;
+              const endIsSynthetic = !realPointKeys.has(end.key);
               return (
-                <g key={`${line.key}-oos`}>
+                <g key={`${line.key}-oos-${segIdx}`}>
                   <line
                     x1={a.cx}
                     y1={a.cy}
@@ -747,20 +703,23 @@ function LinesOverlay({
                     strokeWidth={LINE_WIDTH}
                     strokeLinecap="round"
                   />
-                  <circle
-                    cx={b.cx}
-                    cy={b.cy}
-                    r={isHovered ? POINT_RADIUS_HOVERED : POINT_RADIUS}
-                    fill={OUT_OF_STOCK_COLOR}
-                    fillOpacity={OUT_OF_STOCK_OPACITY}
-                    stroke="var(--color-background, #fff)"
-                    strokeWidth={POINT_RING_WIDTH}
-                  />
+                  {endIsSynthetic && (
+                    <circle
+                      cx={b.cx}
+                      cy={b.cy}
+                      r={isHovered ? POINT_RADIUS_HOVERED : POINT_RADIUS}
+                      fill={OUT_OF_STOCK_COLOR}
+                      fillOpacity={OUT_OF_STOCK_OPACITY}
+                      stroke="var(--color-background, #fff)"
+                      strokeWidth={POINT_RING_WIDTH}
+                    />
+                  )}
                 </g>
               );
-            })()}
-        </g>
-      ))}
+            })}
+          </g>
+        );
+      })}
     </svg>
   );
 }
@@ -806,7 +765,7 @@ function useNearestPointHover(
     let bestXY: { cx: number; cy: number } | null = null;
     let bestDist = Infinity;
     for (const line of lines) {
-      const allPoints = line.outOfStockRun ? [...line.runs, line.outOfStockRun] : line.runs;
+      const allPoints = [...line.runs, ...line.outOfStockSegments];
       for (const run of allPoints) {
         for (const p of run) {
           const xy = pointXY(rect, domain, p);
@@ -857,11 +816,6 @@ function PointHoverOverlay({ hover }: { hover: PointHoverState }) {
         <p className="text-xs text-muted-foreground">{line.variantLabel}</p>
         <p className="text-xs text-muted-foreground">{formatDateTime(point.observedAt)}</p>
         <p className="mt-1 font-medium">{formatPrice(point.price, line.currency)}</p>
-        {point.flap && (
-          <p className="mt-1 text-xs text-muted-foreground">
-            Briefly out of stock and back — price unchanged.
-          </p>
-        )}
       </div>
     </div>
   );
