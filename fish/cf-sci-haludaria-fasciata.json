@@ -8,19 +8,39 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Melon Barb (Haludaria fasciata)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "nu-aqua-shop:10006318121276",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Melon Barb",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 7,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42294771351761",
+          "label": "2”",
+          "price": 7,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7492099997905",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 7,
       "currency": "USD",
       "available": false,

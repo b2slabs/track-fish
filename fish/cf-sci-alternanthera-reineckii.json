@@ -8,63 +8,63 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Scarlet Temple",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "imperial-tropicals:8398166229299",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Scarlet Temple (Alternanthera reineckii)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquarium-fish:10105515639083+10106542162219+10113560576299",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Scarlet Temple Plant",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "buce-plant:10590174029+10624582349+1317161107537+1353958457425+1367199121489+1367533289553+413607690280+435746635816+435746766888+477456793640+6928575791304+8227247063240+9182762317+9520263245",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Alternanthera Lilacina",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "flip-aquatics:6612165165158",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Scarlet Temple | Alternanthera reineckii",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "glass-aqua:1329357553750",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Alternanthera Lilacina",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "aquatic-arts:1321477079126+1923636363350+6766766194774",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Scarlet Temple (Alternanthera reineckii)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "daku-aquatics:8741039603930+9354977902810",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Scarlet Temple ‘Rosanervig’",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     },
     {
       "listingId": "aqua-imports:60023",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Alternanthera lilacina",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -883,7 +883,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "daku-aquatics:8741039603930+9354977902810",
       "storeSlug": "daku-aquatics"
@@ -1169,6 +1169,26 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 8.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49048263852322",
+          "label": "Title",
+          "price": 8.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9446901776674",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 7.59,
       "currency": "USD",
@@ -1183,8 +1203,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10105515639083+10106542162219+10113560576299",
       "storeSlug": "aquarium-fish"
@@ -1204,8 +1223,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10105515639083+10106542162219+10113560576299",
       "storeSlug": "aquarium-fish"
@@ -1225,7 +1243,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10105515639083+10106542162219+10113560576299",
       "storeSlug": "aquarium-fish"
@@ -1265,7 +1283,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "daku-aquatics:8741039603930+9354977902810",
       "storeSlug": "daku-aquatics"
@@ -1285,7 +1303,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "daku-aquatics:8741039603930+9354977902810",
       "storeSlug": "daku-aquatics"
@@ -1305,8 +1323,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10590174029+10624582349+1317161107537+1353958457425+1367199121489+1367533289553+413607690280+435746635816+435746766888+477456793640+6928575791304+8227247063240+9182762317+9520263245",
       "storeSlug": "buce-plant"
@@ -1326,8 +1343,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10590174029+10624582349+1317161107537+1353958457425+1367199121489+1367533289553+413607690280+435746635816+435746766888+477456793640+6928575791304+8227247063240+9182762317+9520263245",
       "storeSlug": "buce-plant"
@@ -1347,8 +1363,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10590174029+10624582349+1317161107537+1353958457425+1367199121489+1367533289553+413607690280+435746635816+435746766888+477456793640+6928575791304+8227247063240+9182762317+9520263245",
       "storeSlug": "buce-plant"
@@ -1374,8 +1389,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10590174029+10624582349+1317161107537+1353958457425+1367199121489+1367533289553+413607690280+435746635816+435746766888+477456793640+6928575791304+8227247063240+9182762317+9520263245",
       "storeSlug": "buce-plant"
@@ -1395,9 +1409,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10590174029+10624582349+1317161107537+1353958457425+1367199121489+1367533289553+413607690280+435746635816+435746766888+477456793640+6928575791304+8227247063240+9182762317+9520263245",
       "storeSlug": "buce-plant"
@@ -1417,7 +1429,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10590174029+10624582349+1317161107537+1353958457425+1367199121489+1367533289553+413607690280+435746635816+435746766888+477456793640+6928575791304+8227247063240+9182762317+9520263245",
       "storeSlug": "buce-plant"
@@ -1437,8 +1449,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10590174029+10624582349+1317161107537+1353958457425+1367199121489+1367533289553+413607690280+435746635816+435746766888+477456793640+6928575791304+8227247063240+9182762317+9520263245",
       "storeSlug": "buce-plant"
@@ -1458,8 +1469,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10590174029+10624582349+1317161107537+1353958457425+1367199121489+1367533289553+413607690280+435746635816+435746766888+477456793640+6928575791304+8227247063240+9182762317+9520263245",
       "storeSlug": "buce-plant"
@@ -1485,9 +1495,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10590174029+10624582349+1317161107537+1353958457425+1367199121489+1367533289553+413607690280+435746635816+435746766888+477456793640+6928575791304+8227247063240+9182762317+9520263245",
       "storeSlug": "buce-plant"
@@ -1507,8 +1515,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10590174029+10624582349+1317161107537+1353958457425+1367199121489+1367533289553+413607690280+435746635816+435746766888+477456793640+6928575791304+8227247063240+9182762317+9520263245",
       "storeSlug": "buce-plant"
@@ -1528,7 +1535,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10590174029+10624582349+1317161107537+1353958457425+1367199121489+1367533289553+413607690280+435746635816+435746766888+477456793640+6928575791304+8227247063240+9182762317+9520263245",
       "storeSlug": "buce-plant"
@@ -1554,8 +1561,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10590174029+10624582349+1317161107537+1353958457425+1367199121489+1367533289553+413607690280+435746635816+435746766888+477456793640+6928575791304+8227247063240+9182762317+9520263245",
       "storeSlug": "buce-plant"
@@ -1575,7 +1581,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10590174029+10624582349+1317161107537+1353958457425+1367199121489+1367533289553+413607690280+435746635816+435746766888+477456793640+6928575791304+8227247063240+9182762317+9520263245",
       "storeSlug": "buce-plant"
@@ -1595,8 +1601,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10590174029+10624582349+1317161107537+1353958457425+1367199121489+1367533289553+413607690280+435746635816+435746766888+477456793640+6928575791304+8227247063240+9182762317+9520263245",
       "storeSlug": "buce-plant"
@@ -1628,8 +1633,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10105515639083+10106542162219+10113560576299",
       "storeSlug": "aquarium-fish"
@@ -1745,8 +1749,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10590174029+10624582349+1317161107537+1353958457425+1367199121489+1367533289553+413607690280+435746635816+435746766888+477456793640+6928575791304+8227247063240+9182762317+9520263245",
       "storeSlug": "buce-plant"
@@ -1802,9 +1805,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:1321477079126+1923636363350+6766766194774",
       "storeSlug": "aquatic-arts"
@@ -1918,7 +1919,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:1321477079126+1923636363350+6766766194774",
       "storeSlug": "aquatic-arts"
@@ -1944,7 +1945,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "daku-aquatics:8741039603930+9354977902810",
       "storeSlug": "daku-aquatics"
@@ -2383,39 +2384,6 @@
       ],
       "listingId": "glass-aqua:1329357553750",
       "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 6.45,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51390120100139",
-          "label": "Scarlet Temple Plant",
-          "price": 6.45,
-          "available": true
-        },
-        {
-          "id": "51386932724011",
-          "label": "Each",
-          "price": 9.6,
-          "available": true
-        },
-        {
-          "id": "51386927382827",
-          "label": "Each",
-          "price": 9.6,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10105515639083+10106542162219+10113560576299",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

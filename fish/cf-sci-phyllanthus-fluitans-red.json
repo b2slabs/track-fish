@@ -8,63 +8,63 @@
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Red Root Floaters",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     },
     {
       "listingId": "buce-plant:1334911369297",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Phyllanthus Fluitans Red Root Floater",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:1341994860630",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Phyllanthus Fluitans Red Root Floater",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "nu-aqua-shop:10006319137084",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Red Root Floater",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "shrimpy-business:9757903683874",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Red Root Floaters",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "flip-aquatics:4974808399974",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Red Root Floaters",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "imperial-tropicals:9242834075955",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Red Root Floater",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquatic-arts:1389646774358+6799259533398",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Red Root Floater (Phyllanthus fluitans)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aqua-imports:128331",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Root Floater (Phyllanthis fluitans)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -2619,8 +2619,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:1389646774358+6799259533398",
       "storeSlug": "aquatic-arts"
@@ -2658,8 +2657,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "shrimpy-business:9757903683874",
       "storeSlug": "shrimpy-business"
@@ -2683,6 +2681,46 @@
       ],
       "listingId": "flip-aquatics:4974808399974",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49211322827059",
+          "label": "4 oz Cup",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9242834075955",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043823374554",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741026201818",
+      "storeSlug": "daku-aquatics"
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
@@ -2906,7 +2944,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:1389646774358+6799259533398",
       "storeSlug": "aquatic-arts"

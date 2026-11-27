@@ -8,21 +8,21 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Magenta Mystery Snail",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "shrimpy-business:6757050056789",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Magenta Mystery Snail",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "flip-aquatics:6953553559654",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "3 Magenta Mystery Snails",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     }
   ],
   "events": [
@@ -130,6 +130,44 @@
     },
     {
       "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 6.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40055543464021",
+          "label": "1 Snail",
+          "price": 6.5,
+          "available": false
+        },
+        {
+          "id": "40055543496789",
+          "label": "3 Snails",
+          "price": 17.95,
+          "available": false
+        },
+        {
+          "id": "51662845083938",
+          "label": "6 Snail",
+          "price": 32.95,
+          "available": false
+        },
+        {
+          "id": "51662845116706",
+          "label": "12 Snail",
+          "price": 61.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6757050056789",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 6,
       "currency": "USD",
       "available": true,
@@ -161,9 +199,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "shrimpy-business:6757050056789",
       "storeSlug": "shrimpy-business"
@@ -257,7 +293,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "shrimpy-business:6757050056789",
       "storeSlug": "shrimpy-business"
@@ -295,9 +331,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "shrimpy-business:6757050056789",
       "storeSlug": "shrimpy-business"

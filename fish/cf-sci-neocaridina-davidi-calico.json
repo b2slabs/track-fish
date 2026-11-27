@@ -8,12 +8,50 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Calico Sunkist Shrimp (Neocaridina Davidi) Tank Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51955668484463",
+          "label": "1 Shrimp",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "51955668713839",
+          "label": "5 Shrimp",
+          "price": 55.99,
+          "available": false
+        },
+        {
+          "id": "51955666092399",
+          "label": "10 Shrimp",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "51955666125167",
+          "label": "Mini Breeder Pack (3 Females + 2 Males)",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:14585690358127+14709718679919",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 10.99,
       "currency": "USD",
       "available": false,
@@ -83,8 +121,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14585690358127+14709718679919",
       "storeSlug": "aquatic-arts"
@@ -146,7 +183,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14585690358127+14709718679919",
       "storeSlug": "aquatic-arts"

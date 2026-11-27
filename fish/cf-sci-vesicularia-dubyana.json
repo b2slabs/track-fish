@@ -8,7 +8,7 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Java Moss",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "daku-aquatics:8741028430042",
@@ -22,21 +22,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Java Moss on Coconut Shell",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "buce-plant:8478753677",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Java Moss on Driftwood",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aquatic-arts:14631277429103",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Java Moss on Coconut Half (Vesicularia dubyana on Coconut Half)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
@@ -1571,6 +1571,26 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 7,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40756180385867",
+          "label": "Title",
+          "price": 7,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:7115884068939",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 15.99,
       "currency": "USD",
@@ -1611,9 +1631,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10106809254187",
       "storeSlug": "aquarium-fish"
@@ -1645,7 +1663,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10106809254187",
       "storeSlug": "aquarium-fish"
@@ -1692,9 +1710,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10106809254187",
       "storeSlug": "aquarium-fish"
@@ -1718,33 +1734,6 @@
       ],
       "listingId": "buce-plant:8478753677",
       "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 13.59,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51367136624939",
-          "label": "Dome",
-          "price": 20.65,
-          "available": false
-        },
-        {
-          "id": "51367136657707",
-          "label": "Bridge",
-          "price": 13.59,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10106809254187",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

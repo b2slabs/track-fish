@@ -8,14 +8,14 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Selaginella Kraussiana Aurea",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "buce-plant:4453512118353+8263554269384",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Selaginella Kraussiana Aurea",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -481,6 +481,26 @@
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44876723093704",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:4453512118353+8263554269384",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 7.99,
       "currency": "USD",
       "available": true,
@@ -494,12 +514,30 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:4453512118353+8263554269384",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43741211426902",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:7735393583190",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-21T20:08:29.473Z",
@@ -522,7 +560,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:4453512118353+8263554269384",
       "storeSlug": "buce-plant"

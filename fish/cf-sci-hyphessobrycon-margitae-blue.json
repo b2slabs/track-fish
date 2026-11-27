@@ -8,35 +8,35 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Bleeding Blue Tetra- WILD PERU",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "imperial-tropicals:8398112391475",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Bleeding Blue Tetra (Hyphessobrycon margitae)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "nationwide-aquatics-usa:8818996510873+8819005882521",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "bleeding blue tetra (hyphessobrycon margitae)",
-      "lastCheckedAt": "2026-11-26T18:53:19.110Z"
+      "lastCheckedAt": "2026-11-25T19:01:44.668Z"
     },
     {
       "listingId": "flip-aquatics:4952624627814",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Bleeding Blue Tetra | Hyphessobrycon Margitae",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aqua-imports:40140",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Bleeding Blue Tetra (Hyphessobrycon margitae)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -101,8 +101,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "nationwide-aquatics-usa:8818996510873+8819005882521",
       "storeSlug": "nationwide-aquatics-usa"
@@ -122,11 +121,30 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "nationwide-aquatics-usa:8818996510873+8819005882521",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32145137238118",
+          "label": "Imported / 1 Fish",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:4952624627814",
+      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
@@ -207,7 +225,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "nationwide-aquatics-usa:8818996510873+8819005882521",
       "storeSlug": "nationwide-aquatics-usa"

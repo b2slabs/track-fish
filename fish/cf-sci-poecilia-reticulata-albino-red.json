@@ -8,56 +8,56 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Full Red Albino Guppy, (Poecilia reticulata), Males and Females - Tank-Bred!",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aquarium-fish:8927886377259",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Male Albino Red Fire Guppy",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:10116673339699",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Albino Full Red Guppy (Poecilia reticulata)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "buce-plant:7447978705096",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Full Red Albino Guppies",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:7903128059990",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Full Red Albino Guppy",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "monster-aquarium:6992662790353+6992662823121",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Super Red Albino Guppy (Male) (Poecilia reticulata)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "dans-fish:10127137833258",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Albino Full Red Guppy",
-      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     },
     {
       "listingId": "aqua-imports:188661",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Albino Full Red Guppy (Poecilia reticulata)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "global-exoticquatics:8678203195584",
@@ -859,8 +859,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:6992662790353+6992662823121",
       "storeSlug": "monster-aquarium"
@@ -884,6 +883,38 @@
       ],
       "listingId": "aquarium-fish:8927886377259",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53140847821107",
+          "label": "1-2\" Male",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "53140847853875",
+          "label": "1-2\" Pair (1 Male, 1 Female)",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "53140847886643",
+          "label": "1-2\" Trio (1 Male, 2 Female)",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:10116673339699",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
@@ -918,6 +949,26 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44940148998230",
+          "label": "Title",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:7903128059990",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-11-21T20:07:35.821Z",
       "price": 13.99,
       "currency": "USD",
@@ -944,7 +995,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:6992662790353+6992662823121",
       "storeSlug": "monster-aquarium"
@@ -1032,27 +1083,6 @@
       ],
       "listingId": "imperial-tropicals:10116673339699",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 6.45,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "47613882073387",
-          "label": "Title",
-          "price": 6.45,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:8927886377259",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,35 +8,35 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Lambchop Rasbora (Trigonostigma espei)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "monster-aquarium:7777418739921",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Lambchop Rasbora ( Trigonostigma espei )",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "shrimpy-business:9470962696482",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Lambchop Rasbora",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "nu-aqua-shop:10006315893052",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Espei Rasbora",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aquarium-fish:10130816270635+4675595534417",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Espei Rasbora",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "ck-fish-world:8149571993815",
@@ -50,7 +50,7 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Espei Rasbora (Trigonostigma espei)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "aquarium-fish:10130816270635",
@@ -1769,6 +1769,64 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43214577139921",
+          "label": ".5\"",
+          "price": 5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7777418739921",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 12.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49112827199778",
+          "label": "3 Fish",
+          "price": 12.5,
+          "available": false
+        },
+        {
+          "id": "49112827232546",
+          "label": "6 Fish",
+          "price": 22.95,
+          "available": false
+        },
+        {
+          "id": "51662841282850",
+          "label": "12 Fish",
+          "price": 42.95,
+          "available": false
+        },
+        {
+          "id": "51662841315618",
+          "label": "24 Fish",
+          "price": 79.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9470962696482",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 21.16,
       "currency": "USD",
@@ -1803,8 +1861,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10130816270635+4675595534417",
       "storeSlug": "aquarium-fish"
@@ -1850,7 +1907,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10130816270635+4675595534417",
       "storeSlug": "aquarium-fish"

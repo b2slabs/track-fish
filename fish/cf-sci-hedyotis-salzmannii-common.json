@@ -8,21 +8,21 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Hedyotis Salzmannii",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:7297003454550",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Hedyotis Salzmannii",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "aqua-imports:153333",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Hedyotis salzmanni",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -604,6 +604,50 @@
       "type": "change",
       "changedFields": [
         "variants"
+      ],
+      "listingId": "buce-plant:1346605350993",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12332484984913",
+          "label": "Pot",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "12425529950289",
+          "label": "3 Pot Package",
+          "price": 20.97,
+          "available": true
+        },
+        {
+          "id": "12425529983057",
+          "label": "5 Pot Package",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "12425868804177",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12425872408657",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.97,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
       ],
       "listingId": "buce-plant:1346605350993",
       "storeSlug": "buce-plant"

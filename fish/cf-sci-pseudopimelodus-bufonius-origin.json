@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Giant Bumblebee Catfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquatic-arts:4855351902294",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Asian Bumblebee Catfish (Pseudomystus siamensis)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aqua-imports:154182+40021",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Asian Bumblebee Catfish (Pseudomystus siamensis)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -258,6 +258,38 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33171698417750",
+          "label": "1 Fish",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "33171717816406",
+          "label": "3 Fish",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "33171718537302",
+          "label": "6 Fish",
+          "price": 65.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:4855351902294",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 49.99,
       "currency": "USD",
@@ -302,27 +334,6 @@
       ],
       "listingId": "aqua-imports:154182+40021",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 42.49,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39734459269201",
-          "label": "Title",
-          "price": 42.49,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6780195897425",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

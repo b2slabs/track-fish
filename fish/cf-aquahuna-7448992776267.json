@@ -8,14 +8,14 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Anubias Lanceolata - Potted Plant",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "glass-aqua:7512268701782",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Anubias Lanceolata - Mother Plant",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
@@ -165,6 +165,26 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 11,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41801534865483",
+          "label": "Title",
+          "price": 11,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:7448992776267",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 21.99,
       "currency": "USD",
@@ -179,8 +199,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "glass-aqua:7512268701782",
       "storeSlug": "glass-aqua"

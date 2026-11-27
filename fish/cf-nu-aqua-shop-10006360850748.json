@@ -8,19 +8,39 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Three Beacon Plecostomus XL",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "global-exoticquatics:8442897825984",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Three Beacon pleco",
-      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-30T03:00:00.000Z",
+      "price": 50,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47274535846080",
+          "label": "2.5-3.5 inch",
+          "price": 50,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8442897825984",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
       "price": 50,
       "currency": "USD",
       "available": true,
@@ -58,27 +78,6 @@
       ],
       "listingId": "nu-aqua-shop:10006360850748",
       "storeSlug": "nu-aqua-shop"
-    },
-    {
-      "observedAt": "2026-11-26T18:55:25.356Z",
-      "price": 50,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "47274535846080",
-          "label": "2.5-3.5 inch",
-          "price": 50,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "available",
-        "variants"
-      ],
-      "listingId": "global-exoticquatics:8442897825984",
-      "storeSlug": "global-exoticquatics"
     }
   ]
 }

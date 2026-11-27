@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Four Spot Butterflyfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     }
   ],
   "events": [
@@ -77,9 +77,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:11193316172+9972667023659",
       "storeSlug": "aquarium-fish"
@@ -135,64 +133,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
-      ],
-      "listingId": "aquarium-fish:11193316172+9972667023659",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 122.65,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "50521353584939",
-          "label": "S",
-          "price": 73.35,
-          "available": false
-        },
-        {
-          "id": "50521353617707",
-          "label": "SM",
-          "price": 89.92,
-          "available": false
-        },
-        {
-          "id": "50521353650475",
-          "label": "M",
-          "price": 108.79,
-          "available": false
-        },
-        {
-          "id": "50521353683243",
-          "label": "ML",
-          "price": 120.69,
-          "available": false
-        },
-        {
-          "id": "50521353716011",
-          "label": "L",
-          "price": 134.12,
-          "available": false
-        },
-        {
-          "id": "50521353748779",
-          "label": "XL",
-          "price": 137.69,
-          "available": false
-        },
-        {
-          "id": "32267641421905",
-          "label": "Medium",
-          "price": 122.65,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:11193316172+9972667023659",
       "storeSlug": "aquarium-fish"

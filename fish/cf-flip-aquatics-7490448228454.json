@@ -8,7 +8,7 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Aqua Natural Smooth Lava Rock",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     }
   ],
   "events": [
@@ -439,8 +439,8 @@
       "storeSlug": "flip-aquatics"
     },
     {
-      "observedAt": "2026-11-26T18:53:30.571Z",
-      "price": 9.99,
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 7.99,
       "currency": "USD",
       "available": true,
       "variants": [
@@ -460,7 +460,7 @@
           "id": "42334748606566",
           "label": "Medium - 3 Rocks",
           "price": 7.99,
-          "available": false
+          "available": true
         },
         {
           "id": "42334748639334",
@@ -471,8 +471,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:7490448228454",
       "storeSlug": "flip-aquatics"

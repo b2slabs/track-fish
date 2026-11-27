@@ -8,12 +8,32 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Cuban Gar (Atractosteus tristoechus)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-09-11T05:00:00.000Z",
+      "price": 150,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43301639782609",
+          "label": "6.5-7.5”",
+          "price": 150,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7806136942801",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 150,
       "currency": "USD",
       "available": true,

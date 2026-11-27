@@ -8,21 +8,21 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Gold Rabbit Snail",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "flip-aquatics:11313673220",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Gold Rabbit Snails",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aquarium-fish:6638924870",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Golden Rabbit Snail",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     }
   ],
   "events": [
@@ -133,6 +133,32 @@
       "storeSlug": "shrimpy-business"
     },
     {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 11.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45228950880546",
+          "label": "Imported Adult (2 to 3 inches)",
+          "price": 11.95,
+          "available": false
+        },
+        {
+          "id": "45228950946082",
+          "label": "USA-Bred Juvenile (1/2 inch to 1 inch)",
+          "price": 14.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6572400148565",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 17.99,
       "currency": "USD",
@@ -168,27 +194,6 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ],
-      "listingId": "aquarium-fish:6638924870",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 5.35,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "20982166086",
-          "label": "Title",
-          "price": 5.35,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
       ],
       "listingId": "aquarium-fish:6638924870",
       "storeSlug": "aquarium-fish"

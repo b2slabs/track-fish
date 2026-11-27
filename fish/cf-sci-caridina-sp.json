@@ -8,21 +8,21 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Assorted Caridina Shrimp",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "buce-plant:7673369166024",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Caridina Culls",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aquatic-arts:14694688358767+6783223332950",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Assorted Caridina Shrimp (Caridina sp.), Tank-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aquatic-arts:14694688358767",
@@ -351,12 +351,30 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14694688358767+6783223332950",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42015223185510",
+          "label": "Imported",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:7412898201702",
+      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
@@ -441,9 +459,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14694688358767+6783223332950",
       "storeSlug": "aquatic-arts"

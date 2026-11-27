@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "UNS Hybrid Holding System",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -60,6 +60,32 @@
       "type": "change",
       "changedFields": [
         "variants"
+      ],
+      "listingId": "buce-plant:8250321240264",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 1799.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44850875531464",
+          "label": "Full Holding System",
+          "price": 2599.99,
+          "available": false
+        },
+        {
+          "id": "44850875564232",
+          "label": "Partial Holding System",
+          "price": 1799.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
       ],
       "listingId": "buce-plant:8250321240264",
       "storeSlug": "buce-plant"

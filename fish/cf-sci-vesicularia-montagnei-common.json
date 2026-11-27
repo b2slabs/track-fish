@@ -8,14 +8,14 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Christmas Moss Dome",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "buce-plant:8343106027720",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Christmas Moss Dome",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -145,6 +145,26 @@
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45214668488904",
+          "label": "Title",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8343106027720",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 12.99,
       "currency": "USD",
       "available": false,
@@ -158,9 +178,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:8343106027720",
       "storeSlug": "buce-plant"
@@ -180,12 +198,30 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:8343106027720",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45790749425750",
+          "label": "Title",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:8060586590294",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-21T20:08:29.473Z",
@@ -214,7 +250,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:8343106027720",
       "storeSlug": "buce-plant"
@@ -234,8 +270,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:8343106027720",
       "storeSlug": "buce-plant"

@@ -8,14 +8,14 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "UNS Grey Flattener",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "buce-plant:4379510767697",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "UNS Grey Flattener",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -102,6 +102,26 @@
       "storeSlug": "ck-fish-world"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 17.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48517275222231",
+          "label": "Title",
+          "price": 17.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:9245934878935",
+      "storeSlug": "ck-fish-world"
+    },
+    {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 17.99,
       "currency": "USD",
@@ -116,8 +136,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:4379510767697",
       "storeSlug": "buce-plant"

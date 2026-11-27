@@ -8,14 +8,14 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Rosy Bitterling",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "aquatic-arts:1939492143190",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Rosy Bitterling (Rhodeus ocellatus ocellatus)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
@@ -169,6 +169,44 @@
       "changedFields": [
         "available",
         "variants"
+      ],
+      "listingId": "aquatic-arts:1939492143190",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 33.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19464988196950",
+          "label": "School of 3",
+          "price": 33.99,
+          "available": false
+        },
+        {
+          "id": "19464988229718",
+          "label": "School of 6",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "19464988262486",
+          "label": "School of 9",
+          "price": 108.99,
+          "available": false
+        },
+        {
+          "id": "19464988295254",
+          "label": "School of 12",
+          "price": 136.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
       ],
       "listingId": "aquatic-arts:1939492143190",
       "storeSlug": "aquatic-arts"

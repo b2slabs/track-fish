@@ -8,28 +8,28 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Gold Laser Cory (Corydoras sp. CW010)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquahuna:4720258809931",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Gold Laser Cory",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "ck-fish-world:8150020358359",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Gold Laser Cory",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "shrimpy-business:6751643926613",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Gold Laser Corydoras (Tank-Bred)",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     }
   ],
   "events": [
@@ -567,6 +567,76 @@
       ],
       "listingId": "aquahuna:4720258809931",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 21.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336094343383",
+          "label": "1",
+          "price": 21.98,
+          "available": true
+        },
+        {
+          "id": "45336094376151",
+          "label": "3",
+          "price": 64.98,
+          "available": true
+        },
+        {
+          "id": "45336094408919",
+          "label": "5",
+          "price": 99.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8150020358359",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 24.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40041168044117",
+          "label": "1 Fish",
+          "price": 24.95,
+          "available": false
+        },
+        {
+          "id": "40041168076885",
+          "label": "3 Fish",
+          "price": 67.95,
+          "available": false
+        },
+        {
+          "id": "51662845411618",
+          "label": "6 Fish",
+          "price": 126.95,
+          "available": false
+        },
+        {
+          "id": "51662845444386",
+          "label": "12 Fish",
+          "price": 239.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6751643926613",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-21T14:37:18.780Z",

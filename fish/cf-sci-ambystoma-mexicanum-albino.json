@@ -8,21 +8,21 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Albino Axolotl (Ambystoma mexicanum)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "shrimpy-business:10508672991522",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "GFP Albino Axolotl",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "aqua-imports:120560",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Albino Axolotl (Ambystoma mexicanum)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -225,6 +225,64 @@
         "price",
         "available",
         "variants"
+      ],
+      "listingId": "shrimpy-business:10508672991522",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 107.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42432945717457",
+          "label": "3-4\"",
+          "price": 107.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7542798123217",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52548796809506",
+          "label": "Juvenile (3–5 in.)",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "52548796842274",
+          "label": "Sub-Adult (5–8 in.)",
+          "price": 94.99,
+          "available": false
+        },
+        {
+          "id": "52548796875042",
+          "label": "Adult Male (8+ in.)",
+          "price": 119.99,
+          "available": false
+        },
+        {
+          "id": "52548796907810",
+          "label": "Adult Female (8+ in.)",
+          "price": 119.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
       ],
       "listingId": "shrimpy-business:10508672991522",
       "storeSlug": "shrimpy-business"

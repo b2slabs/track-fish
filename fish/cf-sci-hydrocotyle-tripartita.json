@@ -8,56 +8,56 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Hydrocotyle tripartita  \"Japan\"",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aquarium-fish:10105569313067+10106560708907",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Mini pennyworth - Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "daku-aquatics:8741031444698+9183247991002",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Hydrocotyle Tripartita",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     },
     {
       "listingId": "buce-plant:409535807528+7507772440776+7663800516808+9369860301+9520402829",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Hydrocotyle Tripartita",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:11277474183+6848402489430",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Hydrocotyle Tripartita",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "imperial-tropicals:8925540647219",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Japanese Dwarf Pennywort",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aqua-imports:60161",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Dwarf Pennywort ‘Japan’ (Hydrocotyle tripartita)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "shrimpy-business:9431140008226",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Dwarf Pennywort - Japan",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     }
   ],
   "events": [
@@ -248,7 +248,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "daku-aquatics:8741031444698+9183247991002",
       "storeSlug": "daku-aquatics"
@@ -600,6 +600,26 @@
       "storeSlug": "daku-aquatics"
     },
     {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 8.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49007588671778",
+          "label": "Title",
+          "price": 8.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9431140008226",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 12.99,
       "currency": "USD",
@@ -634,9 +654,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:4673527480422+6694492536934",
       "storeSlug": "flip-aquatics"
@@ -676,8 +694,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10105569313067+10106560708907",
       "storeSlug": "aquarium-fish"
@@ -723,8 +740,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "daku-aquatics:8741031444698+9183247991002",
       "storeSlug": "daku-aquatics"
@@ -744,8 +760,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "daku-aquatics:8741031444698+9183247991002",
       "storeSlug": "daku-aquatics"
@@ -785,8 +800,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:409535807528+7507772440776+7663800516808+9369860301+9520402829",
       "storeSlug": "buce-plant"
@@ -806,9 +820,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:409535807528+7507772440776+7663800516808+9369860301+9520402829",
       "storeSlug": "buce-plant"
@@ -840,9 +852,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:409535807528+7507772440776+7663800516808+9369860301+9520402829",
       "storeSlug": "buce-plant"
@@ -862,8 +872,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:409535807528+7507772440776+7663800516808+9369860301+9520402829",
       "storeSlug": "buce-plant"
@@ -921,9 +930,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "glass-aqua:11277474183+6848402489430",
       "storeSlug": "glass-aqua"
@@ -949,7 +956,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:4673527480422+6694492536934",
       "storeSlug": "flip-aquatics"
@@ -975,8 +982,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10105569313067+10106560708907",
       "storeSlug": "aquarium-fish"
@@ -1002,7 +1008,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "daku-aquatics:8741031444698+9183247991002",
       "storeSlug": "daku-aquatics"
@@ -1058,8 +1064,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:409535807528+7507772440776+7663800516808+9369860301+9520402829",
       "storeSlug": "buce-plant"
@@ -1103,9 +1108,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "glass-aqua:11277474183+6848402489430",
       "storeSlug": "glass-aqua"
@@ -1197,133 +1200,6 @@
           "label": "UNS Tissue Culture",
           "price": 9.99,
           "available": true
-        },
-        {
-          "id": "40493327089750",
-          "label": "Aquatic Farmer Tissue Culture",
-          "price": 9.99,
-          "available": true
-        },
-        {
-          "id": "5260633735200",
-          "label": "Potted",
-          "price": 7.99,
-          "available": false
-        },
-        {
-          "id": "52738886983",
-          "label": "UNS Tissue Culture",
-          "price": 9.99,
-          "available": true
-        },
-        {
-          "id": "42188563677270",
-          "label": "Aquatic Farmer Tissue Culture",
-          "price": 9.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "variants"
-      ],
-      "listingId": "glass-aqua:11277474183+6848402489430",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 9.6,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51386931511595",
-          "label": "Each",
-          "price": 9.6,
-          "available": false
-        },
-        {
-          "id": "51386926825771",
-          "label": "Each",
-          "price": 10.87,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10105569313067+10106560708907",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:54:41.266Z",
-      "price": 9.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "3598602207272",
-          "label": "Hydrocotyle Tripartita Aquatic Farmer Tissue Culture",
-          "price": 9.99,
-          "available": false
-        },
-        {
-          "id": "43048779481288",
-          "label": "Hydrocotyle Tripartita Mini UNS Tissue Culture",
-          "price": 12.99,
-          "available": false
-        },
-        {
-          "id": "42543546040520",
-          "label": "Hydrocotyle Tripartita Mini Aquatic Farmer Tissue Culture",
-          "price": 9.99,
-          "available": true
-        },
-        {
-          "id": "35246835405",
-          "label": "Pot",
-          "price": 7.99,
-          "available": false
-        },
-        {
-          "id": "12425260662865",
-          "label": "3 Pot Package",
-          "price": 19.99,
-          "available": false
-        },
-        {
-          "id": "12425260695633",
-          "label": "5 Pot Package",
-          "price": 28.99,
-          "available": false
-        },
-        {
-          "id": "34297217229",
-          "label": "Hydrocotyle Tripartita UNS Tissue Culture",
-          "price": 9.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "variants"
-      ],
-      "listingId": "buce-plant:409535807528+7507772440776+7663800516808+9369860301+9520402829",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-26T18:55:08.324Z",
-      "price": 9.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "40493327122518",
-          "label": "UNS Tissue Culture",
-          "price": 9.99,
-          "available": false
         },
         {
           "id": "40493327089750",

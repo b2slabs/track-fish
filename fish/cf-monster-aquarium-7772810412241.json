@@ -8,7 +8,7 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Albino Platinum Alligator Gar (Atractosteus Spatula)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     }
   ],
   "events": [
@@ -76,22 +76,21 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-26T18:52:43.808Z",
+      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 1550,
       "currency": "USD",
-      "available": false,
+      "available": true,
       "variants": [
         {
           "id": "43193243599057",
           "label": "10-12”",
           "price": 1550,
-          "available": false
+          "available": true
         }
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7772810412241",
       "storeSlug": "monster-aquarium"

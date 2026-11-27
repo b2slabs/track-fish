@@ -8,14 +8,14 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Ultra Fresh Picky Tropical Fish Flakes",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:7900410511446",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Tropical Fish Food - Ultra Fresh Picky Tropical Fish Flakes",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
@@ -173,6 +173,58 @@
       "type": "change",
       "changedFields": [
         "variants"
+      ],
+      "listingId": "glass-aqua:7900410511446",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45126260785352",
+          "label": "20g (120ml)",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "45126260818120",
+          "label": "60g (330ml)",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8324918345928",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44844300501078",
+          "label": "120ml (20g)",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "44844300533846",
+          "label": "330ml (60g)",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
       ],
       "listingId": "glass-aqua:7900410511446",
       "storeSlug": "glass-aqua"

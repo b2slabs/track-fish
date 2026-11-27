@@ -8,14 +8,14 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Blue Dolphin Cichlid (Cyrtocara Moorii)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "imperial-tropicals:8397970309427",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Blue Dolphin (Cyrtocara moorii)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     }
   ],
   "events": [
@@ -265,6 +265,32 @@
         "price",
         "available",
         "variants"
+      ],
+      "listingId": "monster-aquarium:7592440889553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 35,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42555854946513",
+          "label": "3\"",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "42910333567185",
+          "label": "4”",
+          "price": 35,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7592440889553",
       "storeSlug": "monster-aquarium"

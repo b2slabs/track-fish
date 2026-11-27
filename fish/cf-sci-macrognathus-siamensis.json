@@ -8,35 +8,35 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Peacock Eel (Macrognathus Siamensis )",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "ck-fish-world:8150020456663",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Peacock Eel",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "aquarium-fish:6189920582",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Peacock Eel Striped",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "dans-fish:10333729587498",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Peacock Eel",
-      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     },
     {
       "listingId": "aqua-imports:138985",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Peacock Eel (Macrognathus siamensis)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -123,6 +123,46 @@
       "storeSlug": "ck-fish-world"
     },
     {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42767126724817",
+          "label": "5-6\"",
+          "price": 29,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7646854709457",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44098377318615",
+          "label": "Title",
+          "price": 19.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8150020456663",
+      "storeSlug": "ck-fish-world"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 17.99,
       "currency": "USD",
@@ -181,27 +221,6 @@
       ],
       "listingId": "aqua-imports:138985",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 15.29,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "19603565702",
-          "label": "Title",
-          "price": 15.29,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6189920582",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,63 +8,63 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Super Red Bushy Nose Pleco (1 inch)",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "aquarium-fish:1452600459334",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Super Red L-144 Bushynose Pleco",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "monster-aquarium:6996780220625",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Super Red Bristlenose pleco (Ancistrus sp.)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "shrimpy-business:9377457832226",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Super Red Bristlenose Pleco (Tank-Bred)",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "flip-aquatics:6816335691878",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Super Red Bristlenose Pleco",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "nu-aqua-shop:10006359638332",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Super Red Bristlenose Pleco",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aquatic-arts:14663455703407+1943268130902+4312696324182+6788424204374",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Super Red Bristlenose Pleco (Ancistrus sp.), TANK-BRED!",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "dans-fish:10127095071018",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Super Red Bushynose Pleco",
-      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     },
     {
       "listingId": "aqua-imports:38680",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Super Red Bristlenose Pleco (Ancistrus sp.)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "daku-aquatics:8741037965530",
@@ -1014,8 +1014,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14663455703407+1943268130902+4312696324182+6788424204374",
       "storeSlug": "aquatic-arts"
@@ -1065,9 +1064,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14663455703407+1943268130902+4312696324182+6788424204374",
       "storeSlug": "aquatic-arts"
@@ -1117,8 +1114,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14663455703407+1943268130902+4312696324182+6788424204374",
       "storeSlug": "aquatic-arts"
@@ -1142,6 +1138,64 @@
       ],
       "listingId": "monster-aquarium:6996780220625",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 15,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40371864797259",
+          "label": "Title",
+          "price": 15,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:6960504864843",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 19.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48848146727202",
+          "label": "1 Fish",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "id": "48848146759970",
+          "label": "3 Fish",
+          "price": 53.95,
+          "available": true
+        },
+        {
+          "id": "51662842364194",
+          "label": "6 Fish",
+          "price": 101.95,
+          "available": true
+        },
+        {
+          "id": "51662842396962",
+          "label": "12 Fish",
+          "price": 191.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9377457832226",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
@@ -1292,7 +1346,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14663455703407+1943268130902+4312696324182+6788424204374",
       "storeSlug": "aquatic-arts"
@@ -1396,7 +1450,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14663455703407+1943268130902+4312696324182+6788424204374",
       "storeSlug": "aquatic-arts"
@@ -1479,27 +1533,6 @@
       ],
       "listingId": "shrimpy-business:9377457832226",
       "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 24.64,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "12814652178502",
-          "label": "Small  (1.5\")",
-          "price": 24.64,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:1452600459334",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

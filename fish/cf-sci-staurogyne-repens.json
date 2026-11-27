@@ -8,70 +8,70 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Staurogyne repens - Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "glass-aqua:11277473479",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Staurogyne Repens",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "nu-aqua-shop:10006360588604",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Staurogyne Repens",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "ck-fish-world:8733676962007",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Staurogyne Repens",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "shrimpy-business:8729758826786",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Staurogyne Repens",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "daku-aquatics:8741033803994",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Staurogyne Repens",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     },
     {
       "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Staurogyne repens Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Staurogyne Repens",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Staurogyne Repens",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aqua-imports:60135",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Staurogyne repens",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -614,10 +614,62 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 7.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45749164343511",
+          "label": "1",
+          "price": 7.98,
+          "available": true
+        },
+        {
+          "id": "45749164376279",
+          "label": "3",
+          "price": 21.98,
+          "available": true
+        },
+        {
+          "id": "45749164409047",
+          "label": "5",
+          "price": 34.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8733676962007",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 8.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47006796579106",
+          "label": "Title",
+          "price": 8.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:8729758826786",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
@@ -654,9 +706,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
@@ -680,6 +730,26 @@
       ],
       "listingId": "aquarium-fish:10106514899243",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043838873818",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741033803994",
+      "storeSlug": "daku-aquatics"
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
@@ -728,8 +798,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
@@ -749,8 +818,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
@@ -840,7 +908,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts"
@@ -866,7 +934,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
@@ -910,8 +978,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
@@ -980,27 +1047,6 @@
       ],
       "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 9.6,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51386927808811",
-          "label": "Each",
-          "price": 9.6,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10106514899243",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,28 +8,28 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Lenticulata Pike Cichlid (Crenicichla lenticulata)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "imperial-tropicals:9768410710323",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Lenticulata Pike Cichlid",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquarium-fish:223106891801",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Freckle Face Pike Cichlid",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:39993",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Lenticulata Pike Cichlid (Crenicichla lenticulata)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -200,6 +200,26 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 175,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42436579918033",
+          "label": "8-9”",
+          "price": 175,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7544368496849",
+      "storeSlug": "monster-aquarium"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 119.99,
       "currency": "USD",
@@ -220,6 +240,26 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 219.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51651480420659",
+          "label": "8-9\" Unsexed Rio Ventuari",
+          "price": 219.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9768410710323",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 69.99,
       "currency": "USD",
@@ -238,27 +278,6 @@
       ],
       "listingId": "aqua-imports:39993",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 101.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "1708473417753",
-          "label": "Title",
-          "price": 101.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:223106891801",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Blue Tang",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:103862",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Blue Hippo Tang (Paracanthurus hepatus)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -84,9 +84,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10057731014955+9006742284",
       "storeSlug": "aquarium-fish"
@@ -175,7 +173,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10057731014955+9006742284",
       "storeSlug": "aquarium-fish"
@@ -199,63 +197,6 @@
       ],
       "listingId": "aqua-imports:103862",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 86.95,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51168980566315",
-          "label": "Small (1-1.4\")",
-          "price": 86.95,
-          "available": true
-        },
-        {
-          "id": "51168980697387",
-          "label": "Medium (2-2.4\")",
-          "price": 135.14,
-          "available": true
-        },
-        {
-          "id": "51304250147115",
-          "label": "Large (3-3.9\")",
-          "price": 173.82,
-          "available": true
-        },
-        {
-          "id": "51384606294315",
-          "label": "Tiny (1.5-2\")",
-          "price": 119.67,
-          "available": false
-        },
-        {
-          "id": "51384606327083",
-          "label": "Small (2-2.75\")",
-          "price": 156.22,
-          "available": false
-        },
-        {
-          "id": "31113434252",
-          "label": "Medium (2.75-3.5\")",
-          "price": 174.67,
-          "available": false
-        },
-        {
-          "id": "51384606359851",
-          "label": "Large (3.5-4\")",
-          "price": 183.85,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10057731014955+9006742284",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

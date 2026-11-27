@@ -8,12 +8,38 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Albino Red Swordtail",
-      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-08-11T02:00:00.000Z",
+      "price": 10,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48782192279744",
+          "label": "Male",
+          "price": 10,
+          "available": true
+        },
+        {
+          "id": "48782192312512",
+          "label": "Female",
+          "price": 10,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8678199951552",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
       "price": 10,
       "currency": "USD",
       "available": true,

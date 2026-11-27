@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Head Tapajos Cichlid",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquahuna:4388855971915+6826794221643+7678610767947",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Red Head Tapajo - 1.5\"",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "aqua-imports:103882",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Wild Red Head Tapajos Eartheater (Geophagus sp. ‘Red Head Tapajos’)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -111,6 +111,26 @@
     },
     {
       "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 17.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42350019412043",
+          "label": "Title",
+          "price": 17.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:4388855971915+6826794221643+7678610767947",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
       "price": 22,
       "currency": "USD",
       "available": false,
@@ -124,8 +144,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquahuna:4388855971915+6826794221643+7678610767947",
       "storeSlug": "aquahuna"
@@ -145,9 +164,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquahuna:4388855971915+6826794221643+7678610767947",
       "storeSlug": "aquahuna"
@@ -199,7 +216,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquahuna:4388855971915+6826794221643+7678610767947",
       "storeSlug": "aquahuna"
@@ -223,27 +240,6 @@
       ],
       "listingId": "aqua-imports:103882",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 29.74,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "18734039430",
-          "label": "Title",
-          "price": 29.74,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:5926940102",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

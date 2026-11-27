@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Ludwigia inclinata 'Cuba' - Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "buce-plant:436007370792+9364108301",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Ludwigia Inclinata",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aqua-imports:114197+60082",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Ludwigia inclinata",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "buce-plant:436007370792",
@@ -36,7 +36,7 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Ludwigia Inclinata",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
@@ -101,8 +101,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10106320617771+10106333823275",
       "storeSlug": "aquarium-fish"
@@ -154,9 +153,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:436007370792+9364108301",
       "storeSlug": "buce-plant"
@@ -196,9 +193,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "glass-aqua:4027151351894+434996674592",
       "storeSlug": "glass-aqua"
@@ -224,8 +219,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10106320617771+10106333823275",
       "storeSlug": "aquarium-fish"
@@ -263,9 +257,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:436007370792+9364108301",
       "storeSlug": "buce-plant"
@@ -317,39 +309,10 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "glass-aqua:4027151351894+434996674592",
       "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 10.87,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51386930233643",
-          "label": "Each",
-          "price": 10.87,
-          "available": false
-        },
-        {
-          "id": "51386930135339",
-          "label": "Each",
-          "price": 13,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10106320617771+10106333823275",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

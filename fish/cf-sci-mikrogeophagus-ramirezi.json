@@ -8,28 +8,28 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "German Ram (Mikrogeophagus ramirezi)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquahuna:7349823635531",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Sunkist Balloon Ram",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "imperial-tropicals:8398085882163",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Colombian Ram (Mikrogeophagus ramirezi)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquarium-fish:10130834915627+5924026886+5925543750",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Colombian Ram",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquarium-fish:10130834915627",
@@ -696,6 +696,26 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 12.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41420701368395",
+          "label": "Title",
+          "price": 12.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:7349823635531",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 38.99,
       "currency": "USD",
@@ -730,8 +750,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10130834915627+5924026886+5925543750",
       "storeSlug": "aquarium-fish"
@@ -751,9 +770,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10130834915627+5924026886+5925543750",
       "storeSlug": "aquarium-fish"
@@ -838,42 +855,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10130834915627+5924026886+5925543750",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 12.74,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51441106059563",
-          "label": "Angel Veil Ram (School of 3)",
-          "price": 33.14,
-          "available": true
-        },
-        {
-          "id": "51428410589483",
-          "label": "Angel Veil Ram",
-          "price": 12.74,
-          "available": true
-        },
-        {
-          "id": "32267414306897",
-          "label": "Medium",
-          "price": 8.49,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10130834915627+5924026886+5925543750",
       "storeSlug": "aquarium-fish"

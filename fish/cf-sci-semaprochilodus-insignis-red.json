@@ -8,12 +8,38 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Flagtail Red Fin Prochilodus (Semaprochilodus insignis)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 46.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42242580938961",
+          "label": "2.5-3”",
+          "price": 46.99,
+          "available": false
+        },
+        {
+          "id": "42385364189393",
+          "label": "5-6”",
+          "price": 169.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7056431907025+7470754529489",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 46.99,
       "currency": "USD",
       "available": false,
@@ -71,9 +97,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7056431907025+7470754529489",
       "storeSlug": "monster-aquarium"
@@ -123,7 +147,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7056431907025+7470754529489",
       "storeSlug": "monster-aquarium"

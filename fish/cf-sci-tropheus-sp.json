@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Tropheus Moorii Ilangi",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:139072",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Cherry Spot Tropheus ‘Bulu Point’ (Tropheus sp. ‘Bulu Point’)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "imperial-tropicals:8397965984051+8398163771699",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Tropheus sp. \"Ikola\"",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     }
   ],
   "events": [
@@ -117,9 +117,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "imperial-tropicals:8397965984051+8398163771699",
       "storeSlug": "imperial-tropicals"
@@ -201,33 +199,10 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "imperial-tropicals:8397965984051+8398163771699",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 25.49,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "32706148401233",
-          "label": "Title",
-          "price": 25.49,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:4713654157393",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

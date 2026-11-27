@@ -8,56 +8,56 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Dwarf Gourami Female",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aquahuna:7525932499019",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Dwarf Gourami",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "imperial-tropicals:8398083326259",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Dwarf Gourami",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "global-exoticquatics:8678194970816",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Dwarf Gourami",
-      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     },
     {
       "listingId": "aquatic-arts:14630268141935+4375750803542",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Dwarf Gourami (Trichogaster lalius) - Tank-Bred!",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aquarium-fish:6574452742+776843493495",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Dwarf Gourami Male",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "flip-aquatics:6937502416998+7034815643750",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Dwarf Gourami | Trichogaster lalius",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aqua-imports:59762",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Assorted Dwarf Gourami (Trichogaster lalius)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -462,11 +462,50 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14630268141935+4375750803542",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 10,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42021037965387",
+          "label": "Title",
+          "price": 10,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:7525932499019",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40824578900070",
+          "label": "Imported / 1 Fish",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6937502416998+7034815643750",
+      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
@@ -483,8 +522,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:6937502416998+7034815643750",
       "storeSlug": "flip-aquatics"
@@ -524,8 +562,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:6574452742+776843493495",
       "storeSlug": "aquarium-fish"
@@ -549,6 +586,32 @@
       ],
       "listingId": "imperial-tropicals:8398083326259",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 8,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48782153744576",
+          "label": "Red",
+          "price": 8,
+          "available": true
+        },
+        {
+          "id": "48782153777344",
+          "label": "Blue",
+          "price": 8,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8678194970816",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-21T01:29:44.090Z",
@@ -633,8 +696,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14630268141935+4375750803542",
       "storeSlug": "aquatic-arts"
@@ -660,7 +722,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:6574452742+776843493495",
       "storeSlug": "aquarium-fish"
@@ -686,7 +748,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:6937502416998+7034815643750",
       "storeSlug": "flip-aquatics"
@@ -710,33 +772,6 @@
       ],
       "listingId": "aqua-imports:59762",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 7.64,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "8657601167479",
-          "label": "Dwarf Gourami Male",
-          "price": 8.07,
-          "available": true
-        },
-        {
-          "id": "20799332422",
-          "label": "Dwarf Gourami Female",
-          "price": 7.64,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6574452742+776843493495",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

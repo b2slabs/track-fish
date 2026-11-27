@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Fire Endler - Male",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquatic-arts:1321672671318+14713546735983+6772376567894+6781180739670",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Red Line Endler’s Livebearer (Poecilia wingei), Tank-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "flip-aquatics:7390501372006+7988065566822",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Red Endler | Poecilia wingei",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     }
   ],
   "events": [
@@ -147,7 +147,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:7390501372006+7988065566822",
       "storeSlug": "flip-aquatics"
@@ -615,6 +615,50 @@
       "available": false,
       "variants": [
         {
+          "id": "51977963077999",
+          "label": "1 Male Guppy",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "51977963110767",
+          "label": "3 Male Guppies",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "51977963143535",
+          "label": "1 Female Guppy",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "51977963176303",
+          "label": "3 Female Guppies",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "51977963209071",
+          "label": "1 Pair (1 Male + 1 Female)",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:1321672671318+14713546735983+6772376567894+6781180739670",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
           "id": "39934556274774",
           "label": "1 Male/Female Pair",
           "price": 9.99,
@@ -665,7 +709,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:1321672671318+14713546735983+6772376567894+6781180739670",
       "storeSlug": "aquatic-arts"
@@ -727,8 +771,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:1321672671318+14713546735983+6772376567894+6781180739670",
       "storeSlug": "aquatic-arts"
@@ -772,8 +815,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:1321672671318+14713546735983+6772376567894+6781180739670",
       "storeSlug": "aquatic-arts"
@@ -805,7 +847,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:7390501372006+7988065566822",
       "storeSlug": "flip-aquatics"
@@ -837,9 +879,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:7390501372006+7988065566822",
       "storeSlug": "flip-aquatics"
@@ -1029,7 +1069,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:1321672671318+14713546735983+6772376567894+6781180739670",
       "storeSlug": "aquatic-arts"
@@ -1079,33 +1119,10 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:7390501372006+7988065566822",
       "storeSlug": "flip-aquatics"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 7.64,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "8722854838391",
-          "label": "Title",
-          "price": 7.64,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:790333784183",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

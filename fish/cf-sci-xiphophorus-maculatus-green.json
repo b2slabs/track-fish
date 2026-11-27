@@ -8,12 +8,56 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Green Lantern Platy  (Xiphophorus maculatus) –  Tank Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52211595411823",
+          "label": "1 FIsh (unsexed)",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "52211595444591",
+          "label": "3 Fish (unsexed)",
+          "price": 23.99,
+          "available": false
+        },
+        {
+          "id": "52211595477359",
+          "label": "1 Male",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "52211595510127",
+          "label": "1 Female",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "52211595542895",
+          "label": "1 Pair ( 1 Male + 1 Female)",
+          "price": 15.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:14627642212719+14788309090671",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 8.99,
       "currency": "USD",
       "available": false,
@@ -83,8 +127,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14627642212719+14788309090671",
       "storeSlug": "aquatic-arts"
@@ -146,7 +189,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14627642212719+14788309090671",
       "storeSlug": "aquatic-arts"

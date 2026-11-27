@@ -8,63 +8,63 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Emerald Dwarf Danio",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "monster-aquarium:7456189087953",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Emerald Dwarf Danio (Danio Erythromicron )",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "nu-aqua-shop:10006356689212",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Emerald Dwarf Rasbora",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aquatic-arts:4740688006",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Emerald Dwarf Rasbora (Celestichthys erythromicron), Tank-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "shrimpy-business:6703166816341",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Emerald Dwarf Rasbora (Tank-Bred)",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "aqua-imports:40237",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Emerald Dwarf Rasbora (Celestichthys erythromicron)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "aquahuna:1724218310699",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Emerald Dwarf Rasbora",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "imperial-tropicals:8398117241139",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Emerald Dwarf Rasbora",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "dans-fish:10127075442986",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Dwarf Emerald Rasbora",
-      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     }
   ],
   "events": [
@@ -581,6 +581,26 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 7,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42201305579729",
+          "label": ".5\"",
+          "price": 7,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7456189087953",
+      "storeSlug": "monster-aquarium"
+    },
+    {
       "observedAt": "2026-11-20T06:14:42.593Z",
       "price": 3.8,
       "currency": "USD",
@@ -599,6 +619,76 @@
       ],
       "listingId": "aquahuna:1724218310699",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336054104279",
+          "label": "3",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45336054137047",
+          "label": "5",
+          "price": 29.98,
+          "available": true
+        },
+        {
+          "id": "45336054169815",
+          "label": "10",
+          "price": 49.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8149571633367",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 21.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39884311003221",
+          "label": "3 Fish",
+          "price": 21.5,
+          "available": true
+        },
+        {
+          "id": "40402326257749",
+          "label": "6 Fish",
+          "price": 38.95,
+          "available": true
+        },
+        {
+          "id": "51662847967522",
+          "label": "12 Fish",
+          "price": 72.95,
+          "available": true
+        },
+        {
+          "id": "51662848000290",
+          "label": "24 Fish",
+          "price": 137.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6703166816341",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",

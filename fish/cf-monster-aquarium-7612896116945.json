@@ -8,12 +8,38 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Ultra Fresh Micro Pellet Tropical Fish Food",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42626646900945",
+          "label": "120ml / 53g",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "42626646933713",
+          "label": "330ml /130g",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7612896116945",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 8.99,
       "currency": "USD",
       "available": true,

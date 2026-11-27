@@ -8,14 +8,14 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Shrimp Lollies",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "flip-aquatics:1354083008614",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Shrimp Lollies - 4 in 1",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     }
   ],
   "events": [
@@ -685,6 +685,50 @@
         "price",
         "available",
         "variants"
+      ],
+      "listingId": "shrimpy-business:8821395685666",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47274364502306",
+          "label": "Algae",
+          "price": 15.5,
+          "available": false
+        },
+        {
+          "id": "47274364535074",
+          "label": "Artemia",
+          "price": 15.5,
+          "available": false
+        },
+        {
+          "id": "47274364567842",
+          "label": "Morgina",
+          "price": 15.5,
+          "available": false
+        },
+        {
+          "id": "47274364600610",
+          "label": "Walnut",
+          "price": 15.5,
+          "available": false
+        },
+        {
+          "id": "47274364633378",
+          "label": "4 in 1",
+          "price": 15.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
       ],
       "listingId": "shrimpy-business:8821395685666",
       "storeSlug": "shrimpy-business"

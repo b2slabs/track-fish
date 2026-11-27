@@ -8,28 +8,28 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Cholla Wood",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "shrimpy-business:4609459519573",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Cholla Wood",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "flip-aquatics:11931361540",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Cholla Wood",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "daku-aquatics:8741032067290",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Cholla Wood",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     }
   ],
   "events": [
@@ -257,6 +257,38 @@
       "storeSlug": "daku-aquatics"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 7.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45380508877015",
+          "label": "6 inch Hollow",
+          "price": 7.98,
+          "available": true
+        },
+        {
+          "id": "45380508942551",
+          "label": "Medium (14-18 inch)",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45380508975319",
+          "label": "Large (20-30 inch)",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8617476817111",
+      "storeSlug": "ck-fish-world"
+    },
+    {
       "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 3.5,
       "currency": "USD",
@@ -301,6 +333,26 @@
       ],
       "listingId": "flip-aquatics:11931361540",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043833630938",
+          "label": "Title",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741032067290",
+      "storeSlug": "daku-aquatics"
     }
   ]
 }

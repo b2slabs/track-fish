@@ -8,35 +8,35 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Daisy's rice fish (Oryzias woworae )",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "buce-plant:7171611427016",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Oryzias Sp Woworae Medaka Rice Fish",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aquahuna:4655546662987",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Daisy's Ricefish",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "shrimpy-business:6703173566549",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Daisy's Ricefish",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "dans-fish:10127095365930",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Daisy's Ricefish",
-      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     }
   ],
   "events": [
@@ -290,6 +290,26 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 4,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42221123731665",
+          "label": ".5\"",
+          "price": 4,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7464583233745",
+      "storeSlug": "monster-aquarium"
+    },
+    {
       "observedAt": "2026-11-20T06:14:42.593Z",
       "price": 4,
       "currency": "USD",
@@ -308,6 +328,44 @@
       ],
       "listingId": "aquahuna:4655546662987",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 17.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39884353470549",
+          "label": "3 Fish",
+          "price": 17.95,
+          "available": false
+        },
+        {
+          "id": "39884353503317",
+          "label": "6 Fish",
+          "price": 31.95,
+          "available": false
+        },
+        {
+          "id": "51662847901986",
+          "label": "12 Fish",
+          "price": 60.95,
+          "available": false
+        },
+        {
+          "id": "51662847934754",
+          "label": "24 Fish",
+          "price": 114.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6703173566549",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",

@@ -8,28 +8,28 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Cupid Cichlid - 3-4\"",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aquarium-fish:5950540998",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Cupid Cichlid",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:8398132445491",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Cupid Cichlid",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "global-exoticquatics:8442980335808",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Cupid Cichlid",
-      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     }
   ],
   "events": [
@@ -170,6 +170,26 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 30,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47274707779776",
+          "label": "2-3in",
+          "price": 30,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8442980335808",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
       "observedAt": "2026-11-21T01:29:44.090Z",
       "price": 36.99,
       "currency": "USD",
@@ -243,27 +263,6 @@
       ],
       "listingId": "imperial-tropicals:8398132445491",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 33.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "1561076498457",
-          "label": "Medium",
-          "price": 33.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:5950540998",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

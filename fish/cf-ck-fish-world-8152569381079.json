@@ -8,12 +8,44 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Dwarf Sag (Sagittaria Subulata)",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 5.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45749166768343",
+          "label": "1",
+          "price": 5.98,
+          "available": true
+        },
+        {
+          "id": "45749166801111",
+          "label": "3",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45749166833879",
+          "label": "5",
+          "price": 24.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8152569381079",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
       "price": 5.98,
       "currency": "USD",
       "available": true,

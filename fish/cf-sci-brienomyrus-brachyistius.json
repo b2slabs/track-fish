@@ -8,26 +8,46 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "African baby whale fish ( Brienomyrus brachyistius )",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquarium-fish:6096735558",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Baby Whale Fish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:176119",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Baby Whale (Brienomyrus brachyistius)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41878152380625",
+          "label": "3”",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7335922368721",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 19.99,
       "currency": "USD",
       "available": false,
@@ -85,27 +105,6 @@
       ],
       "listingId": "aqua-imports:176119",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 24.64,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39310482833489",
-          "label": "Title",
-          "price": 24.64,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6096735558",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

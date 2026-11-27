@@ -8,42 +8,42 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Golden Wonder Killifish (Aplocheilus lineatus) - Tank-Bred!",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "ck-fish-world:8251137392855",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Golden Wonder Killifish",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "shrimpy-business:9470930256162",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Golden Wonder Killifish (Tank Bred)",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "aquarium-fish:6548645382",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Gold Wonder Killifish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "flip-aquatics:7391323095142",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Golden Wonder Killifish | Aplocheilus lineatus",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aqua-imports:134613",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Golden Wonder Killifish (Aplocheilus lineatus)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -482,6 +482,108 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 21.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45966289928407",
+          "label": "3",
+          "price": 21.98,
+          "available": true
+        },
+        {
+          "id": "45966289961175",
+          "label": "5",
+          "price": 34.98,
+          "available": true
+        },
+        {
+          "id": "45966289993943",
+          "label": "10",
+          "price": 59.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8251137392855",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 12,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "49112730009890",
+          "label": "2 Fish",
+          "price": 12,
+          "available": true
+        },
+        {
+          "id": "49112730042658",
+          "label": "4 Fish",
+          "price": 21.95,
+          "available": true
+        },
+        {
+          "id": "51662841348386",
+          "label": "8 Fish",
+          "price": 40.95,
+          "available": true
+        },
+        {
+          "id": "51662841381154",
+          "label": "16 Fish",
+          "price": 76.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9470930256162",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 8.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41916328345702",
+          "label": "Imported / 1 Fish - Male",
+          "price": 8.49,
+          "available": false
+        },
+        {
+          "id": "41916328378470",
+          "label": "Imported / 1 Fish - Female",
+          "price": 8.49,
+          "available": false
+        },
+        {
+          "id": "41916328444006",
+          "label": "Imported / Trio - 1 Male, 2 Females",
+          "price": 20.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:7391323095142",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 4.89,
       "currency": "USD",
@@ -553,27 +655,6 @@
       ],
       "listingId": "aqua-imports:134613",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 4.16,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "20732098566",
-          "label": "Title",
-          "price": 4.16,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6548645382",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

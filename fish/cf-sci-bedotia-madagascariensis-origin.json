@@ -8,26 +8,46 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Madagascar Rainbow",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "monster-aquarium:7456189710545",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Madagascar Rainbow ( Bedotia Madagascarensis )",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aqua-imports:104295",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Madagascar Rainbow (Bedotia madagascarensis)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42201306726609",
+          "label": "3.5-4”",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7456189710545",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 29.99,
       "currency": "USD",
       "available": false,
@@ -85,27 +105,6 @@
       ],
       "listingId": "aqua-imports:104295",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 12.74,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19019238470",
-          "label": "Title",
-          "price": 12.74,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6007363270",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

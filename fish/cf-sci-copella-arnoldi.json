@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Copeina Splashing Tetra",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:161209",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Splash Tetra (Copella arnoldi)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "shrimpy-business:9841035346210",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Splash Tetra",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     }
   ],
   "events": [
@@ -233,6 +233,44 @@
       "storeSlug": "shrimpy-business"
     },
     {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 12.75,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50297731842338",
+          "label": "2 Fish",
+          "price": 12.75,
+          "available": false
+        },
+        {
+          "id": "50297731875106",
+          "label": "4 Fish",
+          "price": 22.95,
+          "available": false
+        },
+        {
+          "id": "51662834991394",
+          "label": "8 Fish",
+          "price": 42.95,
+          "available": false
+        },
+        {
+          "id": "51662835024162",
+          "label": "16 Fish",
+          "price": 81.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9841035346210",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 7.99,
       "currency": "USD",
@@ -271,27 +309,6 @@
       ],
       "listingId": "aqua-imports:161209",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 6.79,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "30437574246481",
-          "label": "Title",
-          "price": 6.79,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:4221906124881",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

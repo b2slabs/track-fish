@@ -8,42 +8,42 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Doctor Fish aka Pedicure Fish (Garra rufa)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aquarium-fish:1666643427398",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Foot Cleaner Goby",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquahuna:6830646624331",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Doctor Fish",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "monster-aquarium:7456188956881",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Doctor Fish ( Garra Rufa )",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "flip-aquatics:6859450417254+6878339530854",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Doctor Fish | Garra rufa | Algae Eating Nano Fish",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aqua-imports:48356",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Doctor Fish (Garra rufa)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -139,6 +139,46 @@
       ],
       "listingId": "aquatic-arts:4751569606",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42201303482577",
+          "label": "1.5-2”",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7456188956881",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 4,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40012688195659",
+          "label": "Title",
+          "price": 4,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:6830646624331",
+      "storeSlug": "aquahuna"
     },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
@@ -265,9 +305,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:6859450417254+6878339530854",
       "storeSlug": "flip-aquatics"
@@ -515,8 +553,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:6859450417254+6878339530854",
       "storeSlug": "flip-aquatics"
@@ -658,27 +695,6 @@
       ],
       "listingId": "flip-aquatics:6859450417254+6878339530854",
       "storeSlug": "flip-aquatics"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 4.24,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "15430007455814",
-          "label": "Title",
-          "price": 4.24,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:1666643427398",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

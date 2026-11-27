@@ -8,19 +8,39 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Purple Vampire Crabs",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "aqua-imports:43992",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Purple Vampire Crab (Geosesarma cf. dennerle)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 19.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47593653436706",
+          "label": "Title",
+          "price": 19.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:8906678665506",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 19.95,
       "currency": "USD",
       "available": false,

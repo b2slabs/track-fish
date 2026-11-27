@@ -8,21 +8,21 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Tuxedo Koi Guppy Males",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "aquatic-arts:4994487091286+8618845634839",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Koi Tuxedo Guppy (Poecilia reticulata), Tank-Bred!",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aqua-imports:221230",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Super Koi Tuxedo Guppy (Poecilia reticulata)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -627,11 +627,30 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:4994487091286+8618845634839",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41358523924555",
+          "label": "Title",
+          "price": 5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:7325160734795",
+      "storeSlug": "aquahuna"
     },
     {
       "observedAt": "2026-11-21T20:07:16.497Z",
@@ -738,7 +757,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:4994487091286+8618845634839",
       "storeSlug": "aquatic-arts"

@@ -8,42 +8,42 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Black Moscow Guppy Males",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "imperial-tropicals:8398166720819",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Black Moscow Guppy (Poecilia reticulata)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquatic-arts:1374034460758",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Black Moscow Guppy (Poecilia reticulata var. “Black Moscow”), Tank-Bred!",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "monster-aquarium:7033539100881+7033539133649",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Black Moscow Guppy (Male)(Poecilia reticulata)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquarium-fish:3018733715537+8927904203051",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Male Black Moscow Guppy",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "dans-fish:10127125381418",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Black Moscow Guppy",
-      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     }
   ],
   "events": [
@@ -176,11 +176,30 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7033539100881+7033539133649",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 3.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40040719745099",
+          "label": "Title",
+          "price": 3.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:6843182022731",
+      "storeSlug": "aquahuna"
     },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
@@ -217,8 +236,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:3018733715537+8927904203051",
       "storeSlug": "aquarium-fish"
@@ -270,8 +288,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7033539100881+7033539133649",
       "storeSlug": "monster-aquarium"
@@ -297,8 +314,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:3018733715537+8927904203051",
       "storeSlug": "aquarium-fish"
@@ -334,33 +350,6 @@
       ],
       "listingId": "dans-fish:10127125381418",
       "storeSlug": "dans-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 7.64,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "47613999284523",
-          "label": "Male Black Moscow Guppy",
-          "price": 7.64,
-          "available": false
-        },
-        {
-          "id": "23209957883985",
-          "label": "Black Moscow Guppy (Pair)",
-          "price": 12.57,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:3018733715537+8927904203051",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

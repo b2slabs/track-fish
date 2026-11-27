@@ -8,28 +8,28 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Anubias Minima",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "daku-aquatics:8801100923098",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Anubias Minima",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     },
     {
       "listingId": "glass-aqua:1373813309526",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Anubias Minima",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "aqua-imports:59918",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Anubias minima",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -74,6 +74,26 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
+      "observedAt": "2026-11-22T00:27:06.534Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46239124226266",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8801100923098",
+      "storeSlug": "daku-aquatics"
+    },
+    {
       "observedAt": "2026-11-22T00:27:20.421Z",
       "price": 8.99,
       "currency": "USD",
@@ -112,27 +132,6 @@
       ],
       "listingId": "aqua-imports:59918",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:55:33.016Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "52339510018364",
-          "label": "Title",
-          "price": 7.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "available",
-        "variants"
-      ],
-      "listingId": "nu-aqua-shop:10191307211068",
-      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

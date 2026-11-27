@@ -8,7 +8,7 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Altlandsberg Sword",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aquatic-arts:14758689112431",
@@ -22,7 +22,7 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Oriental Sword (Echinodorus sp. ‘Oriental’)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -1216,8 +1216,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14758689112431+4958775803990",
       "storeSlug": "aquatic-arts"
@@ -1317,7 +1316,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14758689112431+4958775803990",
       "storeSlug": "aquatic-arts"
@@ -1350,38 +1349,6 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ],
-      "listingId": "aqua-imports:165443+182563+59991",
-      "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:56:09.972Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "182563",
-          "label": "Default",
-          "price": 9.99,
-          "available": false
-        },
-        {
-          "id": "165443",
-          "label": "Default",
-          "price": 8.99,
-          "available": true
-        },
-        {
-          "id": "59991",
-          "label": "Default",
-          "price": 7.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "variants"
       ],
       "listingId": "aqua-imports:165443+182563+59991",
       "storeSlug": "aqua-imports"

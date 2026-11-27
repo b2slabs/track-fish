@@ -8,21 +8,21 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Gold Marble Angelfish (Pterophyllum scalare), Locally-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "flip-aquatics:8128143229030",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Gold Marble Angelfish | Pterophyllum Scalare",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aquarium-fish:10130834620715+5993619398",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Gold Marble Angelfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquarium-fish:10130834620715",
@@ -837,6 +837,26 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46505734471782",
+          "label": "Title",
+          "price": 15.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:8128143229030",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 39.99,
       "currency": "USD",
@@ -883,8 +903,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10130834620715+5993619398",
       "storeSlug": "aquarium-fish"
@@ -922,46 +941,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10130834620715+5993619398",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 21.24,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51441105142059",
-          "label": "Medium (2\")",
-          "price": 33.99,
-          "available": true
-        },
-        {
-          "id": "12634913243206",
-          "label": "Small (1.5\")",
-          "price": 16.14,
-          "available": false
-        },
-        {
-          "id": "18968646406",
-          "label": "Medium (2\")",
-          "price": 21.24,
-          "available": true
-        },
-        {
-          "id": "12634911998022",
-          "label": "Jumbo (4\")",
-          "price": 50.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10130834620715+5993619398",
       "storeSlug": "aquarium-fish"

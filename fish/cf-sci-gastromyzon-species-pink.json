@@ -8,14 +8,14 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Pink Polcadot Hillstream Loach",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "dans-fish:10419070337322",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Pink Polka Dot Hillstream Loach",
-      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     }
   ],
   "events": [
@@ -271,6 +271,44 @@
       "changedFields": [
         "available",
         "variants"
+      ],
+      "listingId": "shrimpy-business:9797252743458",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 38.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50149656264994",
+          "label": "1 Fish",
+          "price": 38.95,
+          "available": false
+        },
+        {
+          "id": "50149656297762",
+          "label": "3 Fish",
+          "price": 104.95,
+          "available": false
+        },
+        {
+          "id": "51662837317922",
+          "label": "6 Fish",
+          "price": 198.95,
+          "available": false
+        },
+        {
+          "id": "51662837350690",
+          "label": "12 Fish",
+          "price": 373.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
       ],
       "listingId": "shrimpy-business:9797252743458",
       "storeSlug": "shrimpy-business"

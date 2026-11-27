@@ -8,12 +8,44 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Crystal Red Shrimp (Caridina cf. cantonensis) – Bred by Aquatic Arts",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52102954123631",
+          "label": "1 Shrimp",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "52102954156399",
+          "label": "5 Shrimp",
+          "price": 45.99,
+          "available": false
+        },
+        {
+          "id": "52102954189167",
+          "label": "10 Shrimp",
+          "price": 82.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:14759202062703",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 8.99,
       "currency": "USD",
       "available": false,

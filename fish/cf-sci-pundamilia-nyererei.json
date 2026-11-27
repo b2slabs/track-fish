@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Nyererei Cichlid",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:8397967851827+8398168293683",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Pundamilia nyererei",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:681038+681040",
       "storeSlug": "wet-spot-tropical-fish",
       "storeName": "The Wet Spot Tropical Fish",
       "commonName": "Pundamilia nyererei",
-      "lastCheckedAt": "2026-11-26T18:56:00.122Z"
+      "lastCheckedAt": "2026-11-25T19:04:28.157Z"
     },
     {
       "listingId": "imperial-tropicals:9818612760883",
@@ -222,9 +222,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "imperial-tropicals:8397967851827+8398168293683",
       "storeSlug": "imperial-tropicals"
@@ -322,7 +320,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "imperial-tropicals:8397967851827+8398168293683",
       "storeSlug": "imperial-tropicals"
@@ -548,27 +546,6 @@
       ],
       "listingId": "imperial-tropicals:8397967851827+8398168293683",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 29.74,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "8730315489399",
-          "label": "Title",
-          "price": 29.74,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:791802314871",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

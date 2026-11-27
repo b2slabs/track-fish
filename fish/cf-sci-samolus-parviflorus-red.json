@@ -8,14 +8,14 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Samolus Parviflorus 'Red'",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "buce-plant:8213689696456+8251588968648",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Samolus Parviflorus Red",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "daku-aquatics:9113847267546",
@@ -1085,8 +1085,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:8213689696456+8251588968648",
       "storeSlug": "buce-plant"
@@ -1106,12 +1105,36 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:8213689696456+8251588968648",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43493149507670",
+          "label": "Aquatic Farmer Tissue Culture",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "43493149540438",
+          "label": "Potted",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:7564557418582",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-20T07:00:00.000Z",
@@ -1155,7 +1178,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:8213689696456+8251588968648",
       "storeSlug": "buce-plant"

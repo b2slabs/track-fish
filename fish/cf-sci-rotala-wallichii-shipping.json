@@ -8,28 +8,28 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Rotala Wallichii",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "daku-aquatics:8741033574618",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Rotala Wallichii",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     },
     {
       "listingId": "glass-aqua:11279074119",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Rotala Wallichii",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "aqua-imports:60134",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Rotala wallichi",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -326,6 +326,26 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043836809434",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741033574618",
+      "storeSlug": "daku-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 6.99,
       "currency": "USD",
@@ -385,27 +405,6 @@
       ],
       "listingId": "daku-aquatics:8741033574618",
       "storeSlug": "daku-aquatics"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 6.45,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19809660614",
-          "label": "Title",
-          "price": 6.45,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6260555206",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

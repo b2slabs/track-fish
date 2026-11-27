@@ -8,26 +8,58 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Ranalisma Rostratum",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:1920821887062",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Ranalisma Rostratum",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "aqua-imports:190168",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Ranalisma rostratum",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-21T02:00:00.000Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "21275140161617",
+          "label": "Pot",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "21275140194385",
+          "label": "3 Pot Package",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "21275140227153",
+          "label": "5 Pot Package",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:2365672259665",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 5.99,
       "currency": "USD",
       "available": false,

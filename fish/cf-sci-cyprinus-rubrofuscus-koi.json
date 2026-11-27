@@ -8,21 +8,21 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Assorted Koi (Cyprinus rubrofuscus)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquatic-arts:9247517606167+9337797148951",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Taisho Sanke Koi (Cyprinus rubrofuscus \"Sanke\") - Tank Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aqua-imports:109985",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Assorted Koi – A Grade (Cyprinus sp.)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -425,11 +425,42 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:9247517606167+9337797148951",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51810842181939",
+          "label": "2-3\" Unsexed",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "51810842214707",
+          "label": "3-4\" Unsexed",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "52914147787059",
+          "label": "4-5\" Unsexed",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9811263357235",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-22T00:52:10.879Z",
@@ -452,7 +483,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:9247517606167+9337797148951",
       "storeSlug": "aquatic-arts"

@@ -8,49 +8,49 @@
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Turkana Senegal Bichir (Polypterus senegalus)",
-      "lastCheckedAt": "2026-11-26T18:53:19.110Z"
+      "lastCheckedAt": "2026-11-25T19:01:44.668Z"
     },
     {
       "listingId": "aquarium-fish:6095277766",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Senegalese Bichir",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquahuna:7964630614091",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Senegal Bichir",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "imperial-tropicals:8398104920371",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Senegal Bichir",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "nu-aqua-shop:10450452119868",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Senegal Bichir 3-4\"",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "monster-aquarium:7317697298641+7580203811025",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Senegal Bichir (Polypterus senegalus)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aqua-imports:126976+41900+45585+48919",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Senegal Bichir (Polypterus senegalus)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -139,8 +139,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "nationwide-aquatics-usa:8615920697497",
       "storeSlug": "nationwide-aquatics-usa"
@@ -166,7 +165,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "nationwide-aquatics-usa:8615920697497",
       "storeSlug": "nationwide-aquatics-usa"
@@ -198,7 +197,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "nationwide-aquatics-usa:8615920697497",
       "storeSlug": "nationwide-aquatics-usa"
@@ -218,8 +217,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "nationwide-aquatics-usa:8615920697497",
       "storeSlug": "nationwide-aquatics-usa"
@@ -267,6 +265,26 @@
     },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42523886977233",
+          "label": "4.5-5.5\"",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7317697298641+7580203811025",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 34.99,
       "currency": "USD",
       "available": false,
@@ -280,11 +298,30 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7317697298641+7580203811025",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 12,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42796116508747",
+          "label": "Title",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:7964630614091",
+      "storeSlug": "aquahuna"
     },
     {
       "observedAt": "2026-11-20T06:14:43.307Z",
@@ -301,8 +338,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "nationwide-aquatics-usa:8615920697497",
       "storeSlug": "nationwide-aquatics-usa"
@@ -421,7 +457,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7317697298641+7580203811025",
       "storeSlug": "monster-aquarium"
@@ -463,27 +499,6 @@
       ],
       "listingId": "aqua-imports:126976+41900+45585+48919",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 19.97,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "19288859142",
-          "label": "Small",
-          "price": 19.97,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6095277766",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

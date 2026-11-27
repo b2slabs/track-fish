@@ -8,28 +8,28 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Red Galaxy Shrimp Mix",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "buce-plant:7552032637128",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Red Galaxy Pinto Shrimp",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aquatic-arts:6658566619222",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Red Galaxy Pinto Shrimp (Caridina cantonensis, A Grade), Tank-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "shrimpy-business:6651164491861",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Red Galaxy Pinto Shrimp",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     }
   ],
   "events": [
@@ -729,6 +729,26 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 9,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41741097173067",
+          "label": "Title",
+          "price": 9,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:7433430499403",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 49.95,
       "currency": "USD",
@@ -761,7 +781,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "shrimpy-business:6651164491861",
       "storeSlug": "shrimpy-business"

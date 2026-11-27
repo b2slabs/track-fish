@@ -8,49 +8,49 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Royal Farlowella (Sturisoma panamense) aka Whiptail Catfish - Tank-Bred!",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "shrimpy-business:9047879549218",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Royal Farlowella Whiptail Catfish (Tank-Bred)",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "monster-aquarium:7030051373265",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Royal Farlowella ( RIO MAGDELANA ) (Sturisoma panamense)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquahuna:6763720769611",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Royal Farlowella",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "aquarium-fish:2501767069777",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Royal Farlowella",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:8398161412403",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Royal Farlowella",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aqua-imports:141615+38167",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Royal Farlowella (Sturisomatichthys aureus)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -223,6 +223,44 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 16,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48031421759778",
+          "label": "1 Fish",
+          "price": 16,
+          "available": false
+        },
+        {
+          "id": "48031421792546",
+          "label": "3 Fish",
+          "price": 42.95,
+          "available": false
+        },
+        {
+          "id": "51662842560802",
+          "label": "6 Fish",
+          "price": 81.95,
+          "available": false
+        },
+        {
+          "id": "51662842593570",
+          "label": "12 Fish",
+          "price": 153.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9047879549218",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 26.99,
       "currency": "USD",
@@ -309,8 +347,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aqua-imports:141615+38167",
       "storeSlug": "aqua-imports"
@@ -336,32 +373,10 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aqua-imports:141615+38167",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 22.94,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "21549813006417",
-          "label": "Title",
-          "price": 22.94,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:2501767069777",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

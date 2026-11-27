@@ -8,21 +8,21 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Giant Gold Chinese Algae eater (Gyrinocheilus aymonieri)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "shrimpy-business:9751620583714",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Chinese Golden Algae Eater",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "aquarium-fish:10130722586923+755052445815",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Gold Algae Eater",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquarium-fish:10130722586923",
@@ -2224,6 +2224,44 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 6.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50526055432482",
+          "label": "1 Fish",
+          "price": 6.95,
+          "available": true
+        },
+        {
+          "id": "50000387539234",
+          "label": "2 Fish",
+          "price": 12.95,
+          "available": true
+        },
+        {
+          "id": "50000387572002",
+          "label": "4 Fish",
+          "price": 23.95,
+          "available": true
+        },
+        {
+          "id": "51662838497570",
+          "label": "8 Fish",
+          "price": 44.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9751620583714",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 16.99,
       "currency": "USD",
@@ -2258,8 +2296,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10130722586923+755052445815",
       "storeSlug": "aquarium-fish"
@@ -2348,7 +2385,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10130722586923+755052445815",
       "storeSlug": "aquarium-fish"
@@ -2390,33 +2427,6 @@
       ],
       "listingId": "shrimpy-business:9751620583714",
       "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 5.01,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51440704717099",
-          "label": "Gold Algae Eater (Group of 3)",
-          "price": 14.44,
-          "available": true
-        },
-        {
-          "id": "51428221059371",
-          "label": "Gold Algae Eater",
-          "price": 5.01,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10130722586923+755052445815",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

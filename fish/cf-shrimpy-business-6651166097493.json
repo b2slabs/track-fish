@@ -8,12 +8,32 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Zebra Babaulti",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39612291252309",
+          "label": "5 Shrimp",
+          "price": 55,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6651166097493",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 55,
       "currency": "USD",
       "available": false,

@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Twinstar Sterilizer for Fish",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -162,6 +162,44 @@
       "changedFields": [
         "price",
         "variants"
+      ],
+      "listingId": "buce-plant:6877218570440",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 109.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40330920984776",
+          "label": "S3",
+          "price": 91.99,
+          "available": false
+        },
+        {
+          "id": "40330921017544",
+          "label": "S5",
+          "price": 109.99,
+          "available": true
+        },
+        {
+          "id": "40330921050312",
+          "label": "Yotta",
+          "price": 109.99,
+          "available": false
+        },
+        {
+          "id": "40330921083080",
+          "label": "Yotta +",
+          "price": 139.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
       ],
       "listingId": "buce-plant:6877218570440",
       "storeSlug": "buce-plant"

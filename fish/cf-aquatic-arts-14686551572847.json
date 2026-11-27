@@ -8,19 +8,39 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Cryptocoryne Beckettii (Crypt. Beckettii) - Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "buce-plant:10014627405",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Cryptocoryne Beckettii UNS Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51814147686767",
+          "label": "1 Tissue Culture",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:14686551572847",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 14.99,
       "currency": "USD",
       "available": false,
@@ -74,8 +94,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10014627405",
       "storeSlug": "buce-plant"
@@ -101,7 +120,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10014627405",
       "storeSlug": "buce-plant"
@@ -121,8 +140,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10014627405",
       "storeSlug": "buce-plant"

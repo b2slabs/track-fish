@@ -8,42 +8,42 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Penguin Tetra",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "aquatic-arts:6615137747030",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Penguin Tetra (Thayeria boehlkei ) - Tank-Bred!",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "ck-fish-world:8537395757271",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Penguin Tetra",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "imperial-tropicals:8398081982771",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Penguin Tetra",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquarium-fish:10130725634347+777267249271",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Penguin Tetra",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:85694",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Penguin Tetra (Thayeria boehlkei)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "aquarium-fish:10130725634347",
@@ -543,6 +543,38 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336177639639",
+          "label": "3",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45336177672407",
+          "label": "5",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45336177705175",
+          "label": "10",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8537395757271",
+      "storeSlug": "ck-fish-world"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 24.99,
       "currency": "USD",
@@ -577,8 +609,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10130725634347+777267249271",
       "storeSlug": "aquarium-fish"
@@ -630,7 +661,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10130725634347+777267249271",
       "storeSlug": "aquarium-fish"
@@ -654,33 +685,6 @@
       ],
       "listingId": "aqua-imports:85694",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 4.24,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51440715759915",
-          "label": "Waddle of 6",
-          "price": 21.24,
-          "available": false
-        },
-        {
-          "id": "51437670990123",
-          "label": "Penguin Tetra",
-          "price": 4.24,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10130725634347+777267249271",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

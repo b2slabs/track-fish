@@ -8,19 +8,45 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Chaca frogmouth Catfish (Chaca bankanensis)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aqua-imports:37707",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Chaca bankanensis Catfish (Chaca bankanensis)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42269181346001",
+          "label": "2-3”",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "41956615389393",
+          "label": "4-5”",
+          "price": 89.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7360062652625",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 29.99,
       "currency": "USD",
       "available": false,

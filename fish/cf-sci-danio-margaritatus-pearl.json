@@ -8,42 +8,42 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Pearl Emerald Dwarf Danio / Rasbora (Hybrid)",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "ck-fish-world:8147766935767",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Celestial Pearl Danio",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "imperial-tropicals:8397999178035",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Celestial Pearl Danio",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "daku-aquatics:8741041930458",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Celestial Pearl Danio",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     },
     {
       "listingId": "nu-aqua-shop:10006314877244",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Celestial Pearl Danio",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aquarium-fish:10130824495403+775134806135",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Celestial Pearl Danio",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquarium-fish:10130824495403",
@@ -980,6 +980,38 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 20.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336045977815",
+          "label": "3",
+          "price": 20.98,
+          "available": true
+        },
+        {
+          "id": "45336046010583",
+          "label": "5",
+          "price": 30.98,
+          "available": true
+        },
+        {
+          "id": "45336046043351",
+          "label": "10",
+          "price": 50.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8147766935767",
+      "storeSlug": "ck-fish-world"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 36.29,
       "currency": "USD",
@@ -1014,8 +1046,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10130824495403+775134806135",
       "storeSlug": "aquarium-fish"
@@ -1045,6 +1076,26 @@
       ],
       "listingId": "imperial-tropicals:8397999178035",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 40,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46043854242010",
+          "label": "5 Pack (mixed sex)",
+          "price": 40,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741041930458",
+      "storeSlug": "daku-aquatics"
     },
     {
       "observedAt": "2026-11-21T01:29:18.881Z",
@@ -1162,34 +1213,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10130824495403+775134806135",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 7.05,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51441054122283",
-          "label": "Celestial Pearl Danio (School of 5)",
-          "price": 30.85,
-          "available": false
-        },
-        {
-          "id": "51437871300907",
-          "label": "Celestial Pearl Danio",
-          "price": 7.05,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10130824495403+775134806135",
       "storeSlug": "aquarium-fish"

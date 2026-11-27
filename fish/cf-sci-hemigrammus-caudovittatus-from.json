@@ -8,42 +8,42 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Buenos Aires Tetra",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "flip-aquatics:7493996281958",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Buenos Aires Tetra",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "imperial-tropicals:8905417064755",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Buenos Aires Tetra",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "global-exoticquatics:8322288713920",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Buenos Aires Tetra",
-      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     },
     {
       "listingId": "aquarium-fish:779108319351",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Buenos Aires Tetra",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:120960",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Buenos Aires Tetra (Hyphessobrycon anisitsi)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -129,6 +129,46 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 2.9,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67315164872779",
+          "label": "Title",
+          "price": 2.9,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:15258965540939",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42321188094054",
+          "label": "Imported / 1 Fish",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:7493996281958",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 2.99,
       "currency": "USD",
@@ -187,6 +227,26 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 20,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46744991957184",
+          "label": "5 Fish",
+          "price": 20,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8322288713920",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 4.99,
       "currency": "USD",
@@ -205,27 +265,6 @@
       ],
       "listingId": "aqua-imports:120960",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 2.54,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "8669736304759",
-          "label": "Title",
-          "price": 2.54,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:779108319351",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

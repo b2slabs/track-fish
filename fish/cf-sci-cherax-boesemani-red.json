@@ -8,21 +8,21 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Red Cheek Crayfish (Cherax boesemani)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "monster-aquarium:7309389594833+7331318923473",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Red Brick Crayfish (Cherax Boesemani)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aqua-imports:59723+59730",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Papuan Red Boesemani Crayfish (Cherax boesemani)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -177,11 +177,36 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:4880089317462+4951005921366",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41862424363217",
+          "label": "3-4” (random sex)",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "41862424527057",
+          "label": "Pair (1 male 1 female)",
+          "price": 109.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7309389594833+7331318923473",
+      "storeSlug": "monster-aquarium"
     },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
@@ -204,8 +229,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7309389594833+7331318923473",
       "storeSlug": "monster-aquarium"
@@ -267,8 +291,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:4880089317462+4951005921366",
       "storeSlug": "aquatic-arts"
@@ -306,8 +329,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7309389594833+7331318923473",
       "storeSlug": "monster-aquarium"

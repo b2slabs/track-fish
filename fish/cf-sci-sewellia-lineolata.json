@@ -8,70 +8,70 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Reticulated Hillstream Loach",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "aquahuna:6704864919627",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Reticulated Hillstream Loach | Sewellia lineolata",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "flip-aquatics:458196353064",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Hillstream Loach | Reticulated Hillstream Loach",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "imperial-tropicals:8398161543475",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Reticulated Hillstream Loach",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquatic-arts:86231515148",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Reticulated Hillstream Loach (Sewellia lineolata)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "monster-aquarium:6967210442961",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Hillstream Loach (Sewellia lineolata)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "nu-aqua-shop:10006360064316",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Reticulated Hillstream Loach",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aquarium-fish:10442347479339+2549858041937+6203095686",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Hillstream Loach",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "dans-fish:10127103164714",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Reticulated Hillstream Loach",
-      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     },
     {
       "listingId": "aqua-imports:40252",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Reticulated Hillstream Loach (Sewellia lineolata)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "aquarium-fish:10442347479339",
@@ -1247,6 +1247,44 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 12.25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47593639248162",
+          "label": "1 Fish",
+          "price": 12.25,
+          "available": false
+        },
+        {
+          "id": "47593639280930",
+          "label": "3 Fish",
+          "price": 32.95,
+          "available": false
+        },
+        {
+          "id": "51662843085090",
+          "label": "6 Fish",
+          "price": 62.95,
+          "available": false
+        },
+        {
+          "id": "51662843117858",
+          "label": "12 Fish",
+          "price": 117.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:8906673520930",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 22.99,
       "currency": "USD",
@@ -1301,8 +1339,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10442347479339+2549858041937+6203095686",
       "storeSlug": "aquarium-fish"
@@ -1322,8 +1359,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10442347479339+2549858041937+6203095686",
       "storeSlug": "aquarium-fish"
@@ -1395,7 +1431,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10442347479339+2549858041937+6203095686",
       "storeSlug": "aquarium-fish"
@@ -1439,39 +1475,6 @@
       ],
       "listingId": "aqua-imports:40252",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 10.96,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "54029776716075",
-          "label": "Reticulated Hillstream Loach (3-Pack)",
-          "price": 33.99,
-          "available": true
-        },
-        {
-          "id": "21699576725585",
-          "label": "Reticulated Hillstream Loach",
-          "price": 12.66,
-          "available": true
-        },
-        {
-          "id": "19642765190",
-          "label": "Hillstream Loach",
-          "price": 10.96,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10442347479339+2549858041937+6203095686",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,35 +8,35 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Hump Geophagus Cichlid",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:41973",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Hump Eartheater (Geophagus steindachneri)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "monster-aquarium:7259922038993",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Red Hump Eartheater  (Geophagus Steindachneri )",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "global-exoticquatics:8435192463552",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Red Hump Eartheater",
-      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     },
     {
       "listingId": "imperial-tropicals:8397979746611",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Red Hump Geophagus (Geophagus steindachneri)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     }
   ],
   "events": [
@@ -178,6 +178,26 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47252110115008",
+          "label": "2  inch",
+          "price": 15,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8435192463552",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 7.99,
       "currency": "USD",
@@ -264,77 +284,6 @@
           "label": "2-3” Unsexed Captive Bred",
           "price": 14.99,
           "available": true
-        },
-        {
-          "id": "50439432700211",
-          "label": "3-4\" Unsexed Captive Bred",
-          "price": 19.99,
-          "available": false
-        },
-        {
-          "id": "49017237700915",
-          "label": "1-2” Unsexed Wild Caught",
-          "price": 11.99,
-          "available": false
-        },
-        {
-          "id": "47759571190067",
-          "label": "2-3” Unsexed Wild Caught",
-          "price": 14.99,
-          "available": false
-        },
-        {
-          "id": "49017254052147",
-          "label": "3-4” Unsexed Wild Caught",
-          "price": 19.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "variants"
-      ],
-      "listingId": "imperial-tropicals:8397979746611",
-      "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 33.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "18819635526",
-          "label": "Title",
-          "price": 33.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:5950471942",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:54:17.996Z",
-      "price": 9.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45611734532403",
-          "label": "1-2” Unsexed Captive Bred",
-          "price": 9.99,
-          "available": true
-        },
-        {
-          "id": "45611734565171",
-          "label": "2-3” Unsexed Captive Bred",
-          "price": 14.99,
-          "available": false
         },
         {
           "id": "50439432700211",

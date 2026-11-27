@@ -8,12 +8,50 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Nature's Blueprint Plant Bundle",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-08-11T02:00:00.000Z",
+      "price": 79.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52197611176226",
+          "label": "1 Plant Each",
+          "price": 79.95,
+          "available": true
+        },
+        {
+          "id": "52197611208994",
+          "label": "2 Plants Each",
+          "price": 143.95,
+          "available": true
+        },
+        {
+          "id": "52197611241762",
+          "label": "4 Plants Each",
+          "price": 271.95,
+          "available": true
+        },
+        {
+          "id": "52197611274530",
+          "label": "8 Plants Each",
+          "price": 511.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:10430575116578",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 79.95,
       "currency": "USD",
       "available": true,

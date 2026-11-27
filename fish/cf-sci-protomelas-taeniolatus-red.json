@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Empress Cichlid",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:8397971816755+8398170161459+8398170652979",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Red Empress",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "imperial-tropicals:9931743199539",
@@ -29,7 +29,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Red Empress",
-      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     }
   ],
   "events": [
@@ -74,7 +74,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "global-exoticquatics:8241476600000+8255351652544",
       "storeSlug": "global-exoticquatics"
@@ -320,8 +320,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "global-exoticquatics:8241476600000+8255351652544",
       "storeSlug": "global-exoticquatics"
@@ -353,7 +352,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "global-exoticquatics:8241476600000+8255351652544",
       "storeSlug": "global-exoticquatics"
@@ -373,7 +372,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "global-exoticquatics:8241476600000+8255351652544",
       "storeSlug": "global-exoticquatics"
@@ -511,9 +510,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "imperial-tropicals:8397971816755+8398170161459+8398170652979",
       "storeSlug": "imperial-tropicals"
@@ -557,12 +554,30 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "imperial-tropicals:8397971816755+8398170161459+8398170652979",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 60,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46442178969792",
+          "label": "Full Color Show Male (4.5 in)",
+          "price": 60,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8241476600000+8255351652544",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-20T06:27:57.334Z",
@@ -585,8 +600,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "global-exoticquatics:8241476600000+8255351652544",
       "storeSlug": "global-exoticquatics"
@@ -708,9 +722,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "imperial-tropicals:8397971816755+8398170161459+8398170652979",
       "storeSlug": "imperial-tropicals"
@@ -742,7 +754,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "global-exoticquatics:8241476600000+8255351652544",
       "storeSlug": "global-exoticquatics"
@@ -869,39 +881,6 @@
       ],
       "listingId": "imperial-tropicals:8397971816755+8398170161459+8398170652979",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 32.12,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "40210211897425",
-          "label": "Small",
-          "price": 13.85,
-          "available": false
-        },
-        {
-          "id": "40210211930193",
-          "label": "Medium",
-          "price": 32.12,
-          "available": true
-        },
-        {
-          "id": "40210211962961",
-          "label": "Large",
-          "price": 45.04,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:4713332572241",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

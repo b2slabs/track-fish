@@ -8,56 +8,56 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Platy (Assorted)",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "aquatic-arts:14627577430383+14627651354991+14775974265199+4804527259734+6600035205206+6817717387350",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Painted Platy (Xiphophorus maculatus) - Tank Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aquahuna:6616871600203+6678622568523",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Assorted Platy",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "shrimpy-business:9797203001634+9837773717794",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Rainbow Platy",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "aquarium-fish:1367398416454+1367406673990+4550532399185+6214071942+6214075846+6214078854+6214080454+6214081222+6214100870+6214103110+9072625975595+9401825034539",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Painted Platy",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:8397993083187+8397993738547+8398067859763",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Sunburst Platy",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "flip-aquatics:7488389382246+7737476546662",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Sunset Platy | Xiphophorus maculatus",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aqua-imports:57438+87958",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Assorted Platy (Xiphophorus maculatus)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "imperial-tropicals:10047170773299",
@@ -1303,6 +1303,38 @@
       "available": false,
       "variants": [
         {
+          "id": "52157690315119",
+          "label": "1 Fish (Unsexed)",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "52157690347887",
+          "label": "3 Fish (Unsexed)",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "52157690380655",
+          "label": "6 Fish (Unsexed)",
+          "price": 36.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:14627577430383+14627651354991+14775974265199+4804527259734+6600035205206+6817717387350",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
           "id": "51657020277103",
           "label": "Trio (1 Male + 2 Female)",
           "price": 15.99,
@@ -1323,7 +1355,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14627577430383+14627651354991+14775974265199+4804527259734+6600035205206+6817717387350",
       "storeSlug": "aquatic-arts"
@@ -1355,7 +1387,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14627577430383+14627651354991+14775974265199+4804527259734+6600035205206+6817717387350",
       "storeSlug": "aquatic-arts"
@@ -1381,9 +1413,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14627577430383+14627651354991+14775974265199+4804527259734+6600035205206+6817717387350",
       "storeSlug": "aquatic-arts"
@@ -1433,9 +1463,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14627577430383+14627651354991+14775974265199+4804527259734+6600035205206+6817717387350",
       "storeSlug": "aquatic-arts"
@@ -1485,8 +1513,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14627577430383+14627651354991+14775974265199+4804527259734+6600035205206+6817717387350",
       "storeSlug": "aquatic-arts"
@@ -1526,10 +1553,42 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquahuna:6616871600203+6678622568523",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45336187764951",
+          "label": "3 / 2\"",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45336187797719",
+          "label": "5 / 2\"",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45704812658903",
+          "label": "10 / 2\"",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8150008299735",
+      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-20T06:27:39.339Z",
@@ -1564,7 +1623,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "shrimpy-business:9797203001634+9837773717794",
       "storeSlug": "shrimpy-business"
@@ -1602,9 +1661,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "shrimpy-business:9797203001634+9837773717794",
       "storeSlug": "shrimpy-business"
@@ -1624,7 +1681,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:7488389382246+7737476546662",
       "storeSlug": "flip-aquatics"
@@ -1644,7 +1701,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:7488389382246+7737476546662",
       "storeSlug": "flip-aquatics"
@@ -1664,7 +1721,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:7488389382246+7737476546662",
       "storeSlug": "flip-aquatics"
@@ -1696,7 +1753,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:7488389382246+7737476546662",
       "storeSlug": "flip-aquatics"
@@ -1742,9 +1799,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:1367398416454+1367406673990+4550532399185+6214071942+6214075846+6214078854+6214080454+6214081222+6214100870+6214103110+9072625975595+9401825034539",
       "storeSlug": "aquarium-fish"
@@ -1770,8 +1825,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:1367398416454+1367406673990+4550532399185+6214071942+6214075846+6214078854+6214080454+6214081222+6214100870+6214103110+9072625975595+9401825034539",
       "storeSlug": "aquarium-fish"
@@ -1791,8 +1845,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:1367398416454+1367406673990+4550532399185+6214071942+6214075846+6214078854+6214080454+6214081222+6214100870+6214103110+9072625975595+9401825034539",
       "storeSlug": "aquarium-fish"
@@ -1812,8 +1865,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:1367398416454+1367406673990+4550532399185+6214071942+6214075846+6214078854+6214080454+6214081222+6214100870+6214103110+9072625975595+9401825034539",
       "storeSlug": "aquarium-fish"
@@ -1833,9 +1885,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:1367398416454+1367406673990+4550532399185+6214071942+6214075846+6214078854+6214080454+6214081222+6214100870+6214103110+9072625975595+9401825034539",
       "storeSlug": "aquarium-fish"
@@ -1855,8 +1905,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:1367398416454+1367406673990+4550532399185+6214071942+6214075846+6214078854+6214080454+6214081222+6214100870+6214103110+9072625975595+9401825034539",
       "storeSlug": "aquarium-fish"
@@ -1876,9 +1925,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:1367398416454+1367406673990+4550532399185+6214071942+6214075846+6214078854+6214080454+6214081222+6214100870+6214103110+9072625975595+9401825034539",
       "storeSlug": "aquarium-fish"
@@ -1898,7 +1945,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:1367398416454+1367406673990+4550532399185+6214071942+6214075846+6214078854+6214080454+6214081222+6214100870+6214103110+9072625975595+9401825034539",
       "storeSlug": "aquarium-fish"
@@ -1918,8 +1965,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:1367398416454+1367406673990+4550532399185+6214071942+6214075846+6214078854+6214080454+6214081222+6214100870+6214103110+9072625975595+9401825034539",
       "storeSlug": "aquarium-fish"
@@ -1939,8 +1985,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:1367398416454+1367406673990+4550532399185+6214071942+6214075846+6214078854+6214080454+6214081222+6214100870+6214103110+9072625975595+9401825034539",
       "storeSlug": "aquarium-fish"
@@ -1960,12 +2005,36 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:1367398416454+1367406673990+4550532399185+6214071942+6214075846+6214078854+6214080454+6214081222+6214100870+6214103110+9072625975595+9401825034539",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611769758003",
+          "label": "(3 Pack) 1-2\" Unsexed",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "45611769790771",
+          "label": "(10 Pack) 1-2\" Unsexed",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8397993083187+8397993738547+8398067859763",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
@@ -1994,8 +2063,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "imperial-tropicals:8397993083187+8397993738547+8398067859763",
       "storeSlug": "imperial-tropicals"
@@ -2021,9 +2089,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "imperial-tropicals:8397993083187+8397993738547+8398067859763",
       "storeSlug": "imperial-tropicals"
@@ -2227,9 +2293,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14627577430383+14627651354991+14775974265199+4804527259734+6600035205206+6817717387350",
       "storeSlug": "aquatic-arts"
@@ -2255,7 +2319,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquahuna:6616871600203+6678622568523",
       "storeSlug": "aquahuna"
@@ -2317,9 +2381,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "shrimpy-business:9797203001634+9837773717794",
       "storeSlug": "shrimpy-business"
@@ -2363,7 +2425,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:7488389382246+7737476546662",
       "storeSlug": "flip-aquatics"
@@ -2461,7 +2523,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:1367398416454+1367406673990+4550532399185+6214071942+6214075846+6214078854+6214080454+6214081222+6214100870+6214103110+9072625975595+9401825034539",
       "storeSlug": "aquarium-fish"
@@ -2517,8 +2579,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "imperial-tropicals:8397993083187+8397993738547+8398067859763",
       "storeSlug": "imperial-tropicals"
@@ -2538,7 +2599,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:7488389382246+7737476546662",
       "storeSlug": "flip-aquatics"
@@ -2564,7 +2625,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:7488389382246+7737476546662",
       "storeSlug": "flip-aquatics"
@@ -2594,105 +2655,6 @@
       ],
       "listingId": "aqua-imports:57438+87958",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 4.16,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48927856754987",
-          "label": "Mickey Mouse Platy Assorted Colors (Clubhouse of 5)",
-          "price": 16.99,
-          "available": true
-        },
-        {
-          "id": "51428338303275",
-          "label": "Each",
-          "price": 5.94,
-          "available": false
-        },
-        {
-          "id": "51428338336043",
-          "label": "Clubhouse of 4",
-          "price": 23.79,
-          "available": false
-        },
-        {
-          "id": "51428374413611",
-          "label": "Each",
-          "price": 5.09,
-          "available": false
-        },
-        {
-          "id": "51428374446379",
-          "label": "Group of 4",
-          "price": 16.4,
-          "available": false
-        },
-        {
-          "id": "19674171206",
-          "label": "Peppermint Platy",
-          "price": 4.24,
-          "available": false
-        },
-        {
-          "id": "19674209990",
-          "label": "Bumblebee Platy",
-          "price": 7.3,
-          "available": false
-        },
-        {
-          "id": "19674151686",
-          "label": "Assorted Platy (Lot of 6)",
-          "price": 21.24,
-          "available": true
-        },
-        {
-          "id": "19674179142",
-          "label": "Spotted Dawn Platy",
-          "price": 6.79,
-          "available": true
-        },
-        {
-          "id": "12358156189766",
-          "label": "Painted Platy",
-          "price": 4.07,
-          "available": false
-        },
-        {
-          "id": "12358089670726",
-          "label": "Marigold Wag Platy",
-          "price": 4.07,
-          "available": false
-        },
-        {
-          "id": "19674227334",
-          "label": "Bleeding Heart Platy",
-          "price": 6.79,
-          "available": false
-        },
-        {
-          "id": "19674176070",
-          "label": "Marigold Platy",
-          "price": 4.07,
-          "available": false
-        },
-        {
-          "id": "19674161478",
-          "label": "Mickey Mouse Platy",
-          "price": 4.16,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:1367398416454+1367406673990+4550532399185+6214071942+6214075846+6214078854+6214080454+6214081222+6214100870+6214103110+9072625975595+9401825034539",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

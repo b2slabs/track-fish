@@ -8,49 +8,49 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Blue Bolt Shrimp (Caridina cantonensis var. “Blue Bolt”), A-S Grade, Tank-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aquahuna:1866885267499",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Blue Bolt Shrimp",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "ck-fish-world:8150003155159",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Blue Bolt Shrimp",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "shrimpy-business:2591750422613",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Blue Bolt Shrimp",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "nu-aqua-shop:10450446582076",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Blue Bolt Shrimp",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "buce-plant:7551649087688+9228917645",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Blue Bolt Extreme Shrimp",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aqua-imports:190388",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Blue Bolt Shrimp (Caridina cantonensis)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -145,6 +145,38 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 33.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45696879198423",
+          "label": "3",
+          "price": 33.98,
+          "available": true
+        },
+        {
+          "id": "45696879231191",
+          "label": "5",
+          "price": 54.98,
+          "available": true
+        },
+        {
+          "id": "45707896127703",
+          "label": "10",
+          "price": 99.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8150003155159",
+      "storeSlug": "ck-fish-world"
+    },
+    {
       "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 37.5,
       "currency": "USD",
@@ -235,9 +267,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:7551649087688+9228917645",
       "storeSlug": "buce-plant"
@@ -301,7 +331,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:7551649087688+9228917645",
       "storeSlug": "buce-plant"

@@ -15,63 +15,63 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Java Moss",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aqua-imports:60141",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Java Moss (Taxiphyllum barbieri)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "ck-fish-world:8733720871127",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Java Moss (Golfball)",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "shrimpy-business:4793724469333",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Java Moss",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "flip-aquatics:11309147268",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Java Moss",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aquarium-fish:6260768070",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Java Moss",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:8398016938291",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Java Moss",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "buce-plant:8561682125",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Java Moss",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:11277467015",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Java Moss",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
@@ -147,6 +147,38 @@
       ],
       "listingId": "daku-aquatics:9383503954138",
       "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 8.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45749250490583",
+          "label": "1",
+          "price": 8.98,
+          "available": true
+        },
+        {
+          "id": "45749250523351",
+          "label": "3",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45749250556119",
+          "label": "5",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8733720871127",
+      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-20T06:27:39.339Z",
@@ -267,9 +299,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:8561682125",
       "storeSlug": "buce-plant"
@@ -353,9 +383,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:8561682125",
       "storeSlug": "buce-plant"
@@ -421,31 +449,10 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:8561682125",
       "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 9.6,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19810236422",
-          "label": "Title",
-          "price": 9.6,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6260768070",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

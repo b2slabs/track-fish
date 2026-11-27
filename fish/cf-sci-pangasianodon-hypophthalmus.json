@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Iridescent Shark",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "monster-aquarium:7045669093585+7479741645009",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Iridescent Shark (Pangasianodon hypophthalmus)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     }
   ],
   "events": [
@@ -147,6 +147,26 @@
     },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42264789778641",
+          "label": "4-5\"",
+          "price": 26.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7045669093585+7479741645009",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 32.99,
       "currency": "USD",
       "available": true,
@@ -166,9 +186,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7045669093585+7479741645009",
       "storeSlug": "monster-aquarium"
@@ -241,31 +259,10 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7045669093585+7479741645009",
       "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 7.9,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "32403622789201",
-          "label": "Title",
-          "price": 7.9,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:4638258856017",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

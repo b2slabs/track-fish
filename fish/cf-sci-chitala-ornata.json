@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Clown Knifefish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "monster-aquarium:7182609744081+7279692873937",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Clown Knife (Chitala ornata)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aqua-imports:155257",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Clown Knifefish (Chitala ornata)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -61,8 +61,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7182609744081+7279692873937",
       "storeSlug": "monster-aquarium"
@@ -114,7 +113,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7182609744081+7279692873937",
       "storeSlug": "monster-aquarium"
@@ -138,33 +137,6 @@
       ],
       "listingId": "aqua-imports:155257",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 16.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48556130173227",
-          "label": "Medium",
-          "price": 16.99,
-          "available": true
-        },
-        {
-          "id": "48556130205995",
-          "label": "Extra Large",
-          "price": 33.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:1376577126470",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

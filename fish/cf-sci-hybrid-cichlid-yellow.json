@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Yellow Parrot Cichlid",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:181745",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Yellow Parrot Cichlid (Amphilophus sp. hybrid)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -292,6 +292,26 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 45.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51443789529387",
+          "label": "Title",
+          "price": 45.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:10131410813227",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 0,
       "currency": "USD",
@@ -310,27 +330,6 @@
       ],
       "listingId": "aqua-imports:181745",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 39.09,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51443789529387",
-          "label": "Title",
-          "price": 39.09,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10131410813227",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

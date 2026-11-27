@@ -8,19 +8,39 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Synodontis Eupterus Catfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "monster-aquarium:7208997224657+7479742693585",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Eupterus Synodontis Catfish (Synodontis eupterus)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42264791679185",
+          "label": "3-4”",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7208997224657+7479742693585",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 29.99,
       "currency": "USD",
       "available": false,
@@ -54,8 +74,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7208997224657+7479742693585",
       "storeSlug": "monster-aquarium"
@@ -101,31 +120,10 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7208997224657+7479742693585",
       "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 14.7,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19376285318",
-          "label": "Title",
-          "price": 14.7,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6120843398",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

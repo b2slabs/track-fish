@@ -8,26 +8,58 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Mini Rabbit Snail",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "King Rabbit Snail (Cerithidea sp.)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aqua-imports:103869",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Sponge Rabbit Snail (Tylomelania sp.)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52157249847663",
+          "label": "1 Snail",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "52157249880431",
+          "label": "3 Snails",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "52157249913199",
+          "label": "5 Snails",
+          "price": 27.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:11500350092+14775185113455",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 5.99,
       "currency": "USD",
       "available": false,
@@ -85,9 +117,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
@@ -157,7 +187,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
@@ -233,27 +263,6 @@
       ],
       "listingId": "aquatic-arts:11500350092+14775185113455",
       "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 7.64,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39286410870865",
-          "label": "Title",
-          "price": 7.64,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6548359413841",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

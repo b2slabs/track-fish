@@ -8,14 +8,14 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Cloud Stone",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:8052138115158",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Cloud Stone",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
@@ -62,6 +62,46 @@
     },
     {
       "observedAt": "2026-09-15T05:00:00.000Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45762511863894",
+          "label": "Title",
+          "price": 99.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:8052138115158",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45211580727496",
+          "label": "30LB PACK",
+          "price": 99.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8342411968712",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 99.99,
       "currency": "USD",
       "available": true,

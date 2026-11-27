@@ -8,56 +8,56 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Empire Gudgeon | Hypseleotris compressa",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aquarium-fish:6652616070",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Empire Gudgeon Goby",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquatic-arts:6743645454422",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Empire Gudgeon (Hypseleotris compressa)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "monster-aquarium:7468746834129",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Empire Gudgeon (Hypseleotris compressa)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquahuna:6827298291787",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Empire Gudgeon",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "imperial-tropicals:8398126711091",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Empire Gudgeon (Hypseleotris compressa)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "dans-fish:10127112405290",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Empire Gudgeon",
-      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     },
     {
       "listingId": "aqua-imports:67971",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Empire Gudgeon (Hypseleotris compressa)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -242,6 +242,26 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42236374909137",
+          "label": "1.25-1.5\"",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7468746834129",
+      "storeSlug": "monster-aquarium"
+    },
+    {
       "observedAt": "2026-11-20T06:14:42.593Z",
       "price": 20,
       "currency": "USD",
@@ -260,6 +280,26 @@
       ],
       "listingId": "aquahuna:6827298291787",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43065215844454",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:7721951625318",
+      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
@@ -409,27 +449,6 @@
       ],
       "listingId": "imperial-tropicals:8398126711091",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 29.74,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "21031089542",
-          "label": "Title",
-          "price": 29.74,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6652616070",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

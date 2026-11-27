@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Australian Rainbowfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquatic-arts:14945378959727",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Australian Rainbowfish (Melanotaenia fluviatilis) - Tank Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
@@ -127,6 +127,32 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52892219179375",
+          "label": "School of 3",
+          "price": 23.99,
+          "available": false
+        },
+        {
+          "id": "52892219212143",
+          "label": "School of 6",
+          "price": 45.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:14945378959727",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 6.89,
       "currency": "USD",
@@ -142,27 +168,6 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ],
-      "listingId": "aquarium-fish:6007165446",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 5.86,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19018880134",
-          "label": "Title",
-          "price": 5.86,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
       ],
       "listingId": "aquarium-fish:6007165446",
       "storeSlug": "aquarium-fish"

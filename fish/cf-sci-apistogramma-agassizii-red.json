@@ -8,35 +8,35 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Fire Red Agassizii",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquahuna:2179580756011",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Apistogramma Agassizi Double Red (male)",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "shrimpy-business:10467849503010+9914070958370",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Juvenile Double Red Agassiz's (Apistogramma agassizii)",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "aquarium-fish:5923989702+9401782862123",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Apistogramma Agassizi Double Red (Pair)",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquatic-arts:15017966338415",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Tefé Red Back Apistogramma (Apistogramma agassizii 'Tefé Red Back') – Tank-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
@@ -661,8 +661,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "shrimpy-business:10467849503010+9914070958370",
       "storeSlug": "shrimpy-business"
@@ -819,6 +818,38 @@
       "storeSlug": "shrimpy-business"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53192266219887",
+          "label": "1 Male/Female Pair",
+          "price": 96.99,
+          "available": false
+        },
+        {
+          "id": "53192266252655",
+          "label": "1 Male",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "53192266318191",
+          "label": "1 Female",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:15017966338415",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-20T06:14:42.593Z",
       "price": 22,
       "currency": "USD",
@@ -871,9 +902,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "shrimpy-business:10467849503010+9914070958370",
       "storeSlug": "shrimpy-business"
@@ -899,9 +928,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "shrimpy-business:10467849503010+9914070958370",
       "storeSlug": "shrimpy-business"
@@ -941,9 +968,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:5923989702+9401782862123",
       "storeSlug": "aquarium-fish"
@@ -1101,7 +1126,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "shrimpy-business:10467849503010+9914070958370",
       "storeSlug": "shrimpy-business"
@@ -1127,36 +1152,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:5923989702+9401782862123",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 21.67,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48927681315115",
-          "label": "Apistogramma Agassizi Double Red - Male",
-          "price": 21.67,
-          "available": true
-        },
-        {
-          "id": "18726441606",
-          "label": "Apistogramma Agassizi Double Red (Pair)",
-          "price": 33.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:5923989702+9401782862123",
       "storeSlug": "aquarium-fish"

@@ -8,21 +8,21 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Spiderwood",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "buce-plant:10887124429",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Spiderwood",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "nu-aqua-shop:10006320709948",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Spiderwood",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     }
   ],
   "events": [
@@ -86,6 +86,38 @@
       "type": "change",
       "changedFields": [
         "variants"
+      ],
+      "listingId": "ck-fish-world:8617473474775",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 12.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45380489642199",
+          "label": "Small (8-12 inch)",
+          "price": 12.98,
+          "available": true
+        },
+        {
+          "id": "45380489674967",
+          "label": "Medium (14-20 inch)",
+          "price": 24.98,
+          "available": true
+        },
+        {
+          "id": "45380489707735",
+          "label": "Large (20-26 inch)",
+          "price": 39.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
       ],
       "listingId": "ck-fish-world:8617473474775",
       "storeSlug": "ck-fish-world"

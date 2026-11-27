@@ -8,21 +8,21 @@
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Slate Pleco (Pseudancistrus genisetiger)",
-      "lastCheckedAt": "2026-11-26T18:53:19.110Z"
+      "lastCheckedAt": "2026-11-25T19:01:44.668Z"
     },
     {
       "listingId": "imperial-tropicals:9413130944819",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Slate Pleco",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aqua-imports:165837",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Slate Pleco (Pseudancistrus genisetiger)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -202,6 +202,52 @@
       "storeSlug": "nationwide-aquatics-usa"
     },
     {
+      "observedAt": "2026-11-20T06:14:43.307Z",
+      "price": 45,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48982540746905",
+          "label": "Title",
+          "price": 45,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8951028416665",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 84.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49883643576627",
+          "label": "2-3\" Unsexed",
+          "price": 84.99,
+          "available": false
+        },
+        {
+          "id": "49883643609395",
+          "label": "3-4\" Unsexed",
+          "price": 94.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9413130944819",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 69.99,
       "currency": "USD",
@@ -220,27 +266,6 @@
       ],
       "listingId": "aqua-imports:165837",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:19.110Z",
-      "price": 45,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48982540746905",
-          "label": "Title",
-          "price": 45,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "available",
-        "variants"
-      ],
-      "listingId": "nationwide-aquatics-usa:8951028416665",
-      "storeSlug": "nationwide-aquatics-usa"
     }
   ]
 }

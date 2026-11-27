@@ -8,28 +8,28 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Tigrinus Catfish (Pseudoplatystoma tigrinum)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "global-exoticquatics:8255960285376",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Tigrinus Catfish",
-      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     },
     {
       "listingId": "aquarium-fish:6657982342",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Tigrinis Catfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:38846",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Tigrinus Catfish (Brachyplatystoma tigrinum)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -149,6 +149,26 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 450,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46444643811520",
+          "label": "7-8in",
+          "price": 450,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8255960285376",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 199.99,
       "currency": "USD",
@@ -167,27 +187,6 @@
       ],
       "listingId": "aqua-imports:38846",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 241.39,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "21040775302",
-          "label": "Title",
-          "price": 241.39,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6657982342",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

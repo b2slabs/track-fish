@@ -8,49 +8,49 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Gold yellow Stripe shrimp (Neocaridina davidi)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "shrimpy-business:4330909761621",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Yellow Golden Back Shrimp",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "aquarium-fish:1457696440390",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Gold Back Yellow Fire Shrimp",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "ck-fish-world:8149534310615",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Golden Back Yellow Shrimp",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "flip-aquatics:7034111033446",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Yellow Golden Back Shrimp",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aquatic-arts:8055041130775",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Golden Back Yellow Shrimp (Neocaridina davidi), BREDBY: Aquatic Arts",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aquatic-arts:6783728418902",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Golden Back Yellow Shrimp Breeder Combo Box",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
@@ -520,9 +520,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:8055041130775",
       "storeSlug": "aquatic-arts"
@@ -624,6 +622,32 @@
       "storeSlug": "shrimpy-business"
     },
     {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40818838437990",
+          "label": "5 Pack / Imported",
+          "price": 44.99,
+          "available": true
+        },
+        {
+          "id": "40818838470758",
+          "label": "10 Pack / Imported",
+          "price": 89.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:7034111033446",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 9.99,
       "currency": "USD",
@@ -694,31 +718,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
-      ],
-      "listingId": "aquatic-arts:8055041130775",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-22T00:26:08.096Z",
-      "price": 103.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39962073038934",
-          "label": "Breeder Combo Box",
-          "price": 103.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
         "first-observed"
       ],
-      "listingId": "aquatic-arts:6783728418902",
+      "listingId": "aquatic-arts:8055041130775",
       "storeSlug": "aquatic-arts"
     },
     {
@@ -766,31 +768,30 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:8055041130775",
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 8.49,
+      "observedAt": "2026-11-22T00:26:08.096Z",
+      "price": 103.99,
       "currency": "USD",
-      "available": true,
+      "available": false,
       "variants": [
         {
-          "id": "12850017075270",
-          "label": "Title",
-          "price": 8.49,
-          "available": true
+          "id": "39962073038934",
+          "label": "Breeder Combo Box",
+          "price": 103.99,
+          "available": false
         }
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
-      "listingId": "aquarium-fish:1457696440390",
-      "storeSlug": "aquarium-fish"
+      "listingId": "aquatic-arts:6783728418902",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

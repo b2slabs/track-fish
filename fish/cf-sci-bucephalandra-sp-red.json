@@ -8,26 +8,46 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Bucephalandra Red Mini (Farmed)",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "glass-aqua:11277475527",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Bucephalandra Red Mini",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Bucephalandra Red Cherry",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 22.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49974254240034",
+          "label": "Title",
+          "price": 22.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9742827651362",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 22.5,
       "currency": "USD",
       "available": false,
@@ -87,9 +107,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
@@ -115,7 +133,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
@@ -141,8 +159,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
@@ -168,8 +185,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"
@@ -275,7 +291,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10013025101+1334953345105+1344125894737+5647904449+7590140801",
       "storeSlug": "buce-plant"

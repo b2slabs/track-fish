@@ -8,12 +8,50 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Spooky Bundle",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-10-03T05:00:00.000Z",
+      "price": 26.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52608793379106",
+          "label": "5 Shrimp",
+          "price": 26.95,
+          "available": true
+        },
+        {
+          "id": "52608793411874",
+          "label": "10 Shrimp",
+          "price": 48.95,
+          "available": true
+        },
+        {
+          "id": "52608793444642",
+          "label": "20 Shrimp",
+          "price": 91.95,
+          "available": true
+        },
+        {
+          "id": "52608793477410",
+          "label": "40 Shrimp",
+          "price": 172.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:10527113183522",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 26.95,
       "currency": "USD",
       "available": true,

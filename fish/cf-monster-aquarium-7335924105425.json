@@ -8,12 +8,38 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Dolphin whale fish (Mormyrus Rume)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 50,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42846233133265",
+          "label": "6-7”",
+          "price": 50,
+          "available": false
+        },
+        {
+          "id": "41878165225681",
+          "label": "15-16”",
+          "price": 589.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7335924105425",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 50,
       "currency": "USD",
       "available": false,

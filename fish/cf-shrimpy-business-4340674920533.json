@@ -8,14 +8,14 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Extreme Blue Bolts",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "aquatics-for-fun:8427658510528",
       "storeSlug": "aquatics-for-fun",
       "storeName": "AquaticsForFun",
       "commonName": "Extreme Blue Bolt",
-      "lastCheckedAt": "2026-11-26T18:55:31.268Z"
+      "lastCheckedAt": "2026-11-25T19:03:58.482Z"
     }
   ],
   "events": [
@@ -82,6 +82,32 @@
       ],
       "listingId": "shrimpy-business:4340674920533",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:59.484Z",
+      "price": 6,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47230363500736",
+          "label": "1",
+          "price": 6,
+          "available": true
+        },
+        {
+          "id": "47230363533504",
+          "label": "10",
+          "price": 54,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatics-for-fun:8427658510528",
+      "storeSlug": "aquatics-for-fun"
     }
   ]
 }

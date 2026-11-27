@@ -8,12 +8,32 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Spooky Hideaway Skeleton Fish",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-10-06T06:00:00.000Z",
+      "price": 8,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67398073450786",
+          "label": "Title",
+          "price": 8,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:15319018111266",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 8,
       "currency": "USD",
       "available": true,

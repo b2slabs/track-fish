@@ -8,28 +8,28 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Goyder River Banded Rainbowfish (Melanotaenia trifasciata), Tank-Bred!",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aquarium-fish:2559833014353",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Trifasciatus Rainbowfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:8398047346995+8398103576883",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Goyder River Rainbowfish",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aqua-imports:43984",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Goyder River Rainbow (Melanotaenia trifasciata)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -174,9 +174,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "imperial-tropicals:8398047346995+8398103576883",
       "storeSlug": "imperial-tropicals"
@@ -250,7 +248,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "imperial-tropicals:8398047346995+8398103576883",
       "storeSlug": "imperial-tropicals"
@@ -422,27 +420,6 @@
       ],
       "listingId": "imperial-tropicals:8398047346995+8398103576883",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 14.7,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "21837381533777",
-          "label": "Title",
-          "price": 14.7,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:2559833014353",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

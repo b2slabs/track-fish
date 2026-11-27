@@ -8,35 +8,35 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Blue Diamond Discus (Symphysodon aequifasciata)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "global-exoticquatics:8403807568064",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Blue Diamond Discus",
-      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     },
     {
       "listingId": "monster-aquarium:6994702368977+6994704236753+7032809521361+7177340584145+7197454762193+7197455089873+7853683343569",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Wild Blue Discus (Symphysodon aequifasciatus)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquarium-fish:186465910809+6189866182+8041343353131",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Blue Discus - Wild",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:102504",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Semiroyal Blue Tefe Discus (Symphysodon aequifasciatus)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -417,6 +417,26 @@
     },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 80,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43422938431697",
+          "label": "4-5\"",
+          "price": 80,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:6994702368977+6994704236753+7032809521361+7177340584145+7197454762193+7197455089873+7853683343569",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 299,
       "currency": "USD",
       "available": false,
@@ -430,9 +450,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:6994702368977+6994704236753+7032809521361+7177340584145+7197454762193+7197455089873+7853683343569",
       "storeSlug": "monster-aquarium"
@@ -452,8 +470,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:6994702368977+6994704236753+7032809521361+7177340584145+7197454762193+7197455089873+7853683343569",
       "storeSlug": "monster-aquarium"
@@ -479,8 +496,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:6994702368977+6994704236753+7032809521361+7177340584145+7197454762193+7197455089873+7853683343569",
       "storeSlug": "monster-aquarium"
@@ -500,9 +516,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:6994702368977+6994704236753+7032809521361+7177340584145+7197454762193+7197455089873+7853683343569",
       "storeSlug": "monster-aquarium"
@@ -522,9 +536,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:6994702368977+6994704236753+7032809521361+7177340584145+7197454762193+7197455089873+7853683343569",
       "storeSlug": "monster-aquarium"
@@ -550,9 +562,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:6994702368977+6994704236753+7032809521361+7177340584145+7197454762193+7197455089873+7853683343569",
       "storeSlug": "monster-aquarium"
@@ -604,8 +614,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:186465910809+6189866182+8041343353131",
       "storeSlug": "aquarium-fish"
@@ -637,12 +646,62 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:186465910809+6189866182+8041343353131",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612118671667",
+          "label": "2-3” Unsexed",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "50813165699379",
+          "label": "3-4” Unsexed",
+          "price": 79.99,
+          "available": false
+        },
+        {
+          "id": "51184871538995",
+          "label": "4-5” Unsexed",
+          "price": 89.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398106722611",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 50,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47145073017024",
+          "label": "3-3.5 inch",
+          "price": 50,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8403807568064",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-21T20:07:35.821Z",
@@ -707,8 +766,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:6994702368977+6994704236753+7032809521361+7177340584145+7197454762193+7197455089873+7853683343569",
       "storeSlug": "monster-aquarium"
@@ -764,7 +822,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:186465910809+6189866182+8041343353131",
       "storeSlug": "aquarium-fish"
@@ -788,63 +846,6 @@
       ],
       "listingId": "aqua-imports:102504",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 76.49,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "44174327611691",
-          "label": "Blue Discus - Wild",
-          "price": 144.49,
-          "available": false
-        },
-        {
-          "id": "39544985288785",
-          "label": "Medium (1.5-2\")",
-          "price": 64.59,
-          "available": false
-        },
-        {
-          "id": "12633114705990",
-          "label": "Large (2.5-3\")",
-          "price": 76.49,
-          "available": false
-        },
-        {
-          "id": "1520290922521",
-          "label": "X-Large (4\")",
-          "price": 110.49,
-          "available": false
-        },
-        {
-          "id": "39544954880081",
-          "label": "Medium  (1.5-2\")",
-          "price": 59.49,
-          "available": false
-        },
-        {
-          "id": "12633048645702",
-          "label": "Large (2.5-3\")",
-          "price": 76.49,
-          "available": true
-        },
-        {
-          "id": "19603235590",
-          "label": "Extra Large (4\")",
-          "price": 107.09,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:186465910809+6189866182+8041343353131",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

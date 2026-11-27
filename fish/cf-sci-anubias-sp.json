@@ -8,21 +8,21 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Anubias Short and Sharp Mother Pot",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:7512269324374",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Anubias Short and Sharp - Mother Plant",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "aquatic-arts:136380383244+14651180024175+6596633559126",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "B-Grade Anubias, Assorted (Anubias sp.)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
@@ -113,6 +113,38 @@
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39449731399766",
+          "label": "1 Plant",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "39449731432534",
+          "label": "2 Plants",
+          "price": 23.99,
+          "available": false
+        },
+        {
+          "id": "39449731465302",
+          "label": "3 Plants",
+          "price": 33.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:136380383244+14651180024175+6596633559126",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 11.99,
       "currency": "USD",
       "available": false,
@@ -132,8 +164,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:136380383244+14651180024175+6596633559126",
       "storeSlug": "aquatic-arts"
@@ -177,9 +208,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:136380383244+14651180024175+6596633559126",
       "storeSlug": "aquatic-arts"
@@ -203,6 +232,26 @@
       ],
       "listingId": "buce-plant:1380088381521",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42129423827030",
+          "label": "Title",
+          "price": 21.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:7512269324374",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-21T20:07:16.497Z",
@@ -255,7 +304,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:136380383244+14651180024175+6596633559126",
       "storeSlug": "aquatic-arts"
@@ -371,7 +420,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:136380383244+14651180024175+6596633559126",
       "storeSlug": "aquatic-arts"

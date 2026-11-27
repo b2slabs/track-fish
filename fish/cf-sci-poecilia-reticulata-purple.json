@@ -8,28 +8,28 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Luminous Purple Guppy Males",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "imperial-tropicals:8398166851891",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Purple Mosaic Dumbo Ear Guppy",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquarium-fish:10307126264107+10428745285931+790332833911+8927976423723",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Male Purple Haze Guppy",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "flip-aquatics:6663034765414+6866998984806",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Purple Haze Guppy",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aquarium-fish:10307126264107+10428745285931",
@@ -581,7 +581,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10307126264107+10428745285931",
       "storeSlug": "aquarium-fish"
@@ -877,6 +877,58 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 3,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41076081098827",
+          "label": "Title",
+          "price": 3,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:7238311772235",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40169118367846",
+          "label": "Locally Bred / Male",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "40169118400614",
+          "label": "Locally Bred / Female",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "40169118433382",
+          "label": "Locally Bred / Pair (M/F)",
+          "price": 26.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:6663034765414+6866998984806",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 9.99,
       "currency": "USD",
@@ -927,8 +979,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:6663034765414+6866998984806",
       "storeSlug": "flip-aquatics"
@@ -968,8 +1019,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10307126264107+10428745285931+790332833911+8927976423723",
       "storeSlug": "aquarium-fish"
@@ -989,9 +1039,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10307126264107+10428745285931+790332833911+8927976423723",
       "storeSlug": "aquarium-fish"
@@ -1011,8 +1059,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10307126264107+10428745285931+790332833911+8927976423723",
       "storeSlug": "aquarium-fish"
@@ -1070,8 +1117,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10307126264107+10428745285931+790332833911+8927976423723",
       "storeSlug": "aquarium-fish"
@@ -1145,49 +1191,10 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:6663034765414+6866998984806",
       "storeSlug": "flip-aquatics"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 7.64,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "53783564452139",
-          "label": "Purple Lace Guppy (Pair) (Show)",
-          "price": 16.14,
-          "available": false
-        },
-        {
-          "id": "52745991061803",
-          "label": "Purple Variegated Guppy (Pair)",
-          "price": 12.74,
-          "available": false
-        },
-        {
-          "id": "47614130946347",
-          "label": "Male Purple Haze Guppy",
-          "price": 7.64,
-          "available": true
-        },
-        {
-          "id": "8722846908535",
-          "label": "Purple Haze Guppy (Pair)",
-          "price": 10.87,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10307126264107+10428745285931+790332833911+8927976423723",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

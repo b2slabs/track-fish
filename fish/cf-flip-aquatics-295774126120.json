@@ -8,14 +8,14 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "API 5 in 1 Test Kit",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aquarium-fish:6583878942801+6583880089681",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "API pH Test Kit",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     }
   ],
   "events": [
@@ -74,8 +74,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:6583878942801+6583880089681",
       "storeSlug": "aquarium-fish"
@@ -101,34 +100,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6583878942801+6583880089681",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 7.64,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "39382974234705",
-          "label": "API KH Test Kit",
-          "price": 11.04,
-          "available": true
-        },
-        {
-          "id": "39382971613265",
-          "label": "API pH Test Kit",
-          "price": 7.64,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:6583878942801+6583880089681",
       "storeSlug": "aquarium-fish"

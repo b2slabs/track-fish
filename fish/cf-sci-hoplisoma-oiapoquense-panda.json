@@ -1,17 +1,171 @@
 {
   "canonicalFishId": "cf:sci:hoplisoma-oiapoquense:panda",
-  "commonName": "Flag Tailed Panda Cory",
+  "commonName": "Flag Tailed Panda Cory (Hoplisoma oiapoquense)",
   "scientificName": "Hoplisoma oiapoquense",
   "listings": [
+    {
+      "listingId": "shrimpy-business:9740640452898",
+      "storeSlug": "shrimpy-business",
+      "storeName": "Shrimpy Business",
+      "commonName": "Flag Tail Panda Corydoras",
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
+    },
+    {
+      "listingId": "aqua-imports:176654",
+      "storeSlug": "aqua-imports",
+      "storeName": "Aqua Imports",
+      "commonName": "Flag Tailed Panda Cory (Hoplisoma oiapoquense)",
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+    },
     {
       "listingId": "dans-fish:10127082783018",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Flag Tailed Panda Cory",
-      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 27.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49969013391650",
+          "label": "1 Fish",
+          "price": 27.95,
+          "available": false
+        },
+        {
+          "id": "49969013424418",
+          "label": "3 Fish",
+          "price": 79.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9740640452898",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-05-23T04:00:00.000Z",
+      "price": 27.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49969013391650",
+          "label": "1 Fish",
+          "price": 27.95,
+          "available": false
+        },
+        {
+          "id": "49969013424418",
+          "label": "3 Fish",
+          "price": 79.95,
+          "available": false
+        },
+        {
+          "id": "51662838726946",
+          "label": "6 Fish",
+          "price": 142.95,
+          "available": false
+        },
+        {
+          "id": "51662838759714",
+          "label": "12 Fish",
+          "price": 267.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9740640452898",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-06-03T05:00:00.000Z",
+      "price": 27.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49969013391650",
+          "label": "1 Fish",
+          "price": 27.95,
+          "available": false
+        },
+        {
+          "id": "49969013424418",
+          "label": "3 Fish",
+          "price": 75.95,
+          "available": false
+        },
+        {
+          "id": "51662838726946",
+          "label": "6 Fish",
+          "price": 142.95,
+          "available": false
+        },
+        {
+          "id": "51662838759714",
+          "label": "12 Fish",
+          "price": 267.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9740640452898",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 27.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49969013391650",
+          "label": "1 Fish",
+          "price": 27.95,
+          "available": false
+        },
+        {
+          "id": "49969013424418",
+          "label": "3 Fish",
+          "price": 75.95,
+          "available": false
+        },
+        {
+          "id": "51662838726946",
+          "label": "6 Fish",
+          "price": 142.95,
+          "available": false
+        },
+        {
+          "id": "51662838759714",
+          "label": "12 Fish",
+          "price": 267.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9740640452898",
+      "storeSlug": "shrimpy-business"
+    },
     {
       "observedAt": "2026-11-22T06:58:35.864Z",
       "price": 39.99,
@@ -31,6 +185,26 @@
       ],
       "listingId": "dans-fish:10127082783018",
       "storeSlug": "dans-fish"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "176654",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aqua-imports:176654",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

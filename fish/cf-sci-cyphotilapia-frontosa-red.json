@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Frontosa Red",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquatic-arts:14688910213487",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Red Widow Frontosa (Cyphotilapia frontosa 'Red Widow') – Tank Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aqua-imports:144984",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Frontosa (Cyphotilapia frontosa)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -107,6 +107,32 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51824564273519",
+          "label": "1 Fish",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "51824564306287",
+          "label": "3 Fish",
+          "price": 129.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:14688910213487",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 39.99,
       "currency": "USD",
@@ -145,27 +171,6 @@
       ],
       "listingId": "aqua-imports:144984",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 33.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "1603780476953",
-          "label": "Title",
-          "price": 33.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:208525819929",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

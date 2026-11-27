@@ -8,21 +8,21 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Quillwort (Isoetes lacustris)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "buce-plant:8351844466888",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Isoetes Lacustris",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:10387402621014",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Isoetes Lacustris",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
@@ -125,6 +125,46 @@
       "changedFields": [
         "available",
         "variants"
+      ],
+      "listingId": "glass-aqua:10387402621014",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45247965462728",
+          "label": "Title",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8351844466888",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50973619945558",
+          "label": "Title",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
       ],
       "listingId": "glass-aqua:10387402621014",
       "storeSlug": "glass-aqua"

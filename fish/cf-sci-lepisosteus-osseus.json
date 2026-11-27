@@ -8,14 +8,14 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Longnose gar (Lepisosteus osseus)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "nationwide-aquatics-usa:15459177595033",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Longnose gar (Lepisosteus osseus)",
-      "lastCheckedAt": "2026-11-26T18:53:19.110Z"
+      "lastCheckedAt": "2026-11-25T19:01:44.668Z"
     }
   ],
   "events": [
@@ -144,6 +144,52 @@
     },
     {
       "observedAt": "2026-10-30T06:00:00.000Z",
+      "price": 125,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67862009544857",
+          "label": "Title",
+          "price": 125,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:15459177595033",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 60,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43018422386897",
+          "label": "6-7”",
+          "price": 60,
+          "available": false
+        },
+        {
+          "id": "42570398728401",
+          "label": "11-12\"",
+          "price": 139,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7596843237585",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:43.307Z",
       "price": 125,
       "currency": "USD",
       "available": true,

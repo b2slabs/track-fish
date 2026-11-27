@@ -8,28 +8,28 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Red Dwarf Rasbora | Microrasbora rubescens",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "nu-aqua-shop:10006319038780",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Red Dwarf Rasbora",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aquatic-arts:14664902672751",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Red Dwarf Rasbora (Microrasbora sp. cf. rubescens)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aqua-imports:223407",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Dwarf Rasbora (Microrasbora rubescens)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -80,6 +80,32 @@
       "storeSlug": "flip-aquatics"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 25.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51768359321967",
+          "label": "3 FIsh",
+          "price": 25.99,
+          "available": false
+        },
+        {
+          "id": "51768359354735",
+          "label": "6 fish",
+          "price": 35.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:14664902672751",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 8.99,
       "currency": "USD",
@@ -94,8 +120,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:7056479780966",
       "storeSlug": "flip-aquatics"

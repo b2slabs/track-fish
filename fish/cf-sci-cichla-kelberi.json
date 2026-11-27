@@ -8,28 +8,28 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Shortbody Kelberi 24K Peacock Bass",
-      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     },
     {
       "listingId": "nationwide-aquatics-usa:15479681351833+15492865654937",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Kelberi Peacock Bass (Cichla kelberi) -wild from bahia brazil-",
-      "lastCheckedAt": "2026-11-26T18:53:19.110Z"
+      "lastCheckedAt": "2026-11-25T19:01:44.668Z"
     },
     {
       "listingId": "monster-aquarium:6984216805585+7146392453329+7432366129361",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Short body Kelberi Peacock Bass (Cichla kelberi)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aqua-imports:154599+37410+40653+79860",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Kelberi Peacock Bass (Cichla kelberi)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -210,9 +210,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "nationwide-aquatics-usa:15479681351833+15492865654937",
       "storeSlug": "nationwide-aquatics-usa"
@@ -238,10 +236,36 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "nationwide-aquatics-usa:15479681351833+15492865654937",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 75,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42145913766097",
+          "label": "4-5”",
+          "price": 75,
+          "available": false
+        },
+        {
+          "id": "42386903105745",
+          "label": "7-8\"",
+          "price": 100,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:6984216805585+7146392453329+7432366129361",
+      "storeSlug": "monster-aquarium"
     },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
@@ -264,8 +288,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:6984216805585+7146392453329+7432366129361",
       "storeSlug": "monster-aquarium"
@@ -303,9 +326,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:6984216805585+7146392453329+7432366129361",
       "storeSlug": "monster-aquarium"
@@ -325,8 +346,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "nationwide-aquatics-usa:15479681351833+15492865654937",
       "storeSlug": "nationwide-aquatics-usa"
@@ -346,11 +366,30 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "nationwide-aquatics-usa:15479681351833+15492865654937",
       "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 125,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46386911051968",
+          "label": "4-5",
+          "price": 125,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8241433903296",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-21T20:07:52.673Z",
@@ -373,7 +412,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "nationwide-aquatics-usa:15479681351833+15492865654937",
       "storeSlug": "nationwide-aquatics-usa"
@@ -435,7 +474,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:6984216805585+7146392453329+7432366129361",
       "storeSlug": "monster-aquarium"

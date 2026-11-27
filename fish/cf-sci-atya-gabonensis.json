@@ -8,42 +8,42 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Vampire AKA Viper Shrimp (Atya gabonensis)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "shrimpy-business:6590500929621",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Vampire Shrimp (Atya gabonensis)",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "monster-aquarium:6967147888849+7358950342865",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Atya vampire Shrimp (Atya gabonensis)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aqua-imports:44509",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Vampire Shrimp (Atya gabonensis)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "aquarium-fish:1457636868166",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Vampire Shrimp",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "nu-aqua-shop:10295121871164",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Vampire Shrimp - L",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     }
   ],
   "events": [
@@ -199,6 +199,26 @@
     },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41953465630929",
+          "label": "2”",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:6967147888849+7358950342865",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 17,
       "currency": "USD",
       "available": false,
@@ -224,11 +244,30 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:6967147888849+7358950342865",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 47.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39414268297301",
+          "label": "1 Shrimp",
+          "price": 47.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6590500929621",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
@@ -303,7 +342,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:6967147888849+7358950342865",
       "storeSlug": "monster-aquarium"
@@ -327,27 +366,6 @@
       ],
       "listingId": "aqua-imports:44509",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 22.09,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "12849177329734",
-          "label": "Title",
-          "price": 22.09,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:1457636868166",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

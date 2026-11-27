@@ -8,35 +8,35 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "L-83 Sailfin Albino Pleco",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:9579583635763",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Albino Sailfin Pleco (Pterygoplichthys gibbiceps)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquatic-arts:6558683332694",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Albino Sailfin Pleco (Pterygoplichthys gibbiceps), Tank-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "monster-aquarium:7010478620881+7424890110161",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Albino Gibbceps sail fin pleco (Pterygoplichthys gibbiceps)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aqua-imports:171631",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Albino Sailfin Pleco (Pterygoplichthys gibbiceps)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -894,6 +894,58 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39322208698454",
+          "label": "1 Juvenile",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "39322208731222",
+          "label": "3 Juveniles",
+          "price": 35.99,
+          "available": false
+        },
+        {
+          "id": "39322208763990",
+          "label": "6 Juveniles",
+          "price": 65.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:6558683332694",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 64.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42121658335441",
+          "label": "4.5-5.5”",
+          "price": 64.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7010478620881+7424890110161",
+      "storeSlug": "monster-aquarium"
+    },
+    {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 59.99,
       "currency": "USD",
@@ -926,8 +978,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7010478620881+7424890110161",
       "storeSlug": "monster-aquarium"
@@ -951,6 +1002,44 @@
       ],
       "listingId": "aquarium-fish:6655659334",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53574154125619",
+          "label": "1-2\" Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "52769347141939",
+          "label": "2-3\" Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "50748003352883",
+          "label": "3-4\" Unsexed",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "50748003385651",
+          "label": "4-5\" Unsexed",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9579583635763",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-21T20:07:35.821Z",
@@ -991,7 +1080,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7010478620881+7424890110161",
       "storeSlug": "monster-aquarium"
@@ -1015,27 +1104,6 @@
       ],
       "listingId": "aqua-imports:171631",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 26.77,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "22170274889809",
-          "label": "Title",
-          "price": 26.77,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6655659334",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

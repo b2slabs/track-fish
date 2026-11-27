@@ -8,14 +8,14 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Albino Red Koi Guppy (Poecilia reticulata)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "monster-aquarium:7074868592849+7074868625617",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Albino red Koi Guppy (male) (Poecilia reticulata)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     }
   ],
   "events": [
@@ -819,11 +819,42 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7074868592849+7074868625617",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53140880261427",
+          "label": "1-2\" Male",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "53140880294195",
+          "label": "1-2\" Pair (1 Male, 1 Female)",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "53140880326963",
+          "label": "1-2\" Trio (1 Male, 2 Female)",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:10116688314675",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-21T20:07:35.821Z",
@@ -846,7 +877,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7074868592849+7074868625617",
       "storeSlug": "monster-aquarium"

@@ -8,19 +8,51 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Shubunkin Goldfish (3\")",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "nu-aqua-shop:10010811990332",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Shubunkin Goldfish 3-5\"",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 7.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46356555890903",
+          "label": "1",
+          "price": 7.98,
+          "available": true
+        },
+        {
+          "id": "46356555923671",
+          "label": "3",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "46356555956439",
+          "label": "5",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8907305844951",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
       "price": 7.98,
       "currency": "USD",
       "available": true,

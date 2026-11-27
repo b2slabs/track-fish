@@ -8,12 +8,50 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Irianto Red Crayfish (Cherax snowden)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51822799847791",
+          "label": "1 Male",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "51822799880559",
+          "label": "1 Female",
+          "price": 46.99,
+          "available": false
+        },
+        {
+          "id": "51822799913327",
+          "label": "1 Pair ( Male + Female )",
+          "price": 78.8,
+          "available": false
+        },
+        {
+          "id": "51822799946095",
+          "label": "1 B Grade",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:14688297681263",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 29.99,
       "currency": "USD",
       "available": false,

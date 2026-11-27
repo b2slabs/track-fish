@@ -8,12 +8,38 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Gibbiceps Pleco (Pterygoplichthys gibbiceps)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 28,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42735930409169",
+          "label": "2-3\"",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "42606279524561",
+          "label": "4-5\"",
+          "price": 28,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:6994708627665+7608264491217",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 28,
       "currency": "USD",
       "available": true,
@@ -53,9 +79,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:6994708627665+7608264491217",
       "storeSlug": "monster-aquarium"
@@ -87,9 +111,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:6994708627665+7608264491217",
       "storeSlug": "monster-aquarium"

@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Green Sailfin Molly",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "dans-fish:10127106638122",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Green Sailfin Molly",
-      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     }
   ],
   "events": [
@@ -270,7 +270,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10306181103915+10436214522155",
       "storeSlug": "aquarium-fish"
@@ -1018,8 +1018,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10306181103915+10436214522155",
       "storeSlug": "aquarium-fish"
@@ -1039,8 +1038,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10306181103915+10436214522155",
       "storeSlug": "aquarium-fish"
@@ -1066,7 +1064,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10306181103915+10436214522155",
       "storeSlug": "aquarium-fish"
@@ -1102,33 +1100,6 @@
       ],
       "listingId": "dans-fish:10127106638122",
       "storeSlug": "dans-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 9.17,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "53921510850859",
-          "label": "Green Sailfin Molly (4-Pack)",
-          "price": 29.74,
-          "available": true
-        },
-        {
-          "id": "52737836319019",
-          "label": "Green Sailfin Molly",
-          "price": 9.17,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10306181103915+10436214522155",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

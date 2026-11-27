@@ -8,56 +8,56 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Cryptocoryne wendtii \"Tropica\"",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquatic-arts:14630049874287",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Cryptocoryne Wendtii \"Tropica\" (Cryptocoryne Wendii \"Tropica\")",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "daku-aquatics:8803675209946",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Cryptocoryne Tropica",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     },
     {
       "listingId": "flip-aquatics:1562725056614+6698077519974",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Cryptocoryne Wendtii 'Tropica'",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "buce-plant:10012817485+10537790093+1344126124113+7339603493064+7663785377992+8243956613320+8554755085+9369821709",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Cryptocoryne Mioya",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:11277471623+11277474631",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Cryptocoryne Mi Oya",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "shrimpy-business:6721947304021",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Cryptocoryne 'Tropica'",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "aqua-imports:78087+78089",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Cryptocoryne mioya",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "glass-aqua:7671533994070",
@@ -203,8 +203,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10012817485+10537790093+1344126124113+7339603493064+7663785377992+8243956613320+8554755085+9369821709",
       "storeSlug": "buce-plant"
@@ -629,7 +628,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10012817485+10537790093+1344126124113+7339603493064+7663785377992+8243956613320+8554755085+9369821709",
       "storeSlug": "buce-plant"
@@ -670,8 +669,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10012817485+10537790093+1344126124113+7339603493064+7663785377992+8243956613320+8554755085+9369821709",
       "storeSlug": "buce-plant"
@@ -767,6 +765,26 @@
     },
     {
       "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 7.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39936028999765",
+          "label": "Title",
+          "price": 7.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6721947304021",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 8.95,
       "currency": "USD",
       "available": true,
@@ -780,9 +798,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "shrimpy-business:6721947304021",
       "storeSlug": "shrimpy-business"
@@ -802,10 +818,30 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "shrimpy-business:6721947304021",
       "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39563189387366",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:1562725056614+6698077519974",
+      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
@@ -834,11 +870,70 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:1562725056614+6698077519974",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50049960280371",
+          "label": "1 Potted Plant",
+          "price": 10.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9447695843635",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46248829124826",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8803675209946",
+      "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44780105728200",
+          "label": "Title",
+          "price": 17.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:10012817485+10537790093+1344126124113+7339603493064+7663785377992+8243956613320+8554755085+9369821709",
+      "storeSlug": "buce-plant"
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
@@ -855,8 +950,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10012817485+10537790093+1344126124113+7339603493064+7663785377992+8243956613320+8554755085+9369821709",
       "storeSlug": "buce-plant"
@@ -876,8 +970,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10012817485+10537790093+1344126124113+7339603493064+7663785377992+8243956613320+8554755085+9369821709",
       "storeSlug": "buce-plant"
@@ -909,8 +1002,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10012817485+10537790093+1344126124113+7339603493064+7663785377992+8243956613320+8554755085+9369821709",
       "storeSlug": "buce-plant"
@@ -930,9 +1022,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10012817485+10537790093+1344126124113+7339603493064+7663785377992+8243956613320+8554755085+9369821709",
       "storeSlug": "buce-plant"
@@ -952,8 +1042,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10012817485+10537790093+1344126124113+7339603493064+7663785377992+8243956613320+8554755085+9369821709",
       "storeSlug": "buce-plant"
@@ -973,8 +1062,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10012817485+10537790093+1344126124113+7339603493064+7663785377992+8243956613320+8554755085+9369821709",
       "storeSlug": "buce-plant"
@@ -1006,8 +1094,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10012817485+10537790093+1344126124113+7339603493064+7663785377992+8243956613320+8554755085+9369821709",
       "storeSlug": "buce-plant"
@@ -1053,8 +1140,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "glass-aqua:11277471623+11277474631",
       "storeSlug": "glass-aqua"
@@ -1086,7 +1172,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "shrimpy-business:6721947304021",
       "storeSlug": "shrimpy-business"
@@ -1124,7 +1210,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "flip-aquatics:1562725056614+6698077519974",
       "storeSlug": "flip-aquatics"
@@ -1210,7 +1296,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10012817485+10537790093+1344126124113+7339603493064+7663785377992+8243956613320+8554755085+9369821709",
       "storeSlug": "buce-plant"
@@ -1242,7 +1328,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "glass-aqua:11277471623+11277474631",
       "storeSlug": "glass-aqua"
@@ -1262,9 +1348,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "shrimpy-business:6721947304021",
       "storeSlug": "shrimpy-business"
@@ -1530,44 +1614,6 @@
       ],
       "listingId": "glass-aqua:11277471623+11277474631",
       "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:30.571Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "39563189387366",
-          "label": "Cryptocoryne Wendtii 'Tropica'",
-          "price": 8.99,
-          "available": false
-        },
-        {
-          "id": "39548592128102",
-          "label": "Green",
-          "price": 7.99,
-          "available": true
-        },
-        {
-          "id": "39548592390246",
-          "label": "Red",
-          "price": 7.99,
-          "available": true
-        },
-        {
-          "id": "39548592423014",
-          "label": "Bronze",
-          "price": 7.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "variants"
-      ],
-      "listingId": "flip-aquatics:1562725056614+6698077519974",
-      "storeSlug": "flip-aquatics"
     }
   ]
 }

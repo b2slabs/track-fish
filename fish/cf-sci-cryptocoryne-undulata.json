@@ -8,56 +8,56 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Undulated Crypt (Cryptocoryne undulata), Bare Root",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aquahuna:7041625686091",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Cryptocoryne Undulata - Potted Plant",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "glass-aqua:4803131048022",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Cryptocoryne Undulata",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "nu-aqua-shop:10006315270460",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Cryptocoryne Undulata",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "flip-aquatics:6692629577830",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Cryptocoryne Undulata",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "daku-aquatics:8741033935066",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Cryptocoryne Undulata",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     },
     {
       "listingId": "buce-plant:10552939597+4649332473937+9360042701",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Cryptocoryne Undulata",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aqua-imports:59960",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Cryptocoryne undulata",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -239,6 +239,26 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 7,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40605810851915",
+          "label": "Title",
+          "price": 7,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:7041625686091",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 7.99,
       "currency": "USD",
@@ -273,8 +293,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "daku-aquatics:8741033935066",
       "storeSlug": "daku-aquatics"
@@ -326,9 +345,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10552939597+4649332473937+9360042701",
       "storeSlug": "buce-plant"
@@ -348,9 +365,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10552939597+4649332473937+9360042701",
       "storeSlug": "buce-plant"
@@ -467,8 +482,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10552939597+4649332473937+9360042701",
       "storeSlug": "buce-plant"

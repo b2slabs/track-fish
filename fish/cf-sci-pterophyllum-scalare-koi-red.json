@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Head Koi Angelfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquahuna:1709533954091",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Red Koi Angelfish M",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Red Koi Angelfish",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     }
   ],
   "events": [
@@ -125,9 +125,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
@@ -171,9 +169,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
@@ -223,33 +219,6 @@
       ],
       "listingId": "imperial-tropicals:8398111244595+8765217767731",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 21.24,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "18968561094",
-          "label": "Medium (1-2\")",
-          "price": 21.24,
-          "available": false
-        },
-        {
-          "id": "12635047493702",
-          "label": "Large (2-3\")",
-          "price": 33.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:5993583238",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

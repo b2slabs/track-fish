@@ -8,19 +8,39 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Venus Fly Trap (Dionaea muscipula) - Potted Carnivorous Plant",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aquarium-fish:4657644011601",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Venus Flytrap",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51808369541487",
+          "label": "1 Plant",
+          "price": 10.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:14684324036975",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 10.99,
       "currency": "USD",
       "available": false,
@@ -55,27 +75,6 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ],
-      "listingId": "aquarium-fish:4657644011601",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 16.14,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "32478775050321",
-          "label": "Title",
-          "price": 16.14,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
       ],
       "listingId": "aquarium-fish:4657644011601",
       "storeSlug": "aquarium-fish"

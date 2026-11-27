@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Parrot's Feather",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "buce-plant:10011996173+8219851784392",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Myriophyllum Aquaticum (Parrot's Feather)",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -158,8 +158,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10011996173+8219851784392",
       "storeSlug": "buce-plant"
@@ -185,9 +184,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10011996173+8219851784392",
       "storeSlug": "buce-plant"
@@ -219,9 +216,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10011996173+8219851784392",
       "storeSlug": "buce-plant"
@@ -249,60 +244,6 @@
           "label": "4 Bunches",
           "price": 20.97,
           "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "buce-plant:10011996173+8219851784392",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 6.45,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "40191460540497",
-          "label": "Title",
-          "price": 6.45,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:7014971244625",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:54:41.266Z",
-      "price": 12.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "44679013761224",
-          "label": "Myriophyllum Aquaticum 'Roraima' UNS Tissue Culture",
-          "price": 12.99,
-          "available": true
-        },
-        {
-          "id": "37563655117",
-          "label": "Lead Bunch",
-          "price": 6.99,
-          "available": false
-        },
-        {
-          "id": "12396666060881",
-          "label": "4 Bunches",
-          "price": 20.97,
-          "available": false
         }
       ],
       "type": "change",

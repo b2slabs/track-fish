@@ -8,49 +8,49 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "UNS Monte Carlo Micranthemum Culture",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "nu-aqua-shop:10006358458684",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Micranthemum ‘Monte Carlo' Pot",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "buce-plant:2870742646865+6468089025+7720091484360+8561720333",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Micranthemum 'Monte Carlo'",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:11277472711+11277475847",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Micranthemum 'Monte Carlo’",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "aquarium-fish:6260805766",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Micranthemum Monte Carlo",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquatic-arts:1321477800022+1326877343830+20314750988",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Monte Carlo (Micranthemum “Monte Carlo”), pot",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "flip-aquatics:1580873121894",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Monte Carlo | Micranthemum Tweediei",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aquatic-arts:1321477800022",
@@ -64,7 +64,7 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Micranthemum ‘Monte Carlo’ (Micranthemum sp. ‘Monte Carlo’)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -542,9 +542,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:1321477800022+1326877343830+20314750988",
       "storeSlug": "aquatic-arts"
@@ -576,12 +574,36 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:1321477800022+1326877343830+20314750988",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 10.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45697236205783",
+          "label": "1",
+          "price": 10.98,
+          "available": true
+        },
+        {
+          "id": "45697236238551",
+          "label": "3",
+          "price": 29.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8219235254487",
+      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
@@ -638,9 +660,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:2870742646865+6468089025+7720091484360+8561720333",
       "storeSlug": "buce-plant"
@@ -672,8 +692,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:2870742646865+6468089025+7720091484360+8561720333",
       "storeSlug": "buce-plant"
@@ -705,8 +724,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:2870742646865+6468089025+7720091484360+8561720333",
       "storeSlug": "buce-plant"
@@ -770,7 +788,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "glass-aqua:11277472711+11277475847",
       "storeSlug": "glass-aqua"
@@ -834,9 +852,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:1321477800022+1326877343830+20314750988",
       "storeSlug": "aquatic-arts"
@@ -898,7 +914,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:2870742646865+6468089025+7720091484360+8561720333",
       "storeSlug": "buce-plant"
@@ -948,7 +964,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "glass-aqua:11277472711+11277475847",
       "storeSlug": "glass-aqua"
@@ -1030,7 +1046,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:1321477800022+1326877343830+20314750988",
       "storeSlug": "aquatic-arts"
@@ -1384,140 +1400,6 @@
           "label": "Potted",
           "price": 7.99,
           "available": true
-        },
-        {
-          "id": "52738879495",
-          "label": "UNS Tissue Culture",
-          "price": 11.99,
-          "available": true
-        },
-        {
-          "id": "39595639013462",
-          "label": "Aquatic Farmer Tissue Culture",
-          "price": 9.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "variants"
-      ],
-      "listingId": "glass-aqua:11277472711+11277475847",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 9.6,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19810310342",
-          "label": "Title",
-          "price": 9.6,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6260805766",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:54:41.266Z",
-      "price": 9.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "43245934313672",
-          "label": "Micranthemum 'Monte Carlo' on Stainless Steel",
-          "price": 14.99,
-          "available": false
-        },
-        {
-          "id": "22738448515153",
-          "label": "Micranthemum Monte Carlo Aquatic Farmer Tissue Culture",
-          "price": 9.99,
-          "available": true
-        },
-        {
-          "id": "44711475937480",
-          "label": "Single",
-          "price": 12.99,
-          "available": true
-        },
-        {
-          "id": "44711475970248",
-          "label": "5 Pack",
-          "price": 58.99,
-          "available": true
-        },
-        {
-          "id": "44711476003016",
-          "label": "10 Pack",
-          "price": 110.99,
-          "available": true
-        },
-        {
-          "id": "20341843137",
-          "label": "Pot",
-          "price": 7.99,
-          "available": false
-        },
-        {
-          "id": "35964621069",
-          "label": "3 Pot Package",
-          "price": 20.99,
-          "available": false
-        },
-        {
-          "id": "35964711693",
-          "label": "5 Pot Package",
-          "price": 32.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "buce-plant:2870742646865+6468089025+7720091484360+8561720333",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-26T18:55:08.324Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "5733144887328",
-          "label": "Bunch",
-          "price": 7.99,
-          "available": true
-        },
-        {
-          "id": "52738896775",
-          "label": "UNS Tissue Culture",
-          "price": 9.99,
-          "available": true
-        },
-        {
-          "id": "42071334682710",
-          "label": "Aquatic Farmer Tissue Culture",
-          "price": 9.99,
-          "available": true
-        },
-        {
-          "id": "6038899949600",
-          "label": "Potted",
-          "price": 7.99,
-          "available": false
         },
         {
           "id": "52738879495",

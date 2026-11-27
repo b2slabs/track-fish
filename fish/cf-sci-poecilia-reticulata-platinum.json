@@ -8,21 +8,21 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Platinum Redtail Dumbo Ear Guppy Males",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "aquatic-arts:14713554764143+14803293176175+9453451247895",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Super Platinum Guppy (Poecilia reticulata) – Bred by Aquatic Arts",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "imperial-tropicals:8602823819571+9553800692019",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "German Platinum Guppy",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     }
   ],
   "events": [
@@ -1639,9 +1639,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14713554764143+14803293176175+9453451247895",
       "storeSlug": "aquatic-arts"
@@ -1726,6 +1724,56 @@
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52292198007151",
+          "label": "1 Male/Female Pair",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "52292198039919",
+          "label": "3 Male/Female Pairs",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "52292198072687",
+          "label": "1 Male",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "52292198138223",
+          "label": "3 Males",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "52292198170991",
+          "label": "1 Female",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "52292198236527",
+          "label": "3 Females",
+          "price": 15.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:14713554764143+14803293176175+9453451247895",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 16.99,
       "currency": "USD",
       "available": true,
@@ -1763,9 +1811,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14713554764143+14803293176175+9453451247895",
       "storeSlug": "aquatic-arts"
@@ -1803,11 +1849,68 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14713554764143+14803293176175+9453451247895",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 7,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42636174917707",
+          "label": "Title",
+          "price": 7,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:7859662979147",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50571133878579",
+          "label": "0.5-1\" Female",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "50571133911347",
+          "label": "0.5-1\" Male",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "50571133944115",
+          "label": "0.5-1\" Pair (1 Male, 1 Female)",
+          "price": 28.99,
+          "available": false
+        },
+        {
+          "id": "50571133976883",
+          "label": "0.5-1\" Trio (1 Male, 2 Female)",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8602823819571+9553800692019",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
@@ -1842,8 +1945,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "imperial-tropicals:8602823819571+9553800692019",
       "storeSlug": "imperial-tropicals"
@@ -1947,8 +2049,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:14713554764143+14803293176175+9453451247895",
       "storeSlug": "aquatic-arts"
@@ -2010,7 +2111,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "imperial-tropicals:8602823819571+9553800692019",
       "storeSlug": "imperial-tropicals"

@@ -8,14 +8,14 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Imperial Lapis Tetra (Tank-Bred)",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "nu-aqua-shop:10165554807100",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Imperial Lapis Tetra",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     }
   ],
   "events": [
@@ -117,6 +117,44 @@
       "type": "change",
       "changedFields": [
         "variants"
+      ],
+      "listingId": "shrimpy-business:9722486522146",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 26,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49897533047074",
+          "label": "2 Fish",
+          "price": 26,
+          "available": false
+        },
+        {
+          "id": "49897533079842",
+          "label": "4 Fish",
+          "price": 46.95,
+          "available": false
+        },
+        {
+          "id": "51662838858018",
+          "label": "8 Fish",
+          "price": 87.95,
+          "available": false
+        },
+        {
+          "id": "51662838890786",
+          "label": "16 Fish",
+          "price": 165.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
       ],
       "listingId": "shrimpy-business:9722486522146",
       "storeSlug": "shrimpy-business"

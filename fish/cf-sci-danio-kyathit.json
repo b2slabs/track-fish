@@ -8,14 +8,14 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Kyathit Danio",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:685275+685310",
       "storeSlug": "wet-spot-tropical-fish",
       "storeName": "The Wet Spot Tropical Fish",
       "commonName": "Danio kyathit",
-      "lastCheckedAt": "2026-11-26T18:56:00.122Z"
+      "lastCheckedAt": "2026-11-25T19:04:28.157Z"
     }
   ],
   "events": [
@@ -104,6 +104,26 @@
     },
     {
       "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 5.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42250788372555",
+          "label": "Title",
+          "price": 5.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquahuna:1818258210859+7634371969099",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
       "price": 3.25,
       "currency": "USD",
       "available": false,
@@ -117,8 +137,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquahuna:1818258210859+7634371969099",
       "storeSlug": "aquahuna"
@@ -144,7 +163,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquahuna:1818258210859+7634371969099",
       "storeSlug": "aquahuna"

@@ -8,21 +8,21 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Yellow Rainbowfish",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "global-exoticquatics:8514127986880",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Yellow Rainbowfish",
-      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     },
     {
       "listingId": "dans-fish:10127145238826",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Yellow Rainbowfish",
-      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     }
   ],
   "events": [
@@ -130,6 +130,26 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 15,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47784003895488",
+          "label": "1-1.5 inch",
+          "price": 15,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8514127986880",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
       "observedAt": "2026-11-22T06:58:35.864Z",
       "price": 7.99,
       "currency": "USD",
@@ -148,68 +168,6 @@
       ],
       "listingId": "dans-fish:10127145238826",
       "storeSlug": "dans-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:54:17.996Z",
-      "price": 14.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45611724276019",
-          "label": "1-2\" Female",
-          "price": 14.99,
-          "available": true
-        },
-        {
-          "id": "45611724243251",
-          "label": "1-2” Male",
-          "price": 17.99,
-          "available": true
-        },
-        {
-          "id": "53793596539187",
-          "label": "1-2” Pair (1 Male, 1 Female)",
-          "price": 29.99,
-          "available": true
-        },
-        {
-          "id": "45611724374323",
-          "label": "2-3” Female",
-          "price": 19.99,
-          "available": true
-        },
-        {
-          "id": "45611724341555",
-          "label": "2-3” Male",
-          "price": 24.99,
-          "available": false
-        },
-        {
-          "id": "48394685940019",
-          "label": "2-3\" Pair (1 Male, 1 Female)",
-          "price": 39.99,
-          "available": true
-        },
-        {
-          "id": "48394663526707",
-          "label": "2-3\" Trio (1 Male, 2 Female)",
-          "price": 58.99,
-          "available": true
-        },
-        {
-          "id": "45611724308787",
-          "label": "2-3\" Breeder pack (1 Male, 3 Female)",
-          "price": 67.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "variants"
-      ],
-      "listingId": "imperial-tropicals:8397975814451",
-      "storeSlug": "imperial-tropicals"
     }
   ]
 }

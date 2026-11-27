@@ -8,35 +8,35 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Mermaid Weed (Proserpinaca palustris) Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aquarium-fish:10106388709675+6856414855249",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Mermaid Plant",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "buce-plant:10537791501+2868325941329",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Proserpinaca Palustris UNS Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "flip-aquatics:6692631773286",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Mermaid Weed | Proserpinaca Palustris",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aqua-imports:60103",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Marsh Mermaid Weed (Proserpinaca palustris)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -115,9 +115,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10106388709675+6856414855249",
       "storeSlug": "aquarium-fish"
@@ -157,9 +155,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10537791501+2868325941329",
       "storeSlug": "buce-plant"
@@ -185,7 +181,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquarium-fish:10106388709675+6856414855249",
       "storeSlug": "aquarium-fish"
@@ -211,9 +207,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:10537791501+2868325941329",
       "storeSlug": "buce-plant"
@@ -237,33 +231,6 @@
       ],
       "listingId": "aqua-imports:60103",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 6.45,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51386928267563",
-          "label": "Each",
-          "price": 9.6,
-          "available": false
-        },
-        {
-          "id": "39867312734289",
-          "label": "Mermaid Plant",
-          "price": 6.45,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10106388709675+6856414855249",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,14 +8,14 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Chihiros WRGB Vivid 3 Light Shade with Mirror",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "buce-plant:7644737372360+8272013263048",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Chihiros RGB Vivid2 Light Shade with Mirror",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -404,6 +404,32 @@
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 54.99,
       "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44911959539912",
+          "label": "Black",
+          "price": 54.99,
+          "available": true
+        },
+        {
+          "id": "44911959572680",
+          "label": "White",
+          "price": 54.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:7644737372360+8272013263048",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 54.99,
+      "currency": "USD",
       "available": false,
       "variants": [
         {
@@ -421,11 +447,36 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:7644737372360+8272013263048",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 54.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43853247578198",
+          "label": "Black",
+          "price": 54.99,
+          "available": true
+        },
+        {
+          "id": "43853247610966",
+          "label": "White",
+          "price": 54.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "glass-aqua:7520998195286",
+      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-21T20:08:29.473Z",
@@ -460,8 +511,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:7644737372360+8272013263048",
       "storeSlug": "buce-plant"

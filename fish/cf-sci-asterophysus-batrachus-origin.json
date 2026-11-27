@@ -8,28 +8,28 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Gulper Catfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:9710421147955",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Gulper Catfish",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "monster-aquarium:7209475178705",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Gulper Catfish (Asterophysus batrachus)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aqua-imports:37684",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Gulper Catfish (Asterophysus batrachus)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -268,6 +268,32 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51374150910259",
+          "label": "4-5\" Unsexed",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "51374150943027",
+          "label": "5-6\" Unsexed",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9710421147955",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 49.99,
       "currency": "USD",
@@ -286,27 +312,6 @@
       ],
       "listingId": "aqua-imports:37684",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 110.49,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "17650256248902",
-          "label": "Title",
-          "price": 110.49,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:1788584788038",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

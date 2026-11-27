@@ -8,70 +8,70 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Water Wisteria (Hygrophila difformis)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "shrimpy-business:6721937866837",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Water Wisteria",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "imperial-tropicals:8398041973043",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Water Wisteria",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "daku-aquatics:8741026693338",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Water Wisteria",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     },
     {
       "listingId": "nu-aqua-shop:10006320906556",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Water Wisteria",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "buce-plant:9541132109",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Water Wisteria/Hygrophila Difformis",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "flip-aquatics:4673536295014",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Water Wisteria | Hygrophila Difformis",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aqua-imports:60137",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Wisteria (Hygrophila difformis)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "ck-fish-world:8152568922327",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Wisteria",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "aquarium-fish:6260560454",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Wisteria",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     }
   ],
   "events": [
@@ -1110,6 +1110,58 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 5.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45716926300375",
+          "label": "1",
+          "price": 5.98,
+          "available": true
+        },
+        {
+          "id": "45716926333143",
+          "label": "3",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "45716926365911",
+          "label": "5",
+          "price": 24.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8152568922327",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 8.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50451577864482",
+          "label": "Pot",
+          "price": 8.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6721937866837",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 8.99,
       "currency": "USD",
@@ -1184,8 +1236,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "daku-aquatics:8741026693338",
       "storeSlug": "daku-aquatics"
@@ -1421,54 +1472,6 @@
           "label": "3 Bunches + 1 Free",
           "price": 18.24,
           "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "available",
-        "variants"
-      ],
-      "listingId": "buce-plant:9541132109",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 6.45,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19809677254",
-          "label": "Title",
-          "price": 6.45,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6260560454",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:54:41.266Z",
-      "price": 6.08,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "35342596237",
-          "label": "Lead Bunch",
-          "price": 6.08,
-          "available": false
-        },
-        {
-          "id": "12396892848209",
-          "label": "3 Bunches + 1 Free",
-          "price": 18.24,
-          "available": false
         }
       ],
       "type": "change",

@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Goonch Catfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "monster-aquarium:7339799970001+7486913642705",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Goonch Catfish (Bagarius Rutilus)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     }
   ],
   "events": [
@@ -327,7 +327,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7339799970001+7486913642705",
       "storeSlug": "monster-aquarium"
@@ -383,7 +383,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7339799970001+7486913642705",
       "storeSlug": "monster-aquarium"
@@ -524,9 +524,33 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
+      ],
+      "listingId": "monster-aquarium:7339799970001+7486913642705",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42282943283409",
+          "label": "2-3”",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "42430688854225",
+          "label": "7-8”",
+          "price": 188,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7339799970001+7486913642705",
       "storeSlug": "monster-aquarium"
@@ -570,9 +594,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7339799970001+7486913642705",
       "storeSlug": "monster-aquarium"
@@ -648,31 +670,10 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "monster-aquarium:7339799970001+7486913642705",
       "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 169.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "43013630604",
-          "label": "Title",
-          "price": 169.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:11376551436",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

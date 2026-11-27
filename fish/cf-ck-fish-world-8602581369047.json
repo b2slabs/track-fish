@@ -8,26 +8,58 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Black Lava Rock",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "buce-plant:10887082381",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Black Lava Rock",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:1365154955350",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Black Lava Rock",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
     {
       "observedAt": "2026-01-08T21:00:00.000Z",
+      "price": 19.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45347175530711",
+          "label": "5",
+          "price": 19.98,
+          "available": true
+        },
+        {
+          "id": "45347175563479",
+          "label": "10",
+          "price": 38.98,
+          "available": true
+        },
+        {
+          "id": "45347175596247",
+          "label": "20",
+          "price": 77.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "ck-fish-world:8602581369047",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
       "price": 19.98,
       "currency": "USD",
       "available": true,

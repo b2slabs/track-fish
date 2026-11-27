@@ -8,28 +8,28 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Silver Kuhli Loach (Pangio anguillaris)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "flip-aquatics:7412790296678",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Silver Kuhli Loach",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "imperial-tropicals:8398066811187",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Silver Kuhli Loach (Pangio anguillaris)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aqua-imports:177590",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Silver Kuhli Loach (Pangio cf. anguillaris)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -152,6 +152,58 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52878238941551",
+          "label": "School of 3",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "52878238974319",
+          "label": "School of 6",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "52878239007087",
+          "label": "School of 9",
+          "price": 26.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:14942172479855",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 8.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42014792089702",
+          "label": "1 Fish",
+          "price": 8.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "flip-aquatics:7412790296678",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 10.99,
       "currency": "USD",
@@ -234,40 +286,6 @@
       ],
       "listingId": "aqua-imports:177590",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:54:17.996Z",
-      "price": 3.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "45612015354163",
-          "label": "2-3\" Unsexed",
-          "price": 3.99,
-          "available": false
-        },
-        {
-          "id": "49399228629299",
-          "label": "(3 Pack) 2-3\" Unsexed",
-          "price": 10.99,
-          "available": false
-        },
-        {
-          "id": "49399257792819",
-          "label": "(6 Pack) 2-3\" Unsexed",
-          "price": 19.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "available",
-        "variants"
-      ],
-      "listingId": "imperial-tropicals:8398066811187",
-      "storeSlug": "imperial-tropicals"
     }
   ]
 }

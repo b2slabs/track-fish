@@ -8,21 +8,21 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Java Moss Mat (Taxiphyllum barbieri/Vesicularia dubyana)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "shrimpy-business:9742818214178",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Java Moss on Mat",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "daku-aquatics:8741034754266",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Java Moss Mat",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     }
   ],
   "events": [
@@ -1314,6 +1314,64 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15496631046",
+          "label": "1 MAT",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "28174610182",
+          "label": "2 MATS",
+          "price": 36.99,
+          "available": false
+        },
+        {
+          "id": "28174610310",
+          "label": "3 MATS",
+          "price": 54.99,
+          "available": false
+        },
+        {
+          "id": "33460768538710",
+          "label": "1 B-Grade Mat",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquatic-arts:4737231942",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 16.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49974235857186",
+          "label": "Title",
+          "price": 16.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:9742818214178",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-11-21T01:29:24.660Z",
       "price": 19.99,
       "currency": "USD",
@@ -1328,9 +1386,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "daku-aquatics:8741034754266",
       "storeSlug": "daku-aquatics"

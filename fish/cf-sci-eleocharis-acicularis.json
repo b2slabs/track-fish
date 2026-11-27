@@ -8,42 +8,42 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Eleocharis acicularis 'Mini' - Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "nu-aqua-shop:10006315729212",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Dwarf Hairgrass",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "imperial-tropicals:8398128972083",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Dwarf Hairgrass",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "daku-aquatics:8741026562266",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Dwarf Hairgrass",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     },
     {
       "listingId": "aquatic-arts:1396030406742+8787253324",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Mini Hairgrass (Eleocharis acicularis “Mini”) Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aqua-imports:59965",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Dwarf Hairgrass Mini (Eleocharis acicularis)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -366,9 +366,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:1396030406742+8787253324",
       "storeSlug": "aquatic-arts"
@@ -412,6 +410,26 @@
       ],
       "listingId": "imperial-tropicals:8398128972083",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043823931610",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741026562266",
+      "storeSlug": "daku-aquatics"
     },
     {
       "observedAt": "2026-11-21T01:29:44.090Z",
@@ -466,9 +484,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "aquatic-arts:1396030406742+8787253324",
       "storeSlug": "aquatic-arts"
@@ -525,48 +541,6 @@
           "label": "Title",
           "price": 6.99,
           "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "available",
-        "variants"
-      ],
-      "listingId": "daku-aquatics:8741026562266",
-      "storeSlug": "daku-aquatics"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 9.6,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51386931970347",
-          "label": "Each",
-          "price": 9.6,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10105537364267",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:54:38.597Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "46043823931610",
-          "label": "Title",
-          "price": 6.99,
-          "available": false
         }
       ],
       "type": "change",

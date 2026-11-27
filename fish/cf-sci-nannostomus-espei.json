@@ -8,28 +8,28 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Barred Pencilfish (Nannostomus espei)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquarium-fish:785464524919",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Espei Pencilfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "nu-aqua-shop:10006356918588",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Espei Pencilfish",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aqua-imports:177727",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Barred Pencilfish (Nannostomus espei)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -242,6 +242,32 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51011882877235",
+          "label": "0.5-1\" Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "51011882910003",
+          "label": "(6 Pack) 0.5-1\" Unsexed",
+          "price": 134.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "imperial-tropicals:9629992190259",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-21T01:29:44.090Z",
       "price": 29.99,
       "currency": "USD",
@@ -280,27 +306,6 @@
       ],
       "listingId": "aqua-imports:177727",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 18.35,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "8691041108087",
-          "label": "Title",
-          "price": 18.35,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:785464524919",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

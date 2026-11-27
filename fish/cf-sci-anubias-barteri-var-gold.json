@@ -8,56 +8,56 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Anubias Nana Golden",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "flip-aquatics:6692631412838",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Anubias Nana Golden",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "imperial-tropicals:8398080868659",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Anubias sp. \"Nana Golden\"",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "glass-aqua:11279073287",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Anubias Nana Golden",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "nu-aqua-shop:10006354067772",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Anubias Nana 'Golden'",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "buce-plant:4632352030801+7241754935496+8130884370632+8995505037",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Anubias Nana Golden",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aqua-imports:156242",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Anubias nana ‘Gold’",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "daku-aquatics:8812601213146",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Anubias Nana Golden",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     }
   ],
   "events": [
@@ -416,8 +416,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "daku-aquatics:8812601213146",
       "storeSlug": "daku-aquatics"
@@ -565,9 +564,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "daku-aquatics:8812601213146",
       "storeSlug": "daku-aquatics"
@@ -613,6 +610,26 @@
       ],
       "listingId": "daku-aquatics:8812601213146",
       "storeSlug": "daku-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 15.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50394194444578",
+          "label": "Pot",
+          "price": 15.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "shrimpy-business:6650334871637",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
@@ -661,6 +678,26 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46285264027866",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8812601213146",
+      "storeSlug": "daku-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 12.99,
       "currency": "USD",
@@ -695,7 +732,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:4632352030801+7241754935496+8130884370632+8995505037",
       "storeSlug": "buce-plant"
@@ -721,8 +758,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:4632352030801+7241754935496+8130884370632+8995505037",
       "storeSlug": "buce-plant"
@@ -754,8 +790,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:4632352030801+7241754935496+8130884370632+8995505037",
       "storeSlug": "buce-plant"
@@ -869,7 +904,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "buce-plant:4632352030801+7241754935496+8130884370632+8995505037",
       "storeSlug": "buce-plant"

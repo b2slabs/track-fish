@@ -8,14 +8,14 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Bucephalandra Brownie Kapuas",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:7576749113430",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Bucephalandra Brownie Kapuas",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
@@ -81,6 +81,26 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44657820893384",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "buce-plant:8215268917448",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 8.99,
       "currency": "USD",
@@ -101,7 +121,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "glass-aqua:7576749113430",
       "storeSlug": "glass-aqua"

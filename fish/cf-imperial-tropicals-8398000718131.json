@@ -8,21 +8,21 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Rotala rotundifolia",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "daku-aquatics:8741041570010",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Rotala Rotundifolia 'H'ra'",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     },
     {
       "listingId": "glass-aqua:11279073991+1920529236054",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Rotala Rotundifolia",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
@@ -451,6 +451,26 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-20T06:27:46.524Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46043853652186",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "daku-aquatics:8741041570010",
+      "storeSlug": "daku-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 12.99,
       "currency": "USD",
@@ -485,9 +505,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "price",
-        "available",
-        "variants"
+        "first-observed"
       ],
       "listingId": "glass-aqua:11279073991+1920529236054",
       "storeSlug": "glass-aqua"
@@ -513,7 +531,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "variants"
+        "first-observed"
       ],
       "listingId": "glass-aqua:11279073991+1920529236054",
       "storeSlug": "glass-aqua"
