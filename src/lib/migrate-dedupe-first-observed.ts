@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import type { CanonicalFishHistory, CanonicalFishHistoryEvent } from '../types/listing.js';
+import { variantsDiffer } from './diff.js';
 
 /**
  * One-time migration for issue #96: before `process.ts`'s same-Store merge
@@ -11,15 +12,28 @@ import type { CanonicalFishHistory, CanonicalFishHistoryEvent } from '../types/l
  * made `diffListing` treat an already-long-tracked Listing as brand new,
  * writing a second (or third, ...) spurious `'first-observed'` Change
  * Event into its history even though nothing about that Listing was
- * actually new. This compacts each already-published history file in
- * place: for every `listingId` that carries more than one `'first-observed'`
- * event, every one but the chronologically earliest is dropped -- that
- * earliest one is the Listing's real introduction; every later one is a
- * spurious reset the (now-fixed) bug produced.
+ * actually new.
  *
- * Deliberately does not touch a `listingId`'s other, genuine Change Events
- * (price/available/variants) -- only extra `'first-observed'` entries are
- * ever removed, and only when a given `listingId` has more than one.
+ * Corrected after a real-data regression (user-reported, see issue #96's
+ * follow-up): the first version of this migration dropped EVERY
+ * non-earliest `'first-observed'` event per `listingId` unconditionally,
+ * assuming each one was pure noise. That destroyed real information for
+ * any duplicate that happened to also carry a genuine price/availability/
+ * variant change (e.g. a Listing restocking) -- the bug mislabels the
+ * *reason* for a Change Event, not its *values*, so a "duplicate
+ * first-observed" can still be the only record of a real state change.
+ *
+ * This version instead replays each `listingId`'s events in chronological
+ * order and, for every `'first-observed'` event beyond the true first one,
+ * compares it against the most recently *kept* event for that `listingId`
+ * (mirroring `diffListing`'s own price/available/variants comparison):
+ *   - no real difference -> genuinely spurious, dropped.
+ *   - a real difference -> kept, with `changedFields` corrected to what
+ *     actually changed, instead of the mislabeled `'first-observed'`.
+ *
+ * Every non-`'first-observed'` event is always kept untouched -- only
+ * `'first-observed'` entries beyond a `listingId`'s true first are ever
+ * reconsidered.
  */
 export interface FileDedupeResult {
   fileName: string;
@@ -52,7 +66,10 @@ export function dedupeSpuriousFirstObservedInDataDir(dataDir: string): DedupeSum
 
     const afterHistory: CanonicalFishHistory = { ...history, events };
     const afterText = JSON.stringify(afterHistory, null, 2) + '\n';
-    const changed = removed > 0;
+    // Compare serialized text, not just `removed > 0` -- a relabeled event
+    // (changedFields corrected, nothing removed) changes the file on disk
+    // too, and must be written, not silently skipped.
+    const changed = afterText !== beforeText;
 
     if (changed) {
       fs.writeFileSync(filePath, afterText);
@@ -75,40 +92,47 @@ export function dedupeSpuriousFirstObservedInDataDir(dataDir: string): DedupeSum
 }
 
 /**
- * Keeps only the chronologically earliest `'first-observed'` event per
- * `listingId`; every later one for that same `listingId` is dropped. Every
- * non-`'first-observed'` event is kept untouched, in its original relative
- * order.
+ * Replays each `listingId`'s events in their original chronological order
+ * (the array's own order -- callers already sort by `observedAt` before
+ * writing a history file). The first event seen for a `listingId` is
+ * always its true anchor, kept as-is regardless of its own `changedFields`.
+ * Every later `'first-observed'` event for that same `listingId` is
+ * compared against the most recently kept event's price/available/variants
+ * (see this module's own doc): identical -> dropped as genuinely spurious;
+ * different -> kept, `changedFields` corrected to the real diff. A
+ * non-`'first-observed'` event is always kept, and becomes the new
+ * "most recently kept" state to compare the next duplicate against.
  */
 function dropSpuriousFirstObserved(
   events: CanonicalFishHistoryEvent[],
 ): { events: CanonicalFishHistoryEvent[]; removed: number } {
-  const earliestFirstObservedAt = new Map<string, string>();
-  for (const event of events) {
-    if (!event.changedFields?.includes('first-observed')) continue;
-    const current = earliestFirstObservedAt.get(event.listingId);
-    if (!current || event.observedAt < current) {
-      earliestFirstObservedAt.set(event.listingId, event.observedAt);
-    }
-  }
-
-  const seenEarliest = new Set<string>();
+  const lastKeptByListingId = new Map<string, CanonicalFishHistoryEvent>();
   const kept: CanonicalFishHistoryEvent[] = [];
   let removed = 0;
 
   for (const event of events) {
-    if (!event.changedFields?.includes('first-observed')) {
+    const lastKept = lastKeptByListingId.get(event.listingId);
+    const isDuplicateFirstObserved = lastKept !== undefined && event.changedFields?.includes('first-observed');
+
+    if (!isDuplicateFirstObserved) {
       kept.push(event);
+      lastKeptByListingId.set(event.listingId, event);
       continue;
     }
-    const earliest = earliestFirstObservedAt.get(event.listingId);
-    const isTheEarliestOne = event.observedAt === earliest && !seenEarliest.has(event.listingId);
-    if (isTheEarliestOne) {
-      seenEarliest.add(event.listingId);
-      kept.push(event);
-    } else {
+
+    const changedFields: string[] = [];
+    if (lastKept.price !== event.price) changedFields.push('price');
+    if (lastKept.available !== event.available) changedFields.push('available');
+    if (variantsDiffer(lastKept.variants, event.variants)) changedFields.push('variants');
+
+    if (changedFields.length === 0) {
       removed++;
+      continue;
     }
+
+    const relabeled: CanonicalFishHistoryEvent = { ...event, changedFields };
+    kept.push(relabeled);
+    lastKeptByListingId.set(event.listingId, relabeled);
   }
 
   return { events: kept, removed };
