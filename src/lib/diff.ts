@@ -46,7 +46,7 @@ export function diffListing(previous: Listing | undefined, next: Listing): Histo
   return undefined;
 }
 
-function variantsDiffer(previous: ListingVariant[], next: ListingVariant[]): boolean {
+export function variantsDiffer(previous: ListingVariant[], next: ListingVariant[]): boolean {
   if (previous.length !== next.length) {
     return true;
   }
