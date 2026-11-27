@@ -136,6 +136,23 @@ export interface VariantPoint {
   timestamp: number;
   observedAt: string;
   price: number;
+  /**
+   * True when this point is where a run *resumes* at the exact same price it
+   * had before a hard-evidence gap (issue #108) — i.e. the point
+   * `mergeSamePriceRuns` joined onto the previous run rather than leaving as
+   * its own break. Store Stores like Shrimpy Business sell tiny batches that
+   * genuinely toggle `available` every few days at an unchanged price; issue
+   * #87 already keeps those from breaking the line, but every such
+   * resumption still rendered as a full, ordinary marker — a dense row of
+   * visually identical dots along a flat stretch that reads as noise rather
+   * than as "nothing changed." Rendered with reduced visual weight (see
+   * `FLAP_POINT_RADIUS`/`FLAP_POINT_OPACITY` in `LinesOverlay`) instead of
+   * hidden, so the real history stays inspectable on hover. `undefined`
+   * (never `true`) for a run's first-ever point and for any point that
+   * starts a genuinely new run (a real price change) — only an actual
+   * same-price merge earns this flag.
+   */
+  flap?: boolean;
 }
 
 /**
@@ -237,6 +254,11 @@ function mergeSamePriceRuns(runs: VariantPoint[][]): VariantPoint[][] {
     const previousLast = previousRun[previousRun.length - 1];
     const currentFirst = currentRun[0];
     if (previousLast.price === currentFirst.price) {
+      // Issue #108: this is exactly the point that "says the same thing
+      // again" after a gap with no real price movement — tag it so the
+      // overlay can render it with reduced visual weight instead of a full
+      // ordinary marker.
+      currentFirst.flap = true;
       previousRun.push(...currentRun);
     } else {
       merged.push(currentRun);
@@ -566,6 +588,21 @@ const OUT_OF_STOCK_COLOR = 'var(--color-muted-foreground, #71717a)';
 const OUT_OF_STOCK_OPACITY = 0.35;
 
 /**
+ * Issue #108: a `flap` point (see `VariantPoint.flap`'s doc) is real data —
+ * never hidden — but gets a visibly smaller, more transparent marker than an
+ * ordinary observation so a dense run of same-price availability toggles
+ * (Shrimpy Business's Celestial Pearl Danio, repeatedly `available`
+ * true/false every few days at an unchanged price) reads as "a flat,
+ * unremarkable stretch with some back-and-forth" rather than a row of
+ * visually equal, independently meaningful change markers. Hovering still
+ * promotes it to the same `POINT_RADIUS_HOVERED` every other point uses
+ * (see the `isHovered` check below) — the point is only de-emphasized at
+ * rest, never harder to inspect.
+ */
+const FLAP_POINT_RADIUS = 1.5;
+const FLAP_POINT_OPACITY = 0.45;
+
+/**
  * A short line-style swatch (color + dash) used both in the legend and the
  * tooltip header — the one visual token that actually shows a variant's
  * dash style (a plain color square can't), so legend and tooltip always
@@ -681,8 +718,9 @@ function LinesOverlay({
                       key={p.key}
                       cx={cx}
                       cy={cy}
-                      r={isHovered ? POINT_RADIUS_HOVERED : POINT_RADIUS}
+                      r={isHovered ? POINT_RADIUS_HOVERED : p.flap ? FLAP_POINT_RADIUS : POINT_RADIUS}
                       fill={line.color}
+                      fillOpacity={isHovered || !p.flap ? undefined : FLAP_POINT_OPACITY}
                       stroke="var(--color-background, #fff)"
                       strokeWidth={POINT_RING_WIDTH}
                     />
@@ -819,6 +857,11 @@ function PointHoverOverlay({ hover }: { hover: PointHoverState }) {
         <p className="text-xs text-muted-foreground">{line.variantLabel}</p>
         <p className="text-xs text-muted-foreground">{formatDateTime(point.observedAt)}</p>
         <p className="mt-1 font-medium">{formatPrice(point.price, line.currency)}</p>
+        {point.flap && (
+          <p className="mt-1 text-xs text-muted-foreground">
+            Briefly out of stock and back — price unchanged.
+          </p>
+        )}
       </div>
     </div>
   );
