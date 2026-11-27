@@ -8,14 +8,14 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Kubotai Rasbora (Microdevario kubotai), Tank-Bred",
-      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
+      "lastCheckedAt": "2026-11-27T18:43:05.978Z"
     },
     {
       "listingId": "nu-aqua-shop:10006317793596",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Kubotai Rasbora",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     }
   ],
   "events": [
@@ -166,6 +166,40 @@
       "listingId": "aquatic-arts:4738172806",
       "storeSlug": "aquatic-arts",
       "confirmedSameUntil": "2026-11-25T19:00:36.524Z"
+    },
+    {
+      "observedAt": "2026-11-27T18:46:20.969Z",
+      "price": 5.03,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718494060860",
+          "label": "Single",
+          "price": 5.03,
+          "available": false
+        },
+        {
+          "id": "51718494093628",
+          "label": "Group of 3",
+          "price": 15.1,
+          "available": false
+        },
+        {
+          "id": "51718494126396",
+          "label": "Group of 6",
+          "price": 26.84,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:39:04.942Z",
+      "listingId": "nu-aqua-shop:10006317793596",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

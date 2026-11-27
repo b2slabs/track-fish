@@ -8,70 +8,70 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Electric Blue Acara Cichlid (Andinoacara pulcher hybrid), Tank-Bred!",
-      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
+      "lastCheckedAt": "2026-11-27T18:43:05.978Z"
     },
     {
       "listingId": "monster-aquarium:7087480537297",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Electric Blue Acara (Andinoacara sp)",
-      "lastCheckedAt": "2026-11-27T04:36:20.162Z"
+      "lastCheckedAt": "2026-11-27T18:43:36.325Z"
     },
     {
       "listingId": "ck-fish-world:8150011969751",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Electric Blue Acara",
-      "lastCheckedAt": "2026-11-27T04:36:48.327Z"
+      "lastCheckedAt": "2026-11-27T18:44:04.188Z"
     },
     {
       "listingId": "aquarium-fish:5951979462",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Electric Blue Acara Cichlid",
-      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
+      "lastCheckedAt": "2026-11-27T18:44:37.293Z"
     },
     {
       "listingId": "imperial-tropicals:8397978501427",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Electric Blue Acara",
-      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
+      "lastCheckedAt": "2026-11-27T18:45:07.523Z"
     },
     {
       "listingId": "global-exoticquatics:8241449763008",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Electric Blue Acara",
-      "lastCheckedAt": "2026-11-27T04:38:57.362Z"
+      "lastCheckedAt": "2026-11-27T18:46:13.557Z"
     },
     {
       "listingId": "nu-aqua-shop:10006356820284",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Electric Blue Acara",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     },
     {
       "listingId": "aquahuna:1780795342891+2179547889707",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Electric Blue Acara",
-      "lastCheckedAt": "2026-11-27T04:36:35.502Z"
+      "lastCheckedAt": "2026-11-27T18:43:51.572Z"
     },
     {
       "listingId": "dans-fish:10127102902570",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Electric Blue Acara",
-      "lastCheckedAt": "2026-11-27T04:39:20.672Z"
+      "lastCheckedAt": "2026-11-27T18:46:36.497Z"
     },
     {
       "listingId": "aqua-imports:43206",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Electric Blue Acara (Aequidens pulcher)",
-      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
+      "lastCheckedAt": "2026-11-27T18:46:57.002Z"
     }
   ],
   "events": [
@@ -671,6 +671,63 @@
       ],
       "listingId": "imperial-tropicals:8397978501427",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-27T18:43:36.325Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41535645221073",
+          "label": "1-1.5”",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "41356480381137",
+          "label": "2”",
+          "price": 17,
+          "available": false
+        },
+        {
+          "id": "41175486955729",
+          "label": "3.5-4”",
+          "price": 38.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:36:20.162Z",
+      "listingId": "monster-aquarium:7087480537297",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-27T18:46:20.969Z",
+      "price": 15.19,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51627665785148",
+          "label": "Title",
+          "price": 15.19,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:39:04.942Z",
+      "listingId": "nu-aqua-shop:10006356820284",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

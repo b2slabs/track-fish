@@ -8,28 +8,28 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Red Rubin Sword",
-      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
+      "lastCheckedAt": "2026-11-27T18:43:05.978Z"
     },
     {
       "listingId": "flip-aquatics:4673522827366",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Red Rubin Sword",
-      "lastCheckedAt": "2026-11-27T04:37:05.797Z"
+      "lastCheckedAt": "2026-11-27T18:44:21.584Z"
     },
     {
       "listingId": "imperial-tropicals:8398041252147",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Red Rubin Sword",
-      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
+      "lastCheckedAt": "2026-11-27T18:45:07.523Z"
     },
     {
       "listingId": "aqua-imports:59995",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Rubin Sword (Echinodorus sp. Red Rubin)",
-      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
+      "lastCheckedAt": "2026-11-27T18:46:57.002Z"
     }
   ],
   "events": [
@@ -124,6 +124,33 @@
       ],
       "listingId": "aqua-imports:59995",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T18:45:07.523Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611931074867",
+          "label": "1 Potted Plant",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "68101785026867",
+          "label": "BOGO · 2 Potted Plants",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:37:51.180Z",
+      "listingId": "imperial-tropicals:8398041252147",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

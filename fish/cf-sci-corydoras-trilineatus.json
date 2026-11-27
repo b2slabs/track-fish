@@ -8,42 +8,49 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Julii Cory",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     },
     {
       "listingId": "aquahuna:4202001203243",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Julii Cory",
-      "lastCheckedAt": "2026-11-27T04:36:35.502Z"
+      "lastCheckedAt": "2026-11-27T18:43:51.572Z"
     },
     {
       "listingId": "ck-fish-world:8149573337303",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Julii Cory",
-      "lastCheckedAt": "2026-11-27T04:36:48.327Z"
+      "lastCheckedAt": "2026-11-27T18:44:04.188Z"
     },
     {
       "listingId": "aquatic-arts:4686997127254+4958545936470",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Threestripe AKA False Juli's Cory Catfish (Corydoras trilineatus), Tank-Bred!",
-      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
+      "lastCheckedAt": "2026-11-27T18:43:05.978Z"
     },
     {
       "listingId": "shrimpy-business:9377484341538",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Julii Corydoras (Tank-Bred)",
-      "lastCheckedAt": "2026-11-27T04:36:58.601Z"
+      "lastCheckedAt": "2026-11-27T18:44:14.352Z"
     },
     {
       "listingId": "aqua-imports:109393+42104",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "False Julii Cory (Hoplisoma trilineatus)",
-      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
+      "lastCheckedAt": "2026-11-27T18:46:57.002Z"
+    },
+    {
+      "listingId": "dans-fish:10127111455018",
+      "storeSlug": "dans-fish",
+      "storeName": "Dan's Fish",
+      "commonName": "False Julii Cory",
+      "lastCheckedAt": "2026-11-27T18:46:36.497Z"
     }
   ],
   "events": [
@@ -854,6 +861,26 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-22T06:58:35.864Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51533914407210",
+          "label": "Unsexed 1-1.75\"",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "dans-fish:10127111455018",
+      "storeSlug": "dans-fish"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 6.99,
       "currency": "USD",
@@ -919,6 +946,40 @@
       ],
       "listingId": "aqua-imports:109393+42104",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T18:46:20.969Z",
+      "price": 6.39,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51642280968508",
+          "label": "Single",
+          "price": 6.39,
+          "available": true
+        },
+        {
+          "id": "51642281001276",
+          "label": "Group of 3",
+          "price": 17.26,
+          "available": true
+        },
+        {
+          "id": "51642281034044",
+          "label": "Group of 6",
+          "price": 32.6,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:39:04.942Z",
+      "listingId": "nu-aqua-shop:10006357803324",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

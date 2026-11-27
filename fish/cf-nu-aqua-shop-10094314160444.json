@@ -8,7 +8,7 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Costello Tetra",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     }
   ],
   "events": [
@@ -41,6 +41,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:10094314160444",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-27T18:46:20.969Z",
+      "price": 4.06,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51901679436092",
+          "label": "Single",
+          "price": 4.06,
+          "available": false
+        },
+        {
+          "id": "51901679468860",
+          "label": "Group of 3",
+          "price": 10.95,
+          "available": false
+        },
+        {
+          "id": "51901679501628",
+          "label": "Group of 6",
+          "price": 20.69,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:39:04.942Z",
       "listingId": "nu-aqua-shop:10094314160444",
       "storeSlug": "nu-aqua-shop"
     }

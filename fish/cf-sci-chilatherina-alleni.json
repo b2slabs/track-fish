@@ -8,14 +8,14 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Alleni Rainbowfish (Chilatherina alleni) – Tank-Bred",
-      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
+      "lastCheckedAt": "2026-11-27T18:43:05.978Z"
     },
     {
       "listingId": "imperial-tropicals:8398053638451",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Alleni Wapoga Rainbowfish (Chilatherina alleni \"Wapoga\")",
-      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
+      "lastCheckedAt": "2026-11-27T18:45:07.523Z"
     }
   ],
   "events": [
@@ -129,6 +129,52 @@
       "type": "change",
       "changedFields": [
         "price",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398053638451",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-27T18:45:07.523Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611979440435",
+          "label": "1-2\" Unsexed",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "45611979473203",
+          "label": "2-3\" Unsexed",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "46888848458035",
+          "label": "2-3\" Female",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "46888776401203",
+          "label": "2-3\" Male",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "49559368696115",
+          "label": "2-3\" Trio (1 Male, 2 Female)",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
         "variants"
       ],
       "listingId": "imperial-tropicals:8398053638451",

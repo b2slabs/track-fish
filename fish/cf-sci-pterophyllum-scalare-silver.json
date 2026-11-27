@@ -8,28 +8,28 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Silver Zebra Angel (Pterophyllum scalare)",
-      "lastCheckedAt": "2026-11-27T04:36:20.162Z"
+      "lastCheckedAt": "2026-11-27T18:43:36.325Z"
     },
     {
       "listingId": "aquarium-fish:5993637318",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Silver Angelfish",
-      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
+      "lastCheckedAt": "2026-11-27T18:44:37.293Z"
     },
     {
       "listingId": "imperial-tropicals:8398157906227",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Silver Angelfish",
-      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
+      "lastCheckedAt": "2026-11-27T18:45:07.523Z"
     },
     {
       "listingId": "nu-aqua-shop:10006360490300",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Silver Angelfish",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     }
   ],
   "events": [
@@ -188,6 +188,34 @@
       "listingId": "aquarium-fish:5993637318",
       "storeSlug": "aquarium-fish",
       "confirmedSameUntil": "2026-11-25T19:02:12.467Z"
+    },
+    {
+      "observedAt": "2026-11-27T18:46:20.969Z",
+      "price": 7.18,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51634006196540",
+          "label": "Small",
+          "price": 7.18,
+          "available": false
+        },
+        {
+          "id": "51634006229308",
+          "label": "Large",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:39:04.942Z",
+      "listingId": "nu-aqua-shop:10006360490300",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

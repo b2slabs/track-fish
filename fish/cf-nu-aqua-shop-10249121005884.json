@@ -8,7 +8,7 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Red Dragon Halfmoon Guppy-XL",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     }
   ],
   "events": [
@@ -41,6 +41,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:10249121005884",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-27T18:46:20.969Z",
+      "price": 21.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52599516004668",
+          "label": "Male",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "52599516037436",
+          "label": "Female",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "52599516070204",
+          "label": "Pair",
+          "price": 21.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:39:04.942Z",
       "listingId": "nu-aqua-shop:10249121005884",
       "storeSlug": "nu-aqua-shop"
     }

@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Hemiodus Red Tail",
-      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
+      "lastCheckedAt": "2026-11-27T18:44:37.293Z"
     },
     {
       "listingId": "nu-aqua-shop:10006359867708",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Red Tail Hemiodus",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     },
     {
       "listingId": "aqua-imports:46755",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Tail Hemiodus (Hemiodus gracilis)",
-      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
+      "lastCheckedAt": "2026-11-27T18:46:57.002Z"
     }
   ],
   "events": [
@@ -119,6 +119,40 @@
       "listingId": "aquarium-fish:8955128578347",
       "storeSlug": "aquarium-fish",
       "confirmedSameUntil": "2026-11-25T19:02:12.467Z"
+    },
+    {
+      "observedAt": "2026-11-27T18:46:20.969Z",
+      "price": 8.37,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51684212867388",
+          "label": "Single",
+          "price": 8.37,
+          "available": false
+        },
+        {
+          "id": "51634100797756",
+          "label": "Group of 3",
+          "price": 22.59,
+          "available": false
+        },
+        {
+          "id": "51634100830524",
+          "label": "Group of 6",
+          "price": 42.68,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:39:04.942Z",
+      "listingId": "nu-aqua-shop:10006359867708",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

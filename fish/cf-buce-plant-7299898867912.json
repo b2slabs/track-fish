@@ -8,21 +8,21 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Aqua Worx EOS Nano LED Light",
-      "lastCheckedAt": "2026-11-27T04:38:40.408Z"
+      "lastCheckedAt": "2026-11-27T18:45:56.915Z"
     },
     {
       "listingId": "nu-aqua-shop:10111772819772+10225833804092",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Aqua Worx Eos N5 LED Light",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     },
     {
       "listingId": "buce-plant:7299898867912",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Aqua Worx Orion Nano LED Light",
-      "lastCheckedAt": "2026-11-27T04:38:13.782Z"
+      "lastCheckedAt": "2026-11-27T18:45:29.953Z"
     }
   ],
   "events": [
@@ -425,6 +425,57 @@
       ],
       "listingId": "buce-plant:7299898867912",
       "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-27T18:45:56.915Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40200982790230",
+          "label": "N5 - WHITE",
+          "price": 21.99,
+          "available": true
+        },
+        {
+          "id": "40200982822998",
+          "label": "N5 - RGB",
+          "price": 31.99,
+          "available": true
+        },
+        {
+          "id": "40200982855766",
+          "label": "N7 - WHITE",
+          "price": 26.99,
+          "available": true
+        },
+        {
+          "id": "40200982888534",
+          "label": "N7 - RGB",
+          "price": 35.99,
+          "available": false
+        },
+        {
+          "id": "39785296363606",
+          "label": "Silver",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "id": "39785296396374",
+          "label": "Black",
+          "price": 59.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:38:40.408Z",
+      "listingId": "glass-aqua:6734489387094+6854647644246",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

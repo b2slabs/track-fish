@@ -8,14 +8,14 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Echinodorus Ozelot Green",
-      "lastCheckedAt": "2026-11-27T04:38:13.782Z"
+      "lastCheckedAt": "2026-11-27T18:45:29.953Z"
     },
     {
       "listingId": "glass-aqua:4526680997974",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Echinodorus Ozelot Green",
-      "lastCheckedAt": "2026-11-27T04:38:40.408Z"
+      "lastCheckedAt": "2026-11-27T18:45:56.915Z"
     }
   ],
   "events": [
@@ -144,6 +144,50 @@
       "listingId": "glass-aqua:4526680997974",
       "storeSlug": "glass-aqua",
       "confirmedSameUntil": "2026-11-25T19:03:34.985Z"
+    },
+    {
+      "observedAt": "2026-11-27T18:45:29.953Z",
+      "price": 6.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "34292611917",
+          "label": "Title",
+          "price": 6.79,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:38:13.782Z",
+      "listingId": "buce-plant:9368882509",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-27T18:45:56.915Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31833774030934",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:38:40.408Z",
+      "listingId": "glass-aqua:4526680997974",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

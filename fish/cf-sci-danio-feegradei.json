@@ -8,7 +8,7 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Yoma Danio",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     }
   ],
   "events": [
@@ -47,6 +47,46 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:10006361538876",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-27T18:46:20.969Z",
+      "price": 14.39,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51684219978044",
+          "label": "Single",
+          "price": 14.39,
+          "available": false
+        },
+        {
+          "id": "51633869848892",
+          "label": "Group of 3",
+          "price": 38.86,
+          "available": false
+        },
+        {
+          "id": "51633869881660",
+          "label": "Group of 6",
+          "price": 73.4,
+          "available": false
+        },
+        {
+          "id": "51633869914428",
+          "label": "Group of 12",
+          "price": 138.16,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:39:04.942Z",
       "listingId": "nu-aqua-shop:10006361538876",
       "storeSlug": "nu-aqua-shop"
     }

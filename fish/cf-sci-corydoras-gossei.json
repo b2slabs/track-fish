@@ -8,10 +8,37 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Pale Spotted Cory (Hoplisoma gossei)",
-      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
+      "lastCheckedAt": "2026-11-27T18:46:57.002Z"
+    },
+    {
+      "listingId": "aquarium-fish:6319037958",
+      "storeSlug": "aquarium-fish",
+      "storeName": "AquariumFish.com",
+      "commonName": "Flagtail Cory",
+      "lastCheckedAt": "2026-11-27T18:44:37.293Z"
     }
   ],
   "events": [
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 25.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20008173574",
+          "label": "Title",
+          "price": 25.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "first-observed"
+      ],
+      "listingId": "aquarium-fish:6319037958",
+      "storeSlug": "aquarium-fish"
+    },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 24.99,
@@ -31,6 +58,28 @@
       ],
       "listingId": "aqua-imports:74311",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 22.09,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20008173574",
+          "label": "Title",
+          "price": 22.09,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6319037958",
+      "storeSlug": "aquarium-fish",
+      "confirmedSameUntil": "2026-11-25T19:02:12.467Z"
     }
   ]
 }

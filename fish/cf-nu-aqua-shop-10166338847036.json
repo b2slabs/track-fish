@@ -8,7 +8,7 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Apistogramma Erythrura - \"Rio Mamore\"",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     }
   ],
   "events": [
@@ -35,6 +35,34 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:10166338847036",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-27T18:46:20.969Z",
+      "price": 31.19,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52222457610556",
+          "label": "Male",
+          "price": 31.19,
+          "available": true
+        },
+        {
+          "id": "52222457643324",
+          "label": "Pair",
+          "price": 63.19,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:39:04.942Z",
       "listingId": "nu-aqua-shop:10166338847036",
       "storeSlug": "nu-aqua-shop"
     }

@@ -8,28 +8,28 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Red Dwarf Rasbora | Microrasbora rubescens",
-      "lastCheckedAt": "2026-11-27T04:37:05.797Z"
+      "lastCheckedAt": "2026-11-27T18:44:21.584Z"
     },
     {
       "listingId": "nu-aqua-shop:10006319038780",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Red Dwarf Rasbora",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     },
     {
       "listingId": "aquatic-arts:14664902672751",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Red Dwarf Rasbora (Microrasbora sp. cf. rubescens)",
-      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
+      "lastCheckedAt": "2026-11-27T18:43:05.978Z"
     },
     {
       "listingId": "aqua-imports:223407",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Dwarf Rasbora (Microrasbora rubescens)",
-      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
+      "lastCheckedAt": "2026-11-27T18:46:57.002Z"
     }
   ],
   "events": [
@@ -172,6 +172,40 @@
       ],
       "listingId": "aqua-imports:223407",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T18:46:20.969Z",
+      "price": 3.19,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51718512771388",
+          "label": "Single",
+          "price": 3.19,
+          "available": false
+        },
+        {
+          "id": "51718512804156",
+          "label": "Group of 3",
+          "price": 9.59,
+          "available": false
+        },
+        {
+          "id": "51718512836924",
+          "label": "Group of 6",
+          "price": 17.59,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:39:04.942Z",
+      "listingId": "nu-aqua-shop:10006319038780",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

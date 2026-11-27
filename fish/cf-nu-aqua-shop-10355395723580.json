@@ -8,21 +8,21 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Anubias Barteri 'Round Leaf'",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     },
     {
       "listingId": "glass-aqua:7288873943126+7573012512854",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Anubias Barteri Broad Leaf",
-      "lastCheckedAt": "2026-11-27T04:38:40.408Z"
+      "lastCheckedAt": "2026-11-27T18:45:56.915Z"
     },
     {
       "listingId": "aqua-imports:180518+43378",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Anubias barteri ‘Coin Leaf’",
-      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
+      "lastCheckedAt": "2026-11-27T18:46:57.002Z"
     }
   ],
   "events": [
@@ -393,6 +393,35 @@
       ],
       "listingId": "aqua-imports:180518+43378",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T18:46:20.969Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "68222548541756",
+          "label": "Medium",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "68222548574524",
+          "label": "Large",
+          "price": 14.39,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:39:04.942Z",
+      "listingId": "nu-aqua-shop:10355395723580",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

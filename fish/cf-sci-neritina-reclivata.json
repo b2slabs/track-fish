@@ -8,14 +8,14 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Olive Nerite Snail (Neritina reclivata)",
-      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
+      "lastCheckedAt": "2026-11-27T18:43:05.978Z"
     },
     {
       "listingId": "imperial-tropicals:8398028210483",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Olive Nerite Snail",
-      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
+      "lastCheckedAt": "2026-11-27T18:45:07.523Z"
     }
   ],
   "events": [
@@ -106,6 +106,51 @@
       ],
       "listingId": "imperial-tropicals:8398028210483",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-27T18:43:05.978Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15581493510",
+          "label": "1 Snail",
+          "price": 3.99,
+          "available": true
+        },
+        {
+          "id": "15581493702",
+          "label": "3 Snails",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "15581493766",
+          "label": "5 Snails",
+          "price": 19.92,
+          "available": true
+        },
+        {
+          "id": "30326500720726",
+          "label": "10 Snails",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "id": "30326501081174",
+          "label": "20 Snails",
+          "price": 64.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:35:48.725Z",
+      "listingId": "aquatic-arts:4767705350",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

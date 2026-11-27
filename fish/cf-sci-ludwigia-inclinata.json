@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Ludwigia inclinata 'Cuba' - Tissue Culture",
-      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
+      "lastCheckedAt": "2026-11-27T18:44:37.293Z"
     },
     {
       "listingId": "buce-plant:436007370792+9364108301",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Ludwigia Inclinata",
-      "lastCheckedAt": "2026-11-27T04:38:13.782Z"
+      "lastCheckedAt": "2026-11-27T18:45:29.953Z"
     },
     {
       "listingId": "aqua-imports:114197+60082",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Ludwigia inclinata",
-      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
+      "lastCheckedAt": "2026-11-27T18:46:57.002Z"
     },
     {
       "listingId": "buce-plant:436007370792",
@@ -36,7 +36,7 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Ludwigia Inclinata",
-      "lastCheckedAt": "2026-11-27T04:38:40.408Z"
+      "lastCheckedAt": "2026-11-27T18:45:56.915Z"
     }
   ],
   "events": [
@@ -351,6 +351,45 @@
       "listingId": "aquarium-fish:10106320617771+10106333823275",
       "storeSlug": "aquarium-fish",
       "confirmedSameUntil": "2026-11-25T19:02:12.467Z"
+    },
+    {
+      "observedAt": "2026-11-27T18:45:29.953Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "3736255856680",
+          "label": "Lead Bunch",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "12398342766673",
+          "label": "3 Bunches + 1 Free",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "34247062413",
+          "label": "Bunch",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12396589121617",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.97,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:38:13.782Z",
+      "listingId": "buce-plant:436007370792+9364108301",
+      "storeSlug": "buce-plant"
     }
   ]
 }

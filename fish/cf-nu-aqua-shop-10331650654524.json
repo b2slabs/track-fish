@@ -8,7 +8,7 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Orange Sakura Shrimp",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     }
   ],
   "events": [
@@ -41,6 +41,40 @@
       "changedFields": [
         "first-observed"
       ],
+      "listingId": "nu-aqua-shop:10331650654524",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-27T18:46:20.969Z",
+      "price": 4.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52846652653884",
+          "label": "Single",
+          "price": 4.79,
+          "available": false
+        },
+        {
+          "id": "52846652686652",
+          "label": "Group of 3",
+          "price": 13.59,
+          "available": false
+        },
+        {
+          "id": "52846652719420",
+          "label": "Group of 5",
+          "price": 22.39,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:39:04.942Z",
       "listingId": "nu-aqua-shop:10331650654524",
       "storeSlug": "nu-aqua-shop"
     }

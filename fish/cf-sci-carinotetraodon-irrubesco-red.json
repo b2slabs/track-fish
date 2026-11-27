@@ -8,21 +8,21 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Red-tailed red eye puffer (Carinotetraodon irrubesco)",
-      "lastCheckedAt": "2026-11-27T04:36:20.162Z"
+      "lastCheckedAt": "2026-11-27T18:43:36.325Z"
     },
     {
       "listingId": "nu-aqua-shop:10377547481404",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Red Eye Red Tailed Puffer",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     },
     {
       "listingId": "aqua-imports:92392",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Eye Red Tailed Puffer (Carinotetraodon irrubesco)",
-      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
+      "lastCheckedAt": "2026-11-27T18:46:57.002Z"
     }
   ],
   "events": [
@@ -140,6 +140,28 @@
       ],
       "listingId": "aqua-imports:92392",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T18:46:20.969Z",
+      "price": 19.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53027019391292",
+          "label": "Title",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:39:04.942Z",
+      "listingId": "nu-aqua-shop:10377547481404",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

@@ -8,28 +8,28 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Pink Miracle Sword Plant (Echinodorus sp. ‘Pink Miracle’) – Bareroot or Potted",
-      "lastCheckedAt": "2026-11-27T04:35:48.725Z"
+      "lastCheckedAt": "2026-11-27T18:43:05.978Z"
     },
     {
       "listingId": "daku-aquatics:8981275050202",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Pink Miracle Sword",
-      "lastCheckedAt": "2026-11-27T04:38:11.126Z"
+      "lastCheckedAt": "2026-11-27T18:45:27.333Z"
     },
     {
       "listingId": "nu-aqua-shop:10481463853372",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Pink Miracle Sword",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     },
     {
       "listingId": "aqua-imports:183801",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Pink Miracle Sword (Echinodorus sp. ‘Pink Miracle’)",
-      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
+      "lastCheckedAt": "2026-11-27T18:46:57.002Z"
     }
   ],
   "events": [
@@ -525,6 +525,40 @@
       ],
       "listingId": "aqua-imports:183801",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-27T18:46:20.969Z",
+      "price": 5.03,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67650860974396",
+          "label": "Small",
+          "price": 5.03,
+          "available": true
+        },
+        {
+          "id": "54350801633596",
+          "label": "Medium",
+          "price": 5.83,
+          "available": true
+        },
+        {
+          "id": "54350801666364",
+          "label": "Large",
+          "price": 7.56,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:39:04.942Z",
+      "listingId": "nu-aqua-shop:10481463853372",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

@@ -8,35 +8,35 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Ruby Red Pencilfish",
-      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
+      "lastCheckedAt": "2026-11-27T18:44:37.293Z"
     },
     {
       "listingId": "imperial-tropicals:8398111408435",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Coral Red Pencilfish",
-      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
+      "lastCheckedAt": "2026-11-27T18:45:07.523Z"
     },
     {
       "listingId": "nu-aqua-shop:10006358982972",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Coral Red Pencilfish",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     },
     {
       "listingId": "shrimpy-business:9455608725794",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Coral Red Pencilfish",
-      "lastCheckedAt": "2026-11-27T04:36:58.601Z"
+      "lastCheckedAt": "2026-11-27T18:44:14.352Z"
     },
     {
       "listingId": "aqua-imports:38828",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Coral Red Pencilfish (Nannostomus mortenthaleri)",
-      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
+      "lastCheckedAt": "2026-11-27T18:46:57.002Z"
     }
   ],
   "events": [
@@ -279,6 +279,58 @@
       "listingId": "aquarium-fish:6657686662",
       "storeSlug": "aquarium-fish",
       "confirmedSameUntil": "2026-11-25T19:02:12.467Z"
+    },
+    {
+      "observedAt": "2026-11-27T18:46:20.969Z",
+      "price": 12.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51644980986172",
+          "label": "Small / Single",
+          "price": 12.79,
+          "available": false
+        },
+        {
+          "id": "51644981018940",
+          "label": "Small / Group of 3",
+          "price": 34.54,
+          "available": false
+        },
+        {
+          "id": "51644981051708",
+          "label": "Small / Group of 6",
+          "price": 65.24,
+          "available": false
+        },
+        {
+          "id": "51644981084476",
+          "label": "Large / Single",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "51644981117244",
+          "label": "Large / Group of 3",
+          "price": 43.18,
+          "available": false
+        },
+        {
+          "id": "51644981150012",
+          "label": "Large / Group of 6",
+          "price": 81.56,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:39:04.942Z",
+      "listingId": "nu-aqua-shop:10006358982972",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

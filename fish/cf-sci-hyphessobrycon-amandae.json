@@ -8,70 +8,70 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Ember Tetra",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     },
     {
       "listingId": "monster-aquarium:6970076823761",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Ember Tetra (Hyphessobrycon amandae)",
-      "lastCheckedAt": "2026-11-27T04:36:20.162Z"
+      "lastCheckedAt": "2026-11-27T18:43:36.325Z"
     },
     {
       "listingId": "aquahuna:1710192853035",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Ember Tetra",
-      "lastCheckedAt": "2026-11-27T04:36:35.502Z"
+      "lastCheckedAt": "2026-11-27T18:43:51.572Z"
     },
     {
       "listingId": "ck-fish-world:8150006235351",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Ember Tetra",
-      "lastCheckedAt": "2026-11-27T04:36:48.327Z"
+      "lastCheckedAt": "2026-11-27T18:44:04.188Z"
     },
     {
       "listingId": "shrimpy-business:6715916910677",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Ember Tetra (Tank-Bred)",
-      "lastCheckedAt": "2026-11-27T04:36:58.601Z"
+      "lastCheckedAt": "2026-11-27T18:44:14.352Z"
     },
     {
       "listingId": "imperial-tropicals:8398116192563",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Ember Tetra",
-      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
+      "lastCheckedAt": "2026-11-27T18:45:07.523Z"
     },
     {
       "listingId": "aquarium-fish:777268559991+9203721011499",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Ember Tetra",
-      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
+      "lastCheckedAt": "2026-11-27T18:44:37.293Z"
     },
     {
       "listingId": "flip-aquatics:458254254120",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Ember Tetra | Hyphessobrycon Amandae",
-      "lastCheckedAt": "2026-11-27T04:37:05.797Z"
+      "lastCheckedAt": "2026-11-27T18:44:21.584Z"
     },
     {
       "listingId": "dans-fish:10127102312746",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Ember Tetra",
-      "lastCheckedAt": "2026-11-27T04:39:20.672Z"
+      "lastCheckedAt": "2026-11-27T18:46:36.497Z"
     },
     {
       "listingId": "aqua-imports:42664",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Ember Tetra (Hyphessobrycon amandae)",
-      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
+      "lastCheckedAt": "2026-11-27T18:46:57.002Z"
     }
   ],
   "events": [
@@ -1609,6 +1609,78 @@
       ],
       "listingId": "imperial-tropicals:8398116192563",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-27T18:45:07.523Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48927499813171",
+          "label": "(3 Pack) 0.25-0.5\" Unsexed Captive Bred",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "id": "45612140626227",
+          "label": "(10 Pack) 0.25-0.5\" Unsexed Captive Bred",
+          "price": 26.99,
+          "available": true
+        },
+        {
+          "id": "51837498425651",
+          "label": "1-2\" Unsexed Wild Caught Rio Guapore",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "51837501800755",
+          "label": "(10 Pack) 1-2\" Unsexed Wild Caught Rio Guapore",
+          "price": 224.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398116192563",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-27T18:46:20.969Z",
+      "price": 2.52,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51718427672892",
+          "label": "Single",
+          "price": 2.52,
+          "available": true
+        },
+        {
+          "id": "51718427705660",
+          "label": "Group of 3",
+          "price": 6.8,
+          "available": true
+        },
+        {
+          "id": "51718427738428",
+          "label": "Group of 6",
+          "price": 12.1,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:39:04.942Z",
+      "listingId": "nu-aqua-shop:10006315860284",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

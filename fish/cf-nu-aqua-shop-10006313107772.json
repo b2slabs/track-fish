@@ -8,21 +8,21 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Alternathera Reineckii",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     },
     {
       "listingId": "glass-aqua:11277475207",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Alternanthera Reineckii",
-      "lastCheckedAt": "2026-11-27T04:38:40.408Z"
+      "lastCheckedAt": "2026-11-27T18:45:56.915Z"
     },
     {
       "listingId": "aqua-imports:60025",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Alternanthera reineckii",
-      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
+      "lastCheckedAt": "2026-11-27T18:46:57.002Z"
     }
   ],
   "events": [
@@ -217,6 +217,28 @@
       ],
       "listingId": "glass-aqua:11277475207",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-27T18:46:20.969Z",
+      "price": 5.2,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51627484283196",
+          "label": "Title",
+          "price": 5.2,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:39:04.942Z",
+      "listingId": "nu-aqua-shop:10006313107772",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }

@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Parkisoni Rainbowfish",
-      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
+      "lastCheckedAt": "2026-11-27T18:44:37.293Z"
     },
     {
       "listingId": "imperial-tropicals:8397976830259",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Parkinsoni Rainbowfish",
-      "lastCheckedAt": "2026-11-27T04:37:51.180Z"
+      "lastCheckedAt": "2026-11-27T18:45:07.523Z"
     },
     {
       "listingId": "aqua-imports:162088+182681",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Parkinsoni Rainbowfish (Melanotaenia parkinsoni)",
-      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
+      "lastCheckedAt": "2026-11-27T18:46:57.002Z"
     }
   ],
   "events": [
@@ -149,6 +149,63 @@
       "listingId": "aquarium-fish:9215860965675",
       "storeSlug": "aquarium-fish",
       "confirmedSameUntil": "2026-11-25T19:02:12.467Z"
+    },
+    {
+      "observedAt": "2026-11-27T18:45:07.523Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611726340403",
+          "label": "2-3” Female",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "45611726307635",
+          "label": "2-3” Male",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "48395112448307",
+          "label": "2-3\" Pair (1 Male, 1 Female)",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "id": "45611726373171",
+          "label": "2-3\" Trio (1 Male, 2 Female)",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "52852210041139",
+          "label": "3-4” Female",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "52852209582387",
+          "label": "3-4” Male",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "52852212728115",
+          "label": "3-4\" Pair (1 Male, 1 Female)",
+          "price": 42.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:37:51.180Z",
+      "listingId": "imperial-tropicals:8397976830259",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

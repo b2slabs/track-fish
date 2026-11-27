@@ -8,28 +8,28 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Betta Macrostoma (Pair)",
-      "lastCheckedAt": "2026-11-27T04:37:21.498Z"
+      "lastCheckedAt": "2026-11-27T18:44:37.293Z"
     },
     {
       "listingId": "nu-aqua-shop:10285938803004",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Betta Macrostoma",
-      "lastCheckedAt": "2026-11-27T04:39:04.942Z"
+      "lastCheckedAt": "2026-11-27T18:46:20.969Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:685716",
       "storeSlug": "wet-spot-tropical-fish",
       "storeName": "The Wet Spot Tropical Fish",
       "commonName": "Betta macrostoma",
-      "lastCheckedAt": "2026-11-27T04:39:31.261Z"
+      "lastCheckedAt": "2026-11-27T18:46:46.898Z"
     },
     {
       "listingId": "aqua-imports:51045",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Macrostoma Betta (Betta macrostoma)",
-      "lastCheckedAt": "2026-11-27T04:39:41.069Z"
+      "lastCheckedAt": "2026-11-27T18:46:57.002Z"
     }
   ],
   "events": [
@@ -146,6 +146,40 @@
       "listingId": "aquarium-fish:1747707232326",
       "storeSlug": "aquarium-fish",
       "confirmedSameUntil": "2026-11-25T19:02:12.467Z"
+    },
+    {
+      "observedAt": "2026-11-27T18:46:20.969Z",
+      "price": 95.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52982754804028",
+          "label": "Pair",
+          "price": 191.99,
+          "available": false
+        },
+        {
+          "id": "52982754836796",
+          "label": "Male",
+          "price": 115.19,
+          "available": false
+        },
+        {
+          "id": "52982754869564",
+          "label": "Female",
+          "price": 95.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "confirmedSameUntil": "2026-11-27T04:39:04.942Z",
+      "listingId": "nu-aqua-shop:10285938803004",
+      "storeSlug": "nu-aqua-shop"
     }
   ]
 }
