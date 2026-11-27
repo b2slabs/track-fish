@@ -89,26 +89,6 @@
       "storeSlug": "aquahuna"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.593Z",
-      "price": 10,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42021037768779",
-          "label": "Title",
-          "price": 10,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquahuna:7525932466251",
-      "storeSlug": "aquahuna"
-    },
-    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 12.99,
       "currency": "USD",
@@ -163,7 +143,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "nu-aqua-shop:10006315663676+10266111836476",
       "storeSlug": "nu-aqua-shop"
@@ -189,7 +170,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "nu-aqua-shop:10006315663676+10266111836476",
       "storeSlug": "nu-aqua-shop"

@@ -118,26 +118,6 @@
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T06:27:39.339Z",
-      "price": 9.95,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "45588169195810",
-          "label": "Title",
-          "price": 9.95,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "shrimpy-business:8387931504930",
-      "storeSlug": "shrimpy-business"
-    },
-    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 8.99,
       "currency": "USD",
@@ -216,7 +196,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:1346606006353+4632300781649+8478575181+9560094029",
       "storeSlug": "buce-plant"
@@ -242,7 +223,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:1346606006353+4632300781649+8478575181+9560094029",
       "storeSlug": "buce-plant"
@@ -262,7 +244,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:1346606006353+4632300781649+8478575181+9560094029",
       "storeSlug": "buce-plant"
@@ -350,7 +333,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:1346606006353+4632300781649+8478575181+9560094029",
       "storeSlug": "buce-plant"

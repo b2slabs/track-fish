@@ -95,32 +95,6 @@
     },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
-      "price": 169.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "41922802548945",
-          "label": "5-6”",
-          "price": 169.99,
-          "available": false
-        },
-        {
-          "id": "42441378300113",
-          "label": "8-10\"",
-          "price": 550,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "monster-aquarium:6972220342481+7348784726225",
-      "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 33.99,
       "currency": "USD",
       "available": true,
@@ -146,7 +120,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "monster-aquarium:6972220342481+7348784726225",
       "storeSlug": "monster-aquarium"
@@ -298,7 +274,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "monster-aquarium:6972220342481+7348784726225",
       "storeSlug": "monster-aquarium"
@@ -467,7 +443,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "imperial-tropicals:15503702294835+15503725134131+15503740928307+15503760949555+8397970047283",
       "storeSlug": "imperial-tropicals"

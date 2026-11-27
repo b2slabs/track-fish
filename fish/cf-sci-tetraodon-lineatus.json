@@ -157,26 +157,6 @@
     },
     {
       "observedAt": "2026-11-20T06:14:42.593Z",
-      "price": 20,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "40421923881035",
-          "label": "Title",
-          "price": 20,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquahuna:2180215832619+6972738895947",
-      "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-20T06:14:42.593Z",
       "price": 12.5,
       "currency": "USD",
       "available": false,
@@ -190,7 +170,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquahuna:2180215832619+6972738895947",
       "storeSlug": "aquahuna"
@@ -268,7 +249,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquahuna:2180215832619+6972738895947",
       "storeSlug": "aquahuna"

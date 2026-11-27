@@ -1022,44 +1022,6 @@
       "storeSlug": "aquahuna"
     },
     {
-      "observedAt": "2026-11-20T06:27:39.339Z",
-      "price": 24,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "39999036915797",
-          "label": "3 Fish",
-          "price": 24,
-          "available": true
-        },
-        {
-          "id": "39999036948565",
-          "label": "6 Fish",
-          "price": 42.95,
-          "available": true
-        },
-        {
-          "id": "51662845804834",
-          "label": "12 Fish",
-          "price": 81.95,
-          "available": true
-        },
-        {
-          "id": "51662845837602",
-          "label": "24 Fish",
-          "price": 153.95,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "shrimpy-business:6740281983061",
-      "storeSlug": "shrimpy-business"
-    },
-    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 11.99,
       "currency": "USD",
@@ -1094,7 +1056,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:6574291078+9211142471979",
       "storeSlug": "aquarium-fish"
@@ -1114,7 +1077,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:6574291078+9211142471979",
       "storeSlug": "aquarium-fish"
@@ -1144,26 +1108,6 @@
       ],
       "listingId": "imperial-tropicals:8398109376819",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:46.524Z",
-      "price": 45,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "68029595287770",
-          "label": "5 pack (mixed sex)",
-          "price": 45,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "daku-aquatics:15308656541914",
-      "storeSlug": "daku-aquatics"
     },
     {
       "observedAt": "2026-11-21T01:29:44.090Z",
@@ -1206,7 +1150,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:6574291078+9211142471979",
       "storeSlug": "aquarium-fish"

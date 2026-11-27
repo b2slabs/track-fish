@@ -173,26 +173,6 @@
       "storeSlug": "flip-aquatics"
     },
     {
-      "observedAt": "2026-11-20T06:27:40.165Z",
-      "price": 11.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45588121944166",
-          "label": "3\" x 3\" Mat",
-          "price": 11.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "flip-aquatics:7993537560678",
-      "storeSlug": "flip-aquatics"
-    },
-    {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 14.99,
       "currency": "USD",
@@ -239,7 +219,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:1381586600017+29054828557",
       "storeSlug": "buce-plant"
@@ -351,7 +333,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "buce-plant:1381586600017+29054828557",
       "storeSlug": "buce-plant"

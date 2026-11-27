@@ -307,26 +307,6 @@
     },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
-      "price": 26.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "67678035837227",
-          "label": "Title",
-          "price": 26.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquarium-fish:1376668549190+15408361537835",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 6.29,
       "currency": "USD",
       "available": false,
@@ -340,7 +320,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:1376668549190+15408361537835",
       "storeSlug": "aquarium-fish"
@@ -430,7 +411,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:1376668549190+15408361537835",
       "storeSlug": "aquarium-fish"

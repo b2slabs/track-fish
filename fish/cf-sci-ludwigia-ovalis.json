@@ -420,30 +420,12 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquatic-arts:3482374340694+6766374813782",
       "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:39.339Z",
-      "price": 8.95,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "50451576193314",
-          "label": "Pot",
-          "price": 8.95,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "shrimpy-business:8218756022562",
-      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
@@ -464,26 +446,6 @@
       ],
       "listingId": "flip-aquatics:6692631904358",
       "storeSlug": "flip-aquatics"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:46.524Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "46363259928794",
-          "label": "Title",
-          "price": 6.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "daku-aquatics:8835163259098",
-      "storeSlug": "daku-aquatics"
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
@@ -570,7 +532,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquatic-arts:3482374340694+6766374813782",
       "storeSlug": "aquatic-arts"

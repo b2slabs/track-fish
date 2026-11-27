@@ -980,38 +980,6 @@
       "storeSlug": "aquahuna"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 20.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336045977815",
-          "label": "3",
-          "price": 20.98,
-          "available": true
-        },
-        {
-          "id": "45336046010583",
-          "label": "5",
-          "price": 30.98,
-          "available": true
-        },
-        {
-          "id": "45336046043351",
-          "label": "10",
-          "price": 50.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8147766935767",
-      "storeSlug": "ck-fish-world"
-    },
-    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 36.29,
       "currency": "USD",
@@ -1046,7 +1014,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130824495403+775134806135",
       "storeSlug": "aquarium-fish"
@@ -1076,26 +1045,6 @@
       ],
       "listingId": "imperial-tropicals:8397999178035",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:46.524Z",
-      "price": 40,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "46043854242010",
-          "label": "5 Pack (mixed sex)",
-          "price": 40,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "daku-aquatics:8741041930458",
-      "storeSlug": "daku-aquatics"
     },
     {
       "observedAt": "2026-11-21T01:29:18.881Z",
@@ -1213,7 +1162,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:10130824495403+775134806135",
       "storeSlug": "aquarium-fish"

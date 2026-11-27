@@ -127,26 +127,6 @@
       "storeSlug": "buce-plant"
     },
     {
-      "observedAt": "2026-11-20T06:27:39.339Z",
-      "price": 7.95,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39615975325781",
-          "label": "Title",
-          "price": 7.95,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "shrimpy-business:6651842101333",
-      "storeSlug": "shrimpy-business"
-    },
-    {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 12.99,
       "currency": "USD",
@@ -161,7 +141,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:8011809063112+9540942541",
       "storeSlug": "buce-plant"
@@ -187,7 +169,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:8011809063112+9540942541",
       "storeSlug": "buce-plant"
@@ -239,7 +222,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "buce-plant:8011809063112+9540942541",
       "storeSlug": "buce-plant"

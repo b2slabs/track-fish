@@ -196,26 +196,6 @@
     },
     {
       "observedAt": "2026-11-20T06:14:42.593Z",
-      "price": 20,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "40007725678667",
-          "label": "Title",
-          "price": 20,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquahuna:2179579019307+6829146669131",
-      "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-20T06:14:42.593Z",
       "price": 18,
       "currency": "USD",
       "available": false,
@@ -229,7 +209,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquahuna:2179579019307+6829146669131",
       "storeSlug": "aquahuna"
@@ -269,42 +250,11 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10031199387947+4616193409105",
       "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:43.785Z",
-      "price": 29.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "54006016508211",
-          "label": "1-2\" Female",
-          "price": 29.99,
-          "available": false
-        },
-        {
-          "id": "54006016540979",
-          "label": "1-2\" Male",
-          "price": 34.99,
-          "available": false
-        },
-        {
-          "id": "54006016573747",
-          "label": "1-2\" Pair (1 Male, 1 Female)",
-          "price": 59.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "imperial-tropicals:10425668895027",
-      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-21T01:29:44.090Z",
@@ -353,7 +303,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquahuna:2179579019307+6829146669131",
       "storeSlug": "aquahuna"
@@ -379,7 +329,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10031199387947+4616193409105",
       "storeSlug": "aquarium-fish"

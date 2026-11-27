@@ -41,26 +41,6 @@
     },
     {
       "observedAt": "2026-11-20T06:27:39.339Z",
-      "price": 13.95,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "50394196443426",
-          "label": "Pot",
-          "price": 13.95,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "shrimpy-business:6721544912981",
-      "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 11.95,
       "currency": "USD",
       "available": false,
@@ -74,7 +54,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "shrimpy-business:6721544912981",
       "storeSlug": "shrimpy-business"
@@ -94,7 +75,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "shrimpy-business:6721544912981",
       "storeSlug": "shrimpy-business"
@@ -114,7 +96,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "shrimpy-business:6721544912981",
       "storeSlug": "shrimpy-business"
@@ -134,7 +117,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "available",
+        "variants"
       ],
       "listingId": "shrimpy-business:6721544912981",
       "storeSlug": "shrimpy-business"
@@ -154,7 +138,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "shrimpy-business:6721544912981",
       "storeSlug": "shrimpy-business"
@@ -224,7 +208,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "shrimpy-business:6721544912981",
       "storeSlug": "shrimpy-business"
@@ -244,7 +228,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "shrimpy-business:6721544912981",
       "storeSlug": "shrimpy-business"

@@ -303,26 +303,6 @@
       "storeSlug": "buce-plant"
     },
     {
-      "observedAt": "2026-11-20T06:27:47.109Z",
-      "price": 15.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "21231899649",
-          "label": "Loose Plant",
-          "price": 15.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "buce-plant:6727444609",
-      "storeSlug": "buce-plant"
-    },
-    {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 7.99,
       "currency": "USD",
@@ -349,7 +329,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "available",
+        "variants"
       ],
       "listingId": "glass-aqua:7553249345622",
       "storeSlug": "glass-aqua"

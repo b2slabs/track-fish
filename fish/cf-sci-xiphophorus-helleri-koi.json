@@ -909,7 +909,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "shrimpy-business:9751495901474+9797207982370",
       "storeSlug": "shrimpy-business"
@@ -947,30 +949,12 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "shrimpy-business:9751495901474+9797207982370",
       "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:40.165Z",
-      "price": 9.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "43346062016614",
-          "label": "Imported / 1 Fish",
-          "price": 9.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "flip-aquatics:7741803724902",
-      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
@@ -1011,7 +995,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "imperial-tropicals:9370657161523",
       "storeSlug": "imperial-tropicals"
@@ -1099,7 +1084,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "shrimpy-business:9751495901474+9797207982370",
       "storeSlug": "shrimpy-business"

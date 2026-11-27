@@ -410,7 +410,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "shrimpy-business:6721548812373",
       "storeSlug": "shrimpy-business"
@@ -530,26 +532,6 @@
       "storeSlug": "imperial-tropicals"
     },
     {
-      "observedAt": "2026-11-22T00:27:06.534Z",
-      "price": 12.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "46043838742746",
-          "label": "Title",
-          "price": 12.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "daku-aquatics:8741033672922",
-      "storeSlug": "daku-aquatics"
-    },
-    {
       "observedAt": "2026-11-22T00:27:20.421Z",
       "price": 8.99,
       "currency": "USD",
@@ -622,7 +604,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "shrimpy-business:6721548812373",
       "storeSlug": "shrimpy-business"
@@ -642,7 +626,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "flip-aquatics:6692631248998",
       "storeSlug": "flip-aquatics"
@@ -674,7 +658,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:2440113815633",
       "storeSlug": "aquarium-fish"

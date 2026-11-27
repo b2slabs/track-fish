@@ -693,44 +693,6 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-20T05:43:01.800Z",
-      "price": 21.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "12676412342358",
-          "label": "School of 3",
-          "price": 21.99,
-          "available": false
-        },
-        {
-          "id": "12676412375126",
-          "label": "School of 6",
-          "price": 34.99,
-          "available": false
-        },
-        {
-          "id": "12676412407894",
-          "label": "School of 9",
-          "price": 47.99,
-          "available": false
-        },
-        {
-          "id": "12676412440662",
-          "label": "School of 12",
-          "price": 57.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquatic-arts:1371330281558",
-      "storeSlug": "aquatic-arts"
-    },
-    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 11.99,
       "currency": "USD",
@@ -785,7 +747,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130832720171+6082712134",
       "storeSlug": "aquarium-fish"
@@ -831,7 +794,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:10130832720171+6082712134",
       "storeSlug": "aquarium-fish"

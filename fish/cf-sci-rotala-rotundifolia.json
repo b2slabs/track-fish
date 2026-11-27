@@ -321,26 +321,6 @@
       "storeSlug": "ck-fish-world"
     },
     {
-      "observedAt": "2026-11-20T06:27:39.339Z",
-      "price": 8.95,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "49165755253026",
-          "label": "Title",
-          "price": 8.95,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "shrimpy-business:9488862675234",
-      "storeSlug": "shrimpy-business"
-    },
-    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 7.99,
       "currency": "USD",
@@ -415,7 +395,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:1317161926737+4649367470161+7137082867912+7464900034760+7473935941832+9390248205",
       "storeSlug": "buce-plant"
@@ -435,7 +416,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:1317161926737+4649367470161+7137082867912+7464900034760+7473935941832+9390248205",
       "storeSlug": "buce-plant"
@@ -461,7 +443,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:1317161926737+4649367470161+7137082867912+7464900034760+7473935941832+9390248205",
       "storeSlug": "buce-plant"
@@ -481,7 +464,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:1317161926737+4649367470161+7137082867912+7464900034760+7473935941832+9390248205",
       "storeSlug": "buce-plant"
@@ -501,7 +485,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:1317161926737+4649367470161+7137082867912+7464900034760+7473935941832+9390248205",
       "storeSlug": "buce-plant"
@@ -623,7 +608,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "buce-plant:1317161926737+4649367470161+7137082867912+7464900034760+7473935941832+9390248205",
       "storeSlug": "buce-plant"
@@ -643,7 +628,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquatic-arts:8583669678359+8962517336343",
       "storeSlug": "aquatic-arts"
@@ -675,7 +662,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "glass-aqua:1329145806934+490067591200",
       "storeSlug": "glass-aqua"
@@ -701,7 +689,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquatic-arts:8583669678359+8962517336343",
       "storeSlug": "aquatic-arts"
@@ -849,7 +837,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "glass-aqua:1329145806934+490067591200",
       "storeSlug": "glass-aqua"

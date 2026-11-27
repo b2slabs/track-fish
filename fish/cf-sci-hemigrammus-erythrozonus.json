@@ -2080,96 +2080,6 @@
       "storeSlug": "aquahuna"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 12.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336086020311",
-          "label": "3",
-          "price": 12.98,
-          "available": true
-        },
-        {
-          "id": "45336086053079",
-          "label": "5",
-          "price": 19.98,
-          "available": true
-        },
-        {
-          "id": "45336086085847",
-          "label": "10",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8150006825175",
-      "storeSlug": "ck-fish-world"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:39.339Z",
-      "price": 12.5,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "50520157126946",
-          "label": "3 Fish",
-          "price": 12.5,
-          "available": false
-        },
-        {
-          "id": "50520157159714",
-          "label": "6 Fish",
-          "price": 22.95,
-          "available": false
-        },
-        {
-          "id": "51662833778978",
-          "label": "12 Fish",
-          "price": 42.95,
-          "available": false
-        },
-        {
-          "id": "51662833811746",
-          "label": "24 Fish",
-          "price": 79.95,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "shrimpy-business:9910666101026",
-      "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:42.901Z",
-      "price": 17.67,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48411597570347",
-          "label": "Title",
-          "price": 17.67,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquarium-fish:4866036294+9178614792491",
-      "storeSlug": "aquarium-fish"
-    },
-    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 4.24,
       "currency": "USD",
@@ -2184,7 +2094,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:4866036294+9178614792491",
       "storeSlug": "aquarium-fish"
@@ -2397,7 +2308,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:4866036294+9178614792491",
       "storeSlug": "aquarium-fish"

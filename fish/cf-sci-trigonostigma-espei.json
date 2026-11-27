@@ -1769,64 +1769,6 @@
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T06:02:14.062Z",
-      "price": 5,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "43214577139921",
-          "label": ".5\"",
-          "price": 5,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "monster-aquarium:7777418739921",
-      "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:39.339Z",
-      "price": 12.5,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "49112827199778",
-          "label": "3 Fish",
-          "price": 12.5,
-          "available": false
-        },
-        {
-          "id": "49112827232546",
-          "label": "6 Fish",
-          "price": 22.95,
-          "available": false
-        },
-        {
-          "id": "51662841282850",
-          "label": "12 Fish",
-          "price": 42.95,
-          "available": false
-        },
-        {
-          "id": "51662841315618",
-          "label": "24 Fish",
-          "price": 79.95,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "shrimpy-business:9470962696482",
-      "storeSlug": "shrimpy-business"
-    },
-    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 21.16,
       "currency": "USD",
@@ -1861,7 +1803,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130816270635+4675595534417",
       "storeSlug": "aquarium-fish"
@@ -1907,7 +1850,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:10130816270635+4675595534417",
       "storeSlug": "aquarium-fish"

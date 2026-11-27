@@ -60,38 +60,6 @@
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
-      "price": 13.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "19442040438870",
-          "label": "1 Tissue Culture",
-          "price": 13.99,
-          "available": false
-        },
-        {
-          "id": "19442040471638",
-          "label": "2 Tissue Cultures",
-          "price": 26.99,
-          "available": false
-        },
-        {
-          "id": "19442040504406",
-          "label": "3 Tissue Cultures",
-          "price": 38.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquatic-arts:151217700876+189049372684+1923337781334",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 12.99,
       "currency": "USD",
       "available": false,
@@ -117,7 +85,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:151217700876+189049372684+1923337781334",
       "storeSlug": "aquatic-arts"
@@ -137,7 +106,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:151217700876+189049372684+1923337781334",
       "storeSlug": "aquatic-arts"
@@ -183,7 +153,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:10012492173+1344971800657+5653813569+7427258941640+7476194246856+7485983233+8478661133+9520290509",
       "storeSlug": "buce-plant"
@@ -203,7 +175,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:10012492173+1344971800657+5653813569+7427258941640+7476194246856+7485983233+8478661133+9520290509",
       "storeSlug": "buce-plant"
@@ -223,7 +197,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:10012492173+1344971800657+5653813569+7427258941640+7476194246856+7485983233+8478661133+9520290509",
       "storeSlug": "buce-plant"
@@ -255,7 +230,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:10012492173+1344971800657+5653813569+7427258941640+7476194246856+7485983233+8478661133+9520290509",
       "storeSlug": "buce-plant"
@@ -275,7 +252,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:10012492173+1344971800657+5653813569+7427258941640+7476194246856+7485983233+8478661133+9520290509",
       "storeSlug": "buce-plant"
@@ -301,7 +279,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:10012492173+1344971800657+5653813569+7427258941640+7476194246856+7485983233+8478661133+9520290509",
       "storeSlug": "buce-plant"
@@ -333,7 +312,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "buce-plant:10012492173+1344971800657+5653813569+7427258941640+7476194246856+7485983233+8478661133+9520290509",
       "storeSlug": "buce-plant"
@@ -451,7 +430,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "buce-plant:10012492173+1344971800657+5653813569+7427258941640+7476194246856+7485983233+8478661133+9520290509",
       "storeSlug": "buce-plant"
@@ -507,7 +486,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:151217700876+189049372684+1923337781334",
       "storeSlug": "aquatic-arts"

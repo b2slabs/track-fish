@@ -1168,96 +1168,6 @@
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 33.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "44098362966231",
-          "label": "3",
-          "price": 33.98,
-          "available": true
-        },
-        {
-          "id": "45966445052119",
-          "label": "5",
-          "price": 54.98,
-          "available": true
-        },
-        {
-          "id": "45966445084887",
-          "label": "10",
-          "price": 99.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8150016852183",
-      "storeSlug": "ck-fish-world"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:39.339Z",
-      "price": 11.95,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "49231901983010",
-          "label": "1 Fish",
-          "price": 11.95,
-          "available": false
-        },
-        {
-          "id": "49231902015778",
-          "label": "3 Fish",
-          "price": 31.95,
-          "available": false
-        },
-        {
-          "id": "51662840529186",
-          "label": "6 Fish",
-          "price": 60.95,
-          "available": false
-        },
-        {
-          "id": "51662840561954",
-          "label": "12 Fish",
-          "price": 114.95,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "shrimpy-business:9512719974690",
-      "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:40.165Z",
-      "price": 13.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "43362525708390",
-          "label": "Imported / 1 Fish",
-          "price": 13.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "flip-aquatics:7745383497830",
-      "storeSlug": "flip-aquatics"
-    },
-    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 39.94,
       "currency": "USD",
@@ -1292,7 +1202,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130825773355+10130825969963+10845873932+10845948236",
       "storeSlug": "aquarium-fish"
@@ -1312,7 +1223,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130825773355+10130825969963+10845873932+10845948236",
       "storeSlug": "aquarium-fish"
@@ -1344,7 +1256,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130825773355+10130825969963+10845873932+10845948236",
       "storeSlug": "aquarium-fish"
@@ -1380,26 +1293,6 @@
       ],
       "listingId": "imperial-tropicals:8397998489907",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:57.334Z",
-      "price": 12,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "46706386206912",
-          "label": "2.5 -3 inch",
-          "price": 12,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "global-exoticquatics:8309396570304",
-      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-21T01:29:18.881Z",
@@ -1580,7 +1473,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130825773355+10130825969963+10845873932+10845948236",
       "storeSlug": "aquarium-fish"

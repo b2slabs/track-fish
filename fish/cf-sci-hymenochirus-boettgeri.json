@@ -831,26 +831,6 @@
     },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42297331712102",
-          "label": "Imported / 1 Frog",
-          "price": 10.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "flip-aquatics:6949994332262+7488184909926",
-      "storeSlug": "flip-aquatics"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 6.99,
       "currency": "USD",
       "available": true,
@@ -864,7 +844,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "flip-aquatics:6949994332262+7488184909926",
       "storeSlug": "flip-aquatics"
@@ -910,7 +891,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130819973419+1572125048902+6096752838+9130313220395",
       "storeSlug": "aquarium-fish"
@@ -930,7 +912,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130819973419+1572125048902+6096752838+9130313220395",
       "storeSlug": "aquarium-fish"
@@ -950,7 +933,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130819973419+1572125048902+6096752838+9130313220395",
       "storeSlug": "aquarium-fish"
@@ -1014,7 +998,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130819973419+1572125048902+6096752838+9130313220395",
       "storeSlug": "aquarium-fish"
@@ -1040,7 +1025,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "flip-aquatics:6949994332262+7488184909926",
       "storeSlug": "flip-aquatics"

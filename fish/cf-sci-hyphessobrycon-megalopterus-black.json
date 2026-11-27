@@ -114,38 +114,6 @@
       "storeSlug": "aquahuna"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 12.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336030904535",
-          "label": "3",
-          "price": 12.98,
-          "available": true
-        },
-        {
-          "id": "45336030937303",
-          "label": "5",
-          "price": 19.98,
-          "available": true
-        },
-        {
-          "id": "45336030970071",
-          "label": "10",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8149557739735",
-      "storeSlug": "ck-fish-world"
-    },
-    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 4.99,
       "currency": "USD",
@@ -200,7 +168,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:777269870711+9134625292587",
       "storeSlug": "aquarium-fish"
@@ -310,7 +279,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:777269870711+9134625292587",
       "storeSlug": "aquarium-fish"

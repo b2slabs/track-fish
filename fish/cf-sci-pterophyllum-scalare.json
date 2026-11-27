@@ -552,7 +552,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquatic-arts:1376822558806+1376847855702+14661630984559+14759189741935+14814010212719+4541186342998+4964433821782+5001220063318+6719932498006",
       "storeSlug": "aquatic-arts"
@@ -953,7 +953,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquatic-arts:1376822558806+1376847855702+14661630984559+14759189741935+14814010212719+4541186342998+4964433821782+5001220063318+6719932498006",
       "storeSlug": "aquatic-arts"
@@ -985,7 +985,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquatic-arts:1376822558806+1376847855702+14661630984559+14759189741935+14814010212719+4541186342998+4964433821782+5001220063318+6719932498006",
       "storeSlug": "aquatic-arts"
@@ -1017,7 +1019,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:1376822558806+1376847855702+14661630984559+14759189741935+14814010212719+4541186342998+4964433821782+5001220063318+6719932498006",
       "storeSlug": "aquatic-arts"
@@ -1049,7 +1052,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:1376822558806+1376847855702+14661630984559+14759189741935+14814010212719+4541186342998+4964433821782+5001220063318+6719932498006",
       "storeSlug": "aquatic-arts"
@@ -1093,7 +1097,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:1376822558806+1376847855702+14661630984559+14759189741935+14814010212719+4541186342998+4964433821782+5001220063318+6719932498006",
       "storeSlug": "aquatic-arts"
@@ -1137,7 +1142,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:1376822558806+1376847855702+14661630984559+14759189741935+14814010212719+4541186342998+4964433821782+5001220063318+6719932498006",
       "storeSlug": "aquatic-arts"
@@ -1181,7 +1187,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquatic-arts:1376822558806+1376847855702+14661630984559+14759189741935+14814010212719+4541186342998+4964433821782+5001220063318+6719932498006",
       "storeSlug": "aquatic-arts"
@@ -1225,7 +1231,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:1376822558806+1376847855702+14661630984559+14759189741935+14814010212719+4541186342998+4964433821782+5001220063318+6719932498006",
       "storeSlug": "aquatic-arts"
@@ -1269,7 +1276,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:1376822558806+1376847855702+14661630984559+14759189741935+14814010212719+4541186342998+4964433821782+5001220063318+6719932498006",
       "storeSlug": "aquatic-arts"
@@ -1315,7 +1323,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "monster-aquarium:6967898964177+6978525528273+7105084522705",
       "storeSlug": "monster-aquarium"
@@ -1341,7 +1351,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "monster-aquarium:6967898964177+6978525528273+7105084522705",
       "storeSlug": "monster-aquarium"
@@ -1381,7 +1393,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquahuna:1722582597675+1833597993003+6737351606347",
       "storeSlug": "aquahuna"
@@ -1401,30 +1414,10 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquahuna:1722582597675+1833597993003+6737351606347",
       "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 10.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "44434198659287",
-          "label": "Title",
-          "price": 10.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8251126382807",
-      "storeSlug": "ck-fish-world"
     },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
@@ -1461,7 +1454,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:10399073567019+5993448518+6659313798+6844370976849+6844377464913+6844382249041+6844386279505+776821440631+9388821741867",
       "storeSlug": "aquarium-fish"
@@ -1493,7 +1488,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:10399073567019+5993448518+6659313798+6844370976849+6844377464913+6844382249041+6844386279505+776821440631+9388821741867",
       "storeSlug": "aquarium-fish"
@@ -1513,7 +1510,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:10399073567019+5993448518+6659313798+6844370976849+6844377464913+6844382249041+6844386279505+776821440631+9388821741867",
       "storeSlug": "aquarium-fish"
@@ -1533,7 +1532,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10399073567019+5993448518+6659313798+6844370976849+6844377464913+6844382249041+6844386279505+776821440631+9388821741867",
       "storeSlug": "aquarium-fish"
@@ -1559,7 +1559,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10399073567019+5993448518+6659313798+6844370976849+6844377464913+6844382249041+6844386279505+776821440631+9388821741867",
       "storeSlug": "aquarium-fish"
@@ -1585,7 +1586,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:10399073567019+5993448518+6659313798+6844370976849+6844377464913+6844382249041+6844386279505+776821440631+9388821741867",
       "storeSlug": "aquarium-fish"
@@ -1623,7 +1626,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:10399073567019+5993448518+6659313798+6844370976849+6844377464913+6844382249041+6844386279505+776821440631+9388821741867",
       "storeSlug": "aquarium-fish"
@@ -1649,7 +1654,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:10399073567019+5993448518+6659313798+6844370976849+6844377464913+6844382249041+6844386279505+776821440631+9388821741867",
       "storeSlug": "aquarium-fish"
@@ -1701,7 +1708,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "imperial-tropicals:15445425127731+8398048493875+8398069072179+8398112522547+8398186119475+8398186283315+8818969575731",
       "storeSlug": "imperial-tropicals"
@@ -1727,7 +1736,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "imperial-tropicals:15445425127731+8398048493875+8398069072179+8398112522547+8398186119475+8398186283315+8818969575731",
       "storeSlug": "imperial-tropicals"
@@ -1759,7 +1769,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "imperial-tropicals:15445425127731+8398048493875+8398069072179+8398112522547+8398186119475+8398186283315+8818969575731",
       "storeSlug": "imperial-tropicals"
@@ -1779,7 +1790,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "imperial-tropicals:15445425127731+8398048493875+8398069072179+8398112522547+8398186119475+8398186283315+8818969575731",
       "storeSlug": "imperial-tropicals"
@@ -1811,7 +1823,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "imperial-tropicals:15445425127731+8398048493875+8398069072179+8398112522547+8398186119475+8398186283315+8818969575731",
       "storeSlug": "imperial-tropicals"
@@ -1849,7 +1863,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "available",
+        "variants"
       ],
       "listingId": "imperial-tropicals:15445425127731+8398048493875+8398069072179+8398112522547+8398186119475+8398186283315+8818969575731",
       "storeSlug": "imperial-tropicals"
@@ -2057,7 +2072,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:1376822558806+1376847855702+14661630984559+14759189741935+14814010212719+4541186342998+4964433821782+5001220063318+6719932498006",
       "storeSlug": "aquatic-arts"
@@ -2101,7 +2117,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "monster-aquarium:6967898964177+6978525528273+7105084522705",
       "storeSlug": "monster-aquarium"
@@ -2133,7 +2149,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquahuna:1722582597675+1833597993003+6737351606347",
       "storeSlug": "aquahuna"
@@ -2249,7 +2265,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10399073567019+5993448518+6659313798+6844370976849+6844377464913+6844382249041+6844386279505+776821440631+9388821741867",
       "storeSlug": "aquarium-fish"
@@ -2365,7 +2382,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "available",
+        "variants"
       ],
       "listingId": "imperial-tropicals:15445425127731+8398048493875+8398069072179+8398112522547+8398186119475+8398186283315+8818969575731",
       "storeSlug": "imperial-tropicals"
@@ -2601,7 +2619,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquatic-arts:1376822558806+1376847855702+14661630984559+14759189741935+14814010212719+4541186342998+4964433821782+5001220063318+6719932498006",
       "storeSlug": "aquatic-arts"

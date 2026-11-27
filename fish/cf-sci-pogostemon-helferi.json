@@ -54,26 +54,6 @@
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T05:43:01.800Z",
-      "price": 13.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "31568819454038",
-          "label": "1 Tissue Culture",
-          "price": 13.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquatic-arts:1954139930710",
-      "storeSlug": "aquatic-arts"
-    },
-    {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 9.99,
       "currency": "USD",
@@ -108,7 +88,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:1328310714449+436010188840+8607853197",
       "storeSlug": "buce-plant"
@@ -128,7 +109,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:1328310714449+436010188840+8607853197",
       "storeSlug": "buce-plant"
@@ -186,7 +169,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:1328310714449+436010188840+8607853197",
       "storeSlug": "buce-plant"

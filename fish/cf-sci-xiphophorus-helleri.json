@@ -268,52 +268,6 @@
       "storeSlug": "aquahuna"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.593Z",
-      "price": 6.5,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "40830360748107",
-          "label": "Title",
-          "price": 6.5,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquahuna:7147532812363",
-      "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:39.339Z",
-      "price": 39.5,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "50132720320802",
-          "label": "1 Male",
-          "price": 39.5,
-          "available": false
-        },
-        {
-          "id": "50132720353570",
-          "label": "1 Female",
-          "price": 39.5,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "shrimpy-business:9794075328802",
-      "storeSlug": "shrimpy-business"
-    },
-    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 9.99,
       "currency": "USD",
@@ -328,7 +282,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "available",
+        "variants"
       ],
       "listingId": "flip-aquatics:6818523414630+7089737334886",
       "storeSlug": "flip-aquatics"
@@ -348,7 +303,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "flip-aquatics:6818523414630+7089737334886",
       "storeSlug": "flip-aquatics"
@@ -374,7 +329,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "flip-aquatics:6818523414630+7089737334886",
       "storeSlug": "flip-aquatics"

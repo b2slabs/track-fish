@@ -384,48 +384,12 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquahuna:4165036048427+4686181597259",
       "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:39.339Z",
-      "price": 21,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "47810110783778",
-          "label": "2 Fish",
-          "price": 21,
-          "available": false
-        },
-        {
-          "id": "47810110816546",
-          "label": "4 Fish",
-          "price": 37.95,
-          "available": false
-        },
-        {
-          "id": "51662842921250",
-          "label": "8 Fish",
-          "price": 70.95,
-          "available": false
-        },
-        {
-          "id": "51662842954018",
-          "label": "16 Fish",
-          "price": 133.95,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "shrimpy-business:8972839649570",
-      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
@@ -566,7 +530,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquahuna:4165036048427+4686181597259",
       "storeSlug": "aquahuna"

@@ -996,52 +996,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 14.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "46043608350935",
-          "label": "3",
-          "price": 14.98,
-          "available": true
-        },
-        {
-          "id": "46043608383703",
-          "label": "5",
-          "price": 19.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8150021472471",
-      "storeSlug": "ck-fish-world"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:40.165Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "40903688323174",
-          "label": "Imported / 1 Fish",
-          "price": 8.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "flip-aquatics:7056446980198",
-      "storeSlug": "flip-aquatics"
-    },
-    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 13.99,
       "currency": "USD",
@@ -1076,7 +1030,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130826559787+6652507974",
       "storeSlug": "aquarium-fish"
@@ -1102,7 +1057,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:10130826559787+6652507974",
       "storeSlug": "aquarium-fish"

@@ -1115,76 +1115,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 18.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "46021849448663",
-          "label": "3",
-          "price": 18.98,
-          "available": true
-        },
-        {
-          "id": "46021849481431",
-          "label": "5",
-          "price": 29.98,
-          "available": true
-        },
-        {
-          "id": "46021849514199",
-          "label": "10",
-          "price": 49.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8150003286231",
-      "storeSlug": "ck-fish-world"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:39.339Z",
-      "price": 27.5,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "39960736071765",
-          "label": "5 Crabs",
-          "price": 27.5,
-          "available": true
-        },
-        {
-          "id": "39960736104533",
-          "label": "10 Crabs",
-          "price": 49.95,
-          "available": true
-        },
-        {
-          "id": "51662846329122",
-          "label": "20 Crabs",
-          "price": 93.95,
-          "available": true
-        },
-        {
-          "id": "51662846361890",
-          "label": "40 Crabs",
-          "price": 175.95,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "shrimpy-business:6728957165653",
-      "storeSlug": "shrimpy-business"
-    },
-    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 39.99,
       "currency": "USD",
@@ -1239,7 +1169,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130819088683+2871276830801",
       "storeSlug": "aquarium-fish"
@@ -1285,7 +1216,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:10130819088683+2871276830801",
       "storeSlug": "aquarium-fish"

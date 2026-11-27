@@ -141,46 +141,6 @@
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T06:02:14.062Z",
-      "price": 5.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "42201303482577",
-          "label": "1.5-2”",
-          "price": 5.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "monster-aquarium:7456188956881",
-      "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-20T06:14:42.593Z",
-      "price": 4,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "40012688195659",
-          "label": "Title",
-          "price": 4,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquahuna:6830646624331",
-      "storeSlug": "aquahuna"
-    },
-    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 60.99,
       "currency": "USD",
@@ -305,7 +265,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "flip-aquatics:6859450417254+6878339530854",
       "storeSlug": "flip-aquatics"
@@ -553,7 +515,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "flip-aquatics:6859450417254+6878339530854",
       "storeSlug": "flip-aquatics"

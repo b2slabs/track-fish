@@ -574,26 +574,6 @@
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.593Z",
-      "price": 3.5,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "41611982110795",
-          "label": "Title",
-          "price": 3.5,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquahuna:7403755077707",
-      "storeSlug": "aquahuna"
-    },
-    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 26.99,
       "currency": "USD",
@@ -628,7 +608,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130715476267+8567838540075",
       "storeSlug": "aquarium-fish"
@@ -700,7 +681,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:10130715476267+8567838540075",
       "storeSlug": "aquarium-fish"

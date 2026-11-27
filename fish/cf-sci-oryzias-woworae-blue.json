@@ -814,38 +814,6 @@
     },
     {
       "observedAt": "2026-11-20T05:43:01.800Z",
-      "price": 24.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "67812447158639",
-          "label": "School of 3",
-          "price": 24.99,
-          "available": false
-        },
-        {
-          "id": "67812447191407",
-          "label": "School of 6",
-          "price": 41.99,
-          "available": false
-        },
-        {
-          "id": "67812447224175",
-          "label": "School of 9",
-          "price": 55.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquatic-arts:1368341413974+15437585711471+3876503322710",
-      "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T05:43:01.800Z",
       "price": 17.99,
       "currency": "USD",
       "available": false,
@@ -877,7 +845,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:1368341413974+15437585711471+3876503322710",
       "storeSlug": "aquatic-arts"
@@ -909,30 +878,11 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:1368341413974+15437585711471+3876503322710",
       "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:40.165Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39563990335590",
-          "label": "Imported / 1 Fish",
-          "price": 7.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "flip-aquatics:6698355687526",
-      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
@@ -969,7 +919,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130822791467+1330387157062",
       "storeSlug": "aquarium-fish"
@@ -1069,7 +1020,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:1368341413974+15437585711471+3876503322710",
       "storeSlug": "aquatic-arts"
@@ -1095,7 +1047,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:10130822791467+1330387157062",
       "storeSlug": "aquarium-fish"

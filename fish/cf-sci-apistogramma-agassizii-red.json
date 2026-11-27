@@ -661,7 +661,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "shrimpy-business:10467849503010+9914070958370",
       "storeSlug": "shrimpy-business"
@@ -818,38 +819,6 @@
       "storeSlug": "shrimpy-business"
     },
     {
-      "observedAt": "2026-11-20T05:43:01.800Z",
-      "price": 59.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "53192266219887",
-          "label": "1 Male/Female Pair",
-          "price": 96.99,
-          "available": false
-        },
-        {
-          "id": "53192266252655",
-          "label": "1 Male",
-          "price": 59.99,
-          "available": false
-        },
-        {
-          "id": "53192266318191",
-          "label": "1 Female",
-          "price": 59.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquatic-arts:15017966338415",
-      "storeSlug": "aquatic-arts"
-    },
-    {
       "observedAt": "2026-11-20T06:14:42.593Z",
       "price": 22,
       "currency": "USD",
@@ -902,7 +871,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "shrimpy-business:10467849503010+9914070958370",
       "storeSlug": "shrimpy-business"
@@ -928,7 +899,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "shrimpy-business:10467849503010+9914070958370",
       "storeSlug": "shrimpy-business"
@@ -968,7 +941,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:5923989702+9401782862123",
       "storeSlug": "aquarium-fish"
@@ -1126,7 +1101,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "shrimpy-business:10467849503010+9914070958370",
       "storeSlug": "shrimpy-business"
@@ -1152,7 +1127,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:5923989702+9401782862123",
       "storeSlug": "aquarium-fish"

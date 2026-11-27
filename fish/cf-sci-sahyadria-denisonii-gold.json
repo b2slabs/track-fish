@@ -88,26 +88,6 @@
       "storeSlug": "global-exoticquatics"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.593Z",
-      "price": 20,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "40011175886923",
-          "label": "Title",
-          "price": 20,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquahuna:6829983137867",
-      "storeSlug": "aquahuna"
-    },
-    {
       "observedAt": "2026-11-20T06:27:57.334Z",
       "price": 25,
       "currency": "USD",
@@ -128,7 +108,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "available",
+        "variants"
       ],
       "listingId": "global-exoticquatics:8309396996288",
       "storeSlug": "global-exoticquatics"

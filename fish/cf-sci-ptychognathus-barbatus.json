@@ -814,32 +814,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 15.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45697066762455",
-          "label": "1",
-          "price": 15.98,
-          "available": true
-        },
-        {
-          "id": "45697066795223",
-          "label": "3",
-          "price": 44.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8150005154007",
-      "storeSlug": "ck-fish-world"
-    },
-    {
       "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 18,
       "currency": "USD",
@@ -932,7 +906,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130818138411+4557260324945",
       "storeSlug": "aquarium-fish"
@@ -958,7 +933,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:10130818138411+4557260324945",
       "storeSlug": "aquarium-fish"

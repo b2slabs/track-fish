@@ -46,38 +46,6 @@
     },
     {
       "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 19.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336139399383",
-          "label": "3",
-          "price": 19.98,
-          "available": true
-        },
-        {
-          "id": "45336139432151",
-          "label": "5",
-          "price": 29.98,
-          "available": true
-        },
-        {
-          "id": "45704798503127",
-          "label": "10",
-          "price": 49.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8150010888407",
-      "storeSlug": "ck-fish-world"
-    },
-    {
-      "observedAt": "2026-11-20T06:14:42.801Z",
       "price": 14.98,
       "currency": "USD",
       "available": true,
@@ -103,7 +71,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "ck-fish-world:8150010888407",
       "storeSlug": "ck-fish-world"
@@ -153,7 +122,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "ck-fish-world:8150010888407",
       "storeSlug": "ck-fish-world"
@@ -185,7 +154,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "ck-fish-world:8150010888407",
       "storeSlug": "ck-fish-world"

@@ -104,26 +104,6 @@
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "41590559178952",
-          "label": "Title",
-          "price": 6.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "buce-plant:10012855245+10012901581+7251973341384+8011810308296+8554746765",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 8.99,
       "currency": "USD",
       "available": false,
@@ -137,7 +117,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:10012855245+10012901581+7251973341384+8011810308296+8554746765",
       "storeSlug": "buce-plant"
@@ -157,7 +138,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:10012855245+10012901581+7251973341384+8011810308296+8554746765",
       "storeSlug": "buce-plant"
@@ -177,7 +160,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "buce-plant:10012855245+10012901581+7251973341384+8011810308296+8554746765",
       "storeSlug": "buce-plant"
@@ -209,7 +192,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:10012855245+10012901581+7251973341384+8011810308296+8554746765",
       "storeSlug": "buce-plant"
@@ -412,7 +396,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:10012855245+10012901581+7251973341384+8011810308296+8554746765",
       "storeSlug": "buce-plant"

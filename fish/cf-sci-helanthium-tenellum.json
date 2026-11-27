@@ -310,26 +310,6 @@
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
-      "price": 11.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "45228815483080",
-          "label": "Title",
-          "price": 11.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 12.99,
       "currency": "USD",
       "available": false,
@@ -343,7 +323,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
@@ -363,7 +344,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
@@ -383,7 +366,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
@@ -403,7 +388,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
@@ -423,7 +409,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"
@@ -494,7 +482,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:10655887821+1317161336913+1317161467985+3212551585873+7731137118408+8346119307464",
       "storeSlug": "buce-plant"

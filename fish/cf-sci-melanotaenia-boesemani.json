@@ -1213,26 +1213,6 @@
     },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
-      "price": 34.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "42237175496913",
-          "label": "3”",
-          "price": 34.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "monster-aquarium:7047130611921+7469200539857",
-      "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 12,
       "currency": "USD",
       "available": true,
@@ -1252,7 +1232,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "monster-aquarium:7047130611921+7469200539857",
       "storeSlug": "monster-aquarium"
@@ -1292,30 +1274,11 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "flip-aquatics:7046089146470",
       "storeSlug": "flip-aquatics"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:42.901Z",
-      "price": 48.59,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48332393546027",
-          "label": "Title",
-          "price": 48.59,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquarium-fish:6007174278+9153886060843",
-      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
@@ -1338,7 +1301,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:6007174278+9153886060843",
       "storeSlug": "aquarium-fish"
@@ -1456,7 +1420,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "imperial-tropicals:8397976011059+8398102888755+8398107246899",
       "storeSlug": "imperial-tropicals"
@@ -1560,7 +1524,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "available",
+        "variants"
       ],
       "listingId": "imperial-tropicals:8397976011059+8398102888755+8398107246899",
       "storeSlug": "imperial-tropicals"
@@ -1743,7 +1708,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "monster-aquarium:7047130611921+7469200539857",
       "storeSlug": "monster-aquarium"
@@ -1775,7 +1740,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:6007174278+9153886060843",
       "storeSlug": "aquarium-fish"
@@ -1969,7 +1934,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "imperial-tropicals:8397976011059+8398102888755+8398107246899",
       "storeSlug": "imperial-tropicals"

@@ -347,26 +347,6 @@
       "storeSlug": "daku-aquatics"
     },
     {
-      "observedAt": "2026-11-20T06:27:46.524Z",
-      "price": 10.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "46043827208410",
-          "label": "Title",
-          "price": 10.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "daku-aquatics:8741028233434",
-      "storeSlug": "daku-aquatics"
-    },
-    {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 7.99,
       "currency": "USD",
@@ -413,7 +393,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:1381585715281+8076934185160",
       "storeSlug": "buce-plant"
@@ -535,7 +517,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "buce-plant:1381585715281+8076934185160",
       "storeSlug": "buce-plant"

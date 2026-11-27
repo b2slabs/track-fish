@@ -1002,7 +1002,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:14867701334383+4529341136982+6615362175062",
       "storeSlug": "aquatic-arts"
@@ -1034,7 +1035,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquatic-arts:14867701334383+4529341136982+6615362175062",
       "storeSlug": "aquatic-arts"
@@ -1080,26 +1083,6 @@
       "storeSlug": "aquahuna"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 29.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45822324080855",
-          "label": "Title",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8755176833239",
-      "storeSlug": "ck-fish-world"
-    },
-    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 69.99,
       "currency": "USD",
@@ -1134,7 +1117,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10401673183531+4296568340561",
       "storeSlug": "aquarium-fish"
@@ -1188,46 +1172,6 @@
       ],
       "listingId": "imperial-tropicals:8398058586419",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:46.524Z",
-      "price": 60,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "46043827667162",
-          "label": "Pair",
-          "price": 60,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "daku-aquatics:8741028462810",
-      "storeSlug": "daku-aquatics"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:57.334Z",
-      "price": 25,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "47239040499904",
-          "label": "1.5-2 inch",
-          "price": 25,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "global-exoticquatics:8429263585472",
-      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-21T20:07:16.497Z",
@@ -1298,7 +1242,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquatic-arts:14867701334383+4529341136982+6615362175062",
       "storeSlug": "aquatic-arts"
@@ -1324,7 +1270,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:10401673183531+4296568340561",
       "storeSlug": "aquarium-fish"
@@ -1416,7 +1362,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquatic-arts:14867701334383+4529341136982+6615362175062",
       "storeSlug": "aquatic-arts"

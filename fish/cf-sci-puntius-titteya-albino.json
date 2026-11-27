@@ -394,32 +394,6 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-20T05:43:01.800Z",
-      "price": 20.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "52332595085679",
-          "label": "3 Fish",
-          "price": 20.99,
-          "available": false
-        },
-        {
-          "id": "52332595118447",
-          "label": "6 Fish",
-          "price": 36.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquatic-arts:14814010966383",
-      "storeSlug": "aquatic-arts"
-    },
-    {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 7,
       "currency": "USD",
@@ -474,7 +448,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130819318059+2838671786065",
       "storeSlug": "aquarium-fish"
@@ -526,7 +501,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:10130819318059+2838671786065",
       "storeSlug": "aquarium-fish"

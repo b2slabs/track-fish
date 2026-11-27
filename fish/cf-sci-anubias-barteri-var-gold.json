@@ -416,7 +416,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "daku-aquatics:8812601213146",
       "storeSlug": "daku-aquatics"
@@ -564,7 +565,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "daku-aquatics:8812601213146",
       "storeSlug": "daku-aquatics"
@@ -610,26 +613,6 @@
       ],
       "listingId": "daku-aquatics:8812601213146",
       "storeSlug": "daku-aquatics"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:39.339Z",
-      "price": 15.5,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "50394194444578",
-          "label": "Pot",
-          "price": 15.5,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "shrimpy-business:6650334871637",
-      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
@@ -678,26 +661,6 @@
       "storeSlug": "imperial-tropicals"
     },
     {
-      "observedAt": "2026-11-20T06:27:46.524Z",
-      "price": 9.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "46285264027866",
-          "label": "Title",
-          "price": 9.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "daku-aquatics:8812601213146",
-      "storeSlug": "daku-aquatics"
-    },
-    {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 12.99,
       "currency": "USD",
@@ -732,7 +695,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "buce-plant:4632352030801+7241754935496+8130884370632+8995505037",
       "storeSlug": "buce-plant"
@@ -758,7 +721,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:4632352030801+7241754935496+8130884370632+8995505037",
       "storeSlug": "buce-plant"
@@ -790,7 +754,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:4632352030801+7241754935496+8130884370632+8995505037",
       "storeSlug": "buce-plant"
@@ -904,7 +869,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "buce-plant:4632352030801+7241754935496+8130884370632+8995505037",
       "storeSlug": "buce-plant"

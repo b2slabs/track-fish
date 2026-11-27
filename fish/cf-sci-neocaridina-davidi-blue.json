@@ -1104,7 +1104,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:4689023174+5378067526+8055096639767+8055165747479",
       "storeSlug": "aquatic-arts"
@@ -1124,7 +1125,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquatic-arts:4689023174+5378067526+8055096639767+8055165747479",
       "storeSlug": "aquatic-arts"
@@ -1144,7 +1147,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:4689023174+5378067526+8055096639767+8055165747479",
       "storeSlug": "aquatic-arts"
@@ -1188,7 +1192,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:4689023174+5378067526+8055096639767+8055165747479",
       "storeSlug": "aquatic-arts"
@@ -1232,7 +1237,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:4689023174+5378067526+8055096639767+8055165747479",
       "storeSlug": "aquatic-arts"
@@ -1292,86 +1298,12 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquahuna:1792625082411+948451901483",
       "storeSlug": "aquahuna"
-    },
-    {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 15.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336214634711",
-          "label": "3",
-          "price": 15.98,
-          "available": true
-        },
-        {
-          "id": "45335846813911",
-          "label": "5",
-          "price": 24.98,
-          "available": true
-        },
-        {
-          "id": "45335846846679",
-          "label": "10",
-          "price": 39.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8359956185303",
-      "storeSlug": "ck-fish-world"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:39.339Z",
-      "price": 27.5,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "50533534499106",
-          "label": "5 Shrimp",
-          "price": 27.5,
-          "available": true
-        },
-        {
-          "id": "50533534531874",
-          "label": "10 Shrimp",
-          "price": 49.95,
-          "available": true
-        },
-        {
-          "id": "50533534564642",
-          "label": "Breeder Pack",
-          "price": 54.95,
-          "available": true
-        },
-        {
-          "id": "51662833352994",
-          "label": "20 Shrimp",
-          "price": 93.95,
-          "available": true
-        },
-        {
-          "id": "51662833385762",
-          "label": "40 Shrimp",
-          "price": 175.95,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "shrimpy-business:2591869010005+9918709530914",
-      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-20T06:27:39.339Z",
@@ -1412,48 +1344,11 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "shrimpy-business:2591869010005+9918709530914",
       "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:40.165Z",
-      "price": 29.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "32319237587046",
-          "label": "5 Pack / Imported",
-          "price": 29.99,
-          "available": false
-        },
-        {
-          "id": "47258122616934",
-          "label": "5 Pack / USA Bred",
-          "price": 32.99,
-          "available": false
-        },
-        {
-          "id": "32319237652582",
-          "label": "10 Pack / Imported",
-          "price": 54.99,
-          "available": false
-        },
-        {
-          "id": "47258122649702",
-          "label": "10 Pack / USA Bred",
-          "price": 59.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "flip-aquatics:11067414212+11067729732",
-      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-11-20T06:27:40.165Z",
@@ -1488,7 +1383,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "flip-aquatics:11067414212+11067729732",
       "storeSlug": "flip-aquatics"
@@ -1572,36 +1469,12 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:7552033390792+9213630477",
       "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:50.853Z",
-      "price": 39.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "43387444068438",
-          "label": "10 Pack",
-          "price": 39.99,
-          "available": true
-        },
-        {
-          "id": "43387444101206",
-          "label": "20 Pack",
-          "price": 78.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "glass-aqua:7657243115606",
-      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-21T01:29:18.881Z",
@@ -1665,7 +1538,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "nu-aqua-shop:10006355345724+10310765707580",
       "storeSlug": "nu-aqua-shop"
@@ -1823,7 +1697,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "available",
+        "variants"
       ],
       "listingId": "aquatic-arts:4689023174+5378067526+8055096639767+8055165747479",
       "storeSlug": "aquatic-arts"
@@ -1849,7 +1724,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquahuna:1792625082411+948451901483",
       "storeSlug": "aquahuna"
@@ -1923,7 +1798,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "shrimpy-business:2591869010005+9918709530914",
       "storeSlug": "shrimpy-business"
@@ -1985,7 +1861,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "flip-aquatics:11067414212+11067729732",
       "storeSlug": "flip-aquatics"
@@ -2029,7 +1905,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "buce-plant:7552033390792+9213630477",
       "storeSlug": "buce-plant"
@@ -2175,7 +2051,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquatic-arts:4689023174+5378067526+8055096639767+8055165747479",
       "storeSlug": "aquatic-arts"
@@ -2267,7 +2143,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "nu-aqua-shop:10006355345724+10310765707580",
       "storeSlug": "nu-aqua-shop"

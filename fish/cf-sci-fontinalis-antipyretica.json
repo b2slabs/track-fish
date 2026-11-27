@@ -441,26 +441,6 @@
       "storeSlug": "glass-aqua"
     },
     {
-      "observedAt": "2026-11-20T06:27:40.165Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39550758420582",
-          "label": "Title",
-          "price": 7.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "flip-aquatics:6692641833062",
-      "storeSlug": "flip-aquatics"
-    },
-    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 12.79,
       "currency": "USD",
@@ -495,7 +475,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:485991383080+9413505741",
       "storeSlug": "buce-plant"
@@ -515,36 +497,12 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:485991383080+9413505741",
       "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:50.853Z",
-      "price": 11.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51156929380438",
-          "label": "Loose (Small)",
-          "price": 11.99,
-          "available": false
-        },
-        {
-          "id": "51156929413206",
-          "label": "Stainless Steel Mesh",
-          "price": 14.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "glass-aqua:7681356005462",
-      "storeSlug": "glass-aqua"
     },
     {
       "observedAt": "2026-11-21T20:08:29.473Z",
@@ -567,7 +525,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:485991383080+9413505741",
       "storeSlug": "buce-plant"

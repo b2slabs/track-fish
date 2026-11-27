@@ -48,26 +48,6 @@
     },
     {
       "observedAt": "2026-11-20T06:27:50.853Z",
-      "price": 14.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "42383140323414",
-          "label": "Title",
-          "price": 14.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "glass-aqua:7288873943126+7573012512854",
-      "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 21.99,
       "currency": "USD",
       "available": true,
@@ -81,7 +61,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "glass-aqua:7288873943126+7573012512854",
       "storeSlug": "glass-aqua"
@@ -101,7 +83,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "glass-aqua:7288873943126+7573012512854",
       "storeSlug": "glass-aqua"
@@ -127,7 +110,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "glass-aqua:7288873943126+7573012512854",
       "storeSlug": "glass-aqua"
@@ -147,7 +131,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "available",
+        "variants"
       ],
       "listingId": "glass-aqua:7288873943126+7573012512854",
       "storeSlug": "glass-aqua"
@@ -173,7 +158,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "glass-aqua:7288873943126+7573012512854",
       "storeSlug": "glass-aqua"
@@ -193,7 +180,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "glass-aqua:7288873943126+7573012512854",
       "storeSlug": "glass-aqua"
@@ -219,7 +207,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "glass-aqua:7288873943126+7573012512854",
       "storeSlug": "glass-aqua"
@@ -319,7 +308,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "glass-aqua:7288873943126+7573012512854",
       "storeSlug": "glass-aqua"
@@ -345,7 +334,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "glass-aqua:7288873943126+7573012512854",
       "storeSlug": "glass-aqua"

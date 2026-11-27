@@ -396,32 +396,6 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 20.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "46112633061591",
-          "label": "3",
-          "price": 20.98,
-          "available": true
-        },
-        {
-          "id": "46112633094359",
-          "label": "5",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8537397526743",
-      "storeSlug": "ck-fish-world"
-    },
-    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 25.99,
       "currency": "USD",
@@ -436,7 +410,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:6574367814+9211153350955",
       "storeSlug": "aquarium-fish"
@@ -456,7 +431,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:6574367814+9211153350955",
       "storeSlug": "aquarium-fish"
@@ -502,7 +478,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:6574367814+9211153350955",
       "storeSlug": "aquarium-fish"

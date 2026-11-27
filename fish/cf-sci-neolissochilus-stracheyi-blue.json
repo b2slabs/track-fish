@@ -41,26 +41,6 @@
     },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
-      "price": 269.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "41890816000209",
-          "label": "4-5”",
-          "price": 269.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "monster-aquarium:7273907781841+7339802165457",
-      "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 170,
       "currency": "USD",
       "available": true,
@@ -86,7 +66,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "monster-aquarium:7273907781841+7339802165457",
       "storeSlug": "monster-aquarium"
@@ -124,7 +106,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "monster-aquarium:7273907781841+7339802165457",
       "storeSlug": "monster-aquarium"

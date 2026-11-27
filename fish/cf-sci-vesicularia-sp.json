@@ -760,46 +760,6 @@
       "storeSlug": "daku-aquatics"
     },
     {
-      "observedAt": "2026-11-20T06:27:46.524Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "46043831992538",
-          "label": "Title",
-          "price": 8.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "daku-aquatics:8741030985946",
-      "storeSlug": "daku-aquatics"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:47.109Z",
-      "price": 16.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "3861170651176",
-          "label": "Title",
-          "price": 16.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "buce-plant:14588018701+471934205992+5386434113",
-      "storeSlug": "buce-plant"
-    },
-    {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 13.99,
       "currency": "USD",
@@ -826,7 +786,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:14588018701+471934205992+5386434113",
       "storeSlug": "buce-plant"
@@ -852,7 +814,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:14588018701+471934205992+5386434113",
       "storeSlug": "buce-plant"
@@ -884,7 +848,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:14588018701+471934205992+5386434113",
       "storeSlug": "buce-plant"
@@ -984,7 +949,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:14588018701+471934205992+5386434113",
       "storeSlug": "buce-plant"
@@ -1034,7 +1001,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "buce-plant:14588018701+471934205992+5386434113",
       "storeSlug": "buce-plant"

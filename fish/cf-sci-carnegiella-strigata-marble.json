@@ -333,26 +333,6 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-20T06:27:40.165Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "67587570958438",
-          "label": "Title",
-          "price": 7.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "flip-aquatics:15397667799142",
-      "storeSlug": "flip-aquatics"
-    },
-    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 29.99,
       "currency": "USD",
@@ -387,7 +367,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10494755373355+1378335195206",
       "storeSlug": "aquarium-fish"
@@ -471,7 +452,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:10494755373355+1378335195206",
       "storeSlug": "aquarium-fish"

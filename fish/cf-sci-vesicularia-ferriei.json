@@ -1331,26 +1331,6 @@
       "storeSlug": "buce-plant"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.593Z",
-      "price": 8,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "40983574413387",
-          "label": "Title",
-          "price": 8,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquahuna:7198029316171",
-      "storeSlug": "aquahuna"
-    },
-    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 7.99,
       "currency": "USD",
@@ -1377,46 +1357,6 @@
       "storeSlug": "flip-aquatics"
     },
     {
-      "observedAt": "2026-11-20T06:27:43.785Z",
-      "price": 17.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "52825506545971",
-          "label": "3\" x 3\" Mat",
-          "price": 17.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "imperial-tropicals:10021326094643",
-      "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:47.109Z",
-      "price": 18.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45255178944712",
-          "label": "Title",
-          "price": 18.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "buce-plant:4654037925969+8354318483656",
-      "storeSlug": "buce-plant"
-    },
-    {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 7.99,
       "currency": "USD",
@@ -1437,7 +1377,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:4654037925969+8354318483656",
       "storeSlug": "buce-plant"
@@ -1457,7 +1399,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:4654037925969+8354318483656",
       "storeSlug": "buce-plant"
@@ -1509,30 +1453,11 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "glass-aqua:10412190040150+4829948215382",
       "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:59.484Z",
-      "price": 10,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "47173024088256",
-          "label": "Title",
-          "price": 10,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquatics-for-fun:8412178153664",
-      "storeSlug": "aquatics-for-fun"
     },
     {
       "observedAt": "2026-11-21T01:29:44.090Z",
@@ -1587,7 +1512,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "buce-plant:4654037925969+8354318483656",
       "storeSlug": "buce-plant"
@@ -1607,7 +1532,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:4654037925969+8354318483656",
       "storeSlug": "buce-plant"
@@ -1633,7 +1559,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:4654037925969+8354318483656",
       "storeSlug": "buce-plant"
@@ -1685,7 +1613,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:4654037925969+8354318483656",
       "storeSlug": "buce-plant"
@@ -1723,7 +1653,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "glass-aqua:10412190040150+4829948215382",
       "storeSlug": "glass-aqua"
@@ -1743,7 +1673,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "buce-plant:4654037925969+8354318483656",
       "storeSlug": "buce-plant"
@@ -1769,7 +1699,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:4654037925969+8354318483656",
       "storeSlug": "buce-plant"
@@ -1801,7 +1733,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:4654037925969+8354318483656",
       "storeSlug": "buce-plant"

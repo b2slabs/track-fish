@@ -2619,7 +2619,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:1389646774358+6799259533398",
       "storeSlug": "aquatic-arts"
@@ -2657,7 +2658,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "available",
+        "variants"
       ],
       "listingId": "shrimpy-business:9757903683874",
       "storeSlug": "shrimpy-business"
@@ -2681,46 +2683,6 @@
       ],
       "listingId": "flip-aquatics:4974808399974",
       "storeSlug": "flip-aquatics"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:43.785Z",
-      "price": 9.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "49211322827059",
-          "label": "4 oz Cup",
-          "price": 9.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "imperial-tropicals:9242834075955",
-      "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:46.524Z",
-      "price": 9.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "46043823374554",
-          "label": "Title",
-          "price": 9.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "daku-aquatics:8741026201818",
-      "storeSlug": "daku-aquatics"
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
@@ -2944,7 +2906,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquatic-arts:1389646774358+6799259533398",
       "storeSlug": "aquatic-arts"

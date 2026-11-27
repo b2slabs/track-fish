@@ -73,26 +73,6 @@
       "storeSlug": "nationwide-aquatics-usa"
     },
     {
-      "observedAt": "2026-11-20T06:02:14.062Z",
-      "price": 64.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "42358466085073",
-          "label": "6-7”",
-          "price": 64.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "monster-aquarium:7510124167377",
-      "storeSlug": "monster-aquarium"
-    },
-    {
       "observedAt": "2026-11-20T06:14:43.307Z",
       "price": 85,
       "currency": "USD",
@@ -107,7 +87,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "nationwide-aquatics-usa:15482293223577+15484027732121",
       "storeSlug": "nationwide-aquatics-usa"
@@ -127,7 +108,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "nationwide-aquatics-usa:15482293223577+15484027732121",
       "storeSlug": "nationwide-aquatics-usa"
@@ -153,7 +135,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "nationwide-aquatics-usa:15482293223577+15484027732121",
       "storeSlug": "nationwide-aquatics-usa"

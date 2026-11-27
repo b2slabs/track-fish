@@ -559,26 +559,6 @@
     },
     {
       "observedAt": "2026-11-20T06:27:46.524Z",
-      "price": 12.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "46043848704218",
-          "label": "Title",
-          "price": 12.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "daku-aquatics:8741038653658",
-      "storeSlug": "daku-aquatics"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:46.524Z",
       "price": 7.99,
       "currency": "USD",
       "available": true,
@@ -592,7 +572,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "daku-aquatics:8741038653658",
       "storeSlug": "daku-aquatics"
@@ -612,7 +594,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "daku-aquatics:8741038653658",
       "storeSlug": "daku-aquatics"
@@ -632,7 +615,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "daku-aquatics:8741038653658",
       "storeSlug": "daku-aquatics"
@@ -670,7 +654,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "daku-aquatics:8741038653658",
       "storeSlug": "daku-aquatics"
@@ -690,7 +674,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "daku-aquatics:8741038653658",
       "storeSlug": "daku-aquatics"

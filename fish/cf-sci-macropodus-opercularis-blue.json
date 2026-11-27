@@ -167,26 +167,6 @@
       "storeSlug": "aquatic-arts"
     },
     {
-      "observedAt": "2026-11-20T06:27:40.165Z",
-      "price": 11.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "41745234624614",
-          "label": "Imported / 1 Fish",
-          "price": 11.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "flip-aquatics:7327478513766",
-      "storeSlug": "flip-aquatics"
-    },
-    {
       "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 9.99,
       "currency": "USD",
@@ -245,7 +225,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "imperial-tropicals:8398182154547+9003886117171",
       "storeSlug": "imperial-tropicals"
@@ -315,7 +297,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "imperial-tropicals:8398182154547+9003886117171",
       "storeSlug": "imperial-tropicals"

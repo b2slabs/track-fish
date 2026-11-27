@@ -645,78 +645,6 @@
       "storeSlug": "aquahuna"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 15.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45336212865239",
-          "label": "3",
-          "price": 15.98,
-          "available": true
-        },
-        {
-          "id": "45336212898007",
-          "label": "5",
-          "price": 24.98,
-          "available": true
-        },
-        {
-          "id": "45336212930775",
-          "label": "10",
-          "price": 39.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8149530411223",
-      "storeSlug": "ck-fish-world"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:40.165Z",
-      "price": 5.49,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "42282834722918",
-          "label": "Imported / 1 Fish",
-          "price": 5.49,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "flip-aquatics:7484813934694",
-      "storeSlug": "flip-aquatics"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:42.901Z",
-      "price": 26.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48414170841387",
-          "label": "Title",
-          "price": 26.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquarium-fish:4852705606+9179043823915",
-      "storeSlug": "aquarium-fish"
-    },
-    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 5.79,
       "currency": "USD",
@@ -743,7 +671,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:4852705606+9179043823915",
       "storeSlug": "aquarium-fish"
@@ -822,7 +751,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:4852705606+9179043823915",
       "storeSlug": "aquarium-fish"

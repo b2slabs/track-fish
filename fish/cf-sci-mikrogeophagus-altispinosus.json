@@ -864,32 +864,6 @@
       "storeSlug": "aquahuna"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 11.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45697006502103",
-          "label": "1",
-          "price": 11.98,
-          "available": true
-        },
-        {
-          "id": "45697006534871",
-          "label": "3",
-          "price": 29.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8149532737751",
-      "storeSlug": "ck-fish-world"
-    },
-    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 29.99,
       "currency": "USD",
@@ -924,7 +898,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130834850091+5924231110",
       "storeSlug": "aquarium-fish"
@@ -948,26 +923,6 @@
       ],
       "listingId": "imperial-tropicals:8397977616691",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:57.334Z",
-      "price": 12,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "47252136231104",
-          "label": "1-1.5 inch",
-          "price": 12,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "global-exoticquatics:8435192627392",
-      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-21T01:29:44.090Z",
@@ -1010,7 +965,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:10130834850091+5924231110",
       "storeSlug": "aquarium-fish"

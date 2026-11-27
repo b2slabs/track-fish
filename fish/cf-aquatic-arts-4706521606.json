@@ -86,32 +86,6 @@
     },
     {
       "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 9.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "44152667406551",
-          "label": "8.5 oz",
-          "price": 9.98,
-          "available": true
-        },
-        {
-          "id": "44152667439319",
-          "label": "16.9 oz",
-          "price": 14.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8149578252503+8168891384023",
-      "storeSlug": "ck-fish-world"
-    },
-    {
-      "observedAt": "2026-11-20T06:14:42.801Z",
       "price": 12.98,
       "currency": "USD",
       "available": true,
@@ -131,7 +105,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "ck-fish-world:8149578252503+8168891384023",
       "storeSlug": "ck-fish-world"
@@ -169,7 +144,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "ck-fish-world:8149578252503+8168891384023",
       "storeSlug": "ck-fish-world"

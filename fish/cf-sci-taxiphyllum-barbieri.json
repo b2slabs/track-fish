@@ -149,38 +149,6 @@
       "storeSlug": "daku-aquatics"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 8.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45749250490583",
-          "label": "1",
-          "price": 8.98,
-          "available": true
-        },
-        {
-          "id": "45749250523351",
-          "label": "3",
-          "price": 24.98,
-          "available": true
-        },
-        {
-          "id": "45749250556119",
-          "label": "5",
-          "price": 39.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8733720871127",
-      "storeSlug": "ck-fish-world"
-    },
-    {
       "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 5.5,
       "currency": "USD",
@@ -299,7 +267,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:8561682125",
       "storeSlug": "buce-plant"
@@ -383,7 +353,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:8561682125",
       "storeSlug": "buce-plant"
@@ -449,7 +421,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "buce-plant:8561682125",
       "storeSlug": "buce-plant"

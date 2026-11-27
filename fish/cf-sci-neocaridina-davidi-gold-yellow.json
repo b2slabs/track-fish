@@ -520,7 +520,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquatic-arts:8055041130775",
       "storeSlug": "aquatic-arts"
@@ -622,32 +624,6 @@
       "storeSlug": "shrimpy-business"
     },
     {
-      "observedAt": "2026-11-20T06:27:40.165Z",
-      "price": 44.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "40818838437990",
-          "label": "5 Pack / Imported",
-          "price": 44.99,
-          "available": true
-        },
-        {
-          "id": "40818838470758",
-          "label": "10 Pack / Imported",
-          "price": 89.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "flip-aquatics:7034111033446",
-      "storeSlug": "flip-aquatics"
-    },
-    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 9.99,
       "currency": "USD",
@@ -718,7 +694,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquatic-arts:8055041130775",
       "storeSlug": "aquatic-arts"
@@ -768,7 +746,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquatic-arts:8055041130775",
       "storeSlug": "aquatic-arts"

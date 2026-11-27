@@ -696,26 +696,6 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.593Z",
-      "price": 12.5,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "41420701368395",
-          "label": "Title",
-          "price": 12.5,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquahuna:7349823635531",
-      "storeSlug": "aquahuna"
-    },
-    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 38.99,
       "currency": "USD",
@@ -750,7 +730,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130834915627+5924026886+5925543750",
       "storeSlug": "aquarium-fish"
@@ -770,7 +751,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130834915627+5924026886+5925543750",
       "storeSlug": "aquarium-fish"
@@ -855,7 +838,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130834915627+5924026886+5925543750",
       "storeSlug": "aquarium-fish"

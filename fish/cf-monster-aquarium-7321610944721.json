@@ -52,44 +52,6 @@
     },
     {
       "observedAt": "2026-11-20T06:02:14.062Z",
-      "price": 7,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "41832292647121",
-          "label": "1.2-2\" / Red",
-          "price": 7,
-          "available": false
-        },
-        {
-          "id": "41832292679889",
-          "label": "1.2-2\" / Black",
-          "price": 7,
-          "available": false
-        },
-        {
-          "id": "41832292712657",
-          "label": "1.2-2\" / Red & White",
-          "price": 7,
-          "available": false
-        },
-        {
-          "id": "41832292745425",
-          "label": "1.2-2\" / Black & Red",
-          "price": 7,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "monster-aquarium:7321610944721",
-      "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 139,
       "currency": "USD",
       "available": true,
@@ -193,7 +155,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "monster-aquarium:7321610944721",
       "storeSlug": "monster-aquarium"
@@ -327,7 +291,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "monster-aquarium:7321610944721",
       "storeSlug": "monster-aquarium"
@@ -365,7 +329,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "monster-aquarium:7321610944721",
       "storeSlug": "monster-aquarium"

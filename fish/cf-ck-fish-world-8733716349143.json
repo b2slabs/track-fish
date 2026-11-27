@@ -52,38 +52,6 @@
       "storeSlug": "ck-fish-world"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.801Z",
-      "price": 15.98,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45749240660183",
-          "label": "1",
-          "price": 15.98,
-          "available": true
-        },
-        {
-          "id": "45749240692951",
-          "label": "3",
-          "price": 45.98,
-          "available": true
-        },
-        {
-          "id": "45749240725719",
-          "label": "5",
-          "price": 74.98,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "ck-fish-world:8733716349143",
-      "storeSlug": "ck-fish-world"
-    },
-    {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 12.99,
       "currency": "USD",
@@ -142,7 +110,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:31525502989+4643483910225",
       "storeSlug": "buce-plant"
@@ -192,7 +162,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:31525502989+4643483910225",
       "storeSlug": "buce-plant"

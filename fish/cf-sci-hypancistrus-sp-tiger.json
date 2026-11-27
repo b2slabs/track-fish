@@ -913,7 +913,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquatic-arts:11017062924+9881775820",
       "storeSlug": "aquatic-arts"
@@ -937,66 +939,6 @@
       ],
       "listingId": "monster-aquarium:7020691357905",
       "storeSlug": "monster-aquarium"
-    },
-    {
-      "observedAt": "2026-11-20T06:14:43.307Z",
-      "price": 105,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48926221500569",
-          "label": "Title",
-          "price": 105,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "nationwide-aquatics-usa:8931078176921",
-      "storeSlug": "nationwide-aquatics-usa"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:39.339Z",
-      "price": 60,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "49317872402722",
-          "label": "1 Fish",
-          "price": 60,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "shrimpy-business:9541200150818",
-      "storeSlug": "shrimpy-business"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:42.901Z",
-      "price": 89.99,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "21904435052625",
-          "label": "Title",
-          "price": 89.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquarium-fish:2477076152401",
-      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
@@ -1061,26 +1003,6 @@
       ],
       "listingId": "buce-plant:7551649382600",
       "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:57.334Z",
-      "price": 50,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "46386563219648",
-          "label": "3.5-4 in",
-          "price": 50,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "global-exoticquatics:8241369448640",
-      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-21T01:29:44.090Z",
@@ -1165,7 +1087,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquatic-arts:11017062924+9881775820",
       "storeSlug": "aquatic-arts"

@@ -247,7 +247,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:9945189876011",
       "storeSlug": "aquarium-fish"
@@ -279,7 +280,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:9945189876011",
       "storeSlug": "aquarium-fish"
@@ -355,7 +358,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:9945189876011",
       "storeSlug": "aquarium-fish"
@@ -436,30 +439,12 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:9945189876011",
       "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-22T00:27:06.534Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "46043823243482",
-          "label": "Title",
-          "price": 8.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "daku-aquatics:8741026070746",
-      "storeSlug": "daku-aquatics"
     },
     {
       "observedAt": "2026-11-22T00:27:20.421Z",

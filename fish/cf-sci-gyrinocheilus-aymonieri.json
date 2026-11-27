@@ -788,26 +788,6 @@
       "storeSlug": "aquahuna"
     },
     {
-      "observedAt": "2026-11-20T06:27:40.165Z",
-      "price": 4.39,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "40557052952678",
-          "label": "Imported / 1 Fish",
-          "price": 4.39,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "flip-aquatics:6960311894118",
-      "storeSlug": "flip-aquatics"
-    },
-    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 11.99,
       "currency": "USD",
@@ -842,7 +822,8 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130824823083+755051823223",
       "storeSlug": "aquarium-fish"
@@ -868,7 +849,7 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "variants"
       ],
       "listingId": "aquarium-fish:10130824823083+755051823223",
       "storeSlug": "aquarium-fish"

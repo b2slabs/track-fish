@@ -676,26 +676,6 @@
       "storeSlug": "aquahuna"
     },
     {
-      "observedAt": "2026-11-20T06:14:42.593Z",
-      "price": 7,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "40605810819147",
-          "label": "Title",
-          "price": 7,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aquahuna:7041625653323",
-      "storeSlug": "aquahuna"
-    },
-    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 7.99,
       "currency": "USD",
@@ -717,26 +697,6 @@
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",
-      "price": 14.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45170917834952",
-          "label": "Title",
-          "price": 14.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "buce-plant:8223609913544+8336397566152",
-      "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 12.99,
       "currency": "USD",
       "available": false,
@@ -750,7 +710,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:8223609913544+8336397566152",
       "storeSlug": "buce-plant"
@@ -839,7 +801,9 @@
       ],
       "type": "change",
       "changedFields": [
-        "first-observed"
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:8223609913544+8336397566152",
       "storeSlug": "buce-plant"
