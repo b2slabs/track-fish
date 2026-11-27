@@ -168,6 +168,46 @@ describe('computeVariantLines — same-price run splitting (issue #87)', () => {
     expect(line.runs[1].map((p) => p.price)).toEqual([64.99]);
   });
 
+  // Issue #108: Shrimpy Business's Celestial Pearl Danio listing toggles
+  // `available` true/false every few days at an unchanged price — each
+  // toggle is a real, distinct Change Event (not a duplicate-event bug), but
+  // once issue #87's same-price merge bridges the gap into one run, every
+  // resumption point still renders as a full, ordinary marker — a dense row
+  // of visually identical dots along a flat stretch that reads as noise to a
+  // shopper. `flap` tags exactly the point where a run resumes at the same
+  // price it had before a hard-evidence gap, so the chart can render it with
+  // reduced visual weight without hiding or fabricating any history.
+  it('tags the point that resumes a run at the same price after a gap as a flap point (issue #108)', () => {
+    const events = [
+      variantEvent('2026-01-08T00:00:00Z', [{ id: 'v1', price: 22.5, available: true }]),
+      variantEvent('2026-01-27T00:00:00Z', [{ id: 'v1', price: 22.5, available: false }]),
+      variantEvent('2026-01-28T00:00:00Z', [{ id: 'v1', price: 22.5, available: true }]),
+      variantEvent('2026-02-04T00:00:00Z', [{ id: 'v1', price: 22.5, available: false }]),
+      variantEvent('2026-02-05T00:00:00Z', [{ id: 'v1', price: 22.5, available: true }]),
+    ];
+    const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), new Map());
+    expect(line.runs).toHaveLength(1);
+    expect(line.runs[0].map((p) => !!p.flap)).toEqual([false, true, true]);
+  });
+
+  it('never flags the very first observation as a flap point, and leaves a genuine price-change break untagged', () => {
+    const resumeSamePrice = [
+      variantEvent('2026-01-08T00:00:00Z', [{ id: 'v1', price: 59.98, available: true }]),
+      variantEvent('2026-06-01T00:00:00Z', [{ id: 'v1', price: 59.98, available: false }]),
+      variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 59.98, available: true }]),
+    ];
+    const [resumedLine] = computeVariantLines(resumeSamePrice, storeMeta('ck-fish-world'), new Map());
+    expect(resumedLine.runs[0].map((p) => !!p.flap)).toEqual([false, true]);
+
+    const resumeDifferentPrice = [
+      variantEvent('2026-01-08T00:00:00Z', [{ id: 'v1', price: 59.98, available: true }]),
+      variantEvent('2026-06-01T00:00:00Z', [{ id: 'v1', price: 59.98, available: false }]),
+      variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 64.99, available: true }]),
+    ];
+    const [brokenLine] = computeVariantLines(resumeDifferentPrice, storeMeta('ck-fish-world'), new Map());
+    expect(brokenLine.runs.map((run) => run.map((p) => !!p.flap))).toEqual([[false], [false]]);
+  });
+
   it('still breaks the line when a variant is removed and a different variant later reappears at a different price', () => {
     const events = [
       variantEvent('2026-01-08T00:00:00Z', [{ id: 'v1', price: 59.98, available: true }]),
