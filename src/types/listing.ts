@@ -90,6 +90,22 @@ export interface HistoryEvent {
    * (no prior state existed), 'price', 'available', 'variants'.
    */
   changedFields?: string[];
+  /**
+   * Issue #113: the Listing's own `lastCheckedAt` as of immediately before
+   * this Change Event overwrote it, when that's later than the previous
+   * Change Event's own `observedAt` -- i.e. there were one or more days
+   * where this Listing was re-observed with no real change (issue #81: an
+   * unchanged day never gets its own event, only `lastCheckedAt` advances)
+   * before the change this event actually records. Without this, once
+   * `lastCheckedAt` is overwritten by this event, there is no remaining
+   * record that the Listing was confirmed unchanged any later than its
+   * previous real event -- the chart would otherwise have to draw as if
+   * the change happened immediately after that previous event, which can
+   * be misleading by days or weeks. Absent when there's no previous event
+   * to compare against (a `first-observed` event), or when this change
+   * happened with no intervening confirmed-unchanged day.
+   */
+  confirmedSameUntil?: string;
 }
 
 /**

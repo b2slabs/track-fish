@@ -273,6 +273,30 @@ export function computeVariantLines(
     outOfStockSegments: [VariantPoint, VariantPoint][];
   }
 
+  // Issue #113: `event` is the gap-evidence event about to flip this
+  // variant's `sawGapEvidence` from false to true. If its Listing's
+  // `confirmedSameUntil` (see `HistoryEvent`'s doc) is later than the
+  // current run's last real point, there was at least one confirmed-
+  // unchanged day after that point and before this gap -- extend the run
+  // with one more same-price point at that date, so the eventual gray
+  // `outOfStockSegments` connector starts there instead of collapsing all
+  // the way back to the last real event. No-op when this variant has no
+  // open run yet (its very first event is already a gap) or is already
+  // mid-gap (only the first gap-evidence event in a run matters here).
+  function extendRunToConfirmedSameUntil(acc: Accum, event: HistoryEvent, listingId: string): void {
+    if (acc.sawGapEvidence || acc.runs.length === 0 || !event.confirmedSameUntil) return;
+    const lastRun = acc.runs[acc.runs.length - 1];
+    const lastPoint = lastRun[lastRun.length - 1];
+    const confirmedTimestamp = new Date(event.confirmedSameUntil).getTime();
+    if (confirmedTimestamp <= lastPoint.timestamp) return;
+    lastRun.push({
+      key: `${listingId}::${acc.variantId}::confirmedSame::${confirmedTimestamp}`,
+      timestamp: confirmedTimestamp,
+      observedAt: event.confirmedSameUntil,
+      price: lastPoint.price,
+    });
+  }
+
   const lines: VariantLine[] = [];
   for (const [listingId, group] of byListing) {
     const meta = storeMeta.get(group.storeSlug)!;
@@ -314,6 +338,7 @@ export function computeVariantLines(
           else acc.runs[acc.runs.length - 1].push(point);
           acc.sawGapEvidence = false;
         } else {
+          extendRunToConfirmedSameUntil(acc, e, listingId);
           acc.sawGapEvidence = true;
         }
       }
@@ -321,7 +346,10 @@ export function computeVariantLines(
       // Any variant that has already appeared at least once but is missing
       // from THIS event is hard evidence too (see this function's doc).
       for (const acc of accums.values()) {
-        if (!eventVariantIds.has(acc.variantId)) acc.sawGapEvidence = true;
+        if (!eventVariantIds.has(acc.variantId)) {
+          extendRunToConfirmedSameUntil(acc, e, listingId);
+          acc.sawGapEvidence = true;
+        }
       }
     }
 

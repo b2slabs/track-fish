@@ -43,6 +43,15 @@ export interface HistoryEvent {
   variants: ListingVariant[];
   changedFields?: string[];
   /**
+   * The Listing's own `lastCheckedAt` as of immediately before this event
+   * overwrote it, when later than the previous event's own `observedAt`
+   * (issue #113) — i.e. there was at least one confirmed-unchanged day
+   * between the previous real event and this one. Lets the chart draw
+   * color through that date instead of collapsing straight to this
+   * event's own date once a gap appears.
+   */
+  confirmedSameUntil?: string;
+  /**
    * Which Listing this event belongs to. A Canonical Fish's history file
    * interleaves events from every Store's Listing in one array (see
    * docs/adr/0002-canonical-fish-is-species-level.md) — consumers must

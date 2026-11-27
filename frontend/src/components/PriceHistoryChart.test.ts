@@ -303,3 +303,52 @@ describe('computeVariantLines — trailing outOfStockSegments (issue #103)', () 
     expect(line.outOfStockSegments).toHaveLength(0);
   });
 });
+
+describe('computeVariantLines — confirmedSameUntil (issue #113)', () => {
+  it('extends the colored run through confirmedSameUntil before the gray segment starts, instead of collapsing to the last real event', () => {
+    const events = [
+      variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 10, available: true }]),
+      // Monster Aquarium example: confirmed unchanged through Nov 26 (no
+      // event written those days), then genuinely goes out of stock Nov 27.
+      variantEvent('2026-11-27T00:00:00Z', [{ id: 'v1', price: 10, available: false }], {
+        confirmedSameUntil: '2026-11-26T00:00:00Z',
+      }),
+    ];
+    const lastChecked = new Map([['listing-1', '2026-11-27T00:00:00Z']]);
+    const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked);
+
+    expect(line.runs).toHaveLength(1);
+    expect(line.runs[0].map((p) => ({ observedAt: p.observedAt, price: p.price }))).toEqual([
+      { observedAt: '2026-11-20T00:00:00Z', price: 10 },
+      { observedAt: '2026-11-26T00:00:00Z', price: 10 }, // synthetic, from confirmedSameUntil
+    ]);
+    // The gray segment starts at the confirmedSameUntil date, not the
+    // original Nov 20 event -- that's the whole point.
+    expect(line.outOfStockSegments).toHaveLength(1);
+    const [start] = line.outOfStockSegments[0];
+    expect(start.observedAt).toBe('2026-11-26T00:00:00Z');
+  });
+
+  it('ignores confirmedSameUntil when it is not later than the last real point (no intervening confirmed day)', () => {
+    const events = [
+      variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 10, available: true }]),
+      variantEvent('2026-11-21T00:00:00Z', [{ id: 'v1', price: 10, available: false }], {
+        confirmedSameUntil: '2026-11-20T00:00:00Z', // same instant as the last real point
+      }),
+    ];
+    const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), new Map());
+
+    expect(line.runs[0]).toHaveLength(1); // no synthetic point added
+  });
+
+  it('ignores confirmedSameUntil on a variant\'s very first event (nothing to extend)', () => {
+    const events = [
+      variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 10, available: false }], {
+        confirmedSameUntil: '2026-11-19T00:00:00Z',
+      }),
+    ];
+    const lines = computeVariantLines(events, storeMeta('ck-fish-world'), new Map());
+
+    expect(lines).toHaveLength(0); // never had a real in-stock point, so no line at all
+  });
+});

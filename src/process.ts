@@ -360,8 +360,28 @@ export function processStoreRun(params: {
       commonName: listing.commonName,
       lastCheckedAt: now,
     };
+    const existingHistory = readHistoryFile(dataDir, canonicalFishId);
+    // Issue #113: a genuine change (not this Listing's first observation)
+    // may have been preceded by one or more confirmed-unchanged days (no
+    // event, just `lastCheckedAt` advancing -- issue #81) since the
+    // previous real event. That prior `lastCheckedAt` is about to be
+    // overwritten by `listingInfo` above with nothing else remembering it,
+    // so stamp it onto the event now, before it's lost, whenever it's
+    // later than the previous event's own `observedAt` -- i.e. there
+    // really was at least one such day. Steady-state lookup only (exact
+    // `listingId` match): a Listing whose compound id just changed this
+    // run had its old entry already moved to this Canonical Fish above,
+    // but not yet re-added under the old id for this exact check.
+    if (diffEvent && !diffEvent.changedFields?.includes('first-observed')) {
+      const oldLastCheckedAt = existingHistory?.listings.find((l) => l.listingId === listingId)?.lastCheckedAt;
+      const previousEventsForListing = existingHistory?.events.filter((e) => e.listingId === listingId) ?? [];
+      const previousEventObservedAt = previousEventsForListing[previousEventsForListing.length - 1]?.observedAt;
+      if (oldLastCheckedAt && previousEventObservedAt && oldLastCheckedAt > previousEventObservedAt) {
+        diffEvent.confirmedSameUntil = oldLastCheckedAt;
+      }
+    }
     const mergedHistory = mergeListingIntoHistory({
-      existing: readHistoryFile(dataDir, canonicalFishId),
+      existing: existingHistory,
       canonicalFishId,
       listingInfo,
       scientificName,
