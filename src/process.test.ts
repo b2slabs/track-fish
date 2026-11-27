@@ -133,6 +133,49 @@ test('second run with a real price change and a restock: those Listings get Chan
   });
 });
 
+function cloneRawWithLoachAvailable(): typeof rawFixture {
+  const raw = cloneRaw();
+  raw.products[1].variants[0].available = true; // Chinese Hillstream Loach starts in stock
+  return raw;
+}
+
+test('issue #113: a change preceded by confirmed-unchanged days stamps confirmedSameUntil with the last such date', () => {
+  withTempDataDir((dataDir) => {
+    processStoreRun({ store, rawData: cloneRawWithLoachAvailable(), dataDir, now: new Date('2026-11-18T00:00:00.000Z') });
+    // Two unchanged runs in between -- each just advances lastCheckedAt,
+    // no new event (issue #81) -- before the real change on day 4.
+    processStoreRun({ store, rawData: cloneRawWithLoachAvailable(), dataDir, now: new Date('2026-11-19T00:00:00.000Z') });
+    processStoreRun({ store, rawData: cloneRawWithLoachAvailable(), dataDir, now: new Date('2026-11-20T00:00:00.000Z') });
+
+    const changedRaw = cloneRawWithLoachAvailable();
+    changedRaw.products[1].variants[0].available = false; // goes out of stock
+
+    processStoreRun({ store, rawData: changedRaw, dataDir, now: new Date('2026-11-21T00:00:00.000Z') });
+
+    const loachHistory = readHistoryFile(dataDir, 'cf:sci:pseudogastromyzon-myersi') as CanonicalFishHistory;
+    assert.equal(loachHistory.events.length, 2);
+    assert.equal(loachHistory.events[0].confirmedSameUntil, undefined); // first-observed: nothing to compare against
+    // The real change event's confirmedSameUntil reflects the LAST
+    // confirmed-unchanged check (Nov 20), not the change's own date (Nov 21)
+    // nor the original first-observed date (Nov 18).
+    assert.equal(loachHistory.events[1].confirmedSameUntil, '2026-11-20T00:00:00.000Z');
+  });
+});
+
+test('issue #113: a change with no intervening confirmed-unchanged day gets no confirmedSameUntil', () => {
+  withTempDataDir((dataDir) => {
+    processStoreRun({ store, rawData: cloneRawWithLoachAvailable(), dataDir, now: new Date('2026-11-18T00:00:00.000Z') });
+
+    const changedRaw = cloneRawWithLoachAvailable();
+    changedRaw.products[1].variants[0].available = false;
+    processStoreRun({ store, rawData: changedRaw, dataDir, now: new Date('2026-11-19T00:00:00.000Z') });
+
+    const loachHistory = readHistoryFile(dataDir, 'cf:sci:pseudogastromyzon-myersi') as CanonicalFishHistory;
+    assert.equal(loachHistory.events.length, 2);
+    assert.equal(loachHistory.events[1].confirmedSameUntil, undefined);
+  });
+});
+
 test('a Listing that vanishes from the catalog stays in index.json, unchanged, instead of being removed', () => {
   withTempDataDir((dataDir) => {
     processStoreRun({ store, rawData: cloneRaw(), dataDir, now: new Date('2026-11-18T00:00:00.000Z') });
