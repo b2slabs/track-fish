@@ -24,17 +24,27 @@ import type { Listing } from '@/types/data';
  * (issue #39) — the caller passes `group.available`, not `listing.available`,
  * since `listing` (the representative) may itself be out of stock while a
  * cheaper option from another Store is available.
+ *
+ * `imageUrl` defaults to `listing.imageUrl` for callers that only have a
+ * single Listing in hand, but the browse grid passes
+ * `selectPrimaryListing(group.listings)?.imageUrl` explicitly (issue #120)
+ * — the same stable rule the fish detail page's header image uses — so a
+ * card's photo can no longer disagree with that Canonical Fish's own
+ * detail page just because the price-based `representative` Listing
+ * happens to carry a different (or no) image.
  */
 export function ListingCard({
   listing,
   storeCount = 1,
   available = listing.available,
   inStockStoreCount = available ? 1 : 0,
+  imageUrl = listing.imageUrl,
 }: {
   listing: Listing;
   storeCount?: number;
   available?: boolean;
   inStockStoreCount?: number;
+  imageUrl?: string | null;
 }) {
   const detailHref = `/fish/${encodeURIComponent(listing.canonicalFishId)}`;
   // Same name + scientific-name-as-subtitle formatting FishDetailPage uses
@@ -47,9 +57,9 @@ export function ListingCard({
     <Card className="flex flex-col overflow-hidden">
       <Link to={detailHref} className="block">
         <div className="aspect-square w-full overflow-hidden bg-muted">
-          {listing.imageUrl ? (
+          {imageUrl ? (
             <img
-              src={listing.imageUrl}
+              src={imageUrl}
               alt={displayName.name}
               loading="lazy"
               className="h-full w-full object-cover transition-transform hover:scale-105"
