@@ -10,6 +10,7 @@
     "list-store-slugs": "tsx src/cli/list-store-slugs.ts",
     "migrate-heartbeats": "tsx src/cli/migrate-heartbeats.ts",
     "dedupe-first-observed": "tsx src/cli/dedupe-first-observed.ts",
+    "merge-genus-synonym-fish": "tsx src/cli/merge-genus-synonym-fish.ts",
     "typecheck": "tsc --noEmit",
     "test": "node --import tsx --test \"src/**/*.test.ts\""
   },
