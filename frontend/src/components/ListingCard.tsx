@@ -73,7 +73,7 @@ export function ListingCard({
             {storeCount > 1
               ? inStockStoreCount > 0
                 ? `In stock ${inStockStoreCount}/${storeCount} stores`
-                : 'Out of stock'
+                : `Out of stock ${inStockStoreCount}/${storeCount} stores`
               : available
                 ? 'In stock'
                 : 'Out of stock'}
