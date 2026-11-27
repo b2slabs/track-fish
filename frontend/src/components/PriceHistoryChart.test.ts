@@ -141,7 +141,7 @@ describe('computeVariantLines — same-price run splitting (issue #87)', () => {
     expect(line.runs[0]).toHaveLength(2);
   });
 
-  it('does not break the line when a same-price point follows an out-of-stock gap (CK Fish World / Panda Cory, issue #87)', () => {
+  it('splits into two runs with a gray outOfStockSegments connector between them when a same-price point follows a gap (CK Fish World / Panda Cory, issue #87/#111)', () => {
     const events = [
       variantEvent('2026-01-08T00:00:00Z', [{ id: 'v1', price: 59.98, available: true }]),
       // Hard evidence of a gap in between (explicit out-of-stock reading).
@@ -151,11 +151,16 @@ describe('computeVariantLines — same-price run splitting (issue #87)', () => {
       variantEvent('2026-11-24T00:00:00Z', [{ id: 'v1', price: 59.98, available: true }]),
     ];
     const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), new Map());
-    expect(line.runs).toHaveLength(1);
-    expect(line.runs[0].map((p) => p.price)).toEqual([59.98, 59.98, 59.98]);
+    expect(line.runs).toHaveLength(2);
+    expect(line.runs[0].map((p) => p.price)).toEqual([59.98]);
+    expect(line.runs[1].map((p) => p.price)).toEqual([59.98, 59.98]);
+    expect(line.outOfStockSegments).toHaveLength(1);
+    const [start, end] = line.outOfStockSegments[0];
+    expect(start.key).toBe(line.runs[0][0].key);
+    expect(end.key).toBe(line.runs[1][0].key);
   });
 
-  it('still breaks the line on a genuine out-of-stock gap that resumes at a different price', () => {
+  it('still breaks the line on a genuine out-of-stock gap that resumes at a different price, with the same gray connector in between', () => {
     const events = [
       variantEvent('2026-01-08T00:00:00Z', [{ id: 'v1', price: 59.98, available: true }]),
       variantEvent('2026-06-01T00:00:00Z', [{ id: 'v1', price: 59.98, available: false }]),
@@ -166,18 +171,16 @@ describe('computeVariantLines — same-price run splitting (issue #87)', () => {
     expect(line.runs).toHaveLength(2);
     expect(line.runs[0].map((p) => p.price)).toEqual([59.98]);
     expect(line.runs[1].map((p) => p.price)).toEqual([64.99]);
+    expect(line.outOfStockSegments).toHaveLength(1);
   });
 
-  // Issue #108: Shrimpy Business's Celestial Pearl Danio listing toggles
+  // Issue #111: Shrimpy Business's Celestial Pearl Danio listing toggles
   // `available` true/false every few days at an unchanged price — each
-  // toggle is a real, distinct Change Event (not a duplicate-event bug), but
-  // once issue #87's same-price merge bridges the gap into one run, every
-  // resumption point still renders as a full, ordinary marker — a dense row
-  // of visually identical dots along a flat stretch that reads as noise to a
-  // shopper. `flap` tags exactly the point where a run resumes at the same
-  // price it had before a hard-evidence gap, so the chart can render it with
-  // reduced visual weight without hiding or fabricating any history.
-  it('tags the point that resumes a run at the same price after a gap as a flap point (issue #108)', () => {
+  // toggle is a real, distinct Change Event (not a duplicate-event bug).
+  // Every one of these gaps gets its own gray connector, so a dense run of
+  // same-price availability flaps reads as an alternating color/gray
+  // pattern reflecting real history, not a silently-bridged solid line.
+  it('gives every gap its own outOfStockSegments connector for a repeatedly-flapping variant (issue #111)', () => {
     const events = [
       variantEvent('2026-01-08T00:00:00Z', [{ id: 'v1', price: 22.5, available: true }]),
       variantEvent('2026-01-27T00:00:00Z', [{ id: 'v1', price: 22.5, available: false }]),
@@ -186,26 +189,12 @@ describe('computeVariantLines — same-price run splitting (issue #87)', () => {
       variantEvent('2026-02-05T00:00:00Z', [{ id: 'v1', price: 22.5, available: true }]),
     ];
     const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), new Map());
-    expect(line.runs).toHaveLength(1);
-    expect(line.runs[0].map((p) => !!p.flap)).toEqual([false, true, true]);
-  });
-
-  it('never flags the very first observation as a flap point, and leaves a genuine price-change break untagged', () => {
-    const resumeSamePrice = [
-      variantEvent('2026-01-08T00:00:00Z', [{ id: 'v1', price: 59.98, available: true }]),
-      variantEvent('2026-06-01T00:00:00Z', [{ id: 'v1', price: 59.98, available: false }]),
-      variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 59.98, available: true }]),
-    ];
-    const [resumedLine] = computeVariantLines(resumeSamePrice, storeMeta('ck-fish-world'), new Map());
-    expect(resumedLine.runs[0].map((p) => !!p.flap)).toEqual([false, true]);
-
-    const resumeDifferentPrice = [
-      variantEvent('2026-01-08T00:00:00Z', [{ id: 'v1', price: 59.98, available: true }]),
-      variantEvent('2026-06-01T00:00:00Z', [{ id: 'v1', price: 59.98, available: false }]),
-      variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 64.99, available: true }]),
-    ];
-    const [brokenLine] = computeVariantLines(resumeDifferentPrice, storeMeta('ck-fish-world'), new Map());
-    expect(brokenLine.runs.map((run) => run.map((p) => !!p.flap))).toEqual([[false], [false]]);
+    expect(line.runs).toHaveLength(3);
+    expect(line.outOfStockSegments).toHaveLength(2);
+    expect(line.outOfStockSegments.map(([a, b]) => [a.price, b.price])).toEqual([
+      [22.5, 22.5],
+      [22.5, 22.5],
+    ]);
   });
 
   it('still breaks the line when a variant is removed and a different variant later reappears at a different price', () => {
@@ -222,6 +211,7 @@ describe('computeVariantLines — same-price run splitting (issue #87)', () => {
       l.key.endsWith('::v1'),
     );
     expect(v1Line.runs).toHaveLength(2);
+    expect(v1Line.outOfStockSegments).toHaveLength(1);
   });
 });
 
@@ -247,8 +237,8 @@ describe('pointXY — no same-day Store stagger (issue #94)', () => {
   });
 });
 
-describe('computeVariantLines — outOfStockRun (issue #103)', () => {
-  it('extends a currently out-of-stock variant with a gray outOfStockRun out to lastCheckedAt', () => {
+describe('computeVariantLines — trailing outOfStockSegments (issue #103)', () => {
+  it('extends a currently out-of-stock variant with a trailing gray segment out to lastCheckedAt', () => {
     const events = [
       variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 10, available: true }]),
       // Confirmed out of stock as of the latest scrape.
@@ -259,23 +249,23 @@ describe('computeVariantLines — outOfStockRun (issue #103)', () => {
 
     expect(line.runs).toHaveLength(1);
     expect(line.runs[0].map((p) => p.price)).toEqual([10]); // the gap isn't appended to the real run
-    expect(line.outOfStockRun).toBeDefined();
-    const [start, end] = line.outOfStockRun!;
+    expect(line.outOfStockSegments).toHaveLength(1);
+    const [start, end] = line.outOfStockSegments[0];
     expect(start.timestamp).toBe(new Date('2026-11-20T00:00:00Z').getTime());
     expect(end.timestamp).toBe(new Date('2026-11-26T00:00:00Z').getTime());
     expect(end.price).toBe(10); // flat at the last real price
     // Regression (user report, NU Aqua Shop / Gastrodermus hastatus): this
     // run has exactly one real point, so `LinesOverlay` would otherwise draw
     // issue #89's symmetric single-point stub centered on it AND the gray
-    // outOfStockRun line starting from it, double-drawing a short line right
-    // on top of the stub's own right half -- visually a stray line crossing
-    // the point. `outOfStockRun[0]` identifying the exact same point as the
-    // lone point in `runs[0]` is what `LinesOverlay` keys off of to skip the
-    // redundant stub in that case.
+    // segment's line starting from it, double-drawing a short line right on
+    // top of the stub's own right half -- visually a stray line crossing
+    // the point. The segment's start identifying the exact same point as
+    // the lone point in `runs[0]` is what `LinesOverlay` keys off of to
+    // skip the redundant stub in that case.
     expect(start.key).toBe(line.runs[0][0].key);
   });
 
-  it('extends a delisted (vanished) variant\'s outOfStockRun only to its frozen lastCheckedAt, not further', () => {
+  it('extends a delisted (vanished) variant with a trailing segment only to its frozen lastCheckedAt, not further', () => {
     const events = [
       variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 10, available: true }]),
       // v1 entirely absent -- vanished from the catalog.
@@ -288,20 +278,20 @@ describe('computeVariantLines — outOfStockRun (issue #103)', () => {
       l.key.endsWith('::v1'),
     );
 
-    expect(v1Line.outOfStockRun).toBeUndefined(); // nothing to extend: lastCheckedAt == last real point
+    expect(v1Line.outOfStockSegments).toHaveLength(0); // nothing to extend: lastCheckedAt == last real point
   });
 
-  it('does not add an outOfStockRun for a variant currently in stock (existing issue #81 extension applies instead)', () => {
+  it('does not add a trailing segment for a variant currently in stock (existing issue #81 extension applies instead)', () => {
     const events = [variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 10, available: true }])];
     const lastChecked = new Map([['listing-1', '2026-11-26T00:00:00Z']]);
     const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked);
 
-    expect(line.outOfStockRun).toBeUndefined();
+    expect(line.outOfStockSegments).toHaveLength(0);
     expect(line.runs[0]).toHaveLength(2); // the ordinary flat continuation
     expect(line.runs[0][1].price).toBe(10);
   });
 
-  it('adds no outOfStockRun when lastCheckedAt is not later than the last real observation', () => {
+  it('adds no trailing segment when lastCheckedAt is not later than the last real observation', () => {
     const events = [
       variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 10, available: true }]),
       variantEvent('2026-11-24T00:00:00Z', [{ id: 'v1', price: 10, available: false }]),
@@ -310,6 +300,6 @@ describe('computeVariantLines — outOfStockRun (issue #103)', () => {
     const lastChecked = new Map([['listing-1', '2026-11-20T00:00:00Z']]);
     const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked);
 
-    expect(line.outOfStockRun).toBeUndefined();
+    expect(line.outOfStockSegments).toHaveLength(0);
   });
 });
