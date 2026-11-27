@@ -40,3 +40,31 @@ export function selectPrimaryListing(listings: Listing[]): Listing | undefined {
     return l.listingId < earliest.listingId ? l : earliest;
   });
 }
+
+/**
+ * Every distinct image URL across a Canonical Fish's Listings (issue
+ * #120), for the detail page's gallery — ordered the same way
+ * `selectPrimaryListing` picks its one image (earliest `firstObservedAt`
+ * first, ties broken by `listingId`), so the gallery's first thumbnail is
+ * always that same primary image. Two Listings sharing the identical
+ * image URL (a common Store-sourced stock photo) contribute only one
+ * entry. Empty when no Listing has an image.
+ */
+export function listGalleryImageUrls(listings: Listing[]): string[] {
+  const ordered = [...listings]
+    .filter((l): l is Listing & { imageUrl: string } => !!l.imageUrl)
+    .sort((a, b) => {
+      if (a.firstObservedAt < b.firstObservedAt) return -1;
+      if (a.firstObservedAt > b.firstObservedAt) return 1;
+      return a.listingId < b.listingId ? -1 : a.listingId > b.listingId ? 1 : 0;
+    });
+
+  const seen = new Set<string>();
+  const urls: string[] = [];
+  for (const l of ordered) {
+    if (seen.has(l.imageUrl)) continue;
+    seen.add(l.imageUrl);
+    urls.push(l.imageUrl);
+  }
+  return urls;
+}

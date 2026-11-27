@@ -1,5 +1,5 @@
 import { ArrowLeft } from 'lucide-react';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { LastUpdated } from '@/components/LastUpdated';
 import { PriceHistoryChart } from '@/components/PriceHistoryChart';
@@ -10,7 +10,7 @@ import { useFishHistory } from '@/hooks/useFishHistory';
 import { useIndex } from '@/hooks/useIndex';
 import { getDisplayName } from '@/lib/display-name';
 import { pickRepresentative } from '@/lib/group-listings';
-import { selectPrimaryListing } from '@/lib/select-primary-image';
+import { listGalleryImageUrls, selectPrimaryListing } from '@/lib/select-primary-image';
 
 export function FishDetailPage() {
   const { canonicalFishId: rawId } = useParams<{ canonicalFishId: string }>();
@@ -41,6 +41,18 @@ export function FishDetailPage() {
     listings.length > 0 ? pickRepresentative(listings, index?.stores ?? {}) : undefined;
   const displayName = primary ? getDisplayName(primary) : undefined;
   const loading = indexLoading || historyLoading;
+
+  // Issue #120: a gallery across every distinct image a Listing carries,
+  // not just the one `selectPrimaryListing` picks as the header default.
+  // `selectedImageUrl` lets a reader click a thumbnail to swap the main
+  // image; reset whenever the fish itself changes (a stale selection from
+  // the previous page shouldn't survive navigating to a different fish).
+  const galleryImageUrls = listGalleryImageUrls(listings);
+  const [selectedImageUrl, setSelectedImageUrl] = useState<string | null>(null);
+  useEffect(() => {
+    setSelectedImageUrl(null);
+  }, [canonicalFishId]);
+  const displayedImageUrl = selectedImageUrl ?? image?.imageUrl ?? null;
 
   useEffect(() => {
     document.title = displayName ? `${displayName.name} - Track Fish` : 'Track Fish';
@@ -84,16 +96,36 @@ export function FishDetailPage() {
         <div className="mt-6 space-y-6">
           <Card>
             <div className="flex flex-col gap-4 p-4 sm:flex-row">
-              <div className="aspect-square w-full overflow-hidden rounded-md bg-muted sm:w-48">
-                {image?.imageUrl ? (
-                  <img
-                    src={image.imageUrl}
-                    alt={displayName.name}
-                    className="h-full w-full object-cover"
-                  />
-                ) : (
-                  <div className="flex h-full w-full items-center justify-center text-xs text-muted-foreground">
-                    No image
+              <div className="w-full space-y-2 sm:w-48">
+                <div className="aspect-square w-full overflow-hidden rounded-md bg-muted">
+                  {displayedImageUrl ? (
+                    <img
+                      src={displayedImageUrl}
+                      alt={displayName.name}
+                      className="h-full w-full object-cover"
+                    />
+                  ) : (
+                    <div className="flex h-full w-full items-center justify-center text-xs text-muted-foreground">
+                      No image
+                    </div>
+                  )}
+                </div>
+                {galleryImageUrls.length > 1 && (
+                  <div className="flex flex-wrap gap-1.5">
+                    {galleryImageUrls.map((url) => (
+                      <button
+                        key={url}
+                        type="button"
+                        onClick={() => setSelectedImageUrl(url)}
+                        aria-current={url === displayedImageUrl}
+                        aria-label={`Show ${displayName.name} image ${galleryImageUrls.indexOf(url) + 1} of ${galleryImageUrls.length}`}
+                        className={`size-10 shrink-0 overflow-hidden rounded-md ring-2 ring-offset-1 ring-offset-background ${
+                          url === displayedImageUrl ? 'ring-primary' : 'ring-transparent hover:ring-muted-foreground/40'
+                        }`}
+                      >
+                        <img src={url} alt="" className="h-full w-full object-cover" />
+                      </button>
+                    ))}
                   </div>
                 )}
               </div>

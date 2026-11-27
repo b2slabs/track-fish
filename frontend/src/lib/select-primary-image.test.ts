@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest';
 import type { Listing } from '@/types/data';
-import { selectPrimaryListing } from './select-primary-image';
+import { listGalleryImageUrls, selectPrimaryListing } from './select-primary-image';
 
 function makeListing(overrides: Partial<Listing>): Listing {
   return {
@@ -88,4 +88,42 @@ test('selectPrimaryListing breaks ties by listingId when firstObservedAt matches
 
 test('selectPrimaryListing returns undefined for an empty list', () => {
   expect(selectPrimaryListing([])).toBe(undefined);
+});
+
+test('listGalleryImageUrls returns every distinct image URL, primary (earliest-firstObservedAt) first', () => {
+  const newer = makeListing({
+    listingId: 'newer',
+    imageUrl: 'https://example.com/newer.jpg',
+    firstObservedAt: '2026-02-01T00:00:00.000Z',
+  });
+  const older = makeListing({
+    listingId: 'older',
+    imageUrl: 'https://example.com/older.jpg',
+    firstObservedAt: '2026-01-01T00:00:00.000Z',
+  });
+
+  expect(listGalleryImageUrls([newer, older])).toEqual([
+    'https://example.com/older.jpg',
+    'https://example.com/newer.jpg',
+  ]);
+});
+
+test('listGalleryImageUrls dedupes identical image URLs shared by two Listings', () => {
+  const a = makeListing({
+    listingId: 'a',
+    imageUrl: 'https://example.com/same.jpg',
+    firstObservedAt: '2026-01-01T00:00:00.000Z',
+  });
+  const b = makeListing({
+    listingId: 'b',
+    imageUrl: 'https://example.com/same.jpg',
+    firstObservedAt: '2026-02-01T00:00:00.000Z',
+  });
+
+  expect(listGalleryImageUrls([a, b])).toEqual(['https://example.com/same.jpg']);
+});
+
+test('listGalleryImageUrls skips Listings with no image and returns an empty array when none have one', () => {
+  const noImage = makeListing({ imageUrl: null });
+  expect(listGalleryImageUrls([noImage])).toEqual([]);
 });

@@ -9,6 +9,7 @@ import { useInfiniteScroll } from '@/hooks/useInfiniteScroll';
 import { categorizeListing, categoryRank } from '@/lib/categorize';
 import { groupListingsByCanonicalFish } from '@/lib/group-listings';
 import { displayListingStatus } from '@/lib/listing-freshness';
+import { selectPrimaryListing } from '@/lib/select-primary-image';
 
 const PAGE_SIZE = 24;
 
@@ -188,6 +189,7 @@ export function BrowsePage() {
                     storeCount={group.storeCount}
                     available={group.available}
                     inStockStoreCount={group.inStockStoreCount}
+                    imageUrl={selectPrimaryListing(group.listings)?.imageUrl}
                   />
                 ))}
               </div>
