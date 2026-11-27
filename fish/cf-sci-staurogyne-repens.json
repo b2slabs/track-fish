@@ -8,70 +8,70 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Staurogyne repens - Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "glass-aqua:11277473479",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Staurogyne Repens",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "nu-aqua-shop:10006360588604",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Staurogyne Repens",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "ck-fish-world:8733676962007",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Staurogyne Repens",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "shrimpy-business:8729758826786",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Staurogyne Repens",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "daku-aquatics:8741033803994",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Staurogyne Repens",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     },
     {
       "listingId": "aquatic-arts:1379528179798+1923638132822",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Staurogyne repens Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Staurogyne Repens",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Staurogyne Repens",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aqua-imports:60135",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Staurogyne repens",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -588,6 +588,38 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12744599634006",
+          "label": "1 Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12744614346838",
+          "label": "2 Bunches",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "12744614379606",
+          "label": "3 Bunches",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 12.99,
       "currency": "USD",
@@ -603,6 +635,28 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39485260038246",
+          "label": "Title",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "flip-aquatics:6658174877798+6692638916710",
       "storeSlug": "flip-aquatics"
@@ -643,6 +697,60 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 7.64,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "30382940109",
+          "label": "Pot",
+          "price": 7.64,
+          "available": true
+        },
+        {
+          "id": "12425334718545",
+          "label": "3 Pot Package",
+          "price": 21.24,
+          "available": true
+        },
+        {
+          "id": "12425334751313",
+          "label": "5 Pot Package",
+          "price": 29.74,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "22717084074065",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
@@ -698,6 +806,115 @@
       ],
       "listingId": "nu-aqua-shop:10006360588604",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19442675089494",
+          "label": "1 Tissue Culture",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12744599634006",
+          "label": "1 Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12744614346838",
+          "label": "2 Bunches",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "12744614379606",
+          "label": "3 Bunches",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:1379528179798+1923638132822",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:57.844Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39550754422886",
+          "label": "Staurogyne Repens  | Tissue Culture",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "39485260038246",
+          "label": "Staurogyne Repens",
+          "price": 8.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "flip-aquatics:6658174877798+6692638916710",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 7.64,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "34295874637",
+          "label": "Staurogyne Repens UNS Tissue Culture",
+          "price": 11.04,
+          "available": true
+        },
+        {
+          "id": "30382940109",
+          "label": "Pot",
+          "price": 7.64,
+          "available": true
+        },
+        {
+          "id": "12425334718545",
+          "label": "3 Pot Package",
+          "price": 21.24,
+          "available": true
+        },
+        {
+          "id": "12425334751313",
+          "label": "5 Pot Package",
+          "price": 29.74,
+          "available": true
+        },
+        {
+          "id": "22717084074065",
+          "label": "Staurogyne Repens Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:2868326826065+8844293965+9369451085",
+      "storeSlug": "buce-plant"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
@@ -763,27 +980,6 @@
       ],
       "listingId": "buce-plant:2868326826065+8844293965+9369451085",
       "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 9.6,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51386927808811",
-          "label": "Each",
-          "price": 9.6,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10106514899243",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

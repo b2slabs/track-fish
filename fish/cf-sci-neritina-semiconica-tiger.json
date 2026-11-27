@@ -8,49 +8,49 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Tiger Nerite Snails (Neritina semiconica)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "monster-aquarium:7082704535761",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Tiger Nerite Snail (Neritina Semiconica)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "shrimpy-business:6572399722581",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Tiger Nerite Snail",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "flip-aquatics:7064016715878",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "3 Tiger Nerite Snails",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "imperial-tropicals:8397991772467",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Tiger Nerite Snail",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "buce-plant:7145998811336",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Tiger Nerite Snails",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aqua-imports:67393",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Tiger Nerite Snail (Neritina semiconca)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -324,6 +324,69 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 4.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47286602858786",
+          "label": "1 Snail / Regular",
+          "price": 6,
+          "available": true
+        },
+        {
+          "id": "39346298290261",
+          "label": "3 Snails / Regular",
+          "price": 16.2,
+          "available": true
+        },
+        {
+          "id": "51662849016098",
+          "label": "6 Snail / Regular",
+          "price": 30.6,
+          "available": true
+        },
+        {
+          "id": "51662849048866",
+          "label": "12 Snail / Regular",
+          "price": 57.6,
+          "available": true
+        },
+        {
+          "id": "67839302795554",
+          "label": "1 Snail / B-Grade",
+          "price": 4.5,
+          "available": true
+        },
+        {
+          "id": "67839302828322",
+          "label": "3 Snails / B-Grade",
+          "price": 12.15,
+          "available": true
+        },
+        {
+          "id": "67839302861090",
+          "label": "6 Snail / B-Grade",
+          "price": 22.95,
+          "available": true
+        },
+        {
+          "id": "67839302893858",
+          "label": "12 Snail / B-Grade",
+          "price": 43.2,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6572399722581",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 1.99,
       "currency": "USD",
@@ -534,44 +597,6 @@
       ],
       "listingId": "aquatic-arts:4845783366",
       "storeSlug": "aquatic-arts"
-    },
-    {
-      "observedAt": "2026-11-26T18:54:17.996Z",
-      "price": 1.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "49544468332851",
-          "label": "B-Grade 0.5-1\" Unsexed",
-          "price": 1.99,
-          "available": true
-        },
-        {
-          "id": "45611763073331",
-          "label": "(3 Pack) 0.5-1\" Unsexed",
-          "price": 9.99,
-          "available": false
-        },
-        {
-          "id": "45611763138867",
-          "label": "(6 Pack) 0.5-1\" Unsexed",
-          "price": 17.99,
-          "available": true
-        },
-        {
-          "id": "45611763204403",
-          "label": "(10 Pack) 0.5-1\" Unsexed",
-          "price": 26.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "variants"
-      ],
-      "listingId": "imperial-tropicals:8397991772467",
-      "storeSlug": "imperial-tropicals"
     }
   ]
 }

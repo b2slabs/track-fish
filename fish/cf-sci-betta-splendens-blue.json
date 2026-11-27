@@ -8,21 +8,21 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Blue Samurai Betta PAIR",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "shrimpy-business:9871333425442",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Blue Alien Betta",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "aquahuna:7277261553739+7277262372939",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Alien Blue Betta",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     }
   ],
   "events": [
@@ -73,6 +73,46 @@
       "storeSlug": "shrimpy-business"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41210741030987",
+          "label": "Title",
+          "price": 25,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquahuna:7277261553739+7277262372939",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41210739425355",
+          "label": "Title",
+          "price": 25,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquahuna:7277261553739+7277262372939",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-21T01:29:44.090Z",
       "price": 77.99,
       "currency": "USD",
@@ -91,6 +131,32 @@
       ],
       "listingId": "nu-aqua-shop:10019841900860",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:42.741Z",
+      "price": 25,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41210741030987",
+          "label": "Alien Blue Betta",
+          "price": 25,
+          "available": false
+        },
+        {
+          "id": "41210739425355",
+          "label": "Alien Steel Blue Betta",
+          "price": 25,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquahuna:7277261553739+7277262372939",
+      "storeSlug": "aquahuna"
     }
   ]
 }

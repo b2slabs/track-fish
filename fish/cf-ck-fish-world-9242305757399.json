@@ -8,21 +8,21 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "2HR Aquarist- APT Fix",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "buce-plant:8266545234120+8330014326984",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "2HR Aquarist - APT Fix",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:7778079866966+7778098217046+7780289544278+7950083326038+7950084898902",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "2HR Aquarist APT 1",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
@@ -68,6 +68,38 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "glass-aqua:7778079866966+7778098217046+7780289544278+7950083326038+7950084898902",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-03-25T03:00:00.000Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43897432113238",
+          "label": "2HR Aquarist APT Fix",
+          "price": 23.99,
+          "available": true
+        },
+        {
+          "id": "43892455276630",
+          "label": "2HR Aquarist APT 1",
+          "price": 23.99,
+          "available": true
+        },
+        {
+          "id": "43892519829590",
+          "label": "2HR Aquarist APT 3",
+          "price": 23.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
       ],
       "listingId": "glass-aqua:7778079866966+7778098217046+7780289544278+7950083326038+7950084898902",
       "storeSlug": "glass-aqua"
@@ -253,6 +285,77 @@
       "storeSlug": "glass-aqua"
     },
     {
+      "observedAt": "2026-10-14T05:00:00.000Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45138831507656",
+          "label": "2HR Aquarist - APT Dew",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "44893132161224",
+          "label": "2HR Aquarist - APT Fix",
+          "price": 23.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:8266545234120+8330014326984",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-10-14T05:00:00.000Z",
+      "price": 15.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45363435602006",
+          "label": "2HR Aquarist APT Sky",
+          "price": 15.99,
+          "available": true
+        },
+        {
+          "id": "45363432751190",
+          "label": "2HR Aquarist Apt Dew",
+          "price": 22.99,
+          "available": true
+        },
+        {
+          "id": "43897432113238",
+          "label": "2HR Aquarist APT Fix",
+          "price": 23.99,
+          "available": true
+        },
+        {
+          "id": "43892455276630",
+          "label": "2HR Aquarist APT 1",
+          "price": 23.99,
+          "available": true
+        },
+        {
+          "id": "43892519829590",
+          "label": "2HR Aquarist APT 3",
+          "price": 23.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7778079866966+7778098217046+7780289544278+7950083326038+7950084898902",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-10-16T04:00:00.000Z",
       "price": 16.99,
       "currency": "USD",
@@ -432,6 +535,221 @@
       ],
       "type": "change",
       "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:7778079866966+7778098217046+7780289544278+7950083326038+7950084898902",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45138831507656",
+          "label": "Title",
+          "price": 34.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:8266545234120+8330014326984",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44893132161224",
+          "label": "Title",
+          "price": 23.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:8266545234120+8330014326984",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45363435602006",
+          "label": "Title",
+          "price": 16.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:7778079866966+7778098217046+7780289544278+7950083326038+7950084898902",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45363432751190",
+          "label": "Title",
+          "price": 22.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7778079866966+7778098217046+7780289544278+7950083326038+7950084898902",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43897432113238",
+          "label": "Title",
+          "price": 23.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7778079866966+7778098217046+7780289544278+7950083326038+7950084898902",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43892455276630",
+          "label": "Title",
+          "price": 23.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:7778079866966+7778098217046+7780289544278+7950083326038+7950084898902",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43892519829590",
+          "label": "Title",
+          "price": 23.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:7778079866966+7778098217046+7780289544278+7950083326038+7950084898902",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45138831507656",
+          "label": "2HR Aquarist - APT Dew",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "44893132161224",
+          "label": "2HR Aquarist - APT Fix",
+          "price": 23.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:8266545234120+8330014326984",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:44.972Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45363435602006",
+          "label": "2HR Aquarist APT Sky",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "45363432751190",
+          "label": "2HR Aquarist Apt Dew",
+          "price": 22.99,
+          "available": true
+        },
+        {
+          "id": "43897432113238",
+          "label": "2HR Aquarist APT Fix",
+          "price": 23.99,
+          "available": true
+        },
+        {
+          "id": "43892455276630",
+          "label": "2HR Aquarist APT 1",
+          "price": 23.99,
+          "available": true
+        },
+        {
+          "id": "43892519829590",
+          "label": "2HR Aquarist APT 3",
+          "price": 23.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
         "variants"
       ],
       "listingId": "glass-aqua:7778079866966+7778098217046+7780289544278+7950083326038+7950084898902",

@@ -8,49 +8,49 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Otocinclus Catfish (Tank-Bred)",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "aquahuna:6578892013643",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Otocinclus",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "nu-aqua-shop:10006358950204",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Otocinclus",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aquatic-arts:1941276131414+9112786927895",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Otocinclus Catfish (Otocinclus macrospilus), Tank-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "ck-fish-world:8149535424727",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Oto Catfish",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "monster-aquarium:6992785801425",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Otto Catfish (Macrotocinclus affinis)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:683114+688368",
       "storeSlug": "wet-spot-tropical-fish",
       "storeName": "The Wet Spot Tropical Fish",
       "commonName": "Otocinclus sp.",
-      "lastCheckedAt": "2026-11-26T18:56:00.122Z"
+      "lastCheckedAt": "2026-11-25T19:04:28.157Z"
     }
   ],
   "events": [
@@ -1137,6 +1137,45 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19469593706582",
+          "label": "School of 3",
+          "price": 21.99,
+          "available": true
+        },
+        {
+          "id": "19469593739350",
+          "label": "School of 6",
+          "price": 42.99,
+          "available": true
+        },
+        {
+          "id": "19469594820694",
+          "label": "School of 9",
+          "price": 62.99,
+          "available": true
+        },
+        {
+          "id": "19469594853462",
+          "label": "School of 12",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:1941276131414+9112786927895",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 3,
       "currency": "USD",
@@ -1195,6 +1234,68 @@
       ],
       "listingId": "nu-aqua-shop:10006358950204",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48176261660951",
+          "label": "3 Otocinclus Catfish",
+          "price": 48.99,
+          "available": true
+        },
+        {
+          "id": "48176261726487",
+          "label": "3 Siamese Algae Eaters",
+          "price": 48.99,
+          "available": true
+        },
+        {
+          "id": "48176261759255",
+          "label": "3 Doctor Fish",
+          "price": 48.99,
+          "available": false
+        },
+        {
+          "id": "48176261693719",
+          "label": "2 Panda Garra",
+          "price": 48.99,
+          "available": true
+        },
+        {
+          "id": "19469593706582",
+          "label": "School of 3",
+          "price": 21.99,
+          "available": true
+        },
+        {
+          "id": "19469593739350",
+          "label": "School of 6",
+          "price": 42.99,
+          "available": true
+        },
+        {
+          "id": "19469594820694",
+          "label": "School of 9",
+          "price": 62.99,
+          "available": true
+        },
+        {
+          "id": "19469594853462",
+          "label": "School of 12",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:1941276131414+9112786927895",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-22T15:59:59.136Z",

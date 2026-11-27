@@ -8,7 +8,7 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "El Silverado Endler’s Livebearer",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     }
   ],
   "events": [
@@ -207,6 +207,57 @@
       "storeSlug": "flip-aquatics"
     },
     {
+      "observedAt": "2026-07-24T03:00:00.000Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45732072357990",
+          "label": "Imported / Male",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "45732072390758",
+          "label": "Imported / Female",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "45732072423526",
+          "label": "Imported / Pair (M/F)",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "45564524888166",
+          "label": "Imported / Male",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45564524920934",
+          "label": "Imported / Female",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "45564524953702",
+          "label": "Imported / Pair (M/F)",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:8048813080678",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-07-25T03:00:00.000Z",
       "price": 10.99,
       "currency": "USD",
@@ -348,6 +399,38 @@
           "label": "Imported / Pair (M/F)",
           "price": 28.99,
           "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "flip-aquatics:8048813080678",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-08-12T03:00:00.000Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45732072357990",
+          "label": "Imported / Male",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "45732072390758",
+          "label": "Imported / Female",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "45732072423526",
+          "label": "Imported / Pair (M/F)",
+          "price": 19.99,
+          "available": false
         }
       ],
       "type": "change",

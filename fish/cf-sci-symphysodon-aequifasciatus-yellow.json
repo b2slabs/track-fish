@@ -8,28 +8,28 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Yellow Pigeon Blood Discus",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "aquarium-fish:1422387052614",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Yellow Marlboro Discus",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Yellow Discus (Symphysodon aequifasciatus)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aqua-imports:129231",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Yellow Pigeonblood Discus (Symphysodon discus)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -271,6 +271,104 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 94.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42263592435921",
+          "label": "5”",
+          "price": 94.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 79.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42263591354577",
+          "label": "4”-4.5”",
+          "price": 79.99,
+          "available": true
+        },
+        {
+          "id": "42912421314769",
+          "label": "3\"-4\"",
+          "price": 68.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41152149455057",
+          "label": "3-4\"",
+          "price": 69.99,
+          "available": true
+        },
+        {
+          "id": "41041245470929",
+          "label": "4-5\"",
+          "price": 88.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 78.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42424240046289",
+          "label": "4”",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 89.99,
       "currency": "USD",
@@ -303,6 +401,57 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-21T20:07:35.821Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42263592435921",
+          "label": "5”",
+          "price": 94.99,
+          "available": false
+        },
+        {
+          "id": "42263591354577",
+          "label": "4”-4.5”",
+          "price": 79.99,
+          "available": true
+        },
+        {
+          "id": "42912421314769",
+          "label": "3\"-4\"",
+          "price": 68.99,
+          "available": false
+        },
+        {
+          "id": "41152149455057",
+          "label": "3-4\"",
+          "price": 69.99,
+          "available": true
+        },
+        {
+          "id": "41041245470929",
+          "label": "4-5\"",
+          "price": 88.99,
+          "available": false
+        },
+        {
+          "id": "42424240046289",
+          "label": "4”",
+          "price": 78.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "monster-aquarium:7032808734929+7032809259217+7479509582033+7479510073553",
+      "storeSlug": "monster-aquarium"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 0,
       "currency": "USD",
@@ -321,39 +470,6 @@
       ],
       "listingId": "aqua-imports:129231",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 76.49,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "39544941543505",
-          "label": "Medium (1.5-2\")",
-          "price": 76.49,
-          "available": false
-        },
-        {
-          "id": "12633419808838",
-          "label": "Large (2.5-3\")",
-          "price": 84.99,
-          "available": false
-        },
-        {
-          "id": "12633419841606",
-          "label": "Extra Large (4\")",
-          "price": 127.49,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:1422387052614",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

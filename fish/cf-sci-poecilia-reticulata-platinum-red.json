@@ -8,21 +8,21 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Platinum Red Mosaic Guppy (Poecilia reticulata), Males and Females, Tank-Bred!",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "nu-aqua-shop:10117331943740",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Platinum Red Tail Elephant Ear Guppy - Nu Aqua Bred",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "flip-aquatics:6882025177190+6882025865318",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Dumbo Ear Platinum Red Tail Guppy",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     }
   ],
   "events": [
@@ -127,6 +127,39 @@
       "storeSlug": "flip-aquatics"
     },
     {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40256677707878",
+          "label": "USA Bred / Male",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "40256677740646",
+          "label": "USA Bred / Female",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "40256677773414",
+          "label": "USA Bred / Pair (M/F)",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:6882025177190+6882025865318",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-21T01:29:44.090Z",
       "price": 17.99,
       "currency": "USD",
@@ -151,6 +184,63 @@
       ],
       "listingId": "nu-aqua-shop:10117331943740",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-22T00:52:42.262Z",
+      "price": 11.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42015448039526",
+          "label": "Flip Bred / Juvie (Unsexed)",
+          "price": 11.49,
+          "available": false
+        },
+        {
+          "id": "42015448072294",
+          "label": "Flip Bred / Male",
+          "price": 17.49,
+          "available": false
+        },
+        {
+          "id": "42015448105062",
+          "label": "Flip Bred / Female",
+          "price": 17.49,
+          "available": false
+        },
+        {
+          "id": "42015448137830",
+          "label": "Flip Bred / Pair (M/F)",
+          "price": 28.99,
+          "available": false
+        },
+        {
+          "id": "40256677707878",
+          "label": "USA Bred / Male",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "40256677740646",
+          "label": "USA Bred / Female",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "40256677773414",
+          "label": "USA Bred / Pair (M/F)",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:6882025177190+6882025865318",
+      "storeSlug": "flip-aquatics"
     }
   ]
 }

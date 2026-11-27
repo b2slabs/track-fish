@@ -8,42 +8,42 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Hygrophila Pinnatifida",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "daku-aquatics:8741040849114",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Hygrophila Pinnatifida",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     },
     {
       "listingId": "buce-plant:8205303873736",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Hygrophila Pinnatifida 'UK'",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "flip-aquatics:6692634689638",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Hygrophila Pinnatifida",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "glass-aqua:1347965550678+7547532640342",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Hygrophila Pinnatifida",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "aqua-imports:60076",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Hygrophila pinnatifida",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -694,6 +694,27 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12392211644502",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "glass-aqua:1347965550678+7547532640342",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-11-21T01:29:18.881Z",
       "price": 7.29,
       "currency": "USD",
@@ -715,6 +736,33 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-21T20:08:44.972Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42280452489302",
+          "label": "Hygrophila Pinnatifida 'UK'",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "12392211644502",
+          "label": "Hygrophila Pinnatifida",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "glass-aqua:1347965550678+7547532640342",
+      "storeSlug": "glass-aqua"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 5.99,
       "currency": "USD",
@@ -733,27 +781,6 @@
       ],
       "listingId": "aqua-imports:60076",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 6.2,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "19809638470",
-          "label": "Title",
-          "price": 6.2,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6260544262",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

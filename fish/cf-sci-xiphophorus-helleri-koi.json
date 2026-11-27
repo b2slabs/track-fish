@@ -8,49 +8,49 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Koi Sanke Swordtail (Xiphophorus helleri), Tank-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aquahuna:4165028905003",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Koi Swordtail",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "imperial-tropicals:9370657161523",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Sanke Koi Swordtail",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "nu-aqua-shop:10006357934396",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Koi Swordtails",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "shrimpy-business:9751495901474+9797207982370",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Sanke Koi Swordtail",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "flip-aquatics:7741803724902",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Sanke Koi Swordtail | Xiphophorus Helleri",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aqua-imports:118437+57425",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Sanke Koi Swordtail (Xiphophorus helleri)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -877,6 +877,131 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 11.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "50149125587234",
+          "label": "2 Fish",
+          "price": 11.5,
+          "available": false
+        },
+        {
+          "id": "50149125620002",
+          "label": "4 Fish",
+          "price": 20.95,
+          "available": false
+        },
+        {
+          "id": "51662837547298",
+          "label": "8 Fish",
+          "price": 38.95,
+          "available": false
+        },
+        {
+          "id": "51662837580066",
+          "label": "16 Fish",
+          "price": 73.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9751495901474+9797207982370",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 6.25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50000151871778",
+          "label": "1 Fish",
+          "price": 6.25,
+          "available": true
+        },
+        {
+          "id": "50000151904546",
+          "label": "3 Fish",
+          "price": 16.95,
+          "available": true
+        },
+        {
+          "id": "51662838530338",
+          "label": "6 Fish",
+          "price": 31.95,
+          "available": true
+        },
+        {
+          "id": "51662838563106",
+          "label": "12 Fish",
+          "price": 59.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9751495901474+9797207982370",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "49688934777139",
+          "label": "1-2\" Unsexed",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "49688934809907",
+          "label": "(10 Pack) 1-2\" Unsexed",
+          "price": 79.99,
+          "available": false
+        },
+        {
+          "id": "49688934842675",
+          "label": "1-2\" Female",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "49688934875443",
+          "label": "1-2\" Male",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "49688934908211",
+          "label": "1-2\" Trio (1 Male, 2 Female)",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:9370657161523",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-21T01:29:44.090Z",
       "price": 3.49,
       "currency": "USD",
@@ -901,6 +1026,68 @@
       ],
       "listingId": "nu-aqua-shop:10006357934396",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:54.360Z",
+      "price": 6.25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50149125587234",
+          "label": "2 Fish",
+          "price": 11.5,
+          "available": false
+        },
+        {
+          "id": "50149125620002",
+          "label": "4 Fish",
+          "price": 20.95,
+          "available": false
+        },
+        {
+          "id": "51662837547298",
+          "label": "8 Fish",
+          "price": 38.95,
+          "available": false
+        },
+        {
+          "id": "51662837580066",
+          "label": "16 Fish",
+          "price": 73.95,
+          "available": false
+        },
+        {
+          "id": "50000151871778",
+          "label": "1 Fish",
+          "price": 6.25,
+          "available": true
+        },
+        {
+          "id": "50000151904546",
+          "label": "3 Fish",
+          "price": 16.95,
+          "available": true
+        },
+        {
+          "id": "51662838530338",
+          "label": "6 Fish",
+          "price": 31.95,
+          "available": true
+        },
+        {
+          "id": "51662838563106",
+          "label": "12 Fish",
+          "price": 59.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:9751495901474+9797207982370",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

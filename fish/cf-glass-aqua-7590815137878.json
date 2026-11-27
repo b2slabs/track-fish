@@ -8,7 +8,7 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Horn Wood",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
@@ -135,6 +135,33 @@
           "label": "10-Pack",
           "price": 39.99,
           "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7590815137878",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42478586298454",
+          "label": "5-Pack",
+          "price": 26.99,
+          "available": false
+        },
+        {
+          "id": "42478586331222",
+          "label": "10-Pack",
+          "price": 39.99,
+          "available": false
         }
       ],
       "type": "change",

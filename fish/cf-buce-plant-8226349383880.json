@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Nano Horn Wood",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -135,6 +135,33 @@
           "label": "10 Pack",
           "price": 39.99,
           "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:8226349383880",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44709430689992",
+          "label": "5 Pack",
+          "price": 26.99,
+          "available": false
+        },
+        {
+          "id": "44709430722760",
+          "label": "10 Pack",
+          "price": 39.99,
+          "available": false
         }
       ],
       "type": "change",

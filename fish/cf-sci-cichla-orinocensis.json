@@ -8,28 +8,28 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Orinocensis Peacock Bass (Cichla orinocensis)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquarium-fish:1440521879622",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Peacock Bass Orinocensis",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:38315+39132",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Orinoco Peacock Bass (Cichla orinocensis)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "global-exoticquatics:8672798081216",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Orinoco Peacock Bass",
-      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     }
   ],
   "events": [
@@ -121,6 +121,27 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48742837125312",
+          "label": "2-3in",
+          "price": 25,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8672798081216",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
       "observedAt": "2026-11-20T07:00:00.000Z",
       "price": 25,
       "currency": "USD",
@@ -162,6 +183,52 @@
       "storeSlug": "aqua-imports"
     },
     {
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38315",
+          "label": "Default",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aqua-imports:38315+39132",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:59:38.961Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39132",
+          "label": "Default",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "38315",
+          "label": "Default",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aqua-imports:38315+39132",
+      "storeSlug": "aqua-imports"
+    },
+    {
       "observedAt": "2026-11-23T20:57:03.886Z",
       "price": 25,
       "currency": "USD",
@@ -181,27 +248,6 @@
       ],
       "listingId": "global-exoticquatics:8672798081216",
       "storeSlug": "global-exoticquatics"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 37.65,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "12733660921926",
-          "label": "Title",
-          "price": 37.65,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:1440521879622",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

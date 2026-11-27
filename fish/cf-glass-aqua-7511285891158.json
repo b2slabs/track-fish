@@ -8,7 +8,7 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Bolbitis Difformis ‘Mini’ - Driftwood",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
@@ -137,6 +137,33 @@
       ],
       "type": "change",
       "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:7511285891158",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 21.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42122376544342",
+          "label": "Small",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "42122376577110",
+          "label": "Medium",
+          "price": 21.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
         "variants"
       ],
       "listingId": "glass-aqua:7511285891158",

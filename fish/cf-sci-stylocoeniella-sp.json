@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Rainbow Stylocoeniella",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     }
   ],
   "events": [
@@ -408,27 +408,88 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 34.25,
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 40.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51517283139883",
+          "label": "Title",
+          "price": 40.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10155311038763+10155350720811+10155382538539",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 40.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51517227008299",
+          "label": "Title",
+          "price": 40.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10155311038763+10155350720811+10155382538539",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 60.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51517167960363",
+          "label": "Title",
+          "price": 60.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10155311038763+10155350720811+10155382538539",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 40.29,
       "currency": "USD",
       "available": true,
       "variants": [
         {
           "id": "51517283139883",
           "label": "Rainbow Stylocoeniella",
-          "price": 34.25,
+          "price": 40.29,
           "available": true
         },
         {
           "id": "51517227008299",
           "label": "Candy Apple Stylocoeniella",
-          "price": 34.25,
+          "price": 40.29,
           "available": true
         },
         {
           "id": "51517167960363",
           "label": "Burning Banana Stylocoeniella",
-          "price": 51.84,
+          "price": 60.99,
           "available": true
         }
       ],

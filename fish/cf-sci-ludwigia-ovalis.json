@@ -8,49 +8,49 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Ludwigia Ovalis",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:11302809991",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Ludwigia Ovalis",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "shrimpy-business:8218756022562",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Ludwigia Ovalis",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "flip-aquatics:6692631904358",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Ludwigia Ovalis",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "daku-aquatics:8835163259098",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Ludwigia Ovalis",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     },
     {
       "listingId": "aquatic-arts:3482374340694+6766374813782",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Oval Ludwigia (Ludwigia ovalis)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aqua-imports:60100",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Ludwigia ovalis",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -400,6 +400,34 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "27860031307862",
+          "label": "1 BUNCH",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "48601072861463",
+          "label": "1 POTTED PLANT",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:3482374340694+6766374813782",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 7.99,
       "currency": "USD",
@@ -464,6 +492,50 @@
       ],
       "listingId": "glass-aqua:11302809991",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39881616523350",
+          "label": "1 Tissue Culture Cup",
+          "price": 11.99,
+          "available": false
+        },
+        {
+          "id": "39881616556118",
+          "label": "2 Tissue Culture Cups",
+          "price": 22.99,
+          "available": false
+        },
+        {
+          "id": "39881616588886",
+          "label": "3 Tissue Culture Cups",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "27860031307862",
+          "label": "1 BUNCH",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "48601072861463",
+          "label": "1 POTTED PLANT",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:3482374340694+6766374813782",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

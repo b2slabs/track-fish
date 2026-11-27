@@ -8,42 +8,42 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Black Skirt AKA Black Widow Tetra (Gymnocorymbus ternetzi), Tank Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "flip-aquatics:6853283610726",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Black Tetra | Black Skirt Tetra",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "imperial-tropicals:8397986758963",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Black Skirt Tetra (Gymnocorymbus ternetzi)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "nu-aqua-shop:10354505908540",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Black Skirt Tetra",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aquahuna:4738582216779+7634383274059",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Black Skirt Tetra",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "aquarium-fish:10130822005035+1524506951750",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Black Skirt Tetra",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquarium-fish:10130822005035",
@@ -577,6 +577,28 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 2.2,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33071507144779",
+          "label": "Title",
+          "price": 2.2,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquahuna:4738582216779+7634383274059",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-20T06:27:40.165Z",
       "price": 4.99,
       "currency": "USD",
@@ -612,6 +634,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:10130822005035+1524506951750",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 5.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51437795508523",
+          "label": "Title",
+          "price": 5.79,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130822005035+1524506951750",
       "storeSlug": "aquarium-fish"
@@ -690,27 +733,54 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 4.92,
+      "observedAt": "2026-11-21T20:07:42.741Z",
+      "price": 3,
       "currency": "USD",
-      "available": false,
+      "available": true,
       "variants": [
         {
-          "id": "51441043013931",
-          "label": "Black Skirt Tetra (School of 6)",
-          "price": 22.52,
-          "available": false
+          "id": "42250807935051",
+          "label": "Black Skirt Tetra Size MS",
+          "price": 3,
+          "available": true
         },
         {
-          "id": "51437795508523",
+          "id": "33071507144779",
           "label": "Black Skirt Tetra",
-          "price": 4.92,
+          "price": 2.2,
           "available": false
         }
       ],
       "type": "change",
       "changedFields": [
         "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquahuna:4738582216779+7634383274059",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 5.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51441043013931",
+          "label": "Black Skirt Tetra (School of 6)",
+          "price": 26.49,
+          "available": false
+        },
+        {
+          "id": "51437795508523",
+          "label": "Black Skirt Tetra",
+          "price": 5.79,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
         "variants"
       ],
       "listingId": "aquarium-fish:10130822005035+1524506951750",

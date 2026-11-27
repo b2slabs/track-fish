@@ -8,7 +8,7 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "BOD Full Blaze",
-      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     }
   ],
   "events": [
@@ -82,6 +82,27 @@
       "type": "change",
       "changedFields": [
         "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8241477124288",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 80,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46430987124928",
+          "label": "3-3.5 inch (Color Male)",
+          "price": 80,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
         "available",
         "variants"
       ],

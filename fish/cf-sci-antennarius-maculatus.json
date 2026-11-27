@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Wartskin Anglerfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:154583",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Wartskin Angler (Antennarius maculatus)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -145,6 +145,27 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 241.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51403975033131",
+          "label": "Medium (1.5-2.5\")",
+          "price": 241.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10118060376363",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 149.99,
       "currency": "USD",
@@ -163,27 +184,6 @@
       ],
       "listingId": "aqua-imports:154583",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 205.69,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51403975033131",
-          "label": "Medium (1.5-2.5\")",
-          "price": 205.69,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10118060376363",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Black Molly",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:8397996130611+9018063290675",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Black Molly (Poecilia sphenops)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquarium-fish:10130808897835",
@@ -29,7 +29,7 @@
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Black Lyretail Molly",
-      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     }
   ],
   "events": [
@@ -452,6 +452,69 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 4.89,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51437813465387",
+          "label": "Each",
+          "price": 4.89,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10130808897835+2416852238417+6553034886+6554865303633",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 6.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "21357691174993",
+          "label": "Title",
+          "price": 6.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10130808897835+2416852238417+6553034886+6554865303633",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 5.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "20750022854",
+          "label": "Title",
+          "price": 5.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10130808897835+2416852238417+6553034886+6554865303633",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 9.99,
       "currency": "USD",
@@ -473,6 +536,111 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8397996130611+9018063290675",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45611775459635",
+          "label": "1-2\" Unsexed",
+          "price": 3.99,
+          "available": true
+        },
+        {
+          "id": "45611775492403",
+          "label": "(5 Pack) 1-2\" Unsexed",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8397996130611+9018063290675",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 4.89,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51441002545451",
+          "label": "Black Lyretail Molly (School of 4)",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "51437813465387",
+          "label": "Each",
+          "price": 4.89,
+          "available": true
+        },
+        {
+          "id": "21357691174993",
+          "label": "Black Balloon Molly",
+          "price": 6.49,
+          "available": true
+        },
+        {
+          "id": "20750022854",
+          "label": "Black Molly",
+          "price": 5.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10130808897835+2416852238417+6553034886+6554865303633",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:19.601Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48371808076083",
+          "label": "1-2\" Unsexed",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "48371808108851",
+          "label": "(5 Pack) 1-2\" Unsexed",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "45611775459635",
+          "label": "1-2\" Unsexed",
+          "price": 3.99,
+          "available": true
+        },
+        {
+          "id": "45611775492403",
+          "label": "(5 Pack) 1-2\" Unsexed",
+          "price": 14.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
       ],
       "listingId": "imperial-tropicals:8397996130611+9018063290675",
       "storeSlug": "imperial-tropicals"
@@ -546,45 +714,6 @@
       ],
       "listingId": "imperial-tropicals:8397996130611+9018063290675",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 4.16,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51441002545451",
-          "label": "Black Lyretail Molly (School of 4)",
-          "price": 14.44,
-          "available": true
-        },
-        {
-          "id": "51437813465387",
-          "label": "Each",
-          "price": 4.16,
-          "available": true
-        },
-        {
-          "id": "21357691174993",
-          "label": "Black Balloon Molly",
-          "price": 5.52,
-          "available": true
-        },
-        {
-          "id": "20750022854",
-          "label": "Black Molly",
-          "price": 4.5,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10130808897835+2416852238417+6553034886+6554865303633",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

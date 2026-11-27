@@ -8,14 +8,14 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Tangerine Tiger",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "global-exoticquatics:8269034979520+8552158855360",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Tangerine Tiger",
-      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     }
   ],
   "events": [
@@ -35,6 +35,34 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "global-exoticquatics:8269034979520+8552158855360",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-04-19T03:00:00.000Z",
+      "price": 80,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48162618048704",
+          "label": "5-6in",
+          "price": 80,
+          "available": true
+        },
+        {
+          "id": "46514132418752",
+          "label": "6+ inch",
+          "price": 60,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "global-exoticquatics:8269034979520+8552158855360",
       "storeSlug": "global-exoticquatics"
@@ -145,6 +173,26 @@
       ],
       "listingId": "imperial-tropicals:8398045839667",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-08-11T02:00:00.000Z",
+      "price": 70,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48162618048704",
+          "label": "5-6in",
+          "price": 70,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8269034979520+8552158855360",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-09-05T04:00:00.000Z",
@@ -665,6 +713,56 @@
       ],
       "type": "change",
       "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8269034979520+8552158855360",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 60,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46514132418752",
+          "label": "6+ inch",
+          "price": 60,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8269034979520+8552158855360",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:53.162Z",
+      "price": 50,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48162618048704",
+          "label": "5-6in",
+          "price": 50,
+          "available": true
+        },
+        {
+          "id": "46514132418752",
+          "label": "6+ inch",
+          "price": 60,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
         "available",
         "variants"
       ],

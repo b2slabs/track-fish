@@ -8,42 +8,42 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Red Oscar",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquatic-arts:4508653781078",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Red Oscar (Astronotus ocellatus), Tank-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "monster-aquarium:7199919964369+7437875314897",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Fire Red Oscar (Astronotus ocellatus)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquarium-fish:5951724550+8856786862379",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Oscar",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:126251+130296",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Red Chili Oscar (Astronotus ocellatus)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "global-exoticquatics:10256853270720",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Chili Red Oscar",
-      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     },
     {
       "listingId": "global-exoticquatics:8357535482048",
@@ -168,6 +168,34 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41774820327633",
+          "label": "2”",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "41450923786449",
+          "label": "5.5-6.5”",
+          "price": 60,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "monster-aquarium:7199919964369+7437875314897",
+      "storeSlug": "monster-aquarium"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 29.99,
       "currency": "USD",
@@ -189,6 +217,34 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:5951724550+8856786862379",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 12.57,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44877977289003",
+          "label": "Small (1.5-2\")",
+          "price": 12.57,
+          "available": true
+        },
+        {
+          "id": "44877982662955",
+          "label": "Medium (2-3\")",
+          "price": 19.37,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:5951724550+8856786862379",
       "storeSlug": "aquarium-fish"
@@ -280,6 +336,76 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-21T20:07:35.821Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42157442269393",
+          "label": "2”",
+          "price": 12,
+          "available": false
+        },
+        {
+          "id": "41774820327633",
+          "label": "2”",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "41450923786449",
+          "label": "5.5-6.5”",
+          "price": 60,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "monster-aquarium:7199919964369+7437875314897",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 22.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47378587713835",
+          "label": "Small (1.5-2\")",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "47378587746603",
+          "label": "Medium (2-2.5\")",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "44877977289003",
+          "label": "Small (1.5-2\")",
+          "price": 14.79,
+          "available": false
+        },
+        {
+          "id": "44877982662955",
+          "label": "Medium (2-3\")",
+          "price": 22.79,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquarium-fish:5951724550+8856786862379",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 74.99,
       "currency": "USD",
@@ -333,45 +459,6 @@
           "id": "44877982662955",
           "label": "Medium (2-3\")",
           "price": 22.79,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:5951724550+8856786862379",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 12.57,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "47378587713835",
-          "label": "Small (1.5-2\")",
-          "price": 25.49,
-          "available": false
-        },
-        {
-          "id": "47378587746603",
-          "label": "Medium (2-2.5\")",
-          "price": 42.49,
-          "available": false
-        },
-        {
-          "id": "44877977289003",
-          "label": "Small (1.5-2\")",
-          "price": 12.57,
-          "available": true
-        },
-        {
-          "id": "44877982662955",
-          "label": "Medium (2-3\")",
-          "price": 19.37,
           "available": true
         }
       ],

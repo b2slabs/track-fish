@@ -8,14 +8,14 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Polar Blue Parrot Cichlid (Hybrid: Blood Parrot × Convict Cichlid) – Tank Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "nu-aqua-shop:10486621831484",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Polar Blue Parrot Cichlid",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     }
   ],
   "events": [
@@ -121,6 +121,45 @@
       "type": "change",
       "changedFields": [
         "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:14871940137327",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52583388512623",
+          "label": "1 Juvenile",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "52583388545391",
+          "label": "3 Juveniles",
+          "price": 42.99,
+          "available": false
+        },
+        {
+          "id": "68231976812911",
+          "label": "1 Juvenile (Locally Bred)",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "68231976845679",
+          "label": "3 Juvenile (Locally Bred)",
+          "price": 42.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
         "variants"
       ],
       "listingId": "aquatic-arts:14871940137327",

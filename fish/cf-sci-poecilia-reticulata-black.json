@@ -8,42 +8,42 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Half Black Redtail Guppy",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "nu-aqua-shop:10060357828924",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Black Cobra Guppy",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aquatic-arts:14650262847855+14945372340591+15404855296367+6812183035990+8243987808535",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Half Black Rose Guppy (Poecilia reticulata) – Tank-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "monster-aquarium:7241734619345+7241734717649",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Black Mosaic guppy (male) (Poecilia reticulata)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquarium-fish:1326244757574+4329826320465+8927918752043",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Male Black Phantom Guppy",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "flip-aquatics:8198651543654",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Black Metal Snakeskin Guppy | Poecilia Reticulata",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     }
   ],
   "events": [
@@ -93,6 +93,75 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquatic-arts:14650262847855+14945372340591+15404855296367+6812183035990+8243987808535",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-04-24T03:00:00.000Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52892183789935",
+          "label": "1 Male",
+          "price": 0,
+          "available": false
+        },
+        {
+          "id": "52892183822703",
+          "label": "1 Female",
+          "price": 0,
+          "available": false
+        },
+        {
+          "id": "52892183855471",
+          "label": "1 Pair ( 1 Male + 1 Female )",
+          "price": 0,
+          "available": false
+        },
+        {
+          "id": "51718228509039",
+          "label": "1 Male/Female Pair",
+          "price": 42.99,
+          "available": false
+        },
+        {
+          "id": "51718228541807",
+          "label": "1 Male / 2 Female Trio",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "51718228574575",
+          "label": "1 Male",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "51718228607343",
+          "label": "3 Males",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "51718228672879",
+          "label": "1 Female",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "51718228705647",
+          "label": "3 Females",
+          "price": 54.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:14650262847855+14945372340591+15404855296367+6812183035990+8243987808535",
       "storeSlug": "aquatic-arts"
@@ -649,6 +718,38 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-07-31T04:00:00.000Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52892183789935",
+          "label": "1 Male",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "52892183822703",
+          "label": "1 Female",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "52892183855471",
+          "label": "1 Pair ( 1 Male + 1 Female )",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:14650262847855+14945372340591+15404855296367+6812183035990+8243987808535",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-09-10T05:00:00.000Z",
       "price": 14.99,
       "currency": "USD",
@@ -712,6 +813,57 @@
       ],
       "listingId": "flip-aquatics:8198651543654",
       "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-10-04T06:00:00.000Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "67658797875567",
+          "label": "1 Male",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "67658797908335",
+          "label": "1 Female",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "67658797941103",
+          "label": "1 Pair ( 1 Male + 1 Female )",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "52892183789935",
+          "label": "1 Male",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "52892183822703",
+          "label": "1 Female",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "52892183855471",
+          "label": "1 Pair ( 1 Male + 1 Female )",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:14650262847855+14945372340591+15404855296367+6812183035990+8243987808535",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-10-06T06:00:00.000Z",
@@ -1019,6 +1171,207 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "67658797875567",
+          "label": "1 Male",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "67658797908335",
+          "label": "1 Female",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "67658797941103",
+          "label": "1 Pair ( 1 Male + 1 Female )",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:14650262847855+14945372340591+15404855296367+6812183035990+8243987808535",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52892183789935",
+          "label": "1 Male",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "52892183822703",
+          "label": "1 Female",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "52892183855471",
+          "label": "1 Pair ( 1 Male + 1 Female )",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:14650262847855+14945372340591+15404855296367+6812183035990+8243987808535",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51718228509039",
+          "label": "1 Male/Female Pair",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "51718228574575",
+          "label": "1 Male",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "51718228672879",
+          "label": "1 Female",
+          "price": 16.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:14650262847855+14945372340591+15404855296367+6812183035990+8243987808535",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44908138561815",
+          "label": "1 Male/Female Pair",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "44908138594583",
+          "label": "3 Male/Female Pairs",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "44908138627351",
+          "label": "1 Male",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "44908138660119",
+          "label": "3 Males",
+          "price": 51.99,
+          "available": false
+        },
+        {
+          "id": "44908138692887",
+          "label": "5 Males",
+          "price": 84.99,
+          "available": false
+        },
+        {
+          "id": "44908138725655",
+          "label": "1 Female",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "44908138758423",
+          "label": "3 Females",
+          "price": 54.99,
+          "available": false
+        },
+        {
+          "id": "44908138791191",
+          "label": "5 Females",
+          "price": 86.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:14650262847855+14945372340591+15404855296367+6812183035990+8243987808535",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40068262232150",
+          "label": "1 Male/Female Pair",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "40068262264918",
+          "label": "3 Male/Female Pairs",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "40068262297686",
+          "label": "1 Male",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "40068262395990",
+          "label": "1 Female",
+          "price": 16.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:14650262847855+14945372340591+15404855296367+6812183035990+8243987808535",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 12.99,
       "currency": "USD",
@@ -1039,6 +1392,26 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41538072281297",
+          "label": "1-1.5\"",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "monster-aquarium:7241734619345+7241734717649",
+      "storeSlug": "monster-aquarium"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 16.59,
       "currency": "USD",
@@ -1054,6 +1427,49 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:1326244757574+4329826320465+8927918752043",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47614027071787",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:1326244757574+4329826320465+8927918752043",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12150153904198",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:1326244757574+4329826320465+8927918752043",
       "storeSlug": "aquarium-fish"
@@ -1175,27 +1591,193 @@
       "storeSlug": "flip-aquatics"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 6.79,
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "67658797875567",
+          "label": "1 Male",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "67658797908335",
+          "label": "1 Female",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "67658797941103",
+          "label": "1 Pair ( 1 Male + 1 Female )",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "52892183789935",
+          "label": "1 Male",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "52892183822703",
+          "label": "1 Female",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "52892183855471",
+          "label": "1 Pair ( 1 Male + 1 Female )",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "51718228509039",
+          "label": "1 Male/Female Pair",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "51718228574575",
+          "label": "1 Male",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "51718228672879",
+          "label": "1 Female",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "44908138561815",
+          "label": "1 Male/Female Pair",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "44908138594583",
+          "label": "3 Male/Female Pairs",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "44908138627351",
+          "label": "1 Male",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "44908138660119",
+          "label": "3 Males",
+          "price": 51.99,
+          "available": false
+        },
+        {
+          "id": "44908138692887",
+          "label": "5 Males",
+          "price": 84.99,
+          "available": false
+        },
+        {
+          "id": "44908138725655",
+          "label": "1 Female",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "44908138758423",
+          "label": "3 Females",
+          "price": 54.99,
+          "available": false
+        },
+        {
+          "id": "44908138791191",
+          "label": "5 Females",
+          "price": 86.99,
+          "available": false
+        },
+        {
+          "id": "40068262232150",
+          "label": "1 Male/Female Pair",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "40068262264918",
+          "label": "3 Male/Female Pairs",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "40068262297686",
+          "label": "1 Male",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "40068262395990",
+          "label": "1 Female",
+          "price": 16.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:14650262847855+14945372340591+15404855296367+6812183035990+8243987808535",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:35.821Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41538072346833",
+          "label": "1-1.5\"",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "41538072281297",
+          "label": "1-1.5\"",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "monster-aquarium:7241734619345+7241734717649",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 7.99,
       "currency": "USD",
       "available": true,
       "variants": [
         {
           "id": "31042128216145",
           "label": "Sakura Black Guppy (Pair)",
-          "price": 14.1,
+          "price": 16.59,
           "available": false
         },
         {
           "id": "47614027071787",
           "label": "Male Black Phantom Guppy",
-          "price": 6.79,
+          "price": 7.99,
           "available": true
         },
         {
           "id": "12150153904198",
           "label": "Black Phantom Guppy (Pair)",
-          "price": 8.49,
+          "price": 9.99,
           "available": true
         }
       ],

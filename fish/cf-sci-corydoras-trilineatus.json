@@ -1,6 +1,6 @@
 {
   "canonicalFishId": "cf:sci:corydoras-trilineatus",
-  "commonName": "False Julii Cory (Hoplisoma trilineatus)",
+  "commonName": "Julii Cory",
   "scientificName": "Corydoras trilineatus",
   "listings": [
     {
@@ -8,42 +8,35 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Julii Cory",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aquahuna:4202001203243",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Julii Cory",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "ck-fish-world:8149573337303",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Julii Cory",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "aquatic-arts:4686997127254+4958545936470",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Threestripe AKA False Juli's Cory Catfish (Corydoras trilineatus), Tank-Bred!",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "shrimpy-business:9377484341538",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Julii Corydoras (Tank-Bred)",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
-    },
-    {
-      "listingId": "aqua-imports:109393+42104",
-      "storeSlug": "aqua-imports",
-      "storeName": "Aqua Imports",
-      "commonName": "False Julii Cory (Hoplisoma trilineatus)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     }
   ],
   "events": [
@@ -683,6 +676,51 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 32.59,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33352335196246",
+          "label": "School of 3",
+          "price": 32.59,
+          "available": false
+        },
+        {
+          "id": "33352335261782",
+          "label": "School of 6",
+          "price": 58.79,
+          "available": false
+        },
+        {
+          "id": "33352335327318",
+          "label": "School of 9",
+          "price": 83.89,
+          "available": false
+        },
+        {
+          "id": "33352335425622",
+          "label": "School of 12",
+          "price": 107.99,
+          "available": false
+        },
+        {
+          "id": "33352335491158",
+          "label": "School of 24",
+          "price": 198.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:4686997127254+4958545936470",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-20T06:14:42.593Z",
       "price": 5.5,
       "currency": "USD",
@@ -735,70 +773,78 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
-      "observedAt": "2026-11-22T16:00:03.419Z",
-      "price": 6.99,
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 32.59,
       "currency": "USD",
-      "available": true,
+      "available": false,
       "variants": [
         {
-          "id": "109393",
-          "label": "Default",
-          "price": 6.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aqua-imports:109393+42104",
-      "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-22T16:00:03.419Z",
-      "price": 7.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "42104",
-          "label": "Default",
-          "price": 7.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "first-observed"
-      ],
-      "listingId": "aqua-imports:109393+42104",
-      "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:56:09.972Z",
-      "price": 6.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "109393",
-          "label": "Default",
-          "price": 6.99,
-          "available": true
+          "id": "32434986156118",
+          "label": "School of 3",
+          "price": 44.99,
+          "available": false
         },
         {
-          "id": "42104",
-          "label": "Default",
-          "price": 7.99,
-          "available": true
+          "id": "32434986188886",
+          "label": "School of 6",
+          "price": 83.39,
+          "available": false
+        },
+        {
+          "id": "32434986221654",
+          "label": "School of 9",
+          "price": 124.19,
+          "available": false
+        },
+        {
+          "id": "32434986254422",
+          "label": "School of 12",
+          "price": 158.39,
+          "available": false
+        },
+        {
+          "id": "32434986287190",
+          "label": "School of 24",
+          "price": 299.99,
+          "available": false
+        },
+        {
+          "id": "33352335196246",
+          "label": "School of 3",
+          "price": 32.59,
+          "available": false
+        },
+        {
+          "id": "33352335261782",
+          "label": "School of 6",
+          "price": 58.79,
+          "available": false
+        },
+        {
+          "id": "33352335327318",
+          "label": "School of 9",
+          "price": 83.89,
+          "available": false
+        },
+        {
+          "id": "33352335425622",
+          "label": "School of 12",
+          "price": 107.99,
+          "available": false
+        },
+        {
+          "id": "33352335491158",
+          "label": "School of 24",
+          "price": 198.99,
+          "available": false
         }
       ],
       "type": "change",
       "changedFields": [
         "variants"
       ],
-      "listingId": "aqua-imports:109393+42104",
-      "storeSlug": "aqua-imports"
+      "listingId": "aquatic-arts:4686997127254+4958545936470",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

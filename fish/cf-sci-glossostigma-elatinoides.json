@@ -8,42 +8,42 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Glosso (Glossostigma elatinoides) Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "flip-aquatics:4974819770470",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Glossostigma",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "glass-aqua:11277472199",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Glossostigma Elatinoides",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "aquarium-fish:10106554122539+6260537222",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Glossostigma",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "buce-plant:2843554578513+8554729613+9625843469",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Glossostigma Elatinoides",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aqua-imports:70884",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Glossostigma (Glossostigma elatinoides)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -108,6 +108,27 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19809607366",
+          "label": "Title",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10106554122539+6260537222",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 9.99,
       "currency": "USD",
@@ -123,6 +144,48 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "buce-plant:2843554578513+8554729613+9625843469",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "35886730317",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:2843554578513+8554729613+9625843469",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "29156730829",
+          "label": "Title",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:2843554578513+8554729613+9625843469",
       "storeSlug": "buce-plant"
@@ -160,6 +223,66 @@
       "storeSlug": "glass-aqua"
     },
     {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 7.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51386927186219",
+          "label": "Each",
+          "price": 11.29,
+          "available": true
+        },
+        {
+          "id": "19809607366",
+          "label": "Glossostigma",
+          "price": 7.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10106554122539+6260537222",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "22627181363281",
+          "label": "Glossostigma Elatinoides Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "35886730317",
+          "label": "Glossostigma Elatinoides UNS Tissue Culture",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "29156730829",
+          "label": "Glossostigma Elatinoides",
+          "price": 7.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:2843554578513+8554729613+9625843469",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 8.99,
       "currency": "USD",
@@ -178,33 +301,6 @@
       ],
       "listingId": "aqua-imports:70884",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 6.45,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51386927186219",
-          "label": "Each",
-          "price": 9.6,
-          "available": true
-        },
-        {
-          "id": "19809607366",
-          "label": "Glossostigma",
-          "price": 6.45,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10106554122539+6260537222",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

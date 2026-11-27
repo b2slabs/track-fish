@@ -8,14 +8,14 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Rainbow Vampire Crab (Geosesarma cf. riani)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "aquatic-arts:4847792914518+9035790614807",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Rainbow Vampire Crab (Geosesarma  golden)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
@@ -64,6 +64,51 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33152613318742",
+          "label": "1 Male Crab",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "47461212881175",
+          "label": "3 Male Crabs",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "33152613351510",
+          "label": "1 Female Crab",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "51742103765359",
+          "label": "1 Male / Female Pair",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33152613482582",
+          "label": "1 B-Grade Crab",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:4847792914518+9035790614807",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 18.99,
       "currency": "USD",
@@ -82,6 +127,80 @@
       ],
       "listingId": "aqua-imports:67421",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:00:56.519Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51742159143279",
+          "label": "1 Male / Female Pair",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "47933824106775",
+          "label": "1 Male Crab",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "47933824139543",
+          "label": "3 Male Crabs",
+          "price": 35.99,
+          "available": false
+        },
+        {
+          "id": "47933824172311",
+          "label": "1 Female Crab",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "47933824205079",
+          "label": "1 B-Grade Crab",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "33152613318742",
+          "label": "1 Male Crab",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "47461212881175",
+          "label": "3 Male Crabs",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "33152613351510",
+          "label": "1 Female Crab",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "51742103765359",
+          "label": "1 Male / Female Pair",
+          "price": 29.99,
+          "available": false
+        },
+        {
+          "id": "33152613482582",
+          "label": "1 B-Grade Crab",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:4847792914518+9035790614807",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

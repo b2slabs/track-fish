@@ -8,21 +8,21 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Synodontis Angelicus Catfish (Synodontis angelicus)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquarium-fish:6120842374",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Synodontis Angelicus Catfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:8397975388467+8398062682419",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Polka Dot Squeaker Cat",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     }
   ],
   "events": [
@@ -105,25 +105,118 @@
       "storeSlug": "imperial-tropicals"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 67.65,
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 14.99,
       "currency": "USD",
-      "available": false,
+      "available": true,
       "variants": [
         {
-          "id": "32267410112593",
-          "label": "Medium",
-          "price": 67.65,
+          "id": "47733954281779",
+          "label": "1-2” Unsexed",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "51878287049011",
+          "label": "(5 pack) 1-2” Unsexed",
+          "price": 64.99,
+          "available": true
+        },
+        {
+          "id": "45611723718963",
+          "label": "2-3” Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "51878287409459",
+          "label": "(5 pack) 2-3” Unsexed",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "45611723751731",
+          "label": "3-4” Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "51050533028147",
+          "label": "4-5” Unsexed",
+          "price": 34.99,
           "available": false
         }
       ],
       "type": "change",
       "changedFields": [
         "price",
+        "available",
         "variants"
       ],
-      "listingId": "aquarium-fish:6120842374",
-      "storeSlug": "aquarium-fish"
+      "listingId": "imperial-tropicals:8397975388467+8398062682419",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:19.601Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612006670643",
+          "label": "1-2\" Unsexed",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "45612006703411",
+          "label": "3-4” Unsexed",
+          "price": 54.99,
+          "available": false
+        },
+        {
+          "id": "47733954281779",
+          "label": "1-2” Unsexed",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "51878287049011",
+          "label": "(5 pack) 1-2” Unsexed",
+          "price": 64.99,
+          "available": true
+        },
+        {
+          "id": "45611723718963",
+          "label": "2-3” Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "51878287409459",
+          "label": "(5 pack) 2-3” Unsexed",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "45611723751731",
+          "label": "3-4” Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "51050533028147",
+          "label": "4-5” Unsexed",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8397975388467+8398062682419",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

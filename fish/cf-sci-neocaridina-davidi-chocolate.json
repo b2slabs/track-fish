@@ -8,14 +8,14 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Assorted Chocolate Shrimp (Neocaridina davidi) – BREDBY: Aquatic Arts",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "monster-aquarium:7203179954385",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Chocolate shrimp (Neocaridina davidi)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     }
   ],
   "events": [
@@ -53,6 +53,45 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquatic-arts:14701020217711",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51897447055727",
+          "label": "5 Shrimp",
+          "price": 26.99,
+          "available": true
+        },
+        {
+          "id": "51897447088495",
+          "label": "10 Shrimp",
+          "price": 56.99,
+          "available": true
+        },
+        {
+          "id": "51897447121263",
+          "label": "20 Shrimp",
+          "price": 88,
+          "available": true
+        },
+        {
+          "id": "51897447154031",
+          "label": "Breeder Pack (10 Females + 5 Males)",
+          "price": 74.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:14701020217711",
       "storeSlug": "aquatic-arts"

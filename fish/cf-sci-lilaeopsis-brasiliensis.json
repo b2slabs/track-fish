@@ -8,35 +8,35 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Micro Sword",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "nu-aqua-shop:10006318154044",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Micro Sword",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aquarium-fish:10106310132011",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Lilaeopsis brasiliensis - Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquatic-arts:14651939488111+3593931292758+4736623494",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Micro Sword (Lilaeopsis brasiliensis)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "buce-plant:4373715615825+9520384525",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Micro Sword / Lilaeopsis Novaezelandiae",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -62,6 +62,50 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquatic-arts:14651939488111+3593931292758+4736623494",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "28333890043990",
+          "label": "1 Tissue Culture",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:14651939488111+3593931292758+4736623494",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15495389510",
+          "label": "Title",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquatic-arts:14651939488111+3593931292758+4736623494",
       "storeSlug": "aquatic-arts"
@@ -139,6 +183,28 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31267363586129",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:4373715615825+9520384525",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-21T01:29:25.528Z",
       "price": 6.99,
       "currency": "USD",
@@ -189,6 +255,84 @@
       ],
       "listingId": "nu-aqua-shop:10006318154044",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51724567413103",
+          "label": "1 Bunch",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "51724567445871",
+          "label": "1 Pot",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "28333890043990",
+          "label": "1 Tissue Culture",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "15495389510",
+          "label": "Micro Sword (Lilaeopsis brasiliensis)",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:14651939488111+3593931292758+4736623494",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "35246704589",
+          "label": "Pot",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12425334521937",
+          "label": "3 Pot Package",
+          "price": 16.99,
+          "available": false
+        },
+        {
+          "id": "12425334554705",
+          "label": "5 Pot Package",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "31267363586129",
+          "label": "Lilaeopsis Brasilensis Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:4373715615825+9520384525",
+      "storeSlug": "buce-plant"
     },
     {
       "observedAt": "2026-11-23T20:56:35.740Z",
@@ -306,27 +450,6 @@
       ],
       "listingId": "buce-plant:4373715615825+9520384525",
       "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 9.6,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51386930463019",
-          "label": "Each",
-          "price": 9.6,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10106310132011",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

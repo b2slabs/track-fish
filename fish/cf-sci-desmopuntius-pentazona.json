@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Penta Barb",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:41300",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Five-Banded Barb (Desmopuntius pentazona)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "dans-fish:10127077998890",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Five Banded Barb",
-      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     },
     {
       "listingId": "aquarium-fish:10130834227499",
@@ -536,6 +536,53 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 5.85,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51428227055915",
+          "label": "Title",
+          "price": 5.85,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10130834227499+6018779270",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 5.85,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51441104388395",
+          "label": "Penta Barb (School of 5)",
+          "price": 22.99,
+          "available": false
+        },
+        {
+          "id": "51428227055915",
+          "label": "Penta Barb",
+          "price": 5.85,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10130834227499+6018779270",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-22T06:58:35.864Z",
       "price": 8.99,
       "currency": "USD",
@@ -574,33 +621,6 @@
       ],
       "listingId": "aqua-imports:41300",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 4.97,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51441104388395",
-          "label": "Penta Barb (School of 5)",
-          "price": 19.54,
-          "available": false
-        },
-        {
-          "id": "51428227055915",
-          "label": "Penta Barb",
-          "price": 4.97,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10130834227499+6018779270",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

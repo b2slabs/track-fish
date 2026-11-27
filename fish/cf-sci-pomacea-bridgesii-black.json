@@ -8,42 +8,42 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Black Mystery Snail  (Pomacea bridgesii)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquahuna:6691445801035",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Black Mystery Snail",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "flip-aquatics:6953514139750",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "3 Black Mystery Snails",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "nu-aqua-shop:10205122494780",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Black Mystery Snail",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aquatic-arts:6792527544406",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Black Mystery Snail Breeder Combo Box",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aquatic-arts:4845878150",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Black Mystery Snails (Pomacea bridgesii) - Tank-Bred!",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
@@ -63,6 +63,63 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquatic-arts:6792527544406",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "15878361350",
+          "label": "1 Mystery Snail",
+          "price": 4.99,
+          "available": true
+        },
+        {
+          "id": "15878361414",
+          "label": "3 Mystery Snails",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "30326308995158",
+          "label": "5 Mystery Snails",
+          "price": 18.99,
+          "available": true
+        },
+        {
+          "id": "30326310469718",
+          "label": "10 Mystery Snails",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "30326312009814",
+          "label": "20 Mystery Snails",
+          "price": 64.99,
+          "available": false
+        },
+        {
+          "id": "30326314827862",
+          "label": "30 Mystery Snails",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "50330576355695",
+          "label": "1 Jumbo Mystery Snail",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:6792527544406",
       "storeSlug": "aquatic-arts"
@@ -158,6 +215,89 @@
       ],
       "listingId": "nu-aqua-shop:10205122494780",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40002313355350",
+          "label": "Breeder Combo Box",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "15878361350",
+          "label": "1 Mystery Snail",
+          "price": 4.99,
+          "available": true
+        },
+        {
+          "id": "15878361414",
+          "label": "3 Mystery Snails",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "30326308995158",
+          "label": "5 Mystery Snails",
+          "price": 18.99,
+          "available": true
+        },
+        {
+          "id": "30326310469718",
+          "label": "10 Mystery Snails",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "30326312009814",
+          "label": "20 Mystery Snails",
+          "price": 64.99,
+          "available": false
+        },
+        {
+          "id": "30326314827862",
+          "label": "30 Mystery Snails",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "50330576355695",
+          "label": "1 Jumbo Mystery Snail",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:6792527544406",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T00:26:08.096Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40002313355350",
+          "label": "Breeder Combo Box",
+          "price": 39.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:6792527544406",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-22T00:26:08.096Z",

@@ -8,21 +8,21 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Rotala Mexicana",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "aquarium-fish:10106564804907",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Rotala Mexicana - Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "buce-plant:3147069423697+463935995944+8201946497224",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Rotala Mexicana",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -88,6 +88,49 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 5.94,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "3825086791720",
+          "label": "Lead Bunch",
+          "price": 5.94,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:3147069423697+463935995944+8201946497224",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "23746016313425",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:3147069423697+463935995944+8201946497224",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 6.99,
       "currency": "USD",
@@ -112,6 +155,40 @@
       ],
       "listingId": "glass-aqua:1313447706710",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 5.94,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44603720630472",
+          "label": "Rotala sp. Goias Aquatic Farmer Tissue Culture",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "3825086791720",
+          "label": "Lead Bunch",
+          "price": 5.94,
+          "available": true
+        },
+        {
+          "id": "23746016313425",
+          "label": "Rotala Mexicana Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:3147069423697+463935995944+8201946497224",
+      "storeSlug": "buce-plant"
     },
     {
       "observedAt": "2026-11-23T20:56:35.740Z",
@@ -145,27 +222,6 @@
       ],
       "listingId": "buce-plant:3147069423697+463935995944+8201946497224",
       "storeSlug": "buce-plant"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 10.87,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51386926629163",
-          "label": "Each",
-          "price": 10.87,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10106564804907",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

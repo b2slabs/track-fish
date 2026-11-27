@@ -8,14 +8,14 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Tropheus moorii \"Nsumbu Red\"",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquarium-fish:4801099726929+5841792454",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Tropheus Red Phoenix",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     }
   ],
   "events": [
@@ -35,6 +35,28 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:4801099726929+5841792454",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 35.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "18478696582",
+          "label": "Title",
+          "price": 35.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:4801099726929+5841792454",
       "storeSlug": "aquarium-fish"
@@ -60,27 +82,26 @@
       "storeSlug": "imperial-tropicals"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 30.59,
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 35.99,
       "currency": "USD",
       "available": true,
       "variants": [
         {
           "id": "32933543444561",
           "label": "Tropheus Red Phoenix",
-          "price": 33.99,
+          "price": 39.99,
           "available": false
         },
         {
           "id": "18478696582",
           "label": "Tropheus Moorii Red Banded",
-          "price": 30.59,
+          "price": 35.99,
           "available": true
         }
       ],
       "type": "change",
       "changedFields": [
-        "price",
         "variants"
       ],
       "listingId": "aquarium-fish:4801099726929+5841792454",

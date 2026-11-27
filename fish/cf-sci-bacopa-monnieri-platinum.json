@@ -8,14 +8,14 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Bacopa Monnieri Platinum",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "buce-plant:8202367664328+8238821212360",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Bacopa Monnieri Platinum",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -61,6 +61,82 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "buce-plant:8202367664328+8238821212360",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44605508944072",
+          "label": "Title",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:8202367664328+8238821212360",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42267366522966",
+          "label": "Potted",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "42267366555734",
+          "label": "UNS Tissue Culture",
+          "price": 13.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:7544386846806",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44760073437384",
+          "label": "Bacopa Monnieri Platinum",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "44605508944072",
+          "label": "Bacopa Monnieri Platinum UNS Tissue Culture",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
       ],
       "listingId": "buce-plant:8202367664328+8238821212360",
       "storeSlug": "buce-plant"

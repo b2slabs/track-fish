@@ -8,28 +8,28 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Green Hornet Endler Guppy (Poecilia wingei) – Locally Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "nu-aqua-shop:10006317957436",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Green Lazer Endlers- MALE",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aquahuna:1718131654699+6747007615051+7154331353163",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Lime Green Endler pair",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "aquarium-fish:3029554823249+790334308471",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Lime Green Endler - Male",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     }
   ],
   "events": [
@@ -86,6 +86,48 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 7,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39815546372171",
+          "label": "Title",
+          "price": 7,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquahuna:1718131654699+6747007615051+7154331353163",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 7.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15754793123883",
+          "label": "Title",
+          "price": 7.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquahuna:1718131654699+6747007615051+7154331353163",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 6.29,
       "currency": "USD",
@@ -101,6 +143,28 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:3029554823249+790334308471",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 5.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "8722857164919",
+          "label": "Title",
+          "price": 5.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:3029554823249+790334308471",
       "storeSlug": "aquarium-fish"
@@ -126,27 +190,59 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 4.67,
+      "observedAt": "2026-11-21T20:07:42.741Z",
+      "price": 3.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40844516786251",
+          "label": "Lime Green Endler Male",
+          "price": 3.5,
+          "available": false
+        },
+        {
+          "id": "39815546372171",
+          "label": "Green Snakeskin Endler Pair",
+          "price": 7,
+          "available": false
+        },
+        {
+          "id": "15754793123883",
+          "label": "Lime Green Endler pair",
+          "price": 7.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquahuna:1718131654699+6747007615051+7154331353163",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 5.49,
       "currency": "USD",
       "available": true,
       "variants": [
         {
           "id": "23274762600529",
           "label": "Lime Green Endler - Male",
-          "price": 5.35,
+          "price": 6.29,
           "available": false
         },
         {
           "id": "8722857164919",
           "label": "Green Cobra Endler - Male",
-          "price": 4.67,
+          "price": 5.49,
           "available": true
         }
       ],
       "type": "change",
       "changedFields": [
-        "price",
         "variants"
       ],
       "listingId": "aquarium-fish:3029554823249+790334308471",

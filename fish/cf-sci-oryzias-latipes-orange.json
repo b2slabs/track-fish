@@ -8,49 +8,49 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Mandarine Orange Ricefish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquahuna:7157770485835",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Orange Medaka Ricefish",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "ck-fish-world:8150020849879",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Orange Medaka Ricefish",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "shrimpy-business:9808071885090",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Orange Medaka Ricefish",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "nu-aqua-shop:10006318612796",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Orange Medaka Ricefish-L",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "flip-aquatics:7122325209190",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Orange Medaka Ricefish | Oryzias latipes",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "dans-fish:10258436882730",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Orange Medaka Ricefish Mix",
-      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     }
   ],
   "events": [
@@ -296,6 +296,27 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41081111511142",
+          "label": "Imported / 1 Fish",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7122325209190",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 7.99,
       "currency": "USD",
@@ -354,27 +375,6 @@
       ],
       "listingId": "dans-fish:10258436882730",
       "storeSlug": "dans-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 6.79,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "32525492093009",
-          "label": "Title",
-          "price": 6.79,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:4668331196497",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,21 +8,21 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Whorled Pennywort (Hydrocotyle verticillata)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "buce-plant:6091294605512+9625765325",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Hydrocotyle Verticillata",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:4964075405398",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Hydrocotyle Verticillata",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
@@ -42,6 +42,28 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "buce-plant:6091294605512+9625765325",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "35886257293",
+          "label": "Title",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:6091294605512+9625765325",
       "storeSlug": "buce-plant"
@@ -91,6 +113,32 @@
       ],
       "listingId": "aqua-imports:158531",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:02:19.867Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37559416619208",
+          "label": "Hydrocotyle Verticillata Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "35886257293",
+          "label": "Hydrocotyle Verticillata",
+          "price": 7.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:6091294605512+9625765325",
+      "storeSlug": "buce-plant"
     }
   ]
 }

@@ -8,14 +8,14 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Ardisia Sp Tricolor Type 1",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:4928655654998+4928673742934",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Ardisia Tricolor Type 1",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
@@ -40,6 +40,27 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 52.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32698607566929",
+          "label": "Title",
+          "price": 52.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:4711716487249+4711733035089",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 22.99,
       "currency": "USD",
@@ -55,6 +76,83 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "glass-aqua:4928655654998+4928673742934",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33297588944982",
+          "label": "Title",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:4928655654998+4928673742934",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 52.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32698660487249",
+          "label": "Ardisia Sp Tricolor Type 2",
+          "price": 52.99,
+          "available": true
+        },
+        {
+          "id": "32698607566929",
+          "label": "Ardisia Sp Tricolor Type 1",
+          "price": 52.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:4711716487249+4711733035089",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:44.972Z",
+      "price": 22.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "33297637081174",
+          "label": "Ardisia Tricolor Type 2",
+          "price": 22.99,
+          "available": true
+        },
+        {
+          "id": "33297588944982",
+          "label": "Ardisia Tricolor Type 1",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "glass-aqua:4928655654998+4928673742934",
       "storeSlug": "glass-aqua"

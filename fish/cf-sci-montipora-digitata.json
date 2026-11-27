@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Superman Montipora Digitata",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     }
   ],
   "events": [
@@ -408,27 +408,74 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 44.45,
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 52.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51512757715243",
+          "label": "Title",
+          "price": 52.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10153307799851+10153400959275",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 76.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51512571003179",
+          "label": "Small/Medium",
+          "price": 76.79,
+          "available": true
+        },
+        {
+          "id": "51512571035947",
+          "label": "Medium",
+          "price": 106.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10153307799851+10153400959275",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 52.29,
       "currency": "USD",
       "available": true,
       "variants": [
         {
           "id": "51512757715243",
           "label": "Superman Montipora Digitata",
-          "price": 44.45,
+          "price": 52.29,
           "available": true
         },
         {
           "id": "51512571003179",
           "label": "Small/Medium",
-          "price": 65.27,
+          "price": 76.79,
           "available": true
         },
         {
           "id": "51512571035947",
           "label": "Medium",
-          "price": 90.94,
+          "price": 106.99,
           "available": true
         }
       ],

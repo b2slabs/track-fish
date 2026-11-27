@@ -8,28 +8,28 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Cochu's Blue Tetra AKA Blue King Tetra (Boehlkea fredcochui), Tank-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "shrimpy-business:8972850463010",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Blue King Tetra",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "aquarium-fish:10130823479595+777267511415",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Blue King Tetra",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "flip-aquatics:4872536457318+7483518943334",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Blue Tetra | Boehlkea Fredcochui",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aquarium-fish:10130823479595",
@@ -1367,6 +1367,27 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31937660616806",
+          "label": "Imported / 1 Fish",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:4872536457318+7483518943334",
+      "storeSlug": "flip-aquatics"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 29.99,
       "currency": "USD",
@@ -1382,6 +1403,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:10130823479595+777267511415",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51428410786091",
+          "label": "Title",
+          "price": 5.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:10130823479595+777267511415",
       "storeSlug": "aquarium-fish"
@@ -1408,31 +1450,56 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 5.09,
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 5.99,
       "currency": "USD",
       "available": true,
       "variants": [
         {
           "id": "51441048617259",
           "label": "Blue King Tetra (School of 5)",
-          "price": 25.49,
+          "price": 29.99,
           "available": true
         },
         {
           "id": "51428410786091",
           "label": "Blue King Tetra",
-          "price": 5.09,
+          "price": 5.99,
           "available": true
         }
       ],
       "type": "change",
       "changedFields": [
-        "price",
         "variants"
       ],
       "listingId": "aquarium-fish:10130823479595+777267511415",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T00:52:42.262Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42277356994662",
+          "label": "Imported / 1 Fish",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "31937660616806",
+          "label": "Imported / 1 Fish",
+          "price": 5.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "flip-aquatics:4872536457318+7483518943334",
+      "storeSlug": "flip-aquatics"
     }
   ]
 }

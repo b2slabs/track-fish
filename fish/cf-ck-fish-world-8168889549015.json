@@ -8,14 +8,14 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Fritz Maracyn",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "nu-aqua-shop:10006316122428+10006316155196",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Fritz Maracyn",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     }
   ],
   "events": [
@@ -67,6 +67,72 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10006316122428+10006316155196",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "54403016524092",
+          "label": "10ct",
+          "price": 15.19,
+          "available": false
+        },
+        {
+          "id": "54403016556860",
+          "label": "20ct",
+          "price": 23.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "nu-aqua-shop:10006316122428+10006316155196",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:56.247Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51954538611004",
+          "label": "20ct",
+          "price": 26.99,
+          "available": false
+        },
+        {
+          "id": "51954538643772",
+          "label": "10ct",
+          "price": 18.99,
+          "available": false
+        },
+        {
+          "id": "54403016524092",
+          "label": "10ct",
+          "price": 15.19,
+          "available": false
+        },
+        {
+          "id": "54403016556860",
+          "label": "20ct",
+          "price": 23.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
       ],
       "listingId": "nu-aqua-shop:10006316122428+10006316155196",
       "storeSlug": "nu-aqua-shop"

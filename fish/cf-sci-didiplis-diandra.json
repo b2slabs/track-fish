@@ -8,21 +8,21 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Didiplis Diandra",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "buce-plant:454168838184+9625649997",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Didiplis Diandra",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aqua-imports:60053",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Didiplis diandre",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -42,6 +42,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "buce-plant:454168838184+9625649997",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "35885804173",
+          "label": "Title",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:454168838184+9625649997",
       "storeSlug": "buce-plant"
@@ -71,6 +92,32 @@
       ],
       "listingId": "glass-aqua:1339088961622",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "3802839547944",
+          "label": "Didiplis Diandra Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "35885804173",
+          "label": "Didiplis Diandra",
+          "price": 6.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:454168838184+9625649997",
+      "storeSlug": "buce-plant"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

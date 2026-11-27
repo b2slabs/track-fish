@@ -8,28 +8,28 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Platinum Halfbeak",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "nu-aqua-shop:10006359277884",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Platinum Halfbeak",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aquarium-fish:6574367814+9211153350955",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Platinum Half Beak",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "dans-fish:10127085797674",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Platinum Halfbeak",
-      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     }
   ],
   "events": [
@@ -396,6 +396,48 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 25.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48489429172523",
+          "label": "Title",
+          "price": 25.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6574367814+9211153350955",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 8.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51437516489003",
+          "label": "Title",
+          "price": 8.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6574367814+9211153350955",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:44.090Z",
       "price": 13.99,
       "currency": "USD",
@@ -416,6 +458,32 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 8.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48489429172523",
+          "label": "Platinum Half Beak (Group of 4)",
+          "price": 25.99,
+          "available": true
+        },
+        {
+          "id": "51437516489003",
+          "label": "Platinum Half Beak",
+          "price": 8.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6574367814+9211153350955",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-22T06:58:35.864Z",
       "price": 12.99,
       "currency": "USD",
@@ -434,33 +502,6 @@
       ],
       "listingId": "dans-fish:10127085797674",
       "storeSlug": "dans-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 7.05,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48489429172523",
-          "label": "Platinum Half Beak (Group of 4)",
-          "price": 22.09,
-          "available": true
-        },
-        {
-          "id": "51437516489003",
-          "label": "Platinum Half Beak",
-          "price": 7.05,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6574367814+9211153350955",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

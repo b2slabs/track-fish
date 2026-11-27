@@ -8,28 +8,28 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Macculloch's Dwarf Rainbowfish (Melanotaenia maccullochi) - Tank-Bred!",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "shrimpy-business:9841016897826",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Macculloch's Dwarf Rainbowfish (Tank-Bred)",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "aquarium-fish:6007369350",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Maccullochi Rainbow",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:10365805035827+8398043578675",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Macculloch's Rainbowfish",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "imperial-tropicals:10365805035827",
@@ -43,7 +43,7 @@
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Melanotaenia maccullochi \"Stark River\"",
-      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     }
   ],
   "events": [
@@ -542,6 +542,92 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45611942674739",
+          "label": "1-2\" Unsexed",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "45611942740275",
+          "label": "2-3\" Unsexed",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "45611942707507",
+          "label": "2-3\" Male",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "45611942773043",
+          "label": "2-3\" Pair (1 Male, 1 Female)",
+          "price": 21.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:10365805035827+8398043578675",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:19.601Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53799325663539",
+          "label": "1-2\" Unsexed",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "45611942674739",
+          "label": "1-2\" Unsexed",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "45611942740275",
+          "label": "2-3\" Unsexed",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "45611942707507",
+          "label": "2-3\" Male",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "45611942773043",
+          "label": "2-3\" Pair (1 Male, 1 Female)",
+          "price": 21.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:10365805035827+8398043578675",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-22T06:58:35.864Z",
       "price": 29.99,
       "currency": "USD",
@@ -560,27 +646,6 @@
       ],
       "listingId": "dans-fish:10127165915434",
       "storeSlug": "dans-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 21.24,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "19019256646",
-          "label": "Title",
-          "price": 21.24,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6007369350",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,35 +8,35 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Dwarf Water Lettuce",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "buce-plant:9541168717",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Pistia Stratiotes/ Water Lettuce",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aquatic-arts:6562138226774+6562407678038+6562409152598",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Rosette Water Lettuce (Pistia stratiotes)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aqua-imports:60167",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Water Lettuce (Pistia stratiotes)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "nu-aqua-shop:10110476878140+10377641492796",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Water Lettuce",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     }
   ],
   "events": [
@@ -56,6 +56,54 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquatic-arts:6562138226774+6562407678038+6562409152598",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39332538613846",
+          "label": "1 Regular Plant",
+          "price": 3.99,
+          "available": false
+        },
+        {
+          "id": "39332634493014",
+          "label": "1 Jumbo Plant",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:6562138226774+6562407678038+6562409152598",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39333228838998",
+          "label": "1 Regular Plant",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquatic-arts:6562138226774+6562407678038+6562409152598",
       "storeSlug": "aquatic-arts"
@@ -121,6 +169,67 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51952827203900",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "nu-aqua-shop:10110476878140+10377641492796",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 3.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39333222776918",
+          "label": "1 Regular Plant",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "39332538613846",
+          "label": "1 Regular Plant",
+          "price": 3.99,
+          "available": false
+        },
+        {
+          "id": "39332634493014",
+          "label": "1 Jumbo Plant",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "39333228838998",
+          "label": "1 Regular Plant",
+          "price": 4.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:6562138226774+6562407678038+6562409152598",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 9.99,
       "currency": "USD",
@@ -139,6 +248,34 @@
       ],
       "listingId": "aqua-imports:60167",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:02:48.468Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53027532865852",
+          "label": "Water Lettuce",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "51952827203900",
+          "label": "Dwarf Water Lettuce",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "nu-aqua-shop:10110476878140+10377641492796",
+      "storeSlug": "nu-aqua-shop"
     },
     {
       "observedAt": "2026-11-25T19:04:00.223Z",
@@ -162,33 +299,6 @@
       "type": "change",
       "changedFields": [
         "price",
-        "available",
-        "variants"
-      ],
-      "listingId": "nu-aqua-shop:10110476878140+10377641492796",
-      "storeSlug": "nu-aqua-shop"
-    },
-    {
-      "observedAt": "2026-11-26T18:55:33.016Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "53027532865852",
-          "label": "Water Lettuce",
-          "price": 9.99,
-          "available": false
-        },
-        {
-          "id": "51952827203900",
-          "label": "Dwarf Water Lettuce",
-          "price": 8.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
         "available",
         "variants"
       ],

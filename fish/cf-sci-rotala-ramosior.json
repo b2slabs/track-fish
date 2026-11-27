@@ -8,21 +8,21 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Rotala Florida Sunset",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "buce-plant:7284601290952+7522440609992",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Rotala Florida Sunset",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aqua-imports:186946",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Rotala Florida (Rotala ramosior ‘Florida’)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -42,6 +42,28 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "buce-plant:7284601290952+7522440609992",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41707067769032",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:7284601290952+7522440609992",
       "storeSlug": "buce-plant"
@@ -77,6 +99,34 @@
       ],
       "listingId": "glass-aqua:6738760499286",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42589297443016",
+          "label": "Rotala Sunset Tissue Culture",
+          "price": 12.99,
+          "available": true
+        },
+        {
+          "id": "41707067769032",
+          "label": "Rotala Florida Sunset",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:7284601290952+7522440609992",
+      "storeSlug": "buce-plant"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

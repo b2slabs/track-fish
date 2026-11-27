@@ -8,14 +8,14 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Perlmutt",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquarium-fish:10123815747883+791796285559",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Hongi Cichlid",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     }
   ],
   "events": [
@@ -52,6 +52,28 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "8730255261815",
+          "label": "Medium",
+          "price": 28.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10123815747883+791796285559",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 17.99,
       "currency": "USD",
@@ -72,39 +94,40 @@
       "storeSlug": "imperial-tropicals"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 16.14,
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 18.99,
       "currency": "USD",
       "available": true,
       "variants": [
         {
           "id": "51420637757739",
           "label": "Medium (2\")",
-          "price": 16.14,
+          "price": 18.99,
           "available": true
         },
         {
           "id": "51420637790507",
           "label": "Large (3\")",
-          "price": 25.07,
+          "price": 29.49,
           "available": false
         },
         {
           "id": "51420637823275",
           "label": "X-Large (4\")",
-          "price": 39.94,
+          "price": 46.99,
           "available": false
         },
         {
           "id": "8730255261815",
           "label": "Medium",
-          "price": 24.64,
+          "price": 28.99,
           "available": false
         }
       ],
       "type": "change",
       "changedFields": [
         "price",
+        "available",
         "variants"
       ],
       "listingId": "aquarium-fish:10123815747883+791796285559",

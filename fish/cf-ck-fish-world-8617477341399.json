@@ -8,28 +8,28 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Malaysian Driftwood",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "buce-plant:10893818253",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Malaysian Driftwood",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:1939458064470",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Malaysian Driftwood",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "flip-aquatics:11206439876+11206441476",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Malaysian Driftwood Small",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     }
   ],
   "events": [
@@ -87,6 +87,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "flip-aquatics:11206439876+11206441476",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43068213508",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "flip-aquatics:11206439876+11206441476",
       "storeSlug": "flip-aquatics"
@@ -280,6 +301,32 @@
       ],
       "listingId": "glass-aqua:1939458064470",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:57.844Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "43068245956",
+          "label": "Malaysian Driftwood Small - 3 Pack",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "43068213508",
+          "label": "Malaysian Driftwood Small",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "flip-aquatics:11206439876+11206441476",
+      "storeSlug": "flip-aquatics"
     }
   ]
 }

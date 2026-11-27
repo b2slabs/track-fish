@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Red Head Tapajos Cichlid",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquahuna:4388855971915+6826794221643+7678610767947",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Red Head Tapajo - 1.5\"",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "aqua-imports:103882",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Wild Red Head Tapajos Eartheater (Geophagus sp. ‘Red Head Tapajos’)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -110,6 +110,49 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 22,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39998998970443",
+          "label": "Title",
+          "price": 22,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquahuna:4388855971915+6826794221643+7678610767947",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 14.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "31442116182091",
+          "label": "Title",
+          "price": 14.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquahuna:4388855971915+6826794221643+7678610767947",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 34.99,
       "currency": "USD",
@@ -130,6 +173,38 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-21T20:07:42.741Z",
+      "price": 14.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42350019412043",
+          "label": "Red Head Tapajo - 2.0\"",
+          "price": 17.5,
+          "available": false
+        },
+        {
+          "id": "39998998970443",
+          "label": "Red Head Tapajo - 2.5\"",
+          "price": 22,
+          "available": false
+        },
+        {
+          "id": "31442116182091",
+          "label": "Red Head Tapajo - 1.5\"",
+          "price": 14.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquahuna:4388855971915+6826794221643+7678610767947",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 18.99,
       "currency": "USD",
@@ -148,27 +223,6 @@
       ],
       "listingId": "aqua-imports:103882",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 29.74,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "18734039430",
-          "label": "Title",
-          "price": 29.74,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:5926940102",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,21 +8,21 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Cardamine (Cardamine lyrata)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "buce-plant:10011881869+9369748941",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Cardamine Lyrata",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:11277468871",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Cardamine Lyrata",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
@@ -48,6 +48,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "buce-plant:10011881869+9369748941",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "34296743309",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:10011881869+9369748941",
       "storeSlug": "buce-plant"
@@ -103,6 +124,39 @@
       ],
       "listingId": "aqua-imports:60050",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:02:19.867Z",
+      "price": 7.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42794349297864",
+          "label": "Lead Bunch",
+          "price": 7.99,
+          "available": true
+        },
+        {
+          "id": "44551968227528",
+          "label": "Pot",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "34296743309",
+          "label": "Cardamine Lyrata Vietnam UNS Tissue Culture",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:10011881869+9369748941",
+      "storeSlug": "buce-plant"
     }
   ]
 }

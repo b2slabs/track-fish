@@ -8,21 +8,21 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Aquario Neo Clip",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "ck-fish-world:8194510880983",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Aquario Neo CO2",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "buce-plant:6742349316296+7483148730568",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Aquario Neo Cap",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -97,6 +97,33 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39885323206856",
+          "label": "Medium",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "39885323239624",
+          "label": "Large",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:6742349316296+7483148730568",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 9.99,
       "currency": "USD",
@@ -133,6 +160,68 @@
       ],
       "listingId": "glass-aqua:6565275959382",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42463092998344",
+          "label": "Bacter",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "42463093031112",
+          "label": "Accelerator",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "42463093063880",
+          "label": "Remover",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "42463093096648",
+          "label": "Tropical Booster",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "42463093129416",
+          "label": "Starter",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "42463093162184",
+          "label": "Complex",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "id": "39885323206856",
+          "label": "Medium",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "39885323239624",
+          "label": "Large",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:6742349316296+7483148730568",
+      "storeSlug": "buce-plant"
     }
   ]
 }

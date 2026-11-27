@@ -8,7 +8,7 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Golden Blue Endler",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     }
   ],
   "events": [
@@ -40,6 +40,39 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "flip-aquatics:7122291425382",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 9.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41081001279590",
+          "label": "Imported / Male",
+          "price": 9.49,
+          "available": true
+        },
+        {
+          "id": "41081001312358",
+          "label": "Imported / Female",
+          "price": 9.49,
+          "available": false
+        },
+        {
+          "id": "41081001345126",
+          "label": "Imported / Pair (M/F)",
+          "price": 17.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "flip-aquatics:7122291425382",
       "storeSlug": "flip-aquatics"

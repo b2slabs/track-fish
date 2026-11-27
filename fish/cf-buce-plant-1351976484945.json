@@ -8,14 +8,14 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Aquario Neo Media - Quad",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "buce-plant:1351976484945+1351976550481",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Aquario Neo Media - Pure",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -79,6 +79,110 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "buce-plant:1351976484945+1351976550481",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12384864469073",
+          "label": "Pure 1L",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "12384864501841",
+          "label": "Pure 5L",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:1351976484945+1351976550481",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41148627779670",
+          "label": "1L [QUAD] / SOFT",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "41148627812438",
+          "label": "5L [QUAD] / SOFT",
+          "price": 57.99,
+          "available": true
+        },
+        {
+          "id": "41148636692566",
+          "label": "1L [QUAD] / PURE",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "41148636725334",
+          "label": "5L [QUAD] / PURE",
+          "price": 59.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "glass-aqua:7152979673174",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12384870367313",
+          "label": "Hard 1L",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "12384870400081",
+          "label": "Hard 5L",
+          "price": 57.99,
+          "available": true
+        },
+        {
+          "id": "12384864469073",
+          "label": "Pure 1L",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "12384864501841",
+          "label": "Pure 5L",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
       ],
       "listingId": "buce-plant:1351976484945+1351976550481",
       "storeSlug": "buce-plant"

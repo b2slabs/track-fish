@@ -8,7 +8,7 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Food Fight Grazing Food by Shrimp Envy",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     }
   ],
   "events": [
@@ -358,6 +358,33 @@
       "type": "change",
       "changedFields": [
         "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7333796446310",
+      "storeSlug": "flip-aquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 29.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41768055832678",
+          "label": "30g",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "41768055865446",
+          "label": "80g",
+          "price": 29.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
         "variants"
       ],
       "listingId": "flip-aquatics:7333796446310",

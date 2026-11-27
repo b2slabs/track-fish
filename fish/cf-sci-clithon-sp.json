@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Thorny Sunshine Snail",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquatic-arts:1371348238422+8084939276567",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Hairy Thorn Nerite Snail (Clithon sp.)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
@@ -64,6 +64,51 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 2.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12676906352726",
+          "label": "1 Snail",
+          "price": 2.99,
+          "available": true
+        },
+        {
+          "id": "12676906418262",
+          "label": "3 Snails",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "12676906451030",
+          "label": "5 Snails",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "12676906483798",
+          "label": "10 Snails",
+          "price": 26.99,
+          "available": true
+        },
+        {
+          "id": "12676906516566",
+          "label": "20 Snails",
+          "price": 48.39,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:1371348238422+8084939276567",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 4.89,
       "currency": "USD",
@@ -84,25 +129,78 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 4.16,
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 2.99,
       "currency": "USD",
-      "available": false,
+      "available": true,
       "variants": [
         {
-          "id": "8133087723639",
-          "label": "Title",
-          "price": 4.16,
-          "available": false
+          "id": "44305083990295",
+          "label": "1 Snail",
+          "price": 3.99,
+          "available": true
+        },
+        {
+          "id": "44305084023063",
+          "label": "3 Snails",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "44305084055831",
+          "label": "5 Snails",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "44305084088599",
+          "label": "10 Snails",
+          "price": 27.99,
+          "available": true
+        },
+        {
+          "id": "44305084121367",
+          "label": "20 Snails",
+          "price": 48.99,
+          "available": true
+        },
+        {
+          "id": "12676906352726",
+          "label": "1 Snail",
+          "price": 2.99,
+          "available": true
+        },
+        {
+          "id": "12676906418262",
+          "label": "3 Snails",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "12676906451030",
+          "label": "5 Snails",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "12676906483798",
+          "label": "10 Snails",
+          "price": 26.99,
+          "available": true
+        },
+        {
+          "id": "12676906516566",
+          "label": "20 Snails",
+          "price": 48.39,
+          "available": true
         }
       ],
       "type": "change",
       "changedFields": [
-        "price",
         "variants"
       ],
-      "listingId": "aquarium-fish:754996412535",
-      "storeSlug": "aquarium-fish"
+      "listingId": "aquatic-arts:1371348238422+8084939276567",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

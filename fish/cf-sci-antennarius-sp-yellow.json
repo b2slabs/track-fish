@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Yellow Anglerfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:110848",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Yellow Angelfish (Centropyge heraldi)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -184,6 +184,39 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 196.6,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51391590433067",
+          "label": "Small (1-2\")",
+          "price": 196.6,
+          "available": false
+        },
+        {
+          "id": "51391596298539",
+          "label": "Medium (2-3.5\")",
+          "price": 206.8,
+          "available": false
+        },
+        {
+          "id": "51391596331307",
+          "label": "Large (3.5-5\")",
+          "price": 335.57,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10113931968811",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:18.881Z",
       "price": 231.29,
       "currency": "USD",
@@ -235,39 +268,6 @@
       ],
       "listingId": "aqua-imports:110848",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 196.6,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51391590433067",
-          "label": "Small (1-2\")",
-          "price": 196.6,
-          "available": false
-        },
-        {
-          "id": "51391596298539",
-          "label": "Medium (2-3.5\")",
-          "price": 206.8,
-          "available": false
-        },
-        {
-          "id": "51391596331307",
-          "label": "Large (3.5-5\")",
-          "price": 335.57,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10113931968811",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

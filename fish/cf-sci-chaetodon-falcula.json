@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Falcula Butterflyfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     }
   ],
   "events": [
@@ -45,51 +45,84 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 137.95,
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 162.29,
       "currency": "USD",
       "available": true,
       "variants": [
         {
-          "id": "50521380389163",
-          "label": "Small (1-2\")",
-          "price": 70.12,
-          "available": false
-        },
-        {
-          "id": "50521380454699",
-          "label": "Medium (2-3\")",
-          "price": 93.32,
-          "available": false
-        },
-        {
-          "id": "50521380520235",
-          "label": "Large (3-4\")",
-          "price": 117.97,
-          "available": false
-        },
-        {
           "id": "32267652956241",
           "label": "Medium",
-          "price": 137.95,
+          "price": 162.29,
           "available": true
         },
         {
           "id": "32267652989009",
           "label": "Large",
-          "price": 156.22,
+          "price": 183.79,
           "available": false
         },
         {
           "id": "32848749396049",
           "label": "Small",
-          "price": 92.05,
+          "price": 108.29,
           "available": false
         }
       ],
       "type": "change",
       "changedFields": [
         "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:8843635276+9972670365995",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 162.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50521380389163",
+          "label": "Small (1-2\")",
+          "price": 82.49,
+          "available": false
+        },
+        {
+          "id": "50521380454699",
+          "label": "Medium (2-3\")",
+          "price": 109.79,
+          "available": false
+        },
+        {
+          "id": "50521380520235",
+          "label": "Large (3-4\")",
+          "price": 138.79,
+          "available": false
+        },
+        {
+          "id": "32267652956241",
+          "label": "Medium",
+          "price": 162.29,
+          "available": true
+        },
+        {
+          "id": "32267652989009",
+          "label": "Large",
+          "price": 183.79,
+          "available": false
+        },
+        {
+          "id": "32848749396049",
+          "label": "Small",
+          "price": 108.29,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
         "variants"
       ],
       "listingId": "aquarium-fish:8843635276+9972670365995",

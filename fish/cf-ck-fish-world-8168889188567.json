@@ -8,21 +8,21 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Fritz Expel-P",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "ck-fish-world:8168889188567+8168889483479",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Fritz Expel-P",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "nu-aqua-shop:10110873108796+10110873895228",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Fritz Expel-F",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     }
   ],
   "events": [
@@ -48,6 +48,32 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "ck-fish-world:8168889188567+8168889483479",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.801Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44152663212247",
+          "label": "10 pack",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "44152663245015",
+          "label": "20 pack",
+          "price": 27.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
       ],
       "listingId": "ck-fish-world:8168889188567+8168889483479",
       "storeSlug": "ck-fish-world"
@@ -100,6 +126,109 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "nu-aqua-shop:10110873108796+10110873895228",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T01:29:44.090Z",
+      "price": 12.74,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51954625642812",
+          "label": "20ct",
+          "price": 21.24,
+          "available": true
+        },
+        {
+          "id": "51954625675580",
+          "label": "10ct",
+          "price": 12.74,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "nu-aqua-shop:10110873108796+10110873895228",
+      "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:49.184Z",
+      "price": 15.98,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44152663965911",
+          "label": "10 pack",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "44152663998679",
+          "label": "20 pack",
+          "price": 25.98,
+          "available": true
+        },
+        {
+          "id": "44152663212247",
+          "label": "10 pack",
+          "price": 15.98,
+          "available": true
+        },
+        {
+          "id": "44152663245015",
+          "label": "20 pack",
+          "price": 27.98,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "ck-fish-world:8168889188567+8168889483479",
+      "storeSlug": "ck-fish-world"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:56.247Z",
+      "price": 12.74,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51954633802044",
+          "label": "20ct",
+          "price": 20.79,
+          "available": true
+        },
+        {
+          "id": "51954633834812",
+          "label": "10ct",
+          "price": 12.79,
+          "available": true
+        },
+        {
+          "id": "51954625642812",
+          "label": "20ct",
+          "price": 21.24,
+          "available": true
+        },
+        {
+          "id": "51954625675580",
+          "label": "10ct",
+          "price": 12.74,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
       ],
       "listingId": "nu-aqua-shop:10110873108796+10110873895228",
       "storeSlug": "nu-aqua-shop"

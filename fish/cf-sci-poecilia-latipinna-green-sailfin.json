@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Green Sailfin Molly",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "dans-fish:10127106638122",
       "storeSlug": "dans-fish",
       "storeName": "Dan's Fish",
       "commonName": "Green Sailfin Molly",
-      "lastCheckedAt": "2026-11-26T18:55:49.257Z"
+      "lastCheckedAt": "2026-11-25T19:04:17.105Z"
     }
   ],
   "events": [
@@ -244,6 +244,32 @@
       "type": "change",
       "changedFields": [
         "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10306181103915+10436214522155",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-06-26T04:00:00.000Z",
+      "price": 8.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53921510850859",
+          "label": "Green Sailfin Molly (4-Pack)",
+          "price": 30.99,
+          "available": true
+        },
+        {
+          "id": "52737836319019",
+          "label": "Green Sailfin Molly",
+          "price": 8.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
         "variants"
       ],
       "listingId": "aquarium-fish:10306181103915+10436214522155",
@@ -978,6 +1004,74 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53921510850859",
+          "label": "Title",
+          "price": 34.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10306181103915+10436214522155",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 10.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52737836319019",
+          "label": "Title",
+          "price": 10.79,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10306181103915+10436214522155",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 10.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53921510850859",
+          "label": "Green Sailfin Molly (4-Pack)",
+          "price": 34.99,
+          "available": true
+        },
+        {
+          "id": "52737836319019",
+          "label": "Green Sailfin Molly",
+          "price": 10.79,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10306181103915+10436214522155",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-22T06:58:35.864Z",
       "price": 14.99,
       "currency": "USD",
@@ -1008,33 +1102,6 @@
       ],
       "listingId": "dans-fish:10127106638122",
       "storeSlug": "dans-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 9.17,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "53921510850859",
-          "label": "Green Sailfin Molly (4-Pack)",
-          "price": 29.74,
-          "available": true
-        },
-        {
-          "id": "52737836319019",
-          "label": "Green Sailfin Molly",
-          "price": 9.17,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10306181103915+10436214522155",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

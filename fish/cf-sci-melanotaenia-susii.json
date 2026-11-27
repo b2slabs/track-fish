@@ -8,21 +8,21 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Susii Rainbow ( Melanotaenia Susii )",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aqua-imports:222389",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Susi Creek Rainbowfish (Melanotaenia susii)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "imperial-tropicals:8398127464755+8398127661363",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Susi Creek Rainbowfish",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     }
   ],
   "events": [
@@ -67,6 +67,33 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612166906163",
+          "label": "1-2\" Unsexed",
+          "price": 23.99,
+          "available": false
+        },
+        {
+          "id": "45612166938931",
+          "label": "1-2\" Unsexed \"Moa Island\"",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398127464755+8398127661363",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 39.99,
       "currency": "USD",
@@ -85,6 +112,38 @@
       ],
       "listingId": "aqua-imports:222389",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:02:06.431Z",
+      "price": 23.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45612170510643",
+          "label": "2-3” Pair (1 Male, 1 Female)",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "45612166906163",
+          "label": "1-2\" Unsexed",
+          "price": 23.99,
+          "available": false
+        },
+        {
+          "id": "45612166938931",
+          "label": "1-2\" Unsexed \"Moa Island\"",
+          "price": 24.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398127464755+8398127661363",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

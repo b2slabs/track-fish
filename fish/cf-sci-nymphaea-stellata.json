@@ -8,21 +8,21 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Dwarf Aquarium Lily (Nymphaea stellata), Bulb",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "buce-plant:7076865999048",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Nymphaea Stellata",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "glass-aqua:1346976088150",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Nymphaea Stellata",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "daku-aquatics:8803672457434",
@@ -36,21 +36,21 @@
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Dwarf Aquarium Lily (Bulb Only)",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "imperial-tropicals:8398042071347",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Dwarf Aquarium Lily",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "nu-aqua-shop:10006315598140",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Dwarf Aquarium Lily",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     }
   ],
   "events": [
@@ -655,6 +655,27 @@
       "storeSlug": "shrimpy-business"
     },
     {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 7.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32972663259221",
+          "label": "Title",
+          "price": 7.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:4835318825045+4835319939157",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 11.99,
       "currency": "USD",
@@ -715,25 +736,37 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
-      "observedAt": "2026-11-26T18:55:33.016Z",
-      "price": 9.99,
+      "observedAt": "2026-11-21T20:07:54.360Z",
+      "price": 4.95,
       "currency": "USD",
       "available": true,
       "variants": [
         {
-          "id": "51627487527228",
-          "label": "Title",
-          "price": 9.99,
+          "id": "32972668141653",
+          "label": "1 bulb",
+          "price": 4.95,
+          "available": true
+        },
+        {
+          "id": "32972668174421",
+          "label": "Pack of 3 bulbs",
+          "price": 13.95,
+          "available": true
+        },
+        {
+          "id": "32972663259221",
+          "label": "Dwarf Aquarium Lily (Plant with Bulb)",
+          "price": 7.95,
           "available": true
         }
       ],
       "type": "change",
       "changedFields": [
-        "available",
+        "price",
         "variants"
       ],
-      "listingId": "nu-aqua-shop:10006315598140",
-      "storeSlug": "nu-aqua-shop"
+      "listingId": "shrimpy-business:4835318825045+4835319939157",
+      "storeSlug": "shrimpy-business"
     }
   ]
 }

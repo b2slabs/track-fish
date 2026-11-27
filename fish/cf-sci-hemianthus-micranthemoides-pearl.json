@@ -8,42 +8,42 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Pearl Weed",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "daku-aquatics:8741034655962",
       "storeSlug": "daku-aquatics",
       "storeName": "Daku Aquatics",
       "commonName": "Pearl Weed",
-      "lastCheckedAt": "2026-11-26T18:54:38.597Z"
+      "lastCheckedAt": "2026-11-25T19:03:04.676Z"
     },
     {
       "listingId": "ck-fish-world:8733705437399",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Pearl Weed",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "shrimpy-business:4812908134485",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Pearl Weed",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "aquatic-arts:3999941492822+6667737104470",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Pearl Weed AKA Pearl Grass AKA Baby Tears (Hemianthus micranthemoides) Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aqua-imports:183471",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Pearl Weed (Hemianthus micranthemoides)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -351,6 +351,39 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "29712072441942",
+          "label": "1 Tissue Culture",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "29712072474710",
+          "label": "2 Tissue Cultures",
+          "price": 26.99,
+          "available": false
+        },
+        {
+          "id": "29712072507478",
+          "label": "3 Tissue Cultures",
+          "price": 38.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:3999941492822+6667737104470",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-20T06:27:39.339Z",
       "price": 8.95,
       "currency": "USD",
@@ -391,6 +424,45 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 9.69,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39614512758870",
+          "label": "1 Bunch",
+          "price": 9.69,
+          "available": false
+        },
+        {
+          "id": "29712072441942",
+          "label": "1 Tissue Culture",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "29712072474710",
+          "label": "2 Tissue Cultures",
+          "price": 26.99,
+          "available": false
+        },
+        {
+          "id": "29712072507478",
+          "label": "3 Tissue Cultures",
+          "price": 38.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:3999941492822+6667737104470",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 6.99,
       "currency": "USD",
@@ -409,27 +481,6 @@
       ],
       "listingId": "aqua-imports:183471",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 6.45,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45296775725355",
-          "label": "Title",
-          "price": 6.45,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:8337220993323",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

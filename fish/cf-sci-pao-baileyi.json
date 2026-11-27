@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Hairy Puffer",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "monster-aquarium:7203179790545",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Hairy Puffer (Tetraodon baileyi)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aqua-imports:181088+43200",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Hairy Puffer (Pao baileyi)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -87,15 +87,15 @@
       "storeSlug": "aqua-imports"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 110.49,
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 99.99,
       "currency": "USD",
       "available": false,
       "variants": [
         {
-          "id": "50583725769003",
-          "label": "Large (4\")",
-          "price": 110.49,
+          "id": "43200",
+          "label": "Default",
+          "price": 99.99,
           "available": false
         }
       ],
@@ -104,8 +104,35 @@
         "price",
         "variants"
       ],
-      "listingId": "aquarium-fish:9988036264235",
-      "storeSlug": "aquarium-fish"
+      "listingId": "aqua-imports:181088+43200",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:59:38.961Z",
+      "price": 0,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "181088",
+          "label": "Default",
+          "price": 0,
+          "available": false
+        },
+        {
+          "id": "43200",
+          "label": "Default",
+          "price": 99.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aqua-imports:181088+43200",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

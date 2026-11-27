@@ -8,14 +8,14 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "UNS Blitz Stainless Steel Filter",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "buce-plant:7496139178184+7607387947208",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "UNS Blitz Stainless Steel Filter - 6oz.",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -35,6 +35,27 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "buce-plant:7496139178184+7607387947208",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 199.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42504197603528",
+          "label": "Title",
+          "price": 199.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "buce-plant:7496139178184+7607387947208",
       "storeSlug": "buce-plant"
@@ -64,6 +85,32 @@
       ],
       "listingId": "glass-aqua:6843960164438",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 199.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "42904121475272",
+          "label": "UNS Blitz Stainless Steel Filter - 32oz.",
+          "price": 284.99,
+          "available": false
+        },
+        {
+          "id": "42504197603528",
+          "label": "UNS Blitz Stainless Steel Filter - 6oz.",
+          "price": 199.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:7496139178184+7607387947208",
+      "storeSlug": "buce-plant"
     }
   ]
 }

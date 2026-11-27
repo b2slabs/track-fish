@@ -8,21 +8,21 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Fissidens Fontanus Mat",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "glass-aqua:1997782253654",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Fissidens Fontanus",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "buce-plant:1381586600017+29054828557",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Fissidens Fontanus",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -205,6 +205,28 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "200693645325",
+          "label": "One Golfball",
+          "price": 11.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:1381586600017+29054828557",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 11.99,
       "currency": "USD",
@@ -277,6 +299,44 @@
       ],
       "listingId": "glass-aqua:1997782253654",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12614211502161",
+          "label": "1 Pack",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "12614211534929",
+          "label": "3 Pack",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "12614211567697",
+          "label": "5 Pack",
+          "price": 42.99,
+          "available": false
+        },
+        {
+          "id": "200693645325",
+          "label": "One Golfball",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:1381586600017+29054828557",
+      "storeSlug": "buce-plant"
     },
     {
       "observedAt": "2026-11-23T20:56:35.740Z",

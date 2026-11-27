@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Neon Blue Tuxedo Guppy (Pair)",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     }
   ],
   "events": [
@@ -33,21 +33,42 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 5.09,
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "20747845574",
+          "label": "Title",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6552474630+8927968198955",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 5.99,
       "currency": "USD",
       "available": true,
       "variants": [
         {
           "id": "47614118887723",
           "label": "Neon Blue Tuxedo Guppy - Male",
-          "price": 5.09,
+          "price": 5.99,
           "available": true
         },
         {
           "id": "20747845574",
           "label": "Neon Blue Tuxedo Guppy (Pair)",
-          "price": 8.49,
+          "price": 9.99,
           "available": true
         }
       ],

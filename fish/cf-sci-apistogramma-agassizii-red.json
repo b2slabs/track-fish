@@ -8,35 +8,35 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Fire Red Agassizii",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquahuna:2179580756011",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Apistogramma Agassizi Double Red (male)",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "shrimpy-business:10467849503010+9914070958370",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Juvenile Double Red Agassiz's (Apistogramma agassizii)",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "aquarium-fish:5923989702+9401782862123",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Apistogramma Agassizi Double Red (Pair)",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquatic-arts:15017966338415",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Tefé Red Back Apistogramma (Apistogramma agassizii 'Tefé Red Back') – Tank-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
@@ -617,6 +617,57 @@
       "storeSlug": "shrimpy-business"
     },
     {
+      "observedAt": "2026-09-04T05:00:00.000Z",
+      "price": 14.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52405225554210",
+          "label": "1 Fish",
+          "price": 14.95,
+          "available": true
+        },
+        {
+          "id": "52405225586978",
+          "label": "2 Fish",
+          "price": 25.95,
+          "available": true
+        },
+        {
+          "id": "52405225619746",
+          "label": "4 Fish",
+          "price": 49.95,
+          "available": true
+        },
+        {
+          "id": "52405225652514",
+          "label": "8 Fish",
+          "price": 94.95,
+          "available": true
+        },
+        {
+          "id": "50527090278690",
+          "label": "Male",
+          "price": 16.5,
+          "available": true
+        },
+        {
+          "id": "50527090311458",
+          "label": "Female",
+          "price": 16.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:10467849503010+9914070958370",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-10-05T06:00:00.000Z",
       "price": 14.95,
       "currency": "USD",
@@ -788,6 +839,74 @@
       "storeSlug": "aquahuna"
     },
     {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 14.95,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52405225554210",
+          "label": "1 Fish",
+          "price": 14.95,
+          "available": false
+        },
+        {
+          "id": "52405225586978",
+          "label": "2 Fish",
+          "price": 25.95,
+          "available": false
+        },
+        {
+          "id": "52405225619746",
+          "label": "4 Fish",
+          "price": 49.95,
+          "available": false
+        },
+        {
+          "id": "52405225652514",
+          "label": "8 Fish",
+          "price": 94.95,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:10467849503010+9914070958370",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 16.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50527090278690",
+          "label": "Male",
+          "price": 16.5,
+          "available": false
+        },
+        {
+          "id": "50527090311458",
+          "label": "Female",
+          "price": 16.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:10467849503010+9914070958370",
+      "storeSlug": "shrimpy-business"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 25.49,
       "currency": "USD",
@@ -803,6 +922,28 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:5923989702+9401782862123",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 39.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "18726441606",
+          "label": "Title",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:5923989702+9401782862123",
       "storeSlug": "aquarium-fish"
@@ -916,27 +1057,78 @@
       "storeSlug": "shrimpy-business"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 21.67,
+      "observedAt": "2026-11-21T20:07:54.360Z",
+      "price": 16.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52405225554210",
+          "label": "1 Fish",
+          "price": 14.95,
+          "available": false
+        },
+        {
+          "id": "52405225586978",
+          "label": "2 Fish",
+          "price": 25.95,
+          "available": false
+        },
+        {
+          "id": "52405225619746",
+          "label": "4 Fish",
+          "price": 49.95,
+          "available": false
+        },
+        {
+          "id": "52405225652514",
+          "label": "8 Fish",
+          "price": 94.95,
+          "available": false
+        },
+        {
+          "id": "50527090278690",
+          "label": "Male",
+          "price": 16.5,
+          "available": true
+        },
+        {
+          "id": "50527090311458",
+          "label": "Female",
+          "price": 16.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:10467849503010+9914070958370",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 25.49,
       "currency": "USD",
       "available": true,
       "variants": [
         {
           "id": "48927681315115",
           "label": "Apistogramma Agassizi Double Red - Male",
-          "price": 21.67,
+          "price": 25.49,
           "available": true
         },
         {
           "id": "18726441606",
           "label": "Apistogramma Agassizi Double Red (Pair)",
-          "price": 33.99,
+          "price": 39.99,
           "available": false
         }
       ],
       "type": "change",
       "changedFields": [
         "price",
+        "available",
         "variants"
       ],
       "listingId": "aquarium-fish:5923989702+9401782862123",

@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Blue Damselfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     }
   ],
   "events": [
@@ -33,27 +33,47 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 24.64,
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 28.99,
       "currency": "USD",
       "available": true,
       "variants": [
         {
-          "id": "925981573145",
-          "label": "Orangetail Blue Damselfish",
-          "price": 42.07,
-          "available": true
-        },
-        {
           "id": "51334091342123",
           "label": "Medium (1-1.5\")",
-          "price": 24.64,
+          "price": 28.99,
           "available": true
         }
       ],
       "type": "change",
       "changedFields": [
         "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:101295685657+11193335372",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "925981573145",
+          "label": "Orangetail Blue Damselfish",
+          "price": 49.49,
+          "available": true
+        },
+        {
+          "id": "51334091342123",
+          "label": "Medium (1-1.5\")",
+          "price": 28.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
         "variants"
       ],
       "listingId": "aquarium-fish:101295685657+11193335372",

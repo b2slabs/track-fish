@@ -8,63 +8,63 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Candy Cane Tetra \"HY511\"",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquahuna:1778965512235",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Candy Cane Tetra",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "ck-fish-world:8150010167511",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Candy Cane Tetra",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "nu-aqua-shop:10006314844476",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Candy Cane Tetra",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "monster-aquarium:7162350010577",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Candy Cane Tetra (hyphessobrycon sp)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Candy Cane Tetra",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aquatic-arts:10298968844+14758656377199+14896567026031",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "HY511 Candy Cane Tetra (Hyphessobrycon sp.) - Tank-Bred!",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:684219",
       "storeSlug": "wet-spot-tropical-fish",
       "storeName": "The Wet Spot Tropical Fish",
       "commonName": "Lepidarchus adonis signifer",
-      "lastCheckedAt": "2026-11-26T18:56:00.122Z"
+      "lastCheckedAt": "2026-11-25T19:04:28.157Z"
     },
     {
       "listingId": "aqua-imports:134254+40066",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "HY511 Candy Cane Tetra (Hyphessobrycon sp. HY511)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -273,6 +273,45 @@
       ],
       "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-03-07T03:00:00.000Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52691222790511",
+          "label": "School of 3",
+          "price": 49.99,
+          "available": true
+        },
+        {
+          "id": "52691222823279",
+          "label": "School of 6",
+          "price": 89.99,
+          "available": true
+        },
+        {
+          "id": "52101195039087",
+          "label": "3 Fish",
+          "price": 66.99,
+          "available": true
+        },
+        {
+          "id": "52101195071855",
+          "label": "6 Fish",
+          "price": 103.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:10298968844+14758656377199+14896567026031",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-03-07T03:00:00.000Z",
@@ -970,6 +1009,99 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 49.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52691222790511",
+          "label": "School of 3",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "52691222823279",
+          "label": "School of 6",
+          "price": 89.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:10298968844+14758656377199+14896567026031",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 66.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52101195039087",
+          "label": "3 Fish",
+          "price": 66.99,
+          "available": false
+        },
+        {
+          "id": "52101195071855",
+          "label": "6 Fish",
+          "price": 103.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:10298968844+14758656377199+14896567026031",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "37600760396",
+          "label": "School of 3",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "37600341260",
+          "label": "School of 6",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "37600814348",
+          "label": "School of 9",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "id": "37600341388",
+          "label": "School of 12",
+          "price": 51.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:10298968844+14758656377199+14896567026031",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 4.99,
       "currency": "USD",
@@ -1008,6 +1140,71 @@
       ],
       "listingId": "aquahuna:1778965512235",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48332423823659",
+          "label": "Title",
+          "price": 26.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "46832321036587",
+          "label": "Title",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 6.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51437762478379",
+          "label": "Title",
+          "price": 6.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
+      "storeSlug": "aquarium-fish"
     },
     {
       "observedAt": "2026-11-20T06:27:43.785Z",
@@ -1166,6 +1363,101 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 5.35,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48332423823659",
+          "label": "Candy Cane Tetra (School of 6)",
+          "price": 22.94,
+          "available": true
+        },
+        {
+          "id": "46832321036587",
+          "label": "Kyburzi Rainbow Tetra",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "51437762478379",
+          "label": "Candy Cane Tetra",
+          "price": 5.35,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T00:52:10.879Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52691222790511",
+          "label": "School of 3",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "52691222823279",
+          "label": "School of 6",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "52101195039087",
+          "label": "3 Fish",
+          "price": 66.99,
+          "available": false
+        },
+        {
+          "id": "52101195071855",
+          "label": "6 Fish",
+          "price": 103.99,
+          "available": false
+        },
+        {
+          "id": "37600760396",
+          "label": "School of 3",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "37600341260",
+          "label": "School of 6",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "37600814348",
+          "label": "School of 9",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "id": "37600341388",
+          "label": "School of 12",
+          "price": 51.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:10298968844+14758656377199+14896567026031",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-22T15:59:59.136Z",
       "price": 8.99,
       "currency": "USD",
@@ -1210,65 +1502,6 @@
       ],
       "listingId": "aqua-imports:134254+40066",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 5.35,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48332423823659",
-          "label": "Candy Cane Tetra (School of 6)",
-          "price": 22.94,
-          "available": true
-        },
-        {
-          "id": "46832321036587",
-          "label": "Kyburzi Rainbow Tetra",
-          "price": 7.64,
-          "available": false
-        },
-        {
-          "id": "51437762478379",
-          "label": "Candy Cane Tetra",
-          "price": 5.35,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "variants"
-      ],
-      "listingId": "aquarium-fish:7014946734161+8654279639339+9153893007659",
-      "storeSlug": "aquarium-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:54:17.996Z",
-      "price": 34.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "45611842404659",
-          "label": "(3 Pack) 1-2” Unsexed",
-          "price": 11.99,
-          "available": false
-        },
-        {
-          "id": "45611842437427",
-          "label": "(10 Pack) 1-2\" Unsexed",
-          "price": 34.99,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "imperial-tropicals:8398023557427",
-      "storeSlug": "imperial-tropicals"
     }
   ]
 }

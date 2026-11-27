@@ -8,14 +8,14 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "ONF Flat Nano+ LED Light",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "buce-plant:3141462982737+3141464227921",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "ONF Flat Nano LED Light",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -40,6 +40,33 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 98.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "23727823716433",
+          "label": "Silver",
+          "price": 98.99,
+          "available": false
+        },
+        {
+          "id": "23819469226065",
+          "label": "Rose Gold",
+          "price": 98.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:3141462982737+3141464227921",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 138.99,
       "currency": "USD",
@@ -58,6 +85,38 @@
       ],
       "listingId": "glass-aqua:3484480471126",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 98.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "23727825911889",
+          "label": "ONF Flat Nano+ LED Light",
+          "price": 138.99,
+          "available": false
+        },
+        {
+          "id": "23727823716433",
+          "label": "Silver",
+          "price": 98.99,
+          "available": false
+        },
+        {
+          "id": "23819469226065",
+          "label": "Rose Gold",
+          "price": 98.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:3141462982737+3141464227921",
+      "storeSlug": "buce-plant"
     }
   ]
 }

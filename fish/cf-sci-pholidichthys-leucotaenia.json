@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Engineer Goby",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:169097",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Engineer Goby (Pholidichthys leucotaenia)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "aquarium-fish:10436236443947",
@@ -214,6 +214,27 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 17.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "32267650072657",
+          "label": "Medium (1.25-2\")",
+          "price": 17.5,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10436236443947+8843640012",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-21T01:29:18.881Z",
       "price": 53.99,
       "currency": "USD",
@@ -277,6 +298,32 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 20.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "53921571569963",
+          "label": "Medium (1.25-2\")",
+          "price": 53.99,
+          "available": true
+        },
+        {
+          "id": "32267650072657",
+          "label": "Medium (1.25-2\")",
+          "price": 20.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10436236443947+8843640012",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 14.99,
       "currency": "USD",
@@ -295,33 +342,6 @@
       ],
       "listingId": "aqua-imports:169097",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 17.5,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "53921571569963",
-          "label": "Medium (1.25-2\")",
-          "price": 45.89,
-          "available": true
-        },
-        {
-          "id": "32267650072657",
-          "label": "Medium (1.25-2\")",
-          "price": 17.5,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10436236443947+8843640012",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

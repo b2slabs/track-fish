@@ -8,14 +8,14 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Black Berry Silver Dollar (Metynnis sp.) – Tank-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "monster-aquarium:6966789636305",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Black Berry Silver Dollar (Myleus schomburgkii ‘blackberry’)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     }
   ],
   "events": [
@@ -41,6 +41,34 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquatic-arts:14664903819631",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 31.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51768402149743",
+          "label": "3 Fish",
+          "price": 31.99,
+          "available": true
+        },
+        {
+          "id": "51768402182511",
+          "label": "6 Fish",
+          "price": 57.24,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquatic-arts:14664903819631",
       "storeSlug": "aquatic-arts"

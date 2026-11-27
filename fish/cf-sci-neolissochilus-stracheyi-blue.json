@@ -8,14 +8,14 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Blue Mahseer (Neolissochilus stracheyi)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aqua-imports:52147",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Blue Mahseer (Neolissochilus stracheyi)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -35,6 +35,78 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "monster-aquarium:7273907781841+7339802165457",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 170,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42672142975185",
+          "label": "5-6\"",
+          "price": 75,
+          "available": false
+        },
+        {
+          "id": "41618113069265",
+          "label": "6-7”",
+          "price": 100,
+          "available": false
+        },
+        {
+          "id": "41838232961233",
+          "label": "10-11”",
+          "price": 170,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "monster-aquarium:7273907781841+7339802165457",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:35.821Z",
+      "price": 170,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41890816000209",
+          "label": "4-5”",
+          "price": 269.99,
+          "available": false
+        },
+        {
+          "id": "42672142975185",
+          "label": "5-6\"",
+          "price": 75,
+          "available": false
+        },
+        {
+          "id": "41618113069265",
+          "label": "6-7”",
+          "price": 100,
+          "available": false
+        },
+        {
+          "id": "41838232961233",
+          "label": "10-11”",
+          "price": 170,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
       ],
       "listingId": "monster-aquarium:7273907781841+7339802165457",
       "storeSlug": "monster-aquarium"

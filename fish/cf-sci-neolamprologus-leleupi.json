@@ -8,14 +8,14 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Lemon Cichlid (Neolamprologus leleupi), Tank-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "monster-aquarium:6996782350545",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Leleupi Neolamprologus (Neolamprologus leleupi)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     }
   ],
   "events": [
@@ -237,6 +237,45 @@
       "type": "change",
       "changedFields": [
         "available",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:4930383708246",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33301018837078",
+          "label": "1 Juvenile",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "33301018869846",
+          "label": "Group of 3 Juveniles",
+          "price": 42.99,
+          "available": false
+        },
+        {
+          "id": "53131066540399",
+          "label": "1 Juvenile (Locally Bred)",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "53131066573167",
+          "label": "Group of 3 Juveniles (Locally Bred)",
+          "price": 39.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
         "variants"
       ],
       "listingId": "aquatic-arts:4930383708246",

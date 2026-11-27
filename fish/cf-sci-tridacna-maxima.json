@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Maxima Clam",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:88012",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Tahitian Maxima Clam (Tridacna maxima)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "aquarium-fish:10110916133163",
@@ -67,6 +67,102 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 189.27,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51377998922027",
+          "label": "Small (1.5-2\")",
+          "price": 149.98,
+          "available": false
+        },
+        {
+          "id": "51377998954795",
+          "label": "Small/Medium (2-2.5\")",
+          "price": 189.98,
+          "available": false
+        },
+        {
+          "id": "51377998987563",
+          "label": "Medium (2.5-3\")",
+          "price": 189.27,
+          "available": true
+        },
+        {
+          "id": "51377999085867",
+          "label": "Large (3-4\")",
+          "price": 199.98,
+          "available": false
+        },
+        {
+          "id": "51377999151403",
+          "label": "X-Large (4-6\")",
+          "price": 239.27,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10110916133163+779571593335",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 189.27,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51378009211179",
+          "label": "Large (5-6\")",
+          "price": 231.29,
+          "available": false
+        },
+        {
+          "id": "51377998922027",
+          "label": "Small (1.5-2\")",
+          "price": 149.98,
+          "available": false
+        },
+        {
+          "id": "51377998954795",
+          "label": "Small/Medium (2-2.5\")",
+          "price": 189.98,
+          "available": false
+        },
+        {
+          "id": "51377998987563",
+          "label": "Medium (2.5-3\")",
+          "price": 189.27,
+          "available": true
+        },
+        {
+          "id": "51377999085867",
+          "label": "Large (3-4\")",
+          "price": 199.98,
+          "available": false
+        },
+        {
+          "id": "51377999151403",
+          "label": "X-Large (4-6\")",
+          "price": 239.27,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10110916133163+779571593335",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 249.99,
       "currency": "USD",
@@ -85,57 +181,6 @@
       ],
       "listingId": "aqua-imports:88012",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 160.88,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51378009211179",
-          "label": "Large (5-6\")",
-          "price": 196.6,
-          "available": false
-        },
-        {
-          "id": "51377998922027",
-          "label": "Small (1.5-2\")",
-          "price": 127.48,
-          "available": false
-        },
-        {
-          "id": "51377998954795",
-          "label": "Small/Medium (2-2.5\")",
-          "price": 161.48,
-          "available": false
-        },
-        {
-          "id": "51377998987563",
-          "label": "Medium (2.5-3\")",
-          "price": 160.88,
-          "available": true
-        },
-        {
-          "id": "51377999085867",
-          "label": "Large (3-4\")",
-          "price": 169.98,
-          "available": false
-        },
-        {
-          "id": "51377999151403",
-          "label": "X-Large (4-6\")",
-          "price": 203.38,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10110916133163+779571593335",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,28 +8,28 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Red Galaxy Shrimp Mix",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "buce-plant:7552032637128",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Red Galaxy Pinto Shrimp",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aquatic-arts:6658566619222",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Red Galaxy Pinto Shrimp (Caridina cantonensis, A Grade), Tank-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "shrimpy-business:6651164491861",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Red Galaxy Pinto Shrimp",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     }
   ],
   "events": [
@@ -727,6 +727,44 @@
       ],
       "listingId": "aquatic-arts:6658566619222",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 49.95,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39612287025237",
+          "label": "3 Shrimp",
+          "price": 49.95,
+          "available": true
+        },
+        {
+          "id": "39612287058005",
+          "label": "6 Shrimp",
+          "price": 89.95,
+          "available": true
+        },
+        {
+          "id": "51662848262434",
+          "label": "12 Shrimp",
+          "price": 169.95,
+          "available": true
+        },
+        {
+          "id": "51662848295202",
+          "label": "24 Shrimp",
+          "price": 319.95,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:6651164491861",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-20T06:27:47.109Z",

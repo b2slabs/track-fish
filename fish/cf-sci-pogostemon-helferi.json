@@ -8,28 +8,28 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Downoi (Pogostemon helferi) Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "glass-aqua:11277469063",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Pogostemon Helferi Downoi",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "buce-plant:1328310714449+436010188840+8607853197",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Pogostemon Helferi 'Downoi'",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aqua-imports:60164",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Downoi (Pogostemon helferi)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -74,6 +74,49 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 19.54,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12232800796753",
+          "label": "Pot",
+          "price": 19.54,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:1328310714449+436010188840+8607853197",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "3736288722984",
+          "label": "Title",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:1328310714449+436010188840+8607853197",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 14.99,
       "currency": "USD",
@@ -98,6 +141,40 @@
       ],
       "listingId": "glass-aqua:11277469063",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "29469115021",
+          "label": "Pogostemon Helferi 'Downoi' UNS Tissue Culture",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "12232800796753",
+          "label": "Pot",
+          "price": 19.54,
+          "available": true
+        },
+        {
+          "id": "3736288722984",
+          "label": "Pogostemon Helferi 'Downoi' Aquatic Farmer Tissue Culture",
+          "price": 14.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:1328310714449+436010188840+8607853197",
+      "storeSlug": "buce-plant"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

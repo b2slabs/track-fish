@@ -8,35 +8,35 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Juncus repens - Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "glass-aqua:1346961080406",
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Juncus Repens",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "ck-fish-world:8771007152343",
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Juncus Repens",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "aquatic-arts:4529468145750+4998682443862",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Lesser Creeping Rush (Juncus repens), clump",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "buce-plant:1317159600209+1317161533521+2870706438225",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Juncus Repens",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -93,6 +93,39 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33451081236566",
+          "label": "1 Plant",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "33451081269334",
+          "label": "2 Plants",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "33451081302102",
+          "label": "3 Plants",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:4529468145750+4998682443862",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 11.29,
       "currency": "USD",
@@ -133,6 +166,53 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12190433968209",
+          "label": "1 Cup",
+          "price": 9.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:1317159600209+1317161533521+2870706438225",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "12190419091537",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12398339948625",
+          "label": "4 Bunches",
+          "price": 20.97,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:1317159600209+1317161533521+2870706438225",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 6.99,
       "currency": "USD",
@@ -163,6 +243,82 @@
       ],
       "listingId": "glass-aqua:1346961080406",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "31841504198742",
+          "label": "1 Tissue Culture Cup",
+          "price": 7.99,
+          "available": false
+        },
+        {
+          "id": "33451081236566",
+          "label": "1 Plant",
+          "price": 4.99,
+          "available": false
+        },
+        {
+          "id": "33451081269334",
+          "label": "2 Plants",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "33451081302102",
+          "label": "3 Plants",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:4529468145750+4998682443862",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "22738292736081",
+          "label": "Juncus Repens UNS Tissue Culture",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "12190433968209",
+          "label": "1 Cup",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "12190419091537",
+          "label": "Lead Bunch",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "12398339948625",
+          "label": "4 Bunches",
+          "price": 20.97,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:1317159600209+1317161533521+2870706438225",
+      "storeSlug": "buce-plant"
     },
     {
       "observedAt": "2026-11-23T20:55:07.821Z",
@@ -312,27 +468,6 @@
       ],
       "listingId": "glass-aqua:1346961080406",
       "storeSlug": "glass-aqua"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 9.6,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51386931216683",
-          "label": "Each",
-          "price": 9.6,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10106307936555",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

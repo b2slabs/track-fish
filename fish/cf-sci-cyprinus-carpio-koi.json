@@ -8,28 +8,28 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Japanese Koi Fish (Cyprinus carpio)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "nu-aqua-shop:10006357868860",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Koi",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aquahuna:6570016964683+6570019553355+6835281526859+7046211534923",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Imported Koi (3 inch)",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "aquarium-fish:6551355334+6551362182+6551384838+8154754220331+9601672806699+9923503052",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Koi  3-4\"",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     }
   ],
   "events": [
@@ -55,6 +55,26 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquahuna:6570016964683+6570019553355+6835281526859+7046211534923",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-02-19T03:00:00.000Z",
+      "price": 33,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40612698521675",
+          "label": "Title",
+          "price": 33,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
       ],
       "listingId": "aquahuna:6570016964683+6570019553355+6835281526859+7046211534923",
       "storeSlug": "aquahuna"
@@ -320,6 +340,70 @@
       "storeSlug": "monster-aquarium"
     },
     {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40021153316939",
+          "label": "Title",
+          "price": 8,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquahuna:6570016964683+6570019553355+6835281526859+7046211534923",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 9,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39373933379659",
+          "label": "Title",
+          "price": 9,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquahuna:6570016964683+6570019553355+6835281526859+7046211534923",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:42.593Z",
+      "price": 9.5,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39373924663371",
+          "label": "Title",
+          "price": 9.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquahuna:6570016964683+6570019553355+6835281526859+7046211534923",
+      "storeSlug": "aquahuna"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 39.29,
       "currency": "USD",
@@ -335,6 +419,119 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:6551355334+6551362182+6551384838+8154754220331+9601672806699+9923503052",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 26.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51437937262891",
+          "label": "(3-4\")",
+          "price": 26.99,
+          "available": true
+        },
+        {
+          "id": "51437937295659",
+          "label": "(5-6\")",
+          "price": 52.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6551355334+6551362182+6551384838+8154754220331+9601672806699+9923503052",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 89.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "35701416012",
+          "label": "Title",
+          "price": 89.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6551355334+6551362182+6551384838+8154754220331+9601672806699+9923503052",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 189.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20743390854",
+          "label": "Title",
+          "price": 189.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6551355334+6551362182+6551384838+8154754220331+9601672806699+9923503052",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 44.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "20743297670",
+          "label": "Title",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6551355334+6551362182+6551384838+8154754220331+9601672806699+9923503052",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 20.59,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "20743264966",
+          "label": "Title",
+          "price": 20.59,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
       ],
       "listingId": "aquarium-fish:6551355334+6551362182+6551384838+8154754220331+9601672806699+9923503052",
       "storeSlug": "aquarium-fish"
@@ -372,57 +569,96 @@
       "storeSlug": "nu-aqua-shop"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 17.5,
+      "observedAt": "2026-11-21T20:07:42.741Z",
+      "price": 33,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40612698521675",
+          "label": "Mayan Butterfly Koi (4-5\")",
+          "price": 33,
+          "available": true
+        },
+        {
+          "id": "40021153316939",
+          "label": "Imported Sanke Koi (3 inch)",
+          "price": 8,
+          "available": false
+        },
+        {
+          "id": "39373933379659",
+          "label": "Imported Koi (3 inch)",
+          "price": 9,
+          "available": false
+        },
+        {
+          "id": "39373924663371",
+          "label": "Imported Butterfly Koi (3 inch)",
+          "price": 9.5,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquahuna:6570016964683+6570019553355+6835281526859+7046211534923",
+      "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 20.59,
       "currency": "USD",
       "available": true,
       "variants": [
         {
           "id": "49376792903979",
           "label": "Mayan Butterfly Koi",
-          "price": 33.4,
+          "price": 39.29,
           "available": true
         },
         {
           "id": "51437937262891",
           "label": "(3-4\")",
-          "price": 22.94,
+          "price": 26.99,
           "available": true
         },
         {
           "id": "51437937295659",
           "label": "(5-6\")",
-          "price": 45.04,
+          "price": 52.99,
           "available": false
         },
         {
           "id": "35701416012",
           "label": "Assorted Butterfly Koi - 3-4\" (Lot of 4)",
-          "price": 76.49,
+          "price": 89.99,
           "available": true
         },
         {
           "id": "20743390854",
           "label": "Assorted Butterfly Koi - 5-6\" (Lot of 4)",
-          "price": 161.49,
+          "price": 189.99,
           "available": false
         },
         {
           "id": "20743297670",
           "label": "Koi  6-7\"",
-          "price": 38.24,
+          "price": 44.99,
           "available": false
         },
         {
           "id": "20743264966",
           "label": "Koi  3-4\"",
-          "price": 17.5,
+          "price": 20.59,
           "available": true
         }
       ],
       "type": "change",
       "changedFields": [
-        "price",
         "variants"
       ],
       "listingId": "aquarium-fish:6551355334+6551362182+6551384838+8154754220331+9601672806699+9923503052",

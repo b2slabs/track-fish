@@ -8,35 +8,35 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Oscar",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "nu-aqua-shop:10311165346108",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Lemon Oscar",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "monster-aquarium:6986124591313+7014188187857+7017691709649+7289485000913+7622727074001",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Wild Oscar (Astronotus ocellatus)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquarium-fish:790733357175+790734209143",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Lemon Oscar",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:113432+116702+39165+39313+42521+64166+74344",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Assorted Oscar (Astronotus ocellatus)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "imperial-tropicals:10388752892211",
@@ -50,14 +50,14 @@
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Lemon Oscar",
-      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     },
     {
       "listingId": "imperial-tropicals:10388752892211+8398120517939+8994136785203",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Marajo Oscar (Astronotus ocellatus)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     }
   ],
   "events": [
@@ -276,6 +276,34 @@
       ],
       "type": "change",
       "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8357212487872+8569374310592",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-05-02T04:00:00.000Z",
+      "price": 10,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48238470955200",
+          "label": "1-2in",
+          "price": 10,
+          "available": true
+        },
+        {
+          "id": "46960210641088",
+          "label": "2 inch",
+          "price": 25,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
         "available",
         "variants"
       ],
@@ -643,6 +671,26 @@
       "storeSlug": "global-exoticquatics"
     },
     {
+      "observedAt": "2026-09-29T06:00:00.000Z",
+      "price": 15,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48238470955200",
+          "label": "1-2in",
+          "price": 15,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8357212487872+8569374310592",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
       "observedAt": "2026-10-06T06:00:00.000Z",
       "price": 34.99,
       "currency": "USD",
@@ -778,6 +826,165 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 59.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41653967290577",
+          "label": "3.5-4.5\"",
+          "price": 59.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "monster-aquarium:6986124591313+7014188187857+7017691709649+7289485000913+7622727074001",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41009058578641",
+          "label": "1\"-2\"",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "41318080643281",
+          "label": "5.5-6.5”",
+          "price": 60,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "monster-aquarium:6986124591313+7014188187857+7017691709649+7289485000913+7622727074001",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 15,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41001043427537",
+          "label": "1.5-2\"",
+          "price": 15,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "monster-aquarium:6986124591313+7014188187857+7017691709649+7289485000913+7622727074001",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 12,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40896006291665",
+          "label": "2.5-3\" / Albino Tiger Oscar",
+          "price": 12,
+          "available": true
+        },
+        {
+          "id": "40896014876881",
+          "label": "2.5-3\" / Tiger Oscar",
+          "price": 12,
+          "available": true
+        },
+        {
+          "id": "40896014909649",
+          "label": "2.5-3\" / Albino Red Oscar",
+          "price": 12,
+          "available": true
+        },
+        {
+          "id": "40896014942417",
+          "label": "2.5-3\" / Red Oscar",
+          "price": 12,
+          "available": true
+        },
+        {
+          "id": "42212480024785",
+          "label": "4.5\"-5\" / Albino Tiger Oscar",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "42212480123089",
+          "label": "4.5\"-5\" / Tiger Oscar",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "42212480254161",
+          "label": "4.5\"-5\" / Red Oscar",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "42597137907921",
+          "label": "4.5\"-5\" / Albino Red Oscar",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "43396696834257",
+          "label": "7-8” / Albino Tiger Oscar",
+          "price": 12,
+          "available": false
+        },
+        {
+          "id": "43396696867025",
+          "label": "7-8” / Tiger Oscar",
+          "price": 80,
+          "available": true
+        },
+        {
+          "id": "43396696899793",
+          "label": "7-8” / Albino Red Oscar",
+          "price": 12,
+          "available": false
+        },
+        {
+          "id": "43396696932561",
+          "label": "7-8” / Red Oscar",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "monster-aquarium:6986124591313+7014188187857+7017691709649+7289485000913+7622727074001",
+      "storeSlug": "monster-aquarium"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 28.29,
       "currency": "USD",
@@ -793,6 +1000,39 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:790733357175+790734209143",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 13.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "8725065990263",
+          "label": "Large",
+          "price": 48.59,
+          "available": false
+        },
+        {
+          "id": "17801391079494",
+          "label": "Medium",
+          "price": 22.49,
+          "available": true
+        },
+        {
+          "id": "21559598776401",
+          "label": "Small",
+          "price": 13.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:790733357175+790734209143",
       "storeSlug": "aquarium-fish"
@@ -824,6 +1064,98 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48272442229043",
+          "label": "2-3\" Unsexed",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "49592337826099",
+          "label": "3-4\" Unsexed",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "49592340087091",
+          "label": "4-5\" Unsexed",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:10388752892211+8398120517939+8994136785203",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53219778134323",
+          "label": "0.5-1” Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "49017431818547",
+          "label": "1-2” Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "45612151308595",
+          "label": "2-3” Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "47759587836211",
+          "label": "3-4” Unsexed",
+          "price": 29.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:10388752892211+8398120517939+8994136785203",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46960210641088",
+          "label": "2 inch",
+          "price": 15,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8357212487872+8569374310592",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
       "observedAt": "2026-11-21T01:29:44.090Z",
       "price": 26.99,
       "currency": "USD",
@@ -842,6 +1174,217 @@
       ],
       "listingId": "nu-aqua-shop:10311165346108",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:35.821Z",
+      "price": 12,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42967127752913",
+          "label": "2-3”",
+          "price": 25,
+          "available": false
+        },
+        {
+          "id": "42667198939345",
+          "label": "5\"",
+          "price": 55.99,
+          "available": false
+        },
+        {
+          "id": "43084172427473",
+          "label": "6-7\"",
+          "price": 78.99,
+          "available": false
+        },
+        {
+          "id": "41653967290577",
+          "label": "3.5-4.5\"",
+          "price": 59.99,
+          "available": false
+        },
+        {
+          "id": "41009058578641",
+          "label": "1\"-2\"",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "id": "41318080643281",
+          "label": "5.5-6.5”",
+          "price": 60,
+          "available": false
+        },
+        {
+          "id": "41001043427537",
+          "label": "1.5-2\"",
+          "price": 15,
+          "available": false
+        },
+        {
+          "id": "40896006291665",
+          "label": "2.5-3\" / Albino Tiger Oscar",
+          "price": 12,
+          "available": true
+        },
+        {
+          "id": "40896014876881",
+          "label": "2.5-3\" / Tiger Oscar",
+          "price": 12,
+          "available": true
+        },
+        {
+          "id": "40896014909649",
+          "label": "2.5-3\" / Albino Red Oscar",
+          "price": 12,
+          "available": true
+        },
+        {
+          "id": "40896014942417",
+          "label": "2.5-3\" / Red Oscar",
+          "price": 12,
+          "available": true
+        },
+        {
+          "id": "42212480024785",
+          "label": "4.5\"-5\" / Albino Tiger Oscar",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "42212480123089",
+          "label": "4.5\"-5\" / Tiger Oscar",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "42212480254161",
+          "label": "4.5\"-5\" / Red Oscar",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "42597137907921",
+          "label": "4.5\"-5\" / Albino Red Oscar",
+          "price": 39.99,
+          "available": true
+        },
+        {
+          "id": "43396696834257",
+          "label": "7-8” / Albino Tiger Oscar",
+          "price": 12,
+          "available": false
+        },
+        {
+          "id": "43396696867025",
+          "label": "7-8” / Tiger Oscar",
+          "price": 80,
+          "available": true
+        },
+        {
+          "id": "43396696899793",
+          "label": "7-8” / Albino Red Oscar",
+          "price": 12,
+          "available": false
+        },
+        {
+          "id": "43396696932561",
+          "label": "7-8” / Red Oscar",
+          "price": 12,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "monster-aquarium:6986124591313+7014188187857+7017691709649+7289485000913+7622727074001",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 13.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "8725069791351",
+          "label": "Lemon Oscar",
+          "price": 28.29,
+          "available": true
+        },
+        {
+          "id": "8725065990263",
+          "label": "Large",
+          "price": 48.59,
+          "available": false
+        },
+        {
+          "id": "17801391079494",
+          "label": "Medium",
+          "price": 22.49,
+          "available": true
+        },
+        {
+          "id": "21559598776401",
+          "label": "Small",
+          "price": 13.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquarium-fish:790733357175+790734209143",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:19.601Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "53870174011699",
+          "label": "2-3” Unsexed",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "53870174044467",
+          "label": "3-4” Unsexed",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "48272442229043",
+          "label": "2-3\" Unsexed",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "49592337826099",
+          "label": "3-4\" Unsexed",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "49592340087091",
+          "label": "4-5\" Unsexed",
+          "price": 44.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:10388752892211+8398120517939+8994136785203",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
@@ -898,6 +1441,32 @@
       ],
       "listingId": "aqua-imports:113432+116702+39165+39313+42521+64166+74344",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:02:44.108Z",
+      "price": 15,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48238470955200",
+          "label": "1-2in",
+          "price": 15,
+          "available": false
+        },
+        {
+          "id": "46960210641088",
+          "label": "2 inch",
+          "price": 15,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8357212487872+8569374310592",
+      "storeSlug": "global-exoticquatics"
     },
     {
       "observedAt": "2026-11-24T19:58:44.448Z",
@@ -1022,34 +1591,64 @@
       "storeSlug": "monster-aquarium"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 11.3,
+      "observedAt": "2026-11-24T20:00:19.491Z",
+      "price": 14.99,
       "currency": "USD",
-      "available": true,
+      "available": false,
       "variants": [
         {
-          "id": "8725069791351",
-          "label": "Lemon Oscar",
-          "price": 24.05,
-          "available": true
-        },
-        {
-          "id": "8725065990263",
-          "label": "Large",
-          "price": 41.3,
+          "id": "53870174011699",
+          "label": "2-3” Unsexed",
+          "price": 34.99,
           "available": false
         },
         {
-          "id": "17801391079494",
-          "label": "Medium",
-          "price": 19.12,
-          "available": true
+          "id": "53870174044467",
+          "label": "3-4” Unsexed",
+          "price": 44.99,
+          "available": false
         },
         {
-          "id": "21559598776401",
-          "label": "Small",
-          "price": 11.3,
-          "available": true
+          "id": "48272442229043",
+          "label": "2-3\" Unsexed",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "49592337826099",
+          "label": "3-4\" Unsexed",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "49592340087091",
+          "label": "4-5\" Unsexed",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "53219778134323",
+          "label": "0.5-1” Unsexed",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "49017431818547",
+          "label": "1-2” Unsexed",
+          "price": 19.99,
+          "available": false
+        },
+        {
+          "id": "45612151308595",
+          "label": "2-3” Unsexed",
+          "price": 24.99,
+          "available": false
+        },
+        {
+          "id": "47759587836211",
+          "label": "3-4” Unsexed",
+          "price": 29.99,
+          "available": false
         }
       ],
       "type": "change",
@@ -1057,8 +1656,8 @@
         "price",
         "variants"
       ],
-      "listingId": "aquarium-fish:790733357175+790734209143",
-      "storeSlug": "aquarium-fish"
+      "listingId": "imperial-tropicals:10388752892211+8398120517939+8994136785203",
+      "storeSlug": "imperial-tropicals"
     }
   ]
 }

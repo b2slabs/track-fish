@@ -8,49 +8,49 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Multi Cichlid (Neolamprologus multifasciatus), Locally Bred!",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "nu-aqua-shop:10122349052220",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Lamprologus Leleupi - 3”",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "aquarium-fish:4735611469905",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Multifasciatus Shell Dweller",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:8398062453043",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Neolamprologus multifasciatus",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "flip-aquatics:6914498887782",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Multi Cichlid | Neolamprologus Multifasciatus",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:680562",
       "storeSlug": "wet-spot-tropical-fish",
       "storeName": "The Wet Spot Tropical Fish",
       "commonName": "Neolamprologus multifasciatus",
-      "lastCheckedAt": "2026-11-26T18:56:00.122Z"
+      "lastCheckedAt": "2026-11-25T19:04:28.157Z"
     },
     {
       "listingId": "aqua-imports:42686",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Neolamprologus multifasciatus",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -126,6 +126,27 @@
       ],
       "listingId": "aquatic-arts:4828096462934",
       "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:40.165Z",
+      "price": 17.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40348011462758",
+          "label": "Flip Bred / 1 Fish",
+          "price": 17.49,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:6914498887782",
+      "storeSlug": "flip-aquatics"
     },
     {
       "observedAt": "2026-11-20T06:27:42.901Z",
@@ -244,27 +265,6 @@
       ],
       "listingId": "aqua-imports:42686",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 21.24,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "32768761233489",
-          "label": "Title",
-          "price": 21.24,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:4735611469905",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,21 +8,21 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Dorado Catfish (Brachyplatystoma rousseauxii)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquarium-fish:6611350782033",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Dorado Catfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:37724+38844",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Dorado Catfish (Brachyplatystoma rousseauxii)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -99,31 +99,50 @@
       "storeSlug": "aqua-imports"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 42.49,
+      "observedAt": "2026-11-22T16:00:03.419Z",
+      "price": 99.99,
       "currency": "USD",
       "available": false,
       "variants": [
         {
-          "id": "39448191172689",
-          "label": "Medium",
-          "price": 76.49,
-          "available": false
-        },
-        {
-          "id": "39448191205457",
-          "label": "Small",
-          "price": 42.49,
+          "id": "37724",
+          "label": "Default",
+          "price": 99.99,
           "available": false
         }
       ],
       "type": "change",
       "changedFields": [
-        "price",
         "variants"
       ],
-      "listingId": "aquarium-fish:6611350782033",
-      "storeSlug": "aquarium-fish"
+      "listingId": "aqua-imports:37724+38844",
+      "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-22T16:59:38.961Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "38844",
+          "label": "Default",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "37724",
+          "label": "Default",
+          "price": 99.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aqua-imports:37724+38844",
+      "storeSlug": "aqua-imports"
     }
   ]
 }

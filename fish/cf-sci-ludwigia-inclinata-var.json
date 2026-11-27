@@ -8,14 +8,14 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Ludwigia Inclinata var. Verticillata 'Pantanal'",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "buce-plant:1338366820433+8156845179080+8227247685832+8333155107016",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Ludwigia Inclinata var. Verticillata ‘Meta’",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -370,6 +370,33 @@
       "type": "change",
       "changedFields": [
         "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:1338366820433+8156845179080+8227247685832+8333155107016",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-07-29T03:00:00.000Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45152286081224",
+          "label": "Lead Bunch",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "45152286113992",
+          "label": "Pot",
+          "price": 15.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
         "variants"
       ],
       "listingId": "buce-plant:1338366820433+8156845179080+8227247685832+8333155107016",
@@ -828,6 +855,103 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 10.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45152286081224",
+          "label": "Lead Bunch",
+          "price": 10.99,
+          "available": true
+        },
+        {
+          "id": "45152286113992",
+          "label": "Pot",
+          "price": 15.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:1338366820433+8156845179080+8227247685832+8333155107016",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 13.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44713409380552",
+          "label": "Title",
+          "price": 13.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:1338366820433+8156845179080+8227247685832+8333155107016",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44760600740040",
+          "label": "Lead Bunch",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "44760600772808",
+          "label": "Pot",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:1338366820433+8156845179080+8227247685832+8333155107016",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12269846855761",
+          "label": "Title",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:1338366820433+8156845179080+8227247685832+8333155107016",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 8.99,
       "currency": "USD",
@@ -914,6 +1038,57 @@
       "type": "change",
       "changedFields": [
         "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:1338366820433+8156845179080+8227247685832+8333155107016",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "45152286081224",
+          "label": "Lead Bunch",
+          "price": 10.99,
+          "available": false
+        },
+        {
+          "id": "45152286113992",
+          "label": "Pot",
+          "price": 15.99,
+          "available": false
+        },
+        {
+          "id": "44713409380552",
+          "label": "Ludwigia Inclinata var. Verticillata 'Pantanal' Aquatic Farmer Tissue Culture",
+          "price": 13.99,
+          "available": false
+        },
+        {
+          "id": "44760600740040",
+          "label": "Lead Bunch",
+          "price": 8.99,
+          "available": false
+        },
+        {
+          "id": "44760600772808",
+          "label": "Pot",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "12269846855761",
+          "label": "Ludwigia Inclinata Cuba Aquatic Farmer Tissue Culture",
+          "price": 9.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
         "variants"
       ],
       "listingId": "buce-plant:1338366820433+8156845179080+8227247685832+8333155107016",

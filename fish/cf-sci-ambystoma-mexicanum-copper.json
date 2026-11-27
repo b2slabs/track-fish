@@ -8,35 +8,35 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Copper Axolotl (Ambystoma mexicanum)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquahuna:7250845892683",
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Copper Axolotl",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "aquatic-arts:5005389365334+5018406060118+6548960215126",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Copper Axolotl (Ambystoma mexicanum), Locally Bred!",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "shrimpy-business:10508672729378+10508672827682+10508672925986+10508673057058",
       "storeSlug": "shrimpy-business",
       "storeName": "Shrimpy Business",
       "commonName": "Copper Axolotl",
-      "lastCheckedAt": "2026-11-26T18:53:23.172Z"
+      "lastCheckedAt": "2026-11-25T19:01:48.524Z"
     },
     {
       "listingId": "aqua-imports:148989+151150+151152",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Copper Axolotl (Ambystoma mexicanum)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -1078,6 +1078,59 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33518155956310",
+          "label": "1 Young Adult",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "33518155989078",
+          "label": "1 GFP Young Adult",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:5005389365334+5018406060118+6548960215126",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39282234130518",
+          "label": "1 Juvenile",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "39282234163286",
+          "label": "1 GFP Juvenile",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:5005389365334+5018406060118+6548960215126",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 129.99,
       "currency": "USD",
@@ -1096,6 +1149,323 @@
       ],
       "listingId": "monster-aquarium:6968068505809",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 79.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52548796940578",
+          "label": "Juvenile (3–5 in.)",
+          "price": 79.99,
+          "available": false
+        },
+        {
+          "id": "52548796973346",
+          "label": "Sub-Adult (5–8 in.)",
+          "price": 109,
+          "available": false
+        },
+        {
+          "id": "52548797006114",
+          "label": "Adult Male (8+ in.)",
+          "price": 139.99,
+          "available": false
+        },
+        {
+          "id": "52548797038882",
+          "label": "Adult Female (8+ in.)",
+          "price": 139.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:10508672729378+10508672827682+10508672925986+10508673057058",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "52548796154146",
+          "label": "Juvenile (3–5 in.)",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "52548796186914",
+          "label": "Sub-Adult (5–8 in.)",
+          "price": 130.99,
+          "available": false
+        },
+        {
+          "id": "52548796219682",
+          "label": "Adult Male (8+ in.)",
+          "price": 160.99,
+          "available": false
+        },
+        {
+          "id": "52548796252450",
+          "label": "Adult Female (8+ in.)",
+          "price": 160.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:10508672729378+10508672827682+10508672925986+10508673057058",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52548796678434",
+          "label": "Juvenile (3–5 in.)",
+          "price": 99.99,
+          "available": true
+        },
+        {
+          "id": "52548796711202",
+          "label": "Sub-Adult (5–8 in.)",
+          "price": 139.99,
+          "available": true
+        },
+        {
+          "id": "52548796743970",
+          "label": "Adult Male (8+ in.)",
+          "price": 159.99,
+          "available": false
+        },
+        {
+          "id": "52548796776738",
+          "label": "Adult Female (8+ in.)",
+          "price": 159.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "shrimpy-business:10508672729378+10508672827682+10508672925986+10508673057058",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:39.339Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52548795892002",
+          "label": "Juvenile (3–5 in.)",
+          "price": 99.99,
+          "available": true
+        },
+        {
+          "id": "52548795924770",
+          "label": "Sub-Adult (5–8 in.)",
+          "price": 139.99,
+          "available": false
+        },
+        {
+          "id": "52548795957538",
+          "label": "Adult Male (8+ in.)",
+          "price": 179.99,
+          "available": false
+        },
+        {
+          "id": "52548795990306",
+          "label": "Adult Female (8+ in.)",
+          "price": 179.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:10508672729378+10508672827682+10508672925986+10508673057058",
+      "storeSlug": "shrimpy-business"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 54.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "33474632613974",
+          "label": "1 Juvenile",
+          "price": 54.99,
+          "available": false
+        },
+        {
+          "id": "33518137213014",
+          "label": "1 GFP Juvenile",
+          "price": 64.99,
+          "available": false
+        },
+        {
+          "id": "33518155956310",
+          "label": "1 Young Adult",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "33518155989078",
+          "label": "1 GFP Young Adult",
+          "price": 79.99,
+          "available": false
+        },
+        {
+          "id": "39282234130518",
+          "label": "1 Juvenile",
+          "price": 69.99,
+          "available": false
+        },
+        {
+          "id": "39282234163286",
+          "label": "1 GFP Juvenile",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:5005389365334+5018406060118+6548960215126",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:54.360Z",
+      "price": 99.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52548796940578",
+          "label": "Juvenile (3–5 in.)",
+          "price": 79.99,
+          "available": false
+        },
+        {
+          "id": "52548796973346",
+          "label": "Sub-Adult (5–8 in.)",
+          "price": 109,
+          "available": false
+        },
+        {
+          "id": "52548797006114",
+          "label": "Adult Male (8+ in.)",
+          "price": 139.99,
+          "available": false
+        },
+        {
+          "id": "52548797038882",
+          "label": "Adult Female (8+ in.)",
+          "price": 139.99,
+          "available": false
+        },
+        {
+          "id": "52548796154146",
+          "label": "Juvenile (3–5 in.)",
+          "price": 99.99,
+          "available": false
+        },
+        {
+          "id": "52548796186914",
+          "label": "Sub-Adult (5–8 in.)",
+          "price": 130.99,
+          "available": false
+        },
+        {
+          "id": "52548796219682",
+          "label": "Adult Male (8+ in.)",
+          "price": 160.99,
+          "available": false
+        },
+        {
+          "id": "52548796252450",
+          "label": "Adult Female (8+ in.)",
+          "price": 160.99,
+          "available": false
+        },
+        {
+          "id": "52548796678434",
+          "label": "Juvenile (3–5 in.)",
+          "price": 99.99,
+          "available": true
+        },
+        {
+          "id": "52548796711202",
+          "label": "Sub-Adult (5–8 in.)",
+          "price": 139.99,
+          "available": true
+        },
+        {
+          "id": "52548796743970",
+          "label": "Adult Male (8+ in.)",
+          "price": 159.99,
+          "available": false
+        },
+        {
+          "id": "52548796776738",
+          "label": "Adult Female (8+ in.)",
+          "price": 159.99,
+          "available": false
+        },
+        {
+          "id": "52548795892002",
+          "label": "Juvenile (3–5 in.)",
+          "price": 99.99,
+          "available": true
+        },
+        {
+          "id": "52548795924770",
+          "label": "Sub-Adult (5–8 in.)",
+          "price": 139.99,
+          "available": false
+        },
+        {
+          "id": "52548795957538",
+          "label": "Adult Male (8+ in.)",
+          "price": 179.99,
+          "available": false
+        },
+        {
+          "id": "52548795990306",
+          "label": "Adult Female (8+ in.)",
+          "price": 179.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "shrimpy-business:10508672729378+10508672827682+10508672925986+10508673057058",
+      "storeSlug": "shrimpy-business"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

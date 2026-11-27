@@ -8,14 +8,14 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Zebra Crayfish (Cherax peknyi)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquatic-arts:4710801542+8246466707735",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Zebra Crayfish (Cherax peknyi)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
@@ -46,6 +46,45 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "15397370566",
+          "label": "1 Male Crayfish",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "43571075276",
+          "label": "1 Female Crayfish",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "43571150348",
+          "label": "1 Male/Female Crayfish Pair",
+          "price": 79.99,
+          "available": false
+        },
+        {
+          "id": "15541266246",
+          "label": "1 B-Grade Crayfish",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:4710801542+8246466707735",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 65,
       "currency": "USD",
@@ -64,6 +103,56 @@
       ],
       "listingId": "monster-aquarium:7265800421585",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 34.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44914813862167",
+          "label": "1 Juvenile Crayfish",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "44914813894935",
+          "label": "1 B-Grade Juvenile Crayfish",
+          "price": 37.99,
+          "available": false
+        },
+        {
+          "id": "15397370566",
+          "label": "1 Male Crayfish",
+          "price": 39.99,
+          "available": false
+        },
+        {
+          "id": "43571075276",
+          "label": "1 Female Crayfish",
+          "price": 44.99,
+          "available": false
+        },
+        {
+          "id": "43571150348",
+          "label": "1 Male/Female Crayfish Pair",
+          "price": 79.99,
+          "available": false
+        },
+        {
+          "id": "15541266246",
+          "label": "1 B-Grade Crayfish",
+          "price": 34.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:4710801542+8246466707735",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

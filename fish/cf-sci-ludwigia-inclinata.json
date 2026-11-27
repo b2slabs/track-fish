@@ -8,21 +8,21 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Ludwigia inclinata 'Cuba' - Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "buce-plant:436007370792+9364108301",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Ludwigia Inclinata",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aqua-imports:114197+60082",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Ludwigia inclinata",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "buce-plant:436007370792",
@@ -36,7 +36,7 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Ludwigia Inclinata",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     }
   ],
   "events": [
@@ -87,6 +87,27 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 15.29,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51386930135339",
+          "label": "Each",
+          "price": 15.29,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10106320617771+10106333823275",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T06:27:47.109Z",
       "price": 9.99,
       "currency": "USD",
@@ -113,6 +134,34 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "34247062413",
+          "label": "Bunch",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12396589121617",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.97,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:436007370792+9364108301",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 9.99,
       "currency": "USD",
@@ -131,6 +180,95 @@
       ],
       "listingId": "glass-aqua:4027151351894+434996674592",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:50.853Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "5278579851296",
+          "label": "Title",
+          "price": 6.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "glass-aqua:4027151351894+434996674592",
+      "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 12.79,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51386930233643",
+          "label": "Each",
+          "price": 12.79,
+          "available": false
+        },
+        {
+          "id": "51386930135339",
+          "label": "Each",
+          "price": 15.29,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10106320617771+10106333823275",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 9.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "3736255856680",
+          "label": "Lead Bunch",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "12398342766673",
+          "label": "3 Bunches + 1 Free",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "34247062413",
+          "label": "Bunch",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "12396589121617",
+          "label": "3 Bunches + 1 Free",
+          "price": 20.97,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:436007370792+9364108301",
+      "storeSlug": "buce-plant"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
@@ -159,31 +297,32 @@
       "storeSlug": "aqua-imports"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 10.87,
+      "observedAt": "2026-11-23T20:56:53.148Z",
+      "price": 9.99,
       "currency": "USD",
-      "available": false,
+      "available": true,
       "variants": [
         {
-          "id": "51386930233643",
-          "label": "Each",
-          "price": 10.87,
-          "available": false
+          "id": "29830419775574",
+          "label": "Ludwigia Inclinata Twister",
+          "price": 9.99,
+          "available": true
         },
         {
-          "id": "51386930135339",
-          "label": "Each",
-          "price": 13,
+          "id": "5278579851296",
+          "label": "Ludwigia Inclinata",
+          "price": 6.99,
           "available": false
         }
       ],
       "type": "change",
       "changedFields": [
         "price",
+        "available",
         "variants"
       ],
-      "listingId": "aquarium-fish:10106320617771+10106333823275",
-      "storeSlug": "aquarium-fish"
+      "listingId": "glass-aqua:4027151351894+434996674592",
+      "storeSlug": "glass-aqua"
     }
   ]
 }

@@ -8,14 +8,14 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Chihiros B Series Light Shade with Mirror",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "buce-plant:7644732227784+7732685045960",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Chihiros SLIM Light Shade with Mirror",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -76,6 +76,39 @@
       "storeSlug": "buce-plant"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 40.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42997228634312",
+          "label": "SLIM 30",
+          "price": 40.99,
+          "available": true
+        },
+        {
+          "id": "42997228667080",
+          "label": "SLIM 45",
+          "price": 47.99,
+          "available": false
+        },
+        {
+          "id": "42997228699848",
+          "label": "SLIM 60",
+          "price": 54.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:7644732227784+7732685045960",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-20T06:27:50.853Z",
       "price": 28.99,
       "currency": "USD",
@@ -130,6 +163,81 @@
       ],
       "listingId": "glass-aqua:6978904064086",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 28.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "43290101481672",
+          "label": "B20",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "id": "43290101514440",
+          "label": "B30",
+          "price": 30.99,
+          "available": false
+        },
+        {
+          "id": "43290117931208",
+          "label": "B45",
+          "price": 32.99,
+          "available": false
+        },
+        {
+          "id": "43290117963976",
+          "label": "B60",
+          "price": 35.99,
+          "available": false
+        },
+        {
+          "id": "44901672419528",
+          "label": "B80",
+          "price": 47.99,
+          "available": true
+        },
+        {
+          "id": "43290117996744",
+          "label": "B90",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "43290118029512",
+          "label": "B120",
+          "price": 54.99,
+          "available": true
+        },
+        {
+          "id": "42997228634312",
+          "label": "SLIM 30",
+          "price": 40.99,
+          "available": true
+        },
+        {
+          "id": "42997228667080",
+          "label": "SLIM 45",
+          "price": 47.99,
+          "available": false
+        },
+        {
+          "id": "42997228699848",
+          "label": "SLIM 60",
+          "price": 54.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:7644732227784+7732685045960",
+      "storeSlug": "buce-plant"
     }
   ]
 }

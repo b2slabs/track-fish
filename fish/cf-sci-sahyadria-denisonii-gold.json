@@ -8,21 +8,21 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Gold Roseline Shark",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "global-exoticquatics:8309396996288",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Golden Roseline Shark",
-      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     },
     {
       "listingId": "aqua-imports:96226",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Gold Roseline Shark (Sahyadria denisonii)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -77,6 +77,33 @@
           "label": "1.5 inch",
           "price": 25,
           "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "global-exoticquatics:8309396996288",
+      "storeSlug": "global-exoticquatics"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:57.334Z",
+      "price": 25,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "46706386665664",
+          "label": "2-2.5 inch",
+          "price": 50,
+          "available": true
+        },
+        {
+          "id": "50787876765888",
+          "label": "1-1.5in",
+          "price": 25,
+          "available": true
         }
       ],
       "type": "change",

@@ -8,28 +8,28 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Synodontis Schoutendeni Catfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:8398131298611",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Synodontis schoutedeni",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "nationwide-aquatics-usa:8743975649433+8743977353369",
       "storeSlug": "nationwide-aquatics-usa",
       "storeName": "Nationwide Aquatics USA",
       "commonName": "Synodontis schoutedeni",
-      "lastCheckedAt": "2026-11-26T18:53:19.110Z"
+      "lastCheckedAt": "2026-11-25T19:01:44.668Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:683809",
       "storeSlug": "wet-spot-tropical-fish",
       "storeName": "The Wet Spot Tropical Fish",
       "commonName": "Synodontis schoutedeni",
-      "lastCheckedAt": "2026-11-26T18:56:00.122Z"
+      "lastCheckedAt": "2026-11-25T19:04:28.157Z"
     }
   ],
   "events": [
@@ -55,6 +55,48 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "nationwide-aquatics-usa:8743975649433+8743977353369",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:43.307Z",
+      "price": 125,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47384487952537",
+          "label": "Title",
+          "price": 125,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:8743975649433+8743977353369",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
+      "observedAt": "2026-11-20T06:14:43.307Z",
+      "price": 30,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47384484053145",
+          "label": "Title",
+          "price": 30,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "nationwide-aquatics-usa:8743975649433+8743977353369",
       "storeSlug": "nationwide-aquatics-usa"
@@ -100,6 +142,32 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-21T20:07:52.673Z",
+      "price": 30,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47384487952537",
+          "label": "Synodontis schoutedeni 5 pack",
+          "price": 125,
+          "available": true
+        },
+        {
+          "id": "47384484053145",
+          "label": "Synodontis schoutedeni",
+          "price": 30,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "nationwide-aquatics-usa:8743975649433+8743977353369",
+      "storeSlug": "nationwide-aquatics-usa"
+    },
+    {
       "observedAt": "2026-11-22T15:59:59.136Z",
       "price": 18.99,
       "currency": "USD",
@@ -118,27 +186,6 @@
       ],
       "listingId": "wet-spot-tropical-fish:683809",
       "storeSlug": "wet-spot-tropical-fish"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 37.65,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "19376373382",
-          "label": "Medium",
-          "price": 37.65,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6120853126",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

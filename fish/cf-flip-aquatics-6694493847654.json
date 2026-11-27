@@ -8,14 +8,14 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Micranthemum Monte Carlo | Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "aquarium-fish:10106351550763",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Micranthemum sp. 'Montecarlo' - Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     }
   ],
   "events": [
@@ -60,21 +60,70 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 10.87,
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 11.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "19810310342",
+          "label": "Title",
+          "price": 11.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10106351550763",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 11.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51386928791851",
+          "label": "Each",
+          "price": 12.79,
+          "available": false
+        },
+        {
+          "id": "19810310342",
+          "label": "Micranthemum Monte Carlo",
+          "price": 11.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10106351550763",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-22T00:26:46.153Z",
+      "price": 12.79,
       "currency": "USD",
       "available": false,
       "variants": [
         {
           "id": "51386928791851",
           "label": "Each",
-          "price": 10.87,
+          "price": 12.79,
           "available": false
         }
       ],
       "type": "change",
       "changedFields": [
         "price",
+        "available",
         "variants"
       ],
       "listingId": "aquarium-fish:10106351550763",

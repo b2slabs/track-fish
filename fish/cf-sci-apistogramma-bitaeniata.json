@@ -8,35 +8,35 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Two-Striped Dwarf Cichlid (Apistogramma bitaeniata) – Tank-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "imperial-tropicals:8303248408883",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Apistogramma bitaeniata",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "nu-aqua-shop:10006354166076",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Apistogramma Bitaeniata",
-      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
+      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
     },
     {
       "listingId": "wet-spot-tropical-fish:681628+681630+681632+681634+681637+766908",
       "storeSlug": "wet-spot-tropical-fish",
       "storeName": "The Wet Spot Tropical Fish",
       "commonName": "Apistogramma bitaeniata",
-      "lastCheckedAt": "2026-11-26T18:56:00.122Z"
+      "lastCheckedAt": "2026-11-25T19:04:28.157Z"
     },
     {
       "listingId": "aqua-imports:42118",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Banded Apisto (Apistogramma bitaeniata)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -264,6 +264,40 @@
       "type": "change",
       "changedFields": [
         "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:14713325453679",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 37.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51976248000879",
+          "label": "1 Male",
+          "price": 37.99,
+          "available": false
+        },
+        {
+          "id": "51976248033647",
+          "label": "1 Female",
+          "price": 45.99,
+          "available": false
+        },
+        {
+          "id": "51976248066415",
+          "label": "1 Pair",
+          "price": 79.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
         "variants"
       ],
       "listingId": "aquatic-arts:14713325453679",

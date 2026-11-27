@@ -8,28 +8,28 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "One pair Long Fin Albino Bristlenose pleco (Ancistrus sp.)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquarium-fish:6652830278",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "L-144 Bushynose Albino Longfin Pleco",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:61817",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Longfin Albino Bristlenose Pleco (Ancistrus sp.)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "aquatic-arts:1381503533142",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Longfin Albino Bristlenose Pleco (Ancistrus cf. cirrhosus var. \"Longfin Albino\"), Tank-Bred",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     }
   ],
   "events": [
@@ -86,6 +86,38 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "32264675590230",
+          "label": "1 Juvenile",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "32264675622998",
+          "label": "3 Juveniles",
+          "price": 41.99,
+          "available": false
+        },
+        {
+          "id": "32264675655766",
+          "label": "6 Juveniles",
+          "price": 77.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:1381503533142",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 17.99,
       "currency": "USD",
@@ -104,6 +136,56 @@
       ],
       "listingId": "aquarium-fish:6652830278",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "12751502016598",
+          "label": "1 Juvenile",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "12751502049366",
+          "label": "3 Juveniles",
+          "price": 41.99,
+          "available": false
+        },
+        {
+          "id": "12751502082134",
+          "label": "6 Juveniles",
+          "price": 77.99,
+          "available": false
+        },
+        {
+          "id": "32264675590230",
+          "label": "1 Juvenile",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "32264675622998",
+          "label": "3 Juveniles",
+          "price": 41.99,
+          "available": false
+        },
+        {
+          "id": "32264675655766",
+          "label": "6 Juveniles",
+          "price": 77.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:1381503533142",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",
@@ -126,25 +208,36 @@
       "storeSlug": "aqua-imports"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 15.29,
+      "observedAt": "2026-11-22T16:00:56.519Z",
+      "price": 14.99,
       "currency": "USD",
       "available": false,
       "variants": [
         {
-          "id": "32267405033553",
-          "label": "Small",
-          "price": 15.29,
+          "id": "12751502016598",
+          "label": "1 Juvenile",
+          "price": 14.99,
+          "available": false
+        },
+        {
+          "id": "12751502049366",
+          "label": "3 Juveniles",
+          "price": 41.99,
+          "available": false
+        },
+        {
+          "id": "12751502082134",
+          "label": "6 Juveniles",
+          "price": 77.99,
           "available": false
         }
       ],
       "type": "change",
       "changedFields": [
-        "price",
         "variants"
       ],
-      "listingId": "aquarium-fish:6652830278",
-      "storeSlug": "aquarium-fish"
+      "listingId": "aquatic-arts:1381503533142",
+      "storeSlug": "aquatic-arts"
     }
   ]
 }

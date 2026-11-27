@@ -8,21 +8,21 @@
       "storeSlug": "ck-fish-world",
       "storeName": "CK Fish World",
       "commonName": "Dalmatian Molly",
-      "lastCheckedAt": "2026-11-26T18:53:12.760Z"
+      "lastCheckedAt": "2026-11-25T19:01:38.189Z"
     },
     {
       "listingId": "aquarium-fish:6553015238+6571409030+9172927676715",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Dalmatian Molly",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:8398079459635+9542612320563",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Dalmatian Molly",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     }
   ],
   "events": [
@@ -106,6 +106,76 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "imperial-tropicals:8398079459635+9542612320563",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-01-10T02:00:00.000Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52604406989107",
+          "label": "1-2\" Unsexed",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "50493257974067",
+          "label": "1-2\" Unsexed",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "50493262135603",
+          "label": "(5 Pack) 1-2\" Unsexed",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "50493264625971",
+          "label": "(10 Pack) 1-2\" Unsexed",
+          "price": 44.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398079459635+9542612320563",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-01-17T02:00:00.000Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50493257974067",
+          "label": "1-2\" Unsexed",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "50493262135603",
+          "label": "(5 Pack) 1-2\" Unsexed",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "50493264625971",
+          "label": "(10 Pack) 1-2\" Unsexed",
+          "price": 44.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
       ],
       "listingId": "imperial-tropicals:8398079459635+9542612320563",
       "storeSlug": "imperial-tropicals"
@@ -487,6 +557,45 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-04-04T03:00:00.000Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52604406989107",
+          "label": "1-2\" Unsexed",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "50493257974067",
+          "label": "1-2\" Unsexed",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "50493262135603",
+          "label": "(5 Pack) 1-2\" Unsexed",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "50493264625971",
+          "label": "(10 Pack) 1-2\" Unsexed",
+          "price": 44.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398079459635+9542612320563",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-04-08T03:00:00.000Z",
       "price": 21.99,
       "currency": "USD",
@@ -506,6 +615,39 @@
       ],
       "listingId": "aquarium-fish:6553015238+6571409030+9172927676715",
       "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-04-11T03:00:00.000Z",
+      "price": 24.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50493257974067",
+          "label": "1-2\" Unsexed",
+          "price": 5.99,
+          "available": false
+        },
+        {
+          "id": "50493262135603",
+          "label": "(5 Pack) 1-2\" Unsexed",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "id": "50493264625971",
+          "label": "(10 Pack) 1-2\" Unsexed",
+          "price": 44.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398079459635+9542612320563",
+      "storeSlug": "imperial-tropicals"
     },
     {
       "observedAt": "2026-04-18T03:00:00.000Z",
@@ -1407,6 +1549,75 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "20790241222",
+          "label": "Title",
+          "price": 4.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6553015238+6571409030+9172927676715",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 5.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51437707690283",
+          "label": "Title",
+          "price": 5.49,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6553015238+6571409030+9172927676715",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:43.785Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45612054282547",
+          "label": "1-2\" Unsexed",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "45612054315315",
+          "label": "(10 Pack) 1-2\" Unsexed",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398079459635+9542612320563",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-21T01:29:18.881Z",
       "price": 18.29,
       "currency": "USD",
@@ -1470,6 +1681,77 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 4.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "48389876580651",
+          "label": "Dalmatian Lyretail Molly (Pack of 4)",
+          "price": 18.29,
+          "available": true
+        },
+        {
+          "id": "20790241222",
+          "label": "Dalmatian Molly",
+          "price": 4.99,
+          "available": true
+        },
+        {
+          "id": "51437707690283",
+          "label": "Dalmatian Lyretail Molly",
+          "price": 5.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6553015238+6571409030+9172927676715",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:19.601Z",
+      "price": 6.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50493257974067",
+          "label": "1-2” Unsexed",
+          "price": 6.99,
+          "available": false
+        },
+        {
+          "id": "53376216432947",
+          "label": "(10 Pack) 1-2” Unsexed",
+          "price": 49.99,
+          "available": false
+        },
+        {
+          "id": "45612054282547",
+          "label": "1-2\" Unsexed",
+          "price": 6.99,
+          "available": true
+        },
+        {
+          "id": "45612054315315",
+          "label": "(10 Pack) 1-2\" Unsexed",
+          "price": 49.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "imperial-tropicals:8398079459635+9542612320563",
+      "storeSlug": "imperial-tropicals"
+    },
+    {
       "observedAt": "2026-11-23T20:56:21.598Z",
       "price": 49.99,
       "currency": "USD",
@@ -1507,39 +1789,6 @@
       ],
       "listingId": "imperial-tropicals:8398079459635+9542612320563",
       "storeSlug": "imperial-tropicals"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 4.24,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "48389876580651",
-          "label": "Dalmatian Lyretail Molly (Pack of 4)",
-          "price": 15.55,
-          "available": true
-        },
-        {
-          "id": "20790241222",
-          "label": "Dalmatian Molly",
-          "price": 4.24,
-          "available": true
-        },
-        {
-          "id": "51437707690283",
-          "label": "Dalmatian Lyretail Molly",
-          "price": 5.09,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6553015238+6571409030+9172927676715",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

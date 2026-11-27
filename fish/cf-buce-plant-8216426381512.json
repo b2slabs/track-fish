@@ -8,7 +8,7 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Chihiros Glass Pot",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -291,6 +291,38 @@
           "label": "Dew Shaped",
           "price": 36.99,
           "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:8216426381512",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 16.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "44688615243976",
+          "label": "Small",
+          "price": 16.99,
+          "available": true
+        },
+        {
+          "id": "44688615276744",
+          "label": "Large",
+          "price": 25.99,
+          "available": false
+        },
+        {
+          "id": "44688615309512",
+          "label": "Dew Shaped",
+          "price": 36.99,
+          "available": false
         }
       ],
       "type": "change",

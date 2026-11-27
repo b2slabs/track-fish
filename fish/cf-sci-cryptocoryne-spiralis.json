@@ -8,21 +8,21 @@
       "storeSlug": "aquahuna",
       "storeName": "AquaHuna",
       "commonName": "Cryptocoryne Spiralis - Potted Plant",
-      "lastCheckedAt": "2026-11-26T18:52:59.513Z"
+      "lastCheckedAt": "2026-11-25T19:01:24.783Z"
     },
     {
       "listingId": "flip-aquatics:1562721615974",
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Crypt Spiralis",
-      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
+      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
     },
     {
       "listingId": "buce-plant:8223609913544+8336397566152",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Cryptocoryne Spiralis 'Nari' UNS Tissue Culture",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -696,6 +696,28 @@
       "storeSlug": "flip-aquatics"
     },
     {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44698764181704",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:8223609913544+8336397566152",
+      "storeSlug": "buce-plant"
+    },
+    {
       "observedAt": "2026-11-21T01:29:07.561Z",
       "price": 7,
       "currency": "USD",
@@ -757,6 +779,34 @@
       ],
       "listingId": "aquahuna:7041625653323",
       "storeSlug": "aquahuna"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 14.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45170917834952",
+          "label": "Cryptocoryne Spiralis 'Nari' UNS Tissue Culture",
+          "price": 14.99,
+          "available": true
+        },
+        {
+          "id": "44698764181704",
+          "label": "Cryptocoryne Spiralis 'Jwala' UNS Tissue Culture",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:8223609913544+8336397566152",
+      "storeSlug": "buce-plant"
     }
   ]
 }

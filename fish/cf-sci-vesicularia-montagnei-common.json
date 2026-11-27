@@ -8,14 +8,14 @@
       "storeSlug": "glass-aqua",
       "storeName": "Glass Aqua",
       "commonName": "Christmas Moss Dome",
-      "lastCheckedAt": "2026-11-26T18:55:08.324Z"
+      "lastCheckedAt": "2026-11-25T19:03:34.985Z"
     },
     {
       "listingId": "buce-plant:8343106027720",
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Christmas Moss Dome",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     }
   ],
   "events": [
@@ -142,6 +142,103 @@
       ],
       "listingId": "glass-aqua:8060586590294",
       "storeSlug": "glass-aqua"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "41076614463688",
+          "label": "Title",
+          "price": 12.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:8343106027720",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:47.109Z",
+      "price": 11.04,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "34294739341",
+          "label": "Title",
+          "price": 11.04,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "buce-plant:8343106027720",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:29.473Z",
+      "price": 11.04,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45214668488904",
+          "label": "Christmas Moss Dome",
+          "price": 18.99,
+          "available": true
+        },
+        {
+          "id": "41076614463688",
+          "label": "Christmas Moss on Fiber Mat",
+          "price": 12.99,
+          "available": false
+        },
+        {
+          "id": "34294739341",
+          "label": "Christmas Moss on Driftwood",
+          "price": 11.04,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "buce-plant:8343106027720",
+      "storeSlug": "buce-plant"
+    },
+    {
+      "observedAt": "2026-11-22T00:27:07.721Z",
+      "price": 18.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "45214668488904",
+          "label": "Title",
+          "price": 18.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "buce-plant:8343106027720",
+      "storeSlug": "buce-plant"
     }
   ]
 }

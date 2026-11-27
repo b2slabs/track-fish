@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Sunset Wrasse",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:156756",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Banana Wrasse (Thalassoma lutescens)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -217,6 +217,39 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 194.49,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51419156021547",
+          "label": "Medium (3-6\")",
+          "price": 157.79,
+          "available": false
+        },
+        {
+          "id": "51419156054315",
+          "label": "Large (6-9\")",
+          "price": 194.49,
+          "available": true
+        },
+        {
+          "id": "51419156087083",
+          "label": "X-Large (9\"+)",
+          "price": 231.29,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10123414569259",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 69.99,
       "currency": "USD",
@@ -235,39 +268,6 @@
       ],
       "listingId": "aqua-imports:156756",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 165.32,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "51419156021547",
-          "label": "Medium (3-6\")",
-          "price": 134.12,
-          "available": false
-        },
-        {
-          "id": "51419156054315",
-          "label": "Large (6-9\")",
-          "price": 165.32,
-          "available": true
-        },
-        {
-          "id": "51419156087083",
-          "label": "X-Large (9\"+)",
-          "price": 196.6,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10123414569259",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

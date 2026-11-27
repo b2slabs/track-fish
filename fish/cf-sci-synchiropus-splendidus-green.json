@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Green Mandarin Goby",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "aqua-imports:85083",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Green Mandarin Dragonet (Synchiropus splendidus)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -58,6 +58,96 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 53.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "39488646774865",
+          "label": "Small (1.5-2\")",
+          "price": 53.99,
+          "available": true
+        },
+        {
+          "id": "39488646807633",
+          "label": "Medium (2-2.5\")",
+          "price": 59.29,
+          "available": true
+        },
+        {
+          "id": "39488646840401",
+          "label": "Large (2.5-3\")",
+          "price": 68.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6636017909841+7903846726",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 36.79,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "95053053977",
+          "label": "Small (1-1.5\")",
+          "price": 36.79,
+          "available": true
+        },
+        {
+          "id": "29257574470",
+          "label": "Medium (1.5-2.5\")",
+          "price": 44.99,
+          "available": true
+        },
+        {
+          "id": "95055118361",
+          "label": "Large (2.5-3\")",
+          "price": 54.59,
+          "available": true
+        },
+        {
+          "id": "51327618056491",
+          "label": "X-Large (3\"+)",
+          "price": 78.99,
+          "available": true
+        },
+        {
+          "id": "39488646774865",
+          "label": "Small (1.5-2\")",
+          "price": 53.99,
+          "available": true
+        },
+        {
+          "id": "39488646807633",
+          "label": "Medium (2-2.5\")",
+          "price": 59.29,
+          "available": true
+        },
+        {
+          "id": "39488646840401",
+          "label": "Large (2.5-3\")",
+          "price": 68.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6636017909841+7903846726",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 29.99,
       "currency": "USD",
@@ -76,63 +166,6 @@
       ],
       "listingId": "aqua-imports:85083",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 31.27,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "95053053977",
-          "label": "Small (1-1.5\")",
-          "price": 31.27,
-          "available": true
-        },
-        {
-          "id": "29257574470",
-          "label": "Medium (1.5-2.5\")",
-          "price": 38.24,
-          "available": true
-        },
-        {
-          "id": "95055118361",
-          "label": "Large (2.5-3\")",
-          "price": 46.4,
-          "available": true
-        },
-        {
-          "id": "51327618056491",
-          "label": "X-Large (3\"+)",
-          "price": 67.14,
-          "available": true
-        },
-        {
-          "id": "39488646774865",
-          "label": "Small (1.5-2\")",
-          "price": 45.89,
-          "available": true
-        },
-        {
-          "id": "39488646807633",
-          "label": "Medium (2-2.5\")",
-          "price": 50.4,
-          "available": true
-        },
-        {
-          "id": "39488646840401",
-          "label": "Large (2.5-3\")",
-          "price": 58.64,
-          "available": true
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6636017909841+7903846726",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

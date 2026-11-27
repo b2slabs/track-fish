@@ -8,14 +8,14 @@
       "storeSlug": "buce-plant",
       "storeName": "Buce Plant",
       "commonName": "Ocean Blue Shrimp",
-      "lastCheckedAt": "2026-11-26T18:54:41.266Z"
+      "lastCheckedAt": "2026-11-25T19:03:07.423Z"
     },
     {
       "listingId": "aquarium-fish:6686296539217+8829567303979",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Blue Glaze Shrimp",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     }
   ],
   "events": [
@@ -105,27 +105,47 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 7.64,
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 8.99,
       "currency": "USD",
       "available": false,
       "variants": [
         {
-          "id": "47310277706027",
-          "label": "Extreme Blue Bolt Shrimp",
-          "price": 8.49,
-          "available": false
-        },
-        {
           "id": "39570328027217",
-          "label": "Blue Glaze Shrimp",
-          "price": 7.64,
+          "label": "Title",
+          "price": 8.99,
           "available": false
         }
       ],
       "type": "change",
       "changedFields": [
         "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6686296539217+8829567303979",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 8.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "47310277706027",
+          "label": "Extreme Blue Bolt Shrimp",
+          "price": 9.99,
+          "available": false
+        },
+        {
+          "id": "39570328027217",
+          "label": "Blue Glaze Shrimp",
+          "price": 8.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
         "variants"
       ],
       "listingId": "aquarium-fish:6686296539217+8829567303979",

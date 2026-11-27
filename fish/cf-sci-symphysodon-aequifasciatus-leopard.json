@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Leopard Skin Discus",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "monster-aquarium:7032809488593+7079802503377",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Leopard Discus (Symphysodon aequifasciatus)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     }
   ],
   "events": [
@@ -35,6 +35,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "monster-aquarium:7032809488593+7079802503377",
+      "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 84.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "41041245798609",
+          "label": "3.5”-4”",
+          "price": 84.99,
+          "available": true
+        },
+        {
+          "id": "42259766411473",
+          "label": "5-6”",
+          "price": 120,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "monster-aquarium:7032809488593+7079802503377",
       "storeSlug": "monster-aquarium"
@@ -72,37 +99,36 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 67.99,
+      "observedAt": "2026-11-21T20:07:35.821Z",
+      "price": 84.99,
       "currency": "USD",
-      "available": false,
+      "available": true,
       "variants": [
         {
-          "id": "39544947212369",
-          "label": "Medium (1.5-2\")",
-          "price": 67.99,
-          "available": false
+          "id": "41152151650513",
+          "label": "4”",
+          "price": 130,
+          "available": true
         },
         {
-          "id": "12633293586502",
-          "label": "Large (2.5-3\")",
-          "price": 101.99,
-          "available": false
+          "id": "41041245798609",
+          "label": "3.5”-4”",
+          "price": 84.99,
+          "available": true
         },
         {
-          "id": "1520231579673",
-          "label": "Extra Large (4\")",
-          "price": 127.49,
-          "available": false
+          "id": "42259766411473",
+          "label": "5-6”",
+          "price": 120,
+          "available": true
         }
       ],
       "type": "change",
       "changedFields": [
-        "price",
         "variants"
       ],
-      "listingId": "aquarium-fish:186446118937",
-      "storeSlug": "aquarium-fish"
+      "listingId": "monster-aquarium:7032809488593+7079802503377",
+      "storeSlug": "monster-aquarium"
     }
   ]
 }

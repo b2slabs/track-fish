@@ -8,7 +8,7 @@
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Altlandsberg Sword",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aquatic-arts:14758689112431",
@@ -22,7 +22,7 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Oriental Sword (Echinodorus sp. ‘Oriental’)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -1190,11 +1190,112 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "33518159364182",
+          "label": "1 Plant",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "33518159396950",
+          "label": "2 Plants",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "33518159429718",
+          "label": "3 Plants",
+          "price": 19.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:14758689112431+4958775803990",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-21T01:28:57.087Z",
       "price": 5.99,
       "currency": "USD",
       "available": true,
       "variants": [
+        {
+          "id": "33518159364182",
+          "label": "1 Plant",
+          "price": 5.99,
+          "available": true
+        },
+        {
+          "id": "33518159396950",
+          "label": "2 Plants",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "id": "33518159429718",
+          "label": "3 Plants",
+          "price": 19.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquatic-arts:14758689112431+4958775803990",
+      "storeSlug": "aquatic-arts"
+    },
+    {
+      "observedAt": "2026-11-22T00:52:10.879Z",
+      "price": 5.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "52102460539247",
+          "label": "3 Bareroot  Plants  (emerged)",
+          "price": 17.99,
+          "available": true
+        },
+        {
+          "id": "52102460572015",
+          "label": "6 Bareroot  Plants  (emerged)",
+          "price": 33.99,
+          "available": true
+        },
+        {
+          "id": "52102460604783",
+          "label": "3 Potted Plants (emerged)",
+          "price": 23.99,
+          "available": true
+        },
+        {
+          "id": "52102460637551",
+          "label": "6 Potted Plants (emerged)",
+          "price": 45.99,
+          "available": true
+        },
+        {
+          "id": "52378898792815",
+          "label": "3 Potted Plants (submerged)",
+          "price": 17.99,
+          "available": false
+        },
+        {
+          "id": "52378898825583",
+          "label": "6 Potted Plants (submerged)",
+          "price": 34.99,
+          "available": false
+        },
         {
           "id": "33518159364182",
           "label": "1 Plant",
@@ -1249,38 +1350,6 @@
       "type": "change",
       "changedFields": [
         "first-observed"
-      ],
-      "listingId": "aqua-imports:165443+182563+59991",
-      "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:56:09.972Z",
-      "price": 8.99,
-      "currency": "USD",
-      "available": true,
-      "variants": [
-        {
-          "id": "182563",
-          "label": "Default",
-          "price": 9.99,
-          "available": false
-        },
-        {
-          "id": "165443",
-          "label": "Default",
-          "price": 8.99,
-          "available": true
-        },
-        {
-          "id": "59991",
-          "label": "Default",
-          "price": 7.99,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "variants"
       ],
       "listingId": "aqua-imports:165443+182563+59991",
       "storeSlug": "aqua-imports"

@@ -8,21 +8,21 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Blue Kong Crayfish (Cherax alyciae) ONLY FEMALES",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aquatic-arts:1947611496534+8246424109335",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Blue Kong Zebra Crayfish (Cherax alyciae)",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "aqua-imports:145121",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Blue Kong Crayfish (Cherax alyciae)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -53,6 +53,45 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T05:43:01.800Z",
+      "price": 69.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19487198675030",
+          "label": "1 Male Crayfish",
+          "price": 86.99,
+          "available": false
+        },
+        {
+          "id": "19487198707798",
+          "label": "1 Female Crayfish",
+          "price": 92.99,
+          "available": false
+        },
+        {
+          "id": "19487198740566",
+          "label": "1 Male/Female Crayfish Pair",
+          "price": 152.99,
+          "available": false
+        },
+        {
+          "id": "19487198773334",
+          "label": "1 B-Grade Crayfish",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:1947611496534+8246424109335",
+      "storeSlug": "aquatic-arts"
+    },
+    {
       "observedAt": "2026-11-20T06:02:14.062Z",
       "price": 45,
       "currency": "USD",
@@ -77,6 +116,57 @@
       ],
       "listingId": "monster-aquarium:6986002923729",
       "storeSlug": "monster-aquarium"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:16.497Z",
+      "price": 54.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "44914708545815",
+          "label": "1 Juvenile Crayfish",
+          "price": 64.99,
+          "available": false
+        },
+        {
+          "id": "44914708578583",
+          "label": "1 B-Grade Juvenile Crayfish",
+          "price": 54.99,
+          "available": false
+        },
+        {
+          "id": "19487198675030",
+          "label": "1 Male Crayfish",
+          "price": 86.99,
+          "available": false
+        },
+        {
+          "id": "19487198707798",
+          "label": "1 Female Crayfish",
+          "price": 92.99,
+          "available": false
+        },
+        {
+          "id": "19487198740566",
+          "label": "1 Male/Female Crayfish Pair",
+          "price": 152.99,
+          "available": false
+        },
+        {
+          "id": "19487198773334",
+          "label": "1 B-Grade Crayfish",
+          "price": 69.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquatic-arts:1947611496534+8246424109335",
+      "storeSlug": "aquatic-arts"
     },
     {
       "observedAt": "2026-11-22T16:00:03.419Z",

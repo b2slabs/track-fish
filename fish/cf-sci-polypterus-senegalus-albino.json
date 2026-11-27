@@ -8,42 +8,42 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Albino Senegalese Bichir",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:8398130610483",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Albino Senegal Bichir (Polypterus senegalus)",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "global-exoticquatics:8678196904128",
       "storeSlug": "global-exoticquatics",
       "storeName": "Global Exoticquatics",
       "commonName": "Albino Senegalus Bichir",
-      "lastCheckedAt": "2026-11-26T18:55:25.356Z"
+      "lastCheckedAt": "2026-11-25T19:03:52.506Z"
     },
     {
       "listingId": "aquatic-arts:4847799140438",
       "storeSlug": "aquatic-arts",
       "storeName": "Aquatic Arts",
       "commonName": "Albino Senegal Bichir (Polypterus senegalus) - Tank-Bred!",
-      "lastCheckedAt": "2026-11-26T18:52:12.035Z"
+      "lastCheckedAt": "2026-11-25T19:00:36.524Z"
     },
     {
       "listingId": "monster-aquarium:6974858658001+7510124101841",
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Albino Polypterus Bichir (Polypterus senegalus)",
-      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
+      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
     },
     {
       "listingId": "aqua-imports:67663",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Albino Senegal Bichir (Polypterus senegalus)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     }
   ],
   "events": [
@@ -120,6 +120,40 @@
       "storeSlug": "aquatic-arts"
     },
     {
+      "observedAt": "2026-11-20T06:02:14.062Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40865443807441",
+          "label": "3\"-4”",
+          "price": 25.99,
+          "available": false
+        },
+        {
+          "id": "41853407953105",
+          "label": "5-6”",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "43182488617169",
+          "label": "2\"-3\"",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "available",
+        "variants"
+      ],
+      "listingId": "monster-aquarium:6974858658001+7510124101841",
+      "storeSlug": "monster-aquarium"
+    },
+    {
       "observedAt": "2026-11-20T06:27:42.901Z",
       "price": 20.59,
       "currency": "USD",
@@ -158,6 +192,44 @@
       ],
       "listingId": "imperial-tropicals:8398130610483",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-21T20:07:35.821Z",
+      "price": 12.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "42358465888465",
+          "label": "2.5-3”",
+          "price": 25.99,
+          "available": false
+        },
+        {
+          "id": "40865443807441",
+          "label": "3\"-4”",
+          "price": 25.99,
+          "available": false
+        },
+        {
+          "id": "41853407953105",
+          "label": "5-6”",
+          "price": 34.99,
+          "available": false
+        },
+        {
+          "id": "43182488617169",
+          "label": "2\"-3\"",
+          "price": 12.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "monster-aquarium:6974858658001+7510124101841",
+      "storeSlug": "monster-aquarium"
     },
     {
       "observedAt": "2026-11-22T00:26:20.993Z",
@@ -217,27 +289,6 @@
       ],
       "listingId": "aqua-imports:67663",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 17.5,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "19288913030",
-          "label": "Title",
-          "price": 17.5,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:6095288710",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

@@ -8,21 +8,21 @@
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Trifasciatus Pencilfish (Nannostomus trifasciatus)",
-      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
+      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
     },
     {
       "listingId": "aquarium-fish:10130807390507+6856532688977",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Three Lined Pencilfish",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     },
     {
       "listingId": "imperial-tropicals:8398142013747",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Three Line Pencilfish",
-      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
+      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
     },
     {
       "listingId": "aquarium-fish:10130807390507",
@@ -326,6 +326,27 @@
       "storeSlug": "aquarium-fish"
     },
     {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51437581762859",
+          "label": "Title",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10130807390507+6856532688977",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-20T06:27:43.785Z",
       "price": 11.99,
       "currency": "USD",
@@ -352,6 +373,32 @@
       "storeSlug": "imperial-tropicals"
     },
     {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 11.99,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51441000579371",
+          "label": "Three Lined Pencilfish (School of 5)",
+          "price": 43.59,
+          "available": false
+        },
+        {
+          "id": "51437581762859",
+          "label": "Three Lined Pencilfish",
+          "price": 11.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10130807390507+6856532688977",
+      "storeSlug": "aquarium-fish"
+    },
+    {
       "observedAt": "2026-11-22T16:00:03.419Z",
       "price": 4.99,
       "currency": "USD",
@@ -370,33 +417,6 @@
       ],
       "listingId": "aqua-imports:82562",
       "storeSlug": "aqua-imports"
-    },
-    {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 10.19,
-      "currency": "USD",
-      "available": false,
-      "variants": [
-        {
-          "id": "51441000579371",
-          "label": "Three Lined Pencilfish (School of 5)",
-          "price": 37.05,
-          "available": false
-        },
-        {
-          "id": "51437581762859",
-          "label": "Three Lined Pencilfish",
-          "price": 10.19,
-          "available": false
-        }
-      ],
-      "type": "change",
-      "changedFields": [
-        "price",
-        "variants"
-      ],
-      "listingId": "aquarium-fish:10130807390507+6856532688977",
-      "storeSlug": "aquarium-fish"
     }
   ]
 }

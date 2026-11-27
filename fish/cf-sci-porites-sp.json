@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Grinch Porites",
-      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
+      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
     }
   ],
   "events": [
@@ -336,21 +336,62 @@
       "storeSlug": "aquarium-fish"
     },
     {
-      "observedAt": "2026-11-26T18:53:46.913Z",
-      "price": 44.45,
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 52.29,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51517048160555",
+          "label": "Title",
+          "price": 52.29,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10155236131115+10155247206699",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-20T06:27:42.901Z",
+      "price": 60.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51517034660139",
+          "label": "Title",
+          "price": 60.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10155236131115+10155247206699",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-21T20:08:06.000Z",
+      "price": 52.29,
       "currency": "USD",
       "available": true,
       "variants": [
         {
           "id": "51517048160555",
           "label": "Grinch Porites",
-          "price": 44.45,
+          "price": 52.29,
           "available": true
         },
         {
           "id": "51517034660139",
           "label": "Darth Maul Porites",
-          "price": 51.84,
+          "price": 60.99,
           "available": true
         }
       ],
