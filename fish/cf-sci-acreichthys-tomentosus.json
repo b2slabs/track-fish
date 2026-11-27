@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Matted Leatherjacket Filefile",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:85081",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Aiptasia Eating Filefish (Acreichthys tomentosus)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -70,6 +70,39 @@
       ],
       "listingId": "aqua-imports:85081",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 72.5,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51333810782507",
+          "label": "Small (1-2\")",
+          "price": 72.5,
+          "available": true
+        },
+        {
+          "id": "51333810815275",
+          "label": "Medium (2-3\")",
+          "price": 93.32,
+          "available": true
+        },
+        {
+          "id": "51333824545067",
+          "label": "Large (3\"+)",
+          "price": 113.55,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10096813179179",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

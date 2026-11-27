@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Sparkle Sword",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -40,6 +40,39 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:8912265412907",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 7.64,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "47551244206379",
+          "label": "Small",
+          "price": 5.35,
+          "available": false
+        },
+        {
+          "id": "47551244239147",
+          "label": "Medium",
+          "price": 7.64,
+          "available": true
+        },
+        {
+          "id": "47551244271915",
+          "label": "Large",
+          "price": 14.1,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:8912265412907",
       "storeSlug": "aquarium-fish"

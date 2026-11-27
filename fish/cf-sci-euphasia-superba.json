@@ -8,14 +8,14 @@
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "New Life Spectrum Optimum Flakes",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
     },
     {
       "listingId": "aquarium-fish:7014115541073",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "New Life Spectrum Optimum Flakes",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -64,6 +64,27 @@
       ],
       "listingId": "nu-aqua-shop:10127071510844",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 15.55,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "40189843308625",
+          "label": "Title",
+          "price": 15.55,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:7014115541073",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

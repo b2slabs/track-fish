@@ -8,21 +8,21 @@
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Lima Shovelnose Catfish",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
     },
     {
       "listingId": "aquarium-fish:781866500215",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Lima Shovelnose Catfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:43096",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Lima Shovelnose Catfish (Sorubim lima)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -91,6 +91,33 @@
       ],
       "listingId": "aqua-imports:43096",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 28.89,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "8682651484279",
+          "label": "Medium",
+          "price": 41.3,
+          "available": false
+        },
+        {
+          "id": "22578426871889",
+          "label": "Small",
+          "price": 28.89,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:781866500215",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

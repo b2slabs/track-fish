@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Diamond Watchman Goby",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:107127",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Diamond Watchman",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -103,6 +103,39 @@
       ],
       "listingId": "aqua-imports:107127",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 28.89,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50537101885739",
+          "label": "Small (1-2\")",
+          "price": 28.89,
+          "available": true
+        },
+        {
+          "id": "50537101951275",
+          "label": "Medium (2-3\")",
+          "price": 34.67,
+          "available": true
+        },
+        {
+          "id": "50537102016811",
+          "label": "Large (3-4\")",
+          "price": 40.62,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:9977043550507",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

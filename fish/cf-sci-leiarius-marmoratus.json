@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Achara Catfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -315,6 +315,27 @@
           "id": "39846231179345",
           "label": "Title",
           "price": 43.29,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6845111730257",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 36.8,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39846231179345",
+          "label": "Title",
+          "price": 36.8,
           "available": false
         }
       ],

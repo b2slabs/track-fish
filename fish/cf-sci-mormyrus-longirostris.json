@@ -8,7 +8,7 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Dolphin Fish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     }
   ],
   "events": [
@@ -34,6 +34,33 @@
       "type": "change",
       "changedFields": [
         "first-observed"
+      ],
+      "listingId": "aquarium-fish:6096718214",
+      "storeSlug": "aquarium-fish"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 25.49,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "19294026758",
+          "label": "Medium",
+          "price": 25.49,
+          "available": false
+        },
+        {
+          "id": "31990150824017",
+          "label": "Large",
+          "price": 67.99,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
       ],
       "listingId": "aquarium-fish:6096718214",
       "storeSlug": "aquarium-fish"

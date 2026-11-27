@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Dogface Puffer",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:108683",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Dogface Puffer (Arothron nigropunctatus)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -70,6 +70,39 @@
       ],
       "listingId": "aqua-imports:108683",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 68.84,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "50540751683883",
+          "label": "Small (1.5-3\")",
+          "price": 68.84,
+          "available": true
+        },
+        {
+          "id": "50540751716651",
+          "label": "Medium (3-5\")",
+          "price": 98.42,
+          "available": true
+        },
+        {
+          "id": "50540751782187",
+          "label": "Large (5-7\")",
+          "price": 147.55,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:9978093961515",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

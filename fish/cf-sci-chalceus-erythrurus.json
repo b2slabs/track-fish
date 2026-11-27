@@ -8,21 +8,21 @@
       "storeSlug": "monster-aquarium",
       "storeName": "Monster Aquarium",
       "commonName": "Pinktail Chalceus ( Chalceus erythrurus)",
-      "lastCheckedAt": "2026-11-25T19:01:08.640Z"
+      "lastCheckedAt": "2026-11-26T18:52:43.808Z"
     },
     {
       "listingId": "aquarium-fish:6656332038",
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Pinktail Chalceus",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:120962+38469+61722",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Yellowfin Chalceus (Chalceus erythrurus)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -103,6 +103,33 @@
       ],
       "listingId": "aqua-imports:120962+38469+61722",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 30,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40205311705169",
+          "label": "Small (2-3\")",
+          "price": 18.27,
+          "available": false
+        },
+        {
+          "id": "40205311737937",
+          "label": "Large (4-6\")",
+          "price": 30,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6656332038",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

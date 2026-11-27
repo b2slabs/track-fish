@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Black Nubian Swordtail",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "imperial-tropicals:8397993181491",
       "storeSlug": "imperial-tropicals",
       "storeName": "Imperial Tropicals",
       "commonName": "Black Swordtail (Xiphophorus hellerii)",
-      "lastCheckedAt": "2026-11-25T19:02:43.781Z"
+      "lastCheckedAt": "2026-11-26T18:54:17.996Z"
     }
   ],
   "events": [
@@ -94,6 +94,45 @@
       ],
       "listingId": "imperial-tropicals:8397993181491",
       "storeSlug": "imperial-tropicals"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 7.64,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "48902890422571",
+          "label": "Each / Medium",
+          "price": 7.64,
+          "available": false
+        },
+        {
+          "id": "48902890389803",
+          "label": "Each / Large",
+          "price": 8.49,
+          "available": false
+        },
+        {
+          "id": "51437805633835",
+          "label": "School of 4 / Medium",
+          "price": 25.49,
+          "available": false
+        },
+        {
+          "id": "51437805666603",
+          "label": "School of 4 / Large",
+          "price": 29.74,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:6318622406",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

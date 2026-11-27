@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Green Bubble Coral",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:110602",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Green Bubble Coral (Plerogyra simplex)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -70,6 +70,39 @@
       ],
       "listingId": "aqua-imports:110602",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 280.75,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "39844732305489",
+          "label": "Small",
+          "price": 280.75,
+          "available": false
+        },
+        {
+          "id": "39844732338257",
+          "label": "Medium",
+          "price": 379.09,
+          "available": false
+        },
+        {
+          "id": "39844732371025",
+          "label": "Large",
+          "price": 399.15,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:44129976345",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

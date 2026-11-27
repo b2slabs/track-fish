@@ -8,14 +8,14 @@
       "storeSlug": "flip-aquatics",
       "storeName": "Flip Aquatics",
       "commonName": "Yellow Spotted Rabbit Snails",
-      "lastCheckedAt": "2026-11-25T19:01:55.988Z"
+      "lastCheckedAt": "2026-11-26T18:53:30.571Z"
     },
     {
       "listingId": "nu-aqua-shop:10205109387580",
       "storeSlug": "nu-aqua-shop",
       "storeName": "NU Aqua Shop",
       "commonName": "Yellow Spotted Rabbit Snail",
-      "lastCheckedAt": "2026-11-25T19:04:00.223Z"
+      "lastCheckedAt": "2026-11-26T18:55:33.016Z"
     }
   ],
   "events": [
@@ -58,6 +58,27 @@
       ],
       "listingId": "nu-aqua-shop:10205109387580",
       "storeSlug": "nu-aqua-shop"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:30.571Z",
+      "price": 17.99,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "40762418987110",
+          "label": "Imported / 1 Snail",
+          "price": 17.99,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "available",
+        "variants"
+      ],
+      "listingId": "flip-aquatics:7012976754790",
+      "storeSlug": "flip-aquatics"
     }
   ]
 }

@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Blue Spotted Puffer",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:110844",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Blue Spotted Puffer (Canthigaster solandri)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -64,6 +64,33 @@
       ],
       "listingId": "aqua-imports:110844",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 68.84,
+      "currency": "USD",
+      "available": true,
+      "variants": [
+        {
+          "id": "51053319356715",
+          "label": "Medium (~2\")",
+          "price": 68.84,
+          "available": true
+        },
+        {
+          "id": "51053319422251",
+          "label": "Large (~3\")",
+          "price": 76.75,
+          "available": true
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:10033861361963",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }

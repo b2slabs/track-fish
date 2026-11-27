@@ -8,14 +8,14 @@
       "storeSlug": "aquarium-fish",
       "storeName": "AquariumFish.com",
       "commonName": "Dwarf Fuzzy Lionfish",
-      "lastCheckedAt": "2026-11-25T19:02:12.467Z"
+      "lastCheckedAt": "2026-11-26T18:53:46.913Z"
     },
     {
       "listingId": "aqua-imports:119977",
       "storeSlug": "aqua-imports",
       "storeName": "Aqua Imports",
       "commonName": "Fuzzy Dwarf Lionfish (Dendrochirus brachypterus)",
-      "lastCheckedAt": "2026-11-25T19:04:38.047Z"
+      "lastCheckedAt": "2026-11-26T18:56:09.972Z"
     }
   ],
   "events": [
@@ -70,6 +70,39 @@
       ],
       "listingId": "aqua-imports:119977",
       "storeSlug": "aqua-imports"
+    },
+    {
+      "observedAt": "2026-11-26T18:53:46.913Z",
+      "price": 61.87,
+      "currency": "USD",
+      "available": false,
+      "variants": [
+        {
+          "id": "51385095782699",
+          "label": "Small (1-2\")",
+          "price": 61.87,
+          "available": false
+        },
+        {
+          "id": "21347892002897",
+          "label": "Medium (2-3\")",
+          "price": 93.32,
+          "available": false
+        },
+        {
+          "id": "51329242628395",
+          "label": "Large (3-4\")",
+          "price": 124.09,
+          "available": false
+        }
+      ],
+      "type": "change",
+      "changedFields": [
+        "price",
+        "variants"
+      ],
+      "listingId": "aquarium-fish:7915232070",
+      "storeSlug": "aquarium-fish"
     }
   ]
 }
