@@ -138,7 +138,10 @@ describe('computeVariantLines — same-price run splitting (issue #87)', () => {
     ];
     const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), new Map());
     expect(line.runs).toHaveLength(1);
-    expect(line.runs[0]).toHaveLength(2);
+    // Still one unbroken run (no break) -- but no second point either, since
+    // the price never actually changed (issue #123: an unchanged
+    // reconfirmation isn't its own point).
+    expect(line.runs[0]).toHaveLength(1);
   });
 
   it('splits into two runs with a gray outOfStockSegments connector between them when a same-price point follows a gap (CK Fish World / Panda Cory, issue #87/#111)', () => {
@@ -153,7 +156,10 @@ describe('computeVariantLines — same-price run splitting (issue #87)', () => {
     const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), new Map());
     expect(line.runs).toHaveLength(2);
     expect(line.runs[0].map((p) => p.price)).toEqual([59.98]);
-    expect(line.runs[1].map((p) => p.price)).toEqual([59.98, 59.98]);
+    // The resumption point is kept (gap resumption is unaffected by issue
+    // #123), but the Nov 24 reconfirmation at the same price is not --
+    // nothing about it is new information.
+    expect(line.runs[1].map((p) => p.price)).toEqual([59.98]);
     expect(line.outOfStockSegments).toHaveLength(1);
     const [start, end] = line.outOfStockSegments[0];
     expect(start.key).toBe(line.runs[0][0].key);
@@ -350,5 +356,48 @@ describe('computeVariantLines — confirmedSameUntil (issue #113)', () => {
     const lines = computeVariantLines(events, storeMeta('ck-fish-world'), new Map());
 
     expect(lines).toHaveLength(0); // never had a real in-stock point, so no line at all
+  });
+});
+
+describe('computeVariantLines — no point for an unaffected sibling variant (issue #123)', () => {
+  it('skips a new point for a variant whose own price is unchanged, even when a sibling variant in the same event genuinely changes', () => {
+    const events = [
+      variantEvent('2026-05-23T00:00:00Z', [
+        { id: 'small', price: 12, available: true },
+        { id: 'large', price: 23.5, available: true },
+      ]),
+      // "small" genuinely changes price; "large" stays at 23.5 -- the exact
+      // Shrimpy Business / Pangio kuhlii pattern the user reported.
+      variantEvent('2026-06-03T00:00:00Z', [
+        { id: 'small', price: 12, available: true },
+        { id: 'large', price: 21.95, available: true },
+      ]),
+    ];
+    const lines = computeVariantLines(events, storeMeta('ck-fish-world'), new Map());
+
+    const smallLine = lines.find((l) => l.key.endsWith('::small'))!;
+    const largeLine = lines.find((l) => l.key.endsWith('::large'))!;
+
+    // "small" never actually changed price -- no second point.
+    expect(smallLine.runs).toHaveLength(1);
+    expect(smallLine.runs[0].map((p) => p.price)).toEqual([12]);
+    // "large" genuinely changed -- gets its second point.
+    expect(largeLine.runs).toHaveLength(1);
+    expect(largeLine.runs[0].map((p) => p.price)).toEqual([23.5, 21.95]);
+  });
+
+  it('still adds a point when a variant resumes at the same price after a gap (unaffected by this fix)', () => {
+    const events = [
+      variantEvent('2026-01-01T00:00:00Z', [{ id: 'v1', price: 10, available: true }]),
+      variantEvent('2026-01-05T00:00:00Z', [{ id: 'v1', price: 10, available: false }]),
+      variantEvent('2026-01-10T00:00:00Z', [{ id: 'v1', price: 10, available: true }]),
+    ];
+    const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), new Map());
+
+    // Gap-resumption behavior (issue #87/#111) is untouched: two separate
+    // runs, each with its own point, regardless of the price matching.
+    expect(line.runs).toHaveLength(2);
+    expect(line.runs[0].map((p) => p.price)).toEqual([10]);
+    expect(line.runs[1].map((p) => p.price)).toEqual([10]);
   });
 });
