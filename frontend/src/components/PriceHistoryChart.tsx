@@ -226,12 +226,21 @@ export interface VariantLine {
  * be most recent. A variant whose last known state is already a gap gets a
  * trailing `outOfStockSegments` entry instead (issue #103), extending to
  * `lastCheckedAt` rather than to a real next point.
+ *
+ * Issue #126: that same `lastCheckedAt` extension also checks the optional
+ * `availableByListing` flag (the Listing's up-to-date availability straight
+ * from index.json) and treats "currently unavailable" there exactly like
+ * `sawGapEvidence`, even when nothing in `events` itself yet shows a gap —
+ * the one case this matters is a Listing with too few/no later Change
+ * Events to carry that evidence on its own (e.g. exactly one real event),
+ * which the chart now renders instead of falling back to text.
  */
 
 export function computeVariantLines(
   events: HistoryEvent[],
   storeMeta: Map<string, StoreMeta>,
   lastCheckedAtByListing: Map<string, string>,
+  availableByListing?: Map<string, boolean>,
 ): VariantLine[] {
   const sorted = [...events]
     .filter((e) => storeMeta.has(e.storeSlug))
@@ -389,6 +398,14 @@ export function computeVariantLines(
     // since every variant on one Listing shares the same lastCheckedAt.
     const lastCheckedAt = lastCheckedAtByListing.get(listingId);
     const lastCheckedTimestamp = lastCheckedAt ? new Date(lastCheckedAt).getTime() : undefined;
+    // Issue #126: a Listing can be confirmed currently unavailable (per the
+    // up-to-date `availableByListing` flag, straight from index.json) even
+    // when its own events carry no gap evidence yet -- e.g. exactly one
+    // real Change Event, with nothing in `events` itself showing it ever
+    // went out of stock since. Treated identically to `sawGapEvidence`
+    // below so that case draws the honest gray "not currently real"
+    // segment instead of a colored line claiming "still in stock."
+    const currentlyUnavailable = availableByListing?.get(listingId) === false;
     if (lastCheckedTimestamp != null) {
       for (const acc of accums.values()) {
         if (acc.runs.length === 0) continue;
@@ -401,7 +418,7 @@ export function computeVariantLines(
           observedAt: lastCheckedAt!,
           price: lastPoint.price,
         };
-        if (acc.sawGapEvidence) {
+        if (acc.sawGapEvidence || currentlyUnavailable) {
           acc.outOfStockSegments.push([lastPoint, endPoint]);
         } else {
           lastRun.push(endPoint);
@@ -950,55 +967,15 @@ export interface ChartListing {
   /**
    * This Listing's current availability straight from index.json (issue
    * #88) — distinct from any one `HistoryEvent.available`, which only ever
-   * speaks to that one past instant. Used by the single-observation message
-   * so it never claims "still in stock" once the Listing has gone out of
-   * stock since its one recorded Change Event.
+   * speaks to that one past instant. Issue #126: fed into
+   * `computeVariantLines`'s `lastCheckedAt` extension so a Listing that has
+   * since gone out of stock (per this up-to-date flag) draws its trailing
+   * extension as a gray out-of-stock segment rather than a colored line
+   * claiming "still in stock" — needed for exactly the case a Listing's own
+   * Change Events don't yet carry that evidence (e.g. a single-event
+   * Listing whose only re-scrape signal is this flag, not a second event).
    */
   available: boolean;
-}
-
-/**
- * Builds the message shown when a Canonical Fish's shared history file has
- * exactly one `HistoryEvent` across every Listing (issue #88). Because an
- * unchanged Listing produces no new Change Event (only its `lastCheckedAt`
- * pointer advances — see `computeVariantLines`'s doc and
- * `docs/adr/0005-heartbeat-events-replaced-by-lastcheckedat.md`), a Listing
- * can have been re-scraped many times since this one event with nothing to
- * show for it; naively reporting only the event's own `observedAt`/
- * `available` then reads as "we haven't checked since" even when the
- * opposite is true.
- *
- * `listing` is the matching `ChartListing` for this event's `listingId` (its
- * `lastCheckedAt`/`available` carry the up-to-date picture); when it's
- * missing, or its `lastCheckedAt` is no later than the event's own
- * `observedAt` (the common case: a genuinely brand-new fish, scraped once),
- * the message is exactly the original issue #59/#75 wording, unchanged.
- */
-export function buildSingleObservationMessage(
-  event: HistoryEvent,
-  listing: ChartListing | undefined,
-  currency: string,
-): string {
-  const eventTime = new Date(event.observedAt).getTime();
-  const lastCheckedAt = listing?.lastCheckedAt;
-  const lastCheckedTime = lastCheckedAt ? new Date(lastCheckedAt).getTime() : eventTime;
-  const dateText = formatDateTime(event.observedAt);
-  const priceText = formatPrice(event.price, currency);
-
-  if (!(lastCheckedTime > eventTime)) {
-    return `Only one observation recorded so far (${dateText}): ${priceText}, ${
-      event.available ? 'in stock' : 'out of stock'
-    }. Check back after more scrape runs for a trend.`;
-  }
-
-  const lastCheckedText = formatDateTime(lastCheckedAt!);
-  const currentlyAvailable = listing?.available ?? event.available;
-
-  if (currentlyAvailable) {
-    return `Only one price change recorded so far (${dateText}): ${priceText}. Still confirmed in stock as of the latest scrape on ${lastCheckedText}. Check back after a price change for a trend.`;
-  }
-
-  return `Only one price change recorded so far (${dateText}): ${priceText}. It's since gone out of stock (last checked ${lastCheckedText}). Check back after more scrape runs for a trend.`;
 }
 
 /**
@@ -1029,9 +1006,13 @@ function StoreLinesChart({ events, listings }: { events: HistoryEvent[]; listing
     () => new Map(listings.map((l) => [l.listingId, l.lastCheckedAt])),
     [listings],
   );
+  const availableByListing = useMemo(
+    () => new Map(listings.map((l) => [l.listingId, l.available])),
+    [listings],
+  );
   const lines = useMemo(
-    () => computeVariantLines(events, storeMeta, lastCheckedAtByListing),
-    [events, storeMeta, lastCheckedAtByListing],
+    () => computeVariantLines(events, storeMeta, lastCheckedAtByListing, availableByListing),
+    [events, storeMeta, lastCheckedAtByListing, availableByListing],
   );
   const currencies = new Set(listings.map((l) => l.currency));
   // The Y axis is one shared scale across every line; when Stores price in
@@ -1109,20 +1090,8 @@ export function PriceHistoryChart({
   events: HistoryEvent[];
   listings: ChartListing[];
 }) {
-  const currency = listings[0]?.currency ?? 'USD';
-
   if (events.length === 0) {
     return <p className="text-sm text-muted-foreground">No history recorded yet.</p>;
-  }
-
-  if (events.length === 1) {
-    const only = events[0];
-    const listing = listings.find((l) => l.listingId === only.listingId);
-    return (
-      <p className="text-sm text-muted-foreground">
-        {buildSingleObservationMessage(only, listing, currency)}
-      </p>
-    );
   }
 
   return <StoreLinesChart events={events} listings={listings} />;

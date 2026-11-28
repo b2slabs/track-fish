@@ -1,8 +1,10 @@
 import { describe, expect, it } from 'vitest';
+import React from 'react';
+import { renderToStaticMarkup } from 'react-dom/server';
 import {
-  buildSingleObservationMessage,
   computeVariantLines,
   pointXY,
+  PriceHistoryChart,
   type ChartListing,
   type Domain,
   type PlotRect,
@@ -61,42 +63,47 @@ function makeListing(overrides: Partial<ChartListing> = {}): ChartListing {
   };
 }
 
-describe('buildSingleObservationMessage', () => {
-  it('is unchanged for a genuinely brand-new fish (one observation, observed today, lastCheckedAt same instant)', () => {
+/**
+ * Seam under test: `PriceHistoryChart` itself, rendered with
+ * `react-dom/server`'s `renderToStaticMarkup` — no extra test-rendering
+ * dependency needed (`react-dom` is already a runtime dependency here), and
+ * sufficient to assert the top-level text-vs-chart branching this issue is
+ * about. Interactive behavior (hover, DOM measurement via `usePlotRect`)
+ * isn't exercised this way since those run in `useEffect`, which
+ * `renderToStaticMarkup` never invokes -- that's fine, this seam only needs
+ * to confirm *which* branch rendered, not pixel-level chart behavior
+ * (`computeVariantLines`'s own tests already cover that).
+ */
+describe('PriceHistoryChart — chart-vs-text branching (issue #126)', () => {
+  it('still shows "No history recorded yet." for a fish with zero Change Events', () => {
+    const html = renderToStaticMarkup(React.createElement(PriceHistoryChart, { events: [], listings: [] }));
+    expect(html).toContain('No history recorded yet.');
+  });
+
+  it('renders the chart, not a text summary, for a fish with exactly one Change Event (issue #126)', () => {
     const event = makeEvent();
     const listing = makeListing();
-    const message = buildSingleObservationMessage(event, listing, 'USD');
-    expect(message).toBe(
-      'Only one observation recorded so far (Nov 22, 2026, 10:00 AM): $12.99, in stock. Check back after more scrape runs for a trend.',
+    const html = renderToStaticMarkup(
+      React.createElement(PriceHistoryChart, { events: [event], listings: [listing] }),
     );
+    expect(html).not.toContain('Only one');
+    expect(html).not.toContain('No history recorded yet.');
+    // `StepLineChart`'s own hover container -- a stable marker that the
+    // chart branch (not the text branch) rendered.
+    expect(html).toContain('relative h-72 w-full');
   });
 
-  it('reflects a later confirmed-observed date when the Listing has since been re-scraped and is still in stock (issue #88)', () => {
-    const event = makeEvent({ observedAt: '2026-11-22T10:00:00.000Z', available: true });
-    const listing = makeListing({ lastCheckedAt: '2026-11-24T15:00:00.000Z', available: true });
-    const message = buildSingleObservationMessage(event, listing, 'USD');
-    expect(message).toBe(
-      "Only one price change recorded so far (Nov 22, 2026, 10:00 AM): $12.99. Still confirmed in stock as of the latest scrape on Nov 24, 2026, 3:00 PM. Check back after a price change for a trend.",
+  it('still renders the chart for a fish with 2+ Change Events (existing behavior, unaffected)', () => {
+    const events = [
+      makeEvent({ observedAt: '2026-11-20T10:00:00.000Z', price: 12.99 }),
+      makeEvent({ observedAt: '2026-11-22T10:00:00.000Z', price: 13.99 }),
+    ];
+    const listing = makeListing({ lastCheckedAt: '2026-11-22T10:00:00.000Z' });
+    const html = renderToStaticMarkup(
+      React.createElement(PriceHistoryChart, { events, listings: [listing] }),
     );
-  });
-
-  it('does not claim still in stock if the fish has since gone out of stock (issue #88)', () => {
-    const event = makeEvent({ observedAt: '2026-11-22T10:00:00.000Z', available: true });
-    const listing = makeListing({ lastCheckedAt: '2026-11-24T15:00:00.000Z', available: false });
-    const message = buildSingleObservationMessage(event, listing, 'USD');
-    expect(message).not.toContain('in stock.');
-    expect(message).not.toContain('Still confirmed in stock');
-    expect(message).toBe(
-      "Only one price change recorded so far (Nov 22, 2026, 10:00 AM): $12.99. It's since gone out of stock (last checked Nov 24, 2026, 3:00 PM). Check back after more scrape runs for a trend.",
-    );
-  });
-
-  it('falls back to the original wording when no matching listing is found', () => {
-    const event = makeEvent();
-    const message = buildSingleObservationMessage(event, undefined, 'USD');
-    expect(message).toBe(
-      'Only one observation recorded so far (Nov 22, 2026, 10:00 AM): $12.99, in stock. Check back after more scrape runs for a trend.',
-    );
+    expect(html).not.toContain('No history recorded yet.');
+    expect(html).toContain('relative h-72 w-full');
   });
 });
 
@@ -306,6 +313,43 @@ describe('computeVariantLines — trailing outOfStockSegments (issue #103)', () 
     const lastChecked = new Map([['listing-1', '2026-11-20T00:00:00Z']]);
     const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked);
 
+    expect(line.outOfStockSegments).toHaveLength(0);
+  });
+});
+
+describe('computeVariantLines — lastCheckedAt extension respects current availability (issue #126)', () => {
+  it('extends with a gray outOfStockSegment, not a colored continuation, when the Listing is now unavailable with no event-level gap evidence yet', () => {
+    const events = [variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 10, available: true }])];
+    const lastChecked = new Map([['listing-1', '2026-11-26T00:00:00Z']]);
+    const availableByListing = new Map([['listing-1', false]]);
+    const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked, availableByListing);
+
+    // The real point stays alone in its own run -- nothing colored added.
+    expect(line.runs).toHaveLength(1);
+    expect(line.runs[0]).toHaveLength(1);
+    expect(line.outOfStockSegments).toHaveLength(1);
+    const [start, end] = line.outOfStockSegments[0];
+    expect(start.key).toBe(line.runs[0][0].key);
+    expect(end.timestamp).toBe(new Date('2026-11-26T00:00:00Z').getTime());
+    expect(end.price).toBe(10);
+  });
+
+  it('keeps the ordinary colored flat continuation when the Listing is still available (default, backward compatible)', () => {
+    const events = [variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 10, available: true }])];
+    const lastChecked = new Map([['listing-1', '2026-11-26T00:00:00Z']]);
+    const availableByListing = new Map([['listing-1', true]]);
+    const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked, availableByListing);
+
+    expect(line.runs[0]).toHaveLength(2);
+    expect(line.outOfStockSegments).toHaveLength(0);
+  });
+
+  it('keeps the ordinary colored flat continuation when no availableByListing map is passed at all (existing callers unaffected)', () => {
+    const events = [variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 10, available: true }])];
+    const lastChecked = new Map([['listing-1', '2026-11-26T00:00:00Z']]);
+    const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked);
+
+    expect(line.runs[0]).toHaveLength(2);
     expect(line.outOfStockSegments).toHaveLength(0);
   });
 });
