@@ -227,8 +227,8 @@ export interface VariantLine {
  * trailing `outOfStockSegments` entry instead (issue #103), extending to
  * `lastCheckedAt` rather than to a real next point.
  *
- * Issue #126: that same `lastCheckedAt` extension also checks the optional
- * `availableByListing` flag (the Listing's up-to-date availability straight
+ * Issue #126: that same `lastCheckedAt` extension also checks the Listing's
+ * `available` flag (its up-to-date availability straight
  * from index.json) and treats "currently unavailable" there exactly like
  * `sawGapEvidence`, even when nothing in `events` itself yet shows a gap —
  * the one case this matters is a Listing with too few/no later Change
@@ -239,8 +239,7 @@ export interface VariantLine {
 export function computeVariantLines(
   events: HistoryEvent[],
   storeMeta: Map<string, StoreMeta>,
-  lastCheckedAtByListing: Map<string, string>,
-  availableByListing?: Map<string, boolean>,
+  listingsById: Map<string, ChartListing>,
 ): VariantLine[] {
   const sorted = [...events]
     .filter((e) => storeMeta.has(e.storeSlug))
@@ -396,16 +395,16 @@ export function computeVariantLines(
     // already distinguishes "still tracked" from "delisted" here with no
     // separate staleness check). Done once per Listing (not per variant)
     // since every variant on one Listing shares the same lastCheckedAt.
-    const lastCheckedAt = lastCheckedAtByListing.get(listingId);
+    const lastCheckedAt = listingsById.get(listingId)?.lastCheckedAt;
     const lastCheckedTimestamp = lastCheckedAt ? new Date(lastCheckedAt).getTime() : undefined;
     // Issue #126: a Listing can be confirmed currently unavailable (per the
-    // up-to-date `availableByListing` flag, straight from index.json) even
+    // up-to-date `available` flag, straight from index.json) even
     // when its own events carry no gap evidence yet -- e.g. exactly one
     // real Change Event, with nothing in `events` itself showing it ever
     // went out of stock since. Treated identically to `sawGapEvidence`
     // below so that case draws the honest gray "not currently real"
     // segment instead of a colored line claiming "still in stock."
-    const currentlyUnavailable = availableByListing?.get(listingId) === false;
+    const currentlyUnavailable = listingsById.get(listingId)?.available === false;
     if (lastCheckedTimestamp != null) {
       for (const acc of accums.values()) {
         if (acc.runs.length === 0) continue;
@@ -1002,17 +1001,13 @@ function StoreLinesChart({ events, listings }: { events: HistoryEvent[]; listing
     }
     return meta;
   }, [listings]);
-  const lastCheckedAtByListing = useMemo(
-    () => new Map(listings.map((l) => [l.listingId, l.lastCheckedAt])),
-    [listings],
-  );
-  const availableByListing = useMemo(
-    () => new Map(listings.map((l) => [l.listingId, l.available])),
+  const listingsById = useMemo(
+    () => new Map(listings.map((l) => [l.listingId, l])),
     [listings],
   );
   const lines = useMemo(
-    () => computeVariantLines(events, storeMeta, lastCheckedAtByListing, availableByListing),
-    [events, storeMeta, lastCheckedAtByListing, availableByListing],
+    () => computeVariantLines(events, storeMeta, listingsById),
+    [events, storeMeta, listingsById],
   );
   const currencies = new Set(listings.map((l) => l.currency));
   // The Y axis is one shared scale across every line; when Stores price in

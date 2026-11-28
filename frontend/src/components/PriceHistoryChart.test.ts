@@ -63,6 +63,15 @@ function makeListing(overrides: Partial<ChartListing> = {}): ChartListing {
   };
 }
 
+// `computeVariantLines` keys its single `listingsById` lookup by
+// `listingId` (issue #126 review follow-up: replaced two parallel
+// lastCheckedAt/available maps with one, since both fields already live
+// together on `ChartListing`) -- this builds that map from a handful of
+// test listings.
+function listingsById(...listings: ChartListing[]): Map<string, ChartListing> {
+  return new Map(listings.map((l) => [l.listingId, l]));
+}
+
 /**
  * Seam under test: `PriceHistoryChart` itself, rendered with
  * `react-dom/server`'s `renderToStaticMarkup` — no extra test-rendering
@@ -257,7 +266,7 @@ describe('computeVariantLines — trailing outOfStockSegments (issue #103)', () 
       // Confirmed out of stock as of the latest scrape.
       variantEvent('2026-11-24T00:00:00Z', [{ id: 'v1', price: 10, available: false }]),
     ];
-    const lastChecked = new Map([['listing-1', '2026-11-26T00:00:00Z']]);
+    const lastChecked = listingsById(makeListing({ listingId: 'listing-1', lastCheckedAt: '2026-11-26T00:00:00Z' }));
     const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked);
 
     expect(line.runs).toHaveLength(1);
@@ -286,7 +295,7 @@ describe('computeVariantLines — trailing outOfStockSegments (issue #103)', () 
     ];
     // Per src/process.ts, a delisted Listing's lastCheckedAt freezes at its
     // last real observation -- it never advances past 2026-11-20 here.
-    const lastChecked = new Map([['listing-1', '2026-11-20T00:00:00Z']]);
+    const lastChecked = listingsById(makeListing({ listingId: 'listing-1', lastCheckedAt: '2026-11-20T00:00:00Z' }));
     const [v1Line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked).filter((l) =>
       l.key.endsWith('::v1'),
     );
@@ -296,7 +305,7 @@ describe('computeVariantLines — trailing outOfStockSegments (issue #103)', () 
 
   it('does not add a trailing segment for a variant currently in stock (existing issue #81 extension applies instead)', () => {
     const events = [variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 10, available: true }])];
-    const lastChecked = new Map([['listing-1', '2026-11-26T00:00:00Z']]);
+    const lastChecked = listingsById(makeListing({ listingId: 'listing-1', lastCheckedAt: '2026-11-26T00:00:00Z' }));
     const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked);
 
     expect(line.outOfStockSegments).toHaveLength(0);
@@ -310,7 +319,7 @@ describe('computeVariantLines — trailing outOfStockSegments (issue #103)', () 
       variantEvent('2026-11-24T00:00:00Z', [{ id: 'v1', price: 10, available: false }]),
     ];
     // Same instant as the last real (in-stock) observation -- nothing to extend.
-    const lastChecked = new Map([['listing-1', '2026-11-20T00:00:00Z']]);
+    const lastChecked = listingsById(makeListing({ listingId: 'listing-1', lastCheckedAt: '2026-11-20T00:00:00Z' }));
     const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked);
 
     expect(line.outOfStockSegments).toHaveLength(0);
@@ -320,9 +329,10 @@ describe('computeVariantLines — trailing outOfStockSegments (issue #103)', () 
 describe('computeVariantLines — lastCheckedAt extension respects current availability (issue #126)', () => {
   it('extends with a gray outOfStockSegment, not a colored continuation, when the Listing is now unavailable with no event-level gap evidence yet', () => {
     const events = [variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 10, available: true }])];
-    const lastChecked = new Map([['listing-1', '2026-11-26T00:00:00Z']]);
-    const availableByListing = new Map([['listing-1', false]]);
-    const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked, availableByListing);
+    const listings = listingsById(
+      makeListing({ listingId: 'listing-1', lastCheckedAt: '2026-11-26T00:00:00Z', available: false }),
+    );
+    const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), listings);
 
     // The real point stays alone in its own run -- nothing colored added.
     expect(line.runs).toHaveLength(1);
@@ -336,20 +346,21 @@ describe('computeVariantLines — lastCheckedAt extension respects current avail
 
   it('keeps the ordinary colored flat continuation when the Listing is still available (default, backward compatible)', () => {
     const events = [variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 10, available: true }])];
-    const lastChecked = new Map([['listing-1', '2026-11-26T00:00:00Z']]);
-    const availableByListing = new Map([['listing-1', true]]);
-    const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked, availableByListing);
+    const listings = listingsById(
+      makeListing({ listingId: 'listing-1', lastCheckedAt: '2026-11-26T00:00:00Z', available: true }),
+    );
+    const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), listings);
 
     expect(line.runs[0]).toHaveLength(2);
     expect(line.outOfStockSegments).toHaveLength(0);
   });
 
-  it('keeps the ordinary colored flat continuation when no availableByListing map is passed at all (existing callers unaffected)', () => {
+  it('adds no extension at all when the Listing is missing from the map entirely (no lastCheckedAt to extend to)', () => {
     const events = [variantEvent('2026-11-20T00:00:00Z', [{ id: 'v1', price: 10, available: true }])];
-    const lastChecked = new Map([['listing-1', '2026-11-26T00:00:00Z']]);
-    const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked);
+    const lines = computeVariantLines(events, storeMeta('ck-fish-world'), new Map());
+    const [line] = lines;
 
-    expect(line.runs[0]).toHaveLength(2);
+    expect(line.runs[0]).toHaveLength(1); // nothing to extend to
     expect(line.outOfStockSegments).toHaveLength(0);
   });
 });
@@ -364,7 +375,7 @@ describe('computeVariantLines — confirmedSameUntil (issue #113)', () => {
         confirmedSameUntil: '2026-11-26T00:00:00Z',
       }),
     ];
-    const lastChecked = new Map([['listing-1', '2026-11-27T00:00:00Z']]);
+    const lastChecked = listingsById(makeListing({ listingId: 'listing-1', lastCheckedAt: '2026-11-27T00:00:00Z' }));
     const [line] = computeVariantLines(events, storeMeta('ck-fish-world'), lastChecked);
 
     expect(line.runs).toHaveLength(1);
